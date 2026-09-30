@@ -1,0 +1,2698 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "site_name": "Downtown Ledger",
+    "tagline": "What downtown Providence has, what it does not, and how long the missing take to grow.",
+    "observer": "Liam",
+    "disclosure": "Every row in the ledger is on it because a peer downtown has the thing or the city itself has proposed it, never because the author thinks a downtown ought to. Every judgment about a walk is one person's estimate of what a typical pedestrian would do, recorded the same way each time, with a reason on every no.",
+    "copy_note": "Name settled Sept 3 2026: Downtown Ledger (downtownledger.com). tagline, disclosure, the about page and all interface wording are Claude's, written from Liam's settled positions of Sept 1-2 2026; every reason and membership call is Liam's own wording. Provisional points were placed by Claude and are unverified.",
+    "peers": {
+      "providence": {
+        "name": "Providence",
+        "boundary": "Downtown Providence Improvement District / DownCity working boundary for the peer comparison; the ledger's own membership calls apply on top of it and are declared per place.",
+        "sources": [
+          "B1",
+          "B1b"
+        ]
+      },
+      "worcester": {
+        "name": "Worcester",
+        "boundary": "Downtown Worcester Business Improvement District (approved Nov 2018): about 78 acres, bounded by Main Street, Myrtle Street, Francis J. McGrath Boulevard and Foster Street.",
+        "sources": [
+          "B2",
+          "B2b"
+        ]
+      },
+      "new-haven": {
+        "name": "New Haven",
+        "boundary": "Town Green Special Services District: about 27 square blocks of the central business district around the New Haven Green.",
+        "sources": [
+          "B3",
+          "B3b"
+        ]
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": "westminster",
+      "name": "Westminster Street",
+      "map_label": "Westminster St",
+      "lat": 41.8222,
+      "lon": -71.4136,
+      "coords_verified": false,
+      "type": "corridor",
+      "mode": "pedestrian",
+      "membership": "inside",
+      "membership_reason": "Not arguable.",
+      "called_on": "2026-09-01",
+      "point_note": "Point at Westminster and Mathewson, checked against a map Sept 3."
+    },
+    {
+      "id": "providence-place",
+      "name": "Providence Place mall",
+      "map_label": "Providence Place",
+      "lat": 41.8292,
+      "lon": -71.4168,
+      "coords_verified": false,
+      "type": "mall",
+      "mode": "pedestrian",
+      "membership": "inside",
+      "membership_reason": "An open case, called in.",
+      "called_on": "2026-09-01",
+      "point_note": "Point checked against a map Sept 3."
+    },
+    {
+      "id": "state-house",
+      "name": "State House",
+      "map_label": "State House",
+      "lat": 41.8308,
+      "lon": -71.4153,
+      "coords_verified": false,
+      "type": "civic",
+      "mode": "pedestrian",
+      "membership": "inside",
+      "membership_reason": "An open case, called in.",
+      "called_on": "2026-09-01",
+      "point_note": "Point checked against a map Sept 3."
+    },
+    {
+      "id": "providence-station",
+      "name": "Providence Station",
+      "map_label": "Station",
+      "lat": 41.8293,
+      "lon": -71.4135,
+      "coords_verified": false,
+      "type": "transit",
+      "mode": "pedestrian",
+      "membership": "inside",
+      "membership_reason": "An open case, called in.",
+      "called_on": "2026-09-01",
+      "point_note": "Point checked against a map Sept 3."
+    },
+    {
+      "id": "canal",
+      "name": "Waterplace Park and the canal",
+      "map_label": "Waterplace Park",
+      "lat": 41.8274,
+      "lon": -71.4139,
+      "coords_verified": false,
+      "type": "park",
+      "mode": "pedestrian",
+      "membership": "inside",
+      "membership_reason": "An open case, called in.",
+      "called_on": "2026-09-01",
+      "point_note": "Point at Waterplace Park, checked against a map Sept 3."
+    },
+    {
+      "id": "benefit-street",
+      "name": "Benefit Street",
+      "map_label": "Benefit St",
+      "lat": 41.8273,
+      "lon": -71.4075,
+      "coords_verified": false,
+      "type": "corridor",
+      "mode": "pedestrian",
+      "membership": "outside",
+      "membership_reason": "Not arguable.",
+      "called_on": "2026-09-01",
+      "point_note": "Point at Benefit and Waterman, checked against a map Sept 3."
+    },
+    {
+      "id": "federal-hill",
+      "name": "Federal Hill",
+      "map_label": "Federal Hill",
+      "lat": 41.824,
+      "lon": -71.4269,
+      "coords_verified": false,
+      "type": "neighborhood",
+      "mode": "pedestrian",
+      "membership": "adjacent",
+      "membership_reason": "Not downtown; adjacent to it.",
+      "called_on": "2026-09-02",
+      "point_note": "Point at DePasquale Square, where the walk ends, checked against a map Sept 3."
+    },
+    {
+      "id": "allens-avenue",
+      "name": "Allens Avenue",
+      "map_label": "Allens Ave",
+      "lat": 41.8125,
+      "lon": -71.405,
+      "coords_verified": false,
+      "type": "corridor",
+      "mode": "vehicle",
+      "membership": null,
+      "membership_reason": "A destination for a driver and nothing on foot.",
+      "called_on": null,
+      "point_note": "Provisional point. Membership not yet called."
+    },
+    {
+      "id": "hotel-row",
+      "name": "Hotel row by the convention center",
+      "map_label": "Hotel row",
+      "lat": 41.8253,
+      "lon": -71.4158,
+      "coords_verified": false,
+      "type": "origin",
+      "mode": "pedestrian",
+      "membership": null,
+      "membership_reason": null,
+      "called_on": null,
+      "point_note": "One of the five sightline origins. Point at the Omni, checked against a map Sept 3; membership not yet called."
+    },
+    {
+      "id": "point-street",
+      "name": "Point Street, facing Allens",
+      "map_label": "Point St",
+      "lat": 41.8172,
+      "lon": -71.4065,
+      "coords_verified": false,
+      "type": "origin",
+      "mode": "pedestrian",
+      "membership": null,
+      "membership_reason": null,
+      "called_on": null,
+      "point_note": "One of the five sightline origins. Provisional point; membership not yet called."
+    },
+    {
+      "id": "mall-thruway",
+      "name": "Mall thruway mouth, west side",
+      "map_label": "Mall thruway",
+      "lat": 41.8285,
+      "lon": -71.4185,
+      "coords_verified": false,
+      "type": "origin",
+      "mode": "pedestrian",
+      "membership": null,
+      "membership_reason": null,
+      "called_on": null,
+      "point_note": "One of the five sightline origins. Provisional point; membership not yet called."
+    },
+    {
+      "id": "olneyville",
+      "name": "Olneyville Square",
+      "map_label": "Olneyville Sq",
+      "lat": 41.8168,
+      "lon": -71.4435,
+      "coords_verified": false,
+      "type": "neighborhood",
+      "mode": "pedestrian",
+      "membership": null,
+      "membership_reason": null,
+      "called_on": null,
+      "point_note": "Point at Plainfield and Westminster, checked against a map Sept 3; membership not yet called."
+    },
+    {
+      "id": "aloft-dorrance",
+      "name": "Aloft, Dorrance and Clifford",
+      "map_label": "Aloft",
+      "lat": 41.8206,
+      "lon": -71.4073,
+      "coords_verified": true,
+      "type": "street",
+      "mode": "pedestrian",
+      "membership": "inside",
+      "membership_reason": "inside the Downtown BID boundary",
+      "called_on": "2026-09-04",
+      "point_note": "GPS fix from the Sept 4 walk, south end of the Dorrance segment"
+    },
+    {
+      "id": "city-hall-dorrance",
+      "name": "City Hall, Dorrance and Washington",
+      "map_label": "City Hall",
+      "lat": 41.8239,
+      "lon": -71.4118,
+      "coords_verified": true,
+      "type": "street",
+      "mode": "pedestrian",
+      "membership": "inside",
+      "membership_reason": "inside the Downtown BID boundary",
+      "called_on": "2026-09-04",
+      "point_note": "GPS fix from the Sept 4 walk at 12 Dorrance, north end of the segment"
+    }
+  ],
+  "edges": [
+    {
+      "id": "westminster-to-providence-place",
+      "origin": "westminster",
+      "destination": "providence-place",
+      "walk": "yes",
+      "walk_arrival": null,
+      "walk_resident": null,
+      "reason": null,
+      "called_on": "2026-09-01",
+      "network_m": 1020,
+      "sightline": null,
+      "photos": [],
+      "notes": "Seed edge: half of the identifying pair. Known answer, used to test the instrument.",
+      "straight_m": 822
+    },
+    {
+      "id": "westminster-to-federal-hill",
+      "origin": "westminster",
+      "destination": "federal-hill",
+      "walk": "no",
+      "walk_arrival": "no",
+      "walk_resident": "maybe",
+      "reason": null,
+      "called_on": "2026-09-01",
+      "network_m": 1310,
+      "sightline": null,
+      "photos": [],
+      "notes": "Seed edge: other half of the identifying pair. Reason not yet recorded in Liam's words for this origin.",
+      "straight_m": 1120
+    },
+    {
+      "id": "hotel-row-to-federal-hill",
+      "origin": "hotel-row",
+      "destination": "federal-hill",
+      "walk": "no",
+      "walk_arrival": "no",
+      "walk_resident": "maybe",
+      "reason": "It's not far, but it's uphill and there's a highway.",
+      "called_on": "2026-09-02",
+      "network_m": 1190,
+      "sightline": {
+        "destination_visible": null,
+        "grade": "up",
+        "barrier_in_frame": "highway",
+        "first_thing_worth_walking_toward_m": null,
+        "photo": null
+      },
+      "photos": [],
+      "notes": null,
+      "straight_m": 931
+    },
+    {
+      "id": "point-street-to-allens-avenue",
+      "origin": "point-street",
+      "destination": "allens-avenue",
+      "walk": "no",
+      "walk_arrival": null,
+      "walk_resident": null,
+      "reason": "Gazing into nothing. Nothing in the way, and nothing at the end.",
+      "called_on": "2026-09-02",
+      "network_m": 590,
+      "sightline": {
+        "destination_visible": null,
+        "grade": "flat",
+        "barrier_in_frame": "none",
+        "first_thing_worth_walking_toward_m": null,
+        "photo": null
+      },
+      "photos": [],
+      "notes": null,
+      "straight_m": 537
+    },
+    {
+      "id": "mall-thruway-to-olneyville",
+      "origin": "mall-thruway",
+      "destination": "olneyville",
+      "walk": "no",
+      "walk_arrival": null,
+      "walk_resident": null,
+      "reason": null,
+      "called_on": "2026-09-02",
+      "network_m": 2930,
+      "sightline": null,
+      "photos": [],
+      "notes": "Reason pending in checkable form: what is on that thruway (length without doors, eyes on it, lighting), not the feeling.",
+      "straight_m": 2446
+    },
+    {
+      "id": "aloft-dorrance-to-city-hall-dorrance",
+      "origin": "aloft-dorrance",
+      "destination": "city-hall-dorrance",
+      "walk": "yes",
+      "walk_arrival": "yes",
+      "walk_resident": "yes",
+      "reason": null,
+      "called_on": "2026-09-04",
+      "network_m": 540,
+      "sightline": null,
+      "photos": [
+        {
+          "file": "IMG_0350.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0351.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0353.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0354.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0355.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0356.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0357.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0358.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0359.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0360.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0361.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0362.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0363.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0364.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0365.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0366.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0367.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0368.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0369.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0370.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0371.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0372.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0373.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0374.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0375.jpg",
+          "alt": "walk photo",
+          "caption": null
+        },
+        {
+          "file": "IMG_0376.jpg",
+          "alt": "walk photo",
+          "caption": null
+        }
+      ],
+      "notes": "Sept 4 2026 frontage walk, both faces of Dorrance from Aloft (Clifford/Dyer) to City Hall (Washington), plus the return leg and the lots south of Garrahy. Every ground-floor bay photographed in order. Findings: one confirmed storefront vacancy (12 Dorrance block, west side, between Metro by T-Mobile and BankNewport, papered, Prime Retail Space For Lease 401-585-8005, G logotype); a carrier cluster (two Total Wireless, Cricket, Metro by T-Mobile within ~200 ft); three bank halls with full ground floors and no other doors (Union Trust/Federal Reserve plaque, BayCoast at 74-78, TD at Westminster corner); four surface lots plus the Narragansett Hotel Garage valet mouth; Garrahy and JWU Yena Center as blank institutional frontage; Aloft corner with curtained glass and a sidewalk that ends at the porte-cochere; 75 Dorrance occupied by DHS Child Support and Village Green Virtual (active, non-retail, reads vacant from across the street). Aloft front elevation not shot.",
+      "straight_m": 523
+    }
+  ],
+  "segments": [],
+  "observations": [
+    {
+      "id": "IMG_0350",
+      "datetime": "2026-09-04T14:48:26-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0350.jpg"
+      ],
+      "gps": {
+        "lat": 41.820347,
+        "lon": -71.406806
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0351",
+      "datetime": "2026-09-04T14:54:27-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0351.jpg"
+      ],
+      "gps": {
+        "lat": 41.821122,
+        "lon": -71.408311
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0353",
+      "datetime": "2026-09-04T14:58:18-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0353.jpg"
+      ],
+      "gps": {
+        "lat": 41.822264,
+        "lon": -71.409944
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0354",
+      "datetime": "2026-09-04T14:59:57-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0354.jpg"
+      ],
+      "gps": {
+        "lat": 41.822503,
+        "lon": -71.410303
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0355",
+      "datetime": "2026-09-04T15:00:17-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0355.jpg"
+      ],
+      "gps": {
+        "lat": 41.8228,
+        "lon": -71.410453
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0356",
+      "datetime": "2026-09-04T15:00:47-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0356.jpg"
+      ],
+      "gps": {
+        "lat": 41.823069,
+        "lon": -71.410767
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0357",
+      "datetime": "2026-09-04T15:02:49-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0357.jpg"
+      ],
+      "gps": {
+        "lat": 41.823364,
+        "lon": -71.411042
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0358",
+      "datetime": "2026-09-04T15:03:22-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0358.jpg"
+      ],
+      "gps": {
+        "lat": 41.823567,
+        "lon": -71.411392
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0359",
+      "datetime": "2026-09-04T15:04:55-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0359.jpg"
+      ],
+      "gps": {
+        "lat": 41.823631,
+        "lon": -71.411353
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0360",
+      "datetime": "2026-09-04T15:05:46-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0360.jpg"
+      ],
+      "gps": {
+        "lat": 41.823761,
+        "lon": -71.411819
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0361",
+      "datetime": "2026-09-04T15:06:24-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0361.jpg"
+      ],
+      "gps": {
+        "lat": 41.824056,
+        "lon": -71.412003
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0362",
+      "datetime": "2026-09-04T15:08:15-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0362.jpg"
+      ],
+      "gps": {
+        "lat": 41.824056,
+        "lon": -71.41185
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0363",
+      "datetime": "2026-09-04T15:09:19-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0363.jpg"
+      ],
+      "gps": {
+        "lat": 41.823872,
+        "lon": -71.411758
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0364",
+      "datetime": "2026-09-04T15:10:23-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0364.jpg"
+      ],
+      "gps": {
+        "lat": 41.823969,
+        "lon": -71.411942
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0365",
+      "datetime": "2026-09-04T15:12:26-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0365.jpg"
+      ],
+      "gps": {
+        "lat": 41.823547,
+        "lon": -71.411444
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0366",
+      "datetime": "2026-09-04T15:12:52-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0366.jpg"
+      ],
+      "gps": {
+        "lat": 41.823292,
+        "lon": -71.411203
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0367",
+      "datetime": "2026-09-04T15:13:59-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0367.jpg"
+      ],
+      "gps": {
+        "lat": 41.823364,
+        "lon": -71.411011
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0368",
+      "datetime": "2026-09-04T15:14:06-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0368.jpg"
+      ],
+      "gps": {
+        "lat": 41.823439,
+        "lon": -71.411028
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0369",
+      "datetime": "2026-09-04T15:14:11-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0369.jpg"
+      ],
+      "gps": {
+        "lat": 41.823453,
+        "lon": -71.411056
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0370",
+      "datetime": "2026-09-04T15:15:28-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0370.jpg"
+      ],
+      "gps": {
+        "lat": 41.822931,
+        "lon": -71.410714
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0371",
+      "datetime": "2026-09-04T15:15:49-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0371.jpg"
+      ],
+      "gps": {
+        "lat": 41.822753,
+        "lon": -71.4105
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0372",
+      "datetime": "2026-09-04T15:16:48-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0372.jpg"
+      ],
+      "gps": {
+        "lat": 41.822297,
+        "lon": -71.409897
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0373",
+      "datetime": "2026-09-04T15:17:35-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0373.jpg"
+      ],
+      "gps": {
+        "lat": 41.8219,
+        "lon": -71.409164
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0374",
+      "datetime": "2026-09-04T15:18:17-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0374.jpg"
+      ],
+      "gps": {
+        "lat": 41.821647,
+        "lon": -71.409181
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0375",
+      "datetime": "2026-09-04T15:19:21-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0375.jpg"
+      ],
+      "gps": {
+        "lat": 41.821689,
+        "lon": -71.409225
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    },
+    {
+      "id": "IMG_0376",
+      "datetime": "2026-09-04T15:20:31-04:00",
+      "kind": "walk",
+      "photos": [
+        "IMG_0376.jpg"
+      ],
+      "gps": {
+        "lat": 41.821439,
+        "lon": -71.408744
+      },
+      "notes": null,
+      "edge": "aloft-dorrance-to-city-hall-dorrance"
+    }
+  ],
+  "sources": {
+    "B1": {
+      "title": "City of Providence, Downtown Zoning (D-1) map",
+      "url": "https://www.providenceri.gov/wp-content/uploads/2024/05/Downtown-Zoning.pdf",
+      "accessed": "2026-09-03"
+    },
+    "B1b": {
+      "title": "Downtown Providence Improvement District",
+      "url": "https://www.downtownprovidence.com/",
+      "accessed": "2026-09-03"
+    },
+    "B2": {
+      "title": "Downtown Worcester Business Improvement District, About",
+      "url": "https://downtownworcester.org/about",
+      "accessed": "2026-09-03"
+    },
+    "B2b": {
+      "title": "Worcester Regional Research Bureau, Worcester's Zones, Districts and Overlays",
+      "url": "https://www.wrrb.org/",
+      "accessed": "2026-09-03"
+    },
+    "B3": {
+      "title": "Town Green Special Services District, Where we are",
+      "url": "https://downtownnewhaven.com/where-we-are",
+      "accessed": "2026-09-03"
+    },
+    "B3b": {
+      "title": "City of New Haven, community partners",
+      "url": "https://www.newhavenct.gov/",
+      "accessed": "2026-09-03"
+    },
+    "S2": {
+      "title": "Boston Globe, Japanese grocery store to open in downtown Providence (Feb 20 2024)",
+      "url": "https://www.bostonglobe.com/2024/02/20/metro/maruichi-japanese-grocer-deli-downtown-providence-ri/",
+      "accessed": "2026-09-03"
+    },
+    "S2b": {
+      "title": "WJAR, Rory's Market and Kitchen opens downtown (2022)",
+      "url": "https://turnto10.com/news/local/rorys-market-and-kitchen-opens-downtown-providence-grocery-store-rhode-island-cape-cod-local-organic-food-produce-home-care",
+      "accessed": "2026-09-03"
+    },
+    "S3": {
+      "title": "GoLocalProv, downtown CVS at Kennedy Plaza to close",
+      "url": "https://www.golocalprov.com/business/new-downtown-cvs-to-close",
+      "accessed": "2026-09-03"
+    },
+    "S4": {
+      "title": "Providence Journal via AOL, Providence Place mall financial trouble (Showcase closed; Apple Cinemas)",
+      "url": "https://www.aol.com/providence-place-mall-financial-trouble-184315974.html",
+      "accessed": "2026-09-03"
+    },
+    "S5": {
+      "title": "Rhode Island Current, RIPTA board votes to move ahead on new Providence bus hub (Aug 20 2026)",
+      "url": "https://rhodeislandcurrent.com/2026/08/20/ripta-board-votes-to-move-ahead-on-new-providence-bus-hub/",
+      "accessed": "2026-09-03"
+    },
+    "S6": {
+      "title": "Hanover Theatre, directions (WRTA fare-free through June 30 2027)",
+      "url": "https://thehanovertheatre.org/plan-your-visit/directions/",
+      "accessed": "2026-09-03"
+    },
+    "S7": {
+      "title": "Wikipedia, New Haven Green",
+      "url": "https://en.wikipedia.org/wiki/New_Haven_Green",
+      "accessed": "2026-09-03"
+    },
+    "S7b": {
+      "title": "WPRI, Providence Place mall could get two more decades of tax breaks",
+      "url": "https://www.wpri.com/news/local-news/providence/providence-place-mall-could-get-two-more-decades-of-tax-breaks-from-city-leaders/",
+      "accessed": "2026-09-03"
+    },
+    "S7c": {
+      "title": "Providence Business News, Should Providence extend a tax treaty due to expire in 2028?",
+      "url": "https://pbn.com/should-providence-extend-a-tax-treaty-with-providence-place-owners-due-to-expire-in-2028/",
+      "accessed": "2026-09-03"
+    },
+    "S7d": {
+      "title": "Providence Journal via AOL, Paolino-backed group to buy Providence Place for $133M",
+      "url": "https://www.aol.com/news/providence-place-mall-may-soon-145040542.html",
+      "accessed": "2026-09-03"
+    },
+    "S7e": {
+      "title": "Rhode Island Current, Providence Place in line for a makeover under $133M sale (Apr 30 2026)",
+      "url": "https://rhodeislandcurrent.com/2026/04/30/providence-place-in-line-for-a-makeover-under-133m-sale-and-maybe-a-costco/",
+      "accessed": "2026-09-03"
+    },
+    "S7f": {
+      "title": "WPRI, New mall owner floats Costco as a potential anchor",
+      "url": "https://www.wpri.com/business-news/new-mall-owner-floats-costco-as-a-potential-new-anchor-tenant-of-providence-place/",
+      "accessed": "2026-09-03"
+    },
+    "S7g": {
+      "title": "WJAR, Paolino raises prospect of Costco at Providence Place (May 1 2026)",
+      "url": "https://turnto10.com/news/local/providence-place-mall-costco-wholesale-anchor-store-joe-paolino-properties-pyramid-management-group-rhode-island-may-1-2026",
+      "accessed": "2026-09-03"
+    },
+    "S7h": {
+      "title": "Brown Daily Herald, What's the latest in the I-195 Redevelopment District? (Nov 2023)",
+      "url": "https://www.browndailyherald.com/article/2023/11/whats-the-latest-in-the-i-195-redevelopment-district",
+      "accessed": "2026-09-03"
+    },
+    "S7i": {
+      "title": "I-195 Redevelopment District, Development Plan",
+      "url": "https://www.195district.com/for-developers/development-plan/",
+      "accessed": "2026-09-03"
+    },
+    "S7j": {
+      "title": "GoLocalProv, 195 Commission's last great parcel",
+      "url": "https://www.golocalprov.com/business/195-commissions-last-great-parcel-is-there-hope-architecture-critic-wi",
+      "accessed": "2026-09-03"
+    },
+    "S8": {
+      "title": "Patch, Mercantile Center theater up for lease as possible cinema",
+      "url": "https://patch.com/massachusetts/worcester/mercantile-center-theater-lease-possible-cinema-music-venue",
+      "accessed": "2026-09-03"
+    },
+    "S8b": {
+      "title": "Wikipedia, Federal Square (Worcester)",
+      "url": "https://en.wikipedia.org/wiki/Federal_Square_(Worcester,_Massachusetts)",
+      "accessed": "2026-09-03"
+    },
+    "S8c": {
+      "title": "The Hanover Theatre",
+      "url": "https://thehanovertheatre.org/",
+      "accessed": "2026-09-03"
+    },
+    "S8d": {
+      "title": "Wikipedia, DCU Center",
+      "url": "https://en.wikipedia.org/wiki/DCU_Center",
+      "accessed": "2026-09-03"
+    },
+    "S9": {
+      "title": "Worcester Business Journal, Three developments propose 416 apartments, grocery store for downtown Worcester",
+      "url": "https://wbjournal.com/article/three-developments-propose-416-apartments-grocery-store-for-downtown-worcester/",
+      "accessed": "2026-09-03"
+    },
+    "S10": {
+      "title": "Elm City Market (relocation to 275 South Orange St)",
+      "url": "https://www.elmcitymarket.com/",
+      "accessed": "2026-09-03"
+    },
+    "S12": {
+      "title": "RIDOT, Providence Station State of Good Repair Project",
+      "url": "https://www.dot.ri.gov/projects/PVDStation/index.php",
+      "accessed": "2026-09-03"
+    },
+    "S12b": {
+      "title": "Transit Advocates of Massachusetts, RIDOT and Amtrak commence Providence Station project",
+      "url": "https://tam-america.com/article/ridot-and-amtrak-commence-providence-station-state-of-good-repair-project",
+      "accessed": "2026-09-03"
+    },
+    "S14": {
+      "title": "Wikipedia, Jewelry District (Providence)",
+      "url": "https://en.wikipedia.org/wiki/Jewelry_District_(Providence)",
+      "accessed": "2026-09-03"
+    },
+    "S14b": {
+      "title": "Brown University, Warren Alpert Medical School maps",
+      "url": "https://medical.brown.edu/about/maps-and-directions",
+      "accessed": "2026-09-03"
+    },
+    "S14c": {
+      "title": "Providence Preservation Society, City Plan Commission approves Brown University Health IMP",
+      "url": "https://ppsri.org/city-plan-commission-approves-brown-university-health-imp/",
+      "accessed": "2026-09-03"
+    },
+    "S14d": {
+      "title": "Providence Preservation Society, What's going on with parking in the hospital district?",
+      "url": "https://ppsri.org/whats-going-on-with-parking-in-the-hospital-district/",
+      "accessed": "2026-09-03"
+    },
+    "S14e": {
+      "title": "Providence Preservation Society, Brown University Health planning for parking structure",
+      "url": "https://ppsri.org/wanskuck-historic-district-brown-u-health-planning-for-parking-structure-other-updates-from-the-city-plan-commission/",
+      "accessed": "2026-09-03"
+    },
+    "S15a": {
+      "title": "Wikipedia, Shubert Theatre (New Haven)",
+      "url": "https://en.wikipedia.org/wiki/Shubert_Theatre_(New_Haven)",
+      "accessed": "2026-09-03"
+    },
+    "S15b": {
+      "title": "College Street Music Hall, About",
+      "url": "https://collegestreetmusichall.com/about/",
+      "accessed": "2026-09-03"
+    },
+    "S16": {
+      "title": "Boston Globe, RIPTA board votes to begin design work on a new bus hub near Providence Station (Aug 21 2026)",
+      "url": "https://www.bostonglobe.com/2026/08/21/metro/ripta-vote-new-bus-hub-providence-train-station-ri/",
+      "accessed": "2026-09-03"
+    },
+    "S16b": {
+      "title": "UpriseRI, RIPTA advances Providence transit center design phase",
+      "url": "https://upriseri.com/article/ripta-advances-plan-to-move-hub-from-kennedy-plaza/",
+      "accessed": "2026-09-03"
+    },
+    "S17": {
+      "title": "Great American Stations, Providence RI (PVD)",
+      "url": "https://www.greatamericanstations.com/stations/providence-ri-pvd/",
+      "accessed": "2026-09-03"
+    },
+    "S18": {
+      "title": "Point2Homes, Downtown Providence demographics",
+      "url": "https://www.point2homes.com/US/Neighborhood/RI/Providence/Downtown-Providence-Demographics.html",
+      "accessed": "2026-09-03"
+    },
+    "S18b": {
+      "title": "Sweeney Advisory, Downtown Providence neighborhood guide",
+      "url": "https://sweeneyadvisory.com/neighborhoods/downtown-providence",
+      "accessed": "2026-09-03"
+    },
+    "S19": {
+      "title": "Point2Homes, Downtown New Haven demographics",
+      "url": "https://www.point2homes.com/US/Neighborhood/CT/New-Haven/Downtown-New-Haven-Demographics.html",
+      "accessed": "2026-09-03"
+    },
+    "S19b": {
+      "title": "City of New Haven, Planning and Infrastructure (housing pipeline)",
+      "url": "https://www.newhavenct.gov/government/departments-divisions/economic-development-administration/planning-infrastructure",
+      "accessed": "2026-09-03"
+    },
+    "S20": {
+      "title": "Providence Business News, CBRE: downtown Providence office vacancy at 15.85% in Q4 2021",
+      "url": "https://pbn.com/cbre-downtown-providence-office-vacancy-at-15-85-in-q4-highest-since-2016/",
+      "accessed": "2026-09-03"
+    },
+    "S21": {
+      "title": "CommercialCafe, New Haven office market trends",
+      "url": "https://www.commercialcafe.com/office-market-trends/us/ct/new-haven/",
+      "accessed": "2026-09-03"
+    },
+    "L1": {
+      "title": "Providence Public Library",
+      "url": "https://olis.ri.gov/directory/libraries/pro",
+      "accessed": "2026-09-03"
+    },
+    "L2": {
+      "title": "Worcester Public Library, locations",
+      "url": "https://mywpl.org/locations-hours",
+      "accessed": "2026-09-03"
+    },
+    "L3": {
+      "title": "New Haven Free Public Library, Ives Main",
+      "url": "https://nhfpl.org/branches/ives-main-library/",
+      "accessed": "2026-09-03"
+    },
+    "U1": {
+      "title": "Rhode Island College, South Street Landing and the RI Nursing Education Center",
+      "url": "https://our.ric.edu/news-events/news/ribbon-cutting-south-street-landing-and-rhode-island-nursing-education-center",
+      "accessed": "2026-09-03"
+    },
+    "F1": {
+      "title": "City of Worcester, Out to Lunch farmers market",
+      "url": "https://www.worcesterma.gov/worcester-common-oval/out-to-lunch",
+      "accessed": "2026-09-03"
+    },
+    "G1": {
+      "title": "YMCA of Central Massachusetts, Central Community Branch",
+      "url": "https://www.ymcaofcm.org/locations/central-community-branch/",
+      "accessed": "2026-09-03"
+    },
+    "K1": {
+      "title": "Symposium Books, Providence (Yelp listing)",
+      "url": "https://www.yelp.com/biz/symposium-books-providence",
+      "accessed": "2026-09-03"
+    },
+    "K2": {
+      "title": "Weird Providence",
+      "url": "https://weirdprovidence.com/",
+      "accessed": "2026-09-03"
+    },
+    "K3": {
+      "title": "Bedlam Book Cafe, Worcester",
+      "url": "https://www.newpages.com/bookstore/bedlam-book-cafe/",
+      "accessed": "2026-09-03"
+    },
+    "C1": {
+      "title": "Wikipedia, Providence County Courthouse",
+      "url": "https://en.wikipedia.org/wiki/Providence_County_Courthouse",
+      "accessed": "2026-09-03"
+    },
+    "C2": {
+      "title": "Wikipedia, Worcester City Hall and Common",
+      "url": "https://en.wikipedia.org/wiki/Worcester_City_Hall_and_Common",
+      "accessed": "2026-09-03"
+    },
+    "C3": {
+      "title": "Wikipedia, New Haven City Hall and County Courthouse",
+      "url": "https://en.wikipedia.org/wiki/New_Haven_City_Hall_and_County_Courthouse",
+      "accessed": "2026-09-03"
+    },
+    "S22": {
+      "title": "WJAR, Apple Cinemas opens in Providence Place mall (Nov 1 2025)",
+      "url": "https://turnto10.com/news/local/apple-cinemas-opens-in-providence-place-mall-showcase-additions-renovations-imax-bowling-trampoline-receiver-court-november-1-2025",
+      "accessed": "2026-09-03"
+    },
+    "S23": {
+      "title": "Brown Daily Herald, Apple Cinemas opens at Providence Place, replacing Showcase (Nov 7 2025)",
+      "url": "https://www.browndailyherald.com/article/2025/11/apple-cinemas-opens-at-providence-place-replacing-showcase-cinemas",
+      "accessed": "2026-09-03"
+    },
+    "S24": {
+      "title": "Rhode Island Current, A new day dawns for Providence Place as new owners close on $133M deal (Aug 20 2026)",
+      "url": "https://rhodeislandcurrent.com/2026/08/20/a-new-day-dawns-for-providence-place-as-new-owners-close-on-133m-deal/",
+      "accessed": "2026-09-03"
+    },
+    "S25": {
+      "title": "Boston Globe, Providence Place mall officially sold to Paolino Properties, Pyramid (Aug 20 2026)",
+      "url": "https://www.bostonglobe.com/2026/08/20/metro/providence-place-mall-paolino-properties-pyramid-owners/",
+      "accessed": "2026-09-03"
+    },
+    "S26": {
+      "title": "Providence Business News, Change at mall raises tax questions (Aug 2026)",
+      "url": "https://pbn.com/change-at-mall-raises-tax-questions/",
+      "accessed": "2026-09-03"
+    },
+    "S27": {
+      "title": "The Providence Eye, RIPTA picks train-station site for new bus hub (Aug 2026)",
+      "url": "https://pvdeye.org/riders-react-to-ripta-hub-move/",
+      "accessed": "2026-09-03"
+    },
+    "S28": {
+      "title": "RIPTA, Proposed Transit Center",
+      "url": "https://www.ripta.com/transitcenter",
+      "accessed": "2026-09-03"
+    },
+    "S29": {
+      "title": "RIPTA, Transit Center FAQ",
+      "url": "https://www.ripta.com/node/634",
+      "accessed": "2026-09-03"
+    },
+    "S30": {
+      "title": "Boston Globe, For new Providence transit hub, RIPTA eyes sites near train station (Mar 28 2025)",
+      "url": "https://www.bostonglobe.com/2025/03/28/metro/providence-new-transit-hub-ripta-bus-hub/",
+      "accessed": "2026-09-03"
+    },
+    "S31": {
+      "title": "Cushman & Wakefield / Hayes & Sherry, Providence Office MarketBeat Q2 2026 (PDF)",
+      "url": "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2026/q2/us-reports/office/providence_americas_alliance_office_marketbeat_q2_2026.pdf?rev=ffc65c5612814c11bbe77b984e12a59e",
+      "accessed": "2026-09-03"
+    },
+    "S32": {
+      "title": "Cushman & Wakefield, Providence MarketBeat reports page",
+      "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/providence-marketbeats",
+      "accessed": "2026-09-03"
+    },
+    "S33": {
+      "title": "GuideStar, Trinity Repertory Company, 201 Washington St",
+      "url": "https://www.guidestar.org/profile/22-2547262",
+      "accessed": "2026-09-03"
+    },
+    "S34": {
+      "title": "Wikipedia, Trinity Repertory Company",
+      "url": "https://en.wikipedia.org/wiki/Trinity_Repertory_Company",
+      "accessed": "2026-09-03"
+    },
+    "S35": {
+      "title": "Travel Agent Central, The Beatrice opens in downtown Providence (Oct 2021 listing; hotel press dates the grand opening Oct 12 2022)",
+      "url": "https://www.travelagentcentral.com/hotels/beatrice-opens-downtown-providence",
+      "accessed": "2026-09-03"
+    },
+    "S36": {
+      "title": "The Beatrice, press: grand opening announced October 12, 2022",
+      "url": "https://www.thebeatrice.com/press-blog/hotel-news-resource/",
+      "accessed": "2026-09-03"
+    },
+    "S37": {
+      "title": "The Beatrice, 90 Westminster St, 47 rooms",
+      "url": "https://www.thebeatrice.com/",
+      "accessed": "2026-09-03"
+    },
+    "S38": {
+      "title": "Wikipedia, Burnside Park (Providence), adjacent to Kennedy Plaza; restored 2015",
+      "url": "https://en.wikipedia.org/wiki/Burnside_Park_(Providence,_Rhode_Island)",
+      "accessed": "2026-09-03"
+    },
+    "S39": {
+      "title": "GoLocalProv, Waterplace Park maintenance by the City Parks Department and state agencies",
+      "url": "https://www.golocalprov.com/news/providences-award-winning-waterplace-park-covered-in-graffiti",
+      "accessed": "2026-09-03"
+    },
+    "R2": {
+      "title": "MMCG Invest, Great American Store Closure Tracker 2026 (secondary; cites C&W Q4 2025 shopping-center MarketBeat)",
+      "url": "https://www.mmcginvest.com/post/the-great-american-store-closure-tracker-2026-edition",
+      "accessed": "2026-09-03"
+    },
+    "R3": {
+      "title": "GoLocalProv, Retail vacancies are everywhere in downtown Providence (Mar 30 2021)",
+      "url": "https://www.golocalprov.com/business/retail-vacancies-are-everywhere-in-downtown-providence",
+      "accessed": "2026-09-03"
+    },
+    "R4": {
+      "title": "Kelleher & Sadowsky, From office floors to front doors (Mar 4 2026; marketing commentary)",
+      "url": "https://kelleher-sadowsky.com/from-office-floors-to-front-doors-worcesters-apartment-surge/",
+      "accessed": "2026-09-03"
+    },
+    "R5": {
+      "title": "Kelleher & Sadowsky, Infrastructure as an economic catalyst (Mar 9 2026; marketing commentary)",
+      "url": "https://kelleher-sadowsky.com/infrastructure-as-an-economic-catalyst-why-smart-money-is-looking-at-worcester/",
+      "accessed": "2026-09-03"
+    },
+    "R6": {
+      "title": "CBRE, New Haven County Office Figures H1 2025 (Jul 16 2025)",
+      "url": "https://www.cbre.com/insights/figures/new-haven-county-office-figures-h1-2025",
+      "accessed": "2026-09-03"
+    },
+    "R8": {
+      "title": "RI.gov, Providence Station project kickoff press release (Nov 4 2024)",
+      "url": "https://www.ri.gov/press/view/48356",
+      "accessed": "2026-09-03"
+    },
+    "R9": {
+      "title": "RIDOT on X, station renovations to be complete this year (Mar 3 2026)",
+      "url": "https://x.com/RIDOTNews/status/2028897992242024957",
+      "accessed": "2026-09-03"
+    },
+    "R11": {
+      "title": "Tripadvisor, hotels filtered to Downtown Providence (aggregator)",
+      "url": "https://www.tripadvisor.com/Hotels-g60946-zfn20483988-Providence_Rhode_Island-Hotels.html",
+      "accessed": "2026-09-03"
+    },
+    "R14": {
+      "title": "Tripadvisor, Neptune, an Ash Hotel (the former Dean, 122 Fountain St, 52 rooms)",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g60946-d6019753-Reviews-Neptune_An_Ash_Hotel-Providence_Rhode_Island.html",
+      "accessed": "2026-09-03"
+    },
+    "R18": {
+      "title": "Providence Performing Arts Center, directions (220 Weybosset St)",
+      "url": "https://www.ppacri.org/visit/directions",
+      "accessed": "2026-09-03"
+    },
+    "R19": {
+      "title": "Trinity Rep, arts partnerships (PPAC 220 Weybosset St; The VETS, One Avenue of the Arts)",
+      "url": "https://www.trinityrep.com/arts-partnerships/",
+      "accessed": "2026-09-03"
+    },
+    "R20": {
+      "title": "Wikipedia, Veterans Memorial Auditorium (Providence)",
+      "url": "https://en.wikipedia.org/wiki/Veterans_Memorial_Auditorium_(Providence,_Rhode_Island)",
+      "accessed": "2026-09-03"
+    },
+    "R21": {
+      "title": "GoProvidence, AS220 listing",
+      "url": "https://www.goprovidence.com/listing/as220/24218/",
+      "accessed": "2026-09-03"
+    },
+    "R22": {
+      "title": "Yelp, VP Fitness, 10 Dorrance St Suite 200",
+      "url": "https://www.yelp.com/biz/vp-fitness-providence-3",
+      "accessed": "2026-09-03"
+    },
+    "R23": {
+      "title": "VP Fitness",
+      "url": "https://vpfitness.net/",
+      "accessed": "2026-09-03"
+    },
+    "R24": {
+      "title": "Yelp, gyms in downtown Providence 02903 (aggregator)",
+      "url": "https://www.yelp.com/search?cflt=gyms&find_loc=Downtown%2C+Providence%2C+RI+02903",
+      "accessed": "2026-09-03"
+    },
+    "R25": {
+      "title": "Citizens Bank locator, Providence (30 Kennedy Plaza, Suite 101)",
+      "url": "https://locations.citizensbank.com/ri/providence.html",
+      "accessed": "2026-09-03"
+    },
+    "R26": {
+      "title": "BankBranchLocator, banks in Providence (aggregator with accuracy disclaimer)",
+      "url": "https://www.bankbranchlocator.com/banks-in-providence-ri.html",
+      "accessed": "2026-09-03"
+    },
+    "R27": {
+      "title": "Yelp, Downtown Providence Farmers' Market, marked closed",
+      "url": "https://www.yelp.com/biz/downtown-providence-farmers-market-providence",
+      "accessed": "2026-09-03"
+    },
+    "R28": {
+      "title": "GoProvidence, Dig into some farm fresh fun (Jun 9 2026; no downtown market listed)",
+      "url": "https://www.goprovidence.com/blog/stories/post/dig-into-some-farm-fresh-fun-in-the-city/",
+      "accessed": "2026-09-03"
+    },
+    "R30": {
+      "title": "Farm Fresh RI, Summer Farmers Market Guide 2026",
+      "url": "https://www.farmfreshri.org/programs/farmers-markets/rimarketguide/",
+      "accessed": "2026-09-03"
+    },
+    "R32": {
+      "title": "Providence Preservation Society, South Side residents pushed back against a proposed parking garage (Jun 1 2026)",
+      "url": "https://ppsri.org/south-side-residents-pushed-back-against-a-proposed-parking-garage-the-developer-says-theyll-scale-back/",
+      "accessed": "2026-09-03"
+    },
+    "R34": {
+      "title": "GoLocalProv, Proposed 7-story Brown Health parking garage faces neighborhood opposition (Apr 29 2026)",
+      "url": "https://www.golocalprov.com/news/proposed-7-story-brown-health-parking-garage-faces-neighborhood-opposition",
+      "accessed": "2026-09-03"
+    },
+    "S40": {
+      "title": "US Census Bureau, LEHD Origin-Destination Employment Statistics (LODES 8), Workplace Area Characteristics, RI/MA/CT, 2019, 2022, 2023",
+      "url": "https://lehd.ces.census.gov/data/lodes/LODES8/",
+      "accessed": "2026-09-28"
+    },
+    "S40b": {
+      "title": "Downtown Worcester BID, boundary map (BID_boundaries_map_landscape)",
+      "url": "https://www.downtownworcester.org/about-downtown-worcester/",
+      "accessed": "2026-09-28"
+    },
+    "S40c": {
+      "title": "Town Green District, colour-coded property map, Nov 2019",
+      "url": "https://www.downtownnewhaven.com/where-we-are",
+      "accessed": "2026-09-28"
+    },
+    "S41": {
+      "title": "Boston Globe, 'Who will buy Providence's second-tallest skyscraper?', Apr 10 2025",
+      "url": "https://www.bostonglobe.com/2025/04/10/metro/providence-once-financial-plaza-auction/",
+      "accessed": "2026-09-28"
+    },
+    "S42": {
+      "title": "Amica Mutual Pavilion, About",
+      "url": "https://www.amicamutualpavilion.com/about/about-amp",
+      "accessed": "2026-09-28"
+    },
+    "S43": {
+      "title": "USPS Post Office locator (retail post offices and window hours near 02903, 01608, 06510)",
+      "url": "https://tools.usps.com/find-location.htm",
+      "accessed": "2026-09-28"
+    },
+    "S44": {
+      "title": "Town Green Special Services District, 2025 Annual Report (PDF)",
+      "url": "https://static1.squarespace.com/static/5b54cf24f2e6b103c6cba86e/t/69e25c081b43cb3c0fe09987/1776442376056/Town+Green+Annual+Report+2025.pdf",
+      "accessed": "2026-09-28"
+    },
+    "S45": {
+      "title": "RIPTA Board of Directors and CEO packet, Aug 20 2026 (PDF)",
+      "url": "https://ripta.com/sites/default/files/2026-08/BOD%20and%20CEO%202026%2008%2020.pdf",
+      "accessed": "2026-09-28"
+    }
+  },
+  "items": [
+    {
+      "id": "grocery",
+      "name": "Full-service grocery",
+      "status": "partial",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Maruichi Japanese Food and Deli, 113 Washington St, opened 2024 in the space Rory's Market held from 2022 to 2023. Specialty, not full-service. Trader Joe's is in Fox Point, outside.",
+      "place": null,
+      "sources": [
+        "S2",
+        "S2b"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "absent",
+          "note": "None in the BID; grocery space is in three proposed developments (416 units).",
+          "sources": [
+            "S9"
+          ]
+        },
+        "new-haven": {
+          "status": "partial",
+          "note": "Elm City Market closed at 777 Chapel St and is relocating to 275 South Orange St.",
+          "sources": [
+            "S10"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "pharmacy",
+      "name": "Pharmacy",
+      "status": "absent",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": "Present if Providence Place is inside, which the ledger's membership calls say it is. Status here is for the street; the call is Liam's.",
+      "where": "CVS at 70 Kennedy Plaza closed January 2, 2024. The nearest is inside Providence Place.",
+      "place": null,
+      "sources": [
+        "S3"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "absent",
+          "note": "Downtown CVS on Front St closed in 2023.",
+          "sources": []
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "CVS, 123 Church St, on the Green; Walgreens at 88 York St at the Yale edge.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "cinema",
+      "name": "Cinema",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": "Present only because the mall is inside, which the ledger's membership calls say it is. Nothing on the street.",
+      "where": "Apple Cinemas, Providence Place, level 4. Showcase Cinemas closed October 26, 2025; Apple Cinemas opened November 1, 2025 under a lease approved through the mall's receiver and is operating during a renovation (recliners, IMAX upgrade, bowling, trampoline park) expected to finish by winter 2026. The first research pass had this wrong.",
+      "place": null,
+      "sources": [
+        "S22",
+        "S23"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "absent",
+          "note": "No operating cinema; the former Foothills Theatre space at Mercantile Center is marketed as a possible cinema.",
+          "sources": [
+            "S8"
+          ]
+        },
+        "new-haven": {
+          "status": "partial",
+          "note": "No multiplex in the core; College Street venues screen film.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "Corrected Sept 3: the first pass reported Showcase closing January 2026 and Apple Cinemas as announced; both dates were wrong."
+    },
+    {
+      "id": "hotels",
+      "name": "Hotels",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "About a dozen in aggregator listings for downtown: Omni (564 rooms, the largest), Graduate by Hilton (the Biltmore), Renaissance, Hotel Providence, Neptune an Ash Hotel (the former Dean, 122 Fountain St, 52 rooms; rebrand date not found), Aloft, Hampton Inn and Suites, Hilton Garden Inn at the convention center, Homewood Suites, Residence Inn, Courtyard, The Beatrice; the Providence Marriott on Orms St sits north of the State House and is a boundary call. The Beatrice, 47 rooms at 90 Westminster St in the 1887 Exchange Building: trade coverage dates its opening October 2021 and the hotel ran a five-year promotion in 2026, though a release on the hotel's own site is dated October 2022. Not 2020, as the first pass said.",
+      "place": null,
+      "sources": [
+        "R11",
+        "S35",
+        "S37",
+        "S36",
+        "R14"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Few: AC Hotel by Marriott (125 Front St, about 2020) and Hilton Garden Inn (35 Major Taylor Blvd); Courtyard, Homewood and Hampton at the northern fringe.",
+          "sources": []
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "Five to six: Omni New Haven at Yale (306 rooms), The Blake (2019), The Study at Yale, Graduate by Hilton, New Haven Hotel; a 132-room Hilton Garden Inn in the pipeline.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "No authoritative count of downtown hotels found; the list is from aggregators and the boundary is not theirs."
+    },
+    {
+      "id": "library",
+      "name": "Public library",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Providence Public Library, 150 Empire St.",
+      "place": null,
+      "sources": [
+        "L1"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Worcester Public Library, 3 Salem Square.",
+          "sources": [
+            "L2"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "New Haven Free Public Library, Ives Main, 133 Elm St, on the Green.",
+          "sources": [
+            "L3"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "transit-hub",
+      "name": "Central transit hub",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Kennedy Plaza, RIPTA's hub since the 1980s. Relocating: see the RIPTA hub row.",
+      "place": null,
+      "sources": [
+        "S5",
+        "S16"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "WRTA hub by Union Station; buses fare-free through June 30, 2027 by an April 23, 2026 advisory board vote.",
+          "sources": [
+            "S6"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "CT Transit hub around the Green and Union Station.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "rail-station",
+      "name": "Intercity rail station",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": "Inside under the ledger's calls; adjacent under the improvement-district line.",
+      "where": "Providence Station, 100 Gaspee St, at the State House. Amtrak FY2024: 838,238 boardings and alightings, 14th busiest Amtrak station; over 2 million with MBTA commuter rail.",
+      "place": null,
+      "sources": [
+        "S17"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Union Station, 2 Washington Square, at the BID edge: Amtrak and the MBTA Framingham/Worcester line.",
+          "sources": []
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "Union Station, about half a mile southeast: Amtrak, Metro-North, Shore Line East; Amtrak FY2022 778,534, 10th busiest.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "hospital",
+      "name": "Hospital or emergency room",
+      "status": "absent",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Rhode Island Hospital, 593 Eddy St, about a mile south in Upper South Providence. None inside. Walking distance from Kennedy Plaza to the emergency entrance at 593 Eddy St is not yet measured; roughly a mile by street. No urgent care or emergency facility inside the boundary has been found.",
+      "place": null,
+      "sources": [
+        "S14"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Saint Vincent Hospital, 123 Summer St: 381 beds, 24-hour emergency room, inside downtown.",
+          "sources": []
+        },
+        "new-haven": {
+          "status": "absent",
+          "note": "Yale New Haven Hospital, 20 York St, half to nine tenths of a mile southwest in the Hill.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "Distance is an estimate until measured on the street network."
+    },
+    {
+      "id": "park",
+      "name": "Public park or green space",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": "Waterplace Park counts under the ledger's calls, not under the improvement-district line.",
+      "where": "Burnside Park at Kennedy Plaza, restored 2015 with the plaza; Waterplace Park and the canal, maintained by the City Parks Department with state agencies.",
+      "place": null,
+      "sources": [
+        "S38",
+        "S39"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Worcester Common; Francis R. Carroll Plaza, rebuilt 2023.",
+          "sources": [
+            "S8b"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "The New Haven Green, 16 acres, a National Historic Landmark district.",
+          "sources": [
+            "S7"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "performing-arts",
+      "name": "Performing arts venues",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Providence Performing Arts Center, 220 Weybosset St; AS220, 115 Empire St (address to confirm on the listing); The VETS, One Avenue of the Arts; Trinity Rep, 201 Washington St.",
+      "place": null,
+      "sources": [
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "S33",
+        "S34"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Hanover Theatre at Federal Square; Mechanics Hall; BrickBox Theater.",
+          "sources": [
+            "S8b",
+            "S8c"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "Shubert Theatre, 247 College St, 1,600 seats; College Street Music Hall, opened 2015, about 2,000 capacity.",
+          "sources": [
+            "S15a",
+            "S15b"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "arena",
+      "name": "Arena or large event venue",
+      "status": "partial",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": "Present if the convention-center block is inside.",
+      "where": "Amica Mutual Pavilion, 1 La Salle Square: 14,000 seats, home of the Providence Bruins and Providence College basketball, owned by the Rhode Island Convention Center Authority. It sits about 120 m outside the Downcity overlay, by the mall, with the Rhode Island Convention Center beside it; partial because it is at the edge, not inside.",
+      "place": null,
+      "sources": [
+        "S42",
+        "B1"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "DCU Center, 50 Foster St: arena of about 14,800 for concerts plus convention center, city-owned.",
+          "sources": [
+            "S8d"
+          ]
+        },
+        "new-haven": {
+          "status": "absent",
+          "note": "No large downtown arena; Yale's venues are elsewhere.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "university",
+      "name": "University presence",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Johnson and Wales on Weybosset; South Street Landing (URI and Rhode Island College nursing, opened 2017) and Brown offices just south; Brown's Warren Alpert Medical School at 222 Richmond St in the Jewelry District.",
+      "place": null,
+      "sources": [
+        "U1",
+        "S14b"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Quinsigamond Community College at CitySquare; MCPHS at the Lincoln Square edge.",
+          "sources": []
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "Yale wraps the Green; CT State Community College Gateway at 20 Church St; University of New Haven downtown.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "farmers-market",
+      "name": "Farmers market, regular, in bounds",
+      "status": "absent",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "None inside downtown in 2025 or 2026 as far as the record shows. The Kennedy Plaza market is marked closed; GoProvidence's June 2026 market roundup lists Farm Fresh RI's year-round Saturday market at 10 Sims Ave and Hope Street, and nothing downtown. Directory entries still listing Kennedy Plaza carry reviews from 2008.",
+      "place": null,
+      "sources": [
+        "R27",
+        "R28",
+        "R30"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Out to Lunch on the Worcester Common oval, Wednesdays in summer; Market on Exchange, Sundays.",
+          "sources": [
+            "F1"
+          ]
+        },
+        "new-haven": {
+          "status": "absent",
+          "note": "CitySeed's Wooster Square market is half a mile east of the Green.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "Definitive check is Farm Fresh RI's 2026 summer market guide."
+    },
+    {
+      "id": "post-office",
+      "name": "Post office",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Annex Finance, 2 Exchange Terrace at Kennedy Plaza, inside the line: counter open weekdays 8 a.m. to 1 p.m. only, no Saturday. The full-day office is Weybosset Hill, 53 Broad St, weekdays 8:30 to 5, about 100 m outside the overlay.",
+      "place": null,
+      "sources": [
+        "S43",
+        "B1"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "absent",
+          "note": "The 484 Main St office is no longer in the USPS locator. The main post office, 4 East Central St, weekdays 7:30 to 6 and Saturday, is about 300 m outside the BID.",
+          "sources": [
+            "S43",
+            "S40b"
+          ]
+        },
+        "new-haven": {
+          "status": "partial",
+          "note": "Yale station, 206 Elm St, weekdays 9 to 5:30 and Saturday morning, about 125 m outside the Town Green District.",
+          "sources": [
+            "S43",
+            "S40c"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "gym",
+      "name": "Gym or fitness center",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "VP Fitness, 10 Dorrance St, Suite 200, confirmed. Others listed for downtown 02903 but not address-checked: Capital Club Fitness Center, Formless Fitness, Pulse Gym, EDGE 24 Hour Private Fitness. No downtown YMCA.",
+      "place": null,
+      "sources": [
+        "R22",
+        "R23",
+        "R24"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Central Community Branch YMCA, 766 Main St; YWCA, 1 Salem Square; Planet Fitness announced at 90 Front St.",
+          "sources": [
+            "G1"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "Elm City YMCA, 900 Chapel St; MPWR House, 201 Crown St.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "bookstore",
+      "name": "Bookstore",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Symposium Books, 240 Westminster St; Weird Providence, 65 Weybosset St.",
+      "place": null,
+      "sources": [
+        "K1",
+        "K2"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "absent",
+          "note": "Bedlam Book Cafe, 138 Green St, is in the Canal District just outside the BID.",
+          "sources": [
+            "K3"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "Yale Bookstore, 77 Broadway; Grey Matter Books; Book Trader Cafe.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "banks",
+      "name": "Bank branches",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Citizens, 30 Kennedy Plaza, Suite 101, from the bank's own locator. From an aggregator, each still to be confirmed on its bank's locator: Bank of America, 100 Westminster St; Santander, One Financial Plaza; Webster, 50 Kennedy Plaza; Bank Rhode Island, One Turks Head Place; Chase, 146 Westminster St; Washington Trust, 156 Westminster St; BankNewport, 55 Dorrance St; HarborOne, 180 Washington St. Nine if the aggregator holds.",
+      "place": null,
+      "sources": [
+        "R25",
+        "R26"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Four to six along the Main Street corridor.",
+          "sources": []
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "Eight and up around the Green: Bank of America, KeyBank, Chase, Citizens, TD, Webster, Wells Fargo.",
+          "sources": []
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "One confirmed from a primary locator; the rest from an aggregator that carries its own accuracy disclaimer."
+    },
+    {
+      "id": "government",
+      "name": "Courthouse, city hall, major government",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "City Hall, 25 Dorrance St; Garrahy Judicial Complex; the federal courthouse at Kennedy Plaza; the Licht Judicial Complex at 250 Benefit St on the east edge.",
+      "place": null,
+      "sources": [
+        "C1"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "City Hall, 455 Main St; Worcester Trial Court, 225 Main St; Donohue Federal Building and courthouse, 595 Main St.",
+          "sources": [
+            "C2"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "City Hall, 161 Church St; New Haven County Courthouse, 121 Elm St; Lee federal courthouse on Church St.",
+          "sources": [
+            "C3"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "residents",
+      "name": "Residents living inside",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "About 3,589 (ACS 2019 to 2023, Point2Homes' downtown cut); an alternate neighborhood cut gives 5,369. The number moves with the line drawn.",
+      "place": null,
+      "sources": [
+        "S18",
+        "S18b"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "partial",
+          "note": "Small but growing with CitySquare; no boundary-specific census figure found.",
+          "sources": []
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "About 9,000 in Point2Homes' downtown cut.",
+          "sources": [
+            "S19"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "The demand root the clock runs on. Rows for people are Claude's addition; delete if the ledger reads wrong with them in."
+    },
+    {
+      "id": "workers",
+      "name": "Daytime workers inside",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "About 15,000 jobs inside the Downcity overlay in 2023 (14,975; 15,211 in 2022; 13,852 in 2019), about 140 per acre over 107 acres. Largest sectors: professional services 2,751, food and lodging 2,345, finance and insurance 2,087. Retail is 152. The wider city 'Downtown' neighborhood has 26,491, down 9% from 2019's 29,141. These are jobs sited at an employer address, not people in the building on a given day; LODES does not see remote work.",
+      "place": null,
+      "sources": [
+        "S40",
+        "B1"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "About 3,300 jobs in 2023 (3,270; 2,476 in 2019), about 50 per acre over 66 acres, BID drawn to street centrelines from the BID's own map; frontage west of Main Street is left out.",
+          "sources": [
+            "S40",
+            "S40b"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "About 11,100 jobs in 2023 (11,111; 10,940 in 2019), about 77 per acre over 145 acres, Town Green District drawn to street centrelines from the district's own map.",
+          "sources": [
+            "S40",
+            "S40c"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "Counted by Claude Sept 28 2026 with lodes.py: 2020 census blocks whose internal point falls inside each polygon, all jobs (S000, JT00). Providence's line is the zoning overlay (parcel-edged); the peers' are street centrelines, so their acreage includes half the boundary streets. Block-level siting is noisy: two neighbouring blocks on either side of the Downcity line swapped about 850 jobs between 2019 and 2023. Polygons in data/geo/peers/. The demand root the clock runs on."
+    },
+    {
+      "id": "housing-units",
+      "name": "Housing units inside",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "About 2,096 to 2,831 units in the downtown cut, up about 4.9% year on year.",
+      "place": null,
+      "sources": [
+        "S18",
+        "S18b"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "partial",
+          "note": "Growing; 416 units proposed across three developments; no clean in-BID total.",
+          "sources": [
+            "S9"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "Citywide, not boundary-isolated: 863 units added since late 2015, 950 approved or under construction, 1,300 in planning.",
+          "sources": [
+            "S19b"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "storefront-vacancy",
+      "name": "Storefront vacancy",
+      "status": null,
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "No published storefront count or rate for the boundary from the improvement district, the city, or a brokerage. A 2021 GoLocal piece says dozens of downtown storefronts were for lease, without a count. Metro shopping-center vacancy was 6.7% at the end of 2025 per a secondary tracker citing Cushman & Wakefield; that is metro inventory, not downtown storefronts, and the primary report has not been pulled. The ledger's own block-face counts will supply this row.",
+      "place": null,
+      "sources": [
+        "R3",
+        "R2"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": null,
+          "note": "No count or rate found. The BID publishes none online; the Research Bureau's downtown surveys are office-only.",
+          "sources": []
+        },
+        "new-haven": {
+          "status": null,
+          "note": "No count or rate. The district's 2025 annual report lists 12 new businesses and nothing on vacancies or closings; its storefront program dresses empty windows with vinyl but publishes no tally.",
+          "sources": [
+            "S44"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": null
+    },
+    {
+      "id": "office-vacancy",
+      "name": "Office vacancy",
+      "status": "present",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Downtown-specific: more than 20% of commercial space empty in the Financial District and nearly 32% in Capital Center, per the Boston Globe in April 2025. Q4 2021 was 15.85% for downtown per CBRE, the last published downtown-only rate. Market-wide: 13.7% overall vacancy, all classes, Q2 2026, per Cushman & Wakefield and Hayes & Sherry's Providence MarketBeat; year-to-date net absorption 115,000 sq ft; asking rent $23.03. The report says the market is tight with no speculative office construction expected, and that FM's purchase of 10 Memorial Blvd took nearly 60,000 sq ft of Class A space off the central business district.",
+      "place": null,
+      "sources": [
+        "S41",
+        "S20",
+        "S31",
+        "S32"
+      ],
+      "on_list_because": [
+        "peer"
+      ],
+      "peers": {
+        "worcester": {
+          "status": "present",
+          "note": "Two marketing posts five days apart give Class A at about 14% vacant (Mar 4 2026) and about 10% (Mar 9 2026); Worcester market, Class A only, no dated quarterly report.",
+          "sources": [
+            "R4",
+            "R5"
+          ]
+        },
+        "new-haven": {
+          "status": "present",
+          "note": "19.7% availability, H1 2025, New Haven County per CBRE; availability rather than vacancy, county rather than downtown. 24.26% all-class market figure in 2024 per CommercialCafe.",
+          "sources": [
+            "R6",
+            "S21"
+          ]
+        }
+      },
+      "needs": [],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "The MarketBeat has no CBD line: its only submarket breakdown is a map key, and Providence is one submarket, the whole city (read Sept 28 2026). Downtown-only figures since 2021 are the Globe's two district numbers; no firm publishes a quarterly downtown rate for Providence in the open. Peers are market-wide."
+    },
+    {
+      "id": "ripta-hub",
+      "name": "RIPTA transit center relocation",
+      "status": "proposed",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "On August 20, 2026 RIPTA's board voted 6 to 0 to take a new transit center into design, engineering and pricing on a 4.4-acre state-owned parcel facing Francis and Gaspee streets, next to Providence Station and across from Providence Place. Contractor Next Wave Partners. Kennedy Plaza would keep reduced service via the Downtown Transit Connector. The governor's schematic shows 16 bus berths curving along the Francis and Gaspee intersection, west of the station and south of the State House. RIPTA will own the site; it is a tenant at Kennedy Plaza, which the City owns. Next Wave's contract is about $16.9 million. The board packet puts the preliminary estimate at $70 million, not final, against $77 million committed ($46 million in the state transportation plan, a $25 million federal BUILD grant, $6 million state match), and says construction would begin within six months of finishing the design contract. No date is given for finishing it; the design and a cost estimate come back to the board first. RIDOT's station page still says 2026 for the station work next door, with no completion announced as of Sept 28.",
+      "place": null,
+      "sources": [
+        "S5",
+        "S16",
+        "S16b",
+        "S27",
+        "S28",
+        "S29",
+        "S45"
+      ],
+      "on_list_because": [
+        "city-proposed"
+      ],
+      "peers": {
+        "worcester": {
+          "status": null,
+          "note": "",
+          "sources": []
+        },
+        "new-haven": {
+          "status": null,
+          "note": "",
+          "sources": []
+        }
+      },
+      "needs": [
+        {
+          "text": "Design, engineering, pricing, public engagement and permitting complete, and the proposal with a cost estimate returns to the board for approval; no date stated",
+          "sources": [
+            "S5",
+            "S16",
+            "S29"
+          ]
+        },
+        {
+          "text": "Construction contract after board approval",
+          "sources": [
+            "S5"
+          ]
+        },
+        {
+          "text": "Funding assembled: 2014 transit bond share plus a $25M federal BUILD grant, with state documents describing the bond figures differently ($20.5M recommended, $22M issued)",
+          "sources": [
+            "S16b"
+          ]
+        },
+        {
+          "text": "Route restructuring settled: which routes move and when",
+          "sources": [
+            "S16b"
+          ]
+        }
+      ],
+      "years_out": 4,
+      "years_out_basis": "Claude's estimate, not a stated date: design, engineering and permitting of about a year and a half, construction starting within six months of that per RIPTA's own packet, and about two years to build.",
+      "notes": "The buses route to the Francis and Gaspee frontage by the State House and the station. Opposition on record: Kennedy Plaza Resilience Coalition; a former board member urged delay pending a service analysis. Claude's read from Sept 2, unsourced and so not listed as a dependency: the site sits against the station project and a transfer point cannot be sited against a building under unresolved renovation."
+    },
+    {
+      "id": "station-renovation",
+      "name": "Providence Station renovation",
+      "status": "proposed",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "State of Good Repair and Capacity Project: construction began fall 2024 on a roughly two-year schedule; every official source gives 2026 for completion, and RIDOT said on March 3, 2026 that the work would be complete this year. No completion announcement found as of September 3, 2026. About $30M: $12.5M FRA grant, $9.75M Amtrak, $7.75M RIDOT. Amtrak owns the station.",
+      "place": null,
+      "sources": [
+        "S12",
+        "S12b",
+        "R8",
+        "R9"
+      ],
+      "on_list_because": [
+        "city-proposed"
+      ],
+      "peers": {
+        "worcester": {
+          "status": null,
+          "note": "",
+          "sources": []
+        },
+        "new-haven": {
+          "status": null,
+          "note": "",
+          "sources": []
+        }
+      },
+      "needs": [
+        {
+          "text": "Completion of the current construction phase, stated as 2026 with no date",
+          "sources": [
+            "S12",
+            "R9"
+          ]
+        }
+      ],
+      "years_out": 0,
+      "years_out_basis": "Stated for 2026 by RIDOT in March 2026. Claude's reading of the stated schedule, not a verified date.",
+      "notes": null
+    },
+    {
+      "id": "mall-tax-cliff",
+      "name": "Providence Place tax agreement expiry",
+      "status": "proposed",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "The 1996 tax stabilization agreement runs through 2028 (end of fiscal 2027-28). Under it the mall pays about $500,000 a year in property tax and roughly $1 million a year to the city in all; at the fiscal 2027 commercial rate the bill would be $26.8 million on the current $730 million assessment. But the property sold for $133 million, less than a fifth of that assessment, and would be reassessed before its first full bill, so the cliff is smaller than the headline. The sale closed August 20, 2026 with no tax-deal contingency. Paolino says the owners have no immediate plans to seek a new agreement unless a dramatic development proposal warrants one. Brookfield's 2022 proposed 20-year extension at $4.5 million a year never got a council vote.",
+      "place": null,
+      "sources": [
+        "S24",
+        "S25",
+        "S26",
+        "S7b",
+        "S7c",
+        "S7d",
+        "S7e"
+      ],
+      "on_list_because": [
+        "city-proposed"
+      ],
+      "peers": {
+        "worcester": {
+          "status": null,
+          "note": "",
+          "sources": []
+        },
+        "new-haven": {
+          "status": null,
+          "note": "",
+          "sources": []
+        }
+      },
+      "needs": [
+        {
+          "text": "Either a new agreement negotiated with the City Council before 2028, or a reassessment at something near the sale price; the owners say they are not asking for the former yet",
+          "sources": [
+            "S24",
+            "S25",
+            "S26"
+          ]
+        }
+      ],
+      "years_out": 2,
+      "years_out_basis": "The agreement expires in 2028; that is the clock. Whether it is a cliff depends on the reassessment. Claude's estimate.",
+      "notes": null
+    },
+    {
+      "id": "costco",
+      "name": "Costco at Providence Place",
+      "status": "proposed",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "New owner Joe Paolino Jr. is publicly courting Costco; he has also said Costco does not normally do malls and he does not want to give false hope. Rhode Island is one of three states without a Costco; the nearest is Sharon, MA.",
+      "place": null,
+      "sources": [
+        "S7f",
+        "S7g"
+      ],
+      "on_list_because": [
+        "city-proposed"
+      ],
+      "peers": {
+        "worcester": {
+          "status": null,
+          "note": "",
+          "sources": []
+        },
+        "new-haven": {
+          "status": null,
+          "note": "",
+          "sources": []
+        }
+      },
+      "needs": [
+        {
+          "text": "Costco interest, which is not on the record beyond the owner's remarks",
+          "sources": [
+            "S7f"
+          ]
+        },
+        {
+          "text": "Parking and logistics workable on a 13.2-acre urban site",
+          "sources": [
+            "S7g"
+          ]
+        }
+      ],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "Aspirational. No formal talks confirmed."
+    },
+    {
+      "id": "green-parcel",
+      "name": "The green parcel across from the mall (now the RIPTA hub site)",
+      "status": "proposed",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "It is the same lot. The empty, grassed, state-owned parcel west of Providence Station fronting Francis and Gaspee streets, about 4.4 acres, the PVD Fan Zone during the 2026 World Cup, is the parcel RIPTA's board chose on August 20, 2026 for the new transit center. A separate parcel at 150 Francis Street is owned by Amtrak and was studied earlier; Park Row West, on the other side of the station, was Next Wave's higher-ranked site before the Francis Street lot was picked for its footprint.",
+      "place": null,
+      "sources": [
+        "S5",
+        "S16",
+        "S27",
+        "S28",
+        "S30"
+      ],
+      "on_list_because": [
+        "city-proposed"
+      ],
+      "peers": {
+        "worcester": {
+          "status": null,
+          "note": "",
+          "sources": []
+        },
+        "new-haven": {
+          "status": null,
+          "note": "",
+          "sources": []
+        }
+      },
+      "needs": [
+        {
+          "text": "The RIPTA hub decision: the parcel's only live use is the transit center, so what happens here is what happens there",
+          "sources": [
+            "S5",
+            "S16"
+          ]
+        }
+      ],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "Which lot Liam meant by the green parcel is still his to confirm; if it is this one, the row collapses into the RIPTA hub row and one 'what could be built' item is the site of another."
+    },
+    {
+      "id": "hospital-lots",
+      "name": "Hospital parking lots in the Jewelry District",
+      "status": "proposed",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Brown University Health holds 4,280 surface spaces including off-site, more than 40 acres of it in the hospital district. The City Plan Commission approved its Institutional Master Plan in May 2026: the main entrance moves to Plain Street, a 500-space garage is built, Plain and Dudley reconnect. While the garage is built, the hospital will park on the Victory Plating site in the Jewelry District. Marathon's separate seven-story garage at 140 Prairie Ave is paused after neighborhood opposition, and its 251 Blackstone St building was cut from six stories to four. The March 2025 CNU charrette's 2,000-unit proposal on consolidated lots is a proposal, not a plan of record; the approved plan says nothing about housing.",
+      "place": null,
+      "sources": [
+        "S14c",
+        "S14d",
+        "S14e",
+        "R32",
+        "R34"
+      ],
+      "on_list_because": [
+        "city-proposed"
+      ],
+      "peers": {
+        "worcester": {
+          "status": null,
+          "note": "",
+          "sources": []
+        },
+        "new-haven": {
+          "status": null,
+          "note": "",
+          "sources": []
+        }
+      },
+      "needs": [
+        {
+          "text": "The Plain Street garage built; until then a Jewelry District lot absorbs displaced parking rather than being freed",
+          "sources": [
+            "S14c",
+            "R32"
+          ]
+        },
+        {
+          "text": "Surface parking consolidated into structures before any lot can be built on",
+          "sources": [
+            "S14c",
+            "S14d"
+          ]
+        }
+      ],
+      "years_out": null,
+      "years_out_basis": null,
+      "notes": "The lots are not being redeveloped; one is being used harder. Lead time on the lots runs downstream of the garage."
+    },
+    {
+      "id": "kennedy-plaza",
+      "name": "Kennedy Plaza after the buses",
+      "status": "proposed",
+      "status_basis": "research",
+      "verified_by_liam": false,
+      "flips_on_boundary": null,
+      "where": "Tied to the RIPTA move: Kennedy Plaza would go from the system's hub to a stop with reduced Downtown Transit Connector service. No standalone plan for the plaza found beyond the transit change. Kennedy Plaza is City-owned; RIPTA is a tenant there. Paolino, who owns 100 Westminster overlooking it and now the mall, has said publicly he wants the buses out.",
+      "place": null,
+      "sources": [
+        "S16b",
+        "S27",
+        "S29"
+      ],
+      "on_list_because": [
+        "city-proposed"
+      ],
+      "peers": {
+        "worcester": {
+          "status": null,
+          "note": "",
+          "sources": []
+        },
+        "new-haven": {
+          "status": null,
+          "note": "",
+          "sources": []
+        }
+      },
+      "needs": [
+        {
+          "text": "The RIPTA hub decision, which sets what the plaza stops being",
+          "sources": [
+            "S16b"
+          ]
+        }
+      ],
+      "years_out": 4,
+      "years_out_basis": "Claude's estimate: the plaza changes only when the buses leave, so it runs on the transit center's clock. No plan of its own.",
+      "notes": "No plan on the record. That absence is the finding."
+    }
+  ],
+  "place_checks": [
+    {
+      "place": "d91186ef-24a4-426c-b974-5dc71b0a08c7",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "ba07b669f2e",
+      "photo": "IMG_0361.jpg"
+    },
+    {
+      "place": "d41f6240-0bd6-4f85-81da-73db0a89a4be",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "ba07b669f2e",
+      "photo": "IMG_0361.jpg"
+    },
+    {
+      "place": "93309485-3582-4981-a597-d5796889eeb8",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "ba07b669f2e",
+      "photo": "IMG_0361.jpg"
+    },
+    {
+      "place": "24f16dde-beeb-4f00-b7c1-079bf43e3f68",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "ba07b669f2e",
+      "photo": "IMG_0360.jpg"
+    },
+    {
+      "place": "c3b04da2-ba3a-4fce-b044-e45bce05909e",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "ba07b669f2e",
+      "photo": "IMG_0362.jpg"
+    },
+    {
+      "place": "72d0a794-45f7-4a6f-bb71-f225c6023a06",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "ba07b669f2e",
+      "photo": "IMG_0363.jpg"
+    },
+    {
+      "place": "611b5b21-5210-4ff7-b09c-39e85103aa13",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "bb1afcacd6b",
+      "photo": "IMG_0353.jpg"
+    },
+    {
+      "place": "b5da0c92-b6ba-4b36-aee5-ffcc9907b0a5",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "bb1afcacd6b",
+      "photo": "IMG_0356.jpg"
+    },
+    {
+      "place": "803518f7-7e3c-4abc-8bf5-0d256e0bb1eb",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "bb1afcacd6b",
+      "photo": "IMG_0356.jpg"
+    },
+    {
+      "place": "d2df7a28-5d60-4206-bf48-4642342bbf24",
+      "status": "seen",
+      "date": "2026-09-04",
+      "block": "bb1afcacd6b",
+      "photo": "IMG_0371.jpg"
+    }
+  ],
+  "block_walks": [
+    {
+      "block": "ba07b669f2e",
+      "date": "2026-09-04",
+      "photos": [
+        "IMG_0358.jpg",
+        "IMG_0360.jpg",
+        "IMG_0361.jpg",
+        "IMG_0362.jpg",
+        "IMG_0363.jpg",
+        "IMG_0364.jpg",
+        "IMG_0365.jpg"
+      ],
+      "open": 9,
+      "dark": 2,
+      "unlisted": [
+        "All You Can Eat Sushi",
+        "Yamato",
+        "TD Bank"
+      ]
+    },
+    {
+      "block": "bb1afcacd6b",
+      "date": "2026-09-04",
+      "photos": [
+        "IMG_0353.jpg",
+        "IMG_0354.jpg",
+        "IMG_0355.jpg",
+        "IMG_0356.jpg",
+        "IMG_0370.jpg",
+        "IMG_0371.jpg",
+        "IMG_0372.jpg"
+      ],
+      "open": 6,
+      "dark": 0,
+      "unlisted": [
+        "Olabona Law Offices",
+        "Veggie Fun"
+      ]
+    },
+    {
+      "block": "b6a4838b557",
+      "date": "2026-09-04",
+      "photos": [
+        "IMG_0357.jpg",
+        "IMG_0367.jpg",
+        "IMG_0368.jpg",
+        "IMG_0369.jpg"
+      ],
+      "open": 1,
+      "dark": 0,
+      "unlisted": [
+        "BayCoast Bank"
+      ]
+    },
+    {
+      "block": "b3012f0e313",
+      "date": "2026-09-04",
+      "photos": [
+        "IMG_0366.jpg"
+      ],
+      "open": 1,
+      "dark": 0,
+      "unlisted": [
+        "The Color Company"
+      ]
+    }
+  ],
+  "walk_read": [
+    "IMG_0358.jpg",
+    "IMG_0360.jpg",
+    "IMG_0361.jpg",
+    "IMG_0362.jpg",
+    "IMG_0363.jpg",
+    "IMG_0364.jpg",
+    "IMG_0365.jpg",
+    "IMG_0353.jpg",
+    "IMG_0354.jpg",
+    "IMG_0355.jpg",
+    "IMG_0356.jpg",
+    "IMG_0370.jpg",
+    "IMG_0371.jpg",
+    "IMG_0372.jpg",
+    "IMG_0357.jpg",
+    "IMG_0367.jpg",
+    "IMG_0368.jpg",
+    "IMG_0369.jpg",
+    "IMG_0366.jpg"
+  ]
+}

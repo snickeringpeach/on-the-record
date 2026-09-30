@@ -4,7 +4,7 @@ projects. Static build: site/index.html (home) and site/off-the-roll/ (Off the R
 rendered from ../untaxed/data. Design: the approved paper-and-ink system
 (Source Serif 4 / Public Sans / Roboto Mono; record red only where it means something).
 """
-import json, csv, html, shutil, pathlib, datetime
+import json, csv, html, shutil, pathlib, datetime, re
 HERE = pathlib.Path(__file__).parent
 SITE = HERE / "site"
 U = HERE.parent / "untaxed" / "data"
@@ -71,8 +71,8 @@ HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <link rel="stylesheet" href="{root}style.css"></head><body>
 <div class="wrap"><header class="mast"><a class="name" href="{root}">Providence, on the record</a>
 <div class="tag">Liam Freaney · reporting built on the public record</div>
-<nav class="sections"><a href="{root}off-the-roll/">Off the Roll</a><a href="https://downtownledger.com">Downtown Ledger</a>
-<a href="https://insidetheline.org">Inside the Line</a><a href="https://providenceontherecord.substack.com">Reporting</a></nav></header>
+<nav class="sections"><a href="{root}off-the-roll/">Off the Roll</a><a href="{root}downtown-ledger/">Downtown Ledger</a>
+<a href="{root}inside-the-line/">Inside the Line</a><a href="https://providenceontherecord.substack.com">Reporting</a></nav></header>
 """
 FOOT = """<footer>Every figure on this site comes from a public record, named where it is used. Corrections go at the top of the page they correct, dated.
 Nothing here is opinion. Where a number is a model rather than a record, it is labeled <span class="tag model">MODEL</span>.</footer></div></body></html>"""
@@ -132,7 +132,7 @@ for r in inst:
     b.append(f'<tr><td>{e(r["institution"])}</td><td class="n">{money(r["exempt_value"])}</td><td class="n">{money(full)}</td><td class="n">{ptxt}</td><td class="n">{r["share_paid"]}</td></tr>')
 b.append('</table></div>')
 b.append('<p class="cite">Payments: colleges, 2023 agreements, first-year (FY2025) amounts, Rhode Island Current, Sept. 6, 2023; Brown University Health, agreement signed Nov. 15, 2024, $750,000 a year, City of Providence; Providence Place, 30-year agreement expiring 2028, about $500,000 a year, Providence Business News. RISD&#8217;s parcels carry no owner name on the roll and are matched by RISD&#8217;s mailing address, 2 College St.</p>')
-b.append(f'<p>The State also pays Providence for part of what it loses on college and hospital property. The law sets the reimbursement at up to 27 percent of the tax the property would have paid. Providence reported {money(sp["reported_base"])} in such tax. The State paid {money(sp["fy2025_payment"])} in fiscal 2025, and the enacted budget for fiscal 2026 gives {money(sp["fy2026_enacted"])}, or {sp["fy2026_enacted"]/sp["reported_base"]:.1%} of the reported base. That money goes to the City&#8217;s general fund, not to the institutions&#8217; account.</p>')
+b.append(f'<p>The State also pays Providence for part of what it loses on college and hospital property. The law sets the reimbursement at up to 27 percent of the tax the property would have paid. Providence reported {money(sp["reported_base"])} in such tax. The State paid the City {money(sp["fy2025_payment"])} in fiscal 2025, and the enacted budget for fiscal 2026 gives {money(sp["fy2026_enacted"])}. This is State aid to the City. It is not money from the institutions, and it does not change what they pay.</p>')
 b.append('<p class="cite">House Fiscal Advisory Staff, Local Aid, 2025 edition, Appendix VII; FY 2026 Budget as Enacted: State Aid to Local Governments. RIGL 45-13-5.1. Full figures: <a href="data/state-pilot.json">state-pilot.json</a>.</p>')
 
 b.append('<h2>Tax stabilization agreements</h2>')
@@ -187,9 +187,9 @@ h = ['<main><div class="dateline">PROVIDENCE</div><h1>Providence, on the record<
      '<div class="feed">']
 items = [("off-the-roll/", "OFF THE ROLL · NEW", f'${T["exempt"]/1e9:.1f} billion of Providence&#8217;s ${T["assessed"]/1e9:.0f} billion in property is exempt from full taxation',
           "Colleges, hospitals, government, a mall and 80 owners under tax agreements, set against what they pay the City."),
-         ("https://downtownledger.com", "DOWNTOWN LEDGER", "What downtown has, what it lacks, and how long the missing takes to arrive",
+         ("downtown-ledger/", "DOWNTOWN LEDGER", "What downtown has, what it lacks, and how long the missing takes to arrive",
           "Workers, storefronts, transit and the walk between them, measured."),
-         ("https://insidetheline.org", "INSIDE THE LINE", "Who the hurricane barrier protects",
+         ("inside-the-line/", "INSIDE THE LINE", "Who the hurricane barrier protects",
           "Elevation, parcels, people and jobs behind the Fox Point barrier, and the water on the other side."),
          ("https://providenceontherecord.substack.com", "REPORTING", "The stories", "Reporting built on the documents, on Substack.")]
 for href, kicker, title, deck in items:
@@ -198,4 +198,35 @@ h.append('</div></main>')
 (SITE / "index.html").write_text(page("Providence, on the record",
     "Reporting and public records on the City of Providence, by Liam Freaney.", "", "".join(h)))
 (SITE / "style.css").write_text(CSS)
-print("built", sorted(str(p.relative_to(SITE)) for p in SITE.rglob("*") if p.is_file()))
+
+# ---------------------------------------------------------------- folded sections
+# Downtown Ledger and Inside the Line are built in their own folders (../downtown-ledger,
+# ../inside-the-line; run their ./build first). Their built site/ is copied here under a
+# path prefix, root-absolute links are re-pointed, and a one-line strip links back home.
+NEW = "https://providenceontherecord.org"
+ROOTS = r"(?:about|data|fonts|ledger|photos|places|streets|walks|style|og)"
+LINK = re.compile(r'(["\'(`])/(?=' + ROOTS + r'\b|#|["\'])')
+STRIP = ('<div style="font:500 13px/18px system-ui,-apple-system,sans-serif;padding:8px 16px;'
+         'border-bottom:1px solid rgba(0,0,0,.15);background:#f7f5f0">'
+         '<a href="/" style="color:#16181b;text-decoration:none">Providence, on the record</a></div>')
+def fold(slug, old):
+    src, dst, pre = HERE.parent / slug / "site", SITE / slug, f"/{slug}/"
+    shutil.copytree(src, dst)
+    photos = HERE.parent / slug / "data" / "photos"
+    if slug == "downtown-ledger" and photos.exists():
+        shutil.copytree(photos, dst / "photos", dirs_exist_ok=True)
+    n = 0
+    for f in dst.rglob("*"):
+        if f.suffix not in (".html", ".css", ".js"): continue
+        t = f.read_text()
+        t = t.replace(old + "/", NEW + pre).replace(old, NEW + pre[:-1])
+        t, k = LINK.subn(lambda m: m.group(1) + pre, t); n += k
+        if f.suffix == ".html":
+            t = re.sub(r"(<body[^>]*>)", lambda m: m.group(1) + STRIP, t, count=1)
+        f.write_text(t)
+    print(f"folded {slug}: {sum(1 for _ in dst.rglob('*.html'))} pages, {n} links re-pointed")
+fold("downtown-ledger", "https://downtownledger.com")
+fold("inside-the-line", "https://insidetheline.org")
+
+
+print("built", sum(1 for p in SITE.rglob("*") if p.is_file()), "files")

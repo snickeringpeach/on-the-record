@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Inside the Line</title>
+<meta name=description content="The Fox Point Hurricane Barrier and the part of Providence it protects, mapped from FEMA's flood maps.">
+<meta property="og:title" content="Inside the Line">
+<meta property="og:description" content="The Fox Point Hurricane Barrier and the part of Providence it protects, mapped from FEMA's flood maps.">
+<meta property="og:image" content="https://providenceontherecord.org/inside-the-line/og.jpg">
+<meta property="og:url" content="https://providenceontherecord.org/inside-the-line/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel=preload href="fonts/source-serif-4-latin-opsz-normal.woff2" as=font type="font/woff2" crossorigin>
+<link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-opsz-normal.woff2) format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-opsz-italic.woff2) format("woff2");font-weight:200 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Public Sans";src:url(fonts/public-sans-latin-wght-normal.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{--ink:#13283A;--mute:#4A5A66;--rule:#C6CFCB;--hair:#DDE3E0;--bg:#F4F6F3;--paper:#FFFFFF;--water:#1F4E6B;--sound:#3B6E8F;
+--ground:#E3D7A8;--wet:#9CC3D8;--in:#2F6F4F;--out:#B3362C;--serif:"Source Serif 4",Georgia,serif;--sans:"Public Sans",system-ui,sans-serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 var(--serif)}
+a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:3px} a:hover{color:var(--sound)}
+:focus-visible{outline:2px solid var(--sound);outline-offset:2px}
+.top{border-bottom:1px solid var(--ink)}
+.top .in{max-width:1240px;margin:0 auto;padding:16px 40px;display:flex;flex-wrap:wrap;gap:8px 28px;align-items:baseline;justify-content:space-between}
+.brand{font:700 17px/1.2 var(--sans);text-decoration:none}
+.toc{display:flex;flex-wrap:wrap;gap:4px 20px;font:15px/1.6 var(--sans)}
+main{max-width:1240px;margin:0 auto;padding:0 40px}
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:64px;padding:56px 0 64px;border-bottom:1px solid var(--rule)}
+.hero .text{display:flex;flex-direction:column;gap:20px;padding-top:8px}
+h1{margin:0;font-size:76px;line-height:.98;font-weight:700;letter-spacing:-.01em}
+.dek{margin:0;font-size:24px;line-height:1.35;max-width:30ch}
+.lede{margin:0;max-width:58ch}
+.gauge{margin-top:8px;padding:14px 18px;border:1px solid var(--ink);background:var(--paper);max-width:480px;font:15px/1.5 var(--sans)}
+.gauge h2{font:700 15px/1.4 var(--sans);margin:0 0 4px}
+.gauge p{margin:0 0 4px} .gauge .note{font-size:13px;margin:6px 0 0}
+figure{margin:0}
+figcaption,.note{font:13px/1.5 var(--sans);color:var(--mute)}
+.staff{width:100%;max-width:500px;height:auto;display:block;font-family:var(--sans)}
+.staff .col{fill:var(--paper);stroke:var(--ink);stroke-width:1}
+.staff .ground{fill:var(--ground)} .staff .water{fill:var(--wet)} .staff .div{stroke:#C9B77C}
+.staff .tick{stroke:var(--ink)} .staff .ax{font-size:11px;fill:var(--mute)}
+.staff .colh{font-size:13px;font-weight:700;fill:var(--ink)}
+.staff .lvl{stroke:var(--sound);stroke-width:1} .staff .lvl.gate{stroke:var(--ink);stroke-width:2}
+.staff .lvlname{font-family:var(--serif);font-style:italic;font-size:15px;fill:var(--water)}
+.staff .lvlft{font-family:var(--sans);font-style:normal;font-size:13px;font-weight:600;fill:var(--ink)}
+section{padding:64px 0;border-bottom:1px solid var(--rule)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:56px}
+.two>.side{display:flex;flex-direction:column;gap:14px}
+h2{font-size:40px;line-height:1.05;font-weight:700;margin:0 0 6px}
+h3{font-size:22px;line-height:1.2;margin:40px 0 6px}
+p{margin:0 0 14px}
+#map{height:62vh;min-height:380px;border:1px solid var(--ink);background:#E9EEEA}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font:13px/1.3 var(--sans);margin:10px 0 0;color:var(--mute)}
+.legend i,.sw{display:inline-block;width:12px;height:12px;margin-right:7px;vertical-align:-1px}
+table{width:100%;border-collapse:collapse;font:15px/1.4 var(--sans);font-variant-numeric:tabular-nums;margin:0 0 12px}
+th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+th:first-child,td:first-child{padding-left:0} th:last-child,td:last-child{padding-right:0}
+thead th{font-weight:700;font-size:14px;color:var(--ink);border-bottom:2px solid var(--ink)}
+.n{text-align:right;white-space:nowrap} .sub{color:var(--mute);font-size:13px;margin-top:2px}
+.key{display:flex;flex-wrap:wrap;gap:6px 22px;font:14px/1.4 var(--sans);margin:4px 0 12px}
+.key i{display:inline-block;width:22px;height:10px;margin-right:8px;vertical-align:0}
+.key i.in,.bar.in span{background:var(--in)} .key i.out,.bar.out span{background:var(--out)}
+.levels{border-top:1px solid var(--hair);margin-bottom:12px}
+.lv{display:grid;grid-template-columns:minmax(0,15em) 3.2em minmax(0,1fr);gap:16px;align-items:center;padding:11px 0;border-bottom:1px solid var(--hair)}
+.lvname{font-style:italic;color:var(--water);font-size:17px;line-height:1.3}
+.lvft{font:600 14px var(--sans);text-align:right;font-variant-numeric:tabular-nums}
+.lvbars{display:flex;flex-direction:column;gap:4px}
+.bar{display:flex;align-items:center;gap:8px;font:13px var(--sans);font-variant-numeric:tabular-nums}
+.bar span{display:block;height:12px} .bar b{font-weight:500}
+.chart svg{width:100%;height:auto;display:block;font-family:var(--sans)}
+.chart .ev{fill:var(--water)} .chart .ev.pre{fill:#8FA3B0}
+.chart .barrier{stroke:var(--ink);stroke-dasharray:3 3} .chart .axis{stroke:var(--ink)}
+.chart .lab{font-size:13px;font-weight:600;fill:var(--ink)} .chart .ax{font-size:12px;fill:var(--mute)}
+.chart .storm{font-family:var(--serif);font-style:italic;font-size:15px;fill:var(--water)}
+details{margin:16px 0;font:15px/1.4 var(--sans)} summary{cursor:pointer;color:var(--ink);text-decoration:underline;text-underline-offset:3px;padding:6px 0}
+td.sub,tr.sub td{color:var(--mute)}
+.proj{max-width:560px}
+footer{padding:36px 0 72px;font:14px/1.6 var(--sans);color:var(--mute);max-width:90ch}
+footer a{color:inherit}
+@media (max-width:900px){
+ .top .in,main{padding-left:16px;padding-right:16px}
+ .hero{grid-template-columns:1fr;gap:32px;padding:28px 0 40px}
+ h1{font-size:46px} .dek{font-size:19px} body{font-size:17px}
+ .two{grid-template-columns:1fr;gap:20px}
+ section{padding:40px 0} h2{font-size:30px}
+ .lv{grid-template-columns:minmax(0,1fr) 3em;gap:6px 12px} .lvbars{grid-column:1/-1}
+ .staff .lvlname{font-size:14px}
+ table{font-size:14px}
+}
+</style></head><body><div style="font:500 13px/18px system-ui,-apple-system,sans-serif;padding:8px 16px;border-bottom:1px solid rgba(0,0,0,.15);background:#f7f5f0"><a href="/" style="color:#16181b;text-decoration:none">Providence, on the record</a></div>
+<header class=top><div class=in><a class=brand href="/inside-the-line/">Inside the Line</a><nav class=toc aria-label="Sections"><a href="#this-week-at-the-gauge">The gauge</a><a href="#providence-parcels-by-ring">Parcels</a><a href="#who-and-what-is-in-each-ring">Who and what</a><a href="#tanks-and-power">Tanks and power</a><a href="#where-the-line-is">Where the line is</a><a href="#water-and-ground-on-one-scale">Water and ground</a><a href="#how-often-the-water-reaches-the-trigger">How often</a></nav></div></header>
+<main>
+<div class=hero>
+<div class=text>
+<h1>Inside the Line</h1>
+<p class=dek>The Fox Point Hurricane Barrier closes against storm tides for about 280 acres of Providence. This is that line, and what lies on either side of it.</p>
+<p class=lede>Inside the line are 2% of Providence's residents, 16% of its jobs and 8% of its assessed value. 53% of that value is exempt from the property tax, against 35% citywide. Of the 41 storage tanks mapped in the flood zones, 36 stand outside the line, nearly all along Allens Avenue and Terminal Road, and the Fields Point treatment plant is outside it too. The ground there is lower: on the coastal parcels outside the line, 45% lies below the water Hurricane Bob brought in 1991. Inside, 8%.</p>
+<div class=gauge id=this-week-at-the-gauge><h2>This week at the gauge</h2><div id=gauge>Loading NOAA gauge 8454000…</div></div>
+</div>
+<figure>
+<svg viewBox="0 0 500 588" class=staff role="img" aria-label="Water levels against the ground, inside and outside the line, in feet above NAVD88"><text x="82.0" y="14" class=colh text-anchor=middle>Inside</text><text x="166.0" y="14" class=colh text-anchor=middle>Outside</text><rect x="40" y="24" width="168" height="560" class=col /><rect x="40" y="306" width="84" height="278" class=ground><title>Median ground inside the line: 11.9 ft</title></rect><rect x="124" y="378" width="84" height="206" class=ground><title>Median ground on the coastal parcels outside: 8.3 ft</title></rect><line x1="124" x2="124" y1="24" y2="584" class=div /><rect id=nowwater x="40" y="584" width="168" height="0" class=water data-top="26" data-px="20" data-off="24" data-bot="584" /><line x1="33" x2="40" y1="584" y2="584" class=tick /><line x1="33" x2="40" y1="564" y2="564" class=tick /><line x1="26" x2="40" y1="544" y2="544" class=tick /><text x="22" y="548" class=ax text-anchor=end>0</text><line x1="33" x2="40" y1="524" y2="524" class=tick /><line x1="33" x2="40" y1="504" y2="504" class=tick /><line x1="33" x2="40" y1="484" y2="484" class=tick /><line x1="33" x2="40" y1="464" y2="464" class=tick /><line x1="26" x2="40" y1="444" y2="444" class=tick /><text x="22" y="448" class=ax text-anchor=end>5</text><line x1="33" x2="40" y1="424" y2="424" class=tick /><line x1="33" x2="40" y1="404" y2="404" class=tick /><line x1="33" x2="40" y1="384" y2="384" class=tick /><line x1="33" x2="40" y1="364" y2="364" class=tick /><line x1="26" x2="40" y1="344" y2="344" class=tick /><text x="22" y="348" class=ax text-anchor=end>10</text><line x1="33" x2="40" y1="324" y2="324" class=tick /><line x1="33" x2="40" y1="304" y2="304" class=tick /><line x1="33" x2="40" y1="284" y2="284" class=tick /><line x1="33" x2="40" y1="264" y2="264" class=tick /><line x1="26" x2="40" y1="244" y2="244" class=tick /><text x="22" y="248" class=ax text-anchor=end>15</text><line x1="33" x2="40" y1="224" y2="224" class=tick /><line x1="33" x2="40" y1="204" y2="204" class=tick /><line x1="33" x2="40" y1="184" y2="184" class=tick /><line x1="33" x2="40" y1="164" y2="164" class=tick /><line x1="26" x2="40" y1="144" y2="144" class=tick /><text x="22" y="148" class=ax text-anchor=end>20</text><line x1="33" x2="40" y1="124" y2="124" class=tick /><line x1="33" x2="40" y1="104" y2="104" class=tick /><line x1="33" x2="40" y1="84" y2="84" class=tick /><line x1="33" x2="40" y1="64" y2="64" class=tick /><line x1="26" x2="40" y1="44" y2="44" class=tick /><text x="22" y="48" class=ax text-anchor=end>25</text><line x1="33" x2="40" y1="24" y2="24" class=tick /><line x1="40" x2="500" y1="496.6" y2="496.6" class="lvl" /><text x="220" y="491.6" class=lvlname>Daily high tide <tspan class=lvlft>2.4 ft</tspan></text><line x1="40" x2="500" y1="439.8" y2="439.8" class="lvl gate" /><text x="220" y="434.8" class=lvlname>Gates close <tspan class=lvlft>5.2 ft</tspan></text><line x1="40" x2="500" y1="393.6" y2="393.6" class="lvl" /><text x="220" y="388.6" class=lvlname>Hurricane Bob, 1991 <tspan class=lvlft>7.5 ft</tspan></text><line x1="40" x2="500" y1="304.0" y2="304.0" class="lvl" /><text x="220" y="299.0" class=lvlname>FEMA 1%-a-year flood, outside <tspan class=lvlft>12.0 ft</tspan></text><line x1="40" x2="500" y1="263.4" y2="263.4" class="lvl" /><text x="220" y="258.4" class=lvlname>Hurricane Carol, 1954 <tspan class=lvlft>14.0 ft</tspan></text><line x1="40" x2="500" y1="243.2" y2="243.2" class="lvl" /><text x="220" y="238.2" class=lvlname>1938 hurricane, the record <tspan class=lvlft>15.0 ft</tspan></text><line x1="40" x2="500" y1="149.8" y2="149.8" class="lvl" /><text x="220" y="144.8" class=lvlname>The barrier&#x27;s design storm <tspan class=lvlft>19.7 ft</tspan></text><line x1="40" x2="500" y1="59.8" y2="59.8" class="lvl" /><text x="220" y="54.8" class=lvlname>Top of the barrier <tspan class=lvlft>24.2 ft</tspan></text></svg>
+<figcaption>Feet above NAVD88. Tan is the median ground: 11.9 ft inside the line, 8.3 ft on the coastal parcels outside it. Blue is the water at the gauge now. Water levels are in italic, as on a chart.</figcaption>
+</figure>
+</div>
+
+<section id=map-section aria-label="Map">
+<div id=map></div>
+<div class=legend><span><i style="background:#2f6f4f"></i>Inside the line</span><span><i style="background:#b3362c"></i>Coastal flood zone, outside the line</span><span><i style="background:#d98b2b"></i>River flood zone</span><span><i style="background:#e8c766"></i>500-year zone</span><span>◆ Fox Point Hurricane Barrier</span><span>Layers button: parcels, and ground contours at 5, 10 and 15 ft</span></div>
+</section>
+
+<section class=two id=providence-parcels-by-ring>
+<div class=side><h2>Providence parcels by ring</h2><p class=note>Parcels are Providence tax-parcel footprints whose interior point falls in each zone; condominium units that share a footprint count once. Everything outside these four rings is minimal flood hazard.</p></div>
+<div><table><thead><tr><th>Ring</th><th class=n>Parcels</th><th class=n>Acres</th></tr></thead><tbody><tr><td><span class=sw style="background:#2f6f4f"></span>Inside the line<div class=sub>Area with reduced flood risk due to levee</div></td><td class=n>522</td><td class=n>293</td></tr><tr><td><span class=sw style="background:#b3362c"></span>Coastal flood zone, outside the line<div class=sub>VE, or AE with a coastal base flood elevation of 12 ft and up</div></td><td class=n>75</td><td class=n>301</td></tr><tr><td><span class=sw style="background:#d98b2b"></span>River flood zone<div class=sub>Other A and AE: the 1%-a-year flood from the rivers</div></td><td class=n>160</td><td class=n>245</td></tr><tr><td><span class=sw style="background:#e8c766"></span>500-year zone<div class=sub>0.2% annual chance flood hazard</div></td><td class=n>80</td><td class=n>166</td></tr></tbody></table></div>
+</section>
+
+<section class=two id=who-and-what-is-in-each-ring>
+<div class=side><h2>Who and what is in each ring</h2>
+<p>Inside the line is 2% of Providence's residents, 16% of its jobs, 8% of its assessed value and 9% of its 2025 tax bill.</p></div>
+<div><table><thead><tr><th>Ring</th><th class=n>Residents</th><th class=n>Jobs</th><th class=n>Assessed</th><th class=n>Tax billed</th></tr></thead><tbody><tr><td>Inside the line</td><td class=n>3,835</td><td class=n>18,582</td><td class=n>$2,807M</td><td class=n>$33.0M</td></tr><tr><td>Coastal flood zone, outside the line</td><td class=n>414</td><td class=n>386</td><td class=n>$304M</td><td class=n>$3.9M</td></tr><tr><td>River flood zone</td><td class=n>632</td><td class=n>1,681</td><td class=n>$891M</td><td class=n>$3.5M</td></tr><tr><td>500-year zone</td><td class=n>277</td><td class=n>1,254</td><td class=n>$188M</td><td class=n>$3.4M</td></tr></tbody></table><p class=note>Providence only. Residents: 2020 Census, by block. Jobs: 2023, LEHD LODES 8, by block. Assessed value and tax billed: the city's 2025 tax roll, each account placed at its mapped point. Inside the line, $1,495M of the $2,807M assessed is exempt. The largest single account in any ring is Providence Place, in the river flood zone: $731M assessed, carried as exempt on the roll, paying the city instead under its 1996 tax agreement. The largest in the coastal ring are Johnson &amp; Wales's Harborside campus, the Providence Public Building Authority at 1 River Dr., and Narragansett Electric on Terminal Road.</p></div>
+</section>
+
+<section class=two id=tanks-and-power>
+<div class=side><h2>Tanks and power</h2></div>
+<div><p>Storage tanks mapped in OpenStreetMap: 36 stand in the flood zones outside the line, 5 inside it. Each is matched to the tax-roll lot it stands on.</p><table><thead><tr><th>Owner on the roll</th><th>Ring</th><th class=n>Tanks</th></tr></thead><tbody><tr><td>Triton Terminaling LLC<div class=sub>520 Allens Ave</div></td><td>Coastal, outside</td><td class=n>7</td></tr><tr><td>SPRAGUE C H &amp; SON COMPANY<div class=sub>120 Allens Ave</div></td><td>Coastal, outside</td><td class=n>4</td></tr><tr><td>owner not named on the roll<div class=sub>125 Terminal Rd</div></td><td>Coastal, outside</td><td class=n>1</td></tr><tr><td>Dominion Energy Manchester Street Inc<div class=sub>50 Allens Ave</div></td><td>Coastal, outside</td><td class=n>1</td></tr><tr><td>Triton Terminaling LLC<div class=sub>655 Allens Ave</div></td><td>500-year</td><td class=n>10</td></tr><tr><td>WT Terminal Providence LLC<div class=sub>29 Terminal Road</div></td><td>500-year</td><td class=n>6</td></tr><tr><td>Triton Terminaling LLC<div class=sub>1116 Eddy St</div></td><td>500-year</td><td class=n>3</td></tr><tr><td>Triton Terminaling LLC<div class=sub>477 Allens Ave</div></td><td>500-year</td><td class=n>2</td></tr><tr><td>Sea-3 Providence, LLC<div class=sub>25 Fields Point Dr</div></td><td>500-year</td><td class=n>1</td></tr><tr><td>Narragansett Electric Co<div class=sub>185 Terminal Rd</div></td><td>500-year</td><td class=n>1</td></tr><tr><td>Dominion Energy Manchester Street Inc<div class=sub>4R Allens Ave</div></td><td>Inside</td><td class=n>4</td></tr><tr><td>Dominion Energy Manchester Street Inc<div class=sub>50 Allens Ave</div></td><td>Inside</td><td class=n>1</td></tr></tbody></table><p class=note>Inside the line, OpenStreetMap maps the Manchester Street Generating Station and the Franklin Square, Point Street and South Street substations. Outside it, in the flood zones: Green Providence Wind I, Green Providence Wind II, NBC Field&#x27;s Point Wind Farm. The Fields Point Treatment Plant is in the 500-year zone outside the line. OpenStreetMap is volunteer-mapped; a tank it lacks is not counted.</p></div>
+</section>
+
+<section class=two id=where-the-line-is>
+<div class=side><h2>Where the line is</h2></div>
+<div><p>FEMA maps the barrier's protected area as "area with reduced flood risk due to levee," its label for land behind a levee it credits. The main piece is 279.1 acres; the Army Corps gives "about 280 acres." FEMA credits two more pieces, for 418 acres in all:</p>
+<table><thead><tr><th>Piece</th><th class=n>Acres</th><th class=n>Residents</th><th class=n>Assessed</th></tr></thead><tbody><tr><td>Downtown, the Jewelry District, and the Woonasquatucket west toward Olneyville</td><td class=n>279</td><td class=n>2,721</td><td class=n>$2,167M</td></tr><tr><td>The east bank, Fox Point to Canal Street</td><td class=n>68</td><td class=n>327</td><td class=n>$374M</td></tr><tr><td>The Woonasquatucket, Eagle Square to Citizens Plaza</td><td class=n>66</td><td class=n>787</td><td class=n>$266M</td></tr></tbody></table><p class=note>Jobs: 14,878, 1,424, 2,280, in the same order. Acres are FEMA's polygons; the other columns use the same sources as the table above. A handful of slivers under two acres each make up the rest.</p></div>
+</section>
+
+<section class=two id=water-and-ground-on-one-scale>
+<div class=side><h2>Water and ground on one scale</h2></div>
+<div><p>Share of the ground lower than each water level, inside the line and on the coastal-zone parcels outside it:</p><div class=key><span><i class=in></i>Inside the line</span><span><i class=out></i>Coastal-zone parcels, outside the line</span></div><div class=levels role="table" aria-label="Share of the ground lower than each water level"><div class=lv><div class=lvname>Daily high tide</div><div class=lvft>2.4</div><div class=lvbars><div class="bar in"><span style="width:0"></span><b>—</b></div><div class="bar out"><span style="width:0"></span><b>—</b></div></div></div><div class=lv><div class=lvname>Gates close</div><div class=lvft>5.2</div><div class=lvbars><div class="bar in"><span style="width:0.3%"></span><b>0%</b></div><div class="bar out"><span style="width:2.2%"></span><b>2%</b></div></div></div><div class=lv><div class=lvname>Hurricane Bob, 1991: highest since the barrier</div><div class=lvft>7.5</div><div class=lvbars><div class="bar in"><span style="width:7.7%"></span><b>8%</b></div><div class="bar out"><span style="width:40.4%"></span><b>45%</b></div></div></div><div class=lv><div class=lvname>FEMA 1%-a-year flood, outside the line</div><div class=lvft>12.0</div><div class=lvbars><div class="bar in"><span style="width:46.0%"></span><b>51%</b></div><div class="bar out"><span style="width:79.7%"></span><b>89%</b></div></div></div><div class=lv><div class=lvname>Hurricane Carol, 1954</div><div class=lvft>14.0</div><div class=lvbars><div class="bar in"><span style="width:60.8%"></span><b>68%</b></div><div class="bar out"><span style="width:84.9%"></span><b>94%</b></div></div></div><div class=lv><div class=lvname>1938 hurricane: the gauge&#x27;s record</div><div class=lvft>15.0</div><div class=lvbars><div class="bar in"><span style="width:64.9%"></span><b>72%</b></div><div class="bar out"><span style="width:85.5%"></span><b>95%</b></div></div></div><div class=lv><div class=lvname>The barrier&#x27;s design storm</div><div class=lvft>19.7</div><div class=lvbars><div class="bar in"><span style="width:84.3%"></span><b>94%</b></div><div class="bar out"><span style="width:88.9%"></span><b>99%</b></div></div></div><div class=lv><div class=lvname>Top of the barrier</div><div class=lvft>24.2</div><div class=lvbars><div class="bar in"><span style="width:88.0%"></span><b>98%</b></div><div class="bar out"><span style="width:89.5%"></span><b>99%</b></div></div></div></div><p class=note>Feet above NAVD88. Daily high tide is mean higher high water; the gates close at 7.68 ft above mean lower low water; FEMA's coastal flood elevations outside the line run 12 to 15 ft, and the table uses the low end. Carol (16.5 ft above mean lower low water at the Providence gauge), the design storm (22.18) and the top of the barrier (26.68) are from the Coastal Resources Management Council's Metro Bay plan, January 2009 draft; the Corps' own design drawings are requested. Median ground: 11.9 ft inside the line (418 acres), 8.3 ft on the 266 acres of coastal-zone parcels outside it. Ground from 5-ft contours of the 2011 Northeast LiDAR, interpolated on a 20-ft grid; water levels from NOAA gauge 8454000, converted from mean lower low water (NAVD88 sits 2.47 ft above it at the gauge).</p>
+<h3>The same storm on a higher sea</h3><p>Share of the ground lower than Hurricane Bob's peak, raised by the Corps' sea-level curves:</p><div class=key><span><i class=in></i>Inside the line</span><span><i class=out></i>Coastal-zone parcels, outside the line</span></div><div class=levels role="table" aria-label="Share of the ground lower than each water level"><div class=lv><div class=lvname>Bob as it came, 1991</div><div class=lvft>7.5</div><div class=lvbars><div class="bar in"><span style="width:7.7%"></span><b>8%</b></div><div class="bar out"><span style="width:40.4%"></span><b>45%</b></div></div></div><div class=lv><div class=lvname>Bob in 2050, low curve (+0.3 ft)</div><div class=lvft>7.8</div><div class=lvbars><div class="bar in"><span style="width:10.5%"></span><b>12%</b></div><div class="bar out"><span style="width:42.2%"></span><b>47%</b></div></div></div><div class=lv><div class=lvname>Bob in 2050, intermediate (+0.5)</div><div class=lvft>8.0</div><div class=lvbars><div class="bar in"><span style="width:12.4%"></span><b>14%</b></div><div class="bar out"><span style="width:43.4%"></span><b>48%</b></div></div></div><div class=lv><div class=lvname>Bob in 2050, high (+1.3)</div><div class=lvft>8.8</div><div class=lvbars><div class="bar in"><span style="width:19.0%"></span><b>21%</b></div><div class="bar out"><span style="width:47.8%"></span><b>53%</b></div></div></div><div class=lv><div class=lvname>Bob in 2100, intermediate (+1.7)</div><div class=lvft>9.2</div><div class=lvbars><div class="bar in"><span style="width:21.6%"></span><b>24%</b></div><div class="bar out"><span style="width:49.9%"></span><b>55%</b></div></div></div><div class=lv><div class=lvname>Bob in 2100, high (+4.8)</div><div class=lvft>12.3</div><div class=lvbars><div class="bar in"><span style="width:49.1%"></span><b>55%</b></div><div class="bar out"><span style="width:82.2%"></span><b>91%</b></div></div></div></div><p class=note>Rise measured from 2016.5, the same curves as the projections below. Inside the line, these are the levels the barrier is there to hold out; its top is 24.2 ft.</p></div>
+</section>
+
+<section id=how-often-the-water-reaches-the-trigger>
+<h2>How often the water reaches the trigger</h2>
+<p style="max-width:64ch">The Corps closes the gates when the tide is forecast to reach 7.68 feet above mean lower low water at Providence. Every time since 1938 the water at Providence topped it: 35 times.</p>
+<div class=chart><svg viewBox="0 0 1000 190" role="img" aria-label="Every time since 1938 the water at Providence topped 7.68 feet: 35 times"><line x1="344.2" x2="344.2" y1="6" y2="160" class=barrier /><text x="351.2" y="16" class=lab>Barrier completed, 1966</text><rect x="53.5" y="27.1" width="8" height="132.9" class="ev pre"><title>1938-09: 17.51 ft</title></rect><rect x="89.7" y="146.5" width="8" height="13.5" class="ev pre"><title>1942-03: 8.11 ft</title></rect><rect x="115.5" y="113.5" width="8" height="46.5" class="ev pre"><title>1944-09: 10.71 ft</title></rect><rect x="117.2" y="149.1" width="8" height="10.9" class="ev pre"><title>1944-11: 7.91 ft</title></rect><rect x="127.6" y="150.3" width="8" height="9.7" class="ev pre"><title>1945-11: 7.81 ft</title></rect><rect x="218.0" y="40.0" width="8" height="120.0" class="ev pre"><title>1954-08: 16.50 ft</title></rect><rect x="280.8" y="127.5" width="8" height="32.5" class="ev pre"><title>1960-09: 9.61 ft</title></rect><rect x="313.5" y="128.8" width="8" height="31.2" class="ev pre"><title>1963-11: 9.51 ft</title></rect><rect x="345.4" y="149.1" width="8" height="10.9" class="ev"><title>1966-12: 7.91 ft</title></rect><rect x="378.1" y="147.8" width="8" height="12.2" class="ev"><title>1970-02: 8.01 ft</title></rect><rect x="398.7" y="151.4" width="8" height="8.6" class="ev"><title>1972-02: 7.73 ft</title></rect><rect x="406.5" y="147.3" width="8" height="12.7" class="ev"><title>1972-11: 8.05 ft</title></rect><rect x="428.0" y="138.5" width="8" height="21.5" class="ev"><title>1974-12: 8.74 ft</title></rect><rect x="459.8" y="125.7" width="8" height="34.3" class="ev"><title>1978-01: 9.75 ft</title></rect><rect x="539.0" y="133.3" width="8" height="26.7" class="ev"><title>1985-09-27: 9.15 ft</title></rect><rect x="552.0" y="148.3" width="8" height="11.7" class="ev"><title>1986-12-03: 7.97 ft</title></rect><rect x="552.8" y="133.7" width="8" height="26.3" class="ev"><title>1987-01-23: 9.12 ft</title></rect><rect x="570.9" y="152.0" width="8" height="8.0" class="ev"><title>1988-10-22: 7.68 ft</title></rect><rect x="593.3" y="146.6" width="8" height="13.4" class="ev"><title>1990-12-04: 8.10 ft</title></rect><rect x="600.2" y="122.6" width="8" height="37.4" class="ev"><title>1991-08-19: 9.99 ft</title></rect><rect x="601.9" y="151.2" width="8" height="8.8" class="ev"><title>1991-10-31: 7.74 ft</title></rect><rect x="645.8" y="143.8" width="8" height="16.2" class="ev"><title>1996-01-19: 8.32 ft</title></rect><rect x="656.1" y="142.6" width="8" height="17.4" class="ev"><title>1997-01-10: 8.42 ft</title></rect><rect x="756.8" y="145.1" width="8" height="14.9" class="ev"><title>2006-10-28: 8.23 ft</title></rect><rect x="762.0" y="136.4" width="8" height="23.6" class="ev"><title>2007-04-16: 8.91 ft</title></rect><rect x="779.2" y="145.3" width="8" height="14.7" class="ev"><title>2008-12-12: 8.21 ft</title></rect><rect x="806.8" y="146.4" width="8" height="13.6" class="ev"><title>2011-08-28: 8.12 ft</title></rect><rect x="818.8" y="132.8" width="8" height="27.2" class="ev"><title>2012-10-29: 9.19 ft</title></rect><rect x="874.8" y="151.3" width="8" height="8.7" class="ev"><title>2018-03-03: 7.74 ft</title></rect><rect x="914.4" y="151.6" width="8" height="8.4" class="ev"><title>2022-01-17: 7.71 ft</title></rect><rect x="923.8" y="134.0" width="8" height="26.0" class="ev"><title>2022-12-23: 9.10 ft</title></rect><rect x="934.2" y="133.8" width="8" height="26.2" class="ev"><title>2023-12-18: 9.12 ft</title></rect><rect x="935.0" y="148.6" width="8" height="11.4" class="ev"><title>2024-01-10: 7.95 ft</title></rect><rect x="935.0" y="144.1" width="8" height="15.9" class="ev"><title>2024-01-13: 8.30 ft</title></rect><rect x="936.7" y="151.4" width="8" height="8.6" class="ev"><title>2024-03-10: 7.72 ft</title></rect><text x="57.5" y="20.1" class=storm text-anchor=middle>1938</text><text x="222.0" y="33.0" class=storm text-anchor=middle>Carol</text><text x="604.2" y="115.6" class=storm text-anchor=middle>Bob</text><text x="822.8" y="125.8" class=storm text-anchor=middle>Sandy</text><line x1="20" x2="980" y1="160" y2="160" class=axis /><text x="71.3" y="180" class=ax text-anchor=middle>1940</text><text x="174.6" y="180" class=ax text-anchor=middle>1950</text><text x="277.9" y="180" class=ax text-anchor=middle>1960</text><text x="381.2" y="180" class=ax text-anchor=middle>1970</text><text x="484.5" y="180" class=ax text-anchor=middle>1980</text><text x="587.8" y="180" class=ax text-anchor=middle>1990</text><text x="691.1" y="180" class=ax text-anchor=middle>2000</text><text x="794.4" y="180" class=ax text-anchor=middle>2010</text><text x="897.7" y="180" class=ax text-anchor=middle>2020</text></svg></div>
+<p class=note>Bar height is the peak water, 7.68 to 17.5 ft above mean lower low water; grey bars are before the barrier. Complete years at NOAA gauge 8454000, 2020 through 2025: 0, 0, 2, 1, 3, 0 days above the trigger. The Corps reports 3 flood-control closures in 2024 and none in 2025.</p>
+<details><summary>Every time since 1938 the water at Providence topped 7.68 ft (35)</summary><table><thead><tr><th>Date</th><th>Storm</th><th class=n>Ft, MLLW</th></tr></thead><tbody><tr><td style="white-space:nowrap">1938-09*</td><td>The 1938 hurricane</td><td class=n>17.51</td></tr><tr><td style="white-space:nowrap">1942-03*</td><td></td><td class=n>8.11</td></tr><tr><td style="white-space:nowrap">1944-09*</td><td>The Great Atlantic Hurricane</td><td class=n>10.71</td></tr><tr><td style="white-space:nowrap">1944-11*</td><td></td><td class=n>7.91</td></tr><tr><td style="white-space:nowrap">1945-11*</td><td></td><td class=n>7.81</td></tr><tr><td style="white-space:nowrap">1954-08†</td><td>Hurricane Carol</td><td class=n>16.50</td></tr><tr><td style="white-space:nowrap">1960-09*</td><td>Hurricane Donna</td><td class=n>9.61</td></tr><tr><td style="white-space:nowrap">1963-11*</td><td></td><td class=n>9.51</td></tr><tr><td colspan=3 class=sub>The barrier is completed, 1966</td></tr><tr><td style="white-space:nowrap">1966-12*</td><td></td><td class=n>7.91</td></tr><tr><td style="white-space:nowrap">1970-02*</td><td></td><td class=n>8.01</td></tr><tr><td style="white-space:nowrap">1972-02*</td><td></td><td class=n>7.73</td></tr><tr><td style="white-space:nowrap">1972-11*</td><td></td><td class=n>8.05</td></tr><tr><td style="white-space:nowrap">1974-12*</td><td></td><td class=n>8.74</td></tr><tr><td style="white-space:nowrap">1978-01*</td><td></td><td class=n>9.75</td></tr><tr><td style="white-space:nowrap">1985-09-27</td><td>Hurricane Gloria</td><td class=n>9.15</td></tr><tr><td style="white-space:nowrap">1986-12-03</td><td></td><td class=n>7.97</td></tr><tr><td style="white-space:nowrap">1987-01-23</td><td></td><td class=n>9.12</td></tr><tr><td style="white-space:nowrap">1988-10-22</td><td></td><td class=n>7.68</td></tr><tr><td style="white-space:nowrap">1990-12-04</td><td></td><td class=n>8.10</td></tr><tr><td style="white-space:nowrap">1991-08-19</td><td>Hurricane Bob</td><td class=n>9.99</td></tr><tr><td style="white-space:nowrap">1991-10-31</td><td>The Perfect Storm</td><td class=n>7.74</td></tr><tr><td style="white-space:nowrap">1996-01-19</td><td></td><td class=n>8.32</td></tr><tr><td style="white-space:nowrap">1997-01-10</td><td></td><td class=n>8.42</td></tr><tr><td style="white-space:nowrap">2006-10-28</td><td></td><td class=n>8.23</td></tr><tr><td style="white-space:nowrap">2007-04-16</td><td></td><td class=n>8.91</td></tr><tr><td style="white-space:nowrap">2008-12-12</td><td></td><td class=n>8.21</td></tr><tr><td style="white-space:nowrap">2011-08-28</td><td>Tropical Storm Irene</td><td class=n>8.12</td></tr><tr><td style="white-space:nowrap">2012-10-29</td><td>Hurricane Sandy</td><td class=n>9.19</td></tr><tr><td style="white-space:nowrap">2018-03-03</td><td></td><td class=n>7.74</td></tr><tr><td style="white-space:nowrap">2022-01-17</td><td></td><td class=n>7.71</td></tr><tr><td style="white-space:nowrap">2022-12-23</td><td></td><td class=n>9.10</td></tr><tr><td style="white-space:nowrap">2023-12-18</td><td></td><td class=n>9.12</td></tr><tr><td style="white-space:nowrap">2024-01-10</td><td></td><td class=n>7.95</td></tr><tr><td style="white-space:nowrap">2024-01-13</td><td></td><td class=n>8.30</td></tr><tr><td style="white-space:nowrap">2024-03-10</td><td></td><td class=n>7.72</td></tr></tbody></table><p class=note>Dates are days where NOAA publishes the daily high tides (from 1977, except 1978). * Month only: NOAA's monthly highest water, where daily tides aren't published. † The gauge was not recording; 16.5 ft is the Coastal Resources Management Council's figure (Metro Bay plan, 2009 draft).</p></details>
+<h3>Days a year above the trigger, on the Corps' sea-level curves</h3>
+<table class=proj><thead><tr><th>Year</th><th class=n>Low</th><th class=n>Intermediate</th><th class=n>High</th></tr></thead><tbody><tr><td>2030</td><td class=n>0.6</td><td class=n>0.7</td><td class=n>1.1</td></tr><tr><td>2050</td><td class=n>0.9</td><td class=n>1.7</td><td class=n>20.2</td></tr><tr><td>2070</td><td class=n>1.2</td><td class=n>6.4</td><td class=n>167.2</td></tr><tr><td>2100</td><td class=n>3.6</td><td class=n>50.7</td><td class=n>364.5</td></tr></tbody></table>
+<p class=note>Tide heights from 2007–2025 replayed on each curve's sea level; trigger unchanged since design.</p>
+</section>
+
+<footer id=sources>
+Sources: <a href="https://www.rigis.org/">RIGIS</a> (RIEMA effective flood zones, FEMA FIRM 44007C; RIDEM tax parcels);
+<a href="https://tidesandcurrents.noaa.gov/stationhome.html?id=8454000">NOAA tide gauge 8454000, Providence</a> and its <a href="https://tidesandcurrents.noaa.gov/datums.html?id=8454000">datums</a>; RIGIS 5-ft contours (2011 Northeast LiDAR); US Census Bureau, 2020 redistricting data and LEHD LODES 8; City of Providence 2025 tax roll; OpenStreetMap (tanks, plants, substations);
+<a href="https://www.nae.usace.army.mil/Missions/Projects-Topics/Fox-Point-Hurricane-Barrier/">US Army Corps of Engineers, New England District</a>;
+<a href="https://www.crmc.ri.gov/sampmetrobay/MBSAMP-Hazards-Jan2009.pdf">RI CRMC, Metro Bay SAMP, natural hazards chapter (draft, Jan 2009)</a>.
+Map tiles © Esri; © OpenStreetMap contributors. Type: Source Serif 4 and Public Sans (SIL Open Font License).<br>Liam Freaney, Providence.
+</footer>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const map = L.map('map', {scrollWheelZoom:false}).fitBounds([[41.795,-71.43],[41.834,-71.393]]);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+  {maxZoom:16, attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'}).addTo(map);
+const ctl = L.control.layers(null, null, {collapsed:true}).addTo(map);
+fetch('rings.geojson').then(r=>r.json()).then(g=>{
+  const lay = L.geoJSON(g, {style:f=>({color:f.properties.colour, weight:1, fillColor:f.properties.colour, fillOpacity:.38}),
+    onEachFeature:(f,l)=>l.bindTooltip(f.properties.label, {sticky:true})}).addTo(map);
+  ctl.addOverlay(lay, 'Flood rings (FEMA)');
+});
+const RC = {"inside": "#2f6f4f", "coastal": "#b3362c", "riverine": "#d98b2b", "x500": "#e8c766"};
+const fmt = n => '$' + Math.round(n).toLocaleString('en-US');
+fetch('parcels.geojson').then(r=>r.json()).then(g=>{
+  const lay = L.geoJSON(g, {style:f=>({color:RC[f.properties.ring], weight:.8, fillColor:RC[f.properties.ring], fillOpacity:.15}),
+    onEachFeature:(f,l)=>{ const p=f.properties;
+      l.bindPopup('<b>'+p.addr+'</b><br>'+(p.cls||'')+(p.owner?'<br>'+p.owner:'')+
+        (p.assessed!=null?'<br>Assessed '+fmt(p.assessed)+' · billed '+fmt(p.billed):'')); }});
+  ctl.addOverlay(lay, 'Parcels (tap for the 2025 roll)');
+});
+fetch('contours.geojson').then(r=>r.json()).then(g=>{
+  const lay = L.geoJSON(g, {style:f=>({color:'#12324d', weight:f.properties.weight, dashArray:f.properties.dash, opacity:.75}),
+    onEachFeature:(f,l)=>l.bindTooltip(f.properties.label, {sticky:true})});
+  ctl.addOverlay(lay, 'Ground contours: 5, 10, 15 ft');
+});
+L.marker([41.81601,-71.40149], {icon:L.divIcon({className:'', html:'<div style="font-size:22px;line-height:1;color:#13283A">◆</div>', iconSize:[22,22], iconAnchor:[11,11]})})
+ .bindTooltip('Fox Point Hurricane Barrier').addTo(map);
+if (window.ResizeObserver) new ResizeObserver(() => map.invalidateSize()).observe(document.getElementById('map'));
+(function(){
+  const pad=n=>String(n).padStart(2,'0'), d=new Date();
+  const day=d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate());
+  const base='https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?station=8454000&datum=MLLW&units=english&time_zone=lst_ldt&format=json&application=insidetheline';
+  const el=document.getElementById('gauge'), T=7.68, NAVD=-2.47;
+  const when=t=>new Date(t.replace(' ','T')).toLocaleString('en-US',{weekday:'short',hour:'numeric',minute:'2-digit'});
+  const w=document.getElementById('nowwater');
+  function setWater(mllw){ if(!w) return; const ft=mllw+NAVD, top=+w.dataset.top, px=+w.dataset.px, off=+w.dataset.off, bot=+w.dataset.bot;
+    const y=Math.min(bot, Math.max(off, (top-ft)*px+off)); w.setAttribute('y', y.toFixed(1)); w.setAttribute('height', (bot-y).toFixed(1)); }
+  Promise.all([
+    fetch(base+'&product=water_level&date=latest').then(r=>r.json()).catch(()=>null),
+    fetch(base+'&product=predictions&interval=hilo&begin_date='+day+'&range=168').then(r=>r.json()).catch(()=>null)
+  ]).then(([now,pr])=>{
+    let h='';
+    if(now&&now.data&&now.data.length){ const v=+now.data[0].v; setWater(v);
+      h+='<p>Now: <b>'+v.toFixed(2)+' ft</b> above mean lower low water ('+when(now.data[0].t)+'), '+(T-v).toFixed(2)+' ft below where the gates close.</p>'; }
+    if(pr&&pr.predictions){ const hi=pr.predictions.filter(x=>x.type==='H'&&new Date(x.t.replace(' ','T'))>new Date()); const top=hi.reduce((a,b)=>(+b.v>+a.v?b:a),hi[0]);
+      h+='<p>Highest predicted tide in the next seven days: <b>'+(+top.v).toFixed(2)+' ft</b>, '+when(top.t)+' &mdash; '+(T-(+top.v)).toFixed(2)+' ft below 7.68.</p><p class=note>NOAA gauge 8454000, Providence. Predictions are the astronomical tide only; storm surge comes on top.</p>'; }
+    el.innerHTML=h||'NOAA gauge 8454000 did not answer.';
+  });
+})();
+</script>
+</body></html>
