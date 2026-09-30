@@ -1,0 +1,1098 @@
+{
+  "rate_per_1000": 29.2,
+  "owners": 80,
+  "parcels": 137,
+  "assessed": 1160868400,
+  "billed": 14860397,
+  "full_rate": 33897355,
+  "abated": 19036958,
+  "city_audit_fy2025": {
+    "agreements": 66,
+    "assessed": 1011723200,
+    "billed": 15937856,
+    "full_rate": 35511484,
+    "abated": 19621095,
+    "note": "TY2024 rates; roll is TY2025 after revaluation"
+  },
+  "ledger": [
+    {
+      "owner": "SOUTH STREET CV",
+      "parcels": 2,
+      "assessed": 119026500,
+      "billed": 434064,
+      "full_rate": 3475574,
+      "abated": 3041510,
+      "share_paid": 0.125,
+      "use": "",
+      "addresses": [
+        "350 Eddy St"
+      ]
+    },
+    {
+      "owner": "PROVIDENCE, L.P. EM 28",
+      "parcels": 1,
+      "assessed": 73010300,
+      "billed": 3670,
+      "full_rate": 2131901,
+      "abated": 2128231,
+      "share_paid": 0.002,
+      "use": "TSA",
+      "addresses": [
+        "125 Clifford St"
+      ]
+    },
+    {
+      "owner": "RIVER HOUSE HOLDINGS I LLC",
+      "parcels": 1,
+      "assessed": 56541200,
+      "billed": 343281,
+      "full_rate": 1651003,
+      "abated": 1307722,
+      "share_paid": 0.208,
+      "use": "TSA",
+      "addresses": [
+        "1 Point St"
+      ]
+    },
+    {
+      "owner": "PROVIDENCE INNOVATION DISTRICT PHASE I OWNER, LLC",
+      "parcels": 1,
+      "assessed": 49915700,
+      "billed": 309595,
+      "full_rate": 1457538,
+      "abated": 1147943,
+      "share_paid": 0.212,
+      "use": "TSA",
+      "addresses": [
+        "225 Dyer St"
+      ]
+    },
+    {
+      "owner": "LAURELMEAD REALTY LLC",
+      "parcels": 1,
+      "assessed": 50861400,
+      "billed": 338554,
+      "full_rate": 1485153,
+      "abated": 1146599,
+      "share_paid": 0.228,
+      "use": "",
+      "addresses": [
+        "355 Blackstone Bl"
+      ]
+    },
+    {
+      "owner": "PO LLC CC WCM-MP",
+      "parcels": 1,
+      "assessed": 33258700,
+      "billed": 202029,
+      "full_rate": 971154,
+      "abated": 769125,
+      "share_paid": 0.208,
+      "use": "",
+      "addresses": [
+        "180 Friendship St"
+      ]
+    },
+    {
+      "owner": "100 N MAIN OWNER LLC",
+      "parcels": 2,
+      "assessed": 43139400,
+      "billed": 522503,
+      "full_rate": 1259670,
+      "abated": 737168,
+      "share_paid": 0.415,
+      "use": "TSA",
+      "addresses": [
+        "100 North Main St",
+        "169 Canal St"
+      ]
+    },
+    {
+      "owner": "261, LLC",
+      "parcels": 1,
+      "assessed": 49608600,
+      "billed": 713140,
+      "full_rate": 1448571,
+      "abated": 735431,
+      "share_paid": 0.492,
+      "use": "TSA",
+      "addresses": [
+        "10 PARK ROW WEST"
+      ]
+    },
+    {
+      "owner": "78 FOUNTAIN STREET BAC LLC",
+      "parcels": 1,
+      "assessed": 38583900,
+      "billed": 401766,
+      "full_rate": 1126650,
+      "abated": 724884,
+      "share_paid": 0.357,
+      "use": "TSA",
+      "addresses": [
+        "78 Fountain St"
+      ]
+    },
+    {
+      "owner": "ANCORA 150 RICHMOND HOLDINGS LLC",
+      "parcels": 1,
+      "assessed": 26414100,
+      "billed": 53780,
+      "full_rate": 771292,
+      "abated": 717512,
+      "share_paid": 0.07,
+      "use": "",
+      "addresses": [
+        "150 Richmond St"
+      ]
+    },
+    {
+      "owner": "OWNER LLC BILTMORE PROVIDENCE",
+      "parcels": 1,
+      "assessed": 28061100,
+      "billed": 124506,
+      "full_rate": 819384,
+      "abated": 694878,
+      "share_paid": 0.152,
+      "use": "TSA",
+      "addresses": [
+        "11 Dorrance St"
+      ]
+    },
+    {
+      "owner": "VALLEY STREAM PROPERTY LLC",
+      "parcels": 1,
+      "assessed": 23642300,
+      "billed": 0,
+      "full_rate": 690355,
+      "abated": 690355,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "50 Convent St"
+      ]
+    },
+    {
+      "owner": "CV SOUTH STREET LANDING LLC",
+      "parcels": 1,
+      "assessed": 23635600,
+      "billed": 116670,
+      "full_rate": 690160,
+      "abated": 573490,
+      "share_paid": 0.169,
+      "use": "TSA",
+      "addresses": [
+        "330 EDDY St"
+      ]
+    },
+    {
+      "owner": "ALOFT LLC BAC CVP",
+      "parcels": 1,
+      "assessed": 19035100,
+      "billed": 44829,
+      "full_rate": 555825,
+      "abated": 510996,
+      "share_paid": 0.081,
+      "use": "TSA",
+      "addresses": [
+        "191 Dorrance St"
+      ]
+    },
+    {
+      "owner": "BRANCH HOLDINGS LLC",
+      "parcels": 4,
+      "assessed": 33370000,
+      "billed": 523458,
+      "full_rate": 974404,
+      "abated": 450946,
+      "share_paid": 0.537,
+      "use": "TSA",
+      "addresses": [
+        "715 Branch Ave",
+        "725R Branch Ave",
+        "745 Branch Ave",
+        "765 Branch Ave"
+      ]
+    },
+    {
+      "owner": "PROMENADE STREET OWNER LLC",
+      "parcels": 1,
+      "assessed": 36145100,
+      "billed": 766484,
+      "full_rate": 1055437,
+      "abated": 288953,
+      "share_paid": 0.726,
+      "use": "TSA",
+      "addresses": [
+        "25 Holden St"
+      ]
+    },
+    {
+      "owner": "PROSPECT CHARTERCARE RWMC,LLC",
+      "parcels": 12,
+      "assessed": 92349200,
+      "billed": 2418027,
+      "full_rate": 2696597,
+      "abated": 278569,
+      "share_paid": 0.897,
+      "use": "TSA",
+      "addresses": [
+        "17 Parkway Ave",
+        "21 Winrooth Ave",
+        "33 Rosebank Ave",
+        "37 Rosebank Ave",
+        "41 Rosebank Ave",
+        "45 Rosebank Ave"
+      ]
+    },
+    {
+      "owner": "HOLDINGS I LLC CBWC",
+      "parcels": 1,
+      "assessed": 10152100,
+      "billed": 21208,
+      "full_rate": 296441,
+      "abated": 275233,
+      "share_paid": 0.072,
+      "use": "TSA",
+      "addresses": [
+        "95 Chestnut St"
+      ]
+    },
+    {
+      "owner": "EXCHANGE ST HOTEL LLC",
+      "parcels": 1,
+      "assessed": 14301600,
+      "billed": 211425,
+      "full_rate": 417607,
+      "abated": 206182,
+      "share_paid": 0.506,
+      "use": "TSA",
+      "addresses": [
+        "5 Exchange St"
+      ]
+    },
+    {
+      "owner": "FOUNDATION FOR REPERTORY THEATRE OF RI INC",
+      "parcels": 1,
+      "assessed": 7212600,
+      "billed": 10000,
+      "full_rate": 210608,
+      "abated": 200608,
+      "share_paid": 0.047,
+      "use": "",
+      "addresses": [
+        "60 Adrian Hall Way"
+      ]
+    },
+    {
+      "owner": "TFG PROVIDENCE CENTER PROPERTY LLC",
+      "parcels": 1,
+      "assessed": 50717300,
+      "billed": 1300000,
+      "full_rate": 1480945,
+      "abated": 180945,
+      "share_paid": 0.878,
+      "use": "TSA",
+      "addresses": [
+        "10 Memorial Blvd"
+      ]
+    },
+    {
+      "owner": "PROVIDENCE LLC HSRE-HAMPSHIRE",
+      "parcels": 1,
+      "assessed": 11480000,
+      "billed": 166112,
+      "full_rate": 335216,
+      "abated": 169104,
+      "share_paid": 0.496,
+      "use": "TSA",
+      "addresses": [
+        "145 Corliss St"
+      ]
+    },
+    {
+      "owner": "THE PROVIDENCE COMM HEALTH CENTERS, INC",
+      "parcels": 1,
+      "assessed": 10869100,
+      "billed": 150000,
+      "full_rate": 317378,
+      "abated": 167378,
+      "share_paid": 0.473,
+      "use": "TSA",
+      "addresses": [
+        "335R Prairie Ave"
+      ]
+    },
+    {
+      "owner": "49 WESTFIELD LLC",
+      "parcels": 6,
+      "assessed": 9670800,
+      "billed": 116629,
+      "full_rate": 282387,
+      "abated": 165759,
+      "share_paid": 0.413,
+      "use": "TSA",
+      "addresses": [
+        "17 Fuller St",
+        "42 Warren St",
+        "45 Warren St",
+        "49 Westfield St",
+        "72 Wilson St",
+        "78 Wilson St"
+      ]
+    },
+    {
+      "owner": "PROVIDENCE CAPITAL LLC",
+      "parcels": 1,
+      "assessed": 16445000,
+      "billed": 336561,
+      "full_rate": 480194,
+      "abated": 143633,
+      "share_paid": 0.701,
+      "use": "TSA",
+      "addresses": [
+        "170 Westminster St"
+      ]
+    },
+    {
+      "owner": "",
+      "parcels": 1,
+      "assessed": 8410500,
+      "billed": 103873,
+      "full_rate": 245587,
+      "abated": 141714,
+      "share_paid": 0.423,
+      "use": "TSA",
+      "addresses": [
+        "55 Cromwell St"
+      ]
+    },
+    {
+      "owner": "180 GMC LLC",
+      "parcels": 1,
+      "assessed": 8494000,
+      "billed": 107195,
+      "full_rate": 248025,
+      "abated": 140829,
+      "share_paid": 0.432,
+      "use": "Commercial II",
+      "addresses": [
+        "180 George M. Cohan Blvd"
+      ]
+    },
+    {
+      "owner": "SHARPE BUILDING ASSOCIATES LLC",
+      "parcels": 1,
+      "assessed": 4111300,
+      "billed": 0,
+      "full_rate": 120050,
+      "abated": 120050,
+      "share_paid": 0.0,
+      "use": "TSA",
+      "addresses": [
+        "35 Holden St"
+      ]
+    },
+    {
+      "owner": "100 SABIN HOTEL LLC",
+      "parcels": 1,
+      "assessed": 19639400,
+      "billed": 454754,
+      "full_rate": 573470,
+      "abated": 118717,
+      "share_paid": 0.793,
+      "use": "TSA",
+      "addresses": [
+        "100 Sabin St"
+      ]
+    },
+    {
+      "owner": "122 FOUNTAIN STREET, LLC",
+      "parcels": 1,
+      "assessed": 3908900,
+      "billed": 9601,
+      "full_rate": 114140,
+      "abated": 104539,
+      "share_paid": 0.084,
+      "use": "TSA",
+      "addresses": [
+        "122 Fountain St"
+      ]
+    },
+    {
+      "owner": "HARRIS LLC 345",
+      "parcels": 1,
+      "assessed": 6605200,
+      "billed": 90973,
+      "full_rate": 192872,
+      "abated": 101899,
+      "share_paid": 0.472,
+      "use": "TSA",
+      "addresses": [
+        "345 Harris Ave"
+      ]
+    },
+    {
+      "owner": "1290 WESTMINSTER LLC",
+      "parcels": 1,
+      "assessed": 9110400,
+      "billed": 173276,
+      "full_rate": 266024,
+      "abated": 92747,
+      "share_paid": 0.651,
+      "use": "TSA",
+      "addresses": [
+        "1290 Westminster St"
+      ]
+    },
+    {
+      "owner": "RCG ARMORY PARK VIEW LLC",
+      "parcels": 1,
+      "assessed": 4770700,
+      "billed": 51851,
+      "full_rate": 139304,
+      "abated": 87454,
+      "share_paid": 0.372,
+      "use": "TSA",
+      "addresses": [
+        "31 Parade St"
+      ]
+    },
+    {
+      "owner": "468 WEST FOUNTAIN LLC",
+      "parcels": 1,
+      "assessed": 5638900,
+      "billed": 78918,
+      "full_rate": 164656,
+      "abated": 85738,
+      "share_paid": 0.479,
+      "use": "TSA",
+      "addresses": [
+        "473 Washington St"
+      ]
+    },
+    {
+      "owner": "ROGER WILLIAMS GENERAL HOSPITAL",
+      "parcels": 16,
+      "assessed": 2818500,
+      "billed": 0,
+      "full_rate": 82300,
+      "abated": 82300,
+      "share_paid": 0.0,
+      "use": "TSA",
+      "addresses": [
+        "25 Winrooth Ave",
+        "29 Winrooth Ave",
+        "33 Winrooth Ave",
+        "37 Winrooth Ave",
+        "41 Winrooth Ave",
+        "444 Pleasant Valley Pkwy"
+      ]
+    },
+    {
+      "owner": "MATILDA PINES LLC",
+      "parcels": 1,
+      "assessed": 3533800,
+      "billed": 26389,
+      "full_rate": 103187,
+      "abated": 76798,
+      "share_paid": 0.256,
+      "use": "TSA",
+      "addresses": [
+        "47 Matilda St"
+      ]
+    },
+    {
+      "owner": "8 HEWITT STREET LLC",
+      "parcels": 1,
+      "assessed": 3768300,
+      "billed": 50159,
+      "full_rate": 110034,
+      "abated": 59876,
+      "share_paid": 0.456,
+      "use": "",
+      "addresses": [
+        "8-10 Hewitt St"
+      ]
+    },
+    {
+      "owner": "MCINNIS USA INC",
+      "parcels": 1,
+      "assessed": 7647400,
+      "billed": 171944,
+      "full_rate": 223304,
+      "abated": 51360,
+      "share_paid": 0.77,
+      "use": "TSA",
+      "addresses": [
+        "39 New York Ave"
+      ]
+    },
+    {
+      "owner": "L.L.C. RP PROVIDENCE",
+      "parcels": 3,
+      "assessed": 32306200,
+      "billed": 895712,
+      "full_rate": 943341,
+      "abated": 47629,
+      "share_paid": 0.95,
+      "use": "TSA",
+      "addresses": [
+        "1 Avenue of the Arts",
+        "3 Avenue of the Arts",
+        "5 Avenue of the Arts"
+      ]
+    },
+    {
+      "owner": "SPRAGUE STREET OWNER LLC",
+      "parcels": 2,
+      "assessed": 4384000,
+      "billed": 82331,
+      "full_rate": 128013,
+      "abated": 45682,
+      "share_paid": 0.643,
+      "use": "TSA",
+      "addresses": [
+        "40 Sprague St",
+        "50 Sprague St"
+      ]
+    },
+    {
+      "owner": "UNISON WEST FOUNTAIN LLC",
+      "parcels": 1,
+      "assessed": 6631000,
+      "billed": 152427,
+      "full_rate": 193625,
+      "abated": 41199,
+      "share_paid": 0.787,
+      "use": "TSA",
+      "addresses": [
+        "466 Fountain St"
+      ]
+    },
+    {
+      "owner": "PARTNERS LLC 30 KENNEDY",
+      "parcels": 1,
+      "assessed": 5830000,
+      "billed": 142668,
+      "full_rate": 170236,
+      "abated": 27568,
+      "share_paid": 0.838,
+      "use": "TSA",
+      "addresses": [
+        "59 Westminster St"
+      ]
+    },
+    {
+      "owner": "BASSETT CHESTNUT I LLC",
+      "parcels": 7,
+      "assessed": 6302300,
+      "billed": 157662,
+      "full_rate": 184027,
+      "abated": 26365,
+      "share_paid": 0.857,
+      "use": "Industrial",
+      "addresses": [
+        "174 Clifford St",
+        "178 Clifford St",
+        "33 Bassett St",
+        "41 Bassett St",
+        "45 Bassett St",
+        "47 Bassett St"
+      ]
+    },
+    {
+      "owner": "PROVIDENCE CAPITAL HOLDINGS LLC",
+      "parcels": 1,
+      "assessed": 12495300,
+      "billed": 341388,
+      "full_rate": 364863,
+      "abated": 23475,
+      "share_paid": 0.936,
+      "use": "TSA",
+      "addresses": [
+        "185 Westminster St"
+      ]
+    },
+    {
+      "owner": "HM VENTURES GROUP 8 LLC",
+      "parcels": 4,
+      "assessed": 4105200,
+      "billed": 96998,
+      "full_rate": 119872,
+      "abated": 22874,
+      "share_paid": 0.809,
+      "use": "TSA",
+      "addresses": [
+        "225 Weybosset St",
+        "225 Weybosset St Unit R12",
+        "225 Weybosset St Unit R2",
+        "225 Weybosset St Unit R6"
+      ]
+    },
+    {
+      "owner": "PROSPECT CHARTERCARE SJHSRI LLC",
+      "parcels": 2,
+      "assessed": 756900,
+      "billed": 0,
+      "full_rate": 22101,
+      "abated": 22101,
+      "share_paid": 0.0,
+      "use": "TSA",
+      "addresses": [
+        "864 Admiral St",
+        "872 Admiral St"
+      ]
+    },
+    {
+      "owner": "PARTNERS LLC FEDERAL HILL",
+      "parcels": 1,
+      "assessed": 4057400,
+      "billed": 97461,
+      "full_rate": 118476,
+      "abated": 21015,
+      "share_paid": 0.823,
+      "use": "TSA",
+      "addresses": [
+        "14 Piedmont St"
+      ]
+    },
+    {
+      "owner": "OSAWA LLC",
+      "parcels": 4,
+      "assessed": 708300,
+      "billed": 0,
+      "full_rate": 20682,
+      "abated": 20682,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit C1",
+        "225 Weybosset St Unit C2",
+        "225 Weybosset St Unit C3",
+        "225 Weybosset St Unit C4"
+      ]
+    },
+    {
+      "owner": "CHEN DEBBIE",
+      "parcels": 1,
+      "assessed": 603600,
+      "billed": 0,
+      "full_rate": 17625,
+      "abated": 17625,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit R11"
+      ]
+    },
+    {
+      "owner": "LLC WEYBOSSET",
+      "parcels": 1,
+      "assessed": 2193600,
+      "billed": 48039,
+      "full_rate": 64053,
+      "abated": 16014,
+      "share_paid": 0.75,
+      "use": "TSA",
+      "addresses": [
+        "259 Weybosset St"
+      ]
+    },
+    {
+      "owner": "GYURMEY TSEWANG",
+      "parcels": 2,
+      "assessed": 423100,
+      "billed": 0,
+      "full_rate": 12355,
+      "abated": 12355,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit R1",
+        "225 Weybosset St Unit R5"
+      ]
+    },
+    {
+      "owner": "FOUNTAINVIEW OWNER LLC",
+      "parcels": 1,
+      "assessed": 14808400,
+      "billed": 420348,
+      "full_rate": 432405,
+      "abated": 12057,
+      "share_paid": 0.972,
+      "use": "TSA",
+      "addresses": [
+        "75 Fountain St"
+      ]
+    },
+    {
+      "owner": "LLC 530 BROADWAY",
+      "parcels": 1,
+      "assessed": 5103400,
+      "billed": 137390,
+      "full_rate": 149019,
+      "abated": 11629,
+      "share_paid": 0.922,
+      "use": "TSA",
+      "addresses": [
+        "530 Broadway St"
+      ]
+    },
+    {
+      "owner": "POWER 250 LLC",
+      "parcels": 2,
+      "assessed": 976600,
+      "billed": 17585,
+      "full_rate": 28517,
+      "abated": 10932,
+      "share_paid": 0.617,
+      "use": "Commercial Ind Vct",
+      "addresses": [
+        "161 Gano St",
+        "165 Gano St"
+      ]
+    },
+    {
+      "owner": "KVK LLC",
+      "parcels": 1,
+      "assessed": 365100,
+      "billed": 0,
+      "full_rate": 10661,
+      "abated": 10661,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit R10"
+      ]
+    },
+    {
+      "owner": "WIDE PLANK LLC",
+      "parcels": 1,
+      "assessed": 893900,
+      "billed": 15861,
+      "full_rate": 26102,
+      "abated": 10240,
+      "share_paid": 0.608,
+      "use": "TSA",
+      "addresses": [
+        "193 Vinton St"
+      ]
+    },
+    {
+      "owner": "MANTON DEVELOPMENT PARTNERS LLC",
+      "parcels": 1,
+      "assessed": 1186100,
+      "billed": 26273,
+      "full_rate": 34634,
+      "abated": 8361,
+      "share_paid": 0.759,
+      "use": "Commercial II",
+      "addresses": [
+        "265 Manton Ave"
+      ]
+    },
+    {
+      "owner": "45 PARADE STREET LLC",
+      "parcels": 1,
+      "assessed": 272800,
+      "billed": 0,
+      "full_rate": 7966,
+      "abated": 7966,
+      "share_paid": 0.0,
+      "use": "TSA",
+      "addresses": [
+        "45 Parade St"
+      ]
+    },
+    {
+      "owner": "FDIR TRUST DATED 04/15/2022",
+      "parcels": 1,
+      "assessed": 262900,
+      "billed": 0,
+      "full_rate": 7677,
+      "abated": 7677,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit R3"
+      ]
+    },
+    {
+      "owner": "RCG ARMORY FIREHOUSE LLC",
+      "parcels": 1,
+      "assessed": 698400,
+      "billed": 12839,
+      "full_rate": 20393,
+      "abated": 7554,
+      "share_paid": 0.63,
+      "use": "TSA",
+      "addresses": [
+        "41 Central St"
+      ]
+    },
+    {
+      "owner": "PERRETTA ANTHONY",
+      "parcels": 1,
+      "assessed": 257800,
+      "billed": 0,
+      "full_rate": 7528,
+      "abated": 7528,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit R7"
+      ]
+    },
+    {
+      "owner": "RICHWINE BRIAN",
+      "parcels": 1,
+      "assessed": 251900,
+      "billed": 0,
+      "full_rate": 7355,
+      "abated": 7355,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit R8"
+      ]
+    },
+    {
+      "owner": "SAMPALIS REALTY LLC",
+      "parcels": 1,
+      "assessed": 2412400,
+      "billed": 63215,
+      "full_rate": 70442,
+      "abated": 7227,
+      "share_paid": 0.897,
+      "use": "TSA",
+      "addresses": [
+        "203 Weybosset St"
+      ]
+    },
+    {
+      "owner": "O'BRIEN MICHAEL",
+      "parcels": 1,
+      "assessed": 246000,
+      "billed": 0,
+      "full_rate": 7183,
+      "abated": 7183,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit R9"
+      ]
+    },
+    {
+      "owner": "BRANDT BENJAMIN",
+      "parcels": 1,
+      "assessed": 243900,
+      "billed": 0,
+      "full_rate": 7122,
+      "abated": 7122,
+      "share_paid": 0.0,
+      "use": "",
+      "addresses": [
+        "225 Weybosset St Unit R4"
+      ]
+    },
+    {
+      "owner": "8TH INVESTMENT LLC",
+      "parcels": 1,
+      "assessed": 2657700,
+      "billed": 70804,
+      "full_rate": 77605,
+      "abated": 6801,
+      "share_paid": 0.912,
+      "use": "TSA",
+      "addresses": [
+        "18 Eighth St"
+      ]
+    },
+    {
+      "owner": "MAXTON INVESTMENTS LLC",
+      "parcels": 1,
+      "assessed": 252100,
+      "billed": 2962,
+      "full_rate": 7361,
+      "abated": 4399,
+      "share_paid": 0.402,
+      "use": "Residential Vacant",
+      "addresses": [
+        "241 Pocasset Ave"
+      ]
+    },
+    {
+      "owner": "PARTNERS LLC 271 TOCKWOTTEN",
+      "parcels": 1,
+      "assessed": 3640000,
+      "billed": 101932,
+      "full_rate": 106288,
+      "abated": 4356,
+      "share_paid": 0.959,
+      "use": "TSA",
+      "addresses": [
+        "271 Tockwotten St"
+      ]
+    },
+    {
+      "owner": "SEVENTY ONE RICHMOND LLC",
+      "parcels": 1,
+      "assessed": 1567200,
+      "billed": 41500,
+      "full_rate": 45762,
+      "abated": 4262,
+      "share_paid": 0.907,
+      "use": "TSA",
+      "addresses": [
+        "71-85 Richmond St"
+      ]
+    },
+    {
+      "owner": "TOUCHDOWN REALTY GROUP LLC",
+      "parcels": 1,
+      "assessed": 660400,
+      "billed": 15584,
+      "full_rate": 19284,
+      "abated": 3699,
+      "share_paid": 0.808,
+      "use": "Apartments",
+      "addresses": [
+        "126 Adelaide Ave"
+      ]
+    },
+    {
+      "owner": "LLC 101 RICHMOND",
+      "parcels": 1,
+      "assessed": 830300,
+      "billed": 22271,
+      "full_rate": 24245,
+      "abated": 1974,
+      "share_paid": 0.919,
+      "use": "TSA",
+      "addresses": [
+        "101 Richmond St"
+      ]
+    },
+    {
+      "owner": "FTC REALTY LLC",
+      "parcels": 1,
+      "assessed": 613200,
+      "billed": 17905,
+      "full_rate": 17905,
+      "abated": 0,
+      "share_paid": 1.0,
+      "use": "TSA",
+      "addresses": [
+        "292 Academy Ave"
+      ]
+    },
+    {
+      "owner": "S.W.A.P. INC (STOP WASTING ABANDONED PROPERTY)",
+      "parcels": 1,
+      "assessed": 327100,
+      "billed": 9551,
+      "full_rate": 9551,
+      "abated": 0,
+      "share_paid": 1.0,
+      "use": "TSA",
+      "addresses": [
+        "321 Knight St"
+      ]
+    },
+    {
+      "owner": "POSTAL KITCHEN LLC",
+      "parcels": 1,
+      "assessed": 352100,
+      "billed": 10544,
+      "full_rate": 10281,
+      "abated": -263,
+      "share_paid": 1.026,
+      "use": "Industrial",
+      "addresses": [
+        "1836 Westminster St"
+      ]
+    },
+    {
+      "owner": "COASTWAY MANAGEMENT LLC",
+      "parcels": 1,
+      "assessed": 474600,
+      "billed": 15627,
+      "full_rate": 13858,
+      "abated": -1768,
+      "share_paid": 1.128,
+      "use": "Combination",
+      "addresses": [
+        "381 Wickenden St"
+      ]
+    },
+    {
+      "owner": "LAUDERDALE LOFTS MT LLC (LESSEE)",
+      "parcels": 1,
+      "assessed": 1954500,
+      "billed": 65679,
+      "full_rate": 57071,
+      "abated": -8608,
+      "share_paid": 1.151,
+      "use": "Commercial II",
+      "addresses": [
+        "136-144 Westminster St"
+      ]
+    },
+    {
+      "owner": "INVESTMENT LLC FILI",
+      "parcels": 1,
+      "assessed": 4233100,
+      "billed": 133643,
+      "full_rate": 123607,
+      "abated": -10036,
+      "share_paid": 1.081,
+      "use": "TSA",
+      "addresses": [
+        "225 Waterman St"
+      ]
+    },
+    {
+      "owner": "WESTMINSTER PARTNERS LLC",
+      "parcels": 1,
+      "assessed": 4391400,
+      "billed": 139688,
+      "full_rate": 128229,
+      "abated": -11460,
+      "share_paid": 1.089,
+      "use": "TSA",
+      "addresses": [
+        "203 Westminster St"
+      ]
+    },
+    {
+      "owner": "E.2000 REALTY LLC",
+      "parcels": 4,
+      "assessed": 728300,
+      "billed": 58376,
+      "full_rate": 21266,
+      "abated": -37109,
+      "share_paid": 2.745,
+      "use": "TSA",
+      "addresses": [
+        "533 Hartford Ave",
+        "537 Hartford Ave",
+        "541 Hartford Ave",
+        "547 Hartford Ave"
+      ]
+    },
+    {
+      "owner": "HIGH ROCK WESTMINSTER STREET",
+      "parcels": 1,
+      "assessed": 13505900,
+      "billed": 498910,
+      "full_rate": 394372,
+      "abated": -104538,
+      "share_paid": 1.265,
+      "use": "TSA",
+      "addresses": [
+        "55 Kennedy Plz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+#!/bin/sh
+# Rebuild providenceontherecord.org, commit, push to snickeringpeach/on-the-record.
+# Push = deploy (Vercel serves site/ from that repo).
+set -e
+cd "$(dirname "$0")"
+python3 build.py
+git add -A
+git commit -m "${1:-update}" || true
+gh auth switch -u snickeringpeach >/dev/null 2>&1 || true
+rc=0; git push origin HEAD:main || rc=$?
+gh auth switch -u lfreaney >/dev/null 2>&1 || true
+exit $rc

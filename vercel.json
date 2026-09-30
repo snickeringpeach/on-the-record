@@ -1,0 +1,11 @@
+{
+  "buildCommand": "",
+  "outputDirectory": "site",
+  "framework": null,
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {"source": "/untaxed", "destination": "/off-the-roll/", "permanent": true},
+    {"source": "/untaxed/:path*", "destination": "/off-the-roll/:path*", "permanent": true}
+  ]
+}

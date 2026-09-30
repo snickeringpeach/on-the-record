@@ -1,0 +1,6175 @@
+[
+ {
+  "address": "10 Memorial Boulevard",
+  "owner": "TFG Providence Center Property LLC (10 Memorial Blvd Owner LLC)",
+  "ordinance": "2003-39 No. 531",
+  "plat_lot": "19-109",
+  "description": "An ordinance establishing a tax stabilization plan and related tax stabilization agreement for the IGT (formerly known as GTECH) corporate headquarters.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 59469900.0,
+    "billed": 1300000.0,
+    "rate": 35.1,
+    "full": 2087393.0,
+    "abated": 787393.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 59469900.0,
+    "billed": 1300000.0,
+    "rate": 35.1,
+    "full": 2087393.0,
+    "abated": 787393.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 59469900.0,
+    "billed": 1300000.0,
+    "rate": null,
+    "full": 2105234.0,
+    "abated": 805234.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 61776800.0,
+    "billed": 1200000.0,
+    "rate": 36.7,
+    "full": 2267209.0,
+    "abated": 1067209.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 61776800.0,
+    "billed": 1200000.0,
+    "rate": 36.7,
+    "full": 2267209.0,
+    "abated": 1067209.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 61776800.0,
+    "billed": 1200000.0,
+    "rate": 36.7,
+    "full": 2267209.0,
+    "abated": 1067209.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 55319800.0,
+    "billed": 1200000.0,
+    "rate": 36.7,
+    "full": 2030237.0,
+    "abated": 830237.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 55319800.0,
+    "billed": 1200000.0,
+    "rate": 36.7,
+    "full": 2030237.0,
+    "abated": 830237.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 32697548.0,
+    "billed": 1200000.0,
+    "rate": 36.7,
+    "full": 1200000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 30136986.0,
+    "billed": 1100000.0,
+    "rate": 36.7,
+    "full": 1106027.0,
+    "abated": 6027.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 29931973.0,
+    "billed": 1100000.0,
+    "rate": 36.75,
+    "full": 1100000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 29931973.0,
+    "billed": 1100000.0,
+    "rate": 36.75,
+    "full": 1100000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 32592593.0,
+    "billed": 1100000.0,
+    "rate": 36.75,
+    "full": 1197778.0,
+    "abated": 97778.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 29931973.0,
+    "billed": 1100000.0,
+    "rate": 36.75,
+    "full": 1100000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2010,
+    "assessed": 29931973.0,
+    "billed": 1100000.0,
+    "rate": 36.75,
+    "full": 1100000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2009,
+    "assessed": 29673591.0,
+    "billed": 1000000.0,
+    "rate": 33.7,
+    "full": 1000000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2008,
+    "assessed": 34965035.0,
+    "billed": 1000000.0,
+    "rate": 28.6,
+    "full": 1000000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2007,
+    "assessed": 35714286.0,
+    "billed": 1000000.0,
+    "rate": 28.0,
+    "full": 1000000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2006,
+    "assessed": 37064492.0,
+    "billed": 1000371.0,
+    "rate": 26.99,
+    "full": 1000371.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2005,
+    "assessed": 6273038.0,
+    "billed": 236619.0,
+    "rate": 37.72,
+    "full": 236619.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2004,
+    "assessed": 6142471.0,
+    "billed": 231694.0,
+    "rate": 37.72,
+    "full": 231694.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2003,
+    "assessed": 6262010.0,
+    "billed": 231694.0,
+    "rate": 37.0,
+    "full": 231694.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2002,
+    "assessed": 6446700.0,
+    "billed": 250261.0,
+    "rate": 38.82,
+    "full": 250261.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 7345925.0,
+  "abated_sum": 7345926.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "1-5 Avenue of the Arts",
+  "owner": "RP Providence Owner LLC",
+  "ordinance": "2003-38 No. 530",
+  "plat_lot": "4-258, 259, 260",
+  "description": "The Project Owner has evidenced the willingness to restore and reconstruct the Masonic Temple into a four star, 205,000 square foot, 256-room hotel featuring 13,000 square feet of meeting space, a bar, a restaurant and a fitenss center.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "A is not a requirement for this TSA",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "No",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 43321100.0,
+    "billed": 879874.0,
+    "rate": 35.1,
+    "full": 1520571.0,
+    "abated": 640697.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 55321511.0,
+    "billed": 864316.0,
+    "rate": 35.1,
+    "full": 1941785.0,
+    "abated": 1077469.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 53473011.0,
+    "billed": 849034.0,
+    "rate": 35.4,
+    "full": 1892945.0,
+    "abated": 1043911.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 834021.0,
+    "billed": 2070198.0,
+    "rate": 36.7,
+    "full": -1236177.0,
+    "abated": -3306375.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 54005943.0,
+    "billed": 745841.0,
+    "rate": 36.7,
+    "full": 1982018.0,
+    "abated": 1236177.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 51681093.0,
+    "billed": 660519.0,
+    "rate": 36.7,
+    "full": 1896696.0,
+    "abated": 1236177.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 52979774.0,
+    "billed": 577980.0,
+    "rate": 36.7,
+    "full": 1944358.0,
+    "abated": 1366378.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 13573678.0,
+    "billed": 498154.0,
+    "rate": 36.7,
+    "full": 498154.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 11533425.0,
+    "billed": 420970.0,
+    "rate": 36.7,
+    "full": 423277.0,
+    "abated": 2307.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 9594422.0,
+    "billed": 352595.0,
+    "rate": 36.75,
+    "full": 352595.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 5873279.0,
+    "billed": 215843.0,
+    "rate": 36.75,
+    "full": 215843.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 6395348.0,
+    "billed": 215843.0,
+    "rate": 36.75,
+    "full": 235029.0,
+    "abated": 19186.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 4012735.0,
+    "billed": 147468.0,
+    "rate": 36.75,
+    "full": 147468.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 2152163.0,
+    "billed": 79092.0,
+    "rate": 36.75,
+    "full": 79092.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2010,
+    "assessed": 2346944.0,
+    "billed": 79092.0,
+    "rate": 33.7,
+    "full": 79092.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2009,
+    "assessed": 2765455.0,
+    "billed": 79092.0,
+    "rate": 28.6,
+    "full": 79092.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2008,
+    "assessed": 2824714.0,
+    "billed": 79092.0,
+    "rate": 28.0,
+    "full": 79092.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2007,
+    "assessed": 31061205.0,
+    "billed": 79121.0,
+    "rate": 26.99,
+    "full": 838342.0,
+    "abated": 759221.0
+   },
+   {
+    "tax_year": 2006,
+    "assessed": 2096819.0,
+    "billed": 79092.0,
+    "rate": 37.72,
+    "full": 79092.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2005,
+    "assessed": 2137081.0,
+    "billed": 80611.0,
+    "rate": 37.72,
+    "full": -80611.0,
+    "abated": -161222.0
+   },
+   {
+    "tax_year": 2004,
+    "assessed": 3000181.0,
+    "billed": 79072.0,
+    "rate": 37.0,
+    "full": 111007.0,
+    "abated": 31935.0
+   }
+  ],
+  "savings_to_date": 8730244.0,
+  "abated_sum": 3945861.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "not required",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "no",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "100-500 Exchange Street",
+  "owner": "Intercontinental Fund (Blue Cross & Blue Shield)",
+  "ordinance": "2004-3 No. 3 2005-22 No. 110",
+  "plat_lot": "19-102-BCBS",
+  "description": "Capitol Properties has evidenced a willingness to construct: a multi-level 442 car parking space structure; a 12 story, 176 room hotel of approximately 100,000 sq. ft.; a 12 story residential apartment building of approximately 110,000 sq. ft. containing 55 units; an 11 story residential apartment building of approximately 128,000 sq. ft. containing 91 units along with 10,173 sq. ft. of retail space on the ground floor; a 13 1/2 story residential apartment building of approximately 203,000 sq. ft. containing 134 units along with 10,155 sq. ft. of retail space on the ground floor; a 5,836 sq. ft. pavilion/restaurant.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 68930600.0,
+    "billed": 1759481.0,
+    "rate": 35.1,
+    "full": 2419464.0,
+    "abated": 659983.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 68930600.0,
+    "billed": 1595684.0,
+    "rate": 35.1,
+    "full": 2419464.0,
+    "abated": 823780.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 68930600.0,
+    "billed": 1595684.0,
+    "rate": null,
+    "full": 2440143.0,
+    "abated": 844459.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 51647000.0,
+    "billed": 1431888.0,
+    "rate": 36.7,
+    "full": 1895445.0,
+    "abated": 463557.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 44427500.0,
+    "billed": 1431888.0,
+    "rate": 36.7,
+    "full": 1630489.0,
+    "abated": 198601.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 44427500.0,
+    "billed": 1268091.0,
+    "rate": 36.7,
+    "full": 1630489.0,
+    "abated": 362398.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 48923000.0,
+    "billed": 1268091.0,
+    "rate": 36.7,
+    "full": 1795474.0,
+    "abated": 527383.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 30089782.0,
+    "billed": 1104295.0,
+    "rate": 36.7,
+    "full": 1104295.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 30254658.0,
+    "billed": 1104295.0,
+    "rate": 36.7,
+    "full": 1110346.0,
+    "abated": 6051.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 25591809.0,
+    "billed": 940498.0,
+    "rate": 36.7,
+    "full": 939219.0,
+    "abated": -1279.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 25591810.0,
+    "billed": 940499.0,
+    "rate": 36.75,
+    "full": 940499.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 22758400.0,
+    "billed": 768096.0,
+    "rate": 36.75,
+    "full": 836371.0,
+    "abated": 68275.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 15703111.0,
+    "billed": 577089.0,
+    "rate": 36.75,
+    "full": 577089.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 15703111.0,
+    "billed": 577089.0,
+    "rate": 36.75,
+    "full": 577089.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2010,
+    "assessed": 15703111.0,
+    "billed": 529195.0,
+    "rate": 36.75,
+    "full": 577089.0,
+    "abated": 47894.0
+   },
+   {
+    "tax_year": 2009,
+    "assessed": 15703111.0,
+    "billed": 449109.0,
+    "rate": 33.7,
+    "full": 529195.0,
+    "abated": 80086.0
+   }
+  ],
+  "savings_to_date": 4081190.0,
+  "abated_sum": 4081188.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "80 Smith Street CC",
+  "owner": "261, LLC",
+  "ordinance": "2005-17 No. 88",
+  "plat_lot": "4-261",
+  "description": "Capitol Cove, LLC, as the long term lessee of said Parcel has evidenced a willingness to construct a multi-story apartment building consisting of two hundred and sixty-five (265) apartments and three hundred and thirty (330) parking spaces, with 1,500 square feet of retail space on its first floor on (\"Phase I,\" as further described below), and to explore the possibility of constructing of two (2) additional multi-story residential buildings on the site (\"Phase II' and/or \"Phase Ill,\").",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "2,500.00 Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 23359700.0,
+    "billed": 411918.0,
+    "rate": 35.1,
+    "full": 819925.0,
+    "abated": 408007.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 23359700.0,
+    "billed": 395603.0,
+    "rate": 35.1,
+    "full": 819925.0,
+    "abated": 424322.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 379288.0,
+    "billed": 826933.0,
+    "rate": 35.4,
+    "full": -447645.0,
+    "abated": -1274578.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 20477700.0,
+    "billed": 379288.0,
+    "rate": 36.7,
+    "full": 751532.0,
+    "abated": 372244.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 20477700.0,
+    "billed": 346658.0,
+    "rate": 36.7,
+    "full": 751532.0,
+    "abated": 404874.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 19663200.0,
+    "billed": 314028.0,
+    "rate": 36.7,
+    "full": 721639.0,
+    "abated": 407611.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 8556621.0,
+    "billed": 314028.0,
+    "rate": 36.7,
+    "full": 314028.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 7709562.0,
+    "billed": 281399.0,
+    "rate": 36.7,
+    "full": 282941.0,
+    "abated": 1542.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 7248803.0,
+    "billed": 281399.0,
+    "rate": 36.7,
+    "full": 266031.0,
+    "abated": -15368.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 26356626.0,
+    "billed": 968606.0,
+    "rate": 36.7,
+    "full": 967288.0,
+    "abated": -1318.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 26030637.0,
+    "billed": 878534.0,
+    "rate": 36.75,
+    "full": 956626.0,
+    "abated": 78092.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 17653497.0,
+    "billed": 648766.0,
+    "rate": 36.75,
+    "full": 648766.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 16765605.0,
+    "billed": 616136.0,
+    "rate": 36.75,
+    "full": 616136.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 18282967.0,
+    "billed": 616136.0,
+    "rate": 36.75,
+    "full": 671899.0,
+    "abated": 55763.0
+   },
+   {
+    "tax_year": 2010,
+    "assessed": 18120524.0,
+    "billed": 518247.0,
+    "rate": 36.75,
+    "full": 665929.0,
+    "abated": 147682.0
+   },
+   {
+    "tax_year": 2009,
+    "assessed": 18508821.0,
+    "billed": 518247.0,
+    "rate": 33.7,
+    "full": 623747.0,
+    "abated": 105500.0
+   },
+   {
+    "tax_year": 2008,
+    "assessed": 19208562.0,
+    "billed": 518439.0,
+    "rate": 28.6,
+    "full": 549365.0,
+    "abated": 30926.0
+   },
+   {
+    "tax_year": 2007,
+    "assessed": 13739316.0,
+    "billed": 518247.0,
+    "rate": 28.0,
+    "full": 384701.0,
+    "abated": -133546.0
+   }
+  ],
+  "savings_to_date": 2733977.0,
+  "abated_sum": 1011753.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "203 Weybosset Street",
+  "owner": "Sampalis Realty LLC",
+  "ordinance": "2005-40 No. 353",
+  "plat_lot": "20-176",
+  "description": "Sampalis Realty, LLC has evidenced a willingness to renovate and expand an existing structure located in the historically significant \"Benjamin Dyer Block\" in two phases: initially, a complete exterior/exterior renovation (with elevator service) in conformance with DownCity District and historic preservation requirements; and, full service, Mediterranean style restaurant (2,400'+/-), with related storage mezzanine (600'+/-) and retail space (1,100'+/-) on the first floor, with fifteen (15) residential apartments (650' +/- each) on the second, third and fourth floors (\"Phase I\"); and construction of two (2) residential apartments (1,000' +/- each) on the new fifth floor (\"Phase II\").",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 2335400.0,
+    "billed": 60555.0,
+    "rate": 35.1,
+    "full": 81973.0,
+    "abated": 21418.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 2335400.0,
+    "billed": 57895.0,
+    "rate": 35.1,
+    "full": 81973.0,
+    "abated": 24078.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 2335400.0,
+    "billed": 55236.0,
+    "rate": 35.4,
+    "full": 82673.0,
+    "abated": 27437.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 52576.0,
+    "billed": 52576.0,
+    "rate": 36.7,
+    "full": 0.02,
+    "abated": -52575.98
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 1360136.0,
+    "billed": 49917.0,
+    "rate": 36.7,
+    "full": 49917.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 1287657.0,
+    "billed": 47257.0,
+    "rate": 36.7,
+    "full": 47257.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 1215205.0,
+    "billed": 44598.0,
+    "rate": 36.7,
+    "full": 44598.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 1142725.0,
+    "billed": 41938.0,
+    "rate": 36.7,
+    "full": 41938.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 1076137.0,
+    "billed": 39279.0,
+    "rate": 36.7,
+    "full": 39494.0,
+    "abated": 215.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 996435.0,
+    "billed": 36619.0,
+    "rate": 36.7,
+    "full": 36569.0,
+    "abated": -50.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 924082.0,
+    "billed": 33960.0,
+    "rate": 36.75,
+    "full": 33960.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 927407.0,
+    "billed": 31300.0,
+    "rate": 36.75,
+    "full": 34082.0,
+    "abated": 2782.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 779347.0,
+    "billed": 28641.0,
+    "rate": 36.75,
+    "full": 28641.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 706966.0,
+    "billed": 25981.0,
+    "rate": 36.75,
+    "full": 25981.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2010,
+    "assessed": 692047.0,
+    "billed": 23322.0,
+    "rate": 36.75,
+    "full": 25433.0,
+    "abated": 2111.0
+   },
+   {
+    "tax_year": 2009,
+    "assessed": 722448.0,
+    "billed": 20662.0,
+    "rate": 33.7,
+    "full": 24346.0,
+    "abated": 3684.0
+   },
+   {
+    "tax_year": 2008,
+    "assessed": 642964.0,
+    "billed": 18003.0,
+    "rate": 28.0,
+    "full": 18003.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2007,
+    "assessed": 568681.0,
+    "billed": 15349.0,
+    "rate": 26.99,
+    "full": 15349.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2006,
+    "assessed": 336267.0,
+    "billed": 12684.0,
+    "rate": 37.72,
+    "full": 12684.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2005,
+    "assessed": 333100.0,
+    "billed": 12565.0,
+    "rate": 37.72,
+    "full": 12565.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 81674.83,
+  "abated_sum": 29099.02,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "41 Central Street",
+  "owner": "Art recreation Center (RCG Armory Firehouse LLC)",
+  "ordinance": "2007-22 No. 215",
+  "plat_lot": "30-686",
+  "description": "Art Recreation Center, LLC has evidenced a willingness to renovate the existing improvements on the Project Site, as hereinafter defined, to create approximately five thousand six hundred fifty-eight (5,658) square feet of commercial and residential property to be rented at below market rates, whereby at least 20% of the gross rentable square feet shall not exceed 40% of the highest square foot rate, to Artists (defined below) (\"Artist Studio Space\")",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 614900.0,
+    "billed": 12257.0,
+    "rate": 35.1,
+    "full": 21583.0,
+    "abated": 9326.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 614900.0,
+    "billed": 11676.0,
+    "rate": 35.1,
+    "full": 21583.0,
+    "abated": 9907.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 383100.0,
+    "billed": 11094.0,
+    "rate": 35.4,
+    "full": 13562.0,
+    "abated": 2468.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 326300.0,
+    "billed": 10513.0,
+    "rate": 36.7,
+    "full": 11975.0,
+    "abated": 1462.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 326300.0,
+    "billed": 9932.0,
+    "rate": 36.7,
+    "full": 11975.0,
+    "abated": 2043.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 326300.0,
+    "billed": 9350.0,
+    "rate": 36.7,
+    "full": 11975.0,
+    "abated": 2625.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 312300.0,
+    "billed": 8769.0,
+    "rate": 36.7,
+    "full": 11461.0,
+    "abated": 2692.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 223079.0,
+    "billed": 8187.0,
+    "rate": 36.7,
+    "full": 8187.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 208384.0,
+    "billed": 7648.0,
+    "rate": 36.7,
+    "full": -7647.69,
+    "abated": -15295.689999999999
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 191160.0,
+    "billed": 7025.0,
+    "rate": 36.7,
+    "full": 7016.0,
+    "abated": -9.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 175320.0,
+    "billed": 6443.0,
+    "rate": 36.75,
+    "full": 6443.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 173689.0,
+    "billed": 5862.0,
+    "rate": 36.75,
+    "full": 6383.0,
+    "abated": 521.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 143673.0,
+    "billed": 5280.0,
+    "rate": 36.75,
+    "full": 5280.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 127864.0,
+    "billed": 4699.0,
+    "rate": 36.75,
+    "full": 4699.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2010,
+    "assessed": 122166.0,
+    "billed": 4117.0,
+    "rate": 36.75,
+    "full": 4490.0,
+    "abated": 373.0
+   },
+   {
+    "tax_year": 2009,
+    "assessed": 477200.0,
+    "billed": 13648.0,
+    "rate": 33.7,
+    "full": 16082.0,
+    "abated": 2434.0
+   },
+   {
+    "tax_year": 2008,
+    "assessed": 188836.0,
+    "billed": 5287.0,
+    "rate": 28.0,
+    "full": 5287.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2007,
+    "assessed": 477200.0,
+    "billed": 12880.0,
+    "rate": 26.99,
+    "full": 12880.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 41489.05,
+  "abated_sum": 18546.31,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "11 Point Street",
+  "owner": "CV River House LLC",
+  "ordinance": "2015-62 NO. 591",
+  "plat_lot": "21-438, 21-439, 21-440 (21-454)",
+  "description": "CV River House, LLC intends to make a substantial investment by causing a structure to be constructed containing 120 residential apartment units and consisting of approximately 117,900 rentable square feet.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 44542300.0,
+    "billed": 293013.0,
+    "rate": 35.1,
+    "full": 1563435.0,
+    "abated": 1270422.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 30455900.0,
+    "billed": 199237.0,
+    "rate": 35.4,
+    "full": 1078139.0,
+    "abated": 878902.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 23698400.0,
+    "billed": 155474.0,
+    "rate": 36.7,
+    "full": 869731.0,
+    "abated": 714257.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 21679900.0,
+    "billed": 141506.0,
+    "rate": 36.7,
+    "full": 795652.0,
+    "abated": 654146.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 3855749.0,
+    "billed": 141506.0,
+    "rate": 36.7,
+    "full": 141506.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 3855749.0,
+    "billed": 141506.0,
+    "rate": 36.7,
+    "full": 141506.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 3855749.0,
+    "billed": 141506.0,
+    "rate": 33.7,
+    "full": 129939.0,
+    "abated": -11567.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 3876877.0,
+    "billed": 141506.0,
+    "rate": 36.7,
+    "full": 142281.0,
+    "abated": 775.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 3876877.0,
+    "billed": 141506.0,
+    "rate": 36.7,
+    "full": 142281.0,
+    "abated": 775.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 3850800.0,
+    "billed": 141506.0,
+    "rate": 36.7,
+    "full": 141324.0,
+    "abated": -182.0
+   }
+  ],
+  "savings_to_date": 4331489.0,
+  "abated_sum": 3507528.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "342 Eddy Street",
+  "owner": "Brown University",
+  "ordinance": "2015-63 No. 592",
+  "plat_lot": "21-452",
+  "description": "CV SSL Garage LLC intends to make a substantial investment by applying for the administrative subdivision of the Narragansett Lot such that the property becomes its own taxable lot, and by causing a parking garage to be constructed containing 600 parking spaces and; the project is being developed in connection with the rehabilitation and redevelopment of the former Narragansett Electric South Street Station into a facility containing approximately 267,941 rentable square feet of space, where a portion of such space will be leased to Brown University for office space and other uses, and the Rhode Island Board of Education for use as a nursing school and other uses.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 16648700.0,
+    "billed": 83286.0,
+    "rate": 35.1,
+    "full": 584369.0,
+    "abated": 501083.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 16648700.0,
+    "billed": 67712.0,
+    "rate": 35.4,
+    "full": 589364.0,
+    "abated": 521652.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 15852400.0,
+    "billed": 52849.0,
+    "rate": 36.7,
+    "full": 581783.0,
+    "abated": 528934.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 15852400.0,
+    "billed": 38670.0,
+    "rate": 36.7,
+    "full": 581783.0,
+    "abated": 543113.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 15852400.0,
+    "billed": 28269.0,
+    "rate": 36.7,
+    "full": 581783.0,
+    "abated": 553514.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 16748000.0,
+    "billed": 28269.0,
+    "rate": 36.7,
+    "full": 614652.0,
+    "abated": 586383.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 769231.0,
+    "billed": 28269.0,
+    "rate": 33.7,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 769231.0,
+    "billed": 28269.0,
+    "rate": 36.7,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 769231.0,
+    "billed": 28269.0,
+    "rate": 36.7,
+    "full": null,
+    "abated": null
+   }
+  ],
+  "savings_to_date": 3362679.0,
+  "abated_sum": 3234679.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "350 Eddy Street",
+  "owner": "CV South Street Landing LLC",
+  "ordinance": "2015-24 No. 370",
+  "plat_lot": "21-430-00UP",
+  "description": "CV South Street Landing LLC intends to rehabilitate the South Street Power Station and lease it to Brown University for office space and other uses, and also to the State of Rhode Island for use as a nursing school and other uses.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 38808400.0,
+    "billed": 434064.0,
+    "rate": 35.1,
+    "full": 1362175.0,
+    "abated": 928111.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 38808400.0,
+    "billed": 434064.0,
+    "rate": 35.1,
+    "full": 1362175.0,
+    "abated": 928111.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 27429500.0,
+    "billed": 401912.0,
+    "rate": 35.4,
+    "full": 971004.0,
+    "abated": 569092.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 22177600.0,
+    "billed": 401912.0,
+    "rate": 36.7,
+    "full": 813918.0,
+    "abated": 412006.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 22177600.0,
+    "billed": 401912.0,
+    "rate": 36.7,
+    "full": 813918.0,
+    "abated": 412006.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 22558000.0,
+    "billed": 401912.0,
+    "rate": 36.7,
+    "full": 827879.0,
+    "abated": 425967.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 3490136.0,
+    "billed": 128088.0,
+    "rate": 36.7,
+    "full": 128088.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 3509260.0,
+    "billed": 128088.0,
+    "rate": 36.7,
+    "full": 128790.0,
+    "abated": 702.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 3485400.0,
+    "billed": 128088.0,
+    "rate": 36.7,
+    "full": 127914.0,
+    "abated": -174.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 3485400.0,
+    "billed": 128088.0,
+    "rate": 36.75,
+    "full": 128088.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 3953891.0,
+  "abated_sum": 3675821.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "25 Holden Street",
+  "owner": "Sharpe Building Associates LLC (Promenade Street Owner LLC c/o DSF Advisors LLC)",
+  "ordinance": "2014-24 No. 314",
+  "plat_lot": "4-256, 4-255",
+  "description": "Sharpe Building Associates, LLC intends on rehabilitating the building and returning it to a productive use as approximately 196 residential apartments.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 38487600.0,
+    "billed": 787718.0,
+    "rate": 35.1,
+    "full": 1350915.0,
+    "abated": 563197.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 38487600.0,
+    "billed": 372025.0,
+    "rate": 35.1,
+    "full": 1350915.0,
+    "abated": 978890.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 38487600.0,
+    "billed": 312671.0,
+    "rate": 35.4,
+    "full": 1362461.0,
+    "abated": 1049790.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 21206500.0,
+    "billed": 259322.0,
+    "rate": 36.7,
+    "full": 778279.0,
+    "abated": 518957.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 21206500.0,
+    "billed": 194492.0,
+    "rate": 36.7,
+    "full": 778279.0,
+    "abated": 583787.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 6389097.0,
+    "billed": 129661.0,
+    "rate": 36.7,
+    "full": 234480.0,
+    "abated": 104819.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 3654792.0,
+    "billed": 67491.0,
+    "rate": 36.7,
+    "full": 134131.0,
+    "abated": 66640.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 3654792.0,
+    "billed": 67491.0,
+    "rate": 36.7,
+    "full": 134131.0,
+    "abated": 66640.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 2172969.0,
+    "billed": 67491.0,
+    "rate": 36.7,
+    "full": 79748.0,
+    "abated": 12257.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 1591700.0,
+    "billed": 58495.0,
+    "rate": 36.7,
+    "full": 58415.0,
+    "abated": -80.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 1836500.0,
+    "billed": 58495.0,
+    "rate": 36.75,
+    "full": 67491.0,
+    "abated": 8996.0
+   }
+  ],
+  "savings_to_date": 3953891.0,
+  "abated_sum": 3953893.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "Prospect CharterCare",
+  "owner": "CharterCare",
+  "ordinance": "2014-25 No. 315",
+  "plat_lot": "",
+  "description": "The challenges facing community hospitals in today's environment require the City of Providence and Prospect CharterCARE to partner in advancing the mission and continuing the positive economic impact of the CharterCARE healthcare system. Since Prospect CharterCARE will be a for-profit entity, the City of Providence may no longer receive PILOT payments from the State of Rhode Island. To ensure the viability of Prospect CharterCARE and encourage future development at Roger Williams Medical Center and St. Joseph properties within the City, Prospect CharterCARE and the City of Providence have agreed to enter into a tax stabilization and exemption treaty.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [],
+  "savings_to_date": null,
+  "abated_sum": 0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "32 Custom House Street",
+  "owner": "HM Ventures Group LLC (HM Ventures Group 8 LLC)",
+  "ordinance": "2015-20 No. 356",
+  "plat_lot": "20-88",
+  "description": "HM Ventures Group 7, LLC intends on rehabilitating the Project and returning it to a productive use including ground floor retail space, which may include a live/work unit, and approximately 10 residential apartments.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 4192100.0,
+    "billed": 129529.0,
+    "rate": 35.1,
+    "full": 147143.0,
+    "abated": 17614.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 4192100.0,
+    "billed": 110965.0,
+    "rate": 35.1,
+    "full": 147143.0,
+    "abated": 36178.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 2412500.0,
+    "billed": 63896.0,
+    "rate": 35.4,
+    "full": -21507.0,
+    "abated": -85403.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 2647800.0,
+    "billed": 62255.0,
+    "rate": 36.7,
+    "full": 97174.0,
+    "abated": 34919.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 2647800.0,
+    "billed": 54187.0,
+    "rate": 36.7,
+    "full": 97174.0,
+    "abated": 42987.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 2647800.0,
+    "billed": 46119.0,
+    "rate": 36.7,
+    "full": 97174.0,
+    "abated": 51055.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 1794900.0,
+    "billed": 37889.0,
+    "rate": 36.7,
+    "full": 65873.0,
+    "abated": 27984.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 815900.0,
+    "billed": 29984.0,
+    "rate": 36.7,
+    "full": 29944.0,
+    "abated": -40.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 815900.0,
+    "billed": 29984.0,
+    "rate": 36.7,
+    "full": 29944.0,
+    "abated": -40.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 815900.0,
+    "billed": 29984.0,
+    "rate": 36.7,
+    "full": 29944.0,
+    "abated": -40.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 815900.0,
+    "billed": 29984.0,
+    "rate": 36.75,
+    "full": 29984.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 232122.0,
+  "abated_sum": 125214.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "55 Cromwell Street",
+  "owner": "Cromwell Ventures LLC",
+  "ordinance": "2015-33 No. 410",
+  "plat_lot": "30-411",
+  "description": "Cromwell Ventures, LLC intends on rehabilitating the Project into a vibrant mixed use residential and commercial community comprised of 40 apartment units and approximately 20,000 square feet of commercial space.",
+  "compliance": {
+   "annual_report": "This is not a requirement for this property owner",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 6945400.0,
+    "billed": 60000.0,
+    "rate": 35.1,
+    "full": 243784.0,
+    "abated": 183784.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 6945400.0,
+    "billed": 50000.0,
+    "rate": 35.1,
+    "full": 243784.0,
+    "abated": 193784.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 6945400.0,
+    "billed": 45000.0,
+    "rate": 35.4,
+    "full": 245867.0,
+    "abated": 200867.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 3701300.0,
+    "billed": 15567.0,
+    "rate": 36.7,
+    "full": 135838.0,
+    "abated": 120271.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 3474300.0,
+    "billed": 15567.0,
+    "rate": 36.7,
+    "full": 127507.0,
+    "abated": 111940.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 3443900.0,
+    "billed": 15567.0,
+    "rate": 36.7,
+    "full": 126391.0,
+    "abated": 110824.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 424169.0,
+    "billed": 15567.0,
+    "rate": 36.7,
+    "full": 15567.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 426493.0,
+    "billed": 15567.0,
+    "rate": 36.7,
+    "full": 15652.0,
+    "abated": 85.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 423600.0,
+    "billed": 15567.0,
+    "rate": 36.75,
+    "full": 15567.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 423600.0,
+    "billed": 15567.0,
+    "rate": 36.75,
+    "full": 15567.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 641900.0,
+    "billed": 23590.0,
+    "rate": 36.75,
+    "full": 23590.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 1035760.0,
+  "abated_sum": 921555.0,
+  "compliance_norm": {
+   "annual_report": "not required",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "111 Fountain Street",
+  "owner": "Fogarty Building - PRI XIII 100 Sabin Hotel Hotel LLC",
+  "ordinance": "2017-56 No. 516",
+  "plat_lot": "25-422",
+  "description": "PRI XII, LP intends to demolish the existing improvements on the property, and to construct a new, nine-story upscale extended-stay hotel with a total of 168 guestrooms, 5,400 square feet of pedestrian-level third-party retail space, and additional supporting areas.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 11 (a) $10,000 2017, 2018 5% of abated Taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 16236600.0,
+    "billed": 380829.0,
+    "rate": 35.1,
+    "full": 569905.0,
+    "abated": 189076.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 16236600.0,
+    "billed": 316592.0,
+    "rate": 35.1,
+    "full": 569905.0,
+    "abated": 253313.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 16236600.0,
+    "billed": 253003.0,
+    "rate": 35.4,
+    "full": 574776.0,
+    "abated": 321773.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 20497300.0,
+    "billed": 232047.0,
+    "rate": 36.7,
+    "full": 752251.0,
+    "abated": 520204.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 19497700.0,
+    "billed": 140760.0,
+    "rate": 36.7,
+    "full": 715566.0,
+    "abated": 574806.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 1597956.0,
+    "billed": 58645.0,
+    "rate": 36.7,
+    "full": 58645.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 1597956.0,
+    "billed": 58645.0,
+    "rate": 36.7,
+    "full": 58645.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 1595810.0,
+    "billed": 58646.0,
+    "rate": 36.7,
+    "full": 58566.0,
+    "abated": -80.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 1595810.0,
+    "billed": 58646.0,
+    "rate": 36.7,
+    "full": 58566.0,
+    "abated": -80.0
+   }
+  ],
+  "savings_to_date": 1859012.0,
+  "abated_sum": 1859012.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "39 New York Avenue (Real)",
+  "owner": "McInnis USA Inc",
+  "ordinance": "2016-8 No. 99",
+  "plat_lot": "56-351",
+  "description": "McInnis USA, Inc. intends on rehabilitating formerly tax exempt real estate owned by ProvPort, Inc. into a productive marine related industrial property opening a new facility in the City of Providence.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 10 5% abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2023,
+    "assessed": 6468100.0,
+    "billed": 124867.0,
+    "rate": 35.1,
+    "full": 227030.0,
+    "abated": 102163.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 6468100.0,
+    "billed": 100747.0,
+    "rate": 35.4,
+    "full": 228971.0,
+    "abated": 128224.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 2402500.0,
+    "billed": 60638.0,
+    "rate": 36.7,
+    "full": 88172.0,
+    "abated": 27534.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 2402500.0,
+    "billed": 50000.0,
+    "rate": 36.7,
+    "full": 88172.0,
+    "abated": 38172.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 2381500.0,
+    "billed": 50000.0,
+    "rate": 36.7,
+    "full": 87401.0,
+    "abated": 37401.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 2477300.0,
+    "billed": 50000.0,
+    "rate": 36.7,
+    "full": 90917.0,
+    "abated": 40917.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 1362398.0,
+    "billed": 50000.0,
+    "rate": 36.7,
+    "full": 50000.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 1369863.0,
+    "billed": 50000.0,
+    "rate": 36.7,
+    "full": 50274.0,
+    "abated": 274.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 6181000.0,
+    "billed": 226843.0,
+    "rate": 36.7,
+    "full": null,
+    "abated": null
+   }
+  ],
+  "savings_to_date": 451875.0,
+  "abated_sum": 374685.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "75 Fountain Street",
+  "owner": "Fountainview Owner LLC",
+  "ordinance": "2016-14 No. 125",
+  "plat_lot": "25-236",
+  "description": "Fountainview Owner, LLC intends on rehabilitating a commercial office building and converting it into a multi-tenant commercial office building together with several restaurant/retail tenants on the street level along Fountain and Sabin Streets.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 11 (a) 5% abated Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2023,
+    "assessed": 15413400.0,
+    "billed": 403878.0,
+    "rate": 35.1,
+    "full": 541010.0,
+    "abated": 137132.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 15413400.0,
+    "billed": 368456.0,
+    "rate": 35.4,
+    "full": 545634.0,
+    "abated": 177178.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 16837101.0,
+    "billed": 352941.0,
+    "rate": 36.7,
+    "full": 617922.0,
+    "abated": 264981.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 16602600.0,
+    "billed": 306222.0,
+    "rate": 36.7,
+    "full": 609315.0,
+    "abated": 303093.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 13340500.0,
+    "billed": 250370.0,
+    "rate": 36.7,
+    "full": 489596.0,
+    "abated": 239226.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 11011200.0,
+    "billed": 220500.0,
+    "rate": 36.7,
+    "full": 404111.0,
+    "abated": 183611.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 6008174.0,
+    "billed": 220500.0,
+    "rate": 36.7,
+    "full": 220500.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 6041096.0,
+    "billed": 220500.0,
+    "rate": 36.7,
+    "full": 221708.0,
+    "abated": 1208.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 10409400.0,
+    "billed": 382545.0,
+    "rate": 36.7,
+    "full": 382025.0,
+    "abated": -520.0
+   }
+  ],
+  "savings_to_date": 1406387.0,
+  "abated_sum": 1305909.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "225 Weybosset Street",
+  "owner": "HM Ventures Group 8 LLC",
+  "ordinance": "2017-1 No. 26",
+  "plat_lot": "24-417",
+  "description": "HM Ventures Group 8, LLC proposes to convert this existing historic structure into fully renovated and rehabilitated mixed use building featuring commercial and residential uses.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 10 (a) 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 3225700.0,
+    "billed": 77488.0,
+    "rate": 35.1,
+    "full": 113222.0,
+    "abated": 35734.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 3225700.0,
+    "billed": 68410.0,
+    "rate": 35.1,
+    "full": 113222.0,
+    "abated": 44812.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 3225700.0,
+    "billed": 114190.0,
+    "rate": 35.4,
+    "full": -54610.0,
+    "abated": -168800.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 3843100.0,
+    "billed": 56068.0,
+    "rate": 36.7,
+    "full": 141042.0,
+    "abated": 84974.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 3843100.0,
+    "billed": 44085.0,
+    "rate": 36.7,
+    "full": 141042.0,
+    "abated": 96957.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 2634100.0,
+    "billed": 96671.0,
+    "rate": 36.7,
+    "full": 96671.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 874700.0,
+    "billed": 32102.0,
+    "rate": 36.7,
+    "full": 32101.0,
+    "abated": -1.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 874687.0,
+    "billed": 32101.0,
+    "rate": 36.7,
+    "full": 32101.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 317086.0,
+  "abated_sum": 93676.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "169 Canal Street",
+  "owner": "110 North Main Street LLC",
+  "ordinance": "2017-17 No. 271",
+  "plat_lot": "10-706, 10-707",
+  "description": "110 North Main Street, LLC intends to convert 169 North Main St., currently a surface parking lot, into a 15 story mixed use building featuring commercial and residential uses (the \"Canal Street Project''). Additionally, the Project Site Owner is prepared to make a significant investment in renovating and rehabilitating the property located at 100-110 North Main Street which is an existing mixed use historic building.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 11 (a) 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2023,
+    "assessed": 33346100.0,
+    "billed": 365436.0,
+    "rate": 35.1,
+    "full": 1170448.0,
+    "abated": 805012.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 32978600.0,
+    "billed": 300802.0,
+    "rate": 35.4,
+    "full": 1167442.0,
+    "abated": 866640.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 33307400.0,
+    "billed": 249128.0,
+    "rate": 36.7,
+    "full": 1222382.0,
+    "abated": 973254.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 33307400.0,
+    "billed": 176471.0,
+    "rate": 36.7,
+    "full": 1222382.0,
+    "abated": 1045911.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 18685600.0,
+    "billed": 679412.0,
+    "rate": 36.7,
+    "full": 685762.0,
+    "abated": 6350.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 3162400.0,
+    "billed": 109711.0,
+    "rate": 36.7,
+    "full": 116060.0,
+    "abated": 6349.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 2989400.0,
+    "billed": 109711.0,
+    "rate": 36.7,
+    "full": 109711.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 2989400.0,
+    "billed": 109711.0,
+    "rate": 36.7,
+    "full": 109711.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 4475868.0,
+  "abated_sum": 3703516.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "259 Weybosset Street",
+  "owner": "Weybosset LLC",
+  "ordinance": "2017-32 No. 330",
+  "plat_lot": "24-423",
+  "description": "Weybosset, LLC has proposed and committed to convert this existing historic structure into fully renovated and rehabilitated mixed use building featuring commercial and residential uses, thus returning the property to productive mixed use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .1% tax savings Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 1550200.0,
+    "billed": 40839.0,
+    "rate": 35.1,
+    "full": 54412.0,
+    "abated": 13573.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 1379300.0,
+    "billed": 33940.0,
+    "rate": 35.1,
+    "full": 48413.0,
+    "abated": 14473.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 1379300.0,
+    "billed": 31420.0,
+    "rate": 35.4,
+    "full": 48827.0,
+    "abated": 17407.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 1162900.0,
+    "billed": 34322.0,
+    "rate": 36.7,
+    "full": 42678.0,
+    "abated": 8356.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 802900.0,
+    "billed": 26248.0,
+    "rate": 36.7,
+    "full": 29466.0,
+    "abated": 3218.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 637700.0,
+    "billed": 26248.0,
+    "rate": 36.7,
+    "full": 23404.0,
+    "abated": -2844.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 715200.0,
+    "billed": 26248.0,
+    "rate": 36.7,
+    "full": 26248.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 715200.0,
+    "billed": 26248.0,
+    "rate": 36.7,
+    "full": 26248.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 715200.0,
+    "billed": 26248.0,
+    "rate": 36.7,
+    "full": 26248.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 54184.0,
+  "abated_sum": 54183.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "78 Fountain Street",
+  "owner": "78 Fountain JV Owner LLC",
+  "ordinance": "2017-31 No. 329",
+  "plat_lot": "25-465",
+  "description": "FJV has proposed and committed to construct a new approximately 146,493 square foot mixed use building featuring commercial and residential uses upon the existing surface parking lot, thus returning the property to productive mixed-use property.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .1% tax savings Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 30323300.0,
+    "billed": 326117.0,
+    "rate": 35.1,
+    "full": 1064348.0,
+    "abated": 738231.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 30323300.0,
+    "billed": 267519.0,
+    "rate": 35.1,
+    "full": 1064348.0,
+    "abated": 796829.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 25879500.0,
+    "billed": 201664.0,
+    "rate": 35.4,
+    "full": 916134.0,
+    "abated": 714470.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 20176601.0,
+    "billed": 130653.0,
+    "rate": 36.7,
+    "full": 740481.0,
+    "abated": 609828.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 2499400.0,
+    "billed": 91728.0,
+    "rate": 36.7,
+    "full": 91728.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 2499400.0,
+    "billed": 91728.0,
+    "rate": 36.7,
+    "full": 91728.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 2499400.0,
+    "billed": 91728.0,
+    "rate": 36.7,
+    "full": 91728.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 2499400.0,
+    "billed": 91728.0,
+    "rate": 36.7,
+    "full": 91728.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 2499400.0,
+    "billed": 91728.0,
+    "rate": 36.7,
+    "full": 91728.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 2859358.0,
+  "abated_sum": 2859358.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "220 Blackstone Street",
+  "owner": "220 Blackstone Street, LLC",
+  "ordinance": "2017-52 No. 492",
+  "plat_lot": "45-85, 45-797, 45-833",
+  "description": "The Aspen Group, Inc. has proposed and committed to construct two (2) 50,000 square foot structures on the property thereby redeveloping approximately 100,000 square feet of commercial space to be used as professional offices, medical offices, and other uses as permitted under the City zoning ordinances, thus returning the property to productive commercial use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $13,500.00 annually \"Said year commencing in year 4 after the Commencement Date.\" Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 $1,650.00 annually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 10517500.0,
+    "billed": 85983.0,
+    "rate": 35.1,
+    "full": 369164.0,
+    "abated": 283181.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 10517500.0,
+    "billed": 85983.0,
+    "rate": 35.1,
+    "full": 369164.0,
+    "abated": 283181.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 10517500.0,
+    "billed": 85983.0,
+    "rate": 35.4,
+    "full": 372320.0,
+    "abated": 286337.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 7345100.0,
+    "billed": 269565.0,
+    "rate": 36.7,
+    "full": -269565.0,
+    "abated": -539130.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 7345100.0,
+    "billed": 269565.0,
+    "rate": 36.7,
+    "full": -269565.0,
+    "abated": -539130.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 7345100.0,
+    "billed": 269565.0,
+    "rate": 36.7,
+    "full": -269565.0,
+    "abated": -539130.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 7241100.0,
+    "billed": 265748.0,
+    "rate": 36.7,
+    "full": -265748.0,
+    "abated": -531496.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 7241100.0,
+    "billed": 265748.0,
+    "rate": 36.7,
+    "full": -265748.0,
+    "abated": -531496.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 7241100.0,
+    "billed": 265748.0,
+    "rate": 36.7,
+    "full": -265748.0,
+    "abated": -531496.0
+   }
+  ],
+  "savings_to_date": 2458640.0,
+  "abated_sum": -2359179.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "335R Prairie Avenue",
+  "owner": "PCHC Beaman and Smith Mill LLC",
+  "ordinance": "2017-55 No. 515",
+  "plat_lot": "48-1169",
+  "description": "PCHC Beaman and Smith Mill, LLC will complete the rehabilitation of the buildings, structures, and/or improvements on said property and return the same to productive commercial use in accordance with the rehabilitation/construction plans previously submitted to the City.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 8.2 (a) 5% of abated tax Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 8.1 .01% of the cost of the project anually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 10963200.0,
+    "billed": 150000.0,
+    "rate": 35.1,
+    "full": 384808.0,
+    "abated": 234808.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 10474800.0,
+    "billed": 150000.0,
+    "rate": 35.1,
+    "full": 367665.0,
+    "abated": 217665.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 10474800.0,
+    "billed": 150000.0,
+    "rate": 35.4,
+    "full": 370808.0,
+    "abated": 220808.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 10474800.0,
+    "billed": 150000.0,
+    "rate": 36.7,
+    "full": 384425.0,
+    "abated": 234425.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 9061300.0,
+    "billed": 150000.0,
+    "rate": 36.7,
+    "full": 332550.0,
+    "abated": 182550.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 9061300.0,
+    "billed": 150000.0,
+    "rate": 36.7,
+    "full": 332550.0,
+    "abated": 182550.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 9061300.0,
+    "billed": 150000.0,
+    "rate": 36.7,
+    "full": 332550.0,
+    "abated": 182550.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 11086500.0,
+    "billed": 150000.0,
+    "rate": 36.7,
+    "full": 406875.0,
+    "abated": 256875.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 10947200.0,
+    "billed": 401762.0,
+    "rate": 36.7,
+    "full": 401762.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 1455356.0,
+  "abated_sum": 1712231.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "345 Harris Avenue",
+  "owner": "345 Harris Inc.",
+  "ordinance": "2017-54 No. 514",
+  "plat_lot": "27-292",
+  "description": "345 Harris, Inc. has proposed and promised to rehabilitate a structure and/or improvement on its property creating retail and self-storage spaces in the commercial building, thus returning the property to productive commercial use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .1% of the project annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 7633000.0,
+    "billed": 94846.0,
+    "rate": 35.1,
+    "full": 267918.0,
+    "abated": 173072.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 7633000.0,
+    "billed": 66362.0,
+    "rate": 35.1,
+    "full": 267918.0,
+    "abated": 201556.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 7563201.0,
+    "billed": 37836.0,
+    "rate": 35.4,
+    "full": 267737.0,
+    "abated": 229901.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 7563200.0,
+    "billed": 37836.0,
+    "rate": 36.7,
+    "full": 277569.0,
+    "abated": 239733.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 4951501.0,
+    "billed": 9381.0,
+    "rate": 36.7,
+    "full": 181720.0,
+    "abated": 172339.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 255600.0,
+    "billed": 9381.0,
+    "rate": 36.7,
+    "full": 9381.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 255600.0,
+    "billed": 9381.0,
+    "rate": 36.7,
+    "full": 9381.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 255600.0,
+    "billed": 9381.0,
+    "rate": 36.7,
+    "full": 9381.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 1016603.0,
+  "abated_sum": 1016601.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "59 Westminster Street",
+  "owner": "30 Kennedy Partners LLC",
+  "ordinance": "2018-8 No. 234",
+  "plat_lot": "20-8",
+  "description": "30 Kennedy Partners, LLC has proposed and committed to the rehabilitation and redevelopment of approximately 34,272 square feet underused space into a new hotel and restaurant, thus returning the property to a productive commercial use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 4522300.0,
+    "billed": 126081.0,
+    "rate": 35.1,
+    "full": 158733.0,
+    "abated": 32652.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 4522300.0,
+    "billed": 121442.0,
+    "rate": 35.1,
+    "full": 158733.0,
+    "abated": 37291.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 4522300.0,
+    "billed": 116882.0,
+    "rate": 35.4,
+    "full": 160089.0,
+    "abated": 43207.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 5598700.0,
+    "billed": 120622.0,
+    "rate": 36.7,
+    "full": 205472.0,
+    "abated": 84850.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 2948100.0,
+    "billed": 107524.0,
+    "rate": 36.7,
+    "full": 108195.0,
+    "abated": 671.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 2948100.0,
+    "billed": 107524.0,
+    "rate": 36.7,
+    "full": 108195.0,
+    "abated": 671.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 2929800.0,
+    "billed": 107524.0,
+    "rate": 36.7,
+    "full": 107524.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 2929800.0,
+    "billed": 107524.0,
+    "rate": 36.7,
+    "full": 107524.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 199343.0,
+  "abated_sum": 199342.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "50 Sprague Street",
+  "owner": "Sprague Street Owner, LLC",
+  "ordinance": "2018-47 No. 450",
+  "plat_lot": "30-389, 30-392",
+  "description": "Sprague Street Owner, LLC has proposed and committed to rehabilitate and preserve several historic buildings located on the Project Site and return them to modern residential and commercial uses.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $1,000 First 3 years 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .1% of tax savings Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 4292100.0,
+    "billed": 84496.0,
+    "rate": 35.1,
+    "full": 150653.0,
+    "abated": 66157.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 4292100.0,
+    "billed": 65483.0,
+    "rate": 35.1,
+    "full": 150653.0,
+    "abated": 85170.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 4292100.0,
+    "billed": 51350.0,
+    "rate": 35.4,
+    "full": 151940.0,
+    "abated": 100590.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 2672100.0,
+    "billed": 30854.0,
+    "rate": 36.7,
+    "full": 98066.0,
+    "abated": 67212.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 1691700.0,
+    "billed": 22427.0,
+    "rate": 36.7,
+    "full": 62085.0,
+    "abated": 39658.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 643600.0,
+    "billed": 18885.0,
+    "rate": 36.7,
+    "full": 23620.0,
+    "abated": 4735.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 611100.0,
+    "billed": 22427.0,
+    "rate": 36.7,
+    "full": 22427.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 611100.0,
+    "billed": 22427.0,
+    "rate": 36.7,
+    "full": 22427.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 363522.0,
+  "abated_sum": 363522.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "145 Corliss Street",
+  "owner": "HSRE_Hampshire Providence",
+  "ordinance": "2018-73 No. 550",
+  "plat_lot": "74-375",
+  "description": "Providence 2017, LLC has proposed and committed to construct a new commercial building to be primarily utilized as a storage facility.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $2,500.00 First 3 years 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 11068800.0,
+    "billed": 147814.0,
+    "rate": 35.1,
+    "full": 388515.0,
+    "abated": 240701.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 11068800.0,
+    "billed": 108091.0,
+    "rate": 35.1,
+    "full": 388515.0,
+    "abated": 280424.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 9827200.0,
+    "billed": 63872.0,
+    "rate": 35.4,
+    "full": 347883.0,
+    "abated": 284011.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 5106700.0,
+    "billed": 28644.0,
+    "rate": 36.7,
+    "full": 187416.0,
+    "abated": 158772.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 5106700.0,
+    "billed": 28644.0,
+    "rate": 36.7,
+    "full": 187416.0,
+    "abated": 158772.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 780500.0,
+    "billed": 28644.0,
+    "rate": 36.7,
+    "full": 28644.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 780500.0,
+    "billed": 28644.0,
+    "rate": 36.7,
+    "full": 28644.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 780500.0,
+    "billed": 28644.0,
+    "rate": 37.7,
+    "full": 29425.0,
+    "abated": 781.0
+   }
+  ],
+  "savings_to_date": 1122679.0,
+  "abated_sum": 1123461.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "170 Westminster Street",
+  "owner": "Providence Capital III LLC",
+  "ordinance": "2018-76 No. 553",
+  "plat_lot": "20-386",
+  "description": "Providence Capital III, LLC has proposed and committed to the rehabilitation and redevelopment of approximately 57,000 square feet underused space into a new mixed-use residential and commercial office space structure with a top-floor restaurant, thus returning the property to a productive commercial use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "This is not a requirement for this property owner",
+   "parks_fee": "Section 9.3 (a) $1,000 First 3 years 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 12820100.0,
+    "billed": 287954.0,
+    "rate": 35.1,
+    "full": 449986.0,
+    "abated": 162032.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 11751600.0,
+    "billed": 239326.0,
+    "rate": 35.4,
+    "full": 416007.0,
+    "abated": 176681.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 9217600.0,
+    "billed": 213878.0,
+    "rate": 36.7,
+    "full": 338286.0,
+    "abated": 124408.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 6502400.0,
+    "billed": 202573.0,
+    "rate": 36.7,
+    "full": 238638.0,
+    "abated": 36065.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 6502400.0,
+    "billed": 202573.0,
+    "rate": 36.7,
+    "full": 238638.0,
+    "abated": 36065.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 5519700.0,
+    "billed": 202573.0,
+    "rate": 36.7,
+    "full": 202573.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 5519700.0,
+    "billed": 202573.0,
+    "rate": 37.7,
+    "full": 208093.0,
+    "abated": 5520.0
+   }
+  ],
+  "savings_to_date": 696015.0,
+  "abated_sum": 540771.0,
+  "compliance_norm": {
+   "annual_report": "not required",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "185 Westminster Street",
+  "owner": "Providence Capital Holdings LLC",
+  "ordinance": "2018-75 No. 552",
+  "plat_lot": "20-20",
+  "description": "Providence Capital Holdings, LLC has proposed and committed to the rehabilitation and redevelopment of approximately 50,000 square feet underused space into a new mixed-use residential and commercial space structure with a restaurant, thus returning the property to a productive commercial use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $1,000 First 3 years 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 7252900.0,
+    "billed": 229906.0,
+    "rate": 35.1,
+    "full": 254577.0,
+    "abated": 24671.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 6015000.0,
+    "billed": 211127.0,
+    "rate": 35.1,
+    "full": -13728.0,
+    "abated": -224855.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 6015000.0,
+    "billed": 192186.0,
+    "rate": 35.4,
+    "full": 212931.0,
+    "abated": 20745.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 6813500.0,
+    "billed": 194513.0,
+    "rate": 36.7,
+    "full": 250055.0,
+    "abated": 55542.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 6813500.0,
+    "billed": 185256.0,
+    "rate": 36.7,
+    "full": 250055.0,
+    "abated": 64799.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 5090700.0,
+    "billed": 175999.0,
+    "rate": 36.7,
+    "full": 186829.0,
+    "abated": 10830.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 4795600.0,
+    "billed": 175999.0,
+    "rate": 36.7,
+    "full": 175999.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 4795600.0,
+    "billed": 175999.0,
+    "rate": 37.7,
+    "full": 180794.0,
+    "abated": 4795.0
+   }
+  ],
+  "savings_to_date": 190316.0,
+  "abated_sum": -43473.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "745 Branch Avenue",
+  "owner": "Branch Holdings LLC",
+  "ordinance": "2018-74 No. 551",
+  "plat_lot": "98-431,98-432, 98-424, 98-421",
+  "description": "Branch Holdings, LLC has proposed and promised to rehabilitate the mill building and/or improvement on its property creating retail and residential spaces in the existing mill, thus returning the property to productive mixed use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $1,000 First 3 years 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 22169600.0,
+    "billed": 355547.0,
+    "rate": 35.1,
+    "full": 778153.0,
+    "abated": 422606.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 17076700.0,
+    "billed": 276723.0,
+    "rate": 35.1,
+    "full": -322669.0,
+    "abated": -599392.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 13867100.0,
+    "billed": 201625.0,
+    "rate": 35.4,
+    "full": 490895.0,
+    "abated": 289270.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 11206600.0,
+    "billed": 165150.0,
+    "rate": 36.7,
+    "full": 411282.0,
+    "abated": 246132.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 8391900.0,
+    "billed": 165150.0,
+    "rate": 36.7,
+    "full": 307983.0,
+    "abated": 142833.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 5182400.0,
+    "billed": 165150.0,
+    "rate": 36.7,
+    "full": 190194.0,
+    "abated": 25044.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 3184400.0,
+    "billed": 116868.0,
+    "rate": 36.7,
+    "full": 116867.0,
+    "abated": -1.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 3184400.0,
+    "billed": 116868.0,
+    "rate": 37.7,
+    "full": 120052.0,
+    "abated": 3184.0
+   }
+  ],
+  "savings_to_date": 1448555.0,
+  "abated_sum": 529676.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "1292 Westminster Street",
+  "owner": "1290 Westminster Street LLC",
+  "ordinance": "2019-6 No. 164",
+  "plat_lot": "32-233",
+  "description": "1290 Westminster, LLC has proposed and committed to the demolition and new construction of a new five-story, 44,8 10 square-foot mixed-use residential and commercial space structure thus returning the property to a productive commercial use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $1,000 First 3 years 5% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 7182200.0,
+    "billed": 136769.0,
+    "rate": 35.1,
+    "full": 252095.0,
+    "abated": 115326.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 7182200.0,
+    "billed": 107625.0,
+    "rate": 35.1,
+    "full": 252095.0,
+    "abated": 144470.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 6234700.0,
+    "billed": 70665.0,
+    "rate": 35.4,
+    "full": 220708.0,
+    "abated": 150043.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 4348600.0,
+    "billed": 37807.0,
+    "rate": 36.7,
+    "full": 159594.0,
+    "abated": 121787.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 2519400.0,
+    "billed": 20409.0,
+    "rate": 36.7,
+    "full": 92462.0,
+    "abated": 72053.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 556100.0,
+    "billed": 20409.0,
+    "rate": 36.7,
+    "full": 20409.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 603680.0,
+  "abated_sum": 603679.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "203 Westminster Street",
+  "owner": "Westminster Partners LLC",
+  "ordinance": "2019-55 No. 541",
+  "plat_lot": "20-409",
+  "description": "Westminster Partners LLC has proposed and committed to repurposing the existing abandoned structure into a rehabilitated and also new commercial structure that will bring new tourism and employment to the neighborhood and the City of Providence.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $2,500.00 Years 1 - 4 $8,500.00 Years 5 - 20 Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2030,
+    "assessed": 3350.0,
+    "billed": 8500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2029,
+    "assessed": 3350.0,
+    "billed": 8500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2028,
+    "assessed": 3350.0,
+    "billed": 8500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2027,
+    "assessed": 3350.0,
+    "billed": 8500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2026,
+    "assessed": 3350.0,
+    "billed": 8500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2025,
+    "assessed": 3350.0,
+    "billed": 8500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2024,
+    "assessed": 3946000.0,
+    "billed": 139688.0,
+    "rate": 35.1,
+    "full": 1184.0,
+    "abated": -138504.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 3946000.0,
+    "billed": 139688.0,
+    "rate": 35.1,
+    "full": 138505.0,
+    "abated": -1183.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 3946000.0,
+    "billed": 143952.0,
+    "rate": 35.4,
+    "full": 139688.0,
+    "abated": -4264.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 3922400.0,
+    "billed": 143952.0,
+    "rate": 36.7,
+    "full": 143952.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 3922400.0,
+    "billed": 143952.0,
+    "rate": 36.7,
+    "full": 143952.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 3920500.0,
+    "billed": 143956.0,
+    "rate": 36.7,
+    "full": 143882.0,
+    "abated": -74.0
+   }
+  ],
+  "savings_to_date": -6631.0,
+  "abated_sum": -144025.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "473 Washington Street",
+  "owner": "Batwitwash LLC",
+  "ordinance": "2019-54 No. 522",
+  "plat_lot": "29-561",
+  "description": "Batwitwash, LLC has proposed and committed to construct a new multifamily residential building.",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $2,500.00 First 3 years D 5% of Abated Taxes C Yes, this TSA is in compliance Un",
+   "first_source": "irector of First Source in accordance with hapter 21 Article III of Code of Ordinance? able to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "D p t e Unable to determine Un",
+   "apprenticeship": "id property owner employ subcontractors rograms and require no less than 10% of otal hours worked by the subcontractors' mployees are completed by apprentices able to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 1447300.0,
+    "billed": 25296.0,
+    "rate": 35.1,
+    "full": 50800.0,
+    "abated": 25504.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 339700.0,
+    "billed": 12467.0,
+    "rate": 35.1,
+    "full": 11923.0,
+    "abated": -544.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 339700.0,
+    "billed": 12025.0,
+    "rate": 35.4,
+    "full": 442.0,
+    "abated": -11583.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 339700.0,
+    "billed": 12467.0,
+    "rate": 36.7,
+    "full": 12467.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 126000.0,
+    "billed": 4624.0,
+    "rate": 36.7,
+    "full": 4624.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 38700.0,
+    "billed": 1420.0,
+    "rate": 36.7,
+    "full": 1420.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 24519.0,
+  "abated_sum": 13377.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "not given",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "no"
+  }
+ },
+ {
+  "address": "35 Parade Street",
+  "owner": "RCG Armory Parkview, LLC",
+  "ordinance": "2021-1 No. 73",
+  "plat_lot": "35-595, 35-596",
+  "description": "RCG Armory Parkview, LLC has committed to rehabilitate existing historic buildings and return them to useful service",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $2,500.00 First 3 years 5% of Abated Taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 3918200.0,
+    "billed": 40510.0,
+    "rate": 35.1,
+    "full": 137529.0,
+    "abated": 97019.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 2583300.0,
+    "billed": 32013.0,
+    "rate": 35.1,
+    "full": 90674.0,
+    "abated": 58661.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 1026000.0,
+    "billed": 32013.0,
+    "rate": 35.4,
+    "full": 36320.0,
+    "abated": 4307.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 873200.0,
+    "billed": 32046.0,
+    "rate": 36.7,
+    "full": 32046.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 159986.0,
+  "abated_sum": 159987.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "321 Knight Street",
+  "owner": "321 Knight Street. LLC",
+  "ordinance": "2021-50 No. 426",
+  "plat_lot": "32-420, 29-53,32-472 (32-610)",
+  "description": "321 Knight Street, LLC commits to rehabilitate three existing blighted structures, clean up vacant lot and construct a new structure of commercial and residential uses.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $2,500.00 First 3 years 5% of Abated Taxes No, the parks & rec fees have not been received",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually No, the monitoring fees have not been received",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 193400.0,
+    "billed": 11165.0,
+    "rate": 35.1,
+    "full": 6788.0,
+    "abated": -4377.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 258300.0,
+    "billed": 11165.0,
+    "rate": 35.1,
+    "full": 9066.0,
+    "abated": -2099.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 224300.0,
+    "billed": 11165.0,
+    "rate": 35.4,
+    "full": 7940.0,
+    "abated": -3225.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 303800.0,
+    "billed": 11150.0,
+    "rate": 36.7,
+    "full": 11149.0,
+    "abated": -1.0
+   }
+  ],
+  "savings_to_date": -9699.0,
+  "abated_sum": -9702.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "no",
+   "first_source": "unable to determine",
+   "monitoring_fee": "no",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "49 Westfield LLC",
+  "owner": "49 Westfield",
+  "ordinance": "2021-16 No 237",
+  "plat_lot": "30-284, 285, 307, 308, 334, 716",
+  "description": "49 Westfield, LLC has proposed and committed to rehabiliating the existing lots into mixed use buildings consisting of live-work units, artist studios, make space an indoor food hall",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "$2,500.00 First 3 years 5% of Abated Taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 4150900.0,
+    "billed": 54089.0,
+    "rate": 35.1,
+    "full": 145697.0,
+    "abated": 91608.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 2515100.0,
+    "billed": 57492.0,
+    "rate": 35.1,
+    "full": 88280.0,
+    "abated": 30788.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 116700.0,
+    "billed": 4733.0,
+    "rate": 35.4,
+    "full": 4131.0,
+    "abated": -602.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 94500.0,
+    "billed": 3927.0,
+    "rate": 36.7,
+    "full": 3468.0,
+    "abated": -459.0
+   }
+  ],
+  "savings_to_date": 122396.0,
+  "abated_sum": 121335.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "Matilda Pines",
+  "owner": "Matilda Pines, LLC",
+  "ordinance": "2022-33 No. 260",
+  "plat_lot": "75-297",
+  "description": "Matilda Pines, LLC has prposed and committed to construct a 16-unit residential building, thus returning to productie residential use according to a plan already submitted to the City",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 3.11 $1,000 base years 7% abated (as shown in assessor's fiscal note) Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 3.12 .01% of the total project costs Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 2054900.0,
+    "billed": 10343.0,
+    "rate": 35.1,
+    "full": 72127.0,
+    "abated": 61784.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 1137500.0,
+    "billed": 40268.0,
+    "rate": 35.4,
+    "full": 40268.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 42800.0,
+    "billed": 1051.0,
+    "rate": 36.7,
+    "full": 1571.0,
+    "abated": 520.0
+   }
+  ],
+  "savings_to_date": 119293.0,
+  "abated_sum": 62304.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "8 Hewitt Street",
+  "owner": "8 Hewitt Street LLC",
+  "ordinance": "2022-32 No. 259",
+  "plat_lot": "28-1087",
+  "description": "8 Hewitt Street, LLC has proposed and committed to construct a 24 unit residential building, wherein several of the units will be workforce housing, thus returning the property to productive residntial use",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 3.11 $1,000 base years 7% abated (as shown in assessor's fiscal note) Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 3.12 .01% of the total project costs Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 2694800.0,
+    "billed": 27432.0,
+    "rate": 35.1,
+    "full": 94587.0,
+    "abated": 67155.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 1400400.0,
+    "billed": 49574.0,
+    "rate": 35.1,
+    "full": 49154.0,
+    "abated": -420.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 1400400.0,
+    "billed": 49574.0,
+    "rate": 35.4,
+    "full": 49574.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 66736.0,
+  "abated_sum": 66735.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "Seventy One Richmond",
+  "owner": "Seventy One Richmond, LLC",
+  "ordinance": "2022-73 No. 430",
+  "plat_lot": "24-515",
+  "description": "Sventy One Richmond LLC has proposed and committed to rehabilitating the existing commercial buildings consisting and incorporating new construction of residential apartment units for mixed use project",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $2,500.00 First 3 years 7% of Abated Taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2032,
+    "assessed": 375.0,
+    "billed": 290.64,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2031,
+    "assessed": 375.0,
+    "billed": 726.64,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2030,
+    "assessed": 375.0,
+    "billed": 1410.74,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2029,
+    "assessed": 375.0,
+    "billed": 2116.1,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2028,
+    "assessed": 375.0,
+    "billed": 2821.48,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2027,
+    "assessed": 375.0,
+    "billed": 3422.58,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2026,
+    "assessed": 375.0,
+    "billed": 4107.09,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2025,
+    "assessed": 375.0,
+    "billed": 2500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2024,
+    "assessed": 1212100.0,
+    "billed": 40579.0,
+    "rate": 35.1,
+    "full": 42545.0,
+    "abated": 1966.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 1156100.0,
+    "billed": 40926.0,
+    "rate": 35.1,
+    "full": 40579.0,
+    "abated": -347.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 375.0,
+    "billed": 2500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   }
+  ],
+  "savings_to_date": 1966.0,
+  "abated_sum": 1619.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "101 Richmond",
+  "owner": "101 Richmond, LLC",
+  "ordinance": "2024-2 No. 932022-66 No.423",
+  "plat_lot": "24-678",
+  "description": "101 Richmond LLC has proposed and committed to a complete rehabilitation of a structure and/or improvements on its property, thus returning the property to productive use",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 6Ki $1,000 Base years, 7% of abated taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 562800.0,
+    "billed": 19924.0,
+    "rate": 35.1,
+    "full": 19754.0,
+    "abated": -170.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 580600.0,
+    "billed": 19924.0,
+    "rate": 35.1,
+    "full": 20379.0,
+    "abated": 455.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 769300.0,
+    "billed": 27233.0,
+    "rate": 35.4,
+    "full": 27233.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 285.0,
+  "abated_sum": 285.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "E2000",
+  "owner": "E2000",
+  "ordinance": "2022-72 No. 429",
+  "plat_lot": "113-232, 233, 234, 235",
+  "description": "E2000 Realty, LLC has proposed and committed to replacing amd reconstructing the existing structure with modern building that will bring new residential housing and employment to the neighborhood",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $2,500.00 First 3 years 7% of Abated Taxes No, the parks & rec fees have not been received",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually No, the monitoring fees have not been received",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2025,
+    "assessed": 388.95,
+    "billed": 2500.0,
+    "rate": null,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2024,
+    "assessed": 578000.0,
+    "billed": 20461.0,
+    "rate": 35.1,
+    "full": 20288.0,
+    "abated": -173.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 578000.0,
+    "billed": 20461.0,
+    "rate": 35.1,
+    "full": 20288.0,
+    "abated": -173.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 578000.0,
+    "billed": 20461.0,
+    "rate": 35.4,
+    "full": 20461.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": -347.0,
+  "abated_sum": -346.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "no",
+   "first_source": "unable to determine",
+   "monitoring_fee": "no",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "Superman Bldg",
+  "owner": "High Rock Westminister St LLC",
+  "ordinance": "2022-59. No 372",
+  "plat_lot": "20-14",
+  "description": "High Rock Westminster Street LLC has prposed committed to repurposing the existing abandoned structure into a rehabilitated residential structure that will bring new hundreds of new residents to the heart of Downtown Providence",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 9.3 (a) $2,500.00 First 3 years 5% of Abated Taxes Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 9.2 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 14093500.0,
+    "billed": 498910.0,
+    "rate": 35.1,
+    "full": 494682.0,
+    "abated": -4228.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 14093500.0,
+    "billed": 498910.0,
+    "rate": 35.1,
+    "full": 494682.0,
+    "abated": -4228.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 14093500.0,
+    "billed": 498910.0,
+    "rate": 35.4,
+    "full": 498910.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": -8456.0,
+  "abated_sum": -8456.0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "165 Gano Strreet",
+  "owner": "Power 250 LLC",
+  "ordinance": "2024-13 No. 200",
+  "plat_lot": "14-604",
+  "description": "Power 250 LLC has proposed and committed to investing $4,000,000 into constructing a mult-family residential building at the subject location",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 3.11 $1000 In base years 7% taxes abated (TA note) Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 3.14 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 250500.0,
+    "billed": 8793.0,
+    "rate": 35.1,
+    "full": 8793.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 250500.0,
+    "billed": 8793.0,
+    "rate": 35.1,
+    "full": 8793.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": 0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "180 GMC BLVD",
+  "owner": "180 GMC LLC",
+  "ordinance": "2024 -14 No. 201",
+  "plat_lot": "17-650",
+  "description": "180 GMC LLC has proposed and committed to rehabilitating the former Tockwotton Home into reuse as an apartment complex",
+  "compliance": {
+   "annual_report": "No, the property owner failed to submit an annual report to the City Clerk",
+   "parks_fee": "Section 3.11 $1000 In base years 7% taxes abated (TA note) Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 3.14 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 3054000.0,
+    "billed": 107195.0,
+    "rate": 35.1,
+    "full": 107195.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 4531500.0,
+    "billed": 159056.0,
+    "rate": 35.1,
+    "full": 159056.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": 0,
+  "compliance_norm": {
+   "annual_report": "no",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "126 Adelaide Avenue",
+  "owner": "Touchdown Realty Group, LLC",
+  "ordinance": "52-351",
+  "plat_lot": "",
+  "description": "Touchdown Realty Group LLC has proposed and committed to investing $3,050,000 into rehabilitating and converting the building at the subject location into 15 unit residential apartment building",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "Section 3.11 $1000 In base years 7% taxes abated (TA note) Yes, this TSA is in compliance",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "Section 3.14 .01% of the total project costs annually Yes, this TSA is in compliance",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 15584.0,
+    "billed": 15584.0,
+    "rate": 35.1,
+    "full": 1000.0,
+    "abated": -14584.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 802900.0,
+    "billed": 28182.0,
+    "rate": 35.1,
+    "full": 28182.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": -0.01,
+  "abated_sum": -14584.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "yes",
+   "first_source": "unable to determine",
+   "monitoring_fee": "yes",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "103 Dike Street",
+  "owner": "Music House LLC",
+  "ordinance": "Sec. 21-235",
+  "plat_lot": "105-503",
+  "description": "Music House, LLC intends to substantially rehabilitate the building located at 103 Dike Street for commercial purposes.",
+  "compliance": {
+   "annual_report": "This is not a requirement for this property owner",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 1058200.0,
+    "billed": 11723.0,
+    "rate": 35.1,
+    "full": 37143.0,
+    "abated": 25420.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 1058200.0,
+    "billed": 11723.0,
+    "rate": 35.1,
+    "full": 37143.0,
+    "abated": 25420.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 1042600.0,
+    "billed": 8830.0,
+    "rate": 35.4,
+    "full": 36908.0,
+    "abated": 28078.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 700200.0,
+    "billed": 8830.0,
+    "rate": 36.7,
+    "full": 25697.0,
+    "abated": 16867.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 8830.0,
+    "billed": 25697.0,
+    "rate": 36.7,
+    "full": -16867.0,
+    "abated": -42564.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 700100.0,
+    "billed": 8830.0,
+    "rate": 36.7,
+    "full": 25694.0,
+    "abated": 16864.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 631600.0,
+    "billed": 6316.0,
+    "rate": 36.7,
+    "full": 23180.0,
+    "abated": 16864.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 172101.0,
+    "billed": 6316.0,
+    "rate": 36.7,
+    "full": 6316.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 173044.0,
+    "billed": 6316.0,
+    "rate": 36.7,
+    "full": 6351.0,
+    "abated": 35.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 171867.0,
+    "billed": 6316.0,
+    "rate": 36.7,
+    "full": 6308.0,
+    "abated": -8.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 167410.0,
+    "billed": 6152.0,
+    "rate": 36.75,
+    "full": 6152.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 182290.0,
+    "billed": 6152.0,
+    "rate": 36.75,
+    "full": 6699.0,
+    "abated": 547.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 167410.0,
+    "billed": 6152.0,
+    "rate": 36.75,
+    "full": 6152.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 477700.0,
+    "billed": 17555.0,
+    "rate": 36.75,
+    "full": 17555.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 146953.0,
+  "abated_sum": 87523.0,
+  "compliance_norm": {
+   "annual_report": "not required",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "11 Dorrance Street",
+  "owner": "Biltmore Providence Owner LLC",
+  "ordinance": "Sec. 21-235",
+  "plat_lot": "20-42",
+  "description": "The Providence Biltmore Hotel intends to make a substantial investment in property at 11 Dorrance Street, causing the structure to be rehabilitated as a hotel and related facilities.",
+  "compliance": {
+   "annual_report": "This is not a requirement for this property owner",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 24224700.0,
+    "billed": 124506.0,
+    "rate": 35.1,
+    "full": 850287.0,
+    "abated": 725781.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 24224700.0,
+    "billed": 143256.0,
+    "rate": 35.1,
+    "full": 850287.0,
+    "abated": 707031.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 24224700.0,
+    "billed": 143256.0,
+    "rate": 35.4,
+    "full": 857554.0,
+    "abated": 714298.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 25736900.0,
+    "billed": 143256.0,
+    "rate": 36.7,
+    "full": 944544.0,
+    "abated": 801288.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 143256.0,
+    "billed": 944544.0,
+    "rate": 36.7,
+    "full": -801288.0,
+    "abated": -1745832.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 25736900.0,
+    "billed": 143256.0,
+    "rate": 36.7,
+    "full": 944544.0,
+    "abated": 801288.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 26284900.0,
+    "billed": 143256.0,
+    "rate": 36.7,
+    "full": 964656.0,
+    "abated": 821400.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 3903439.0,
+    "billed": 143256.0,
+    "rate": 36.7,
+    "full": 143256.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 3924827.0,
+    "billed": 143256.0,
+    "rate": 36.7,
+    "full": 144041.0,
+    "abated": 785.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 3387918.0,
+    "billed": 124506.0,
+    "rate": 36.7,
+    "full": 124337.0,
+    "abated": -169.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 21905100.0,
+    "billed": 805012.0,
+    "rate": 36.75,
+    "full": 805012.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 3689073.0,
+    "billed": 124506.0,
+    "rate": 36.75,
+    "full": 135573.0,
+    "abated": 11067.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 3387924.0,
+    "billed": 124506.0,
+    "rate": 36.75,
+    "full": 124506.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 18900000.0,
+    "billed": 694575.0,
+    "rate": 36.75,
+    "full": 694575.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 3749686.0,
+  "abated_sum": 2836937.0,
+  "compliance_norm": {
+   "annual_report": "not required",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "95 Chestnut Street",
+  "owner": "Hecht Development",
+  "ordinance": "Sec. 21-235",
+  "plat_lot": "24-261",
+  "description": "Hecht Chestnut, LLC intends to make a substantial investment in said property including rehabilitation of the structure and development of office/lab and/or residential use.",
+  "compliance": {
+   "annual_report": "This is not a requirement for this property owner",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 7960700.0,
+    "billed": 21208.0,
+    "rate": 35.1,
+    "full": 279421.0,
+    "abated": 258213.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 7960700.0,
+    "billed": 21208.0,
+    "rate": 35.1,
+    "full": 279421.0,
+    "abated": 258213.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 7960700.0,
+    "billed": 21208.0,
+    "rate": 35.4,
+    "full": 281809.0,
+    "abated": 260601.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 5928700.0,
+    "billed": 21208.0,
+    "rate": 36.7,
+    "full": 217583.0,
+    "abated": 196375.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 5928700.0,
+    "billed": 217583.0,
+    "rate": 36.7,
+    "full": -196375.0,
+    "abated": -413958.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 5928700.0,
+    "billed": 90831.0,
+    "rate": 36.7,
+    "full": 217583.0,
+    "abated": 126752.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 4031600.0,
+    "billed": 21208.0,
+    "rate": 36.7,
+    "full": 147960.0,
+    "abated": 126752.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 577872.0,
+    "billed": 21208.0,
+    "rate": 36.7,
+    "full": 21208.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 581038.0,
+    "billed": 21208.0,
+    "rate": 36.7,
+    "full": 21324.0,
+    "abated": 116.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 556533.0,
+    "billed": 20453.0,
+    "rate": 36.7,
+    "full": 20425.0,
+    "abated": -28.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 3091300.0,
+    "billed": 113605.0,
+    "rate": 36.75,
+    "full": 113605.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 707176.0,
+    "billed": 23867.0,
+    "rate": 36.75,
+    "full": 25989.0,
+    "abated": 2122.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 649448.0,
+    "billed": 23867.0,
+    "rate": 36.75,
+    "full": 23867.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 3011300.0,
+    "billed": 110665.0,
+    "rate": 36.75,
+    "full": 110665.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 1169777.0,
+  "abated_sum": 815158.0,
+  "compliance_norm": {
+   "annual_report": "not required",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "122 Fountain Street",
+  "owner": "Dean Hotel",
+  "ordinance": "Sec. 21-235",
+  "plat_lot": "25-173",
+  "description": "122 Fountain Street, LLC intends to make a substantial investment in said property by purchasing said property and causing the structure to be rehabilitated and developed into hotel and related facilities.",
+  "compliance": {
+   "annual_report": "This is not a requirement for this property owner",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Unable to determine",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Unable to determine",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 3170200.0,
+    "billed": 9601.0,
+    "rate": 35.1,
+    "full": 111274.0,
+    "abated": 101673.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 3170200.0,
+    "billed": 9601.0,
+    "rate": 35.1,
+    "full": 111274.0,
+    "abated": 101673.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 3170200.0,
+    "billed": 9601.0,
+    "rate": 35.4,
+    "full": 112225.0,
+    "abated": 102624.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 3283900.0,
+    "billed": 9601.0,
+    "rate": 36.7,
+    "full": 120519.0,
+    "abated": 110918.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 3283900.0,
+    "billed": 9601.0,
+    "rate": 36.7,
+    "full": 120519.0,
+    "abated": 110918.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 3283900.0,
+    "billed": 18846.0,
+    "rate": 36.7,
+    "full": 120519.0,
+    "abated": 101673.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 3032000.0,
+    "billed": 9601.0,
+    "rate": 36.7,
+    "full": 111274.0,
+    "abated": 101673.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 261608.0,
+    "billed": 9601.0,
+    "rate": 36.7,
+    "full": 9601.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 263041.0,
+    "billed": 9601.0,
+    "rate": 36.7,
+    "full": 9654.0,
+    "abated": 53.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 261257.0,
+    "billed": 9601.0,
+    "rate": 36.7,
+    "full": 9588.0,
+    "abated": -13.0
+   },
+   {
+    "tax_year": 2014,
+    "assessed": 261257.0,
+    "billed": 9601.0,
+    "rate": 36.75,
+    "full": 9601.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2013,
+    "assessed": 284480.0,
+    "billed": 9601.0,
+    "rate": 36.75,
+    "full": 10455.0,
+    "abated": 854.0
+   },
+   {
+    "tax_year": 2012,
+    "assessed": 261257.0,
+    "billed": 9601.0,
+    "rate": 36.75,
+    "full": 9601.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2011,
+    "assessed": 2095500.0,
+    "billed": 77010.0,
+    "rate": 36.75,
+    "full": 77010.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 527805.0,
+  "abated_sum": 732046.0,
+  "compliance_norm": {
+   "annual_report": "not required",
+   "parks_fee": "not required",
+   "first_source": "unable to determine",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "unable to determine",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "1017 Broad Street",
+  "owner": "Tavares, LLC",
+  "ordinance": "N/ A",
+  "plat_lot": "53-582, 735",
+  "description": "Tavares, LLC has proposed and committed to rehabilitate a structure and/or improvement on its property thereby redeveloping approximately 13,800 square feet of mixed use space to be used as retail stores, offices, and a reception facility within the existing building, thus returning the property to productive mixed use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "N/A Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 1704200.0,
+    "billed": 50009.0,
+    "rate": 35.1,
+    "full": 59817.0,
+    "abated": 9808.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 1704200.0,
+    "billed": 39800.0,
+    "rate": 35.1,
+    "full": 59817.0,
+    "abated": 20017.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 1704200.0,
+    "billed": 29766.0,
+    "rate": 35.4,
+    "full": 60329.0,
+    "abated": 30563.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 1180300.0,
+    "billed": 15969.0,
+    "rate": 36.7,
+    "full": 43317.0,
+    "abated": 27348.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 9175.0,
+    "billed": 43145.0,
+    "rate": 36.7,
+    "full": -33970.0,
+    "abated": -77115.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 864200.0,
+    "billed": 31206.0,
+    "rate": 36.7,
+    "full": 31716.0,
+    "abated": 510.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": 11131.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "304 Pearl Street",
+  "owner": "Pearl Street, LLC",
+  "ordinance": "2015-29 No. 401, 2016-1 No.0",
+  "plat_lot": "30-22",
+  "description": "Pearl Street, LLC has proposed and promised to rehabilitate structures and/or improvements on its property contributing to the overall improvement of the mixed- use multistructure site, thus returning the property to productive mixed-use in accordance with the plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 6544800.0,
+    "billed": 208776.0,
+    "rate": 35.1,
+    "full": 229722.0,
+    "abated": 20946.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 6544800.0,
+    "billed": 183190.0,
+    "rate": 35.1,
+    "full": 229722.0,
+    "abated": 46532.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 6544800.0,
+    "billed": 158040.0,
+    "rate": 35.4,
+    "full": 231686.0,
+    "abated": 73646.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 5228800.0,
+    "billed": 123523.0,
+    "rate": 36.7,
+    "full": -68374.0,
+    "abated": -191897.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 5228800.0,
+    "billed": 106430.0,
+    "rate": 36.7,
+    "full": 191897.0,
+    "abated": 85467.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 5370100.0,
+    "billed": 197083.0,
+    "rate": 36.7,
+    "full": 197083.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": 34694.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "225 Waterman Street",
+  "owner": "FILI Investment, LLC",
+  "ordinance": "2015-29 No. 401, 2016-1 No.1",
+  "plat_lot": "14-508",
+  "description": "FILI Invesment , LLC has commited to complete rehabilitation of a structure and improvements and turning a structre into residential use.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 4504600.0,
+    "billed": 101522.0,
+    "rate": 35.1,
+    "full": 158111.0,
+    "abated": 56589.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 4504600.0,
+    "billed": 72887.0,
+    "rate": 35.1,
+    "full": 158111.0,
+    "abated": 85224.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 4147600.0,
+    "billed": 41968.0,
+    "rate": 35.4,
+    "full": 146825.0,
+    "abated": 104857.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 425500.0,
+    "billed": 15616.0,
+    "rate": 36.7,
+    "full": 0.0,
+    "abated": -15616.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 266500.0,
+    "billed": 9781.0,
+    "rate": 36.7,
+    "full": 9781.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 425500.0,
+    "billed": 15616.0,
+    "rate": 36.7,
+    "full": 15616.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": 231054.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "292 Academy Avenue",
+  "owner": "FTC Realty, LLC",
+  "ordinance": "2015-29 No. 401, 2016-1 No.2",
+  "plat_lot": "84-215",
+  "description": "FTC has proposed and committed to rehabilitate and redevelop a building into commercial, retail, and office spaces.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 558100.0,
+    "billed": 17706.0,
+    "rate": 35.1,
+    "full": 19589.0,
+    "abated": 1883.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 558100.0,
+    "billed": 15448.0,
+    "rate": 35.1,
+    "full": 19589.0,
+    "abated": 4141.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 748900.0,
+    "billed": 15928.0,
+    "rate": 35.4,
+    "full": 26511.0,
+    "abated": 10583.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 603200.0,
+    "billed": 11362.0,
+    "rate": 36.7,
+    "full": -10775.0,
+    "abated": -22137.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 236200.0,
+    "billed": 8669.0,
+    "rate": 36.7,
+    "full": 8669.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 236200.0,
+    "billed": 8669.0,
+    "rate": 36.7,
+    "full": 8669.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": -5530.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "530 Broadway",
+  "owner": "530 Broadway, LLC",
+  "ordinance": "2015-29 No. 401, 2016-1 No.3",
+  "plat_lot": "35-51",
+  "description": "530 Broadway, LLC has committed to rehabilitate and redevelop a building into thirty-two (32) residential units.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 8.1 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 3915200.0,
+    "billed": 106119.0,
+    "rate": 35.1,
+    "full": 137424.0,
+    "abated": 31305.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 3915200.0,
+    "billed": 89256.0,
+    "rate": 35.1,
+    "full": 137424.0,
+    "abated": 48168.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 3915200.0,
+    "billed": 72538.0,
+    "rate": 35.4,
+    "full": 138598.0,
+    "abated": 66060.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 1712800.0,
+    "billed": 55531.0,
+    "rate": 36.7,
+    "full": -7329.0,
+    "abated": -62860.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 1513100.0,
+    "billed": 55531.0,
+    "rate": 36.7,
+    "full": 55531.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 1425900.0,
+    "billed": 52331.0,
+    "rate": 36.7,
+    "full": 52331.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": 82673.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "18 Eighth Street",
+  "owner": "8th Investment LLC",
+  "ordinance": "2015-29 No. 401, 2016-1 No.4",
+  "plat_lot": "91-162 to 91-671",
+  "description": "8th Investment, LLC has committed to rehabilitate and redevelop a building into residential spaces.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 2852400.0,
+    "billed": 72803.0,
+    "rate": 35.1,
+    "full": 100119.0,
+    "abated": 27316.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 2852400.0,
+    "billed": 63750.0,
+    "rate": 35.1,
+    "full": 100119.0,
+    "abated": 36369.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 3606100.0,
+    "billed": 49642.0,
+    "rate": 35.4,
+    "full": 127656.0,
+    "abated": 78014.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": 141699.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "271 Tockwotten Street",
+  "owner": "271 Tockwotten Partners, LLC",
+  "ordinance": "2015-29 No. 401, 2016-1 No.5",
+  "plat_lot": "17-658",
+  "description": "Tockwotten has committed to rehabilitate and redevelop a building into a brewery and restaurant/brewpub/event space.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 2713800.0,
+    "billed": 76969.0,
+    "rate": 35.1,
+    "full": 95254.0,
+    "abated": 18285.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 2713800.0,
+    "billed": 66812.0,
+    "rate": 35.1,
+    "full": 95254.0,
+    "abated": 28442.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 2713800.0,
+    "billed": 59742.0,
+    "rate": 35.4,
+    "full": 96069.0,
+    "abated": 36327.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 1662800.0,
+    "billed": 46499.0,
+    "rate": 36.7,
+    "full": 61025.0,
+    "abated": 14526.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 1279700.0,
+    "billed": 46965.0,
+    "rate": 36.7,
+    "full": 0.0,
+    "abated": -46965.0
+   }
+  ],
+  "savings_to_date": 97580.15,
+  "abated_sum": 50615.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "156 Westminster Street",
+  "owner": "Presidio 156, LLC",
+  "ordinance": "2015-29 No. 401, 2016-1 No.6",
+  "plat_lot": "20-385",
+  "description": "Presidio has committed to rehabilitate and redevelop a building into twelve (12) dwelling units",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 1269300.0,
+    "billed": 48147.0,
+    "rate": 35.1,
+    "full": 44552.0,
+    "abated": -3595.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 1269300.0,
+    "billed": 48147.0,
+    "rate": 35.1,
+    "full": 44552.0,
+    "abated": -3595.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 1269300.0,
+    "billed": 48147.0,
+    "rate": 35.4,
+    "full": 44933.0,
+    "abated": -3214.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 1311901.0,
+    "billed": 48147.0,
+    "rate": 36.7,
+    "full": -0.0,
+    "abated": -48147.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 1311900.0,
+    "billed": 48147.0,
+    "rate": 36.7,
+    "full": 48147.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 1311900.0,
+    "billed": 48147.0,
+    "rate": 36.7,
+    "full": 48147.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": -58551.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "14 Piedmont Street",
+  "owner": "Federal Hill Partners, LLC (\"FHP\")",
+  "ordinance": "2015-29 No. 401, 2016-1 No.7",
+  "plat_lot": "28-1079",
+  "description": "Federal Hill Partners, LLC has committed to construct a four-strory, 20 unit residential building",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 2911300.0,
+    "billed": 66791.0,
+    "rate": 35.1,
+    "full": 102187.0,
+    "abated": 35396.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 2287000.0,
+    "billed": 40047.0,
+    "rate": 35.1,
+    "full": 80274.0,
+    "abated": 40227.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 2287000.0,
+    "billed": 26857.0,
+    "rate": 35.4,
+    "full": 80960.0,
+    "abated": 54103.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 1607100.0,
+    "billed": 12856.0,
+    "rate": 36.7,
+    "full": 58981.0,
+    "abated": 46125.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 350300.0,
+    "billed": 12856.0,
+    "rate": 36.7,
+    "full": 0.0,
+    "abated": -12856.0
+   }
+  ],
+  "savings_to_date": 175849.0,
+  "abated_sum": 162995.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "46 Dike Street",
+  "owner": "46 Dike Street Holdings, LLC (\"DSH\")",
+  "ordinance": "2015-29 No. 401, 2016-1 No.8",
+  "plat_lot": "35-334",
+  "description": "DSH has proposed and committed to rehabilitate an existing commercial building into a mixed use hotel and commercial space community venue.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 474700.0,
+    "billed": 15631.0,
+    "rate": 35.1,
+    "full": 16662.0,
+    "abated": 1031.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 474700.0,
+    "billed": 14189.0,
+    "rate": 35.1,
+    "full": 16662.0,
+    "abated": 2473.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 474700.0,
+    "billed": 12762.0,
+    "rate": 35.4,
+    "full": 16804.0,
+    "abated": 4042.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 602300.0,
+    "billed": 12289.0,
+    "rate": 36.7,
+    "full": -9815.0,
+    "abated": -22104.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 638400.0,
+    "billed": 23429.0,
+    "rate": 36.7,
+    "full": 23429.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 268000.0,
+    "billed": 9836.0,
+    "rate": 36.7,
+    "full": 9836.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": null,
+  "abated_sum": -14558.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "193 Vinton Street",
+  "owner": "Wide Plank, LLC",
+  "ordinance": "2015-29 No. 401, 2016-1 No.9",
+  "plat_lot": "28-932",
+  "description": "Wide Plank has committed to rehabilitate an existing structure.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 650100.0,
+    "billed": 14774.0,
+    "rate": 35.1,
+    "full": 22819.0,
+    "abated": 8045.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 650100.0,
+    "billed": 12392.0,
+    "rate": 35.1,
+    "full": 22819.0,
+    "abated": 10427.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 623500.0,
+    "billed": 9533.0,
+    "rate": 35.4,
+    "full": 22072.0,
+    "abated": 12539.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 410900.0,
+    "billed": 7599.0,
+    "rate": 36.7,
+    "full": 15080.0,
+    "abated": 7481.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 309400.0,
+    "billed": 7599.0,
+    "rate": 36.7,
+    "full": 11355.0,
+    "abated": 3756.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 309400.0,
+    "billed": 7599.0,
+    "rate": 36.7,
+    "full": 11355.0,
+    "abated": 3756.0
+   }
+  ],
+  "savings_to_date": 42246.0,
+  "abated_sum": 46004.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "468 West Fountain Street",
+  "owner": "Unison West Fountain",
+  "ordinance": "2015-29 No. 401, 2016-1 No.10",
+  "plat_lot": "29-554",
+  "description": "West Fountain has committed to construct a new 34-unit residential building.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Y Not a requirement for this TSA s",
+   "first_source": "es, a has been igned, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes U",
+   "apprenticeship": "nable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 4353200.0,
+    "billed": 94907.0,
+    "rate": 35.1,
+    "full": 152797.0,
+    "abated": 57890.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 4353200.0,
+    "billed": 40956.0,
+    "rate": 35.1,
+    "full": 152797.0,
+    "abated": 111841.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 4353200.0,
+    "billed": 12856.0,
+    "rate": 35.4,
+    "full": 154103.0,
+    "abated": 141247.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 772300.0,
+    "billed": 28343.0,
+    "rate": 36.7,
+    "full": 0.0,
+    "abated": -28343.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 89200.0,
+    "billed": 3274.0,
+    "rate": 36.7,
+    "full": 3274.0,
+    "abated": 0.0
+   }
+  ],
+  "savings_to_date": 310978.0,
+  "abated_sum": 282635.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "not given",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "not given"
+  }
+ },
+ {
+  "address": "80 Smith Street Admin",
+  "owner": "262 LLC",
+  "ordinance": "2015-28 No. 400",
+  "plat_lot": "4-262",
+  "description": "262 LLC has proposed and promised to construct a new approximately 169 unit Class A residential rental development including four stories of residential above two levels of parking, residential, and amenity space with approximately 170 structured parking spaces in accordance with the construction plans previously submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 41145000.0,
+    "billed": 649086.0,
+    "rate": 35.1,
+    "full": 1444190.0,
+    "abated": 795104.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 41145000.0,
+    "billed": 515704.0,
+    "rate": 35.1,
+    "full": 1444190.0,
+    "abated": 928486.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 41145000.0,
+    "billed": 394110.0,
+    "rate": 35.4,
+    "full": 1456533.0,
+    "abated": 1062423.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 38293700.0,
+    "billed": 256096.0,
+    "rate": 36.7,
+    "full": 1405379.0,
+    "abated": 1149283.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 38293700.0,
+    "billed": 185923.0,
+    "rate": 36.7,
+    "full": 1405379.0,
+    "abated": 1219456.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 3144435.0,
+    "billed": 115558.0,
+    "rate": 36.7,
+    "full": 115401.0,
+    "abated": -157.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 3144435.0,
+    "billed": 115558.0,
+    "rate": 36.7,
+    "full": 115401.0,
+    "abated": -157.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 3144435.0,
+    "billed": 115558.0,
+    "rate": 36.7,
+    "full": 115401.0,
+    "abated": -157.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 3144441.0,
+    "billed": 115558.0,
+    "rate": 36.7,
+    "full": 115401.0,
+    "abated": -157.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 3144441.0,
+    "billed": 122067.0,
+    "rate": 36.7,
+    "full": 115401.0,
+    "abated": -6666.0
+   }
+  ],
+  "savings_to_date": 5147456.0,
+  "abated_sum": 5147458.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "5 Exchange Street",
+  "owner": "Exchange St Hotel LLC (Steeple Street LLC c/o First Bristol Corp)",
+  "ordinance": "2015-28 No. 400",
+  "plat_lot": "19-120",
+  "description": "Exchange Street Hotel, LLC has proposed and promised to construct new building structures and/or improvements on its property and return the property to productive commercial use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 10345300.0,
+    "billed": 155354.0,
+    "rate": 35.1,
+    "full": 363120.0,
+    "abated": 207766.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 10345300.0,
+    "billed": 125256.0,
+    "rate": 35.1,
+    "full": 363120.0,
+    "abated": 237864.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 10345300.0,
+    "billed": 95406.0,
+    "rate": 35.4,
+    "full": 366224.0,
+    "abated": 270818.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 13225500.0,
+    "billed": 86075.0,
+    "rate": 36.7,
+    "full": 485376.0,
+    "abated": 399301.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 13225500.0,
+    "billed": 65059.0,
+    "rate": 36.7,
+    "full": 485376.0,
+    "abated": 420317.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 12088700.0,
+    "billed": 65059.0,
+    "rate": 36.7,
+    "full": 443655.0,
+    "abated": 378596.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 1858700.0,
+    "billed": 65059.0,
+    "rate": 36.7,
+    "full": 68214.0,
+    "abated": 3155.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 1772725.0,
+    "billed": 65059.0,
+    "rate": 36.7,
+    "full": 65059.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2016,
+    "assessed": 1858700.0,
+    "billed": 68214.0,
+    "rate": 36.7,
+    "full": 1625.0,
+    "abated": -66589.0
+   },
+   {
+    "tax_year": 2015,
+    "assessed": 1770300.0,
+    "billed": 58597.0,
+    "rate": 36.7,
+    "full": 64970.0,
+    "abated": 6373.0
+   }
+  ],
+  "savings_to_date": 1536066.0,
+  "abated_sum": 1857601.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "225 Dyer Street",
+  "owner": "Providence Innovation District Phase I, LLC",
+  "ordinance": "2015-28 No. 400",
+  "plat_lot": "20-400",
+  "description": "Providence Innovation District Phase I Owner, LLC has proposed and committed to construct a new approximately 195,068 square foot mixed-used development on said property and return same to productive use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 49632100.0,
+    "billed": 252772.0,
+    "rate": 35.1,
+    "full": 1742087.0,
+    "abated": 1489315.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 43506100.0,
+    "billed": 127427.0,
+    "rate": 35.1,
+    "full": 1527064.0,
+    "abated": 1399637.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 38897500.0,
+    "billed": 30035.0,
+    "rate": 35.4,
+    "full": 1376972.0,
+    "abated": 1346937.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 35952000.0,
+    "billed": 30035.0,
+    "rate": 36.7,
+    "full": 1319438.0,
+    "abated": 1289403.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 35952000.0,
+    "billed": 30035.0,
+    "rate": 36.7,
+    "full": 1319438.0,
+    "abated": 1289403.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 22127000.0,
+    "billed": 30035.0,
+    "rate": 36.7,
+    "full": 812061.0,
+    "abated": 782026.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 1389400.0,
+    "billed": 30035.0,
+    "rate": 36.7,
+    "full": 50991.0,
+    "abated": 20956.0
+   }
+  ],
+  "savings_to_date": 6814694.0,
+  "abated_sum": 7617677.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "180 Friendship",
+  "owner": "CC WCM-MP PO, LLC (CBWC Holdings I LLC)",
+  "ordinance": "2015-28 No. 400",
+  "plat_lot": "24-664",
+  "description": "CC WCM-MP PO, LLC has proposed and committed to construct a new 109,000 square foot mixed-used development on said property and return same to productive mixed use in accordance with the construction plans already submitted to the City.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA",
+   "mbe_wbe": "Yes",
+   "apprenticeship": "Unable to determine"
+  },
+  "years": [
+   {
+    "tax_year": 2023,
+    "assessed": 25596900.0,
+    "billed": 58027.0,
+    "rate": 35.1,
+    "full": 898451.0,
+    "abated": 840424.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 21337600.0,
+    "billed": 13763.0,
+    "rate": 35.4,
+    "full": 755351.0,
+    "abated": 741588.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 827500.0,
+    "billed": 13763.0,
+    "rate": 36.7,
+    "full": 30369.0,
+    "abated": 16606.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 827500.0,
+    "billed": 13763.0,
+    "rate": 36.7,
+    "full": 30369.0,
+    "abated": 16606.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 827700.0,
+    "billed": 30377.0,
+    "rate": 36.7,
+    "full": 30377.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 827700.0,
+    "billed": 30377.0,
+    "rate": 36.7,
+    "full": 30377.0,
+    "abated": 0.0
+   },
+   {
+    "tax_year": 2017,
+    "assessed": 827700.0,
+    "billed": 30377.0,
+    "rate": 36.7,
+    "full": null,
+    "abated": null
+   }
+  ],
+  "savings_to_date": 2411385.0,
+  "abated_sum": 1615224.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "A Loft",
+  "owner": "BAC CVP Aloft, LLC",
+  "ordinance": "2015-28 No. 400",
+  "plat_lot": "20-401",
+  "description": "BAC CVP Aloft LLC has proposed and committed to construct a new approximately 107,762 square foot hotel development featuring hotel space as well as restaurant space.",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "Section 9.2 .01% of the cost of the project anually Not a requirement for this TSA 2024 A Lof",
+   "mbe_wbe": "Yes t",
+   "apprenticeship": "Unable to determine I5"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 19485000.0,
+    "billed": 9175.0,
+    "rate": 35.1,
+    "full": 683924.0,
+    "abated": 674749.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 15825200.0,
+    "billed": 9175.0,
+    "rate": 35.1,
+    "full": 555465.0,
+    "abated": 546290.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 15825200.0,
+    "billed": 9157.0,
+    "rate": 35.4,
+    "full": 560212.0,
+    "abated": 551055.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 999400.0,
+    "billed": 9175.0,
+    "rate": 36.7,
+    "full": 36678.0,
+    "abated": 27503.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 999400.0,
+    "billed": 9175.0,
+    "rate": 36.7,
+    "full": 36678.0,
+    "abated": 27503.0
+   },
+   {
+    "tax_year": 2019,
+    "assessed": 999400.0,
+    "billed": 36678.0,
+    "rate": 36.7,
+    "full": null,
+    "abated": null
+   },
+   {
+    "tax_year": 2018,
+    "assessed": 999400.0,
+    "billed": 36678.0,
+    "rate": 36.7,
+    "full": null,
+    "abated": null
+   }
+  ],
+  "savings_to_date": 1827099.0,
+  "abated_sum": 1827100.0,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ },
+ {
+  "address": "125 Clifford Street",
+  "owner": "EM 28 Providence Owner, L.P.",
+  "ordinance": "2015-28 No. 400",
+  "plat_lot": "24-676",
+  "description": "EM 28 Providence Owner, L.P. has proposed and committed to construct a new building with approximately 249 residential units and 19,593 square-feet of retail space",
+  "compliance": {
+   "annual_report": "Yes, the property owner has submitted an annual report to the City Clerk",
+   "parks_fee": "N/A Not a requirement for this TSA",
+   "first_source": "Yes, a has been signed, construction is ongoing",
+   "monitoring_fee": "N/A Not a requirement for this TSA 2024 125 Clifford Str",
+   "mbe_wbe": "Yes eet",
+   "apprenticeship": "Unable to determine I6"
+  },
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 57541400.0,
+    "billed": 3670.0,
+    "rate": 35.1,
+    "full": 2019703.0,
+    "abated": 2016033.0
+   },
+   {
+    "tax_year": 2023,
+    "assessed": 57541400.0,
+    "billed": 3670.0,
+    "rate": 35.1,
+    "full": 2019703.0,
+    "abated": 2016033.0
+   },
+   {
+    "tax_year": 2022,
+    "assessed": 330500.0,
+    "billed": 3670.0,
+    "rate": 35.4,
+    "full": 11700.0,
+    "abated": 8030.0
+   },
+   {
+    "tax_year": 2021,
+    "assessed": 330500.0,
+    "billed": 3670.0,
+    "rate": 36.7,
+    "full": 12129.0,
+    "abated": 8459.0
+   },
+   {
+    "tax_year": 2020,
+    "assessed": 330500.0,
+    "billed": 12129.0,
+    "rate": 36.7,
+    "full": 8039.66,
+    "abated": -4089.34
+   }
+  ],
+  "savings_to_date": 4048555.0,
+  "abated_sum": 4044465.66,
+  "compliance_norm": {
+   "annual_report": "yes",
+   "parks_fee": "not required",
+   "first_source": "yes",
+   "monitoring_fee": "not required",
+   "mbe_wbe": "yes",
+   "apprenticeship": "unable to determine"
+  }
+ }
+]

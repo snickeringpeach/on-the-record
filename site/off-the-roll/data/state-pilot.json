@@ -1,0 +1,11 @@
+{
+  "what": "State payment in lieu of taxes to Providence for exempt private colleges and nonprofit hospitals (RIGL 45-13-5.1), reimbursed at up to 27% of the tax the property would have paid.",
+  "reported_base": 139840608,
+  "reported_base_note": "Property tax that Providence reported the qualifying institutions would have paid, on assessments as of Dec 31, 2023 (column A of the FY2026 calculation).",
+  "fy2025_payment": 37273505,
+  "fy2026_enacted": 39807256,
+  "sources": [
+    {"title": "House Fiscal Advisory Staff, Local Aid, 2025 edition, Appendix VII", "url": "https://rilegislature.gov/housefiscalreport/2020/Local%20Aid%202025%20Edition.pdf", "file": "data/src/local-aid-2025-edition.pdf"},
+    {"title": "House Fiscal Advisory Staff, FY 2026 Budget as Enacted: State Aid to Local Governments", "url": "https://rilegislature.gov/housefiscalreport/2020/FY%202026%20Budget%20as%20Enacted%20-%20State%20Aid%20to%20Local%20Governments.pdf", "file": "data/src/fy2026-enacted-state-aid.pdf"}
+  ]
+}

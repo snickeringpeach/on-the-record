@@ -1,0 +1,79 @@
+{
+  "rate_per_1000": 29.2,
+  "total_exempt": 10583895743.0,
+  "government": 3404352243.0,
+  "private": 7179543500.0,
+  "private_full_rate_tax": 209642670,
+  "groups": {
+    "government": {
+      "parcels": 884,
+      "exempt": 3344573943.0,
+      "full_rate_tax": 97661559
+    },
+    "higher ed": {
+      "parcels": 331,
+      "exempt": 3279506900.0,
+      "full_rate_tax": 95761601
+    },
+    "hospital": {
+      "parcels": 178,
+      "exempt": 1440974600.0,
+      "full_rate_tax": 42076458
+    },
+    "exempt by Council vote": {
+      "parcels": 22,
+      "exempt": 760425300.0,
+      "full_rate_tax": 22204419
+    },
+    "church": {
+      "parcels": 450,
+      "exempt": 521879000.0,
+      "full_rate_tax": 15238867
+    },
+    "private school/other education": {
+      "parcels": 98,
+      "exempt": 404495500.0,
+      "full_rate_tax": 11811269
+    },
+    "charity": {
+      "parcels": 345,
+      "exempt": 319242600.0,
+      "full_rate_tax": 9321884
+    },
+    "cemetery": {
+      "parcels": 16,
+      "exempt": 243239400.0,
+      "full_rate_tax": 7102590
+    },
+    "other nonprofit": {
+      "parcels": 94,
+      "exempt": 108265100.0,
+      "full_rate_tax": 3161341
+    },
+    "library": {
+      "parcels": 13,
+      "exempt": 70966400.0,
+      "full_rate_tax": 2072219
+    },
+    "railroad": {
+      "parcels": 49,
+      "exempt": 59778300.0,
+      "full_rate_tax": 1745526
+    },
+    "other health": {
+      "parcels": 8,
+      "exempt": 30548700.0,
+      "full_rate_tax": 892022
+    }
+  },
+  "council_vote": {
+    "PROVIDENCE PLACE GROUP LP": 730796600.0,
+    "PROVIDENCE PERFORMING ARTS CENTER K/N/A": 12995500.0,
+    "STREET LLC 21 PEACE": 12589500.0,
+    "DEVELOPMENT COMPANY LLC URBAN LAND": 2260400.0,
+    "JEWISH FAMILY SERVICE, INC.": 1437200.0,
+    "KYLTIFF INVESTMENTS & CONSULTING LLC": 146000.0,
+    "OLNEYVILLE HOUSING CORP": 144800.0,
+    "": 55300.0
+  }
+}

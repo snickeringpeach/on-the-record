@@ -1,0 +1,37 @@
+{
+  "Brown University": {
+    "amount": 7000000,
+    "year": "FY2025",
+    "source": "2023 MOU + MOA, first-year payment; Rhode Island Current, Sept 6 2023"
+  },
+  "Providence College": {
+    "amount": 725000,
+    "year": "FY2025",
+    "source": "2023 MOU, first-year payment; Rhode Island Current, Sept 6 2023"
+  },
+  "Johnson & Wales": {
+    "amount": 625000,
+    "year": "FY2025",
+    "source": "2023 MOU, first-year payment; Rhode Island Current, Sept 6 2023"
+  },
+  "RISD": {
+    "amount": 625000,
+    "year": "FY2025",
+    "source": "2023 MOU, first-year payment; Rhode Island Current, Sept 6 2023"
+  },
+  "Brown University Health": {
+    "amount": 750000,
+    "year": "FY2025",
+    "source": "PILOT signed Nov 15 2024, $750K/yr; City of Providence"
+  },
+  "Care New England": {
+    "amount": 0,
+    "year": "",
+    "source": "no PILOT agreement found"
+  },
+  "Providence Place": {
+    "amount": 500000,
+    "year": "approx., per PBN",
+    "source": "30-year payment-in-lieu agreement expiring 2028, ~$500K/yr; Providence Business News"
+  }
+}

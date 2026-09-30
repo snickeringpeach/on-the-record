@@ -1,0 +1,555 @@
+{
+  "source": "2025_Property_Tax_Roll_20260910.csv",
+  "full_rate": {
+    "commercial_per_1000": 29.2,
+    "residential_per_1000": 14.6
+  },
+  "totals": {
+    "parcels": 44062,
+    "assessed": 36004549217.0,
+    "exempt": 12507903085.519997,
+    "taxes": 352655566.16000444
+  },
+  "by_regime": {
+    "homestead exemption": {
+      "parcels": 20140,
+      "assessed": 11209938200.0,
+      "exempt": 406958287.0,
+      "taxes": 87321013.92000008
+    },
+    "fully exempt": {
+      "parcels": 2488,
+      "assessed": 10583895743.0,
+      "exempt": 10583895743.0,
+      "taxes": 0.0
+    },
+    "8% affordable-housing law": {
+      "parcels": 639,
+      "assessed": 1167052500.0,
+      "exempt": 741065841.1900003,
+      "taxes": 12449539.079999989
+    },
+    "tax stabilization agreement": {
+      "parcels": 137,
+      "assessed": 1160868400.0,
+      "exempt": 770132978.33,
+      "taxes": 14860396.640000002
+    }
+  },
+  "exempt_by_class": {
+    "School": 4646178600.0,
+    "Hospital": 1672110300.0,
+    "Municipal": 1136346443.0,
+    "Vote of City": 923977600.0,
+    "State": 902975200.0,
+    "44-3-9 Stb": 770132978.33,
+    "Miscellaneous": 741065841.1900003,
+    "Church": 521879000.0,
+    "Charitable": 321192300.0,
+    "Single Family": 250556474.0,
+    "Cemetary": 243239400.0,
+    "2 -5 Family": 126314747.0,
+    "Library": 96718600.0,
+    "Federal": 69640300.0,
+    "Amtrak NRR": 46702400.0,
+    "Residential Condo": 33887065.0,
+    "Ex - Charter": 2935600.0,
+    "combo 5U": 1367829.0,
+    "apt 11+": 400000.0,
+    "Residential Vacant Land": 230013.0,
+    "Commercial Condo": 20958.0,
+    "Industrial": 10479.0,
+    "Commercial II": 10479.0,
+    "CI Vacant Land": 10479.0
+  },
+  "top_owners": [
+    {
+      "owner": "BROWN UNIVERSITY",
+      "exempt": 1871584086.0,
+      "parcels": 174,
+      "regime": {
+        "fully exempt": 173,
+        "homestead exemption": 1
+      }
+    },
+    {
+      "owner": "RI HOSPITAL",
+      "exempt": 885676000.0,
+      "parcels": 111,
+      "regime": {
+        "fully exempt": 111
+      }
+    },
+    {
+      "owner": "(no owner name)",
+      "exempt": 755968182.7099999,
+      "parcels": 262,
+      "regime": {
+        "homestead exemption": 120,
+        "fully exempt": 134,
+        "tax stabilization agreement": 1,
+        "NOO2-5": 2,
+        "C01": 2,
+        "8% affordable-housing law": 1,
+        "NO01": 2
+      }
+    },
+    {
+      "owner": "PROVIDENCE PLACE GROUP LP",
+      "exempt": 730796600.0,
+      "parcels": 1,
+      "regime": {
+        "fully exempt": 1
+      }
+    },
+    {
+      "owner": "PROVIDENCE COLLEGE",
+      "exempt": 575472600.0,
+      "parcels": 62,
+      "regime": {
+        "fully exempt": 62
+      }
+    },
+    {
+      "owner": "PROVIDENCE PUBLIC BUILDINGS AUTHORITY",
+      "exempt": 555025600.0,
+      "parcels": 53,
+      "regime": {
+        "fully exempt": 53
+      }
+    },
+    {
+      "owner": "CITY OF PROVIDENCE",
+      "exempt": 544635843.0,
+      "parcels": 294,
+      "regime": {
+        "fully exempt": 294
+      }
+    },
+    {
+      "owner": "JOHNSON & WALES",
+      "exempt": 421504400.0,
+      "parcels": 52,
+      "regime": {
+        "fully exempt": 52
+      }
+    },
+    {
+      "owner": "STATE OF RHODE ISLAND",
+      "exempt": 407053600.0,
+      "parcels": 89,
+      "regime": {
+        "fully exempt": 89
+      }
+    },
+    {
+      "owner": "UNITED STATES OF AMERICA",
+      "exempt": 230010800.0,
+      "parcels": 6,
+      "regime": {
+        "fully exempt": 6
+      }
+    },
+    {
+      "owner": "BUTLER HOSPITAL",
+      "exempt": 191982400.0,
+      "parcels": 4,
+      "regime": {
+        "fully exempt": 4
+      }
+    },
+    {
+      "owner": "HOUSING AUTHORITY OF THE",
+      "exempt": 181926000.0,
+      "parcels": 11,
+      "regime": {
+        "fully exempt": 11
+      }
+    },
+    {
+      "owner": "STATE OF RI DEPARTMENT OF ADMINSTRATION",
+      "exempt": 169958300.0,
+      "parcels": 2,
+      "regime": {
+        "fully exempt": 2
+      }
+    },
+    {
+      "owner": "WOMEN AND INFANTS HOSPITAL OF RI",
+      "exempt": 167160600.0,
+      "parcels": 1,
+      "regime": {
+        "fully exempt": 1
+      }
+    },
+    {
+      "owner": "MIRIAM HOSPITAL",
+      "exempt": 165678800.0,
+      "parcels": 38,
+      "regime": {
+        "fully exempt": 38
+      }
+    },
+    {
+      "owner": "CONVENTION CENTER AUTHORITY",
+      "exempt": 163019100.0,
+      "parcels": 1,
+      "regime": {
+        "fully exempt": 1
+      }
+    },
+    {
+      "owner": "CITY OF PROVIDENCE/CHILDREN'S FRIEND",
+      "exempt": 156652900.0,
+      "parcels": 12,
+      "regime": {
+        "fully exempt": 12
+      }
+    },
+    {
+      "owner": "STATE OF RHODE ISLAND & PROV PLANTATIONS",
+      "exempt": 124162100.0,
+      "parcels": 6,
+      "regime": {
+        "fully exempt": 6
+      }
+    },
+    {
+      "owner": "PROVIDENCE PUBLIC BLDG AUTHORITY",
+      "exempt": 121679900.0,
+      "parcels": 62,
+      "regime": {
+        "fully exempt": 62
+      }
+    },
+    {
+      "owner": "PROVIDENCE CITY",
+      "exempt": 105477900.0,
+      "parcels": 34,
+      "regime": {
+        "fully exempt": 34
+      }
+    },
+    {
+      "owner": "SOUTH STREET CV",
+      "exempt": 104161294.52000001,
+      "parcels": 2,
+      "regime": {
+        "tax stabilization agreement": 2
+      }
+    },
+    {
+      "owner": "HOUSING AUTHORITY",
+      "exempt": 95715100.0,
+      "parcels": 127,
+      "regime": {
+        "fully exempt": 127
+      }
+    },
+    {
+      "owner": "SCHOOL INCORPRATED MOSES BROWN",
+      "exempt": 93309800.0,
+      "parcels": 1,
+      "regime": {
+        "fully exempt": 1
+      }
+    },
+    {
+      "owner": "PROSPECT CHARTERCARE RWMC,LLC",
+      "exempt": 92349200.0,
+      "parcels": 12,
+      "regime": {
+        "tax stabilization agreement": 12
+      }
+    },
+    {
+      "owner": "RI CONVENTION CENTER AUTHORITY",
+      "exempt": 84615600.0,
+      "parcels": 2,
+      "regime": {
+        "fully exempt": 2
+      }
+    },
+    {
+      "owner": "PROVIDENCE REDEVELOPMENT AGENCY",
+      "exempt": 65038900.0,
+      "parcels": 17,
+      "regime": {
+        "fully exempt": 17
+      }
+    },
+    {
+      "owner": "PROVIDENCE PUBLIC LIBRARY",
+      "exempt": 61658800.0,
+      "parcels": 10,
+      "regime": {
+        "fully exempt": 10
+      }
+    },
+    {
+      "owner": "PROVIDENCE, L.P. EM 28",
+      "exempt": 57415715.07,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "PENN CENTRAL TRANSPORTATION CO",
+      "exempt": 55227800.0,
+      "parcels": 42,
+      "regime": {
+        "fully exempt": 42
+      }
+    },
+    {
+      "owner": "LAURELMEAD REALTY LLC",
+      "exempt": 48821282.19,
+      "parcels": 2,
+      "regime": {
+        "fully exempt": 1,
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "NE YEARLY MEETING OF FRIENDS",
+      "exempt": 45690100.0,
+      "parcels": 8,
+      "regime": {
+        "fully exempt": 8
+      }
+    },
+    {
+      "owner": "RIVER HOUSE HOLDINGS I LLC",
+      "exempt": 44785001.37,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "FAIRFIELD UNIVERSITY HEIGHTS LP",
+      "exempt": 44571983.56,
+      "parcels": 1,
+      "regime": {
+        "8% affordable-housing law": 1
+      }
+    },
+    {
+      "owner": "CENTER AUTHORITY RHODE ISLAND",
+      "exempt": 42701800.0,
+      "parcels": 1,
+      "regime": {
+        "fully exempt": 1
+      }
+    },
+    {
+      "owner": "I-195 REDEVELOPMENT DISTRICT",
+      "exempt": 41388300.0,
+      "parcels": 17,
+      "regime": {
+        "fully exempt": 17
+      }
+    },
+    {
+      "owner": "PROVIDENCE INNOVATION DISTRICT PHASE I OWNER, LLC",
+      "exempt": 39313130.48,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "RI HEALTH AND EDUCATIONAL BLDG CORP",
+      "exempt": 38499700.0,
+      "parcels": 1,
+      "regime": {
+        "fully exempt": 1
+      }
+    },
+    {
+      "owner": "WHEELER SCHOOL",
+      "exempt": 38118300.0,
+      "parcels": 3,
+      "regime": {
+        "fully exempt": 3
+      }
+    },
+    {
+      "owner": "RI PUBLIC TRANSIT AUTHORITY",
+      "exempt": 34022100.0,
+      "parcels": 27,
+      "regime": {
+        "fully exempt": 27
+      }
+    },
+    {
+      "owner": "BARBARA JORDAN I LP",
+      "exempt": 33769443.12999998,
+      "parcels": 81,
+      "regime": {
+        "8% affordable-housing law": 81
+      }
+    },
+    {
+      "owner": "ROMAN CATHOLIC BISHOP OF PROVIDENCE",
+      "exempt": 32675900.0,
+      "parcels": 17,
+      "regime": {
+        "fully exempt": 17
+      }
+    },
+    {
+      "owner": "L.L.C. RP PROVIDENCE",
+      "exempt": 31486488.89,
+      "parcels": 3,
+      "regime": {
+        "tax stabilization agreement": 3
+      }
+    },
+    {
+      "owner": "MEETING STREET",
+      "exempt": 30118700.0,
+      "parcels": 2,
+      "regime": {
+        "fully exempt": 2
+      }
+    },
+    {
+      "owner": "NARRAGANSETT BAY COMMISSION",
+      "exempt": 27685200.0,
+      "parcels": 22,
+      "regime": {
+        "fully exempt": 22
+      }
+    },
+    {
+      "owner": "RI SCHOOL OF DESIGN",
+      "exempt": 27359700.0,
+      "parcels": 5,
+      "regime": {
+        "fully exempt": 5
+      }
+    },
+    {
+      "owner": "WOMEN AND INFANTS HOSPITAL",
+      "exempt": 26436800.0,
+      "parcels": 23,
+      "regime": {
+        "fully exempt": 23
+      }
+    },
+    {
+      "owner": "PO LLC CC WCM-MP",
+      "exempt": 26339906.85,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "UNITED STATES POSTAL SERVICE",
+      "exempt": 26240700.0,
+      "parcels": 9,
+      "regime": {
+        "fully exempt": 9
+      }
+    },
+    {
+      "owner": "PROVPORT INC",
+      "exempt": 25863600.0,
+      "parcels": 10,
+      "regime": {
+        "fully exempt": 10
+      }
+    },
+    {
+      "owner": "100 N MAIN OWNER LLC",
+      "exempt": 25245473.97,
+      "parcels": 2,
+      "regime": {
+        "tax stabilization agreement": 2
+      }
+    },
+    {
+      "owner": "78 FOUNTAIN STREET BAC LLC",
+      "exempt": 24824789.73,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "ANCORA 150 RICHMOND HOLDINGS LLC",
+      "exempt": 24572319.18,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "OWNER LLC BILTMORE PROVIDENCE",
+      "exempt": 23797189.04,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "VALLEY STREAM PROPERTY LLC",
+      "exempt": 23642300.0,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "PROV BLDG SAN + ED ASSOC",
+      "exempt": 23218895.89,
+      "parcels": 4,
+      "regime": {
+        "8% affordable-housing law": 4
+      }
+    },
+    {
+      "owner": "EPN HOUSING PARTNERS",
+      "exempt": 22297784.820000004,
+      "parcels": 51,
+      "regime": {
+        "8% affordable-housing law": 51
+      }
+    },
+    {
+      "owner": "INLAND DIVERSIFIED PROV LASALLE SQUARE LLC",
+      "exempt": 20999800.0,
+      "parcels": 1,
+      "regime": {
+        "fully exempt": 1
+      }
+    },
+    {
+      "owner": "TIMES 2 INCORPORATED",
+      "exempt": 20819400.0,
+      "parcels": 2,
+      "regime": {
+        "fully exempt": 2
+      }
+    },
+    {
+      "owner": "261, LLC",
+      "exempt": 20657409.85,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    },
+    {
+      "owner": "CV SOUTH STREET LANDING LLC",
+      "exempt": 19640052.05,
+      "parcels": 1,
+      "regime": {
+        "tax stabilization agreement": 1
+      }
+    }
+  ]
+}
