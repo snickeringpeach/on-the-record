@@ -5,10 +5,9 @@ As of Oct 1 2026. Everything under **Pieces** is Claude's suggestion **[C]**: th
 | When | Piece | Where |
 |---|---|---|
 | Oct 1, 12:00 | Clause R | Providence, on the record. The only piece scheduled there. I couldn't confirm from here that it went live. |
-| Oct 1, 7:30 | The Tailor | personal Substack |
-| **Oct 2, 7:30** | rent-roof-clause-eye | personal Substack. **Check before it fires.** OPEN.md still lists five pre-publication items: the [COUNCIL] bracket (runs only if Gardner is attributable); the Ward 1 names, vote and stated support; section numbers against the Apr 1 amended text; the HCTF quote page; the tagline. It was also written for the Eye. If those aren't cleared, pull it. |
+| — | The Tailor, two-doors-both-closed, ripta-transit-center, rent-roof-clause-eye | personal Substack: unpublished drafts with **no schedule** (checked Oct 1). Nothing fires. rent-roof-clause-eye still needs three fixes before it runs anywhere: cut the [COUNCIL] bracket unless Gardner is attributable; "who supports it" → "who has said he would reintroduce it"; "five volunteers" → paid part-time board (13-84(f)); "recommended exactly this" → "recommended the principle". |
 
-After Oct 2 the queue is empty on both publications.
+Nothing is scheduled on either publication.
 
 ## 2. Data: what each project has and what it's missing
 | Project | In hand | Missing | Arrives / who acts |

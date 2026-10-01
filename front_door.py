@@ -1,6 +1,6 @@
 """311 section for providenceontherecord.org: what PVD311 publishes, what its form asks, and who files.
 Rendered from ../pvd311/data. Called from build.py: front_door.render(page, e, SITE, DATELINE).
-Section name and slug ("311", /311/) are placeholders pending Liam's call. Aggregates only: no case-level
+Section name and slug: "311", /311/ (Liam, Oct 1). Aggregates only: no case-level
 addresses are republished, though the City shows them on its own site."""
 import json, pathlib, collections, statistics as st
 
