@@ -77,6 +77,12 @@ table.ledger .pv{background:var(--cell);font-weight:600}
 table.ledger td.mark{white-space:nowrap;width:9%}
 table.ledger td.where{color:var(--body);line-height:1.45;padding-right:0}
 table.ledger td.where span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+table.ledger td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;width:11%;font-weight:700}
+table.ledger td.num .blank{font-weight:400;font-size:.78rem}
+table.ledger th[scope=row] .yr{font-size:.72rem;font-weight:500;color:var(--quiet);margin-left:.3rem}
+table.ledger td.call,table.ledger th.callh{font-size:.82rem}
+.same-w{color:var(--quiet);font-size:.78rem}
+.stale{font-size:.66rem;font-weight:700;color:var(--red);text-transform:uppercase;letter-spacing:.05em;margin-left:.4rem}
 
 /* rows elsewhere */
 .rows{list-style:none;margin:0;padding:0}
@@ -137,9 +143,16 @@ figcaption{color:var(--quiet);font-size:.9rem}
   table.ledger td.mark{font-size:.82rem}
   table.ledger td.mark.pv{background:none}
   table.ledger td.mark::before{display:block;font-size:.68rem;font-weight:700;color:var(--quiet)}
+  table.ledger:not(.counts) tr{grid-template-columns:repeat(4,minmax(0,1fr))}
   table.ledger td.mark:nth-of-type(1)::before{content:"Providence"}
-  table.ledger td.mark:nth-of-type(2)::before{content:"Worcester"}
-  table.ledger td.mark:nth-of-type(3)::before{content:"New Haven"}
+  table.ledger td.mark:nth-of-type(2)::before{content:"By the call"}
+  table.ledger td.mark:nth-of-type(3)::before{content:"Worcester"}
+  table.ledger td.mark:nth-of-type(4)::before{content:"New Haven"}
+  table.counts td.num{text-align:left;width:auto}
+  table.counts td.num::before{display:block;font-size:.68rem;font-weight:700;color:var(--quiet)}
+  table.counts td.num:nth-of-type(1)::before{content:"Providence"}
+  table.counts td.num:nth-of-type(2)::before{content:"Worcester"}
+  table.counts td.num:nth-of-type(3)::before{content:"New Haven"}
   table.ledger td.where{grid-column:1/-1;padding-top:.3rem;font-size:.85rem}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

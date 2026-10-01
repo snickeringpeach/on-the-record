@@ -9,7 +9,7 @@
     "peers": {
       "providence": {
         "name": "Providence",
-        "boundary": "Downtown Providence Improvement District / DownCity working boundary for the peer comparison; the ledger's own membership calls apply on top of it and are declared per place.",
+        "boundary": "The Downtown Improvement District is the true analog of the peers' districts; its map is not published. Until it is in hand, the Downcity Overlay District (zoning, 107 acres) stands in, labelled as a stand-in. The ledger's own membership calls are shown beside the line, never inside the comparison.",
         "sources": [
           "B1",
           "B1b"
@@ -31,7 +31,8 @@
           "B3b"
         ]
       }
-    }
+    },
+    "method_settled": "2026-10-01"
   },
   "nodes": [
     {
@@ -1406,7 +1407,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "partial",
+      "_migrated": true
     },
     {
       "id": "pharmacy",
@@ -1414,8 +1418,8 @@
       "status": "absent",
       "status_basis": "research",
       "verified_by_liam": false,
-      "flips_on_boundary": "Present if Providence Place is inside, which the ledger's membership calls say it is. Status here is for the street; the call is Liam's.",
-      "where": "CVS at 70 Kennedy Plaza closed January 2, 2024. The nearest is inside Providence Place.",
+      "flips_on_boundary": null,
+      "where": "CVS at 70 Kennedy Plaza closed January 2, 2024. The nearest is inside Providence Place. By the ledger's call, which counts the mall in, present.",
       "place": null,
       "sources": [
         "S3"
@@ -1438,16 +1442,19 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "cinema",
       "name": "Cinema",
-      "status": "present",
+      "status": "absent",
       "status_basis": "research",
       "verified_by_liam": false,
-      "flips_on_boundary": "Present only because the mall is inside, which the ledger's membership calls say it is. Nothing on the street.",
-      "where": "Apple Cinemas, Providence Place, level 4. Showcase Cinemas closed October 26, 2025; Apple Cinemas opened November 1, 2025 under a lease approved through the mall's receiver and is operating during a renovation (recliners, IMAX upgrade, bowling, trampoline park) expected to finish by winter 2026. The first research pass had this wrong.",
+      "flips_on_boundary": null,
+      "where": "Apple Cinemas, Providence Place, level 4. Showcase Cinemas closed October 26, 2025; Apple Cinemas opened November 1, 2025 under a lease approved through the mall's receiver and is operating during a renovation (recliners, IMAX upgrade, bowling, trampoline park) expected to finish by winter 2026. The first research pass had this wrong. On the line (the Downcity overlay, standing in for the Downtown Improvement District): missing. The mall is 306 m outside the line, near. Present by the ledger's call, which counts the mall in.",
       "place": null,
       "sources": [
         "S22",
@@ -1473,7 +1480,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "Corrected Sept 3: the first pass reported Showcase closing January 2026 and Apple Cinemas as announced; both dates were wrong."
+      "notes": "Corrected Sept 3: the first pass reported Showcase closing January 2026 and Apple Cinemas as announced; both dates were wrong.",
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "hotels",
@@ -1509,7 +1519,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "No authoritative count of downtown hotels found; the list is from aggregators and the boundary is not theirs."
+      "notes": "No authoritative count of downtown hotels found; the list is from aggregators and the boundary is not theirs.",
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "library",
@@ -1545,7 +1558,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "transit-hub",
@@ -1580,16 +1596,19 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "rail-station",
       "name": "Intercity rail station",
-      "status": "present",
+      "status": "absent",
       "status_basis": "research",
       "verified_by_liam": false,
-      "flips_on_boundary": "Inside under the ledger's calls; adjacent under the improvement-district line.",
-      "where": "Providence Station, 100 Gaspee St, at the State House. Amtrak FY2024: 838,238 boardings and alightings, 14th busiest Amtrak station; over 2 million with MBTA commuter rail.",
+      "flips_on_boundary": null,
+      "where": "Providence Station, 100 Gaspee St, at the State House. Amtrak FY2024: 838,238 boardings and alightings, 14th busiest Amtrak station; over 2 million with MBTA commuter rail. On the line (the Downcity overlay, standing in for the Downtown Improvement District): missing. The station is 214 m outside the line, near (a ten-minute walk or less). Present by the ledger's call, which counts the station in.",
       "place": null,
       "sources": [
         "S17"
@@ -1599,20 +1618,23 @@
       ],
       "peers": {
         "worcester": {
-          "status": "present",
-          "note": "Union Station, 2 Washington Square, at the BID edge: Amtrak and the MBTA Framingham/Worcester line.",
+          "status": "partial",
+          "note": "Union Station, 2 Washington Square: Amtrak and the MBTA Framingham/Worcester line. At the edge: 106 m outside the BID line.",
           "sources": []
         },
         "new-haven": {
-          "status": "present",
-          "note": "Union Station, about half a mile southeast: Amtrak, Metro-North, Shore Line East; Amtrak FY2022 778,534, 10th busiest.",
+          "status": "absent",
+          "note": "Union Station, 50 Union Ave: Amtrak, Metro-North, Shore Line East; Amtrak FY2022 778,534, 10th busiest. 467 m outside the district line, near.",
           "sources": []
         }
       },
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "hospital",
@@ -1621,7 +1643,7 @@
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "Rhode Island Hospital, 593 Eddy St, about a mile south in Upper South Providence. None inside. Walking distance from Kennedy Plaza to the emergency entrance at 593 Eddy St is not yet measured; roughly a mile by street. No urgent care or emergency facility inside the boundary has been found.",
+      "where": "Rhode Island Hospital, 593 Eddy St, about a mile south in Upper South Providence. None inside. From Kennedy Plaza it is 1.8 km (1.1 miles) on the ledger's street network, about 24 minutes on foot; the hospital point is from its published coordinates, and the emergency entrance itself is not yet placed. No urgent care or emergency facility inside the boundary has been found.",
       "place": null,
       "sources": [
         "S14"
@@ -1644,7 +1666,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "Distance is an estimate until measured on the street network."
+      "notes": "Street distance measured Sept 30 2026 on data/geo/walk-network.json (1,839 m, Kennedy Plaza at 2 Exchange Terrace to 593 Eddy St). Entrance point to verify.",
+      "kind": "amenity",
+      "status_call": "absent",
+      "_migrated": true
     },
     {
       "id": "park",
@@ -1652,7 +1677,7 @@
       "status": "present",
       "status_basis": "research",
       "verified_by_liam": false,
-      "flips_on_boundary": "Waterplace Park counts under the ledger's calls, not under the improvement-district line.",
+      "flips_on_boundary": null,
       "where": "Burnside Park at Kennedy Plaza, restored 2015 with the plaza; Waterplace Park and the canal, maintained by the City Parks Department with state agencies.",
       "place": null,
       "sources": [
@@ -1681,7 +1706,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "performing-arts",
@@ -1724,7 +1752,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "arena",
@@ -1733,7 +1764,7 @@
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": "Present if the convention-center block is inside.",
-      "where": "Amica Mutual Pavilion, 1 La Salle Square: 14,000 seats, home of the Providence Bruins and Providence College basketball, owned by the Rhode Island Convention Center Authority. It sits about 120 m outside the Downcity overlay, by the mall, with the Rhode Island Convention Center beside it; partial because it is at the edge, not inside.",
+      "where": "Amica Mutual Pavilion, 1 La Salle Square: 14,000 seats, home of the Providence Bruins and Providence College basketball, owned by the Rhode Island Convention Center Authority. It sits about 140 m outside the Downcity overlay (141 m, measure.py), by the mall, with the Rhode Island Convention Center beside it; partial because it is at the edge, not inside. Partial: at the edge, none inside, the nearest 141 m out.",
       "place": null,
       "sources": [
         "S42",
@@ -1759,7 +1790,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "partial",
+      "_migrated": true
     },
     {
       "id": "university",
@@ -1792,7 +1826,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "farmers-market",
@@ -1828,7 +1865,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "Definitive check is Farm Fresh RI's 2026 summer market guide."
+      "notes": "Definitive check is Farm Fresh RI's 2026 summer market guide.",
+      "kind": "amenity",
+      "status_call": "absent",
+      "_migrated": true
     },
     {
       "id": "post-office",
@@ -1849,7 +1889,7 @@
       "peers": {
         "worcester": {
           "status": "absent",
-          "note": "The 484 Main St office is no longer in the USPS locator. The main post office, 4 East Central St, weekdays 7:30 to 6 and Saturday, is about 300 m outside the BID.",
+          "note": "The 484 Main St office is no longer in the USPS locator. The main post office, 4 East Central St, weekdays 7:30 to 6 and Saturday, is about 414 m outside the BID.",
           "sources": [
             "S43",
             "S40b"
@@ -1867,7 +1907,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "gym",
@@ -1903,7 +1946,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "bookstore",
@@ -1938,7 +1984,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "banks",
@@ -1971,7 +2020,10 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "One confirmed from a primary locator; the rest from an aggregator that carries its own accuracy disclaimer."
+      "notes": "One confirmed from a primary locator; the rest from an aggregator that carries its own accuracy disclaimer.",
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "government",
@@ -2007,16 +2059,19 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "amenity",
+      "status_call": "present",
+      "_migrated": true
     },
     {
       "id": "residents",
       "name": "Residents living inside",
-      "status": "present",
+      "status": null,
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "About 3,589 (ACS 2019 to 2023, Point2Homes' downtown cut); an alternate neighborhood cut gives 5,369. The number moves with the line drawn.",
+      "where": "1,910 residents in 2020 inside the line (Census PL 94-171; a block counts when its internal point is inside). Context, on other boundaries: about 3,589 in Point2Homes' downtown cut (ACS 2019 to 2023), and 5,112 in the City's 'Downtown' neighborhood (2020).",
       "place": null,
       "sources": [
         "S18",
@@ -2028,26 +2083,35 @@
       "peers": {
         "worcester": {
           "status": "partial",
-          "note": "Small but growing with CitySquare; no boundary-specific census figure found.",
-          "sources": []
+          "note": "No count on the BID line yet.",
+          "sources": [],
+          "value": null
         },
         "new-haven": {
           "status": "present",
-          "note": "About 9,000 in Point2Homes' downtown cut.",
+          "note": "No count on the district line yet; Point2Homes' wider downtown cut gives about 9,000 (context only).",
           "sources": [
             "S19"
-          ]
+          ],
+          "value": null
         }
       },
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "The demand root the clock runs on. Rows for people are Claude's addition; delete if the ledger reads wrong with them in."
+      "notes": "The demand root the clock runs on. Rows for people are Claude's addition; delete if the ledger reads wrong with them in.",
+      "kind": "count",
+      "value": {
+        "providence": 1910,
+        "year": 2020,
+        "unit": "residents"
+      },
+      "_migrated": true
     },
     {
       "id": "workers",
       "name": "Daytime workers inside",
-      "status": "present",
+      "status": null,
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
@@ -2067,7 +2131,8 @@
           "sources": [
             "S40",
             "S40b"
-          ]
+          ],
+          "value": 3270
         },
         "new-haven": {
           "status": "present",
@@ -2075,22 +2140,30 @@
           "sources": [
             "S40",
             "S40c"
-          ]
+          ],
+          "value": 11111
         }
       },
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "Counted by Claude Sept 28 2026 with lodes.py: 2020 census blocks whose internal point falls inside each polygon, all jobs (S000, JT00). Providence's line is the zoning overlay (parcel-edged); the peers' are street centrelines, so their acreage includes half the boundary streets. Block-level siting is noisy: two neighbouring blocks on either side of the Downcity line swapped about 850 jobs between 2019 and 2023. Polygons in data/geo/peers/. The demand root the clock runs on."
+      "notes": "Counted by Claude Sept 28 2026 with lodes.py: 2020 census blocks whose internal point falls inside each polygon, all jobs (S000, JT00). Providence's line is the zoning overlay (parcel-edged); the peers' are street centrelines, so their acreage includes half the boundary streets. Block-level siting is noisy: two neighbouring blocks on either side of the Downcity line swapped about 850 jobs between 2019 and 2023. Polygons in data/geo/peers/. The demand root the clock runs on.",
+      "kind": "count",
+      "value": {
+        "providence": 14975,
+        "year": 2023,
+        "unit": "jobs"
+      },
+      "_migrated": true
     },
     {
       "id": "housing-units",
       "name": "Housing units inside",
-      "status": "present",
+      "status": null,
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "About 2,096 to 2,831 units in the downtown cut, up about 4.9% year on year.",
+      "where": "877 housing units in 2020 inside the line (Census PL 94-171). Units built since 2020 need permit data. Context, on other boundaries: 2,096 to 2,831 in earlier downtown cuts, and 3,219 in the City's 'Downtown' neighborhood (2020).",
       "place": null,
       "sources": [
         "S18",
@@ -2105,20 +2178,29 @@
           "note": "Growing; 416 units proposed across three developments; no clean in-BID total.",
           "sources": [
             "S9"
-          ]
+          ],
+          "value": null
         },
         "new-haven": {
           "status": "present",
           "note": "Citywide, not boundary-isolated: 863 units added since late 2015, 950 approved or under construction, 1,300 in planning.",
           "sources": [
             "S19b"
-          ]
+          ],
+          "value": null
         }
       },
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "count",
+      "value": {
+        "providence": 877,
+        "year": 2020,
+        "unit": "housing units"
+      },
+      "_migrated": true
     },
     {
       "id": "storefront-vacancy",
@@ -2153,12 +2235,14 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": null
+      "notes": null,
+      "kind": "count",
+      "_migrated": true
     },
     {
       "id": "office-vacancy",
       "name": "Office vacancy",
-      "status": "present",
+      "status": null,
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
@@ -2194,7 +2278,9 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "The MarketBeat has no CBD line: its only submarket breakdown is a map key, and Providence is one submarket, the whole city (read Sept 28 2026). Downtown-only figures since 2021 are the Globe's two district numbers; no firm publishes a quarterly downtown rate for Providence in the open. Peers are market-wide."
+      "notes": "The MarketBeat has no CBD line: its only submarket breakdown is a map key, and Providence is one submarket, the whole city (read Sept 28 2026). Downtown-only figures since 2021 are the Globe's two district numbers; no firm publishes a quarterly downtown rate for Providence in the open. Peers are market-wide.",
+      "kind": "count",
+      "_migrated": true
     },
     {
       "id": "ripta-hub",
@@ -2259,7 +2345,10 @@
       ],
       "years_out": 4,
       "years_out_basis": "Claude's estimate, not a stated date: design, engineering and permitting of about a year and a half, construction starting within six months of that per RIPTA's own packet, and about two years to build.",
-      "notes": "The buses route to the Francis and Gaspee frontage by the State House and the station. Opposition on record: Kennedy Plaza Resilience Coalition; a former board member urged delay pending a service analysis. Claude's read from Sept 2, unsourced and so not listed as a dependency: the site sits against the station project and a transfer point cannot be sited against a building under unresolved renovation."
+      "notes": "The buses route to the Francis and Gaspee frontage by the State House and the station. Opposition on record: Kennedy Plaza Resilience Coalition; a former board member urged delay pending a service analysis. Claude's read from Sept 2, unsourced and so not listed as a dependency: the site sits against the station project and a transfer point cannot be sited against a building under unresolved renovation.",
+      "kind": "project",
+      "stage": "proposed",
+      "_migrated": true
     },
     {
       "id": "station-renovation",
@@ -2302,7 +2391,10 @@
       ],
       "years_out": 0,
       "years_out_basis": "Stated for 2026 by RIDOT in March 2026. Claude's reading of the stated schedule, not a verified date.",
-      "notes": null
+      "notes": null,
+      "kind": "project",
+      "stage": "proposed",
+      "_migrated": true
     },
     {
       "id": "mall-tax-cliff",
@@ -2349,7 +2441,10 @@
       ],
       "years_out": 2,
       "years_out_basis": "The agreement expires in 2028; that is the clock. Whether it is a cliff depends on the reassessment. Claude's estimate.",
-      "notes": null
+      "notes": null,
+      "kind": "project",
+      "stage": "proposed",
+      "_migrated": true
     },
     {
       "id": "costco",
@@ -2395,7 +2490,10 @@
       ],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "Aspirational. No formal talks confirmed."
+      "notes": "Aspirational. No formal talks confirmed.",
+      "kind": "project",
+      "stage": "proposed",
+      "_migrated": true
     },
     {
       "id": "green-parcel",
@@ -2439,7 +2537,10 @@
       ],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "Which lot Liam meant by the green parcel is still his to confirm; if it is this one, the row collapses into the RIPTA hub row and one 'what could be built' item is the site of another."
+      "notes": "Which lot Liam meant by the green parcel is still his to confirm; if it is this one, the row collapses into the RIPTA hub row and one 'what could be built' item is the site of another.",
+      "kind": "project",
+      "stage": "proposed",
+      "_migrated": true
     },
     {
       "id": "hospital-lots",
@@ -2490,7 +2591,10 @@
       ],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "The lots are not being redeveloped; one is being used harder. Lead time on the lots runs downstream of the garage."
+      "notes": "The lots are not being redeveloped; one is being used harder. Lead time on the lots runs downstream of the garage.",
+      "kind": "project",
+      "stage": "proposed",
+      "_migrated": true
     },
     {
       "id": "kennedy-plaza",
@@ -2531,7 +2635,10 @@
       ],
       "years_out": 4,
       "years_out_basis": "Claude's estimate: the plaza changes only when the buses leave, so it runs on the transit center's clock. No plan of its own.",
-      "notes": "No plan on the record. That absence is the finding."
+      "notes": "No plan on the record. That absence is the finding.",
+      "kind": "project",
+      "stage": "proposed",
+      "_migrated": true
     }
   ],
   "place_checks": [
