@@ -77,7 +77,7 @@ HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <link rel="stylesheet" href="{root}style.css"></head><body>
 <div class="wrap"><header class="mast"><a class="name" href="{root}">Providence, on the record</a>
 <div class="tag">Liam Freaney · reporting built on the public record</div>
-<nav class="sections"><a href="{root}off-the-roll/">Off the Roll</a><a href="{root}downtown-ledger/">Downtown Ledger</a>
+<nav class="sections"><a href="{root}off-the-roll/">Off the Roll</a><a href="{root}housing/">Housing</a><a href="{root}downtown-ledger/">Downtown Ledger</a>
 <a href="{root}inside-the-line/">Inside the Line</a><a href="{root}coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="{root}about/">About</a></nav></header>
 """
 FOOT = """<footer>Every figure on this site comes from a public record, named where it is used. Corrections go at the top of the page they correct, dated.
@@ -185,6 +185,7 @@ b.append('<h2>Not yet on the record</h2><ul class="open">'
          '<li>Whether Care New England&#8217;s agreement was renewed after 2025, and for how much.</li>'
          '<li>What Brown University Health pays in 2026, a year its agreement schedules no payment.</li>'
          '<li>What Providence Place&#8217;s new owners will pay after the agreement expires in 2028, and the mall&#8217;s next assessment.</li>'
+         '<li>Whether Roger Williams Medical Center&#8217;s new nonprofit owner, Centurion, has agreed to a payment in lieu of taxes. The hospital was billed $2.42 million on the 2025 roll under its 2014 agreement; as a nonprofit it owes no property tax. Its back taxes are being paid at $218,937 a quarter from Oct. 1, 2026, about $3.7 million of the $10.29 million owed for 2024 and 2025.</li>'
          '<li>Why the 34 parcels above are billed $0, and whether the two owners missing from the auditor&#8217;s list hold agreements at all. These are questions for the Tax Assessor.</li></ul>')
 b.append('<h2>Data</h2><p>Every table above is built from these files: '
          '<a href="data/roll-summary.json">roll-summary.json</a> · <a href="data/exempt-groups.json">exempt-groups.json</a> · '
@@ -200,12 +201,18 @@ if SITE.exists(): shutil.rmtree(SITE)
 for f in ["roll-summary.json", "exempt-groups.json", "institutions.csv", "tsa-ledger.json", "incidence.json", "pilots.json", "state-pilot.json", "tsa-report-fy2025.json", "college-schedule.json"]:
     shutil.copy(U / f, SITE / "off-the-roll/data" / f)
 
+# ---------------------------------------------------------------- housing
+import housing
+HZ = housing.render(page, e, SITE, DATELINE)
+
 # ---------------------------------------------------------------- home
 h = ['<main><div class="dateline">PROVIDENCE</div><h1>Providence, on the record</h1>'
      '<p class="deck">Reporting and public records on the City of Providence: what it owns, what it taxes, what it builds and who pays.</p>'
      '<div class="feed">']
-items = [("off-the-roll/", "OFF THE ROLL · NEW", f'${T["exempt"]/1e9:.1f} billion of Providence&#8217;s ${T["assessed"]/1e9:.0f} billion in property is exempt from full taxation',
+items = [("off-the-roll/", "OFF THE ROLL", f'${T["exempt"]/1e9:.1f} billion of Providence&#8217;s ${T["assessed"]/1e9:.0f} billion in property is exempt from full taxation',
           "Colleges, hospitals, government, a mall and 80 owners under tax agreements, set against what they pay the City."),
+         ("housing/", "HOUSING · NEW", f'Providence permitted {HZ["doh"]:,} new homes in 2024, or {HZ["census"]:,}, depending on which government count you read',
+          f'The State wants {HZ["goal"]:,} over five years. Its counts of permits disagree, and it estimates what gets built with a formula.'),
          ("downtown-ledger/", "DOWNTOWN LEDGER", "What downtown has, what it lacks, and how long the missing takes to arrive",
           "Workers, storefronts, transit and the walk between them, measured."),
          ("inside-the-line/", "INSIDE THE LINE", "Who the hurricane barrier protects",
@@ -316,6 +323,7 @@ ab = ['<main><div class="dateline">ABOUT</div><h1>About this site</h1>',
       '<p class="deck">Providence, on the record publishes reporting and public records on the City of Providence, by Liam Freaney.</p>',
       '<h2>Sections</h2><ul>',
       '<li><a href="../off-the-roll/">Off the Roll</a>: property that comes off the tax roll, and what its owners pay instead.</li>',
+      '<li><a href="../housing/">Housing</a>: how many homes Providence permits and builds, by every count the government keeps.</li>',
       '<li><a href="../downtown-ledger/">Downtown Ledger</a>: what downtown Providence has, what it does not, and how long the missing take to arrive.</li>',
       '<li><a href="../inside-the-line/">Inside the Line</a>: the Fox Point Hurricane Barrier and what lies on either side of it.</li>',
       '<li><a href="https://providenceontherecord.substack.com">Reporting</a>: the stories, on Substack.</li></ul>',

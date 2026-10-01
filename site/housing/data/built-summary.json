@@ -1,0 +1,274 @@
+{
+ "source": "CAMA extract (early-2025 pull) joined to 2025 tax roll and 2009-2019 permits",
+ "parcels": 819,
+ "units": 2559,
+ "student_units": 222,
+ "lodging_set_aside": [
+  {
+   "address": "181 Corliss St",
+   "year_built": 2016,
+   "units": 123,
+   "owner": "TIGER PROVIDENCE LLC",
+   "kind": "lodging (permit text)"
+  },
+  {
+   "address": "5 Exchange St",
+   "year_built": 2018,
+   "units": 1,
+   "owner": "Mayfair Park LLC",
+   "kind": "lodging (permit text)"
+  },
+  {
+   "address": "100 Sabin St",
+   "year_built": 2018,
+   "units": 176,
+   "owner": "100 Sabin Hotel LLC",
+   "kind": "lodging (owner name)"
+  },
+  {
+   "address": "191 Dorrance St",
+   "year_built": 2021,
+   "units": 176,
+   "owner": "Aloft LLC Bac Cvp",
+   "kind": "lodging (owner name)"
+  }
+ ],
+ "by_year": {
+  "2010": {
+   "parcels": 33,
+   "units": 82
+  },
+  "2011": {
+   "parcels": 3,
+   "units": 3
+  },
+  "2012": {
+   "parcels": 42,
+   "units": 57
+  },
+  "2013": {
+   "parcels": 24,
+   "units": 33
+  },
+  "2014": {
+   "parcels": 21,
+   "units": 119
+  },
+  "2015": {
+   "parcels": 40,
+   "units": 45
+  },
+  "2016": {
+   "parcels": 51,
+   "units": 114
+  },
+  "2017": {
+   "parcels": 47,
+   "units": 304
+  },
+  "2018": {
+   "parcels": 92,
+   "units": 127
+  },
+  "2019": {
+   "parcels": 79,
+   "units": 336
+  },
+  "2020": {
+   "parcels": 102,
+   "units": 307
+  },
+  "2021": {
+   "parcels": 111,
+   "units": 679
+  },
+  "2022": {
+   "parcels": 88,
+   "units": 190
+  },
+  "2023": {
+   "parcels": 86,
+   "units": 163
+  }
+ },
+ "by_regime": {
+  "exempt": {
+   "parcels": 9,
+   "units": 229
+  },
+  "full rate": {
+   "parcels": 334,
+   "units": 862
+  },
+  "8% affordable-housing law": {
+   "parcels": 66,
+   "units": 259
+  },
+  "owner-occupied": {
+   "parcels": 395,
+   "units": 511
+  },
+  "tax stabilization agreement": {
+   "parcels": 15,
+   "units": 698
+  }
+ },
+ "units_by_building_size": {
+  "1": 481,
+  "2-4": 648,
+  "5-19": 198,
+  "20+": 1232
+ },
+ "largest": [
+  {
+   "address": "125 Clifford St",
+   "year_built": 2021,
+   "units": 249,
+   "owner": "Providence, L.P. EM 28",
+   "regime": "tax stabilization agreement",
+   "levy_code": "TSA",
+   "taxes": 3670.0,
+   "kind": "housing"
+  },
+  {
+   "address": "450 Brook St",
+   "year_built": 2021,
+   "units": 219,
+   "owner": "BROWN UNIVERSITY",
+   "regime": "exempt",
+   "levy_code": "E01",
+   "taxes": 0.0,
+   "kind": "student housing"
+  },
+  {
+   "address": "169 Canal St",
+   "year_built": 2017,
+   "units": 202,
+   "owner": "100 N Main Owner LLC",
+   "regime": "tax stabilization agreement",
+   "levy_code": "TSA",
+   "taxes": 360885.64,
+   "kind": "housing"
+  },
+  {
+   "address": "78 Fountain St",
+   "year_built": 2019,
+   "units": 143,
+   "owner": "78 Fountain Street BAC LLC",
+   "regime": "tax stabilization agreement",
+   "levy_code": "TSA",
+   "taxes": 401766.04,
+   "kind": "housing"
+  },
+  {
+   "address": "257 Thayer St",
+   "year_built": 2014,
+   "units": 96,
+   "owner": "GD Thayer LLC",
+   "regime": "full rate",
+   "levy_code": "C01",
+   "taxes": 910310.84,
+   "kind": "housing"
+  },
+  {
+   "address": "40 TOCKWOTTEN St",
+   "year_built": 2020,
+   "units": 69,
+   "owner": "40 Tockwotton LLC",
+   "regime": "full rate",
+   "levy_code": "C11",
+   "taxes": 389369.88,
+   "kind": "housing"
+  },
+  {
+   "address": "1290 Westminster St",
+   "year_built": 2019,
+   "units": 35,
+   "owner": "1290 Westminster LLC",
+   "regime": "tax stabilization agreement",
+   "levy_code": "TSA",
+   "taxes": 173276.44,
+   "kind": "housing"
+  },
+  {
+   "address": "466 Fountain St",
+   "year_built": 2020,
+   "units": 32,
+   "owner": "Unison West Fountain LLC",
+   "regime": "tax stabilization agreement",
+   "levy_code": "TSA",
+   "taxes": 152426.68,
+   "kind": "housing"
+  },
+  {
+   "address": "44 Hospital St",
+   "year_built": 2017,
+   "units": 30,
+   "owner": "Option B LLC",
+   "regime": "full rate",
+   "levy_code": "C01",
+   "taxes": 270961.84,
+   "kind": "housing"
+  },
+  {
+   "address": "93 Cranston St",
+   "year_built": 2019,
+   "units": 30,
+   "owner": "LLC 93 Cranston",
+   "regime": "8% affordable-housing law",
+   "levy_code": "8LAW",
+   "taxes": 49742.4,
+   "kind": "housing"
+  },
+  {
+   "address": "423-425 South Main St",
+   "year_built": 2023,
+   "units": 30,
+   "owner": "Link Street LLC",
+   "regime": "8% affordable-housing law",
+   "levy_code": "8LAW",
+   "taxes": 479185.24,
+   "kind": "housing"
+  },
+  {
+   "address": "17 Marcello St",
+   "year_built": 2022,
+   "units": 29,
+   "owner": "34 Knight Street LLC",
+   "regime": "full rate",
+   "levy_code": "C11",
+   "taxes": 164952.32,
+   "kind": "housing"
+  },
+  {
+   "address": "21 Euclid Ave",
+   "year_built": 2021,
+   "units": 26,
+   "owner": "21 Euclid LLC",
+   "regime": "full rate",
+   "levy_code": "C01",
+   "taxes": 222937.28,
+   "kind": "housing"
+  },
+  {
+   "address": "225 Waterman Ave",
+   "year_built": 2021,
+   "units": 22,
+   "owner": "Investment LLC Fili",
+   "regime": "tax stabilization agreement",
+   "levy_code": "TSA",
+   "taxes": 133642.88,
+   "kind": "housing"
+  },
+  {
+   "address": "391 Public St",
+   "year_built": 2016,
+   "units": 20,
+   "owner": "Revitalize Southside LP",
+   "regime": "8% affordable-housing law",
+   "levy_code": "8LAW",
+   "taxes": 1355.52,
+   "kind": "housing"
+  }
+ ]
+}

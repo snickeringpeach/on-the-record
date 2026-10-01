@@ -1,0 +1,1015 @@
+town,year,units_1,units_2,units_3_4,units_5plus,units_total,months_reported
+Barrington,2000,19,0,0,0,19,12
+Barrington,2001,14,0,0,0,14,12
+Barrington,2002,16,0,0,0,16,12
+Barrington,2003,27,0,0,0,27,12
+Barrington,2004,31,0,0,0,31,12
+Barrington,2005,18,0,0,6,24,12
+Barrington,2006,23,0,0,0,23,12
+Barrington,2007,16,2,0,0,18,12
+Barrington,2008,59,8,0,0,67,12
+Barrington,2009,6,0,3,0,9,12
+Barrington,2010,15,2,0,0,17,12
+Barrington,2011,6,2,0,0,8,12
+Barrington,2012,12,0,0,0,12,12
+Barrington,2013,17,4,0,0,21,12
+Barrington,2014,10,0,0,0,10,12
+Barrington,2015,19,0,0,0,19,12
+Barrington,2016,21,0,0,0,21,12
+Barrington,2017,10,0,0,0,10,12
+Barrington,2018,19,8,38,0,65,12
+Barrington,2019,13,6,0,0,19,12
+Barrington,2020,10,0,0,12,22,12
+Barrington,2021,15,0,0,0,15,12
+Barrington,2022,12,0,0,0,12,12
+Barrington,2023,10,0,0,0,10,12
+Barrington,2024,5,0,0,0,5,12
+Barrington,2025,7,2,0,0,9,12
+Bristol,2000,53,0,0,0,53,6
+Bristol,2001,53,0,0,0,53,12
+Bristol,2002,88,2,0,0,90,12
+Bristol,2003,61,0,0,10,71,12
+Bristol,2004,42,0,0,7,49,12
+Bristol,2005,26,0,8,35,69,12
+Bristol,2006,26,6,3,24,59,12
+Bristol,2007,22,8,0,0,30,12
+Bristol,2008,21,0,0,19,40,12
+Bristol,2009,16,0,3,0,19,12
+Bristol,2010,17,0,0,0,17,12
+Bristol,2011,14,0,0,0,14,12
+Bristol,2012,12,0,0,0,12,12
+Bristol,2013,18,0,0,0,18,12
+Bristol,2014,13,0,0,0,13,12
+Bristol,2015,14,2,0,0,16,12
+Bristol,2016,15,2,0,0,17,12
+Bristol,2017,23,2,0,0,25,12
+Bristol,2018,15,2,0,0,17,12
+Bristol,2019,22,0,0,0,22,12
+Bristol,2020,21,0,0,0,21,12
+Bristol,2021,23,0,0,0,23,12
+Bristol,2022,21,0,0,0,21,0
+Bristol,2023,17,0,0,0,17,0
+Bristol,2024,14,0,0,0,14,12
+Bristol,2025,11,0,0,0,11,12
+Burrillville,2000,36,0,0,0,36,12
+Burrillville,2001,49,0,0,0,49,12
+Burrillville,2002,56,0,0,0,56,12
+Burrillville,2003,35,0,0,0,35,12
+Burrillville,2004,26,0,0,52,78,12
+Burrillville,2005,54,4,4,0,62,12
+Burrillville,2006,42,0,4,0,46,12
+Burrillville,2007,43,0,0,0,43,12
+Burrillville,2008,26,0,0,0,26,12
+Burrillville,2009,15,2,0,47,64,12
+Burrillville,2010,18,0,0,0,18,12
+Burrillville,2011,15,0,0,0,15,12
+Burrillville,2012,10,0,0,0,10,12
+Burrillville,2013,28,0,0,0,28,12
+Burrillville,2014,19,0,0,0,19,12
+Burrillville,2015,27,0,0,0,27,12
+Burrillville,2016,31,36,39,21,127,12
+Burrillville,2017,30,0,0,0,30,12
+Burrillville,2018,23,0,0,0,23,12
+Burrillville,2019,24,0,0,0,24,12
+Burrillville,2020,51,0,4,0,55,12
+Burrillville,2021,69,0,0,0,69,12
+Burrillville,2022,16,0,0,0,16,12
+Burrillville,2023,18,6,0,0,24,12
+Burrillville,2024,36,0,0,0,36,12
+Burrillville,2025,27,0,0,0,27,12
+Central Falls,2000,0,0,0,0,0,12
+Central Falls,2001,3,2,0,0,5,12
+Central Falls,2002,14,16,0,0,30,11
+Central Falls,2003,15,6,0,6,27,12
+Central Falls,2004,12,6,0,0,18,11
+Central Falls,2005,10,10,0,0,20,12
+Central Falls,2006,2,6,0,0,8,10
+Central Falls,2007,8,0,0,0,8,10
+Central Falls,2008,1,0,0,0,1,12
+Central Falls,2009,0,0,0,0,0,12
+Central Falls,2010,0,0,0,0,0,3
+Central Falls,2011,0,0,0,0,0,6
+Central Falls,2012,1,0,0,0,1,12
+Central Falls,2013,0,0,0,0,0,12
+Central Falls,2014,0,0,0,0,0,9
+Central Falls,2015,1,0,0,0,1,12
+Central Falls,2016,0,0,0,0,0,12
+Central Falls,2017,3,0,0,0,3,12
+Central Falls,2018,0,2,0,0,2,11
+Central Falls,2019,8,0,0,0,8,12
+Central Falls,2020,6,0,0,0,6,5
+Central Falls,2021,1,0,0,0,1,12
+Central Falls,2022,1,0,0,0,1,0
+Central Falls,2023,2,0,0,0,2,0
+Central Falls,2024,2,0,0,25,27,12
+Central Falls,2025,1,0,3,61,65,12
+Charlestown,2000,86,0,0,0,86,12
+Charlestown,2001,61,0,0,0,61,12
+Charlestown,2002,69,0,0,0,69,9
+Charlestown,2003,59,0,0,0,59,12
+Charlestown,2004,54,0,0,0,54,12
+Charlestown,2005,54,0,0,0,54,12
+Charlestown,2006,30,0,0,0,30,12
+Charlestown,2007,19,0,0,0,19,12
+Charlestown,2008,23,0,0,0,23,12
+Charlestown,2009,26,0,0,0,26,12
+Charlestown,2010,22,0,0,0,22,12
+Charlestown,2011,24,0,0,0,24,12
+Charlestown,2012,20,0,0,0,20,11
+Charlestown,2013,17,0,0,0,17,12
+Charlestown,2014,25,0,0,0,25,12
+Charlestown,2015,30,0,4,0,34,12
+Charlestown,2016,43,2,32,0,77,12
+Charlestown,2017,32,0,0,0,32,12
+Charlestown,2018,36,0,9,0,45,12
+Charlestown,2019,36,0,0,0,36,12
+Charlestown,2020,29,0,0,0,29,12
+Charlestown,2021,40,0,0,0,40,12
+Charlestown,2022,34,0,0,0,34,12
+Charlestown,2023,21,0,0,0,21,12
+Charlestown,2024,12,0,0,0,12,12
+Charlestown,2025,15,0,4,0,19,12
+Coventry,2000,153,0,0,0,153,12
+Coventry,2001,110,0,0,0,110,12
+Coventry,2002,106,0,0,0,106,12
+Coventry,2003,86,0,0,0,86,12
+Coventry,2004,92,0,0,16,108,12
+Coventry,2005,98,0,0,0,98,12
+Coventry,2006,103,0,12,0,115,12
+Coventry,2007,175,4,14,0,193,12
+Coventry,2008,66,2,3,0,71,6
+Coventry,2009,37,0,4,0,41,11
+Coventry,2010,36,0,0,78,114,12
+Coventry,2011,12,12,0,0,24,12
+Coventry,2012,27,0,0,0,27,12
+Coventry,2013,35,4,0,0,39,12
+Coventry,2014,42,2,0,0,44,12
+Coventry,2015,50,6,4,0,60,12
+Coventry,2016,52,0,0,6,58,12
+Coventry,2017,60,0,0,0,60,12
+Coventry,2018,45,12,0,0,57,12
+Coventry,2019,44,10,0,0,54,12
+Coventry,2020,48,8,0,0,56,12
+Coventry,2021,55,16,0,0,71,0
+Coventry,2022,50,8,0,0,58,0
+Coventry,2023,45,8,0,0,53,0
+Coventry,2024,48,10,0,0,58,0
+Coventry,2025,46,4,0,0,50,0
+Cranston,2000,131,0,0,0,131,12
+Cranston,2001,161,2,0,0,163,12
+Cranston,2002,134,0,0,0,134,12
+Cranston,2003,134,0,0,0,134,12
+Cranston,2004,115,0,0,0,115,12
+Cranston,2005,101,0,0,196,297,12
+Cranston,2006,57,0,0,0,57,12
+Cranston,2007,61,0,0,0,61,11
+Cranston,2008,35,0,0,0,35,12
+Cranston,2009,38,0,0,0,38,12
+Cranston,2010,45,0,0,8,53,12
+Cranston,2011,27,0,0,0,27,12
+Cranston,2012,28,0,0,0,28,12
+Cranston,2013,43,2,0,0,45,12
+Cranston,2014,24,0,0,0,24,12
+Cranston,2015,50,0,0,0,50,12
+Cranston,2016,55,0,0,0,55,12
+Cranston,2017,45,12,0,7,64,12
+Cranston,2018,49,10,0,5,64,1
+Cranston,2019,40,6,0,10,56,12
+Cranston,2020,29,6,0,24,59,12
+Cranston,2021,46,4,0,0,50,12
+Cranston,2022,42,2,8,0,52,12
+Cranston,2023,33,4,0,0,37,12
+Cranston,2024,47,4,0,0,51,12
+Cranston,2025,50,6,3,0,59,12
+Cumberland,2000,119,0,0,33,152,11
+Cumberland,2001,125,0,0,0,125,12
+Cumberland,2002,152,14,7,13,186,12
+Cumberland,2003,101,2,0,0,103,12
+Cumberland,2004,129,8,0,201,338,11
+Cumberland,2005,100,2,0,41,143,10
+Cumberland,2006,120,0,0,0,120,12
+Cumberland,2007,69,0,0,0,69,12
+Cumberland,2008,61,0,0,0,61,12
+Cumberland,2009,74,0,0,0,74,12
+Cumberland,2010,52,0,0,0,52,12
+Cumberland,2011,59,0,0,0,59,12
+Cumberland,2012,50,0,0,0,50,12
+Cumberland,2013,50,0,0,0,50,12
+Cumberland,2014,72,0,0,0,72,12
+Cumberland,2015,86,0,0,0,86,12
+Cumberland,2016,60,0,0,0,60,12
+Cumberland,2017,66,0,0,0,66,12
+Cumberland,2018,49,6,0,18,73,12
+Cumberland,2019,41,4,12,6,63,12
+Cumberland,2020,41,4,0,11,56,12
+Cumberland,2021,36,0,16,0,52,12
+Cumberland,2022,33,0,4,0,37,12
+Cumberland,2023,32,0,0,12,44,12
+Cumberland,2024,19,2,4,0,25,12
+Cumberland,2025,21,0,8,32,61,12
+East Greenwich,2000,59,0,0,0,59,10
+East Greenwich,2001,68,0,0,0,68,12
+East Greenwich,2002,46,0,0,0,46,12
+East Greenwich,2003,55,0,0,0,55,12
+East Greenwich,2004,52,0,0,0,52,12
+East Greenwich,2005,41,0,0,0,41,11
+East Greenwich,2006,22,0,0,0,22,12
+East Greenwich,2007,23,2,0,0,25,12
+East Greenwich,2008,9,0,0,0,9,11
+East Greenwich,2009,10,0,0,0,10,12
+East Greenwich,2010,25,0,0,0,25,4
+East Greenwich,2011,15,0,0,0,15,4
+East Greenwich,2012,15,0,0,0,15,4
+East Greenwich,2013,12,0,0,0,12,12
+East Greenwich,2014,12,0,0,0,12,12
+East Greenwich,2015,13,0,0,0,13,2
+East Greenwich,2016,9,0,0,0,9,12
+East Greenwich,2017,8,0,0,0,8,4
+East Greenwich,2018,7,0,0,0,7,1
+East Greenwich,2019,11,0,0,0,11,12
+East Greenwich,2020,34,0,0,0,34,12
+East Greenwich,2021,30,6,0,48,84,12
+East Greenwich,2022,38,0,0,0,38,12
+East Greenwich,2023,29,0,0,5,34,1
+East Greenwich,2024,9,0,0,0,9,12
+East Greenwich,2025,4,0,0,16,20,12
+East Providence,2000,53,2,0,0,55,11
+East Providence,2001,48,4,0,0,52,12
+East Providence,2002,35,4,0,0,39,12
+East Providence,2003,32,8,4,0,44,12
+East Providence,2004,37,4,7,25,73,12
+East Providence,2005,29,2,0,36,67,12
+East Providence,2006,39,2,3,18,62,12
+East Providence,2007,33,6,7,0,46,12
+East Providence,2008,10,0,0,0,10,12
+East Providence,2009,9,6,0,0,15,12
+East Providence,2010,9,2,0,0,11,12
+East Providence,2011,5,0,3,0,8,12
+East Providence,2012,7,0,0,0,7,12
+East Providence,2013,6,0,3,0,9,12
+East Providence,2014,3,0,0,0,3,12
+East Providence,2015,0,0,0,0,0,12
+East Providence,2016,0,2,0,0,2,10
+East Providence,2017,0,2,0,0,2,1
+East Providence,2018,0,0,0,0,0,7
+East Providence,2019,0,0,0,0,0,12
+East Providence,2020,7,0,0,0,7,4
+East Providence,2021,7,0,0,0,7,12
+East Providence,2022,9,0,0,0,9,0
+East Providence,2023,18,0,0,0,18,12
+East Providence,2024,16,6,0,104,126,12
+East Providence,2025,35,0,22,211,268,12
+Exeter,2000,32,0,0,0,32,12
+Exeter,2001,31,0,0,0,31,12
+Exeter,2002,18,0,0,0,18,12
+Exeter,2003,23,0,0,0,23,12
+Exeter,2004,27,0,0,0,27,12
+Exeter,2005,26,0,0,0,26,12
+Exeter,2006,17,0,0,0,17,9
+Exeter,2007,36,0,4,0,40,12
+Exeter,2008,35,0,0,0,35,12
+Exeter,2009,38,4,0,0,42,12
+Exeter,2010,27,10,0,0,37,8
+Exeter,2011,9,36,0,0,45,12
+Exeter,2012,7,16,0,0,23,12
+Exeter,2013,10,22,0,0,32,0
+Exeter,2014,6,0,0,0,6,12
+Exeter,2015,6,0,0,0,6,12
+Exeter,2016,10,0,0,0,10,0
+Exeter,2017,12,0,0,0,12,12
+Exeter,2018,12,0,0,0,12,0
+Exeter,2019,16,8,0,0,24,12
+Exeter,2020,14,38,0,0,52,12
+Exeter,2021,10,0,40,0,50,12
+Exeter,2022,7,0,0,0,7,12
+Exeter,2023,2,0,0,0,2,12
+Exeter,2024,7,0,0,0,7,11
+Exeter,2025,9,0,0,0,9,12
+Foster,2000,16,0,0,0,16,1
+Foster,2001,13,0,0,0,13,0
+Foster,2002,14,0,0,0,14,0
+Foster,2003,13,0,0,0,13,0
+Foster,2004,18,0,0,0,18,3
+Foster,2005,20,0,0,0,20,12
+Foster,2006,17,0,0,0,17,6
+Foster,2007,11,0,0,0,11,12
+Foster,2008,12,0,0,0,12,12
+Foster,2009,6,0,0,0,6,12
+Foster,2010,7,0,0,0,7,11
+Foster,2011,3,0,0,0,3,12
+Foster,2012,4,0,0,0,4,12
+Foster,2013,2,0,0,0,2,12
+Foster,2014,3,0,0,0,3,10
+Foster,2015,7,0,0,0,7,12
+Foster,2016,6,0,0,0,6,12
+Foster,2017,7,0,0,0,7,12
+Foster,2018,8,0,0,0,8,12
+Foster,2019,12,0,0,0,12,12
+Foster,2020,4,0,0,0,4,12
+Foster,2021,9,0,0,0,9,12
+Foster,2022,5,0,0,0,5,0
+Foster,2023,6,0,0,0,6,0
+Foster,2024,5,0,0,0,5,0
+Foster,2025,6,0,0,0,6,0
+Glocester,2000,30,0,0,0,30,12
+Glocester,2001,28,0,0,0,28,0
+Glocester,2002,58,0,0,0,58,12
+Glocester,2003,50,0,0,0,50,2
+Glocester,2004,53,0,0,0,53,0
+Glocester,2005,34,0,0,0,34,12
+Glocester,2006,24,0,0,0,24,12
+Glocester,2007,19,0,0,0,19,4
+Glocester,2008,15,0,0,0,15,12
+Glocester,2009,13,0,0,0,13,12
+Glocester,2010,13,0,0,0,13,1
+Glocester,2011,10,0,0,0,10,0
+Glocester,2012,12,0,0,0,12,0
+Glocester,2013,16,0,0,0,16,0
+Glocester,2014,13,6,0,0,19,12
+Glocester,2015,14,10,0,0,24,12
+Glocester,2016,25,0,0,0,25,12
+Glocester,2017,31,10,0,0,41,12
+Glocester,2018,25,6,0,0,31,12
+Glocester,2019,29,10,0,0,39,12
+Glocester,2020,44,8,0,0,52,12
+Glocester,2021,27,2,0,0,29,12
+Glocester,2022,23,0,0,0,23,12
+Glocester,2023,18,18,0,0,36,12
+Glocester,2024,21,16,0,0,37,0
+Glocester,2025,17,0,0,0,17,12
+Hopkinton,2000,33,0,0,0,33,12
+Hopkinton,2001,43,0,0,0,43,12
+Hopkinton,2002,32,0,0,0,32,5
+Hopkinton,2003,33,0,0,0,33,0
+Hopkinton,2004,35,0,0,0,35,0
+Hopkinton,2005,32,0,0,0,32,0
+Hopkinton,2006,25,0,12,0,37,12
+Hopkinton,2007,22,0,9,0,31,0
+Hopkinton,2008,13,0,6,0,19,0
+Hopkinton,2009,11,0,9,0,20,0
+Hopkinton,2010,12,0,0,0,12,0
+Hopkinton,2011,9,0,7,0,16,0
+Hopkinton,2012,11,0,0,0,11,12
+Hopkinton,2013,11,2,0,0,13,12
+Hopkinton,2014,13,0,4,0,17,12
+Hopkinton,2015,19,0,8,0,27,12
+Hopkinton,2016,14,0,12,0,26,4
+Hopkinton,2017,18,0,0,0,18,0
+Hopkinton,2018,15,0,0,0,15,0
+Hopkinton,2019,32,0,4,0,36,12
+Hopkinton,2020,9,0,0,0,9,12
+Hopkinton,2021,16,0,0,0,16,12
+Hopkinton,2022,21,0,0,0,21,12
+Hopkinton,2023,19,0,0,0,19,12
+Hopkinton,2024,20,2,0,0,22,12
+Hopkinton,2025,12,0,0,0,12,12
+Jamestown,2000,32,0,0,0,32,12
+Jamestown,2001,27,0,0,0,27,12
+Jamestown,2002,38,0,0,0,38,12
+Jamestown,2003,36,0,0,10,46,12
+Jamestown,2004,20,2,0,0,22,12
+Jamestown,2005,21,2,0,0,23,12
+Jamestown,2006,31,0,0,0,31,12
+Jamestown,2007,14,0,0,0,14,12
+Jamestown,2008,22,0,0,0,22,12
+Jamestown,2009,15,0,0,0,15,12
+Jamestown,2010,17,0,0,0,17,12
+Jamestown,2011,19,0,0,0,19,12
+Jamestown,2012,11,0,0,5,16,12
+Jamestown,2013,18,0,0,0,18,12
+Jamestown,2014,19,0,0,0,19,12
+Jamestown,2015,10,0,0,0,10,11
+Jamestown,2016,23,0,4,0,27,12
+Jamestown,2017,21,0,0,0,21,12
+Jamestown,2018,30,0,0,0,30,12
+Jamestown,2019,24,0,0,0,24,12
+Jamestown,2020,22,0,0,0,22,12
+Jamestown,2021,26,0,0,0,26,0
+Jamestown,2022,22,0,0,0,22,0
+Jamestown,2023,20,0,0,0,20,0
+Jamestown,2024,22,0,0,0,22,0
+Jamestown,2025,7,0,0,0,7,12
+Johnston,2000,81,0,0,0,81,12
+Johnston,2001,69,0,0,0,69,12
+Johnston,2002,67,0,0,0,67,12
+Johnston,2003,53,0,0,0,53,8
+Johnston,2004,42,0,0,0,42,12
+Johnston,2005,19,0,0,0,19,12
+Johnston,2006,18,0,0,0,18,8
+Johnston,2007,27,0,0,0,27,11
+Johnston,2008,28,0,0,0,28,12
+Johnston,2009,41,0,0,0,41,12
+Johnston,2010,36,0,0,0,36,12
+Johnston,2011,14,0,0,0,14,12
+Johnston,2012,13,0,0,0,13,12
+Johnston,2013,6,0,0,0,6,12
+Johnston,2014,10,0,0,0,10,12
+Johnston,2015,8,0,0,0,8,11
+Johnston,2016,31,0,0,0,31,12
+Johnston,2017,14,0,0,0,14,11
+Johnston,2018,16,0,0,0,16,6
+Johnston,2019,31,0,0,0,31,12
+Johnston,2020,33,0,0,0,33,6
+Johnston,2021,39,0,0,0,39,0
+Johnston,2022,35,0,0,0,35,12
+Johnston,2023,14,0,0,0,14,6
+Johnston,2024,21,0,0,0,21,0
+Johnston,2025,18,0,0,0,18,0
+Lincoln,2000,101,0,0,100,201,12
+Lincoln,2001,69,0,0,0,69,12
+Lincoln,2002,60,0,0,0,60,12
+Lincoln,2003,40,0,0,0,40,12
+Lincoln,2004,43,0,0,0,43,0
+Lincoln,2005,82,0,0,0,82,12
+Lincoln,2006,108,0,0,0,108,12
+Lincoln,2007,24,0,0,6,30,12
+Lincoln,2008,15,0,0,0,15,12
+Lincoln,2009,18,0,0,0,18,12
+Lincoln,2010,20,0,0,0,20,12
+Lincoln,2011,29,0,0,0,29,12
+Lincoln,2012,12,0,0,0,12,12
+Lincoln,2013,46,0,0,6,52,12
+Lincoln,2014,58,0,0,0,58,12
+Lincoln,2015,34,0,0,0,34,12
+Lincoln,2016,22,0,0,0,22,12
+Lincoln,2017,29,0,0,0,29,12
+Lincoln,2018,29,2,0,34,65,12
+Lincoln,2019,38,0,0,0,38,12
+Lincoln,2020,18,0,0,0,18,12
+Lincoln,2021,53,42,0,0,95,12
+Lincoln,2022,44,28,0,0,72,12
+Lincoln,2023,40,28,0,0,68,0
+Lincoln,2024,44,34,0,0,78,0
+Lincoln,2025,9,20,0,72,101,12
+Little Compton,2000,14,0,0,0,14,12
+Little Compton,2001,33,0,0,0,33,12
+Little Compton,2002,26,0,0,0,26,12
+Little Compton,2003,27,0,0,0,27,12
+Little Compton,2004,29,0,0,0,29,11
+Little Compton,2005,21,0,0,0,21,12
+Little Compton,2006,27,0,0,0,27,12
+Little Compton,2007,16,0,0,0,16,12
+Little Compton,2008,23,0,0,0,23,12
+Little Compton,2009,10,0,6,0,16,12
+Little Compton,2010,3,0,0,0,3,12
+Little Compton,2011,5,0,0,0,5,12
+Little Compton,2012,12,0,0,0,12,11
+Little Compton,2013,13,0,0,0,13,12
+Little Compton,2014,12,0,0,0,12,12
+Little Compton,2015,8,0,0,0,8,12
+Little Compton,2016,6,0,0,0,6,12
+Little Compton,2017,14,0,0,0,14,12
+Little Compton,2018,15,0,0,0,15,12
+Little Compton,2019,17,0,0,0,17,12
+Little Compton,2020,15,0,0,0,15,12
+Little Compton,2021,13,0,0,0,13,12
+Little Compton,2022,16,0,0,0,16,12
+Little Compton,2023,12,0,0,0,12,12
+Little Compton,2024,10,0,0,0,10,12
+Little Compton,2025,14,0,0,0,14,11
+Middletown,2000,52,0,0,0,52,12
+Middletown,2001,40,2,0,0,42,12
+Middletown,2002,39,0,0,0,39,12
+Middletown,2003,17,0,0,0,17,12
+Middletown,2004,24,4,0,10,38,12
+Middletown,2005,22,0,0,0,22,12
+Middletown,2006,26,0,0,0,26,12
+Middletown,2007,24,0,0,0,24,12
+Middletown,2008,15,0,0,0,15,12
+Middletown,2009,15,0,0,0,15,12
+Middletown,2010,12,0,0,0,12,12
+Middletown,2011,8,0,0,0,8,12
+Middletown,2012,29,0,0,0,29,12
+Middletown,2013,43,0,0,0,43,12
+Middletown,2014,10,0,0,0,10,12
+Middletown,2015,17,0,0,0,17,12
+Middletown,2016,16,0,0,0,16,12
+Middletown,2017,22,6,0,0,28,12
+Middletown,2018,30,0,0,0,30,12
+Middletown,2019,38,4,0,0,42,12
+Middletown,2020,14,0,0,0,14,12
+Middletown,2021,10,0,0,0,10,12
+Middletown,2022,13,0,0,0,13,12
+Middletown,2023,8,0,0,54,62,12
+Middletown,2024,16,0,0,0,16,12
+Middletown,2025,22,0,0,7,29,12
+Narragansett,2000,101,0,0,0,101,12
+Narragansett,2001,119,0,0,0,119,12
+Narragansett,2002,103,0,0,0,103,12
+Narragansett,2003,80,0,0,0,80,12
+Narragansett,2004,74,4,0,0,78,12
+Narragansett,2005,59,0,0,0,59,12
+Narragansett,2006,46,0,0,0,46,12
+Narragansett,2007,56,0,0,40,96,12
+Narragansett,2008,28,2,0,0,30,11
+Narragansett,2009,46,0,0,0,46,12
+Narragansett,2010,26,4,0,0,30,12
+Narragansett,2011,16,0,0,0,16,12
+Narragansett,2012,11,18,0,0,29,12
+Narragansett,2013,11,2,0,0,13,12
+Narragansett,2014,19,0,0,0,19,12
+Narragansett,2015,25,12,0,0,37,12
+Narragansett,2016,28,2,0,0,30,12
+Narragansett,2017,21,4,9,0,34,12
+Narragansett,2018,16,0,3,0,19,12
+Narragansett,2019,29,0,0,0,29,12
+Narragansett,2020,23,0,0,0,23,12
+Narragansett,2021,12,2,0,0,14,12
+Narragansett,2022,7,0,0,0,7,12
+Narragansett,2023,16,2,0,0,18,12
+Narragansett,2024,6,0,0,0,6,12
+Narragansett,2025,11,0,0,0,11,12
+New Shoreham,2000,18,0,0,0,18,12
+New Shoreham,2001,14,8,0,0,22,12
+New Shoreham,2002,13,0,0,0,13,12
+New Shoreham,2003,18,0,0,0,18,12
+New Shoreham,2004,16,0,0,0,16,12
+New Shoreham,2005,8,2,0,0,10,12
+New Shoreham,2006,9,0,0,0,9,12
+New Shoreham,2007,44,0,0,0,44,12
+New Shoreham,2008,4,0,0,0,4,12
+New Shoreham,2009,1,0,0,0,1,12
+New Shoreham,2010,8,0,0,0,8,12
+New Shoreham,2011,6,0,0,0,6,12
+New Shoreham,2012,5,0,0,0,5,12
+New Shoreham,2013,9,0,3,0,12,12
+New Shoreham,2014,14,0,0,0,14,12
+New Shoreham,2015,9,0,0,0,9,12
+New Shoreham,2016,2,0,0,0,2,12
+New Shoreham,2017,6,0,0,0,6,12
+New Shoreham,2018,8,0,0,0,8,12
+New Shoreham,2019,10,0,0,0,10,12
+New Shoreham,2020,8,0,0,0,8,12
+New Shoreham,2021,9,0,0,0,9,12
+New Shoreham,2022,7,0,0,0,7,12
+New Shoreham,2023,8,2,0,0,10,12
+New Shoreham,2024,11,2,0,0,13,12
+New Shoreham,2025,12,0,0,0,12,12
+Newport,2000,15,0,0,0,15,12
+Newport,2001,15,0,0,0,15,12
+Newport,2002,16,0,0,0,16,12
+Newport,2003,16,0,0,0,16,12
+Newport,2004,11,0,0,0,11,12
+Newport,2005,7,0,0,0,7,12
+Newport,2006,11,0,0,6,17,12
+Newport,2007,16,0,4,0,20,12
+Newport,2008,8,26,15,8,57,12
+Newport,2009,6,32,0,0,38,12
+Newport,2010,14,2,0,0,16,12
+Newport,2011,12,0,0,0,12,12
+Newport,2012,9,2,0,0,11,12
+Newport,2013,12,0,0,0,12,12
+Newport,2014,13,4,0,66,83,12
+Newport,2015,17,0,0,0,17,12
+Newport,2016,12,2,3,0,17,12
+Newport,2017,22,0,0,0,22,12
+Newport,2018,9,0,0,0,9,12
+Newport,2019,8,0,0,0,8,12
+Newport,2020,7,0,0,0,7,12
+Newport,2021,11,0,0,0,11,12
+Newport,2022,8,0,0,0,8,12
+Newport,2023,10,0,0,0,10,0
+Newport,2024,12,0,0,0,12,0
+Newport,2025,9,0,0,0,9,0
+North Kingstown,2000,101,0,0,0,101,12
+North Kingstown,2001,100,0,18,0,118,12
+North Kingstown,2002,103,0,79,0,182,12
+North Kingstown,2003,67,0,0,0,67,12
+North Kingstown,2004,66,0,0,0,66,12
+North Kingstown,2005,53,0,0,0,53,12
+North Kingstown,2006,184,0,0,0,184,12
+North Kingstown,2007,44,4,0,48,96,12
+North Kingstown,2008,32,8,0,0,40,12
+North Kingstown,2009,20,0,0,0,20,12
+North Kingstown,2010,14,4,24,0,42,12
+North Kingstown,2011,17,2,6,0,25,12
+North Kingstown,2012,37,0,0,0,37,12
+North Kingstown,2013,30,0,0,0,30,12
+North Kingstown,2014,40,0,0,0,40,12
+North Kingstown,2015,46,0,0,0,46,12
+North Kingstown,2016,50,4,3,48,105,12
+North Kingstown,2017,41,0,0,90,131,12
+North Kingstown,2018,70,22,0,24,116,12
+North Kingstown,2019,36,8,0,0,44,12
+North Kingstown,2020,31,8,0,0,39,12
+North Kingstown,2021,63,4,0,0,67,12
+North Kingstown,2022,75,0,0,0,75,12
+North Kingstown,2023,43,0,0,50,93,12
+North Kingstown,2024,55,0,0,40,95,12
+North Kingstown,2025,50,0,0,0,50,12
+North Providence,2000,29,18,3,0,50,12
+North Providence,2001,27,26,0,44,97,12
+North Providence,2002,22,2,0,0,24,12
+North Providence,2003,22,2,0,0,24,9
+North Providence,2004,30,4,0,15,49,12
+North Providence,2005,46,8,16,18,88,12
+North Providence,2006,22,66,0,0,88,12
+North Providence,2007,9,20,0,0,29,12
+North Providence,2008,2,6,3,0,11,12
+North Providence,2009,3,2,0,0,5,12
+North Providence,2010,6,0,0,0,6,12
+North Providence,2011,3,0,4,0,7,12
+North Providence,2012,12,0,0,0,12,12
+North Providence,2013,12,0,0,0,12,12
+North Providence,2014,8,6,0,16,30,12
+North Providence,2015,21,0,0,0,21,12
+North Providence,2016,11,0,0,0,11,12
+North Providence,2017,12,6,0,5,23,12
+North Providence,2018,5,0,0,0,5,12
+North Providence,2019,9,0,0,0,9,12
+North Providence,2020,7,0,0,0,7,12
+North Providence,2021,6,0,0,0,6,12
+North Providence,2022,3,0,0,0,3,12
+North Providence,2023,4,0,0,0,4,12
+North Providence,2024,4,0,3,0,7,12
+North Providence,2025,0,0,0,0,0,12
+North Smithfield,2000,25,0,0,0,25,12
+North Smithfield,2001,27,0,0,0,27,12
+North Smithfield,2002,21,0,0,0,21,12
+North Smithfield,2003,26,0,0,0,26,12
+North Smithfield,2004,91,0,0,10,101,12
+North Smithfield,2005,86,0,0,0,86,12
+North Smithfield,2006,45,0,0,0,45,12
+North Smithfield,2007,45,0,0,80,125,12
+North Smithfield,2008,15,0,0,0,15,12
+North Smithfield,2009,4,0,0,0,4,12
+North Smithfield,2010,14,0,0,0,14,12
+North Smithfield,2011,9,28,9,0,46,12
+North Smithfield,2012,16,0,0,0,16,12
+North Smithfield,2013,14,0,0,0,14,12
+North Smithfield,2014,32,0,0,0,32,12
+North Smithfield,2015,25,0,0,0,25,4
+North Smithfield,2016,27,0,0,0,27,0
+North Smithfield,2017,28,0,0,0,28,0
+North Smithfield,2018,30,0,0,0,30,0
+North Smithfield,2019,28,0,0,0,28,0
+North Smithfield,2020,16,0,0,0,16,9
+North Smithfield,2021,9,0,0,0,9,12
+North Smithfield,2022,11,0,0,0,11,12
+North Smithfield,2023,7,0,0,0,7,12
+North Smithfield,2024,7,0,0,30,37,12
+North Smithfield,2025,4,0,0,0,4,12
+Pawtucket,2000,16,2,0,0,18,11
+Pawtucket,2001,17,2,0,0,19,12
+Pawtucket,2002,32,4,6,0,42,12
+Pawtucket,2003,27,18,3,81,129,12
+Pawtucket,2004,43,0,0,15,58,12
+Pawtucket,2005,13,10,10,10,43,12
+Pawtucket,2006,41,2,0,0,43,12
+Pawtucket,2007,19,0,3,0,22,12
+Pawtucket,2008,17,2,3,0,22,12
+Pawtucket,2009,7,2,3,23,35,12
+Pawtucket,2010,3,2,0,0,5,12
+Pawtucket,2011,4,4,0,0,8,12
+Pawtucket,2012,4,0,0,6,10,12
+Pawtucket,2013,6,0,7,0,13,12
+Pawtucket,2014,5,2,0,0,7,12
+Pawtucket,2015,8,0,0,0,8,11
+Pawtucket,2016,6,4,0,0,10,12
+Pawtucket,2017,38,2,0,0,40,12
+Pawtucket,2018,11,4,0,0,15,12
+Pawtucket,2019,13,0,0,0,13,12
+Pawtucket,2020,14,8,0,0,22,12
+Pawtucket,2021,8,20,3,0,31,12
+Pawtucket,2022,20,0,0,0,20,12
+Pawtucket,2023,4,0,0,0,4,12
+Pawtucket,2024,0,2,0,0,2,12
+Pawtucket,2025,2,0,0,0,2,12
+Portsmouth,2000,96,2,0,0,98,12
+Portsmouth,2001,89,2,0,0,91,12
+Portsmouth,2002,97,2,0,0,99,12
+Portsmouth,2003,50,2,0,0,52,12
+Portsmouth,2004,77,4,15,0,96,12
+Portsmouth,2005,106,0,0,10,116,12
+Portsmouth,2006,54,0,3,65,122,12
+Portsmouth,2007,37,2,0,5,44,12
+Portsmouth,2008,29,0,0,18,47,12
+Portsmouth,2009,8,0,0,0,8,12
+Portsmouth,2010,15,0,0,0,15,12
+Portsmouth,2011,17,0,0,0,17,12
+Portsmouth,2012,18,4,0,0,22,12
+Portsmouth,2013,33,0,3,0,36,12
+Portsmouth,2014,35,2,3,0,40,12
+Portsmouth,2015,41,0,6,0,47,11
+Portsmouth,2016,34,0,0,0,34,12
+Portsmouth,2017,22,0,3,0,25,11
+Portsmouth,2018,24,2,0,0,26,12
+Portsmouth,2019,30,0,0,0,30,12
+Portsmouth,2020,29,0,0,0,29,10
+Portsmouth,2021,35,0,0,0,35,0
+Portsmouth,2022,27,0,0,0,27,12
+Portsmouth,2023,22,0,0,0,22,0
+Portsmouth,2024,63,0,0,54,117,12
+Portsmouth,2025,8,4,0,44,56,12
+Providence,2000,31,52,21,5,109,12
+Providence,2001,36,10,3,0,49,12
+Providence,2002,35,18,6,0,59,1
+Providence,2003,35,20,6,0,61,0
+Providence,2004,36,26,3,0,65,0
+Providence,2005,44,38,6,0,88,1
+Providence,2006,93,224,43,13,373,12
+Providence,2007,47,114,10,30,201,11
+Providence,2008,17,10,6,11,44,12
+Providence,2009,4,6,6,57,73,12
+Providence,2010,8,4,9,0,21,12
+Providence,2011,12,2,6,0,20,8
+Providence,2012,12,0,3,0,15,7
+Providence,2013,16,0,0,26,42,9
+Providence,2014,14,10,3,0,27,12
+Providence,2015,15,32,13,31,91,12
+Providence,2016,11,20,25,6,62,12
+Providence,2017,2,2,0,0,4,12
+Providence,2018,1,0,0,0,1,10
+Providence,2019,14,66,32,85,197,12
+Providence,2020,18,112,33,50,213,12
+Providence,2021,1,12,3,38,54,12
+Providence,2022,28,72,13,186,299,12
+Providence,2023,0,2,3,0,5,12
+Providence,2024,31,154,24,60,269,12
+Providence,2025,32,224,30,38,324,12
+Richmond,2000,56,0,0,0,56,12
+Richmond,2001,50,0,0,0,50,12
+Richmond,2002,47,0,0,0,47,12
+Richmond,2003,44,0,0,0,44,12
+Richmond,2004,44,0,0,0,44,12
+Richmond,2005,41,0,0,0,41,12
+Richmond,2006,18,0,0,0,18,12
+Richmond,2007,20,0,0,0,20,12
+Richmond,2008,13,0,0,0,13,12
+Richmond,2009,10,0,0,0,10,12
+Richmond,2010,6,0,0,0,6,12
+Richmond,2011,6,0,0,0,6,12
+Richmond,2012,9,0,0,0,9,12
+Richmond,2013,13,0,0,0,13,12
+Richmond,2014,25,0,0,0,25,12
+Richmond,2015,10,0,0,0,10,12
+Richmond,2016,23,4,0,8,35,12
+Richmond,2017,40,0,0,0,40,12
+Richmond,2018,51,0,0,0,51,7
+Richmond,2019,78,0,0,0,78,12
+Richmond,2020,29,0,0,0,29,12
+Richmond,2021,22,0,0,0,22,12
+Richmond,2022,17,0,0,0,17,12
+Richmond,2023,6,0,6,0,12,12
+Richmond,2024,12,2,3,5,22,12
+Richmond,2025,6,2,4,0,12,12
+Scituate,2000,39,0,0,0,39,12
+Scituate,2001,36,0,0,0,36,12
+Scituate,2002,45,0,0,0,45,12
+Scituate,2003,50,0,0,0,50,12
+Scituate,2004,46,0,0,0,46,12
+Scituate,2005,24,0,0,0,24,12
+Scituate,2006,22,0,0,0,22,12
+Scituate,2007,13,0,0,0,13,12
+Scituate,2008,9,2,0,0,11,12
+Scituate,2009,6,0,0,0,6,12
+Scituate,2010,8,0,0,0,8,12
+Scituate,2011,13,0,0,0,13,12
+Scituate,2012,7,0,0,0,7,12
+Scituate,2013,10,0,0,0,10,12
+Scituate,2014,13,0,0,0,13,11
+Scituate,2015,12,0,0,0,12,12
+Scituate,2016,9,0,0,0,9,12
+Scituate,2017,14,0,0,0,14,11
+Scituate,2018,16,0,0,0,16,12
+Scituate,2019,23,0,0,0,23,12
+Scituate,2020,19,0,0,0,19,1
+Scituate,2021,26,0,0,0,26,0
+Scituate,2022,22,0,0,0,22,0
+Scituate,2023,8,0,0,0,8,12
+Scituate,2024,10,0,0,0,10,12
+Scituate,2025,18,0,0,0,18,12
+Smithfield,2000,34,0,0,0,34,12
+Smithfield,2001,62,0,0,0,62,12
+Smithfield,2002,68,0,0,8,76,12
+Smithfield,2003,81,0,0,0,81,12
+Smithfield,2004,61,0,0,0,61,12
+Smithfield,2005,46,0,0,0,46,12
+Smithfield,2006,17,0,0,0,17,12
+Smithfield,2007,19,0,0,0,19,12
+Smithfield,2008,7,0,0,0,7,12
+Smithfield,2009,15,0,0,0,15,12
+Smithfield,2010,27,0,0,0,27,12
+Smithfield,2011,15,0,0,0,15,12
+Smithfield,2012,9,0,0,0,9,12
+Smithfield,2013,14,0,0,0,14,12
+Smithfield,2014,17,0,0,0,17,12
+Smithfield,2015,20,0,0,0,20,12
+Smithfield,2016,18,2,0,0,20,12
+Smithfield,2017,35,0,0,0,35,12
+Smithfield,2018,21,0,0,0,21,11
+Smithfield,2019,27,0,0,0,27,12
+Smithfield,2020,18,0,0,0,18,12
+Smithfield,2021,28,0,0,0,28,12
+Smithfield,2022,17,0,0,0,17,12
+Smithfield,2023,14,0,0,0,14,12
+Smithfield,2024,25,0,0,0,25,12
+Smithfield,2025,14,0,16,0,30,12
+South Kingstown,2000,154,0,0,0,154,12
+South Kingstown,2001,133,0,0,0,133,12
+South Kingstown,2002,121,2,0,134,257,12
+South Kingstown,2003,141,4,0,100,245,12
+South Kingstown,2004,102,2,0,50,154,12
+South Kingstown,2005,98,42,24,101,265,12
+South Kingstown,2006,95,0,0,0,95,12
+South Kingstown,2007,57,0,0,28,85,12
+South Kingstown,2008,54,0,0,0,54,12
+South Kingstown,2009,45,0,0,0,45,12
+South Kingstown,2010,68,0,0,10,78,12
+South Kingstown,2011,46,0,0,0,46,12
+South Kingstown,2012,95,0,0,0,95,12
+South Kingstown,2013,67,0,0,0,67,12
+South Kingstown,2014,48,0,0,0,48,12
+South Kingstown,2015,24,0,0,0,24,12
+South Kingstown,2016,53,0,0,0,53,12
+South Kingstown,2017,73,0,0,0,73,12
+South Kingstown,2018,78,0,0,0,78,12
+South Kingstown,2019,97,0,32,0,129,12
+South Kingstown,2020,96,6,0,0,102,12
+South Kingstown,2021,94,0,0,11,105,12
+South Kingstown,2022,75,2,0,0,77,12
+South Kingstown,2023,60,10,0,0,70,12
+South Kingstown,2024,63,20,3,0,86,12
+South Kingstown,2025,73,14,0,0,87,12
+Tiverton,2000,45,0,0,51,96,12
+Tiverton,2001,54,2,0,0,56,12
+Tiverton,2002,47,8,0,10,65,12
+Tiverton,2003,106,2,0,5,113,12
+Tiverton,2004,74,0,0,26,100,12
+Tiverton,2005,71,0,0,26,97,12
+Tiverton,2006,34,0,3,0,37,12
+Tiverton,2007,30,0,0,0,30,12
+Tiverton,2008,23,0,0,0,23,12
+Tiverton,2009,43,28,0,0,71,12
+Tiverton,2010,30,0,0,0,30,12
+Tiverton,2011,25,0,0,0,25,12
+Tiverton,2012,20,0,0,0,20,12
+Tiverton,2013,21,0,0,0,21,12
+Tiverton,2014,21,0,0,0,21,12
+Tiverton,2015,35,0,0,0,35,12
+Tiverton,2016,28,0,0,0,28,12
+Tiverton,2017,41,2,0,0,43,12
+Tiverton,2018,30,0,0,0,30,10
+Tiverton,2019,33,2,0,0,35,12
+Tiverton,2020,36,0,0,0,36,12
+Tiverton,2021,38,0,0,0,38,12
+Tiverton,2022,38,0,0,0,38,0
+Tiverton,2023,0,0,0,0,0,12
+Tiverton,2024,3,0,0,0,3,8
+Tiverton,2025,16,0,0,0,16,12
+Warren,2000,13,0,0,0,13,12
+Warren,2001,26,0,0,0,26,12
+Warren,2002,11,0,8,0,19,12
+Warren,2003,19,0,3,0,22,12
+Warren,2004,9,2,0,0,11,12
+Warren,2005,16,0,0,0,16,12
+Warren,2006,6,0,0,0,6,12
+Warren,2007,3,0,0,0,3,12
+Warren,2008,6,0,0,0,6,12
+Warren,2009,1,0,0,0,1,12
+Warren,2010,6,0,0,0,6,12
+Warren,2011,0,0,0,0,0,12
+Warren,2012,3,0,0,0,3,12
+Warren,2013,10,0,0,0,10,12
+Warren,2014,7,0,0,0,7,12
+Warren,2015,8,0,0,0,8,12
+Warren,2016,9,0,0,0,9,12
+Warren,2017,7,0,0,0,7,12
+Warren,2018,7,0,0,100,107,12
+Warren,2019,6,0,0,0,6,12
+Warren,2020,13,0,0,0,13,12
+Warren,2021,7,0,0,15,22,12
+Warren,2022,6,2,0,18,26,12
+Warren,2023,4,2,0,0,6,12
+Warren,2024,6,0,0,0,6,12
+Warren,2025,4,0,52,0,56,12
+Warwick,2000,94,24,21,0,139,12
+Warwick,2001,91,4,29,48,172,12
+Warwick,2002,112,0,9,60,181,12
+Warwick,2003,81,0,3,34,118,9
+Warwick,2004,73,0,6,53,132,11
+Warwick,2005,75,0,4,18,97,12
+Warwick,2006,54,6,4,42,106,12
+Warwick,2007,49,2,0,14,65,12
+Warwick,2008,30,0,0,26,56,12
+Warwick,2009,25,0,6,6,37,12
+Warwick,2010,21,12,0,34,67,12
+Warwick,2011,17,0,0,0,17,12
+Warwick,2012,32,0,8,0,40,12
+Warwick,2013,45,0,0,12,57,12
+Warwick,2014,36,0,9,0,45,12
+Warwick,2015,37,6,0,0,43,12
+Warwick,2016,41,0,0,12,53,12
+Warwick,2017,42,0,6,0,48,12
+Warwick,2018,47,0,6,10,63,12
+Warwick,2019,39,0,3,54,96,12
+Warwick,2020,32,10,8,10,60,12
+Warwick,2021,40,26,8,6,80,12
+Warwick,2022,62,10,0,0,72,12
+Warwick,2023,64,26,0,12,102,12
+Warwick,2024,68,6,3,240,317,12
+Warwick,2025,85,34,0,0,119,12
+West Greenwich,2000,76,0,0,0,76,12
+West Greenwich,2001,45,0,0,0,45,12
+West Greenwich,2002,29,0,0,0,29,12
+West Greenwich,2003,25,0,0,0,25,10
+West Greenwich,2004,22,0,0,0,22,12
+West Greenwich,2005,16,14,0,286,316,12
+West Greenwich,2006,16,0,0,0,16,12
+West Greenwich,2007,11,0,0,0,11,12
+West Greenwich,2008,8,0,0,0,8,12
+West Greenwich,2009,0,0,0,0,0,12
+West Greenwich,2010,7,0,0,0,7,12
+West Greenwich,2011,2,0,0,0,2,12
+West Greenwich,2012,8,0,0,0,8,12
+West Greenwich,2013,7,0,0,0,7,12
+West Greenwich,2014,15,0,0,0,15,12
+West Greenwich,2015,9,2,3,0,14,10
+West Greenwich,2016,54,0,0,0,54,12
+West Greenwich,2017,45,0,0,0,45,12
+West Greenwich,2018,26,0,0,0,26,12
+West Greenwich,2019,9,0,0,0,9,12
+West Greenwich,2020,42,0,0,0,42,12
+West Greenwich,2021,21,0,0,0,21,12
+West Greenwich,2022,10,0,0,0,10,12
+West Greenwich,2023,7,0,0,0,7,12
+West Greenwich,2024,5,0,0,0,5,12
+West Greenwich,2025,4,0,0,0,4,12
+West Warwick,2000,24,2,0,0,26,12
+West Warwick,2001,74,6,0,0,80,12
+West Warwick,2002,44,0,0,0,44,12
+West Warwick,2003,32,6,3,0,41,12
+West Warwick,2004,42,0,7,0,49,12
+West Warwick,2005,57,4,10,0,71,12
+West Warwick,2006,39,0,0,0,39,7
+West Warwick,2007,29,0,30,47,106,12
+West Warwick,2008,9,0,0,0,9,12
+West Warwick,2009,9,0,0,0,9,11
+West Warwick,2010,3,0,0,0,3,12
+West Warwick,2011,6,0,0,0,6,12
+West Warwick,2012,10,2,0,0,12,12
+West Warwick,2013,5,6,0,0,11,12
+West Warwick,2014,5,6,11,6,28,12
+West Warwick,2015,17,2,0,0,19,12
+West Warwick,2016,4,0,0,0,4,11
+West Warwick,2017,10,4,0,0,14,12
+West Warwick,2018,16,20,3,0,39,11
+West Warwick,2019,2,4,4,0,10,12
+West Warwick,2020,11,0,38,0,49,12
+West Warwick,2021,6,14,15,0,35,12
+West Warwick,2022,11,24,13,0,48,12
+West Warwick,2023,1,10,8,0,19,12
+West Warwick,2024,8,68,6,0,82,12
+West Warwick,2025,4,40,6,5,55,12
+Westerly,2000,166,2,0,0,168,12
+Westerly,2001,113,0,3,0,116,12
+Westerly,2002,105,2,0,0,107,12
+Westerly,2003,95,0,0,0,95,12
+Westerly,2004,70,0,0,0,70,12
+Westerly,2005,86,12,4,7,109,12
+Westerly,2006,195,2,0,0,197,12
+Westerly,2007,163,0,0,0,163,12
+Westerly,2008,61,0,0,0,61,12
+Westerly,2009,48,0,0,0,48,12
+Westerly,2010,51,2,0,0,53,12
+Westerly,2011,59,2,0,6,67,12
+Westerly,2012,53,2,0,0,55,9
+Westerly,2013,77,0,6,8,91,12
+Westerly,2014,57,0,0,0,57,12
+Westerly,2015,40,0,8,8,56,9
+Westerly,2016,47,0,8,0,55,12
+Westerly,2017,31,0,0,0,31,12
+Westerly,2018,41,4,0,8,53,12
+Westerly,2019,34,2,0,8,44,12
+Westerly,2020,43,0,0,0,43,12
+Westerly,2021,37,0,0,8,45,12
+Westerly,2022,56,2,20,0,78,12
+Westerly,2023,53,2,6,0,61,10
+Westerly,2024,36,0,0,0,36,12
+Westerly,2025,43,0,0,0,43,12
+Woonsocket,2000,23,2,0,0,25,12
+Woonsocket,2001,12,4,3,0,19,12
+Woonsocket,2002,43,0,0,252,295,12
+Woonsocket,2003,36,0,0,0,36,12
+Woonsocket,2004,35,2,0,43,80,12
+Woonsocket,2005,48,2,0,0,50,12
+Woonsocket,2006,43,0,0,0,43,12
+Woonsocket,2007,22,0,0,0,22,12
+Woonsocket,2008,13,0,0,0,13,12
+Woonsocket,2009,5,2,0,0,7,12
+Woonsocket,2010,6,0,0,0,6,12
+Woonsocket,2011,3,0,0,0,3,12
+Woonsocket,2012,2,0,0,0,2,12
+Woonsocket,2013,9,0,0,0,9,12
+Woonsocket,2014,8,0,0,0,8,12
+Woonsocket,2015,9,0,0,0,9,12
+Woonsocket,2016,13,0,0,0,13,12
+Woonsocket,2017,6,0,0,0,6,12
+Woonsocket,2018,6,0,0,0,6,12
+Woonsocket,2019,19,0,0,0,19,12
+Woonsocket,2020,35,0,0,0,35,12
+Woonsocket,2021,35,0,0,0,35,12
+Woonsocket,2022,18,0,0,0,18,12
+Woonsocket,2023,14,0,0,184,198,12
+Woonsocket,2024,26,0,0,0,26,12
+Woonsocket,2025,4,0,0,24,28,12

@@ -1,0 +1,824 @@
+kind,parcel,plat_lot,address,year_built,units,use,owner,levy_code,regime,assessed,exempt,taxes,permits,permit_year
+student housing,011-0072-0000,011-0072,353 Olney St,2010,1,School,NE Yearly Meeting Of Friends,E01,exempt,2754600,2754600,0.0,,
+housing,015-0489-0000,015-0489,175 Medway St,2010,3,2-5 Family,Wayland Square Estates LLC,NOO2-5,full rate,1718200,0,24054.8,10487;11044,2010
+housing,030-0702-8LAW,030-0702,19 Elmwood Ave,2010,12,Other Improved Land,TP10 LLC,8LAW,8% affordable-housing law,3619300,3251080,10752.0,,
+housing,035-0052-0001,035-0052,1577 Westminster St,2010,7,Commercial Condo,Spurwink Supported Living Inc,C01,full rate,576000,0,16819.2,,
+housing,040-0363-0000,040-0363,156 Blackstone Blvd,2010,1,Single Family,Zhang Zhiqi,NO01,full rate,1524700,0,22260.64,16007,2011
+housing,040-0364-0000,040-0364,152 Blackstone Blvd,2010,1,Single Family,Hoffmann Robin L,OO01,owner-occupied,1347200,89286,10566.48,,
+housing,043-0172-0000,043-0172,34 Seabury St,2010,1,Single Family,Halliday Monique Chanel,NO01,full rate,381100,0,5564.08,18084,2012
+housing,043-0173-0000,043-0173,30 Seabury St,2010,1,Single Family,Santana Ramon,OO01,owner-occupied,340700,0,2861.88,18082,2012
+housing,045-0908-8LAW,045-0908,145 Chester Ave,2010,1,Other Improved Land,Broad Street Revitalization,8LAW,8% affordable-housing law,929800,791536,4037.28,9766,2009
+housing,047-0837-0000,047-0837,94 Oxford St,2010,1,Industrial,Oxford Properties LLC,C01,full rate,321100,0,9376.12,,
+housing,048-1159-8LAW,048-1159,770 Broad St,2010,10,Other Improved Land,Broad Street Revitalization,8LAW,8% affordable-housing law,2898800,2685591,6225.68,9765,2009
+housing,048-1166-8LAW,048-1166,458 Public St,2010,3,Other Improved Land,APF Limited Partnership,8LAW,8% affordable-housing law,652700,585302,1968.0,16724,2012
+housing,051-0211-0000,051-0211,414 Adelaide Ave,2010,3,2-5 Family,Soto Marays Elena,OO2-5,owner-occupied,619200,0,4674.96,,
+housing,053-0168-0000,053-0168,37-39 Pennsylvania Ave,2010,2,2-5 Family,Varela Tomas C Trustee,NOO2-5,full rate,597800,0,8369.2,,
+housing,053-0715-8LAW,053-0715,1040 Broad St,2010,6,Other Improved Land,TP10 LLC,8LAW,8% affordable-housing law,1569800,711036,25075.88,9759,2009
+housing,058-0819-8LAW,058-0819,1380 Broad St,2010,12,Other Improved Land,Omni Turning Point LLC,8LAW,8% affordable-housing law,2351400,1058535,37751.64,,
+housing,068-0838-00R1,068-0838,231 Douglas Ave,2010,1,Residential Condo,Schreiber Savannah,NO01,full rate,131100,0,1914.08,,
+housing,068-0838-00R2,068-0838,231 Douglas Ave,2010,1,Residential Condo,Brophy Susan,OO01,owner-occupied,239100,0,2008.44,,
+housing,068-0838-00R3,068-0838,231 Douglas Ave,2010,1,Residential Condo,MacKay-Brandt Anna,NO01,full rate,238200,0,3477.72,,
+housing,068-0838-00R4,068-0838,231 Douglas Ave,2010,1,Residential Condo,Kelley Brian,OO01,owner-occupied,233000,0,1957.2,,
+housing,068-0838-00R5,068-0838,231 Douglas Ave,2010,1,Residential Condo,Cheverria Jose,NO01,full rate,239200,0,3492.32,,
+housing,068-0838-00R6,068-0838,231 Douglas Ave,2010,1,Residential Condo,Dayee Boyca,NO01,full rate,239200,0,3492.32,,
+housing,068-0838-00R7,068-0838,231 Douglas Ave,2010,1,Residential Condo,Khokhar Nasir M,OO01,owner-occupied,234000,0,1965.6,,
+housing,068-0838-00R8,068-0838,231 Douglas Ave,2010,1,Residential Condo,Cox Alexandra Kathleen,NO01,full rate,232600,0,3395.96,,
+housing,068-0838-00R9,068-0838,231 Douglas Ave,2010,1,Residential Condo,Santos Anthony A,NO01,full rate,237800,0,3471.88,,
+housing,068-0838-0R10,068-0838,231 Douglas Ave,2010,1,Residential Condo,Gueye Mohamed Lamine,NO01,full rate,237800,0,3471.88,,
+housing,068-0838-0R11,068-0838,231 Douglas Ave,2010,1,Residential Condo,Wolny Yvonne,NO01,full rate,239200,0,3492.32,,
+housing,068-0838-0R12,068-0838,231 Douglas Ave,2010,1,Residential Condo,Mee Ryan,NO01,full rate,239200,0,3492.32,,
+housing,068-0838-0R13,068-0838,231 Douglas Ave,2010,1,Residential Condo,Caliri Rachel,NO01,full rate,237600,0,3468.96,,
+housing,077-0445-0000,077-0445,85 Sedan St,2010,1,Single Family,Petisce Christopher,OO01,owner-occupied,485500,0,4078.2,,
+housing,083-0124-0000,083-0124,170 Jastram St,2010,1,Single Family,Bachmann Bryn V,NO01,full rate,586200,0,8558.52,18929,2012
+housing,087-0583-0000,087-0583,211 Montgomery Ave,2010,1,Single Family,Rita Norberto,OO01,owner-occupied,404400,0,3396.96,17322,2012
+housing,110-0134-0000,110-0134,37 Mercy St,2010,1,Single Family,Toribio Cristian D,NO01,full rate,454400,0,6634.24,,
+housing,014-0591-0002,014-0591,60 East Manning St Unit 2,2011,1,Residential Condo,de Clippel Geoffroy B,OO01,owner-occupied,996300,0,8368.92,,
+housing,070-0232-0000,070-0232,20 Newcomb St,2011,1,Single Family,Cedeno Ruth,OO01,owner-occupied,382100,0,3209.64,17017,2012
+housing,115-0592-0000,115-0592,14 Myra St,2011,1,Single Family,Cuthbert Chantell,OO01,owner-occupied,435400,0,3657.36,13460,2011
+housing,013-0298-0000,013-0298,157 Hope St,2012,1,Single Family,BACCARI RICHARD P  II,OO01,owner-occupied,1729000,0,14523.6,18227,2012
+housing,015-0275-0000,015-0275,252 Waterman St,2012,3,2-5 Family,Wayland Square Estates LLC,NOO2-5,full rate,1899500,0,26593.0,,
+housing,016-0487-0000,016-0487,61 Sheldon St,2012,1,Single Family,Williams Sandra M Trustee,OO01,owner-occupied,888400,0,7462.56,,
+housing,029-0474-0000,029-0474,64 Battey St,2012,2,2-5 Family,St Jean Kyle Joseph,NOO2-5,full rate,805800,0,11281.2,17037,2012
+housing,030-0690-0000,030-0690,28 Bridgham St,2012,1,Single Family,Akinfolarin Asad,NO01,full rate,369700,0,5397.64,19155,2013
+housing,030-0691-0000,030-0691,26 Bridgham St,2012,1,Single Family,Sowell Lori Ann,OO01,owner-occupied,367000,0,3082.8,19149,2013
+housing,030-0692-0000,030-0692,24 Bridgham St,2012,1,Single Family,Durgin Matthew Craig,NO01,full rate,393700,0,5748.04,19148,2013
+housing,030-0693-0000,030-0693,22 Bridgham St,2012,1,Single Family,Rodriguez Johandry,OO01,owner-occupied,369300,0,3102.12,19147,2013
+housing,030-0694-0000,030-0694,20 Bridgham St,2012,1,Single Family,Phasouvor Khambay,OO01,owner-occupied,369300,0,3102.12,19146,2013
+housing,030-0695-0000,030-0695,18 Bridgham St,2012,1,Single Family,Matumona Didjoe,NO01,full rate,362200,0,5288.12,19144,2013
+housing,030-0696-0000,030-0696,16 Bridgham St,2012,1,Single Family,Carl Saygba,OO01,owner-occupied,369300,0,3102.12,,
+housing,030-0697-0000,030-0697,14 Bridgham St,2012,1,Single Family,Fabian Airo Frank,OO01,owner-occupied,369600,0,3104.64,,
+housing,031-0356-8LAW,031-0356,114 Waverly St,2012,1,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,571000,411898,4645.76,16138,2011
+housing,031-0435-8LAW,031-0435,54 Althea St,2012,2,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,623900,468009,4552.0,16139,2011
+housing,031-0499-8LAW,031-0499,171 Hanover St,2012,1,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,826000,593002,6803.52,16145,2011
+housing,031-0621-8LAW,031-0621,95 Althea St,2012,1,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,975100,746080,6687.36,,
+housing,042-0108-8LAW,042-0108,179 Althea St,2012,1,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,523500,391072,3866.88,16128,2011
+housing,042-0438-0000,042-0438,601 Cranston St,2012,1,Commercial II,Northern Properties LLC,C01,full rate,668400,0,19517.28,,
+housing,043-1024-0000,043-1024,83 Waldo St,2012,1,Single Family,Schmitz Elizabeth M,OO01,owner-occupied,334800,0,2812.32,,
+housing,045-0910-8LAW,045-0910,638 Broad St,2012,9,Other Improved Land,Broad Street Revitalization,8LAW,8% affordable-housing law,2593000,1972927,18106.12,9764,2009
+housing,048-0211-0000,048-0211,301 Swan St,2012,1,Single Family,Vinas Adriana M,OO01,owner-occupied,441700,0,3710.28,,
+housing,048-0920-0000,048-0920,38 Burnside St,2012,1,Single Family,Hiciano Francisco R,NO01,full rate,372400,0,5437.04,18037,2012
+housing,048-0926-8LAW,048-0926,356 Public St,2012,1,Other Improved Land,APF Limited Partnership,8LAW,8% affordable-housing law,899500,821253,2284.8,,
+housing,048-1165-8LAW,048-1165,5 Burnside St,2012,1,Other Improved Land,APF Limited Partnership,8LAW,8% affordable-housing law,936300,834809,2963.52,16725,2012
+housing,056-0366-0000,056-0366,20 Fields Point Dr,2012,1,Charitable,RHODE ISLAND COMMERCE CORPORATION,E01,exempt,1688000,1688000,0.0,,
+housing,062-0017-8LAW,062-0017,41 Kossuth St,2012,2,Other Improved Land,Olney Village LP,8LAW,8% affordable-housing law,760500,695075,1910.4,16030,2011
+housing,063-0260-0000,063-0260,71 Kossuth St,2012,1,Single Family,Fofanah Hawa,OO01,owner-occupied,311600,0,2617.44,,
+housing,063-0590-0000,063-0590,55 Hyat St,2012,1,Single Family,Hall Iasha,OO01,owner-occupied,283500,0,2381.4,12430;19241,2010
+housing,069-0669-8LAW,069-0669,65 Camden Ave,2012,3,Other Improved Land,Shv II Limited Partnership,8LAW,8% affordable-housing law,687400,588276,2894.4,16813,2012
+housing,071-0224-0000,071-0224,356 Hawkins St,2012,1,Single Family,Correa Joel,OO01,owner-occupied,376600,0,3163.44,15844,2011
+housing,077-0897-0000,077-0897,54 Wilna St,2012,1,Single Family,Early Jr Charles H,OO01,owner-occupied,367200,0,3084.48,18096,2012
+housing,077-0898-0000,077-0898,64 Wilna St,2012,1,Single Family,Babalola Modupe,NO01,full rate,357000,0,5212.2,18097,2012
+housing,077-0899-0000,077-0899,74 Wilna St,2012,1,Single Family,Connolly Kerri J,OO01,owner-occupied,460800,0,3870.72,18098,2012
+housing,087-1125-0000,087-1125,935 Narragansett Blvd,2012,1,Single Family,Hryzan Russell C,OO01,owner-occupied,564100,0,4738.44,17389,2012
+housing,093-0342-0000,093-0342,406 Blackstone Blvd,2012,1,Single Family,Kasen Scott,OO01,owner-occupied,1624600,0,13646.64,15672,2011
+housing,109-0428-0000,109-0428,531 Union Ave,2012,1,Single Family,Jakyee Semaria,OO01,owner-occupied,392700,0,3298.68,,
+housing,111-0085-0000,111-0085,2 Sunset Ave,2012,1,Single Family,"Marinucci, For Life, Co-Tr Peter P",OO01,owner-occupied,529800,0,4450.32,20932,2013
+housing,113-0083-0000,113-0083,129 Ophelia St,2012,1,Single Family,Alexandre Altamir,OO01,owner-occupied,427800,0,3593.52,20212,2013
+housing,113-0096-0000,113-0096,167 Ophelia St,2012,1,Single Family,Rivera Jonathan R,OO01,owner-occupied,477400,0,4010.16,20213,2013
+housing,118-0195-0000,118-0195,32 Joy St,2012,1,Single Family,Lysaght Emily Jane,NO01,full rate,463200,0,6762.72,17332,2012
+housing,118-0196-0000,118-0196,28 Joy St,2012,1,Single Family,Chung Hyejung,OO01,owner-occupied,466100,0,3915.24,,
+housing,120-0339-0000,120-0339,128 Pinehurst Ave,2012,1,Single Family,LLC 02908 Holdco,NO01,full rate,602900,0,8802.36,17248,2012
+housing,005-0476-0000,005-0476,124 Grand View St,2013,1,Single Family,Anderson Kurt,OO01,owner-occupied,571900,169048,3383.96,19181,2013
+housing,006-0613-0001,006-0613,56 Locust St 1,2013,1,Residential Condo,Mitchell Elizabeth,NO01,full rate,426000,0,6219.6,,
+housing,006-0613-0002,006-0613,58 Locust St Unit 2,2013,1,Residential Condo,Beauchemin Courtney E,OO01,owner-occupied,414700,0,3483.48,,
+student housing,024-0537-0000,024-0537,35 Claverick St,2013,1,School,JOHNSON & WALES,E01,exempt,9867500,9867500,0.0,,
+housing,030-0705-8LAW,030-0705,12 Bridgham St,2013,1,Other Improved Land,TP10 LLC,8LAW,8% affordable-housing law,2022600,1718161,8889.6,,
+housing,031-0028-8LAW,031-0028,138 Hanover St,2013,3,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,639400,480430,4641.92,16140,2011
+housing,031-0394-8LAW,031-0394,105 Althea St,2013,2,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,619700,461845,4609.36,16136,2011
+housing,031-0494-8LAW,031-0494,149 Hanover St,2013,3,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,1024400,785539,6974.72,,
+housing,031-0620-8LAW,031-0620,93 Althea St,2013,1,Other Improved Land,Phoenix Apartments LP,8LAW,8% affordable-housing law,962200,727898,6841.6,16154;16156,2011
+housing,039-0507-0000,039-0507,74 Irving Ave,2013,1,Single Family,DelPrete Dennis,OO01,owner-occupied,1350500,0,11344.2,18614,2012
+housing,048-1169-0000,048-1169,335R Prairie Ave,2013,1,TSA,"The Providence Comm Health Centers, Inc",TSA,tax stabilization agreement,10869100,5826213,150000.0,,
+housing,062-0610-0000,062-0610,25 Audrey St,2013,1,Single Family,Lemus Lourdes,NO01,full rate,285500,0,4168.32,20471,2013
+housing,063-0592-8LAW,063-0592,261 Manton St,2013,4,Other Improved Land,Olney Village LP,8LAW,8% affordable-housing law,1658300,1528502,3790.08,16025,2011
+housing,063-0593-8LAW,063-0593,19 Pope St,2013,1,Other Improved Land,Olney Village LP,8LAW,8% affordable-housing law,950900,670031,8201.36,16026;16029,2011
+housing,063-0594-0000,063-0594,251-255 Amherst St,2013,2,2-5 Family,Jimenez Ana M,OO2-5,owner-occupied,547000,0,4129.88,17034,2012
+housing,077-0894-0000,077-0894,40 Wilna St,2013,1,Single Family,Garcia Odalis,OO01,owner-occupied,371000,0,3116.4,21211,2013
+housing,077-0895-0000,077-0895,44 Wilna St,2013,1,Single Family,Gadiaga Mamadou,OO01,owner-occupied,453700,0,3811.08,21210,2013
+housing,089-0015-0000,089-0015,51 Bissell St,2013,1,Single Family,Almonte Nery C,OO01,owner-occupied,343300,0,2883.72,18580,2012
+housing,092-0126-0001,092-0126,945 Hope St Unit 1,2013,1,Residential Condo,Huggins Jeffrey C,OO01,owner-occupied,731800,0,6147.12,,
+housing,092-0126-0002,092-0126,945 Hope St Unit 2,2013,1,Residential Condo,Nehama Sarah,OO01,owner-occupied,731800,0,6147.12,,
+housing,109-0445-0000,109-0445,459 Union Ave,2013,1,Single Family,Dauda Olugbenga R,OO01,owner-occupied,365600,0,3071.04,18851,2012
+housing,109-0478-0000,109-0478,24 Alto St,2013,1,Single Family,Romero Martina L,OO01,owner-occupied,371200,0,3118.08,20363,2013
+housing,113-0095-0000,113-0095,169 Ophelia St,2013,1,Single Family,Correia Alexander J,OO01,owner-occupied,486900,0,4089.96,20214,2013
+housing,122-0148-0000,122-0148,47 Longwood Ave,2013,1,Single Family,Graise Andrew S,OO01,owner-occupied,521600,0,4381.44,19896,2013
+housing,008-0479-0000,008-0479,151 Pleasant St,2014,1,Single Family,Christian Daniel M,OO01,owner-occupied,730600,0,6137.04,403,2013
+housing,008-0480-0000,008-0480,155 Pleasant St,2014,1,Single Family,Willis John Trustee,OO01,owner-occupied,811500,0,6816.6,404,2013
+housing,009-0603-0000,009-0603,201 Lippitt St,2014,1,Single Family,Kenneth Marino,NO01,full rate,618100,0,9024.28,16672;19733,2012
+housing,013-0302-0000,013-0302,257 Thayer St,2014,96,Commercial II,GD Thayer LLC,C01,full rate,31745800,0,910310.84,19911;21006,2013
+housing,042-0152-0000,042-0152,36 Linwood Ave,2014,1,Single Family,Cardoso Cristina,OO01,owner-occupied,476500,0,4002.6,1806,2014
+housing,046-0383-0000,046-0383,65 Potters Ave,2014,2,2-5 Family,Chavez Sergio,OO2-5,owner-occupied,534900,0,4038.52,744,2014
+housing,047-0841-0000,047-0841,830 Eddy St,2014,1,Commercial II,,C01,full rate,1122800,0,32785.76,,
+housing,054-0001-0000,054-0001,500 Prairie Ave,2014,1,Single Family,Lipede Oreoluwa A,OO01,owner-occupied,398900,0,3350.76,743,2014
+housing,071-0269-0000,071-0269,33 McMillen St,2014,1,Single Family,Dooda Sunil,NO01,full rate,453500,0,6621.12,1248,2014
+housing,080-0087-0000,080-0087,13 Case Ln,2014,1,Single Family,Eang Robert,OO01,owner-occupied,386000,0,3242.4,3314,2014
+housing,085-0442-0000,085-0442,118 Enfield Ave,2014,1,Single Family,Iafrate Ann Marie Trustee,OO01,owner-occupied,394300,0,3312.12,,
+housing,091-0648-0000,091-0648,1261 North Main,2014,3,Combination,JJM Investments LLC,C01,full rate,1127200,0,21434.84,20765,2013
+housing,092-0278-0000,092-0278,52 Harwich Rd,2014,1,Single Family,Trivedi Amal Nitin,OO01,owner-occupied,1511700,0,12698.28,1226,2014
+housing,095-0101-0000,095-0101,98 Unit St,2014,1,Single Family,Green Ezekiel J,OO01,owner-occupied,491800,0,4131.12,1808,2014
+housing,097-0936-0015,097-0936,15 Mendon St,2014,1,Residential Condo,Francis Joanne M,OO01,owner-occupied,461700,89286,3128.28,,
+housing,097-0936-0017,097-0936,17 Mendon St,2014,1,Residential Condo,Blaine Aaron H,OO01,owner-occupied,456100,0,3831.24,,
+housing,112-0289-0000,112-0289,173 Petteys Ave,2014,1,Single Family,Rodriguez Wanda E,OO01,owner-occupied,399300,0,3354.12,18966,2012
+housing,113-0062-0000,113-0062,146 Ophelia St,2014,1,Single Family,Talabera Samuel,OO01,owner-occupied,378200,0,3176.88,2273,2014
+housing,118-0192-0000,118-0192,33 Joy St,2014,1,Single Family,Chasse Nicholas R,OO01,owner-occupied,471900,0,3963.96,2585;76924;107576,2014
+housing,118-0193-0000,118-0193,37 Joy St,2014,1,Single Family,Flynn Jr Joseph D   Trustee,NO01,full rate,504600,0,7367.16,566,2013
+housing,119-0175-0000,119-0175,31 Eaton St,2014,1,Single Family,Holdco LLC 02908,NO01,full rate,615000,0,8979.0,494,2013
+housing,005-0006-0000,005-0006,96 Evergreen St,2015,2,2-5 Family,O'Neill William Francis Xavier,OO2-5,owner-occupied,721000,40530,5137.56,2800,2014
+housing,005-0237-0000,005-0237,30 Tecumseh St,2015,1,Single Family,Miller Abigail S,OO01,owner-occupied,600800,0,5046.72,2718,2014
+housing,007-0364-0001,007-0364,38 Taft Ave Unit 1,2015,1,Residential Condo,DiMarco Christopher M,OO01,owner-occupied,848700,0,7129.08,,
+housing,007-0364-0002,007-0364,40 Taft Ave Unit 2,2015,1,Residential Condo,Reinhardt Frederick W  III,OO01,owner-occupied,848700,0,7129.08,,
+housing,007-0365-0003,007-0365,42 Taft Ave,2015,1,Residential Condo, Heller Charles K,NO01,full rate,734400,0,10722.24,,
+housing,007-0365-0004,007-0365,44 Taft Ave,2015,1,Residential Condo,Celik Bilge G,OO01,owner-occupied,734400,0,6168.96,,
+housing,007-0366-0005,007-0366,46 Taft Ave Unit 5,2015,1,Residential Condo,Peart David J,OO01,owner-occupied,723500,0,6077.4,,
+housing,007-0366-0006,007-0366,48 Taft Ave Unit 6,2015,1,Residential Condo,Sabatino Michael F,NO01,full rate,723500,0,10563.12,,
+housing,007-0367-0007,007-0367,50 Taft Ave Unit 7,2015,1,Residential Condo,Mueller Frederick C,OO01,owner-occupied,853600,0,7170.24,,
+housing,007-0367-0008,007-0367,50-52 Taft Ave Unit 8,2015,1,Residential Condo,Stevens Terrie Christine,OO01,owner-occupied,852800,89286,6413.52,,
+housing,009-0608-0000,009-0608,39 Benefit St,2015,1,Single Family,de Walle Axel van,OO01,owner-occupied,1127900,0,9474.36,,
+housing,009-0609-0000,009-0609,4 Jenckes St,2015,1,Single Family,WHARTON JOY H   Trustee,OO01,owner-occupied,1392000,89286,10942.8,2355,2014
+housing,019-0102-000D,019-0102,100 Exchange St,2015,1,Commercial Condo,Imagine Brighter LLC,C01,full rate,571300,0,16681.96,,
+housing,019-0102-000E,019-0102,100 Exchange St,2015,1,Commercial Condo,Ghazi Property Group LLC,C01,full rate,288300,0,8418.36,,
+housing,019-0102-000F,019-0102,400 Exchange St,2015,1,Commercial Condo,Capital Cafe LLC,C01,full rate,372600,0,10879.92,,
+housing,023-0996-0000,023-0996,460 Pine St,2015,1,Charitable,Amos House Incorporated,E01,exempt,2244700,2244700,0.0,,
+housing,030-0374-0000,030-0374,32 Westfield St,2015,2,2-5 Family,Maldonado Margarita,NOO2-5,full rate,599800,0,8397.2,5085,2015
+housing,030-0699-8LAW,030-0699,7 Arch St,2015,1,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,381800,343991,1104.0,,
+housing,030-0700-8LAW,030-0700,5 Arch St,2015,1,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,381700,348001,984.0,,
+housing,030-0701-8LAW,030-0701,5 Arch St,2015,1,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,381800,348890,960.96,,
+housing,031-0474-0000,031-0474,49 Waverly St,2015,1,Single Family,Rosario Enrique Santos,OO01,owner-occupied,405000,0,3402.0,6071,2015
+housing,047-0753-0000,047-0753,129 Oxford St,2015,1,Single Family,Logan Dorothy J,OO01,owner-occupied,370300,0,3110.52,3780,2015
+housing,059-0770-0000,059-0770,50 Spicer St,2015,1,Single Family,Contreras Maria Omana,NO01,full rate,443600,0,6476.56,2526,2014
+housing,062-0612-0000,062-0612,21 Audrey St,2015,1,Single Family,Cabreja Georgina M,OO01,owner-occupied,275400,0,2313.36,5072,2015
+housing,062-0613-0000,062-0613,23 Audrey St,2015,1,Single Family,Frias Elvis,OO01,owner-occupied,317300,0,2665.32,20467,2013
+housing,068-0032-0000,068-0032,123 Bernon St,2015,2,2-5 Family,Sylaphone Viengsavanh,OO2-5,owner-occupied,656500,0,4956.6,3569,2015
+housing,071-0387-0000,071-0387,103 Commodore St,2015,1,Single Family,Padin Juan G,OO01,owner-occupied,410600,0,3449.04,2818,2014
+housing,072-0429-0000,072-0429,74 Ashton St,2015,1,Single Family,Zayas Jr John Michael,OO01,owner-occupied,369400,0,3102.96,3253,2014
+housing,077-0902-0000,077-0902,116 Smart St,2015,1,Single Family,Dillon Deniel,OO01,owner-occupied,453400,0,3808.56,5234,2015
+housing,087-0438-0000,087-0438,170 Washington Ave,2015,2,2-5 Family,Bowie Matthew,NOO2-5,full rate,637300,0,8922.2,3737,2015
+housing,093-0244-0000,093-0244,346 Blackstone Blvd,2015,1,Single Family,Kosiver Michael S   Trustee,OO01,owner-occupied,2089800,0,17554.32,5177,2015
+housing,094-0574-0000,094-0574,146 Rushmore Ave,2015,1,Single Family,Freeman-White Jomekka,OO01,owner-occupied,375200,0,3151.68,4462,2015
+housing,094-0706-0000,094-0706,140 Rushmore Ave,2015,1,Single Family,Rudis Mark A,OO01,owner-occupied,371700,36429,2816.28,4438,2015
+housing,094-0758-0000,094-0758,45 Oakwood Ave,2015,1,Single Family,Cumplido Jeffrey,NO01,full rate,352000,0,5139.2,21135,2013
+housing,095-0620-0000,095-0620,63 Leah St,2015,1,Single Family,Espinal Nataly B,OO01,owner-occupied,425600,0,3575.04,2816,2014
+housing,104-0002-0000,104-0002,13 Terrace Ave,2015,2,2-5 Family,Rodriguez Juan A,OO2-5,owner-occupied,593900,0,4483.96,5956,2015
+housing,105-0336-0000,105-0336,77 Whittier Ave,2015,1,Single Family,Paz Orellana Sergio A,OO01,owner-occupied,482200,0,4050.48,4107,2015
+housing,108-0113-0000,108-0113,115 Dorchester Ave,2015,1,Single Family,Guzman Franklin,OO01,owner-occupied,369600,0,3104.64,5125,2015
+housing,113-0451-0000,113-0451,168 Ophelia St,2015,1,Single Family,Bazile Junior M,OO01,owner-occupied,441900,36429,3405.96,3413,2014
+housing,124-0531-0000,124-0531,15 Winona St,2015,1,Single Family,Delacruz Alfredo J,OO01,owner-occupied,462300,0,3883.32,4555,2015
+housing,004-0255-0000,004-0255,35 Holden St,2016,1,TSA,Sharpe Building Associates LLC ,TSA,tax stabilization agreement,4111300,4111300,0.0,,
+housing,009-0614-0000,009-0614,400-410 Hope St,2016,3,Combination,Mix LLC Meow,C01,full rate,2889100,0,63722.0,,
+housing,010-0682-0000,010-0682,135 Pratt St,2016,1,Single Family,Flanagan Claire M Trustee,OO01,owner-occupied,2602000,89286,21106.8,,
+housing,017-0003-0000,017-0003,186 Ives St,2016,4,2-5 Family,184-186 Ives Street LLC,NOO2-5,full rate,2451900,0,34326.6,,
+housing,021-0452-0000,021-0452,330 EDDY St,2016,1,TSA,BROWN UNIVERSITY,TSA,tax stabilization agreement,23635600,19640052,116670.0,,
+housing,021-0452-0000,021-0452,330 EDDY St,2016,1,TSA,CV SSL Garage LLC,TSA,tax stabilization agreement,23635600,19640052,116670.0,,
+housing,030-0388-8LAW,030-0388,66 Westfield St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,5390400,4547046,24625.92,,
+housing,030-0707-8LAW,030-0707,153 Lester St,2016,2,Other Improved Land,Southside LP Revitalize,8LAW,8% affordable-housing law,544300,480552,1861.44,,
+housing,030-0708-8LAW,030-0708,151 Lester St,2016,2,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,544300,479039,1905.6,,
+housing,030-0709-8LAW,030-0709,88 Bridgham St,2016,2,Other Improved Land,Southside LP Revitalize,8LAW,8% affordable-housing law,555700,490406,1906.56,,
+housing,030-0710-8LAW,030-0710,182 Harrison St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,578600,507767,2068.32,,
+housing,030-0711-8LAW,030-0711,120 Wilson St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,538700,468902,2038.08,,
+housing,030-0712-8LAW,030-0712,112 Wilson St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,539000,469695,2023.68,,
+housing,030-0713-8LAW,030-0713,192 Harrison St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,541200,462854,2287.68,,
+housing,030-0714-8LAW,030-0714,202 Harrison St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,590700,506173,2468.16,,
+housing,031-0192-8LAW,031-0192,64 Diamond St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,2268800,1905380,10611.84,,
+housing,031-0252-8LAW,031-0252,197 Harrison St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,496800,414739,2396.16,,
+housing,031-0385-8LAW,031-0385,69 Althea St,2016,2,Other Improved Land,Omni Phoenix Renaissance,8LAW,8% affordable-housing law,639900,310667,9613.6,,
+housing,031-0622-8LAW,031-0622,215 Dexter St,2016,1,Other Improved Land,WEH Sankofa LP,8LAW,8% affordable-housing law,1176300,1024179,4441.92,,
+housing,041-0304-0000,041-0304,39 Channing Ave,2016,1,Single Family,Roses Frederick A   Trustee,OO01,owner-occupied,2211800,89286,17829.12,4937,2015
+housing,043-0895-0000,043-0895,164 Linwood Ave,2016,1,2-5 Family,Freitas - 50% int Karen J,NOO2-5,full rate,470400,0,6585.6,,
+housing,043-1035-8LAW,043-1035,126-130 Linwood Ave,2016,6,Other Improved Land,Omni Phoenix Renaissance,8LAW,8% affordable-housing law,1428800,1099567,9613.6,,
+housing,045-0916-8LAW,045-0916,391 Public St,2016,20,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,508500,462078,1355.52,,
+housing,045-0917-8LAW,045-0917,399 Public St,2016,2,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,508500,460467,1402.56,,
+housing,045-0918-8LAW,045-0918,320 Prairie Ave,2016,4,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,1035400,916550,3470.4,,
+housing,047-0748-0000,047-0748,13 Searle St,2016,1,Single Family,Gomez Lidia,OO01,owner-occupied,377300,0,3169.32,,
+housing,048-0795-0000,048-0795,48 Norwich Ave,2016,2,2-5 Family,Santiago Glendaliz,OO2-5,owner-occupied,513400,0,3876.2,,
+housing,048-0911-8LAW,048-0911,804 Broad St,2016,1,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,687900,595352,2702.4,,
+housing,048-1175-8LAW,048-1175,814 Broad St,2016,6,Other Improved Land,Revitalize Southside LP,8LAW,8% affordable-housing law,1361900,747097,17952.24,,
+housing,049-0039-8LAW,049-0039,84 Burnett St,2016,2,Other Improved Land,Omni Phoenix Renaissance,8LAW,8% affordable-housing law,544500,437979,3110.4,,
+housing,053-0230-0000,053-0230,79 Detroit Ave,2016,2,2-5 Family,Vasquez Alfredo,NOO2-5,full rate,647400,0,9063.6,,
+housing,057-0075-0000,057-0075,159 Rugby St,2016,2,2-5 Family,Franco Jazmin,OO2-5,owner-occupied,583200,0,4403.16,8863,2016
+housing,062-0614-8LAW,062-0614,55 Julian St,2016,3,Other Improved Land,Amherst Gardens LP,8LAW,8% affordable-housing law,1124400,1002591,3556.8,,
+housing,062-0616-8LAW,062-0616,42 Chaffee St,2016,3,Other Improved Land,Amherst Gardens LP,8LAW,8% affordable-housing law,780500,702182,2286.88,,
+housing,062-0617-8LAW,062-0617,44 Chaffee St,2016,1,Other Improved Land,Amherst Gardens LP,8LAW,8% affordable-housing law,1127600,977682,4377.6,,
+housing,062-0993-8LAW,062-0993,11 Appleton St,2016,2,Other Improved Land,Amherst Gardens LP,8LAW,8% affordable-housing law,686000,616005,2043.84,,
+housing,063-0597-8LAW,063-0597,267-273 Amherst St,2016,3,Other Improved Land,Amherst Gardens LP,8LAW,8% affordable-housing law,1098900,916379,5329.6,,
+housing,063-0615-8LAW,063-0615,270 Amhurst St,2016,2,Other Improved Land,Amherst Gardens LP,8LAW,8% affordable-housing law,668600,592665,2217.28,,
+lodging (permit text),074-0376-0000,074-0376,181 Corliss St,2016,123,Commercial II,TIGER PROVIDENCE LLC,C01,full rate,6930800,0,202379.36,,
+housing,091-0668-0000,091-0668,114 Chace Ave,2016,1,Single Family,Feibelman Marcy,OO01,owner-occupied,648200,0,5444.88,,
+housing,095-0313-0000,095-0313,35 Sybaris St,2016,1,Single Family,Rivas Rhadames,OO01,owner-occupied,505200,0,4243.68,7644,2016
+housing,098-0130-0000,098-0130,8 Lakeside St,2016,1,Single Family,Corcoran Sean,OO01,owner-occupied,435800,0,3660.72,8688,2016
+housing,102-0281-0000,102-0281,744 Branch Ave,2016,1,Commercial II,REYNOLDS DAVID A,C01,full rate,2481200,0,72451.04,104622,2018
+housing,104-0777-0000,104-0777,218 Progress Ave,2016,2,2-5 Family,Morales Rosa,NOO2-5,full rate,667600,0,9346.4,9092,2016
+housing,108-0401-0000,108-0401,108 Roosevelt St,2016,1,Single Family,Patel Heenaben Babubhai,OO01,owner-occupied,357700,0,3004.68,6230,2015
+housing,115-0624-0000,115-0624,11 Ophelia St,2016,1,Single Family,Molina Anselm,OO01,owner-occupied,425000,0,3570.0,,
+housing,116-0735-0000,116-0735,390 Academy Ave,2016,2,2-5 Family,Whittaker Nathan,NOO2-5,full rate,876000,0,12264.0,7657,2016
+housing,119-0042-0000,119-0042,35 Eaton St,2016,4,2-5 Family,Holdco LLC 02908,NOO2-5,full rate,912500,0,12775.0,7883,2016
+housing,119-0159-0000,119-0159,44 Liege St,2016,1,Single Family,LLC 02908 Holdco,NO01,full rate,602500,0,8796.52,8725,2016
+housing,119-0176-0000,119-0176,39 Eaton St,2016,3,2-5 Family,02908 Holdco LLC,NOO2-5,full rate,832400,0,11653.6,7880,2016
+housing,119-0177-0000,119-0177,43 Eaton St,2016,3,2-5 Family,Holdco LLC 02908,NOO2-5,full rate,891000,0,12474.0,7888,2016
+housing,124-0532-0000,124-0532,25 Winona St,2016,1,Single Family,Alesh Olawale A,OO01,owner-occupied,465600,0,3911.04,4556,2015
+housing,008-0485-0001,008-0485,17 Jenkins St,2017,1,Residential Condo,Shin Jaewook,OO01,owner-occupied,376900,0,3165.96,,
+housing,008-0485-0002,008-0485,19 Jenkins St,2017,1,Residential Condo,Quiroz Ricardo Garcia,NO01,full rate,355800,0,5194.68,,
+housing,008-0485-0003,008-0485,21 Jenkins St,2017,1,Residential Condo,Morris Andrew,OO01,owner-occupied,355800,0,2988.72,,
+housing,008-0485-0004,008-0485,23 Jenkins St,2017,1,Residential Condo,Metivier MIchael B,NO01,full rate,383600,0,5600.56,,
+housing,010-0706-0000,010-0706,169 Canal St,2017,202,TSA,100 N Main Owner LLC,TSA,tax stabilization agreement,33730200,21371102,360885.64,,
+housing,014-0223-0000,014-0223,178 Gano St,2017,3,2-5 Family,VVS Realty LLC,NOO2-5,full rate,1999800,0,27997.2,86720,2017
+housing,017-0027-0000,017-0027,45 Fremont St,2017,2,2-5 Family,Pacheco Aileen,NOO2-5,full rate,953200,0,13344.8,78280,2017
+housing,017-0558-0000,017-0558,46 Wade St,2017,1,Single Family,Reddy Srinivas G,OO01,owner-occupied,566500,0,4758.6,,
+housing,021-0426-0000,021-0426,44 Hospital St,2017,30,Commercial II,Option B LLC,C01,full rate,9467900,0,270961.84,,
+housing,026-0381-0000,026-0381,40 Jones St,2017,12,Apartments,Fourzol LLC,C11,full rate,2073700,0,59100.48,,
+housing,028-0531-0000,028-0531,25 Gesler St,2017,1,Single Family,Mordkovich Elmyra,NO01,full rate,584300,0,8530.8,72870;72873,2017
+housing,028-0846-0000,028-0846,250 Federal St,2017,2,2-5 Family,LRV Properties LLC,NOO2-5,full rate,980000,0,13720.0,78762,2017
+housing,036-0333-0000,036-0333,124 Sycamore St,2017,1,Single Family,BROWN KATHERINE H,OO01,owner-occupied,532600,89286,3723.84,,
+housing,037-0247-0000,037-0247,180 Chapin Ave,2017,2,2-5 Family,Weng Tesi,OO2-5,owner-occupied,625300,0,4721.04,,
+housing,040-0009-0000,040-0009,200 Grotto Ave,2017,1,Single Family,Roberts Paige G,OO01,owner-occupied,2263500,0,19013.4,73417,2017
+housing,044-0455-0000,044-0455,30 Woodman St,2017,1,Single Family,Weakly Noah,NO01,full rate,390400,0,5699.84,89695,2017
+housing,057-0046-0000,057-0046,201 Pavilion Ave,2017,1,Single Family,Marte Chanell,OO01,owner-occupied,380000,0,3192.0,8932,2016
+housing,057-0078-0000,057-0078,176 Pavilion Ave,2017,2,2-5 Family,BERROA YUDELKA,OO2-5,owner-occupied,496100,0,3745.56,8934,2016
+housing,057-0079-0000,057-0079,182 Pavilion Ave,2017,1,Single Family,"Santos, Co-Tr Nicolas",OO01,owner-occupied,398500,0,3347.4,8882,2017
+housing,057-0113-0000,057-0113,125 Byfield St,2017,2,2-5 Family,Richardson Sr Jon W,OO2-5,owner-occupied,513400,81325,3262.2,9641,2017
+housing,057-0351-0000,057-0351,164 Pavilion Ave,2017,2,2-5 Family,Pichardo Jorge,OO2-5,owner-occupied,526200,0,3972.84,,
+housing,057-0352-0000,057-0352,172 Pavilion Ave,2017,2,2-5 Family,Saygbe Jasowolu,OO2-5,owner-occupied,499400,0,3770.48,,
+housing,058-0808-0000,058-0808,1304 Broad St,2017,1,Commercial II,Cost Realty Inc,C01,full rate,905800,0,26449.36,,
+housing,059-0677-0000,059-0677,117 Babcock St,2017,2,2-5 Family,Bangura Fatmata,OO2-5,owner-occupied,668400,0,5046.44,81502,2017
+housing,063-0596-0000,063-0596,976 Atwells Ave,2017,2,2-5 Family,Abdulrahman Omar,NOO2-5,full rate,632200,0,8850.8,8551;72791,2016
+housing,064-0231-0000,064-0231,165 Pomona Ave,2017,2,2-5 Family,Sena William D,OO2-5,owner-occupied,552300,0,4169.88,8361,2016
+housing,065-0809-0000,065-0809,6 Alton St,2017,2,2-5 Family,PAULINO MAXIMO E,OO2-5,owner-occupied,575800,0,4347.32,88195,2017
+housing,071-0067-0000,071-0067,22 Greeley St,2017,2,2-5 Family,Castillo Denny Antigua,OO2-5,owner-occupied,522700,0,3946.4,7254,2016
+housing,078-0007-0000,078-0007,1039 Branch Ave,2017,1,Commercial II,Resonance Realty LLC,C01,full rate,2255300,0,65854.76,,
+housing,079-0235-0000,079-0235,46 Crandall St,2017,1,Single Family,SOARES CLARENCE W,NO01,full rate,500000,0,7300.0,87688,2017
+housing,081-0251-0000,081-0251,58 Carteret St,2017,1,Single Family,Bilodeau Brendan,NO01,full rate,505700,0,7383.24,,
+housing,081-0297-0000,081-0297,23 Annie St,2017,1,Single Family,Providence College,OO01,owner-occupied,451600,0,3793.44,71566,2017
+housing,085-0336-0000,085-0336,99 Naples Ave,2017,1,Single Family,Naughton Thomas Patrick,OO01,owner-occupied,404400,0,3396.96,82749,2017
+housing,093-0343-0000,093-0343,412 Blackstone Blvd,2017,1,Single Family,Eldert Casey,NO01,full rate,1796800,0,26233.28,9192,2016
+housing,093-0351-0000,093-0351,420 Cole Ave,2017,1,Single Family,Kuzneski Joseph Anthony  Jr,OO01,owner-occupied,1892400,0,15896.16,,
+housing,095-0593-0000,095-0593,60 Leah St,2017,1,Single Family,Diaby Ismail,OO01,owner-occupied,459700,0,3861.48,88543,2017
+housing,096-0333-0000,096-0333,594 Manton Ave,2017,1,Single Family,Browne Eric,NO01,full rate,434400,0,6342.24,,
+housing,109-0004-0000,109-0004,96 Farmington Ave,2017,2,2-5 Family,Perez Jose A,NOO2-5,full rate,883600,0,12370.4,78760,2017
+housing,111-0099-0000,111-0099,98 Killingly St,2017,1,Single Family,Arriaza Jose L,OO01,owner-occupied,433900,0,3644.76,85920,2017
+housing,112-0363-0000,112-0363,48 Daniel Ave,2017,2,2-5 Family,Omisore Adebola,OO2-5,owner-occupied,645800,0,4875.8,,
+housing,114-0092-0000,114-0092,72 Middleton St,2017,1,Single Family,Robinson Shampagne L,OO01,owner-occupied,494000,0,4149.6,86616,2017
+housing,114-0093-0000,114-0093,76 Middleton St,2017,1,Single Family,Orrego Ingrid,OO01,owner-occupied,433700,0,3643.08,86617,2017
+housing,114-0477-0000,114-0477,64 Middleton St,2017,1,Single Family,Sangster Calvin,OO01,owner-occupied,487600,0,4095.84,86618,2017
+housing,114-0480-0000,114-0480,68 Middleton St,2017,1,Single Family,Guzman Victor J,OO01,owner-occupied,566700,0,4760.28,,
+housing,115-0434-0000,115-0434,586 Hartford Ave,2017,1,Single Family,Reyes Luis A,OO01,owner-occupied,454600,0,3818.64,81455,2017
+housing,121-0063-0000,121-0063,26 Basswood Ave,2017,1,Single Family,Ngin Khen D,OO01,owner-occupied,572700,0,4810.68,9531,2016
+housing,129-0260-0000,129-0260,88 Samoset Ave,2017,1,Single Family,Gorbounov Mikhail M,OO01,owner-occupied,525800,0,4416.72,,
+housing,004-0262-0000,004-0262,10 PARK ROW WEST,2018,1,TSA,"261, LLC",TSA,tax stabilization agreement,49608600,20657409,713139.64,,
+housing,005-0415-0003,005-0415,39 Duncan Ave Unit 3,2018,1,Residential Condo,Bell Patrick Francis,OO01,owner-occupied,462500,0,3885.0,,
+housing,005-0415-0004,005-0415,41 Duncan Ave,2018,1,Residential Condo,Weng Chien-Hsiang,OO01,owner-occupied,462500,0,3885.0,,
+housing,006-0615-0101,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,,OO01,owner-occupied,507900,0,4266.36,,
+housing,006-0615-0102,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Mello Elizabeth Rose,OO01,owner-occupied,523000,0,4393.2,,
+housing,006-0615-0103,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Conte Victoria I,NO01,full rate,513500,0,7497.12,,
+housing,006-0615-0104,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Jungle Life LLC,NO01,full rate,507900,0,7415.36,,
+housing,006-0615-0201,006-0615,7 Mount Hope Ave Unit 201,2018,1,Residential Condo,Petronzio Anna Marie Trustee,OO01,owner-occupied,391300,0,3286.92,,
+housing,006-0615-0202,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Katheeswaran Kathiripil,NO01,full rate,393400,0,5743.64,,
+housing,006-0615-0203,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Ashkenaz Stephanie,OO01,owner-occupied,470200,89286,3199.68,,
+housing,006-0615-0204,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,O'Rourke Caitrin M,OO01,owner-occupied,566300,0,4756.92,,
+housing,006-0615-0205,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Torres Otilio JR,NO01,full rate,412200,0,6018.12,,
+housing,006-0615-0206,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Tarentino Leigh,OO01,owner-occupied,412200,0,3462.48,,
+housing,006-0615-0207,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,The Gartman Family Trust Agreement,NO01,full rate,574200,0,8383.32,,
+housing,006-0615-0208,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Freund Karen L,OO01,owner-occupied,455600,0,3827.04,,
+housing,006-0615-0209,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Lovgren Carl Pedro,OO01,owner-occupied,393400,0,3304.56,,
+housing,006-0615-0210,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Li Jinying,OO01,owner-occupied,391300,0,3286.92,,
+housing,006-0615-0301,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Quirk Karen Egenes   Trustee,OO01,owner-occupied,382900,89286,2466.36,,
+housing,006-0615-0302,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Vogel-Rosen Georgeann J,OO01,owner-occupied,393400,0,3304.56,,
+housing,006-0615-0303,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Park Anne M,OO01,owner-occupied,524000,0,4401.6,,
+housing,006-0615-0305,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Chelidze Tinatin,OO01,owner-occupied,399600,0,3356.64,,
+housing,006-0615-0306,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Friel Suzanne Trustee,NO01,full rate,438400,0,6400.64,,
+housing,006-0615-0307,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Stevens Jeffrey R Trustee,OO01,owner-occupied,534900,89286,3743.16,,
+housing,006-0615-0308,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Douglass Andrew Ian,OO01,owner-occupied,524000,89286,3651.6,,
+housing,006-0615-0309,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Glynn Judith Trustee,NO01,full rate,399600,0,5834.16,,
+housing,006-0615-0310,006-0615,7 Mount Hope Ave,2018,1,Residential Condo,Cohn Danielle Melissa,NO01,full rate,397600,0,5804.96,,
+housing,008-0188-0000,008-0188,72 Pleasant St,2018,1,Single Family,Bressette Patrick,OO01,owner-occupied,587800,0,4937.52,112176,2018
+housing,008-0439-0000,008-0439,8 Mc Cann Pl,2018,1,Single Family,Merrill Dale Patricia Trustee,OO01,owner-occupied,614400,0,5160.96,112175,2018
+housing,012-0174-0000,012-0174,185 Angell St,2018,9,Commercial II,Vertex Properties LLC,C610,full rate,2076700,0,53994.2,88447,2017
+housing,013-0049-0000,013-0049,249 Thayer St,2018,1,Commercial II,RE Johnston Family LLC,C01,full rate,3045900,0,88940.28,,
+housing,013-0311-0000,013-0311,253 George St,2018,1,Single Family,Ragona Cynthia G   Trustee,OO01,owner-occupied,2625200,0,22051.68,,
+housing,014-0596-0000,014-0596,68 Pitman St,2018,2,2-5 Family,MCrans LLC,NOO2-5,full rate,1031100,0,14435.4,105987,2018
+housing,014-0597-0000,014-0597,72 Pitman St,2018,2,2-5 Family,MCrans LLC,NOO2-5,full rate,1031100,0,14435.4,105991,2018
+housing,016-0476-0000,016-0476,298 Wickenden St,2018,7,Apartments,298 Wickenden LLC,C610,full rate,2073000,0,53898.0,79299,2017
+lodging (permit text),019-0120-0000,019-0120,5 Exchange St,2018,1,TSA,Mayfair Park LLC,TSA,tax stabilization agreement,14301600,7061032,211424.6,,
+housing,020-0400-0000,020-0400,225 Dyer St,2018,1,TSA,"Providence Innovation District Phase I Owner, LLC",TSA,tax stabilization agreement,49915700,39313130,309595.04,,
+housing,020-0407-8LAW,020-0407,276-290 Westminster St,2018,1,Other Improved Land,Lapham 290 LLC,8LAW,8% affordable-housing law,13206300,9241667,115767.28,,
+housing,020-0408-8LAW,020-0408,270 Westminster St,2018,2,Other Improved Land,RWB Associates LLC,8LAW,8% affordable-housing law,4059300,2323804,50676.48,,
+housing,021-0454-0000,021-0454,1 Point St,2018,1,TSA,River House Holdings I LLC,TSA,tax stabilization agreement,56541200,44785001,343281.0,,
+lodging (owner name),025-0422-0000,025-0422,100 Sabin St,2018,176,TSA,100 Sabin Hotel LLC,TSA,tax stabilization agreement,19639400,4065645,454753.64,,
+housing,028-0155-0000,028-0155,11 Piedmont St,2018,6,Apartments,Partners LLC Federal Hill,C610,full rate,858200,0,22313.2,,
+housing,028-0216-0000,028-0216,82 Sutton St,2018,1,2-5 Family,DNC Acquisitions LLC,NOO2-5,full rate,1132100,0,15849.4,,
+housing,038-0042-0000,038-0042,25 Glen Dr,2018,1,Single Family,Osband Adena,OO01,owner-occupied,1452200,0,12198.48,82545,2017
+housing,043-0512-0000,043-0512,787 Potters Ave,2018,1,Single Family,Marte Ramirez Rafael A,OO01,owner-occupied,445100,0,3738.84,103668,2019
+housing,043-0565-0000,043-0565,100 Mawney St,2018,2,2-5 Family,Guadarrama-Lopez Jose M,OO2-5,owner-occupied,632900,0,4778.4,111633,2018
+housing,052-0135-0000,052-0135,98 Atlantic Ave,2018,1,Single Family,Rodriguez Jessenia,OO01,owner-occupied,285500,0,2398.2,96516,2018
+housing,053-0365-0000,053-0365,185 Early St,2018,2,2-5 Family,Kaimanes Home Improvement LLC,NOO2-5,full rate,677300,0,9482.2,108785,2018
+housing,058-0826-0000,058-0826,1305 Eddy St,2018,1,Commercial I,Adobe Properties LLC,C01,full rate,139700,0,4079.24,,
+housing,059-0080-0000,059-0080,25 Farragut Ave,2018,1,Single Family,Vazquez Gretchel,OO01,owner-occupied,486600,0,4087.44,98027,2018
+housing,059-0081-0000,059-0081,29 Farragut Ave,2018,1,Single Family,Teah Meledeah N,OO01,owner-occupied,532000,0,4468.8,98029,2018
+housing,059-0749-0000,059-0749,81 Fisk St,2018,1,Single Family,Armstrong Zachary A,OO01,owner-occupied,468600,0,3936.24,113967,2018
+housing,060-0205-0000,060-0205,214 Longfellow St,2018,2,2-5 Family,Tejada Santana Edgardo A,OO2-5,owner-occupied,609300,0,4600.24,98672,2018
+housing,062-0160-0000,062-0160,20 Bowdoin St,2018,1,Single Family,David-Gordon Mae W,NO01,full rate,395100,0,5768.48,88820,2018
+housing,064-0257-0000,064-0257,64 Pomona Ave,2018,2,2-5 Family,Muyeeb Shaykh,OO2-5,owner-occupied,474700,0,3584.0,6316;6462,2015
+housing,064-0968-0000,064-0968,89-91 Belmont Ave,2018,1,Single Family,Aileru Abdulrahaman O,OO01,owner-occupied,493100,0,4142.04,105314,2018
+housing,065-0178-0000,065-0178,88 Harold St,2018,2,2-5 Family,Kollie Othello,NOO2-5,full rate,580600,0,8128.4,114384,2018
+housing,065-0440-0000,065-0440,28 Linton St,2018,2,2-5 Family,Guerrero Francisco N,OO2-5,owner-occupied,640300,0,4834.28,92817,2017
+housing,069-0012-0000,069-0012,29 Dickens St,2018,2,2-5 Family,Patel Arpitkumar,NOO2-5,full rate,793700,0,11111.8,86318;88186,2017
+housing,070-0545-0000,070-0545,14 Glasgow St,2018,1,Single Family,Gichure Peter K,OO01,owner-occupied,422900,0,3552.36,115087,2018
+housing,071-0605-0000,071-0605,25 Marietta St,2018,2,2-5 Family,Valerio Kevin,OO2-5,owner-occupied,655700,0,4950.56,113242,2018
+housing,071-0616-0001,071-0616,7 Stone St,2018,1,Residential Condo,Piverger Edwin M,NO01,full rate,465100,0,6790.48,,
+housing,071-0616-0002,071-0616,5-7 Stone St,2018,1,Residential Condo,Feldman Brian,OO01,owner-occupied,465100,0,3906.84,,
+housing,076-0289-0000,076-0289,44 Longmont St,2018,2,2-5 Family,Nova Jose,NOO2-5,full rate,615100,0,8611.4,88539,2017
+housing,076-0532-0000,076-0532,52 Sussex St,2018,2,2-5 Family,Fidel Romane,NOO2-5,full rate,670600,0,9388.4,100290,2018
+housing,076-0533-0000,076-0533,25 Cheshire St,2018,2,2-5 Family,Bautista Ivette,OO2-5,owner-occupied,742400,0,5605.12,100299,2018
+housing,077-0611-0000,077-0611,57 Wilna St,2018,1,Single Family,Martinez Adonis E,OO01,owner-occupied,494300,36429,3846.12,73837,2017
+housing,077-0886-0000,077-0886,165 Windmill St,2018,1,Single Family,Galle Jeremy W,OO01,owner-occupied,488100,0,4100.04,91879,2017
+housing,079-0164-0000,079-0164,224 Sunbury St,2018,1,Single Family,Orman Wyatt,OO01,owner-occupied,538300,73095,3907.72,91876,2018
+housing,079-0168-0000,079-0168,39 Hymer St,2018,1,Single Family,Anifowoshe Saheed A,OO01,owner-occupied,521400,0,4379.76,91881,2018
+housing,079-0192-0000,079-0192,802 River Ave,2018,1,Single Family,"359 River, LLC",NO01,full rate,470500,0,6869.32,113213,2018
+housing,080-0894-8LAW,080-0894,66 Huber Ave,2018,1,Other Improved Land,Maplewood LP,8LAW,8% affordable-housing law,8877000,7535663,39167.04,,
+housing,085-0548-0000,085-0548,28 Mink Rd,2018,1,Single Family,Simmons John,OO01,owner-occupied,545700,0,4583.88,112017,2018
+housing,093-0348-0000,093-0348,1 Balton Rd,2018,1,Single Family,Lavine Jonathan S Trustee,OO01,owner-occupied,2122100,0,17825.64,97421,2018
+housing,093-0349-0000,093-0349,15 Balton Rd,2018,1,Single Family,Donnenfeld Brian,OO01,owner-occupied,2435800,0,20460.72,90834,2017
+housing,093-0350-0000,093-0350,430 Cole Ave,2018,1,Single Family,Montgomery Wendy Trustee,OO01,owner-occupied,2297200,0,19296.48,104817,2018
+housing,093-0352-0000,093-0352,410 Cole Ave,2018,1,Single Family,Gaeta Joseph   Jr,OO01,owner-occupied,1752500,0,14721.0,109325,2018
+housing,094-0047-0000,094-0047,38 Lucy St,2018,1,Single Family,Depena Joseph R Trustee,OO01,owner-occupied,497300,0,4177.32,94408,2018
+housing,095-0736-0000,095-0736,62 Gray St,2018,1,Single Family,Freitas John B,OO01,owner-occupied,416700,0,3500.28,79230,2017
+housing,096-0054-0000,096-0054,386 Manton Ave,2018,2,2-5 Family,Guzman Rosa A,OO2-5,owner-occupied,645900,0,4876.56,87476,2017
+housing,097-0320-0000,097-0320,169 Russo St,2018,2,2-5 Family,Gomes Jose D,NOO2-5,full rate,622100,0,8709.4,90481,2018
+housing,097-0405-0000,097-0405,66 Christopher St,2018,1,Single Family,Dias Jasen M,OO01,owner-occupied,440800,0,3702.72,108968,2018
+housing,097-0488-0000,097-0488,294 Langdon St,2018,1,Single Family,Mar Fatou,OO01,owner-occupied,559600,0,4700.64,97401,2018
+housing,097-0964-0000,097-0964,47 Mendon St,2018,1,Single Family,Blevins Rechina M,OO01,owner-occupied,436800,0,3669.12,108575,2018
+housing,099-0059-0000,099-0059,34 Vandewater St,2018,1,Single Family,Payne Jestina F,OO01,owner-occupied,432300,0,3631.32,103806,2018
+housing,102-0282-0000,102-0282,88 Henrietta St,2018,1,Single Family,Olalekan Rukayat A,NO01,full rate,440400,0,6429.84,104621,2018
+housing,102-0283-0000,102-0283,973 Douglas Ave,2018,1,Single Family,Connolly Kathleen E,NO01,full rate,421800,0,6158.28,104519,2018
+housing,102-0284-0000,102-0284,92 Henrietta St,2018,1,Single Family,Peralta Wilson,OO01,owner-occupied,439500,0,3691.8,,
+housing,110-0052-0000,110-0052,68 Mercy St,2018,1,Single Family,Stanley Monique A Mackenzie,OO01,owner-occupied,444900,0,3737.16,105423,2018
+housing,114-0216-0000,114-0216,44 King Philip St,2018,1,Single Family,Daveiga Graciete V,NO01,full rate,491900,0,7181.76,102793,2018
+housing,123-0058-0000,123-0058,517 Admiral St,2018,1,Single Family,"359 River, LLC",NO01,full rate,494000,0,7212.4,102023,2018
+housing,123-0221-0000,123-0221,21 Hereford St,2018,1,Single Family,Vanwells Adelaine,OO01,owner-occupied,391200,0,3286.08,78697,2017
+housing,123-0293-0000,123-0293,121 Devonshire St,2018,1,Single Family,Bello Yesenia,OO01,owner-occupied,488000,0,4099.2,104003,2018
+housing,123-0296-0000,123-0296,131 Devonshire St,2018,1,Single Family,Birchall Ryan,OO01,owner-occupied,541600,0,4549.44,104009,2018
+housing,126-0276-REVO,126-0276,241 Reservoir Ave,2018,1,Commercial II,Asian Properties,C01,full rate,1358200,0,39659.44,,
+housing,005-0054-0000,005-0054,36 Tecumseh St,2019,1,Single Family,Masterson John Howard  Jr,OO01,owner-occupied,594500,0,4993.8,BLDG-19-666,2019
+housing,008-0015-0000,008-0015,12 Western St,2019,1,Single Family,Parajuly Suren,NO01,full rate,586900,0,8568.76,BLDG-19-241,2019
+housing,008-0030-0001,008-0030,8 Western St,2019,1,Residential Condo,Dobbe Johannes Paulus   Trustee,NO01,full rate,464500,0,6781.72,,
+housing,008-0030-0002,008-0030,10 Western St,2019,1,Residential Condo,Vidal Javier Ignacio Mocarquer,OO01,owner-occupied,464500,0,3901.8,,
+housing,008-0195-0000,008-0195,4 Mc Cann Pl,2019,1,Single Family,Hunley Gregory A,OO01,owner-occupied,569700,0,4785.48,112172,2018
+housing,008-0196-0000,008-0196,2 Mc Cann Pl,2019,1,Single Family,Jordan Mary,OO01,owner-occupied,570000,0,4788.0,112050,2018
+housing,013-0316-0000,013-0316,198 Angell St,2019,6,Apartments,198 Angell LLC,C01,full rate,2391800,0,62952.2,,
+housing,014-0243-0000,014-0243,174 Gano St,2019,3,2-5 Family,VVS Realty LLC,NOO2-5,full rate,1319000,0,18466.0,112458,2018
+housing,021-0453-0000,021-0453,342 Eddy St,2019,1,Industrial,Narragansett Electric Co,C01,full rate,5416000,0,158147.2,,
+housing,025-0465-0000,025-0465,78 Fountain St,2019,143,TSA,78 Fountain Street BAC LLC,TSA,tax stabilization agreement,38583900,24824789,401766.04,,
+housing,028-1079-0000,028-1079,14 Piedmont St,2019,1,TSA,Partners LLC Federal Hill,TSA,tax stabilization agreement,4057400,719697,97460.92,BLDG-19-1018,2019
+housing,029-0556-8LAW,029-0556,93 Cranston St,2019,30,Other Improved Land,LLC 93 Cranston,8LAW,8% affordable-housing law,5524900,3821393,49742.4,,
+housing,030-0535-0000,030-0535,23 Arch St,2019,2,2-5 Family,Waugh Jonathan,OO2-5,owner-occupied,656700,0,4958.12,BLDG-19-1328,2019
+housing,031-0477-0000,031-0477,39 Waverly St,2019,2,2-5 Family,Soufan Nehme,NOO2-5,full rate,621800,0,8705.2,BLDG-19-1600,2019
+housing,032-0233-0000,032-0233,1290 Westminster St,2019,35,TSA,1290 Westminster LLC,TSA,tax stabilization agreement,9110400,3176276,173276.44,105847,2018
+housing,033-0238-0000,033-0238,135-137 Almy St,2019,2,2-5 Family,Hetherington Nicole,OO2-5,owner-occupied,952500,0,7191.4,116096;96905,2018
+housing,033-0719-BLDG,033-0719,555 Harris Ave,2019,1,Farm Forest,,C01,full rate,1043500,0,30470.2,,
+housing,035-0136-0000,035-0136,1492 Westminster St,2019,7,Combination,"Infill Development, LLC",C01,full rate,1222900,0,32773.72,115562,2019
+housing,037-0828-0000,037-0828,110 Hudson St,2019,3,2-5 Family,Rai Rajeev,NOO2-5,full rate,1519300,0,21270.2,,
+housing,037-0829-0000,037-0829,112 Hudson St,2019,3,2-5 Family,Rai Rajeev,NOO2-5,full rate,1475800,0,20661.2,,
+housing,039-0330-0000,039-0330,377 Wayland Ave,2019,1,Single Family,Mukharji Aroop Trustee,NO01,full rate,1941000,0,28338.6,BLDG-19-1144,2019
+housing,042-0450-0000,042-0450,35 Linwood Ave,2019,2,2-5 Family,Escobar Nelson A Trustee,OO2-5,owner-occupied,620700,0,4686.32,77817;93674,2017
+housing,043-0572-0000,043-0572,13 Salem St,2019,2,Single Family,Ovalle Eugenio,OO2-5,owner-occupied,627900,0,4740.68,BLDG-19-1209,2019
+housing,043-0980-0000,043-0980,42 Calhoun Ave,2019,2,2-5 Family,,NOO2-5,full rate,674000,0,9436.0,BLDG-19-940,2019
+housing,044-0707-0000,044-0707,102 Peace St,2019,1,Single Family,Vaquerano Gilmar A,OO01,owner-occupied,509000,0,4275.6,BLDG-19-1453,2019
+housing,045-0338-0000,045-0338,348 Willard Ave,2019,2,2-5 Family,Saygbe Musu,NOO2-5,full rate,630300,0,8824.2,116423;BLDG-19-394,2019
+housing,045-0613-0000,045-0613,372 Blackstone St,2019,1,Single Family,Lafleur Jonathan,OO01,owner-occupied,371000,73095,2502.4,109032,2018
+housing,048-0317-0000,048-0317,341 Plain St,2019,1,Single Family,Poueriet Algery Pache,OO01,owner-occupied,405800,0,3408.72,BLDG-19-408,2019
+housing,048-0628-0000,048-0628,418 Prairie Ave,2019,1,Single Family,Rosario Manuel J,OO01,owner-occupied,424300,0,3564.12,113821,2018
+housing,048-0705-0000,048-0705,52 Reynolds Ave,2019,2,2-5 Family,Kaimanes Home Improvement LLC,NOO2-5,full rate,653700,0,9151.8,BLDG-19-580,2019
+housing,048-0743-0000,048-0743,28 Reynolds Ave,2019,2,2-5 Family,Andy Construction LLC,NOO2-5,full rate,692600,0,9696.4,BLDG-19-1647,2019
+housing,048-0825-0000,048-0825,44 Lillian Ave,2019,2,2-5 Family,Isaac Sindayihebura,OO2-5,owner-occupied,615600,0,4647.8,BLDG-19-406,2019
+housing,048-1190-0000,048-1190,317-319 Sayles St,2019,2,2-5 Family,Contreras Hector   Jr,NOO2-5,full rate,625000,0,8750.0,,
+housing,048-1191-0000,048-1191,321-323 Sayles St,2019,2,2-5 Family,Chen Yong Ji,NOO2-5,full rate,697900,0,9770.6,,
+housing,048-1192-0000,048-1192,148-152 Burnside St,2019,2,2-5 Family,Ever Burn LLC,NOO2-5,full rate,760300,0,10644.2,BLDG-19-615,2019
+housing,049-0129-0000,049-0129,459 Potters Ave,2019,1,Single Family,Grullon Andris Matos,NO01,full rate,430300,0,6282.4,BLDG-19-664,2019
+housing,052-0372-0000,052-0372,184 Hamilton St,2019,2,2-5 Family,Terry & Angela LLC,NOO2-5,full rate,704700,0,9865.8,BLDG-19-41,2019
+housing,053-0736-0000,053-0736,197 Early St,2019,2,2-5 Family,Torres Netalix,OO2-5,owner-occupied,620400,0,4684.04,BLDG-19-1589,2019
+housing,054-0648-0000,054-0648,144 Rugby St,2019,1,Single Family,Bigirimana Abraham,OO01,owner-occupied,403700,0,3391.08,BLDG-19-405,2019
+housing,054-0650-0000,054-0650,136 Rugby St,2019,2,2-5 Family,Alcantara Elizabeth,OO2-5,owner-occupied,322000,0,2431.12,BLDG-19-393,2019
+housing,057-0354-0000,057-0354,181 Pavilion Ave,2019,1,Single Family,Fernandez Luis,OO01,owner-occupied,380300,0,3194.52,,
+housing,063-0275-0000,063-0275,42 Hyat St,2019,2,2-5 Family,Neves Helena,NOO2-5,full rate,583600,0,8170.4,88807;BLDG-19-1185,2018
+housing,064-0205-0000,064-0205,65-67 Pomona Ave,2019,2,2-5 Family,Cruz Aisha,OO2-5,owner-occupied,582000,0,4394.12,,
+housing,064-0255-0000,064-0255,76-78 Pomona Ave,2019,2,2-5 Family,Gonzalez Walter G,NOO2-5,full rate,586900,0,8216.6,116116,2018
+housing,064-0960-0000,064-0960,86 Armington Ave,2019,1,Single Family,Herrera Leopoldo Martinez,OO01,owner-occupied,483200,0,4058.88,115902,2019
+housing,064-0969-0000,064-0969,13 Carleton St,2019,1,Single Family,Scott James,OO01,owner-occupied,517500,0,4347.0,105453,2018
+housing,065-0485-0000,065-0485,11 Alton St,2019,2,2-5 Family,Aguasvivas Wendy Edith,OO2-5,owner-occupied,658000,0,4967.92,BLDG-19-1215,2019
+housing,069-0185-0000,069-0185,18 Danforth St,2019,1,Single Family,DeChambeau Brian,OO01,owner-occupied,441200,0,3706.08,113701,2019
+housing,070-0335-0000,070-0335,100 Clym St,2019,2,2-5 Family,Iluonokhalumhe Philip E,OO2-5,owner-occupied,594700,0,4490.0,BLDG-19-854,2019
+housing,070-0640-0000,070-0640,139 Pumgansett St,2019,2,2-5 Family,Bryant Carlos R,OO2-5,owner-occupied,596300,0,4502.08,BLDG-19-1663,2019
+housing,071-0195-0000,071-0195,61 Marietta St,2019,2,2-5 Family,Pereira-Dasilva Lausiana,NOO2-5,full rate,593900,0,8314.6,BLDG-19-1272,2019
+housing,071-0474-0000,071-0474,25 Ledge St,2019,2,2-5 Family,Cabrera Heidy,OO2-5,owner-occupied,637300,0,4811.64,109916,2019
+housing,072-0002-0000,072-0002,74-76 Hall St,2019,2,2-5 Family,Romero Milany,OO2-5,owner-occupied,609200,0,4599.48,BLDG-19-1313,2019
+housing,072-0431-0000,072-0431,66 Ashton St,2019,2,2-5 Family,Trusevitch Scott,NOO2-5,full rate,689500,0,9653.0,117493,2019
+housing,077-0082-0000,077-0082,52 Blaine St,2019,1,Single Family,Sullivan Breanna,OO01,owner-occupied,477100,0,4007.64,117015,2019
+housing,079-0591-0000,079-0591,45 Atlas St,2019,2,2-5 Family,Tavarez Franklin,OO2-5,owner-occupied,673200,0,5082.68,BLDG-19-31,2019
+housing,079-0592-0000,079-0592,41 Atlas St,2019,2,2-5 Family,Cruz Julissa Dela,OO2-5,owner-occupied,671500,0,5069.84,BLDG-19-30,2019
+housing,079-0593-0000,079-0593,35 Atlas St,2019,2,2-5 Family,Patzan Jaqueline L,OO2-5,owner-occupied,671500,0,5069.84,BLDG-19-73,2019
+housing,080-0917-0000,080-0917,32 Groveland Ave,2019,1,Single Family,Castillo Maria,NO01,full rate,506700,0,7397.84,,
+housing,080-0918-0000,080-0918,36 Groveland Ave,2019,1,Single Family,Whiteman-Best Ayatollah K,OO01,owner-occupied,512600,0,4305.84,,
+housing,083-0055-0000,083-0055,980 Smith St,2019,1,Single Family,Feula Joseph A,NO01,full rate,487800,0,7121.88,88472,2019
+housing,087-0574-0000,087-0574,174 Alabama Ave,2019,2,2-5 Family,SV Investments LLC,NOO2-5,full rate,775600,0,10858.4,BLDG-19-1293,2019
+housing,091-0667-0000,091-0667,118 Chace Ave,2019,1,Single Family,Bradley Julie M,OO01,owner-occupied,769400,0,6462.96,96276,2018
+housing,095-0208-0000,095-0208,99 Parnell St,2019,1,Single Family,De Los Santos Guzman Jorge E,NO01,full rate,471100,0,6878.08,BLDG-19-204,2019
+housing,097-0428-0000,097-0428,33 Christopher St,2019,1,Single Family,Guadarrama-Lopez Jose,NO01,full rate,491600,0,7177.36,BLDG-19-567,2019
+housing,097-0429-0000,097-0429,37 Christopher St,2019,1,Single Family,Almontes Franky,NO01,full rate,506200,0,7390.52,BLDG-19-568,2019
+housing,097-0430-0000,097-0430,41 Christopher St,2019,1,Single Family,Saint Pierre Anne A,OO01,owner-occupied,500600,0,4205.04,BLDG-19-569,2019
+housing,097-0696-0000,097-0696,14 Jasper St,2019,1,Single Family,Cronin Alexander B,OO01,owner-occupied,497400,0,4178.16,BLDG-19-425,2019
+housing,098-0264-0000,098-0264,36 Alaska St,2019,2,2-5 Family,Diagne Mouhamadou Laye,OO2-5,owner-occupied,607300,0,4585.12,BLDG-19-1109,2019
+housing,107-0132-0000,107-0132,117 Laurel Hill Ave,2019,2,2-5 Family,Leon Brian Estuardo,OO2-5,owner-occupied,225700,40530,1398.04,BLDG-19-1134,2019
+housing,107-0264-0000,107-0264,129 Eastwood Ave,2019,2,2-5 Family,Reynoso Angel M,OO2-5,owner-occupied,568200,0,4289.92,BLDG-19-1163,2019
+housing,108-0007-0000,108-0007,75 Lowell Ave,2019,2,2-5 Family,Oumer Samih,NOO2-5,full rate,711700,0,9963.8,BLDG-19-1789,2019
+housing,110-0277-0000,110-0277,711 Union Ave,2019,2,2-5 Family,Rodriguez Manuel A,NOO2-5,full rate,597100,0,8359.4,90898,2018
+housing,113-0133-0000,113-0133,90 Hilarity St,2019,1,Single Family,Rafael Oscar,OO01,owner-occupied,438900,0,3686.76,116380,2018
+housing,115-0074-0000,115-0074,173 Killingly St,2019,1,Single Family,Airway Leasing LLC,NO01,full rate,516100,0,7535.08,,
+housing,115-0238-0000,115-0238,650 Hartford Ave,2019,1,Commercial II,Correira Orlando R,C01,full rate,356100,0,10398.12,,
+housing,115-0287-0000,115-0287,598 Hartford Ave,2019,1,Combination,P&P Realty LLC,C01,full rate,1245800,0,33536.96,,
+housing,115-0629-0000,115-0629,680 Hartford Ave,2019,1,Commercial II,Izzo John,C01,full rate,813700,0,23760.04,,
+housing,120-0423-0000,120-0423,156 Eaton St,2019,1,Single Family,02908 Holdco LLC,NO01,full rate,703300,0,10268.2,BLDG-19-5,2019
+housing,008-0144-0001,008-0144,13 Phillips St,2020,1,Residential Condo,Will Rory Trustee,OO01,owner-occupied,957200,0,8040.48,,
+housing,008-0144-0002,008-0144,13 Phillips St,2020,1,Residential Condo,Kelly Devin,OO01,owner-occupied,1046200,0,8788.08,,
+student housing,010-0732-0000,010-0732,144 Angell St,2020,1,School,BROWN UNIVERSITY,E01,exempt,103560600,103560600,0.0,,
+housing,017-0331-0000,017-0331,6 Fremont St,2020,1,Single Family,Just Michael S,OO01,owner-occupied,1065500,0,8950.2,BLDG-19-1858,2019
+housing,018-0100-0000,018-0100,40 TOCKWOTTEN St,2020,69,Apartments,40 Tockwotton LLC,C11,full rate,13662100,0,389369.88,BLDG-19-1522,2019
+housing,018-0296-0000,018-0296,387 Wickenden St,2020,15,Apartments,387 Wickenden LLC,C01,full rate,2808100,0,80148.8,,
+housing,023-0576-0000,023-0576,486 Friendship St,2020,1,Single Family,Gonzalez Dinanylis,OO01,owner-occupied,420900,0,3535.56,BLDG-19-1560,2019
+housing,023-0759-0000,023-0759,101 Linden St,2020,1,Single Family,Hishe Nigusae,OO01,owner-occupied,394200,0,3311.28,,
+housing,026-0143-0000,026-0143,110 Dean St,2020,12,Apartments,Sempre Avanti Realty Corp,C11,full rate,2560400,0,72971.4,,
+housing,026-0354-0000,026-0354,128 Dean St,2020,12,Apartments,Sempre Avanti Realty Corp,C11,full rate,2357100,0,67177.36,,
+housing,029-0554-0000,029-0554,466 Fountain St,2020,32,TSA,Unison West Fountain LLC,TSA,tax stabilization agreement,6631000,1410908,152426.68,,
+housing,030-0534-0000,030-0534,19 Arch St,2020,1,Single Family,Guillermo-Lopez Yimi C,OO2-5,owner-occupied,618100,0,4666.68,,
+housing,031-0148-0000,031-0148,33 Waverly St,2020,2,2-5 Family,Aquino Rafael A,NOO2-5,full rate,588800,0,8243.2,,
+housing,032-0106-0000,032-0106,17 Slocum St,2020,2,2-5 Family,Gordon Sacchetti Diane,NOO2-5,full rate,823100,0,11523.4,,
+housing,032-0403-0000,032-0403,27 Grant St,2020,1,Single Family,Thompson William,OO01,owner-occupied,624500,0,5245.8,BLDG-19-1278,2019
+housing,037-0440-0000,037-0440,45 Rosedale St,2020,2,2-5 Family,Nunez Simon J,OO2-5,owner-occupied,598900,0,4521.72,,
+housing,040-0380-0000,040-0380,280 Blackstone Blvd,2020,1,Single Family,Conklin Todd Alan,OO01,owner-occupied,2140300,0,17978.52,,
+housing,043-0809-0000,043-0809,89 Waldo St,2020,2,2-5 Family,Sosa Manuel E Castillo,OO2-5,owner-occupied,605500,0,4571.56,,
+housing,045-0230-0000,045-0230,40 Comstock Ave,2020,1,Single Family,Collazo Roxanna,OO01,owner-occupied,377100,0,3167.64,BLDG-19-407,2019
+housing,045-0384-0000,045-0384,91 Bogman St,2020,1,Single Family,Feliz Maria,NO01,full rate,396700,0,5791.84,,
+housing,048-0365-0000,048-0365,147 Ocean St,2020,2,2-5 Family,Zacarias Sajvin Lucas M,OO2-5,owner-occupied,637600,0,4813.88,,
+housing,048-0392-0000,048-0392,33 Ocean St,2020,1,Single Family,Area Selamnesh Venesio,OO01,owner-occupied,396600,0,3331.44,303;BLDG-19-1857,2013
+housing,049-0517-0000,049-0517,25 Rutland St,2020,2,2-5 Family,Jimenez Jean C Feliz,OO2-5,owner-occupied,530400,0,4004.52,,
+housing,053-0031-8LAW,053-0031,1043 Broad St,2020,1,Other Improved Land,The Composition Owner LLC,8LAW,8% affordable-housing law,1768600,1153220,17969.12,,
+housing,054-0003-0000,054-0003,13 Mystic St,2020,2,2-5 Family,Zapata-Tati Radelki R,OO2-5,owner-occupied,583000,0,4401.68,,
+housing,054-0652-0000,054-0652,128 Rugby St,2020,2,2-5 Family,Morales Yoshio Pol,NOO2-5,full rate,576000,0,8064.0,BLDG-19-1701,2019
+housing,057-0069-0000,057-0069,136 Pavilion Ave,2020,2,2-5 Family,Meregildo Jorge Luis,OO2-5,owner-occupied,508300,0,3837.68,BLDG-19-1932,2019
+housing,057-0239-0000,057-0239,116 Cass St,2020,2,2-5 Family,Ramos Jacqueline Rodriguez,NOO2-5,full rate,541700,0,7583.8,,
+housing,057-0353-0000,057-0353,186 Pavilion Ave,2020,2,2-5 Family,Torres Jose Antonio Mayi,OO2-5,owner-occupied,451100,0,3405.84,,
+housing,059-0890-0000,059-0890,17 Homer St,2020,1,Single Family,Romero Ligia W,OO01,owner-occupied,387400,0,3254.16,,
+housing,059-0891-0000,059-0891,15 Homer St,2020,1,Single Family,Miles Jesse J,OO01,owner-occupied,386200,0,3244.08,,
+housing,062-0495-0000,062-0495,18 Julian St,2020,2,2-5 Family,Rodriguez Delossantos Fausto E,OO2-5,owner-occupied,663600,40530,4704.2,,
+housing,063-0601-0000,063-0601,191 Manton Ave,2020,2,Combination,Cancel Batista Edmarie S,C01,full rate,375600,0,4868.72,BLDG-19-1882,2019
+housing,063-0602-0000,063-0602,189 Manton Ave,2020,2,Combination,Segama Arturo,C01,full rate,411400,0,5778.12,BLDG-19-1880,2019
+housing,063-0603-0000,063-0603,185 Manton Ave,2020,2,Combination,Jackson AJA Johari,C01,full rate,377000,0,5295.0,,
+housing,063-0604-0000,063-0604,183 Manton Ave,2020,1,Combination,Duran Altagracia    For Life,C01,full rate,373600,0,4842.8,BLDG-19-1879,2019
+housing,063-0606-0000,063-0606,284 Amherst St,2020,2,2-5 Family,Dale Kasey,NOO2-5,full rate,534900,0,7488.6,,
+housing,064-0965-0000,064-0965,2 Yale St,2020,2,2-5 Family,Kwami David Selasi,OO2-5,owner-occupied,674700,0,5094.0,BLDG-19-1915,2019
+housing,065-0198-0000,065-0198,110 Harold St,2020,2,2-5 Family,Nova Jose G,NOO2-5,full rate,556700,0,7793.8,BLDG-19-1904,2019
+housing,068-0497-0000,068-0497,69 Douglas Ave,2020,4,2-5 Family,Kaimanes Home Improvement LLC,NOO2-5,full rate,1248100,0,17473.4,,
+housing,071-0002-0000,071-0002,618 Charles St,2020,2,2-5 Family,De La Rosa Kingverly A,OO2-5,owner-occupied,553400,0,4178.2,,
+housing,071-0003-0000,071-0003,616 Charles St,2020,2,2-5 Family,Akinfolarin Hamid Ademola,OO2-5,owner-occupied,552700,0,4172.92,,
+housing,071-0194-0000,071-0194,65 Marietta St,2020,2,2-5 Family,Joseph Paul,OO2-5,owner-occupied,681500,0,5145.36,,
+housing,072-0576-0000,072-0576,58 Luna St,2020,1,Single Family,Nunes Emanuel C,NO01,full rate,466200,0,6806.52,,
+housing,074-0008-0000,074-0008,19 Metcalf St,2020,2,2-5 Family,Rodrigues Elisangela,NOO2-5,full rate,615100,0,8611.4,,
+housing,075-0295-0000,075-0295,61 Collyer St,2020,2,2-5 Family,Livramento Rogerio Benros,OO2-5,owner-occupied,604000,0,4560.2,BLDG-19-651,2019
+housing,077-0804-0000,077-0804,44 Danby St,2020,1,Single Family,Perez Marbela R,OO01,owner-occupied,483200,0,4058.88,,
+housing,078-0459-0000,078-0459,352R Woodward Rd,2020,1,Single Family,Woodward Hill Estates LLC,NO01,full rate,675600,0,9863.76,,
+housing,078-0460-0000,078-0460,352 Woodward Rd,2020,1,Single Family,Meresi Anthony,OO01,owner-occupied,442300,0,3715.32,,
+housing,079-0570-0000,079-0570,91 General St,2020,2,2-5 Family,Marsella Robert A,NOO2-5,full rate,774800,0,10847.2,BLDG-19-1851,2019
+housing,079-0707-0000,079-0707,72 Waite St,2020,1,Single Family,Chatman Marea A,OO01,owner-occupied,468200,0,3932.88,115159,2018
+housing,081-0100-0000,081-0100,22 Bradley St,2020,1,Single Family,Torino Stephen R,OO01,owner-occupied,507300,0,4261.32,,
+housing,085-0400-0000,085-0400,118 Rome Ave,2020,1,Single Family,Saha Dalia,OO01,owner-occupied,569900,198929,3116.16,BLDG-19-1408,2019
+housing,085-0593-0000,085-0593,90 Erie St,2020,1,Single Family,Maharjan Madan,OO01,owner-occupied,527500,0,4431.0,104150,2018
+housing,092-0030-0003,092-0030,873 Hope St,2020,1,Residential Condo,Homonoff David,NO01,full rate,748000,0,10920.8,,
+housing,092-0030-0004,092-0030,871 Hope St,2020,1,Residential Condo,Kamentsky Gina,OO01,owner-occupied,748000,0,6283.2,,
+housing,092-0031-0001,092-0031,877 Hope St,2020,1,Residential Condo,Adler Ruth,OO01,owner-occupied,748000,89286,5533.2,,
+housing,092-0031-0002,092-0031,875 Hope St,2020,1,Residential Condo,McLaughlin Marie,OO01,owner-occupied,748000,0,6283.2,,
+housing,094-0279-0000,094-0279,121 Hillcrest Ave,2020,1,Single Family,Alvarez Hantz,OO01,owner-occupied,415600,0,3491.04,,
+housing,094-0280-0000,094-0280,125 Hillcrest Ave,2020,1,Single Family,Gorospe Benedickl L,NO01,full rate,415600,0,6067.76,,
+housing,095-0082-0000,095-0082,77 Sisson St,2020,1,Single Family,Bastos Nathalya M,OO01,owner-occupied,437500,36429,3369.0,BLDG-19-674,2019
+housing,095-0135-0000,095-0135,43 Unit St,2020,1,Single Family,Morales Robin Ramirez,NO01,full rate,420800,0,6143.68,,
+housing,096-0334-8LAW,096-0334,33 King St,2020,7,Other Improved Land,King Street Commons LP,8LAW,8% affordable-housing law,1692100,1346398,10094.48,,
+housing,096-0335-8LAW,096-0335,45 King St,2020,4,Other Improved Land,King Street Commons LP,8LAW,8% affordable-housing law,1005400,839939,4831.44,,
+housing,096-0336-8LAW,096-0336,37 King St,2020,4,Other Improved Land,King Street Commons LP,8LAW,8% affordable-housing law,1081400,890909,5562.32,,
+housing,096-0337-8LAW,096-0337,25 King St,2020,3,Other Improved Land,King Street Commons LP,8LAW,8% affordable-housing law,1062500,1429913,0.0,,
+housing,096-0338-8LAW,096-0338,17 King St,2020,4,Other Improved Land,King Street Commons LP,8LAW,8% affordable-housing law,1073000,868983,5957.28,,
+housing,096-0339-8LAW,096-0339,3 King St,2020,4,Other Improved Land,King Street Commons LP,8LAW,8% affordable-housing law,1011500,794921,6324.08,,
+housing,096-0345-0000,096-0345,35 Riverdale St,2020,2,2-5 Family,Varella Kevin R  Jr,OO2-5,owner-occupied,761200,0,5747.08,,
+housing,097-0336-0000,097-0336,706 Charles St,2020,2,2-5 Family,Powell Mykel L,NOO2-5,full rate,651800,0,9125.2,,
+housing,097-0337-0000,097-0337,700 Charles St,2020,2,2-5 Family,Bussey John Richard  Sr,NOO2-5,full rate,652300,0,9132.2,,
+housing,097-0962-0000,097-0962,139 Raphael Ave,2020,1,Single Family,Roberts Jeanette E,OO01,owner-occupied,393600,0,3306.24,103461;103500,2018
+housing,098-0265-0000,098-0265,32 Alaska St,2020,2,2-5 Family,Isme Jean Rodlin,NOO2-5,full rate,658300,0,9216.2,BLDG-19-1107,2019
+housing,099-0411-0000,099-0411,55 Messina St,2020,1,Single Family,Famuyiro Gbenga,OO01,owner-occupied,526900,0,4425.96,,
+housing,099-0434-0000,099-0434,28 Virginia Ln,2020,2,2-5 Family,Lemlem Samson Firew,OO2-5,owner-occupied,675300,0,5098.52,,
+housing,099-0435-0000,099-0435,24 Virginia Ln,2020,2,2-5 Family,Villa Marizol,NOO2-5,full rate,675300,0,9454.2,,
+housing,099-0436-0000,099-0436,20 Virginia Ln,2020,2,2-5 Family,Davis Yolanda,OO2-5,owner-occupied,675300,0,5098.52,,
+housing,102-0286-0000,102-0286,1011 Douglas Ave,2020,2,2-5 Family,Vasquez Julio,OO2-5,owner-occupied,647300,0,4887.12,,
+housing,104-0242-0000,104-0242,90 Wallace St,2020,2,2-5 Family,Pepen Socrates,OO2-5,owner-occupied,787400,0,5944.88,,
+housing,105-0192-0000,105-0192,9 Huldah St,2020,1,Single Family,DosSantos Monica,OO01,owner-occupied,332500,0,2793.0,,
+housing,105-0193-0000,105-0193,13 Huldah St,2020,1,Single Family,Lazarre Herve,NO01,full rate,363500,0,5307.12,,
+housing,105-0250-0000,105-0250,83 Judith St,2020,2,2-5 Family,Alvarado-Quinonez Osman I,OO2-5,owner-occupied,562200,0,4244.64,,
+housing,105-0254-0000,105-0254,38 Whitehall St,2020,2,2-5 Family,De La Cruz Franklyn Diaz,OO2-5,owner-occupied,663300,0,5007.92,,
+housing,107-0070-0000,107-0070,28 Grover St,2020,1,Single Family,Hernandez Christina,OO01,owner-occupied,430000,0,3612.0,,
+housing,108-0534-0000,108-0534,15 Lawrence St,2020,2,2-5 Family,Felix Jean Alix,NOO2-5,full rate,632600,0,8856.4,,
+housing,110-0201-0000,110-0201,75 Murray St,2020,2,2-5 Family,Chingo-Hernandez Maria L,OO2-5,owner-occupied,675300,0,5098.52,,
+housing,110-0263-0000,110-0263,695 Union Ave,2020,2,2-5 Family,Almonte Bello Jose R,OO2-5,owner-occupied,579100,0,4372.24,,
+housing,113-0448-0000,113-0448,19 Barden St,2020,2,2-5 Family,Carlino Michael A   Trustee,NOO2-5,full rate,617300,0,8642.2,,
+housing,119-0020-0000,119-0020,20 Mowry St,2020,2,2-5 Family,Ramos Santana Confesor R,OO2-5,owner-occupied,671900,0,5072.88,,
+housing,119-0158-0000,119-0158,48-50 Liege St,2020,2,2-5 Family,A1 Sub-A LLC,NOO2-5,full rate,713400,0,9987.6,,
+housing,119-0178-0000,119-0178,38-40 Liege St,2020,2,2-5 Family,104 Sheldon LLC,NOO2-5,full rate,672700,0,9417.8,,
+housing,120-0273-0000,120-0273,118 Radcliffe Ave,2020,2,2-5 Family,Federal Hill Capital LLC,NOO2-5,full rate,661200,0,9256.8,BLDG-19-1784,2019
+housing,123-0054-0000,123-0054,489 Admiral St,2020,2,2-5 Family,Admiral Properties LLC,NOO2-5,full rate,668800,0,9363.2,,
+housing,123-0122-0000,123-0122,167 Sunbury St,2020,1,Single Family,Fernandez Angel,OO01,owner-occupied,495500,0,4162.2,112462,2019
+housing,123-0201-0000,123-0201,851 River Ave,2020,1,Single Family,Nouel David J,NO01,full rate,428600,0,6257.56,,
+housing,123-0544-0000,123-0544,89 Veazie St,2020,2,2-5 Family,Darius Sonia,NOO2-5,full rate,646300,0,9048.2,BLDG-19-1978,2019
+housing,123-0550-0000,123-0550,475 Admiral St,2020,2,2-5 Family,Street LLC 473/475 Admiral,NOO2-5,full rate,675800,0,9461.2,,
+housing,123-0551-0000,123-0551,473 Admiral St,2020,2,2-5 Family,473/475 Admiral Street LLC,NOO2-5,full rate,676300,0,9468.2,107855,2018
+housing,126-0129-0000,126-0129,6 Tobyhanna St,2020,1,Single Family,Cabrera Nunez Marlene D,OO01,owner-occupied,480300,0,4034.52,102705,2018
+housing,127-0280-0000,127-0280,115 Fruit Hill Ave,2020,1,Single Family,Gunn Gemarre R,NO01,full rate,514900,0,7517.56,,
+housing,127-0281-0000,127-0281,28 Groveland Ave,2020,1,Single Family,Marc Jimmy,NO01,full rate,486500,0,7102.92,,
+housing,127-0282-0000,127-0282,30 Groveland Ave,2020,1,Single Family,Sunkara Vijay Chandra,OO01,owner-occupied,512600,0,4305.84,,
+housing,005-0133-0000,005-0133,49 Abbott St,2021,2,2-5 Family,Callanan Liam,NOO2-5,full rate,813000,0,11382.0,,
+housing,005-0429-0000,005-0429,64 Duncan Ave,2021,2,2-5 Family,Xhemajli Arjeta,NOO2-5,full rate,701300,0,9818.2,,
+student housing,013-0314-0000,013-0314,450 Brook St,2021,219,School,BROWN UNIVERSITY,E01,exempt,21670700,21670700,0.0,,
+housing,013-0317-0000,013-0317,21 Euclid Ave,2021,26,Apartments,21 Euclid LLC,C01,full rate,7644000,0,222937.28,,
+housing,014-0508-0000,014-0508,225 Waterman Ave,2021,22,TSA,Investment LLC Fili,TSA,tax stabilization agreement,4233100,1612240,133642.88,BLDG-19-1416,2019
+housing,015-0369-0001,015-0369,81 South Angell,2021,1,Residential Condo,Feler Joshua,OO01,owner-occupied,1225500,0,10294.2,,
+housing,015-0369-0002,015-0369,81 South Angell,2021,1,Residential Condo,Risica John,OO01,owner-occupied,1225500,0,10294.2,,
+housing,015-0369-0003,015-0369,81 South Angell,2021,1,Residential Condo,Smith Kirsty,OO01,owner-occupied,1225500,0,10294.2,,
+housing,017-0363-000A,017-0363,130 Gano St,2021,1,Residential Condo,Raghavan Deepti,OO01,owner-occupied,848800,0,7129.92,,
+housing,017-0363-000B,017-0363,130 Gano St,2021,1,Residential Condo,Lee Kristen,OO01,owner-occupied,859500,0,7219.8,,
+lodging (owner name),020-0401-0000,020-0401,191 Dorrance St,2021,176,TSA,Aloft LLC Bac Cvp,TSA,tax stabilization agreement,19035100,17499856,44829.12,,
+housing,023-0098-0000,023-0098,383 Friendship St,2021,2,2-5 Family,Lamarche Juan,NOO2-5,full rate,632300,0,8852.2,,
+housing,023-0158-0000,023-0158,61 Portland St,2021,3,Charitable,Amos House,E01,exempt,853000,853000,0.0,,
+housing,024-0676-0000,024-0676,125 Clifford St,2021,249,TSA,"Providence, L.P. EM 28",TSA,tax stabilization agreement,73010300,57415715,3670.0,,
+housing,030-0333-0000,030-0333,38 Warren St,2021,2,2-5 Family,Aguero Torres Desi E,NOO2-5,full rate,593500,0,8309.0,,
+housing,030-0586-0000,030-0586,42 Arch St,2021,2,2-5 Family,Hall Sean,OO2-5,owner-occupied,572200,0,4320.12,,
+housing,031-0261-0000,031-0261,83 Ford St,2021,1,Single Family,Tobar Esvin Garcia,OO01,owner-occupied,430100,0,3612.84,,
+housing,031-0557-0000,031-0557,16 Waverly St,2021,2,2-5 Family,Lopez Jocelyn,NOO2-5,full rate,661400,0,9259.6,,
+housing,033-0409-0000,033-0409,123 Ridge St,2021,2,2-5 Family,Lui Sue    Trustee,NOO2-5,full rate,760700,0,10649.8,,
+housing,033-0609-0000,033-0609,151 Valley St,2021,2,2-5 Family,Alvarez Jacqueline,NOO2-5,full rate,632000,0,8848.0,,
+housing,034-0022-0000,034-0022,875 Manton Ave,2021,1,Single Family,Kayitare Alphonse,NO01,full rate,459100,0,6702.88,,
+housing,034-0161-0000,034-0161,3 1/2 Baltimore St,2021,2,Single Family,SPAAN LLC,NOO2-5,full rate,580600,0,8128.4,,
+housing,035-0444-0000,035-0444,276 Grove St,2021,2,2-5 Family,Reynolds Jahniece Rose,NOO2-5,full rate,666500,0,9331.0,,
+housing,037-0471-0000,037-0471,102 Ellery St,2021,2,2-5 Family,Shen Ai Juan,OO2-5,owner-occupied,597900,0,4514.16,,
+housing,040-0373-0000,040-0373,275 Slater Ave,2021,1,Single Family,Savage John E,OO01,owner-occupied,1830600,89286,14627.04,,
+housing,042-0062-0000,042-0062,215 Althea St,2021,2,2-5 Family,Theng Seyheng,NOO2-5,full rate,579000,0,8106.0,,
+housing,043-0124-0000,043-0124,53 Plymouth St,2021,2,2-5 Family,Gutierrez Nicolas Tzunux,OO2-5,owner-occupied,524200,0,3957.72,,
+housing,043-0125-0000,043-0125,55 Plymouth St,2021,2,2-5 Family,Guaba Natacha,OO2-5,owner-occupied,577700,0,4361.64,,
+housing,043-1008-0000,043-1008,27 Halton St,2021,3,2-5 Family,RI Shanfamily Holdings LLC,NOO2-5,full rate,1194500,0,16723.0,,
+housing,043-1041-0000,043-1041,15 Madison St,2021,2,2-5 Family,Velazquez Michael A,NOO2-5,full rate,649700,0,9095.8,,
+housing,045-0236-0000,045-0236,26 Taylor St,2021,2,2-5 Family,Mieses Maria,OO2-5,owner-occupied,615400,0,4646.28,,
+housing,045-0445-0000,045-0445,288 Prairie Ave,2021,2,2-5 Family,Jeaniste Uris,NOO2-5,full rate,594700,0,8325.8,,
+housing,045-0510-0000,045-0510,62 Chester Ave,2021,2,2-5 Family,Kwan Kwok Hung,NOO2-5,full rate,572200,0,8010.8,,
+housing,045-0601-0000,045-0601,58 Glenham St,2021,2,2-5 Family,Green Bay Properties LLC,NOO2-5,full rate,585500,0,8197.0,,
+housing,048-1193-0000,048-1193,166-168 Burnside St,2021,2,2-5 Family,Nunez Jessica Reyna,OO2-5,owner-occupied,657900,0,4967.16,,
+housing,048-1194-0000,048-1194,170-172 Burnside St,2021,2,2-5 Family,Olumese Michael Osamagumwende,NOO2-5,full rate,643600,0,9010.4,,
+housing,054-0255-0000,054-0255,95 Colfax St,2021,1,Single Family,Dottel Elizabeth Hernandez,OO01,owner-occupied,551000,0,4628.4,,
+housing,059-0788-0000,059-0788,29 Spicer St,2021,1,Single Family,De Los Santos Virginia,OO01,owner-occupied,423100,0,3554.04,,
+housing,059-0872-0000,059-0872,55 Verndale Ave,2021,2,2-5 Family,Rodgers Haylee L,NOO2-5,full rate,592900,0,8300.6,,
+housing,061-0339-0000,061-0339,148 Rutherglen Ave,2021,1,Single Family,Martinez Alexael,NO01,full rate,481500,0,7029.92,,
+housing,062-0178-0000,062-0178,88 Bowdoin St,2021,1,Single Family,Mendes Menalisa,OO01,owner-occupied,472300,0,3967.32,,
+housing,063-0023-0000,063-0023,35 Erastus St,2021,1,Single Family,Morrison Shanna Kay,NO01,full rate,491900,0,7181.76,,
+housing,063-0104-0000,063-0104,24 Hannah St,2021,1,Single Family,Pimentel Michael,OO01,owner-occupied,513300,36429,4005.72,81565,2017
+housing,063-0249-0000,063-0249,61 Joslin St,2021,2,Single Family,Guadarrama-Lopez Jose M,NOO2-5,full rate,598000,0,8372.0,,
+housing,063-0300-0000,063-0300,12 Steere Ave,2021,2,2-5 Family,Valdez Bellatrix A,OO2-5,owner-occupied,610200,0,4607.04,,
+housing,063-0362-0000,063-0362,16 Hyat St,2021,2,2-5 Family,Fernandes Milucy F,NOO2-5,full rate,643700,0,9011.8,,
+housing,063-0607-0000,063-0607,296 Amherst St,2021,2,2-5 Family,Santana Reyes Rafael Augusto,OO2-5,owner-occupied,620000,0,4681.0,,
+housing,065-0240-0000,065-0240,128 River Ave,2021,2,2-5 Family,Concul Oscar,NOO2-5,full rate,606600,0,8492.4,,
+housing,065-0342-0000,065-0342,27 Geneva St,2021,2,2-5 Family,Firpo Darilina Mercedes,OO2-5,owner-occupied,590900,0,4461.32,,
+housing,065-0992-0000,065-0992,32 Berlin St,2021,2,2-5 Family,Sepulveda Sergio Rios,OO2-5,owner-occupied,572500,0,4322.4,,
+housing,068-0753-0000,068-0753,58 Wayne St,2021,1,Single Family,Lavoo Tyler,NO01,full rate,420500,0,6139.32,81566,2017
+housing,069-0266-0000,069-0266,25 Camden Ave,2021,2,2-5 Family,Leon Lorraine Rodriguez,NOO2-5,full rate,624000,0,8736.0,,
+housing,070-0036-0000,070-0036,56 Tappan St,2021,1,Single Family,Lamptey Emmanuel O,NO01,full rate,443700,0,6478.04,,
+housing,070-0044-0000,070-0044,8 Tappan St,2021,2,Single Family,Patel Arpitkumar,NOO2-5,full rate,626700,0,8773.8,,
+housing,070-0137-0000,070-0137,346 Admiral St,2021,1,Single Family,Dasilva Jr Jose Jorge,OO01,owner-occupied,484700,0,4071.48,,
+housing,071-0026-0000,071-0026,35 Russo St,2021,1,Single Family,Nieves Oscar R,OO01,owner-occupied,434100,0,3646.44,112460,2018
+housing,071-0140-0000,071-0140,603 Charles St,2021,2,2-5 Family,Garcia Yosana R,NOO2-5,full rate,631800,0,8845.2,BLDG-19-1977,2019
+housing,071-0286-0000,071-0286,56 Ascham St,2021,2,2-5 Family,Cortorreal Marte Odette M,OO2-5,owner-occupied,612500,0,4624.4,,
+housing,076-0266-0000,076-0266,189 Salina St,2021,2,2-5 Family,Martinez Patricia,OO2-5,owner-occupied,589800,0,4453.0,,
+housing,077-0353-0000,077-0353,24 Nellie St,2021,1,Single Family,Sosa Stephanie L,OO01,owner-occupied,377100,0,3167.64,,
+housing,077-0354-0000,077-0354,28 Nellie St,2021,1,Single Family,Arias Aleydis E,OO01,owner-occupied,377100,0,3167.64,,
+housing,077-0423-0000,077-0423,34 Danby St,2021,1,Single Family,Gonzalez-Asencio Claudio A,NO01,full rate,452500,0,6606.52,,
+housing,078-0242-0000,078-0242,16 Andy,2021,2,2-5 Family,Pena Amanda,OO2-5,owner-occupied,638600,0,4821.44,,
+housing,080-0596-0000,080-0596,8 Walsh,2021,1,Single Family,Estrella Pichardo Dayanara A,OO01,owner-occupied,438000,0,3679.2,,
+housing,080-0597-0000,080-0597,12 Walsh,2021,1,Single Family,Nunez Marlon Guzman,NO01,full rate,468500,0,6840.12,,
+housing,080-0598-0000,080-0598,16 Walsh,2021,1,Single Family,Nunez Margarita,NO01,full rate,536500,0,7832.92,,
+housing,080-0681-0000,080-0681,49 Huber Ave,2021,2,2-5 Family,Lora John Michael,OO2-5,owner-occupied,649000,0,4899.96,,
+housing,080-0886-0000,080-0886,20-22 Klondike St,2021,2,2-5 Family,Carter Victoria C,NOO2-5,full rate,680400,0,9525.6,,
+housing,080-0916-0000,080-0916,176-178 Fruit Hill Ave,2021,2,2-5 Family,Latch Realty LLC,NOO2-5,full rate,905100,0,12671.4,,
+housing,084-0128-0066,084-0128,66 Tiffany St,2021,1,Residential Condo,Hartley Linda Trustee,NO01,full rate,487200,0,7113.12,,
+housing,084-0128-0068,084-0128,68 Tiffany St,2021,1,Residential Condo,Hartley Janina Celeste,OO01,owner-occupied,498900,0,4190.76,,
+housing,084-0129-0000,084-0129,60 Tiffany St,2021,1,Single Family,Sura Sindy Guadalupe,NO01,full rate,502500,0,7336.52,,
+housing,096-0341-8LAW,096-0341,72 King St,2021,4,Other Improved Land,King Street Commons LP,8LAW,8% affordable-housing law,2419000,2279931,4060.8,,
+housing,096-0342-000A,096-0342,35 Sheridan St,2021,1,Residential Condo,Allen Jhanev Kala,OO01,owner-occupied,297000,0,2494.8,,
+housing,096-0342-000B,096-0342,35 Sheridan St,2021,1,Residential Condo,Nah Jamesetta T,OO01,owner-occupied,232600,0,1953.84,,
+housing,096-0342-000C,096-0342,35 Sheridan St,2021,1,Residential Condo,Marin Melissa,OO01,owner-occupied,297000,0,2494.8,,
+housing,096-0342-000D,096-0342,35 Sheridan St,2021,1,Residential Condo,Tucker Lael,OO01,owner-occupied,232600,125715,897.84,,
+housing,096-0342-000E,096-0342,35 Sheridan St,2021,1,Residential Condo,Finnigan Benjamin M,OO01,owner-occupied,297000,0,2494.8,,
+housing,097-0317-0000,097-0317,153 Russo St,2021,2,2-5 Family,Augustin May J,NOO2-5,full rate,658200,0,9214.8,,
+housing,097-0318-0000,097-0318,159 Russo St,2021,2,2-5 Family,Jallow Teddi,OO2-5,owner-occupied,658400,0,4970.92,,
+housing,097-0425-0000,097-0425,21 Christopher St,2021,1,Single Family,Duarte Takeysha,OO01,owner-occupied,367300,0,3085.32,,
+housing,097-0426-0000,097-0426,25 Christopher St,2021,1,Single Family,Kroog Sara,NO01,full rate,499200,0,7288.32,,
+housing,097-0549-0000,097-0549,32 Raphael Ave,2021,1,Single Family,Glantz Ryan,NO01,full rate,487100,0,7111.68,,
+housing,097-0953-0006,097-0953,6 Lisi Ln,2021,1,Residential Condo,Alves Jennifer S,OO01,owner-occupied,358400,0,3010.56,,
+housing,097-0953-0008,097-0953,8 Lisi Ln,2021,1,Residential Condo,Khan Saarah,OO01,owner-occupied,313100,0,2630.04,,
+housing,098-0142-0000,098-0142,35 Lakeside St,2021,1,Single Family,Ross Tahon Terrell,OO01,owner-occupied,452400,0,3800.16,,
+housing,098-0266-0000,098-0266,28 Alaska St,2021,2,2-5 Family,Constant Joseph,OO2-5,owner-occupied,660200,0,4984.52,,
+housing,098-0267-0000,098-0267,24 Alaska St,2021,2,2-5 Family,Teixeira Eric,OO2-5,owner-occupied,662600,0,5002.64,,
+housing,098-0397-0000,098-0397,42 Ledge St,2021,3,2-5 Family,Tropnas Jeanwiner,NOO2-5,full rate,668600,0,9360.4,,
+housing,099-0005-0000,099-0005,19 Stansbury St,2021,1,Single Family,Aquino Evelin M,OO01,owner-occupied,368000,0,3091.2,,
+housing,099-0128-0000,099-0128,22 Sherwood St,2021,1,Single Family,Chosen Generation LLC,NO01,full rate,159600,0,2330.16,,
+housing,099-0278-0000,099-0278,55 Sherwood St,2021,2,2-5 Family,Vicioso Homes LLC,NOO2-5,full rate,391600,0,5482.4,,
+housing,099-0347-0000,099-0347,57 Lancashire St,2021,1,Single Family,Wyche Green Daniel T,NO01,full rate,375800,0,5486.68,,
+housing,099-0348-0000,099-0348,61 Lancashire St,2021,1,Single Family,Freeman Leo Rashad,OO01,owner-occupied,381500,0,3204.6,,
+housing,099-0349-0000,099-0349,65 Lancashire St,2021,1,Single Family,Rodriguez David,NO01,full rate,381500,0,5569.92,,
+housing,104-0783-0002,104-0783,19 Terrace Ave,2021,1,Residential Condo,Rodrigues Marisia L,NO01,full rate,303700,0,4434.04,,
+housing,104-0783-0003,104-0783,23 Terrace Ave,2021,1,Residential Condo,Halabi Fareed,NO01,full rate,306500,0,4474.92,,
+housing,105-0502-0000,105-0502,31 Atwood St,2021,1,Charitable,PCHC Atwood Inc,E01,exempt,4099200,4099200,0.0,,
+housing,109-0194-0000,109-0194,135 Mercy St,2021,2,2-5 Family,Milien Smeel,NOO2-5,full rate,737400,0,10323.6,,
+housing,113-0346-0000,113-0346,9 Melissa St,2021,2,2-5 Family,Fatima Realty Inc,NOO2-5,full rate,704600,0,9864.4,,
+housing,116-0295-0000,116-0295,215 Home Ave,2021,1,Single Family,Giron Noriega Esril J,NO01,full rate,521500,0,7613.92,BLDG-19-1191,2019
+housing,117-0052-0000,117-0052,611 Pleasant Valley Pkwy,2021,1,Single Family,Gaj Maxfield,NO01,full rate,481000,0,7022.6,,
+housing,118-0423-0000,118-0423,55 Zella St,2021,1,Single Family,Alvear Carlos L,OO01,owner-occupied,496100,0,4167.24,,
+housing,120-0287-0000,120-0287,115 Pinehurst Ave,2021,2,2-5 Family,109-115 Pinehurst LLC,NOO2-5,full rate,788700,0,11041.8,,
+housing,122-0325-0000,122-0325,55 Ardmore Ave,2021,1,Single Family,Ibrahim Bilal,NO01,full rate,554200,0,8091.32,,
+housing,123-0121-0000,123-0121,163 Sunbury St,2021,1,Single Family,Taiwo Adewunmi O,OO01,owner-occupied,487900,0,4098.36,,
+housing,123-0225-0000,123-0225,26 Clyde St,2021,1,Single Family,Colaluca Property LLC,NO01,full rate,565900,0,8262.16,BLDG-19-866,2019
+housing,123-0330-0000,123-0330,170 Devonshire St,2021,1,Single Family,Omowumi Sola,NO01,full rate,437000,0,6380.2,,
+housing,123-0470-0000,123-0470,445 Admiral St,2021,2,Single Family,Colaluca Joseph,NO01,full rate,509600,0,7440.16,,
+housing,124-0529-0000,124-0529,65 Texas Ave,2021,1,Single Family,Placencia-Fernandez Kathy,OO01,owner-occupied,546100,0,4587.24,,
+housing,124-0536-0000,124-0536,71 Kentland Ave,2021,1,Single Family,Marte Carmelo Santana,OO01,owner-occupied,476700,0,4004.28,,
+housing,124-0537-0000,124-0537,77 Kentland Ave,2021,1,Single Family,Bhattarai Raghunath,NO01,full rate,514200,0,7507.32,,
+housing,003-0134-0000,003-0134,27 Douglas Ave,2022,2,2-5 Family,Tapia Vanessa,NOO2-5,full rate,650900,0,9112.6,,
+housing,003-0135-0000,003-0135,31-33 Douglas Ave,2022,2,2-5 Family,Thelemaque Annicey,OO2-5,owner-occupied,661700,0,4995.84,,
+housing,003-0136-0000,003-0136,35 Douglas Ave,2022,2,2-5 Family,Brewster Alvin,NOO2-5,full rate,585300,0,8194.2,,
+housing,005-0542-0000,005-0542,121 Grand View St,2022,2,2-5 Family,Diaz Luis,NOO2-5,full rate,836500,0,11711.0,,
+housing,010-0357-0000,010-0357,181 Bowen St,2022,1,Single Family,Williams Marie,OO01,owner-occupied,919400,0,7722.96,,
+housing,014-0511-0000,014-0511,219 Waterman St,2022,16,Apartments,Waterman 219 LLC,C11,full rate,2734800,0,77941.8,,
+housing,016-0389-0001,016-0389,169 Transit St Unit 1,2022,1,Residential Condo,Ostor Akos A Trustee,NO01,full rate,797600,0,11644.96,,
+housing,016-0389-0002,016-0389,169 Transit St,2022,1,Residential Condo,Gudaitis Donald J,NO01,full rate,784700,0,11456.64,,
+housing,023-0548-0000,023-0548,407 Blackstone St,2022,2,2-5 Family,Bamaca de Leon Marvin S,OO2-5,owner-occupied,600200,0,4531.52,,
+housing,028-1082-0000,028-1082,17 Marcello St,2022,29,Apartments,34 Knight Street LLC,C11,full rate,5787800,0,164952.32,,
+housing,031-0107-0000,031-0107,43 Superior St,2022,1,Single Family,Baez Francisco,OO01,owner-occupied,452000,0,3796.8,BLDG-19-480,2019
+housing,034-0018-0000,034-0018,845 Manton Ave,2022,2,2-5 Family,Barthelus Wislaine,OO2-5,owner-occupied,648300,0,4894.68,,
+housing,034-0405-0000,034-0405,789 Manton Ave,2022,2,2-5 Family,Sepulveda Carolina,NOO2-5,full rate,730900,0,10232.6,,
+housing,037-0830-0000,037-0830,201 Wendell St,2022,2,2-5 Family,Reyes Anabel,OO2-5,owner-occupied,629500,0,4752.76,,
+housing,040-0378-0000,040-0378,325 Slater Ave,2022,1,Single Family,"Trust, Trustees of Trocadero",NO01,full rate,4114800,0,60076.08,,
+housing,040-0381-0000,040-0381,290 President Ave,2022,1,Residential Vacant,Provazza Cheryl A,OO01,owner-occupied,1961800,0,16479.12,,
+housing,040-0384-0000,040-0384,315 Slater Ave,2022,1,Single Family,BARNARD IAN T,OO01,owner-occupied,1836900,0,15429.96,,
+housing,042-0094-0000,042-0094,38 Sorrento St,2022,2,2-5 Family,Leung Elsa Lui,NOO2-5,full rate,641800,0,8985.2,,
+housing,043-0153-0000,043-0153,33 Grand St,2022,2,2-5 Family,Fernandes Artur,NOO2-5,full rate,610000,0,8540.0,,
+housing,044-0428-0000,044-0428,26 Cromwell St,2022,2,2-5 Family,Nelson Marie L,NOO2-5,full rate,606500,0,8491.0,,
+housing,045-0446-0000,045-0446,284 Prairie Ave,2022,2,2-5 Family,Felix Jan Alix,NOO2-5,full rate,591300,0,8278.2,,
+housing,045-0464-0000,045-0464,57 Chester Ave,2022,1,Single Family,Aime Sandra,NO01,full rate,492200,0,7186.12,,
+housing,045-0466-0000,045-0466,63 Chester Ave,2022,1,Single Family,Woldemariam Betelhem G,NO01,full rate,492200,0,7186.12,,
+housing,045-0467-0000,045-0467,67 Chester Ave,2022,1,Single Family,Varla Emmanuel V,NO01,full rate,492200,0,7186.12,,
+housing,045-0742-0000,045-0742,84 Glenham St,2022,2,2-5 Family,Carina C Hubbard,OO2-5,owner-occupied,634300,0,4789.0,,
+housing,045-0923-0000,045-0923,333 Willard Ave,2022,4,2-5 Family,Kaimanes Home Improvement LLC,NOO2-5,full rate,1134800,0,15887.2,,
+housing,048-0290-0000,048-0290,94 Potters Ave,2022,1,Single Family,Gouveia Savanna Marie,OO01,owner-occupied,280800,0,2358.72,,
+housing,048-0442-0000,048-0442,78 Burnside St,2022,1,Single Family,Khoun Sonavory B,OO01,owner-occupied,386700,0,3248.28,,
+housing,048-0565-0000,048-0565,44 Harriet St,2022,2,2-5 Family,Neves Zaida,NOO2-5,full rate,600600,0,8408.4,,
+housing,049-0148-0000,049-0148,31 Hamilton St,2022,2,2-5 Family,J and J General Contractor LLC,NOO2-5,full rate,755400,0,10575.6,,
+housing,053-0158-0000,053-0158,322 Thurbers Ave,2022,1,Single Family,Rukanira Jimmy,OO01,owner-occupied,389200,0,3269.28,,
+housing,054-0256-0000,054-0256,99 Colfax St,2022,1,Single Family,de la Rosa Yonaisi Reyes,NO01,full rate,548400,0,8006.64,,
+housing,054-0585-0000,054-0585,19 Millard St,2022,2,Single Family,Ajobiewe Benjamin,NOO2-5,full rate,583800,0,8173.2,,
+housing,058-0833-0000,058-0833,172 Baker St,2022,2,2-5 Family,Mercedes Floribel,OO2-5,owner-occupied,638800,0,4822.96,,
+housing,061-0997-0000,061-0997,182 Rounds Ave,2022,1,Single Family,Carreno Piedad Granados,OO01,owner-occupied,486900,0,4089.96,,
+housing,062-0285-0000,062-0285,119 Bowdoin St,2022,2,2-5 Family,Lindie Nicole,OO2-5,owner-occupied,656400,0,4955.84,,
+housing,062-0288-0000,062-0288,109 Bowdoin St,2022,2,2-5 Family,Zhang Xiaolin,NOO2-5,full rate,616100,0,8625.4,,
+housing,062-0606-0000,062-0606,4 Cutler St,2022,2,2-5 Family,Brooks Timothy D,NOO2-5,full rate,677700,0,9487.8,,
+housing,062-0620-8LAW,062-0620,114 Bowdoin St,2022,8,Other Improved Land,Olneyville Housing Corp,8LAW,8% affordable-housing law,1565500,1187363,11041.6,,
+housing,063-0030-0000,063-0030,317 Amherst St,2022,1,Single Family,Suarez Jose S,NO01,full rate,487200,0,7113.12,,
+housing,063-0100-0000,063-0100,14 Hannah St,2022,2,2-5 Family,Bolivar Jhon W,NOO2-5,full rate,705900,0,9882.6,,
+housing,063-0149-0000,063-0149,43 Amsterdam St,2022,2,2-5 Family,Francois Wilemite,OO2-5,owner-occupied,701800,0,5298.6,,
+housing,064-0425-0000,064-0425,8 Fairmount Ave,2022,1,Single Family,Onishi Assanuma Alexandre Takeshi,OO01,owner-occupied,467900,0,3930.36,,
+housing,065-0031-0000,065-0031,34 Newark St,2022,2,2-5 Family,Pierre Roudy,NOO2-5,full rate,602900,0,8440.6,,
+housing,065-0033-0000,065-0033,42 Newark St,2022,2,2-5 Family,Beauplan Eliette Jean,OO2-5,owner-occupied,600900,0,4536.8,,
+housing,065-0069-0000,065-0069,23 Newark St,2022,2,2-5 Family,Fatima Realty Inc,NOO2-5,full rate,661100,0,9255.4,,
+housing,065-0306-0000,065-0306,7 Andem St,2022,2,2-5 Family,Mejia Hilario Ramon D,OO2-5,owner-occupied,645200,0,4871.28,,
+housing,066-0100-0000,066-0100,38 Berkley St,2022,2,2-5 Family,Chung Leung Ernie Wai,NOO2-5,full rate,602100,0,8429.4,,
+housing,067-0448-0000,067-0448,183 Jewett St,2022,2,2-5 Family,Trujillo Cesar Michi,OO2-5,owner-occupied,686500,0,5183.08,,
+housing,069-0055-0000,069-0055,103 Chad Brown St,2022,2,2-5 Family,Monteiro Lenira Ivani,NOO2-5,full rate,663800,0,9293.2,,
+housing,070-0092-0000,070-0092,11 Ceres St,2022,2,2-5 Family,Duran Wilson Lopez,OO2-5,owner-occupied,737800,0,5570.4,,
+housing,071-0170-0000,071-0170,9 Gillen St,2022,2,2-5 Family,Jean Chonnette Charlemagne,NOO2-5,full rate,609800,0,8537.2,,
+housing,071-0395-0000,071-0395,67 Commodore St,2022,2,2-5 Family,Fernandez Jean Lizardo,NOO2-5,full rate,628000,0,8792.0,,
+housing,072-0014-0000,072-0014,36 Hall St,2022,2,2-5 Family,Maurice Kervin,OO2-5,owner-occupied,596600,0,4504.36,,
+housing,072-0404-0000,072-0404,115 Chatham St,2022,1,Single Family,Howard Russell W,NO01,full rate,437700,0,6390.44,,
+housing,075-0035-0000,075-0035,38 Collyer St,2022,1,Single Family,Morgan Thomas,OO01,owner-occupied,442800,0,3719.52,,
+housing,075-0297-0000,075-0297,47 Matilda St,2022,7,TSA,Matilda Pines LLC,TSA,tax stabilization agreement,3533800,2630084,26388.52,,
+housing,076-0287-0000,076-0287,105 Salina St,2022,1,Single Family,Moyes Lucy R,OO01,owner-occupied,401500,0,3372.6,,
+housing,076-0343-0000,076-0343,22 Longmont St,2022,2,2-5 Family,Shah Trustee Naman,NOO2-5,full rate,630600,0,8828.4,,
+housing,077-0335-0000,077-0335,67 Batcheller Ave,2022,2,2-5 Family,Bishop Derek,NOO2-5,full rate,618800,0,8663.2,,
+housing,077-0352-0000,077-0352,20 Nellie St,2022,1,Single Family,Allen Terri,NO01,full rate,365100,0,5330.48,,
+housing,079-0225-0000,079-0225,12 Crandall St,2022,1,Single Family,Liam Investments LLC,NO01,full rate,408200,0,5959.72,,
+housing,080-0862-0000,080-0862,53 Huber Ave,2022,2,2-5 Family,Delacruz Jr Narciso G,OO2-5,owner-occupied,783000,0,5911.68,,
+housing,080-0904-0000,080-0904,52 Klondike St,2022,1,Single Family,Perez Juan,NO01,full rate,533800,0,7793.48,15068,2011
+housing,084-0364-0000,084-0364,53 Rowan St,2022,1,Single Family,Bonds Chante R,OO01,owner-occupied,397600,0,3339.84,,
+housing,085-0312-0000,085-0312,352 Sharon St,2022,1,Single Family,Meyer Georganna K,NO01,full rate,496300,0,7246.0,,
+housing,093-0236-0000,093-0236,347 Slater Ave,2022,1,Single Family,Carter Prudence L Trustee,OO01,owner-occupied,2063900,0,17336.76,,
+housing,094-0236-0000,094-0236,1460 Chalkstone Ave,2022,1,Single Family,Rodas Rose Jacquelina,NO01,full rate,441500,0,6445.92,,
+housing,094-0237-0000,094-0237,1464 Chalkstone Ave,2022,1,Single Family,Rackliff Amanda,OO01,owner-occupied,443800,0,3727.92,,
+housing,095-0359-0000,095-0359,30 Rushmore Ave,2022,1,Single Family,Henin George K,NO01,full rate,372000,0,5431.2,,
+housing,097-0319-0000,097-0319,163 Russo St,2022,2,2-5 Family,Perez Samuel,NOO2-5,full rate,578200,0,8094.8,90482,2017
+housing,097-0949-0000,097-0949,86 Raphael Ave,2022,1,Single Family,Abreu Housing LLC,NO01,full rate,514000,0,7504.4,,
+housing,098-0300-0000,098-0300,52 Opper St,2022,2,2-5 Family,Xue Deng Ping Duncan,NOO2-5,full rate,576700,0,8073.8,,
+housing,099-0153-0000,099-0153,506 Branch Ave,2022,2,2-5 Family,West Property Acquisitions LLC,NOO2-5,full rate,632200,0,8850.8,,
+housing,107-0214-0000,107-0214,195 Eastwood Ave,2022,2,2-5 Family,Hernandez Martinez Darlin J,OO2-5,owner-occupied,650200,0,4909.04,,
+housing,109-0110-0000,109-0110,25 Moorefield St,2022,2,2-5 Family,Colaj Alejandro Olmos,OO2-5,owner-occupied,627100,0,4734.64,,
+housing,114-0132-0000,114-0132,29 Middleton St,2022,1,Single Family,Harvey Lorren Tyrone,NO01,full rate,504000,0,7358.4,,
+housing,118-0058-0000,118-0058,21 Stonelaw Ave,2022,1,Single Family,Chirino Coto Ana Yoleida,NO01,full rate,552000,0,8059.2,,
+housing,118-0059-0000,118-0059,25 Stonelaw Ave,2022,1,Single Family,Patel Amrutbhaid D,NO01,full rate,552000,0,8059.2,,
+housing,119-0108-0000,119-0108,39 August St,2022,2,2-5 Family,Upturn Investments LLC,NOO2-5,full rate,737400,0,10323.6,,
+housing,123-0189-0000,123-0189,827 River Ave,2022,2,2-5 Family,Realty LLC Rise,NOO2-5,full rate,683000,0,9562.0,,
+housing,123-0324-0000,123-0324,175 Cumberland St,2022,1,Single Family,Diallo Mame Awa,NO01,full rate,563200,0,8222.72,,
+housing,123-0328-0000,123-0328,169 Cumberland St,2022,1,Single Family,Oisamaiye Jackson,NO01,full rate,554500,0,8095.72,,
+housing,123-0348-0000,123-0348,133 Cumberland St,2022,1,Single Family,Gallego Alejandro,OO01,owner-occupied,522800,0,4391.52,,
+housing,123-0349-0000,123-0349,129 Cumberland St,2022,1,Single Family,Okonsky Thomas,OO01,owner-occupied,525600,0,4415.04,,
+housing,123-0382-0000,123-0382,140 Cumberland St,2022,1,Single Family,Diarra Souleymane,OO01,owner-occupied,510800,0,4290.72,,
+housing,123-0386-0000,123-0386,148 Cumberland St,2022,1,Single Family,Ibanez Oscar   Jr,OO01,owner-occupied,531500,36429,4158.6,,
+housing,123-0553-0000,123-0553,895 River Ave,2022,1,Single Family,Casey Bryan J,NO01,full rate,423000,0,6175.8,,
+housing,005-0525-0000,005-0525,58 Lancaster St,2023,1,Single Family,Bennett Katrina Anne,OO01,owner-occupied,708900,0,5954.76,,
+housing,008-0029-0000,008-0029,31 Padelford St,2023,2,Single Family,Lee Jeffrey Gig,NOO2-5,full rate,757700,0,10607.8,,
+housing,012-0131-0000,012-0131,17 Planet St,2023,6,Apartments,Bronhard Walter L,C610,full rate,2386400,0,62046.4,,
+housing,013-0045-0000,013-0045,235 Meeting St,2023,4,Combination,Boghos LLC Boutros Salo &,C01,full rate,2219500,0,53001.68,,
+housing,016-0670-0000,016-0670,67 Williams St,2023,1,Single Family,Hirsch Jeffrey S,OO01,owner-occupied,1559400,0,13098.96,,
+housing,018-0353-8LAW,018-0353,423-425 South Main St,2023,30,Other Improved Land,Link Street LLC,8LAW,8% affordable-housing law,25847200,9436746,479185.24,,
+housing,023-0998-0000,023-0998,472 Friendship St,2023,2,2-5 Family,Qureshi Fahad Vali I,OO2-5,owner-occupied,609300,0,4600.24,,
+housing,024-0234-0000,024-0234,285 Friendship St,2023,1,2-5 Family,BSPVL Holdings LLC,NOO2-5,full rate,1047000,0,14658.0,,
+housing,030-0555-0000,030-0555,40 Bridgham St,2023,2,Residential Vacant,Canalda Josuel,OO2-5,owner-occupied,631500,0,4767.84,,
+housing,031-0558-0000,031-0558,12 Waverly St,2023,2,2-5 Family,,NOO2-5,full rate,618400,0,8657.6,,
+housing,032-0143-0000,032-0143,33 Almy St,2023,1,Single Family,Johnson Jazzmen Shantel Trustee,NO01,full rate,606700,0,8857.84,,
+housing,034-0154-0000,034-0154,695 Manton Ave,2023,2,2-5 Family,Dale Kasey,NOO2-5,full rate,664500,0,9303.0,,
+housing,034-0393-0000,034-0393,699 Manton Ave,2023,2,2-5 Family,Amente Lencho German,OO2-5,owner-occupied,673700,0,5086.44,,
+housing,034-0394-0000,034-0394,697 Manton Ave,2023,2,2-5 Family,DeBarros Davi B,NOO2-5,full rate,688300,0,9636.2,,
+housing,034-0406-0000,034-0406,787 Manton Ave,2023,2,2-5 Family,Claude Ann C,NOO2-5,full rate,627800,0,8789.2,,
+housing,036-0092-0000,036-0092,167 Ford St,2023,2,2-5 Family,Pena Marquez Narcisco R,OO2-5,owner-occupied,704300,0,5317.48,,
+housing,040-0374-0000,040-0374,285 Slater Ave,2023,1,Single Family,Daou - Co tr Ghassan,OO01,owner-occupied,2844100,0,23890.44,,
+housing,040-0383-0000,040-0383,305 Slater Ave,2023,1,Single Family,Libby William,OO01,owner-occupied,3477600,0,29211.84,,
+housing,042-0260-0000,042-0260,139 Sorrento St,2023,2,2-5 Family,Ashamu Owolabi R,OO2-5,owner-occupied,641000,0,4839.56,,
+housing,042-0301-0000,042-0301,78 Anthony Ave,2023,2,2-5 Family,Smith Traka J,NOO2-5,full rate,589800,0,8257.2,,
+housing,043-0595-0000,043-0595,31 Benedict St,2023,2,2-5 Family,Cardoso Maria,NOO2-5,full rate,614400,0,8601.6,,
+housing,044-0434-0000,044-0434,50 Cromwell St,2023,2,2-5 Family,Gomes Aleno,OO2-5,owner-occupied,706800,0,5336.36,,
+housing,045-0224-0000,045-0224,20 Harvard Ave,2023,2,2-5 Family,RI Harvard Properties LLC,NOO2-5,full rate,662300,0,9272.2,,
+housing,045-0433-0000,045-0433,63 Hilton St,2023,2,2-5 Family,Chung Leung Ernie Wai Trustee,NOO2-5,full rate,572000,0,8008.0,,
+housing,046-0407-0000,046-0407,190 O Connell St,2023,2,2-5 Family,,OO2-5,owner-occupied,610800,0,4611.56,,
+housing,046-0409-0000,046-0409,184 O Connell St,2023,2,2-5 Family,Mendez Rafael,NOO2-5,full rate,610800,0,8551.2,,
+housing,048-0155-0000,048-0155,272 Sayles St,2023,2,2-5 Family,Zapata Maldonado Miguel Angel,NOO2-5,full rate,588700,0,8241.8,,
+housing,048-0877-0000,048-0877,18 Van Buren St,2023,1,Single Family,Roman Saira A,OO01,owner-occupied,392000,0,3292.8,,
+housing,049-0407-0000,049-0407,273 Bucklin St,2023,1,Charitable,Domiguez Maribel,OO01,owner-occupied,418000,0,3511.2,,
+housing,052-0574-0000,052-0574,261 Warrington Ave,2023,1,Single Family,Cardona Billy Carrasquillo,NO01,full rate,464600,0,6783.16,,
+housing,052-0575-0000,052-0575,255 Warrington Ave,2023,1,Single Family,Menon Rahul Korathat,NO01,full rate,408700,0,5967.04,,
+housing,053-0529-0000,053-0529,15 Sackett St,2023,2,2-5 Family,Jacobs Sharell,OO2-5,owner-occupied,610200,0,4607.04,,
+housing,054-0913-0000,054-0913,75 Colfax St,2023,2,2-5 Family,Urena Quezada Markiry Nairoby,OO2-5,owner-occupied,448000,0,3382.4,,
+housing,057-0143-0000,057-0143,78 Cass St,2023,2,2-5 Family,Cruz Peralta Ricardo Y,OO2-5,owner-occupied,758000,0,5722.92,,
+housing,059-0556-0000,059-0556,137 Calla St,2023,1,Single Family,Amoako Jerry,NO01,full rate,411300,0,6005.0,,
+housing,059-0686-0000,059-0686,155 Babcock St,2023,1,Single Family,Quiroz Minerva,OO01,owner-occupied,421300,0,3538.92,,
+housing,061-0995-0000,061-0995,117 Rutherglen Ave,2023,1,Single Family,Lim Meng Trustee,OO01,owner-occupied,561800,0,4719.12,,
+housing,063-0066-0000,063-0066,40 Steuben St,2023,2,2-5 Family,Zuniga Melvin,NOO2-5,full rate,664300,0,9300.2,,
+housing,063-0266-0000,063-0266,65 Hyat St,2023,2,2-5 Family,Olaitan Olayinka,NOO2-5,full rate,628900,0,8804.6,,
+housing,063-0311-0000,063-0311,301 Manton Ave,2023,2,2-5 Family,Zeonweh Peter,NOO2-5,full rate,642200,0,8990.8,,
+housing,064-0773-0000,064-0773,218 Carleton St,2023,2,2-5 Family,Sanchez Carmen,NOO2-5,full rate,595800,0,8341.2,,
+housing,068-0854-0000,068-0854,43 Derry St,2023,1,Single Family,,OO01,owner-occupied,391300,0,3286.92,,
+housing,068-0855-0000,068-0855,39 Derry St,2023,1,Single Family,Swroop Neha,NO01,full rate,391300,0,5713.0,,
+housing,070-0107-0000,070-0107,127 Pumgansett St,2023,2,2-5 Family,Nestor Meghan Emma,NOO2-5,full rate,628500,0,8799.0,,
+housing,071-0403-0000,071-0403,20 Chatham St,2023,2,2-5 Family,Previlon Gregor,NOO2-5,full rate,629800,0,8817.2,,
+housing,071-0537-0000,071-0537,80 Commodore St,2023,1,Single Family,80 Commodore LLC,NO01,full rate,379500,0,5540.72,,
+housing,071-0541-0000,071-0541,72 Touro St,2023,1,Single Family,Badger Ryan M,NO01,full rate,376800,0,5501.28,,
+housing,072-0011-0000,072-0011,44 Hall St,2023,2,2-5 Family,Vazquez Jaleesa,NOO2-5,full rate,660400,0,9245.6,,
+housing,076-0245-0000,076-0245,82 Yorkshire St,2023,2,2-5 Family,Souther Lauren Jean,OO2-5,owner-occupied,653100,0,4930.92,,
+housing,077-0439-0000,077-0439,185 Windmill St,2023,1,Single Family,Clayton Cori Erin,OO01,owner-occupied,476600,36429,3697.44,,
+housing,077-0653-0000,077-0653,58 Argol St,2023,1,Single Family,Pena Dayma I,OO01,owner-occupied,377900,0,3174.36,,
+housing,078-0241-0000,078-0241,12 Andy,2023,2,2-5 Family,Stewart Amas Jr,OO2-5,owner-occupied,670800,0,5064.56,,
+housing,079-0285-0000,079-0285,23 Phebe St,2023,2,2-5 Family,Olaitan Olayinka,NOO2-5,full rate,667100,0,9339.4,,
+housing,079-0682-0000,079-0682,19 Hazael St,2023,2,2-5 Family,Upturn Investments LLC,NOO2-5,full rate,793200,0,11104.8,,
+housing,080-0096-0000,080-0096,49 Case Ln,2023,1,Single Family,Turner Kevin L JR,OO01,owner-occupied,382400,0,3212.16,,
+housing,080-0587-0000,080-0587,21 Walsh,2023,1,Single Family,Rumbel Colin,NO01,full rate,467400,0,6824.04,,
+housing,080-0588-0000,080-0588,19 Walsh,2023,1,Single Family,,OO01,owner-occupied,467700,0,3928.68,,
+housing,080-0589-0000,080-0589,15 Walsh,2023,1,Single Family,Recinos Kevin L,OO01,owner-occupied,468300,0,3933.72,,
+housing,080-0590-0000,080-0590,11 Walsh St,2023,1,Single Family,Delossantos Jerson Jose,OO01,owner-occupied,467500,0,3927.0,,
+housing,080-0599-0000,080-0599,20 Walsh,2023,1,Single Family,LA MAMI RESTAURANT,NO01,full rate,470300,0,6866.4,,
+housing,080-0601-0000,080-0601,28 Walsh,2023,1,Single Family,Martinez Masciel P,NO01,full rate,517400,0,7554.04,,
+housing,084-0354-0000,084-0354,40 Lawn St,2023,1,Single Family,Alphonso Michael A,NO01,full rate,398000,0,5810.8,,
+housing,085-0026-0000,085-0026,67 Naples Ave,2023,1,Single Family,Uriona Gamboa Paola Andrea,OO01,owner-occupied,594100,0,4990.44,,
+housing,086-0634-0000,086-0634,510 Wayland Ave,2023,1,Single Family,Chang Amy Sheau-Shuan,OO01,owner-occupied,1653300,0,13887.72,,
+housing,087-0094-0000,087-0094,280 Indiana Ave,2023,1,Single Family,Alejo Abigail Pena,OO01,owner-occupied,402600,0,3381.84,,
+housing,087-0151-0000,087-0151,227 Ohio Ave,2023,1,Single Family,Desir Keynes,NO01,full rate,361200,0,5273.52,,
+housing,087-0559-0000,087-0559,232 Alabama Ave,2023,1,Single Family,Padilla Diogenes O,OO01,owner-occupied,391200,0,3286.08,,
+housing,087-0588-0000,087-0588,191 Montgomery Ave,2023,2,2-5 Family,Li Xi,NOO2-5,full rate,652300,0,9132.2,,
+housing,087-0589-0000,087-0589,187 Montgomery Ave,2023,2,2-5 Family,Leung Elsa Lui,NOO2-5,full rate,652800,0,9139.2,,
+housing,097-0115-0000,097-0115,37 Manhattan St,2023,2,2-5 Family,DaSilva Davy I,OO2-5,owner-occupied,663400,0,5008.68,,
+housing,097-0316-0000,097-0316,147 Russo St,2023,2,2-5 Family,Cordova Stephanie,NOO2-5,full rate,670000,0,9380.0,,
+housing,097-0596-0000,097-0596,825 Charles St,2023,1,Single Family,Giles-Harris Joseph C,OO01,owner-occupied,486600,0,4087.44,,
+housing,099-0437-0000,099-0437,16 Virginia Ln,2023,2,2-5 Family,Tavarez Jorge Luis Castro,OO2-5,owner-occupied,629100,0,4749.72,,
+housing,104-0620-0000,104-0620,44 Sterling Ave,2023,1,Single Family,Hernandez Nicolas Ramiro B,NO01,full rate,448000,0,6540.8,,
+housing,107-0135-0000,107-0135,123 Laurel Hill Ave,2023,2,2-5 Family,Meregildo Liriano Lonardys M,OO2-5,owner-occupied,661900,0,4997.36,,
+housing,107-0595-0000,107-0595,35 Merino St,2023,1,Church,Providence Public Buildings Authority,E01,exempt,19205500,19205500,0.0,,
+housing,108-0013-0000,108-0013,53 Lowell Ave,2023,2,2-5 Family,Bulux-DeBaquiax Eulalia C,NOO2-5,full rate,601400,0,8419.6,,
+housing,109-0365-0000,109-0365,35 Hillhurst Ave,2023,1,Single Family,Gonzalez Pablo JR,NO01,full rate,499300,0,7289.8,,
+housing,112-0402-0000,112-0402,65 Dedham Ave,2023,1,Single Family,Prime Properties & Contractors LLC,NO01,full rate,407700,0,5952.44,,
+housing,115-0056-0000,115-0056,79 Sunset Ave,2023,1,Single Family,Duarte Brenda,OO01,owner-occupied,489400,0,4110.96,,
+housing,115-0401-0000,115-0401,56 Eliza St,2023,1,Single Family,Dorrejo Rafael,NO01,full rate,452100,0,6600.68,,
+housing,115-0631-0000,115-0631,101 Springfield St,2023,1,Single Family,Pena Ruby,OO01,owner-occupied,493600,0,4146.24,,
+housing,123-0002-0000,123-0002,638 Douglas Ave,2023,2,2-5 Family,Jalloh Fatima Yeaheh,NOO2-5,full rate,569800,0,7977.2,,
+housing,125-0078-0000,125-0078,76 Ardoene St,2023,1,Single Family,Polanco Joel D,OO01,owner-occupied,538000,0,4519.2,,
+housing,126-0191-0000,126-0191,16 Molter St,2023,1,Single Family,Cordero Cesar X,OO01,owner-occupied,469800,0,3946.32,,
+housing,126-0192-0000,126-0192,12 Molter,2023,1,Single Family,Bierd Jessenia,NO01,full rate,377800,0,5515.88,,

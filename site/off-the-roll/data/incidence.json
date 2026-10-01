@@ -5,10 +5,10 @@
   "regimes": [
     {
       "regime": "Colleges and hospitals, after their payments and the state's 27% (modeled)",
-      "forgone": 90896784,
-      "share_of_levy": 0.258,
-      "homestead_saves": 646,
-      "rental2_5_saves": 1569
+      "forgone": 86458284,
+      "share_of_levy": 0.245,
+      "homestead_saves": 621,
+      "rental2_5_saves": 1507
     },
     {
       "regime": "Tax stabilization agreements (abated, 2025 roll)",
@@ -18,11 +18,11 @@
       "rental2_5_saves": 392
     },
     {
-      "regime": "Providence Place (exempt by Council vote, net of ~$500K)",
-      "forgone": 20839261,
-      "share_of_levy": 0.059,
-      "homestead_saves": 176,
-      "rental2_5_saves": 427
+      "regime": "Providence Place (exempt by Council vote, net of ~$1M)",
+      "forgone": 20339261,
+      "share_of_levy": 0.058,
+      "homestead_saves": 172,
+      "rental2_5_saves": 417
     },
     {
       "regime": "Churches, charities, private schools, cemeteries, libraries (full rate)",
