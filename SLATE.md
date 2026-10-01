@@ -32,9 +32,9 @@ Each file's front matter lists what's Claude's (`claude:`) and what's still need
 **Can run once one or two answers come back**
 | Piece | Needs | Window |
 |---|---|---|
-| chartercare-first-payment | Grondin: was the Oct 1 installment paid? is there a PILOT? What else is in the $10.29M? | this week (AG plan due Fri Oct 2) |
-| tsa-22-of-66 | what the law says happens to non-filers; the auditor's reply on 350 Eddy; Brown on 342 Eddy | any week |
-| mall-18-cents | the payment figure ($1M Globe vs $500K RI Current; the site uses $1M); whether the 2027 revaluation is full and as of Dec 31 | before Oct 24 |
+| chartercare-first-payment | Grondin: was the Oct 1 installment paid? is there a PILOT? (CharterCARE's own 45-day PILOT deadline passed Apr 20) | this week (AG plan due Fri Oct 2) |
+| tsa-22-of-66 | read one pre-2021 TSA ordinance's default clause; the auditor's reply on 350 Eddy; Brown on 342 Eddy | any week |
+| mall-18-cents | one payment figure from Finance (statute: 10% of ~$5.9M to the City ≈ $500–600K; ProJo 2022: $1,006,234; the site says ~$1M); whether the 2027 revaluation is full | before Oct 24 |
 | brown-count | the walk; check the site lots; 277 Brook carries a homestead exemption although Brown owns it (ask the assessor) | before Oct 20 or Nov 17 |
 | state-pilot-line | the FY2028 gap from the November conferences; which year the $139.8M base belongs to | ~Nov 10 |
 
