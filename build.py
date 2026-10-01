@@ -77,7 +77,7 @@ HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <link rel="stylesheet" href="{root}style.css"></head><body>
 <div class="wrap"><header class="mast"><a class="name" href="{root}">Providence, on the record</a>
 <div class="tag">Liam Freaney · reporting built on the public record</div>
-<nav class="sections"><a href="{root}off-the-roll/">Off the Roll</a><a href="{root}housing/">Housing</a><a href="{root}downtown-ledger/">Downtown Ledger</a>
+<nav class="sections"><a href="{root}off-the-roll/">Off the Roll</a><a href="{root}housing/">Housing</a><a href="{root}311/">311</a><a href="{root}downtown-ledger/">Downtown Ledger</a>
 <a href="{root}inside-the-line/">Inside the Line</a><a href="{root}coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="{root}about/">About</a></nav></header>
 """
 FOOT = """<footer>Every figure on this site comes from a public record, named where it is used. Corrections go at the top of the page they correct, dated.
@@ -228,6 +228,8 @@ HZ = housing.render(page, e, SITE, DATELINE)
 # ---------------------------------------------------------------- Providence and Boston
 import compare
 CZ = compare.render(page, e, SITE, DATELINE)
+import front_door
+FZ = front_door.render(page, e, SITE, DATELINE)
 
 # ---------------------------------------------------------------- home
 h = ['<main><div class="dateline">PROVIDENCE</div><h1>Providence, on the record</h1>'
@@ -237,6 +239,8 @@ items = [("off-the-roll/", "OFF THE ROLL", f'${T["exempt"]/1e9:.1f} billion of P
           "Colleges, hospitals, government, a mall and 80 owners under tax agreements, set against what they pay the City."),
          ("housing/", "HOUSING · NEW", f'Providence permitted {HZ["doh"]:,} new homes in 2025, or {HZ["census"]:,}, depending on which government count you read',
           f'The State wants {HZ["goal"]:,} over five years. Its count of permits and the Census Bureau&#8217;s disagree by more than two to one.'),
+         ("311/", "311 · NEW", f'Providence&#8217;s 311 logged {FZ["web"]:,} of its {FZ["total"]:,} cases this year as &#8220;Web.&#8221; Its New Request button leads to a sign-in screen',
+          f'{FZ["guest"]:,} came through the guest form. What PVD311 publishes, what its menu of {FZ["types"]} case types asks, and who files.'),
          ("downtown-ledger/", "DOWNTOWN LEDGER", "What downtown has, what it lacks, and how long the missing takes to arrive",
           "Workers, storefronts, transit and the walk between them, measured."),
          ("inside-the-line/", "INSIDE THE LINE", "Who the hurricane barrier protects",
@@ -348,6 +352,7 @@ ab = ['<main><div class="dateline">ABOUT</div><h1>About this site</h1>',
       '<h2>Sections</h2><ul>',
       '<li><a href="../off-the-roll/">Off the Roll</a>: property that comes off the tax roll, and what its owners pay instead.</li>',
       '<li><a href="../housing/">Housing</a>: how many homes Providence permits and builds, by every count the government keeps.</li>',
+      '<li><a href="../311/">311</a>: what the City&#8217;s service-request system publishes, what its form asks, and who files.</li>',
       '<li><a href="../downtown-ledger/">Downtown Ledger</a>: what downtown Providence has, what it does not, and how long the missing take to arrive.</li>',
       '<li><a href="../inside-the-line/">Inside the Line</a>: the Fox Point Hurricane Barrier and what lies on either side of it.</li>',
       '<li><a href="https://providenceontherecord.substack.com">Reporting</a>: the stories, on Substack.</li></ul>',

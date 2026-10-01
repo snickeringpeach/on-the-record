@@ -1,0 +1,55 @@
+{
+ "case_types_ytd": [
+  {
+   "label": "Snow Plowing or Salting or Sanding Request",
+   "count": 4323
+  },
+  {
+   "label": "Trash or Recycling Bins or Carts",
+   "count": 2492
+  },
+  {
+   "label": "Missed Trash Day Pick-up Issue",
+   "count": 1586
+  },
+  {
+   "label": "Pothole Report",
+   "count": 1485
+  },
+  {
+   "label": "Parking Issues to Report",
+   "count": 943
+  },
+  {
+   "label": "Report Un-shoveled Sidewalks",
+   "count": 887
+  }
+ ],
+ "origins_ytd": [
+  {
+   "label": "Web",
+   "count": 14267
+  },
+  {
+   "label": "Phone",
+   "count": 4357
+  },
+  {
+   "label": null,
+   "count": 1136
+  },
+  {
+   "label": "Guest Support",
+   "count": 1028
+  },
+  {
+   "label": "Office Visit",
+   "count": 204
+  },
+  {
+   "label": "Email",
+   "count": 122
+  }
+ ],
+ "_note": "Transcribed by Claude from /analytics chart data (get-chart-builder DataJson) in the browser, Oct 1 2026 3:20pm; scrape.py writes this file automatically from Oct 2."
+}
