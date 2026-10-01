@@ -97,6 +97,20 @@ rep = json.load(open(U / "tsa-report-fy2025.json"))
 pil = json.load(open(U / "pilots.json"))
 T = roll["totals"]; R = roll["by_regime"]
 
+# Institutions now come from the records platform (../records/products), built from core by the same code
+# that builds Boston. ../untaxed stays as a cross-check: the build stops if the two disagree.
+REC = HERE.parent / "records" / "products" / "off-the-roll"
+PV = sorted((REC / "pvd").glob("v*"), key=lambda p: [int(x) for x in p.name[1:].split(".")])[-1]
+prod = {r["owner_uid"]: r for r in csv.DictReader(open(next(PV.glob("institutions_pvd_*.csv"))))}
+UID = {"Brown University": "pvd:brown", "RISD": "pvd:risd", "Providence College": "pvd:pc", "Johnson & Wales": "pvd:jwu",
+       "Brown University Health": "pvd:buh", "Care New England": "pvd:cne", "Providence Place": "pvd:providence-place"}
+for r in inst:
+    p = prod[UID[r["institution"]]]
+    got = (int(p["exempt_parcels"]), int(p["exempt_value"]), float(p["agreement_cash"] or 0))
+    want = (int(r["parcels"]), int(r["exempt_value"]), float(r["pilot_paid"]))
+    assert got == want, f'records and untaxed disagree on {r["institution"]}: {got} vs {want}'
+    r["exempt_value"], r["parcels"], r["pilot_paid"] = p["exempt_value"], p["exempt_parcels"], p["agreement_cash"] or "0"
+
 # ---------------------------------------------------------------- untaxed page
 b = []
 b.append(f'<main><div class="dateline">{DATELINE}</div>')
@@ -138,7 +152,7 @@ for r in inst:
     if r["pilot_year"] == "approx.": ptxt = "~" + ptxt
     b.append(f'<tr><td>{e(r["institution"])}</td><td class="n">{money(r["exempt_value"])}</td><td class="n">{money(full)}</td><td class="n">{ptxt}</td><td class="n">{r["share_paid"]}</td></tr>')
 b.append('</table></div>')
-b.append('<p class="cite">Payments: Brown, $11.1 million in direct voluntary payments in fiscal 2025, from Brown&#8217;s Community Contributions to the City of Providence report (Brown Daily Herald, Dec. 2025). RISD, Providence College and Johnson &amp; Wales, fiscal 2025 payments as scheduled in Exhibit A of the 2023 agreement. Brown University Health, agreement signed Nov. 15, 2024: $750,000 in 2024 and in 2025, with no payment scheduled for 2026, City of Providence and Boston Globe, Oct. 1, 2024. Care New England, $350,000 in 2024 under an agreement with one year left, Boston Globe, Oct. 1, 2024. Providence Place, about $1 million a year under its agreement, Boston Globe, Apr. 30 and Aug. 20, 2026. RISD&#8217;s parcels carry no owner name on the roll and are matched by RISD&#8217;s mailing address, 2 College St.</p>')
+b.append('<p class="cite">Payments: Brown, $11.1 million in direct voluntary payments in fiscal 2025, from Brown&#8217;s Community Contributions to the City of Providence report (Brown Daily Herald, Dec. 2025). RISD, Providence College and Johnson &amp; Wales, fiscal 2025 payments as scheduled in Exhibit A of the 2023 agreement. Brown University Health, agreement signed Nov. 15, 2024: $750,000 in 2024 and in 2025, with no payment scheduled for 2026, City of Providence and Boston Globe, Oct. 1, 2024. Care New England, $350,000 in 2024 under an agreement with one year left, Boston Globe, Oct. 1, 2024. Providence Place, about $1 million a year under its agreement, Boston Globe, Apr. 30 and Aug. 20, 2026. RISD&#8217;s parcels carry no owner name on the roll and are matched by RISD&#8217;s mailing address, 2 College St. Exempt value and parcels from Off the Roll&#8217;s owner-level file, <a href="data/institutions_pvd_2025.csv">institutions_pvd_2025.csv</a>, which also covers every other organization on the roll.</p>')
 b.append('<p>Brown pays under two agreements. The first, a 20-year agreement signed in 2023 with RISD, Providence College and Johnson &amp; Wales, sets each college&#8217;s payment for every year through fiscal 2043. It rises 2 percent a year in years two through five, 2.5 percent in years six through ten, 2.75 percent in years eleven through fifteen and 3 percent in the last five. The second, Brown&#8217;s alone, runs 10 years: $6 million in each of the first two years, $5 million in each of the next two and $4 million in each of the last six. Brown can earn credits against it for development that adds to the tax rolls or for property returned to them.</p>')
 cs = json.load(open(U / "college-schedule.json"))
 D = lambda v: f"${v:,}"
@@ -191,7 +205,9 @@ b.append('<h2>Data</h2><p>Every table above is built from these files: '
          '<a href="data/roll-summary.json">roll-summary.json</a> · <a href="data/exempt-groups.json">exempt-groups.json</a> · '
          '<a href="data/institutions.csv">institutions.csv</a> · <a href="data/tsa-ledger.json">tsa-ledger.json</a> · '
          '<a href="data/incidence.json">incidence.json</a> · <a href="data/state-pilot.json">state-pilot.json</a> · '
-         '<a href="data/tsa-report-fy2025.json">tsa-report-fy2025.json</a> · <a href="data/college-schedule.json">college-schedule.json</a>.</p></main>')
+         '<a href="data/tsa-report-fy2025.json">tsa-report-fy2025.json</a> · <a href="data/college-schedule.json">college-schedule.json</a>. '
+         f'Every organization on the roll, with its exempt, agreement and taxed property and what it pays: <a href="data/institutions_pvd_2025.csv">institutions_pvd_2025.csv</a> ({e(PV.name)}), '
+         '<a href="data/dictionary.json">dictionary.json</a>. Free to use with credit to Providence, on the record (CC BY 4.0).</p></main>')
 
 if SITE.exists(): shutil.rmtree(SITE)
 (SITE / "off-the-roll/data").mkdir(parents=True, exist_ok=True)
@@ -200,6 +216,8 @@ if SITE.exists(): shutil.rmtree(SITE)
     "../", "".join(b), "off-the-roll/"))
 for f in ["roll-summary.json", "exempt-groups.json", "institutions.csv", "tsa-ledger.json", "incidence.json", "pilots.json", "state-pilot.json", "tsa-report-fy2025.json", "college-schedule.json"]:
     shutil.copy(U / f, SITE / "off-the-roll/data" / f)
+shutil.copy(next(PV.glob("institutions_pvd_*.csv")), SITE / "off-the-roll/data/institutions_pvd_2025.csv")
+shutil.copy(PV / "dictionary.json", SITE / "off-the-roll/data/dictionary.json")
 
 # ---------------------------------------------------------------- housing
 import housing

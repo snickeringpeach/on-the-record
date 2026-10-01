@@ -1,0 +1,8 @@
+{
+ "owner_uid": "core owner id; one per organization across spellings",
+ "exempt_parcels / exempt_value": "parcels the roll marks exempt, and their assessed value, dollars",
+ "agreement_parcels / agreement_value": "parcels under a tax agreement (Boston: Chapter 121A; Providence: stabilization agreements)",
+ "taxed_parcels / taxed_value / tax_billed": "the owner's taxable parcels, assessed value and the tax the roll bills",
+ "agreement_*": "the owner's PILOT row for the fiscal year named, as the city publishes it (Boston: PILOT recap)",
+ "agreement_pct_met": "the city's own figure: cash plus community-benefit credit, over the requested PILOT"
+}
