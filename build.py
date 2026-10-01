@@ -8,7 +8,7 @@ import json, csv, html, shutil, pathlib, datetime, re
 HERE = pathlib.Path(__file__).parent
 SITE = HERE / "site"
 U = HERE.parent / "untaxed" / "data"
-DATELINE = "PROVIDENCE · SEPT. 30, 2026"
+DATELINE = "PROVIDENCE · UPDATED OCT. 1, 2026"
 
 def money(x, d=1):
     x = float(x)
@@ -66,19 +66,23 @@ footer{border-top:1px solid var(--rule);margin-top:40px;padding:20px 0 40px;font
 HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title><meta name="description" content="{desc}">
+<link rel="canonical" href="https://providenceontherecord.org/{path}">
+<meta property="og:site_name" content="Providence, on the record"><meta property="og:type" content="website">
+<meta property="og:title" content="{title}"><meta property="og:description" content="{desc}">
+<meta property="og:url" content="https://providenceontherecord.org/{path}"><meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto+Mono&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}style.css"></head><body>
 <div class="wrap"><header class="mast"><a class="name" href="{root}">Providence, on the record</a>
 <div class="tag">Liam Freaney · reporting built on the public record</div>
 <nav class="sections"><a href="{root}off-the-roll/">Off the Roll</a><a href="{root}downtown-ledger/">Downtown Ledger</a>
-<a href="{root}inside-the-line/">Inside the Line</a><a href="https://providenceontherecord.substack.com">Reporting</a></nav></header>
+<a href="{root}inside-the-line/">Inside the Line</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="{root}about/">About</a></nav></header>
 """
 FOOT = """<footer>Every figure on this site comes from a public record, named where it is used. Corrections go at the top of the page they correct, dated.
 Nothing here is opinion. Where a number is a model rather than a record, it is labeled <span class="tag model">MODEL</span>.</footer></div></body></html>"""
 
-def page(title, desc, root, body):
-    return HEAD.format(title=e(title), desc=e(desc), root=root) + body + FOOT
+def page(title, desc, root, body, path=""):
+    return HEAD.format(title=e(title), desc=e(desc), root=root, path=path) + body + FOOT
 
 # ---------------------------------------------------------------- data
 roll = json.load(open(U / "roll-summary.json"))
@@ -94,6 +98,7 @@ T = roll["totals"]; R = roll["by_regime"]
 # ---------------------------------------------------------------- untaxed page
 b = []
 b.append(f'<main><div class="dateline">{DATELINE}</div>')
+b.append('<p class="cite" style="border-left:3px solid var(--record);padding-left:10px">Correction, Oct. 1, 2026: An earlier version gave Brown&#8217;s fiscal 2025 payment as $7 million, the first-year figure reported when the 2023 agreements were announced. Brown reports paying $11.1 million. The earlier version also said no payment from Care New England had been found, and gave Providence Place&#8217;s payment as about $500,000 a year rather than about $1 million.</p>')
 b.append(f'<h1>${T["exempt"]/1e9:.1f} Billion of Providence&#8217;s ${T["assessed"]/1e9:.0f} Billion in Property Is Exempt From Full Taxation</h1>')
 b.append(f'<p class="deck">Colleges, hospitals, government, churches, a shopping mall and 80 owners under tax agreements pay the City less than the full rate. The rest of the city&#8217;s taxpayers carry the {money(T["taxes"],1)} levy.</p>')
 b.append('<p class="byline">By Liam Freaney · Off the Roll · from the City&#8217;s 2025 tax roll</p>')
@@ -128,10 +133,13 @@ b.append('<div class="tablewrap"><table><tr><th>Institution</th><th class="n">Ex
 for r in inst:
     paid = float(r["pilot_paid"]); full = float(r["full_rate_tax"])
     ptxt = money(paid, 2) if paid else "none found"
-    if r["institution"] == "Providence Place": ptxt = "~" + ptxt
+    if r["pilot_year"] == "approx.": ptxt = "~" + ptxt
     b.append(f'<tr><td>{e(r["institution"])}</td><td class="n">{money(r["exempt_value"])}</td><td class="n">{money(full)}</td><td class="n">{ptxt}</td><td class="n">{r["share_paid"]}</td></tr>')
 b.append('</table></div>')
-b.append('<p class="cite">Payments: colleges, 2023 agreements, first-year (FY2025) amounts, Rhode Island Current, Sept. 6, 2023; Brown University Health, agreement signed Nov. 15, 2024, $750,000 a year, City of Providence; Providence Place, 30-year agreement expiring 2028, about $500,000 a year, Providence Business News. RISD&#8217;s parcels carry no owner name on the roll and are matched by RISD&#8217;s mailing address, 2 College St.</p>')
+b.append('<p class="cite">Payments: Brown, $11.1 million in direct voluntary payments in fiscal 2025, from Brown&#8217;s Community Contributions to the City of Providence report (Brown Daily Herald, Dec. 2025). RISD, Providence College and Johnson &amp; Wales, first-year amounts under the 2023 agreement, Rhode Island Current, Sept. 6, 2023. Brown University Health, agreement signed Nov. 15, 2024: $750,000 in 2024 and in 2025, with no payment scheduled for 2026, City of Providence and Boston Globe, Oct. 1, 2024. Care New England, $350,000 in 2024 under an agreement with one year left, Boston Globe, Oct. 1, 2024. Providence Place, about $1 million a year under its agreement, Boston Globe, Apr. 30 and Aug. 20, 2026. RISD&#8217;s parcels carry no owner name on the roll and are matched by RISD&#8217;s mailing address, 2 College St.</p>')
+b.append('<p>Brown pays under two agreements. The first, a 20-year agreement signed in 2023 with RISD, Providence College and Johnson &amp; Wales, rises 2 percent a year at first and 3 percent a year toward its end in 2043. The second, Brown&#8217;s alone, runs 10 years: $6 million in each of the first two years, $5 million in each of the next two and $4 million in each of the last six.</p>')
+b.append('<p>Providence Place was sold out of receivership on Aug. 20, 2026, to Pyramid Management Group and Paolino Properties for $133 million, less than a fifth of its $730.8 million assessment on the 2025 roll. Its agreement with the City expires in 2028.</p>')
+b.append('<p class="cite">Brown University, Sept. 5 and Oct. 5, 2023; Boston Globe, Apr. 30 and Aug. 20, 2026.</p>')
 b.append(f'<p>The State also pays Providence for part of what it loses on college and hospital property. The law sets the reimbursement at up to 27 percent of the tax the property would have paid. Providence reported {money(sp["reported_base"])} in such tax. The State paid the City {money(sp["fy2025_payment"])} in fiscal 2025, and the enacted budget for fiscal 2026 gives {money(sp["fy2026_enacted"])}. This is State aid to the City. It is not money from the institutions, and it does not change what they pay.</p>')
 b.append('<p class="cite">House Fiscal Advisory Staff, Local Aid, 2025 edition, Appendix VII; FY 2026 Budget as Enacted: State Aid to Local Governments. RIGL 45-13-5.1. Full figures: <a href="data/state-pilot.json">state-pilot.json</a>.</p>')
 
@@ -153,7 +161,9 @@ b.append(f'<p>Each agreement comes with conditions: an annual report, fees, hiri
 b.append('<div class="tablewrap"><table><tr><th>Condition</th><th class="n">Met</th><th class="n">Not met</th><th class="n">Could not tell</th><th class="n">Not required</th></tr>')
 for k, label in REQ:
     b.append(f'<tr><td>{label}</td><td class="n">{cnt(k,"yes")}</td><td class="n">{cnt(k,"no")}</td><td class="n">{cnt(k,"unable to determine")+cnt(k,"not given")}</td><td class="n">{cnt(k,"not required")}</td></tr>')
+ZERO = ('<p>On the 2025 roll, 34 parcels held by 14 owners carry the stabilization-agreement code and are billed $0. Thirteen are condominium units at 225 Weybosset St., which the auditor lists as one agreement, held by HM Ventures Group 8 LLC and billed $77,488 for 2024. By the 2025 roll the building had been split into units with new owners, and none of them is billed. Eighteen belong to Roger Williams General Hospital and Prospect CharterCare SJHSRI, covered by the City&#8217;s 2014 CharterCARE agreement, for which the auditor&#8217;s report lists no bills. Sharpe Building Associates was billed $787,718 under its agreement for 2024, according to the auditor, and shows $0 at 35 Holden St. Two owners on the list, Valley Stream Property LLC at 50 Convent St. and 45 Parade Street LLC, do not appear among the auditor&#8217;s 66 agreements at all.</p>')
 b.append('</table></div><p class="cite">City of Providence, Office of the Internal Auditor, Report on Tax Stabilization Agreements, FY2025, Exhibit 1, one entry per agreement. &#8220;Could not tell&#8221; includes entries the report left blank. Every agreement, with its answers: <a href="data/tsa-report-fy2025.json">tsa-report-fy2025.json</a>.</p>')
+b.append(ZERO)
 
 b.append('<h2>Who carries it</h2>')
 b.append(f'<p><span class="tag model">MODEL</span> The City sets its budget first and its tax rates second, so revenue not collected from one parcel is collected from the others. Holding the {money(inc["levy"])} levy fixed, this is what each regime means for the median owner-occupied home, billed ${inc["median_homestead_bill"]:,.0f}, and the median two-to-five-family building a landlord rents out, billed ${inc["median_2to5_rental_bill"]:,.0f}.</p>')
@@ -163,10 +173,11 @@ for r in inc["regimes"]:
 b.append('</table></div><p class="cite">Each row is computed on its own; the rows do not add. The model assumes the levy would not rise to absorb the money.</p>')
 
 b.append('<h2>Not yet on the record</h2><ul class="open">'
-         '<li>Whether Care New England (Women &amp; Infants, Butler) pays the City anything. No agreement was found.</li>'
-         '<li>The Providence Place payment, now that the mall is in receivership.</li>'
-         '<li>The year-by-year schedules in the 2023 college agreements.</li>'
-         '<li>Why a few parcels under stabilization agreements are billed $0 this year.</li></ul>')
+         '<li>Whether Care New England&#8217;s agreement was renewed after 2025, and for how much.</li>'
+         '<li>What Brown University Health pays in 2026, a year its agreement schedules no payment.</li>'
+         '<li>What Providence Place&#8217;s new owners will pay after the agreement expires in 2028, and the mall&#8217;s next assessment.</li>'
+         '<li>The year-by-year amounts each college pays under the 20-year agreement. Only first-year figures and totals have been published.</li>'
+         '<li>Why the 34 parcels above are billed $0, and whether the two owners missing from the auditor&#8217;s list hold agreements at all. These are questions for the Tax Assessor.</li></ul>')
 b.append('<h2>Data</h2><p>Every table above is built from these files: '
          '<a href="data/roll-summary.json">roll-summary.json</a> · <a href="data/exempt-groups.json">exempt-groups.json</a> · '
          '<a href="data/institutions.csv">institutions.csv</a> · <a href="data/tsa-ledger.json">tsa-ledger.json</a> · '
@@ -177,7 +188,7 @@ if SITE.exists(): shutil.rmtree(SITE)
 (SITE / "off-the-roll/data").mkdir(parents=True, exist_ok=True)
 (SITE / "off-the-roll/index.html").write_text(page("Off the Roll — Providence, on the record",
     "What Providence doesn't tax: exempt property, payments in lieu of taxes and tax stabilization agreements, from the City's 2025 tax roll.",
-    "../", "".join(b)))
+    "../", "".join(b), "off-the-roll/"))
 for f in ["roll-summary.json", "exempt-groups.json", "institutions.csv", "tsa-ledger.json", "incidence.json", "pilots.json", "state-pilot.json", "tsa-report-fy2025.json"]:
     shutil.copy(U / f, SITE / "off-the-roll/data" / f)
 
@@ -229,4 +240,24 @@ fold("downtown-ledger", "https://downtownledger.com")
 fold("inside-the-line", "https://insidetheline.org")
 
 
+# ---------------------------------------------------------------- about, sitemap, robots
+ab = ['<main><div class="dateline">ABOUT</div><h1>About this site</h1>',
+      '<p class="deck">Providence, on the record publishes reporting and public records on the City of Providence, by Liam Freaney.</p>',
+      '<h2>Sections</h2><ul>',
+      '<li><a href="../off-the-roll/">Off the Roll</a>: property that comes off the tax roll, and what its owners pay instead.</li>',
+      '<li><a href="../downtown-ledger/">Downtown Ledger</a>: what downtown Providence has, what it does not, and how long the missing take to arrive.</li>',
+      '<li><a href="../inside-the-line/">Inside the Line</a>: the Fox Point Hurricane Barrier and what lies on either side of it.</li>',
+      '<li><a href="https://providenceontherecord.substack.com">Reporting</a>: the stories, on Substack.</li></ul>',
+      '<h2>Method</h2><p>Every figure on this site comes from a public record, named where it is used. Where a number is a model rather than a record, it is labeled <span class="tag model">MODEL</span>. The data behind each section is published beside it.</p>',
+      '<h2>Corrections</h2><p>Corrections go at the top of the page they correct, dated, saying what was wrong and what is right.</p>',
+      '<p>Downtownledger.com and insidetheline.org now redirect here.</p></main>']
+(SITE / "about").mkdir(exist_ok=True)
+(SITE / "about/index.html").write_text(page("About — Providence, on the record",
+    "What Providence, on the record is, how it works, and how it corrects itself.", "../", "".join(ab), "about/"))
+today = datetime.date.today().isoformat()
+urls = sorted("https://providenceontherecord.org/" + str(f.parent.relative_to(SITE)).replace(".", "").strip("/") + ("/" if f.parent != SITE else "")
+              for f in SITE.rglob("index.html"))
+(SITE / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    + "".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+(SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://providenceontherecord.org/sitemap.xml\n")
 print("built", sum(1 for p in SITE.rglob("*") if p.is_file()), "files")

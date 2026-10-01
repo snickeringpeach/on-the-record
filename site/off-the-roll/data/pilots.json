@@ -1,8 +1,8 @@
 {
   "Brown University": {
-    "amount": 7000000,
+    "amount": 11100000,
     "year": "FY2025",
-    "source": "2023 MOU + MOA, first-year payment; Rhode Island Current, Sept 6 2023"
+    "source": "Brown University, Community Contributions to the City of Providence, FY2025: $11.1M in direct voluntary payments (2023 MOU plus 10-year MOA); Brown Daily Herald, Dec 2025"
   },
   "Providence College": {
     "amount": 725000,
@@ -22,16 +22,16 @@
   "Brown University Health": {
     "amount": 750000,
     "year": "FY2025",
-    "source": "PILOT signed Nov 15 2024, $750K/yr; City of Providence"
+    "source": "PILOT signed Nov 15 2024: $750,000 in 2024 and 2025, no payment scheduled for 2026; City of Providence; Boston Globe, Oct 1 2024"
   },
   "Care New England": {
-    "amount": 0,
-    "year": "",
-    "source": "no PILOT agreement found"
+    "amount": 350000,
+    "year": "2024",
+    "source": "Boston Globe, Oct 1 2024: Care New England paid $350,000 this year; its agreement 'has one more year left'"
   },
   "Providence Place": {
-    "amount": 500000,
-    "year": "approx., per PBN",
-    "source": "30-year payment-in-lieu agreement expiring 2028, ~$500K/yr; Providence Business News"
+    "amount": 1000000,
+    "year": "approx.",
+    "source": "Boston Globe, Apr 30 and Aug 20 2026: about $1 million a year under the agreement that expires in 2028"
   }
 }

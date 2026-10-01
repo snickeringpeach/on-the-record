@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://providenceontherecord.org/sitemap.xml
