@@ -195,6 +195,8 @@ for r in inc["regimes"]:
     b.append(f'<tr><td>{e(r["regime"])}</td><td class="n">{r["share_of_levy"]:.1%}</td><td class="n">−${r["homestead_saves"]:,}</td><td class="n">−${r["rental2_5_saves"]:,}</td></tr>')
 b.append('</table></div><p class="cite">Each row is computed on its own; the rows do not add. The model assumes the levy would not rise to absorb the money.</p>')
 
+b.append('<h2>Next to Boston</h2><p>Boston publishes what each of its colleges and hospitals is asked to pay and what it pays. '
+         '<a href="boston/">Providence and Boston, side by side</a>: cash paid per $1,000 of exempt property, from both cities&#8217; tax rolls.</p>')
 b.append('<h2>Not yet on the record</h2><ul class="open">'
          '<li>Whether Care New England&#8217;s agreement was renewed after 2025, and for how much.</li>'
          '<li>What Brown University Health pays in 2026, a year its agreement schedules no payment.</li>'
@@ -222,6 +224,10 @@ shutil.copy(PV / "dictionary.json", SITE / "off-the-roll/data/dictionary.json")
 # ---------------------------------------------------------------- housing
 import housing
 HZ = housing.render(page, e, SITE, DATELINE)
+
+# ---------------------------------------------------------------- Providence and Boston
+import compare
+CZ = compare.render(page, e, SITE, DATELINE)
 
 # ---------------------------------------------------------------- home
 h = ['<main><div class="dateline">PROVIDENCE</div><h1>Providence, on the record</h1>'

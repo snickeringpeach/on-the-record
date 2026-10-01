@@ -1,0 +1,45 @@
+city,name,owner_type,exempt_value,cash_paid,boston_credit,boston_value_basis,boston_requested,boston_pct_met,tax_billed_taxable_parcels,payment_year,cash_per_1000_exempt,cash_plus_credit_per_1000_exempt,roll_match_incomplete
+Providence,Brown University,university,1871494800.0,11100000.0,,,,,1525878.2,FY2025,5.9311,,False
+Providence,Brown University Health,hospital,1055394800.0,750000.0,,,,,140703.12,FY2025,0.7106,,False
+Providence,Providence College,university,575472600.0,739500.0,,,,,4778.6,FY2025,1.285,,False
+Providence,Johnson & Wales,university,421504400.0,612000.0,,,,,0,FY2025,1.4519,,False
+Providence,RISD,university,411035100.0,612000.0,,,,,0,FY2025,1.4889,,False
+Providence,Care New England,hospital,385579800.0,350000.0,,,,,0,2024,0.9077,,False
+Boston,Boston University,university,4114196988.0,6300000.0,12405191.0,2623275024.0,24810382.0,77.0,2591835.37,FY2025,1.5313,4.5465,False
+Boston,Harvard University,university,3856840399.0,4224933.0,7303624.0,1524362253.0,14607248.0,79.0,10310548.6,FY2025,1.0954,2.9891,False
+Boston,Massachusetts General Hospital,hospital,3687225899.0,6875005.0,8586350.0,1786998579.0,17172699.0,90.0,1968516.04,FY2025,1.8645,4.1932,False
+Boston,Northeastern University,university,3074902996.0,1900000.0,6896788.0,1442078481.0,13793576.0,66.0,2469914.13,FY2025,0.6179,2.8608,False
+Boston,Brigham and Women's Hospital,hospital,2331517601.0,3024526.0,3899340.0,820202335.0,7798680.0,89.0,177798.5,FY2025,1.2972,2.9697,False
+Boston,Boston Children's Hospital,hospital,2060084800.0,2186243.0,7687693.0,1146783863.0,10250257.0,100.0,124832.88,FY2025,1.0612,4.793,False
+Boston,Beth Israel Deaconess Medical Center,hospital,1172963081.0,3882718.0,3882718.0,816793701.0,7765435.0,100.0,331899.16,FY2025,3.3102,6.6204,False
+Boston,Boston College,university,800157340.0,438509.0,0,536095300.0,5050027.0,22.0,977248.96,FY2025,0.548,0.548,False
+Boston,Boston Medical Center,hospital,790757200.0,0,1683257.0,283426800.0,2244342.0,75.0,1410404.31,FY2025,0.0,2.1287,False
+Boston,Dana-Farber Cancer Institute,hospital,668038100.0,1692833.0,1692833.0,373291603.0,3385666.0,100.0,214997.91,FY2025,2.534,5.0681,False
+Boston,Tufts Medical Center,hospital,615607600.0,150000.0,2074124.0,456821900.0,4148249.0,54.0,165310.63,FY2025,0.2437,3.6129,False
+Boston,Emerson College,university,452197699.0,141591.0,1213999.0,266674500.0,2427998.0,56.0,542747.48,FY2025,0.3131,2.9978,False
+Boston,Emmanuel College,university,394673800.0,170000.0,870058.0,194556700.0,1740116.0,60.0,0,FY2025,0.4307,2.6352,False
+Boston,Faulkner Brigham and Women's,hospital,374875000.0,570074.0,712318.0,162003500.0,1424637.0,90.0,291380.79,FY2025,1.5207,3.4209,False
+Boston,Wentworth Institute of Technology,university,368925411.0,0,958359.0,213771069.0,1916718.0,50.0,14679.72,FY2025,0.0,2.5977,False
+Boston,Simmons University,university,361951600.0,100000.0,604390.0,139730000.0,1208780.0,58.0,313283.28,FY2025,0.2763,1.9461,False
+Boston,Suffolk University,university,339435000.0,572752.0,1062195.0,242932500.0,2124390.0,77.0,204944.52,FY2025,1.6874,4.8167,False
+Boston,Berklee College of Music,university,337395301.0,385088.0,770175.0,173943523.0,1540350.0,86.0,637777.24,FY2025,1.1414,3.4241,False
+Boston,Tufts University,university,325516399.0,450000.0,655361.0,151374962.0,1310722.0,84.0,29607.47,FY2025,1.3824,3.3957,False
+Boston,New England Baptist Hospital,hospital,222494497.0,370872.0,567815.0,132181873.0,1135630.0,83.0,301244.61,FY2025,1.6669,4.2189,False
+Boston,Shriners Hospitals for Children Boston,hospital,214899900.0,0,0,106097400.0,882841.0,0.0,0,FY2025,0.0,0.0,False
+Boston,Massachusetts Eye & Ear Infirmary,hospital,155613700.0,436452.0,493805.0,116908100.0,987609.0,94.0,56033.62,FY2025,2.8047,5.978,False
+Boston,Spaulding Rehabilitation Hospital,hospital,101995100.0,581240.0,673216.0,159368900.0,1396567.0,90.0,0,FY2025,5.6987,12.2992,False
+Boston,Longwood Collective,cultural,97715500.0,174184.0,174184.0,50947000.0,348369.0,100.0,201892.66,FY2025,1.7826,3.5651,False
+Boston,Winsor School,school,84997600.0,0,127361.0,41283900.0,254722.0,50.0,0,FY2025,0.0,1.4984,False
+Boston,New England Conservatory,university,81165900.0,0,71458.0,29747000.0,142916.0,50.0,28482.25,FY2025,0.0,0.8804,False
+Boston,Roxbury Latin School,school,74349600.0,0,183629.0,52896200.0,367259.0,50.0,171369.24,FY2025,0.0,2.4698,False
+Boston,Fisher College,university,65955597.0,0,134802.0,42819500.0,269604.0,50.0,141676.45,FY2025,0.0,2.0438,False
+Boston,GBH (WGBH),cultural,56835100.0,169123.0,169123.0,49902500.0,338246.0,100.0,330071.28,FY2025,2.9757,5.9514,False
+Boston,Showa Institute,university,55755200.0,102115.0,102115.0,36073778.0,204230.0,100.0,175846.6,FY2025,1.8315,3.663,False
+Boston,Boston College High School,school,54186900.0,0,59002.0,27176500.0,118005.0,50.0,0,FY2025,0.0,1.0889,False
+Boston,Boston Symphony Orchestra,cultural,51837698.0,63344.0,63344.0,28072562.0,126689.0,100.0,73549.58,FY2025,1.222,2.4439,False
+Boston,Hebrew Rehabilitation Center,hospital,43526800.0,34787.0,129590.0,41744000.0,259181.0,63.0,23285.34,FY2025,0.7992,3.7765,False
+Boston,New England College of Optometry,university,33707800.0,48773.0,48773.0,25065500.0,97547.0,100.0,0,FY2025,1.4469,2.8939,False
+Boston,Boston Architectural College,university,19074700.0,19656.0,19656.0,19056500.0,39312.0,100.0,0,FY2025,1.0305,2.0609,False
+Boston,Massachusetts College of Pharmacy,university,12370200.0,456924.0,456924.0,109297000.0,913849.0,100.0,125087.75,FY2025,,,True
+Boston,Franciscan Children's Hospital,hospital,2127727.0,0,171544.0,50402000.0,343087.0,50.0,0,FY2025,,,True
+Boston,Joslin Diabetes Center,hospital,0,0,0,86293700.0,690920.0,0.0,183857.88,FY2025,,,True
