@@ -42,6 +42,16 @@ def rows():
     return out, pv, bv
 
 
+def history(bv):
+    f = next(bv.glob("pilot_history_bos_*.csv"), None)
+    if not f: return None, []
+    H = list(csv.DictReader(open(f)))
+    for h in H:
+        for k in ("value_basis", "requested_pilot", "community_benefit_credit", "cash_contribution"):
+            h[k] = float(h[k] or 0)
+    return f, H
+
+
 def render(page, e, SITE, DATELINE):
     X, pv, bv = rows()
     M = lambda v: "&#8212;" if v is None else (f"${v/1e9:.2f}B" if v >= 1e9 else f"${v/1e6:.1f}M" if v >= 1e6 else f"${round(v, -3):,.0f}" if v >= 1e4 else f"${v:,.0f}")
@@ -95,6 +105,32 @@ def render(page, e, SITE, DATELINE):
              + (f'Not ranked, because the roll under their names holds less than half the property Boston&#8217;s recap counts for them: {", ".join(e(x["name"]) for x in skipped)}. ' if skipped else "")
              + '</p>')
 
+    hf, H = history(bv)
+    if H:
+        years = sorted({int(h["fiscal_year"]) for h in H})
+        b.append(f'<h2>Five years of Boston&#8217;s PILOT, FY{years[0]} to FY{years[-1]}</h2>'
+                 '<div class="tablewrap"><table><tr><th>Fiscal year</th><th class="n">Institutions</th><th class="n">Asked</th>'
+                 '<th class="n">Credited for community programs</th><th class="n">Paid in cash</th><th class="n">Cash as share of ask</th></tr>')
+        for y in years:
+            hs = [h for h in H if int(h["fiscal_year"]) == y]
+            rq = sum(h["requested_pilot"] for h in hs); cr = sum(h["community_benefit_credit"] for h in hs); ca = sum(h["cash_contribution"] for h in hs)
+            b.append(f'<tr><td>FY{y}</td><td class="n">{len(hs)}</td><td class="n">{M(rq)}</td><td class="n">{M(cr)}</td><td class="n">{M(ca)}</td><td class="n">{ca/rq:.0%}</td></tr>')
+        b.append('</table></div>')
+        by = {}
+        for h in H: by.setdefault(h["institution"], {})[int(h["fiscal_year"])] = h
+        full = {i: d for i, d in by.items() if len(d) == len(years)}
+        frozen = sorted(i for i, d in full.items() if len({d[y]["value_basis"] for y in years}) == 1)
+        ex = [i for i in ("Berklee College of Music", "Boston College", "Emerson College") if i in frozen]
+        grow = sorted((d[years[-1]]["requested_pilot"] / d[years[0]]["requested_pilot"]) ** (1 / (len(years) - 1)) - 1
+                      for i, d in full.items() if i in frozen and d[years[0]]["requested_pilot"])
+        g = grow[len(grow) // 2] if grow else 0
+        b.append(f'<p>What Boston asks has risen every year; cash has not. The ask grew from {M(sum(h["requested_pilot"] for h in H if int(h["fiscal_year"]) == years[0]))} to '
+                 f'{M(sum(h["requested_pilot"] for h in H if int(h["fiscal_year"]) == years[-1]))}, while cash stayed near $35 million. The difference was made up in credits. '
+                 f'Six museums left the table in FY2024, when the City moved them to what its recap calls &#8220;an alternative system&#8221; of reporting community benefits, so the earlier years count more institutions.</p>')
+        b.append(f'<p>The valuation behind the asks has barely moved. For {len(frozen)} of the {len(full)} institutions listed in all five years, the City&#8217;s value basis is the same to the dollar in FY{years[0]} and FY{years[-1]}: '
+                 + ", ".join(f'{e(i)} at {M(full[i][years[-1]]["value_basis"])}' for i in ex)
+                 + f'. Their asks rose about {g:.1%} a year all the same. The recaps do not say what year&#8217;s values the basis comes from.</p>')
+
     b.append('<h2>How Boston asks</h2>'
              '<p>Boston asks every nonprofit holding more than $15 million in property to pay a quarter of what it would owe if the property were taxed, the share of the City&#8217;s budget its 2010 PILOT Task Force tied to police, fire, snow removal and other basic services. '
              'Generally up to half of that request can be met with community programs the City credits as directly benefiting Boston residents. '
@@ -102,13 +138,14 @@ def render(page, e, SITE, DATELINE):
              'Providence has no formula. Each institution&#8217;s payment is set by its own agreement with the City, and the State separately reimburses the City for part of the tax it does not collect from colleges and hospitals. Massachusetts has no such payment for private colleges and hospitals.</p>')
     b.append('<h2>What doesn&#8217;t line up</h2><ul class="open">'
              '<li>The two rolls value property as of nearly the same day, Dec. 31, 2024 in Providence and Jan. 1, 2025 in Boston, but under two states&#8217; laws, by two assessors&#8217; offices, with two different practices for exempt property, which neither city taxes and so has less reason to value closely.</li>'
-             '<li>Boston&#8217;s value basis runs well below the exempt property on its own roll for most institutions: Boston University&#8217;s is $2.62 billion against $4.11 billion on the roll. Boston&#8217;s recap does not say how the value basis is set. Every per-$1,000 figure here uses the roll, in both cities, so the comparison measures the same thing on each side.</li>'
+             '<li>Boston&#8217;s value basis runs well below the exempt property on its own roll for most institutions: Boston University&#8217;s is $2.62 billion against $4.11 billion on the roll. For most institutions it has not changed in five years (above). Every per-$1,000 figure here uses the roll, in both cities, so the comparison measures the same thing on each side.</li>'
              '<li>Payments are for fiscal 2025. Boston&#8217;s roll is fiscal 2026&#8217;s, the first one that values property as of the start of 2025.</li>'
              '<li>Harvard&#8217;s figures are for its Boston property only, mostly in Allston. What it pays Cambridge is not here.</li>'
              '<li>Providence&#8217;s rows are the six colleges and hospitals that pay the City. Other exempt owners, and Providence Place, are on <a href="../">Off the Roll</a>.</li></ul>')
     b.append('<h2>Not yet on the record</h2><ul class="open">'
              '<li>How Boston sets each institution&#8217;s value basis: which parcels it counts, whether it leaves out student housing, and which year&#8217;s values it uses.</li>'
-             '<li>The parcels behind the three Boston institutions not ranked above.</li></ul>')
+             + (f'<li>The parcels behind the Boston institutions not ranked above.</li>' if skipped else '')
+             + '<li>Three Boston owners are matched by address and history rather than by name: Franciscan Children&#8217;s, listed as &#8220;Joseph P Kennedy Jr,&#8221; its original name; Joslin, listed as &#8220;Diabetes Foundation Inc&#8221;; and part of MCPHS, listed as &#8220;Massachusetts College of.&#8221;</li></ul>')
 
     out = SITE / "off-the-roll/boston"; (out / "data").mkdir(parents=True, exist_ok=True)
     cols = ["city", "name", "type", "exempt", "cash", "credit", "basis", "requested", "pct", "taxed", "year", "per", "per_cr", "partial"]
@@ -119,9 +156,9 @@ def render(page, e, SITE, DATELINE):
         for x in X: w.writerow(["" if x[c] is None else (round(x[c], 4) if isinstance(x[c], float) else x[c]) for c in cols])
     files = ["compare_pvd_bos.csv"]
     for d in (pv, bv):
-        for p in d.glob("institutions_*.csv"): shutil.copy(p, out / "data" / p.name); files.append(p.name)
+        for p in list(d.glob("institutions_*.csv")) + list(d.glob("pilot_history_*.csv")): shutil.copy(p, out / "data" / p.name); files.append(p.name)
     b.append('<h2>Data</h2><p>' + " · ".join(f'<a href="data/{f}">{f}</a>' for f in files) + '</p>'
-             '<p class="cite">Sources: City of Providence 2025 tax roll and payment agreements; City of Boston FY2026 Property Assessment file (data.boston.gov) and FY25 PILOT Recap; City of Boston PILOT Task Force final report, 2010. '
+             '<p class="cite">Sources: City of Providence 2025 tax roll and payment agreements; City of Boston FY2026 Property Assessment file (data.boston.gov) and PILOT Recaps, FY2021 through FY2025; City of Boston PILOT Task Force final report, 2010. '
              f'Built from Off the Roll {pv.name} (Providence) and {bv.name} (Boston). Data licensed CC BY 4.0: credit &#8220;Providence, on the record.&#8221;</p></main>')
     (out / "index.html").write_text(page("Providence and Boston — Off the Roll — Providence, on the record",
         "What colleges and hospitals pay on their exempt property, in Providence and in Boston, from both cities' tax rolls.",

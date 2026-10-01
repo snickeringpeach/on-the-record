@@ -1,0 +1,216 @@
+fiscal_year,owner_uid,institution,value_basis,requested_pilot,community_benefit_credit,cash_contribution,pct_request_met,property_tax_credit
+2021,,Bayridge Center,29788000,129835,0,0,0,False
+2021,bos:berklee,Berklee College of Music,173943523,1395481,697740,348870,75,False
+2022,bos:berklee,Berklee College of Music,173943523,1430368,715184,357592,87,True
+2023,bos:berklee,Berklee College of Music,173943523,1466127,733064,366532,87,True
+2024,bos:berklee,Berklee College of Music,173943523,1502780,751390,375695,86,True
+2025,bos:berklee,Berklee College of Music,173943523,1540350,770175,385088,86,True
+2021,bos:bidmc,Beth Israel Deaconess Medical Center,813129901,7007363,3503682,3503682,100,False
+2022,bos:bidmc,Beth Israel Deaconess Medical Center,816793701,7182547,3591274,3591274,100,False
+2023,bos:bidmc,Beth Israel Deaconess Medical Center,816793701,7391253,3695626,3695666,100,False
+2024,bos:bidmc,Beth Israel Deaconess Medical Center,816793701,7576034,3788017,3788017,100,False
+2025,bos:bidmc,Beth Israel Deaconess Medical Center,816793701,7765435,3882718,3882718,100,False
+2021,bos:bac,Boston Architectural College,19056500,35615,17807,17807,100,False
+2022,bos:bac,Boston Architectural College,19056500,36505,18253,18253,100,False
+2023,bos:bac,Boston Architectural College,19056500,37418,18709,18709,100,False
+2024,bos:bac,Boston Architectural College,19056500,38354,19177,19177,100,False
+2025,bos:bac,Boston Architectural College,19056500,39312,19656,19656,100,False
+2021,bos:childrens,Boston Children's Hospital,724318100,6187759,4640820,1229474,100,True
+2022,bos:childrens,Boston Children's Hospital,724318100,6342453,4756840,1259537,90,True
+2023,bos:childrens,Boston Children's Hospital,1085254663,9301883,6976412,1999515,100,True
+2024,bos:childrens,Boston Children's Hospital,1085254663,9534430,7150822,2007287,100,True
+2025,bos:childrens,Boston Children's Hospital,1146783863,10250257,7687693,2186243,100,True
+2022,,Boston Children's Museum,31029000,144249,0,0,0,False
+2023,,Boston Children's Museum,31029000,147855,0,0,0,False
+2021,bos:bc,Boston College,536095300,4575075,0,368270,23,True
+2022,bos:bc,Boston College,536095300,4689452,0,385969,22,True
+2023,bos:bc,Boston College,536095300,4806688,0,434777,23,True
+2024,bos:bc,Boston College,536095300,4926855,0,441042,23,True
+2025,bos:bc,Boston College,536095300,5050027,0,438509,22,True
+2021,bos:bc-high,Boston College High School,27176500,106906,53453,0,50,False
+2022,bos:bc-high,Boston College High School,27176500,109579,37850,0,35,False
+2023,bos:bc-high,Boston College High School,27176500,112318,56159,0,50,False
+2024,bos:bc-high,Boston College High School,27176500,115126,57563,0,50,False
+2025,bos:bc-high,Boston College High School,27176500,118005,59002,0,50,False
+2021,bos:bmc,Boston Medical Center,59006200,1173927,880445,0,78,True
+2022,bos:bmc,Boston Medical Center,59006200,1203275,902456,0,72,True
+2023,bos:bmc,Boston Medical Center,59006200,405922,304442,0,76,True
+2024,bos:bmc,Boston Medical Center,153802100,1208248,906186,0,75,True
+2025,bos:bmc,Boston Medical Center,283426800,2244342,1683257,0,75,True
+2021,bos:bso,Boston Symphony Orchestra,28072562,114774,57387,57387,100,False
+2022,bos:bso,Boston Symphony Orchestra,28072562,117643,31360,58821,77,False
+2023,bos:bso,Boston Symphony Orchestra,28072562,120584,60292,60292,100,False
+2024,bos:bso,Boston Symphony Orchestra,28072562,123599,61799,61800,100,False
+2025,bos:bso,Boston Symphony Orchestra,28072562,126689,63344,63344,100,False
+2021,bos:bu,Boston University,2464305624,21313417,10656708,6300000,81,True
+2022,bos:bu,Boston University,2496179224,22093646,11046823,6300000,80,True
+2023,bos:bu,Boston University,2611438324,23534270,11767135,6300000,78,True
+2024,bos:bu,Boston University,2623525324,24207193,12103596,6300000,77,True
+2025,bos:bu,Boston University,2623275024,24810382,12405191,6300000,77,True
+2021,bos:bwh,Brigham and Women's Hospital,820202335,7065219,3024525,3024526,86,False
+2022,bos:bwh,Brigham and Women's Hospital,820202335,7241849,3024526,3024526,84,False
+2023,bos:bwh,Brigham and Women's Hospital,820202335,7422896,3711448,3024526,91,False
+2024,bos:bwh,Brigham and Women's Hospital,820202335,7608468,3804234,3024526,90,False
+2025,bos:bwh,Brigham and Women's Hospital,820202335,7798680,3899340,3024526,89,False
+2021,,Catholic Memorial,16287371,11303,0,0,0,False
+2022,,Catholic Memorial,16287371,11585,0,0,0,False
+2023,,Catholic Memorial,16287371,11875,0,0,0,False
+2021,,Children's Museum,31029000,140730,0,0,0,False
+2021,bos:dfci,Dana Farber Cancer Institute,373291603,3067246,1533623,1533623,100,False
+2022,bos:dfci,Dana Farber Cancer Institute,373291603,3143928,1571964,1571964,100,False
+2023,bos:dfci,Dana Farber Cancer Institute,373291603,3222526,1611263,1611263,100,False
+2024,bos:dfci,Dana Farber Cancer Institute,373291603,3303088,1651544,1651544,100,False
+2025,bos:dfci,Dana Farber Cancer Institute,373291603,3385666,1692833,1692833,100,False
+2021,bos:emerson,Emerson College,266674500,2199646,1099823,141591,56,False
+2022,bos:emerson,Emerson College,266674500,2254637,1127319,141591,56,False
+2023,bos:emerson,Emerson College,266674500,2311003,1155501,141591,56,False
+2024,bos:emerson,Emerson College,266674500,2368778,1184389,141591,56,False
+2025,bos:emerson,Emerson College,266674500,2427998,1213999,141591,56,False
+2021,bos:emmanuel,Emmanuel College,194556700,1576459,0,130000,8,False
+2022,bos:emmanuel,Emmanuel College,194556700,1615870,807935,140000,59,False
+2023,bos:emmanuel,Emmanuel College,194556700,1656267,828134,160000,60,False
+2024,bos:emmanuel,Emmanuel College,194556700,1697674,848837,170000,60,False
+2025,bos:emmanuel,Emmanuel College,194556700,1740116,870058,170000,60,False
+2021,bos:faulkner,Faulkner Brigham and Women's,162003500,1290651,570074,570074,88,False
+2022,bos:faulkner,Faulkner Brigham and Women's,162003500,1322917,570074,570074,86,False
+2023,bos:faulkner,Faulkner Brigham and Women's,162003500,1355990,677995,570074,92,False
+2024,bos:faulkner,Faulkner Brigham and Women's,162003500,1389890,694945,570074,91,False
+2025,bos:faulkner,Faulkner Brigham and Women's,162003500,1424637,712318,570074,90,False
+2021,bos:fisher,Fisher College,44638499,260218,130109,0,50,False
+2022,bos:fisher,Fisher College,44638499,266723,133362,0,50,False
+2023,bos:fisher,Fisher College,44638499,273391,136696,0,50,False
+2024,bos:fisher,Fisher College,42819500,263028,131514,0,50,False
+2025,bos:fisher,Fisher College,42819500,269604,134802,0,50,False
+2021,bos:franciscan,Franciscan Children's Hospital,50402000,310820,155410,0,50,False
+2022,bos:franciscan,Franciscan Children's Hospital,50402000,318590,159295,0,50,False
+2023,bos:franciscan,Franciscan Children's Hospital,50402000,326555,163278,0,50,False
+2024,bos:franciscan,Franciscan Children's Hospital,50402000,334719,167360,0,50,False
+2025,bos:franciscan,Franciscan Children's Hospital,50402000,343087,171544,0,50,False
+2021,bos:gbh,GBH (WGBH),49902500,306434,153217,153217,100,False
+2022,bos:gbh,GBH (WGBH),49902500,314095,0,157048,50,False
+2023,bos:gbh,GBH (WGBH),49902500,321948,160974,160974,100,False
+2024,bos:gbh,GBH (WGBH),49902500,329996,164998,164998,100,False
+2025,bos:gbh,GBH (WGBH),49902500,338246,169123,169123,100,False
+2021,,Gardner Museum,27868501,112982,0,20000,18,False
+2021,bos:harvard,Harvard University,1537609653,13360875,6680438,3840653,79,True
+2022,bos:harvard,Harvard University,1537609653,13694897,6847449,3938999,79,True
+2023,bos:harvard,Harvard University,1537609653,14037270,7018635,4044987,79,True
+2024,bos:harvard,Harvard University,1524362253,14250973,7125487,4063489,79,True
+2025,bos:harvard,Harvard University,1524362253,14607248,7303624,4224933,79,True
+2021,,Harvard Vanguard,109848200,832741,0,0,0,False
+2022,,Harvard Vanguard,109848200,853560,0,0,0,False
+2021,bos:hebrew-rehab,Hebrew Rehabilitation Center,41744000,234805,0,31519,13,False
+2022,bos:hebrew-rehab,Hebrew Rehabilitation Center,41744000,240675,120338,32307,63,False
+2023,bos:hebrew-rehab,Hebrew Rehabilitation Center,41744000,246692,123346,33111,63,False
+2024,bos:hebrew-rehab,Hebrew Rehabilitation Center,41744000,252859,126430,33938,63,False
+2025,bos:hebrew-rehab,Hebrew Rehabilitation Center,41744000,259181,129590,34787,63,False
+2021,,Inst. of Contemporary Art,37162500,194581,97290,0,50,False
+2022,,Institute of Contemporary Art Boston,37162500,199445,99723,0,50,False
+2023,,Institute of Contemporary Art Boston,37162500,204431,102216,0,50,False
+2022,,Isabella Stewart Gardner Museum,27868501,115806,57903,20000,67,False
+2023,,Isabella Stewart Gardner Museum,27868501,118702,59351,20000,67,False
+2021,bos:joslin,Joslin Diabetes Center,86293700,625939,0,0,0,False
+2022,bos:joslin,Joslin Diabetes Center,86293700,641588,0,0,0,False
+2023,bos:joslin,Joslin Diabetes Center,86293700,657627,0,0,0,False
+2024,bos:joslin,Joslin Diabetes Center,86293700,674068,0,0,0,False
+2025,bos:joslin,Joslin Diabetes Center,86293700,690920,0,0,0,False
+2021,bos:longwood,Longwood Collective,50947000,315605,157802,157802,100,False
+2022,bos:longwood,Longwood Collective,50947000,323495,161747,161748,100,False
+2023,bos:longwood,Longwood Collective,50947000,331582,165791,165791,100,False
+2024,bos:longwood,Longwood Collective,50947000,339872,169936,169936,100,False
+2025,bos:longwood,Longwood Collective,50947000,348369,174184,174184,100,False
+2021,bos:mcphs,Massachusetts College of Pharmacy,109297000,827902,413951,413951,100,False
+2022,bos:mcphs,Massachusetts College of Pharmacy,109297000,848600,424300,424300,100,False
+2023,bos:mcphs,Massachusetts College of Pharmacy,109297000,869815,434907,434907,100,False
+2024,bos:mcphs,Massachusetts College of Pharmacy,109297000,891560,445780,445780,100,False
+2025,bos:mcphs,Massachusetts College of Pharmacy,109297000,913849,456924,456924,100,False
+2021,bos:meei,Massachusetts Eye & Ear Infirmary,116908100,894725,436452,436452,99,False
+2022,bos:meei,Massachusetts Eye & Ear Infirmary,116908100,917094,436561,436452,95,False
+2023,bos:meei,Massachusetts Eye & Ear Infirmary,116908100,940021,470010,436452,96,False
+2024,bos:meei,Massachusetts Eye & Ear Infirmary,116908100,963521,481761,436452,95,False
+2025,bos:meei,Massachusetts Eye & Ear Infirmary,116908100,987609,493805,436452,94,False
+2021,bos:mgh,Massachusetts General Hospital,1787806829,15564761,6875006,6875006,88,False
+2022,bos:mgh,Massachusetts General Hospital,1787850729,15954130,7168970,6875006,88,False
+2023,bos:mgh,Massachusetts General Hospital,1787850729,16353083,8176541,6875006,92,False
+2024,bos:mgh,Massachusetts General Hospital,1786998579,16753853,8376926,6875006,91,False
+2025,bos:mgh,Massachusetts General Hospital,1786998579,17172699,8586350,6875005,90,False
+2021,,Museum of Fine Arts,282996699,2352596,1176298,70618,53,False
+2022,,Museum of Fine Arts Boston,282996699,2411411,240000,72945,13,False
+2023,,Museum of Fine Arts Boston,279326699,2437843,160000,82505,10,False
+2021,,Museum of Science,34903500,174747,87374,0,50,False
+2022,,Museum of Science Boston,34903500,179116,89558,0,50,False
+2023,,Museum of Science Boston,34903500,183594,91797,0,50,False
+2021,,New England Aquarium,70176100,484431,0,0,0,False
+2022,,New England Aquarium,70176100,496542,248271,0,50,False
+2023,,New England Aquarium,70176100,508955,254478,0,50,False
+2021,bos:nebh,New England Baptist Hospital,132181873,1028825,514412,370872,86,False
+2022,bos:nebh,New England Baptist Hospital,132181873,1054546,527273,370872,85,False
+2023,bos:nebh,New England Baptist Hospital,132181873,1080909,540455,370872,84,False
+2024,bos:nebh,New England Baptist Hospital,132181873,1107932,553966,370872,83,False
+2025,bos:nebh,New England Baptist Hospital,132181873,1135630,567815,370872,83,False
+2021,bos:neco,New England College of Optometry,25065500,88372,44186,44186,100,False
+2022,bos:neco,New England College of Optometry,25065500,90582,45291,45291,100,False
+2023,bos:neco,New England College of Optometry,25065500,92846,46423,46423,100,False
+2024,bos:neco,New England College of Optometry,25065500,95168,47584,47584,100,False
+2025,bos:neco,New England College of Optometry,25065500,97547,48773,48773,100,False
+2021,bos:nec,New England Conservatory,29747000,129475,64737,0,50,False
+2022,bos:nec,New England Conservatory,29747000,132712,66356,0,50,False
+2023,bos:nec,New England Conservatory,29747000,136029,68015,0,50,False
+2024,bos:nec,New England Conservatory,29747000,139430,69715,0,50,False
+2025,bos:nec,New England Conservatory,29747000,142916,71458,0,50,False
+2021,bos:northeastern,Northeastern University,1427756881,12385525,6192763,1900000,68,True
+2022,bos:northeastern,Northeastern University,1442078481,12793873,6396937,1900000,67,True
+2023,bos:northeastern,Northeastern University,1442078481,13128924,6564462,1900000,67,True
+2024,bos:northeastern,Northeastern University,1442078481,13457148,6728574,1900000,67,True
+2025,bos:northeastern,Northeastern University,1442078481,13793576,6896788,1900000,66,True
+2021,bos:roxbury-latin,Roxbury Latin School,52896200,332718,0,0,0,False
+2022,bos:roxbury-latin,Roxbury Latin School,52896200,341036,0,0,0,False
+2023,bos:roxbury-latin,Roxbury Latin School,52896200,349562,0,0,0,False
+2024,bos:roxbury-latin,Roxbury Latin School,52896200,358301,0,0,0,False
+2025,bos:roxbury-latin,Roxbury Latin School,52896200,367259,183629,0,50,False
+2021,bos:showa,Showa Institute,42694600,243151,56149,121576,73,False
+2022,bos:showa,Showa Institute,42694600,249230,101969,62307,66,False
+2023,bos:showa,Showa Institute,42694600,255461,127730,127730,100,False
+2024,bos:showa,Showa Institute,36073778,199248,99624,99624,100,False
+2025,bos:showa,Showa Institute,36073778,204230,102115,102115,100,False
+2021,bos:shriners,Shriners Hospitals for Children Boston,106097400,799810,0,0,0,False
+2022,bos:shriners,Shriners Hospitals for Children Boston,106097400,819806,0,0,0,False
+2023,bos:shriners,Shriners Hospitals for Children Boston,106097400,840301,0,0,0,False
+2024,bos:shriners,Shriners Hospitals for Children Boston,106097400,861308,0,0,0,False
+2025,bos:shriners,Shriners Hospitals for Children Boston,106097400,882841,0,0,0,False
+2021,bos:simmons,Simmons College,139730000,1095095,547548,0,50,False
+2022,bos:simmons,Simmons College,139730000,1122473,561236,100000,59,False
+2023,bos:simmons,Simmons College,139730000,1150535,575267,100000,59,False
+2024,bos:simmons,Simmons College,139730000,1179298,589649,0,50,False
+2025,bos:simmons,Simmons College,139730000,1208780,604390,100000,58,False
+2021,bos:spaulding,Spaulding Rehabilitation Hospital,153933900,1219802,539064,539064,88,False
+2022,bos:spaulding,Spaulding Rehabilitation Hospital,153933900,1250297,228440,539064,61,False
+2023,bos:spaulding,Spaulding Rehabilitation Hospital,153933900,1281554,640777,539064,92,False
+2024,bos:spaulding,Spaulding Rehabilitation Hospital,153933900,1313593,656797,539064,91,False
+2025,bos:spaulding,Spaulding Rehabilitation Hospital,159368900,1396567,673216,581240,90,False
+2021,bos:suffolk,Suffolk University,217346500,1744718,872359,508882,79,False
+2022,bos:suffolk,Suffolk University,217346500,1788336,894168,524148,79,False
+2023,bos:suffolk,Suffolk University,217346500,1833044,916522,539872,79,False
+2024,bos:suffolk,Suffolk University,217346500,1878871,939435,556069,80,False
+2025,bos:suffolk,Suffolk University,242932500,2124390,1062195,572752,77,False
+2022,,Trimount Foundation (Bayridge),29788000,133080,0,0,0,False
+2021,bos:tufts-mc,Tufts Medical Center,456821900,3852061,1926031,1926031,100,False
+2022,bos:tufts-mc,Tufts Medical Center,456821900,3948363,1974181,1974181,100,False
+2023,bos:tufts-mc,Tufts Medical Center,456821900,4047072,2023536,1011768,75,False
+2024,bos:tufts-mc,Tufts Medical Center,456821900,4148249,2074124,150000,54,False
+2025,bos:tufts-mc,Tufts Medical Center,456821900,4148249,2074124,150000,54,False
+2021,bos:tufts,Tufts University,144281462,1135056,567528,450000,90,False
+2022,bos:tufts,Tufts University,144281462,1163432,581716,450000,89,False
+2023,bos:tufts,Tufts University,151374962,1247564,623782,450000,86,False
+2024,bos:tufts,Tufts University,151374962,1278753,639376,450000,85,False
+2025,bos:tufts,Tufts University,151374962,1310722,655361,450000,84,False
+2021,bos:wentworth,Wentworth Institute of Technology,208240568,1696600,848300,0,50,False
+2022,bos:wentworth,Wentworth Institute of Technology,208240568,1739015,869507,0,50,False
+2023,bos:wentworth,Wentworth Institute of Technology,208240568,1782490,891245,0,50,False
+2024,bos:wentworth,Wentworth Institute of Technology,213771069,1869969,934984,0,50,False
+2025,bos:wentworth,Wentworth Institute of Technology,213771069,1916718,958359,0,50,False
+2021,bos:winsor,Winsor School,41283900,230765,115383,0,50,False
+2022,bos:winsor,Winsor School,41283900,236535,118267,0,50,False
+2023,bos:winsor,Winsor School,41283900,242448,0,0,0,False
+2024,bos:winsor,Winsor School,41283900,248509,124255,0,50,False
+2025,bos:winsor,Winsor School,41283900,254722,127361,0,50,False
