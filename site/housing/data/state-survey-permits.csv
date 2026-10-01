@@ -1,0 +1,279 @@
+town,year,total,single,multi,adu,factbook,total_basis
+Barrington,2018,65,19,46,,2019,printed
+Barrington,2019,19,13,6,,2020,single+multi
+Barrington,2020,36,16,20,,2021,printed
+Barrington,2021,17,15,0,2,2022,printed
+Barrington,2022,12,12,0,,2023,printed
+Barrington,2023,10,10,0,,2024,printed
+Barrington,2024,7,7,,,2025,printed
+Bristol,2018,17,15,2,,2019,single+multi
+Bristol,2019,11,8,0,3,2020,printed
+Bristol,2020,21,21,0,,2021,printed
+Bristol,2021,23,23,0,,2022,printed
+Bristol,2022,24,16,8,,2023,printed
+Bristol,2023,17,17,0,,2024,printed
+Bristol,2024,19,15,0,4,2025,printed
+Burrillville,2018,65,18,43,4,2019,single+multi
+Burrillville,2019,42,36,0,6,2020,printed
+Burrillville,2020,35,23,8,4,2021,printed
+Burrillville,2021,69,69,0,,2022,printed
+Burrillville,2022,16,16,0,,2023,printed
+Burrillville,2023,24,18,6,,2024,printed
+Burrillville,2024,42,36,0,6,2025,printed
+Central Falls,2018,2,0,2,,2019,printed
+Central Falls,2019,8,8,0,,2020,single+multi
+Central Falls,2020,6,6,0,,2021,printed
+Central Falls,2021,6,0,6,,2022,printed
+Central Falls,2022,2,2,0,,2023,printed
+Central Falls,2023,2,2,0,,2024,printed
+Central Falls,2024,38,3,35,0,2025,printed
+Charlestown,2018,45,36,9,,2019,printed
+Charlestown,2019,36,36,0,,2020,single+multi
+Charlestown,2020,29,29,0,,2021,printed
+Charlestown,2021,40,40,0,,2022,printed
+Charlestown,2022,34,34,0,,2023,printed
+Charlestown,2023,21,21,0,,2024,printed
+Charlestown,2024,16,12,0,4,2025,printed
+Coventry,2018,57,45,12,,2019,printed
+Coventry,2019,54,44,10,,2020,single+multi
+Coventry,2020,56,48,8,,2021,printed
+Coventry,2021,71,55,16,,2022,printed
+Coventry,2022,58,50,8,,2023,printed
+Coventry,2023,53,45,8,,2024,printed
+Coventry,2024,104,76,27,1,2025,printed
+Cranston,2018,64,49,15,,2019,printed
+Cranston,2019,49,39,10,,2020,single+multi
+Cranston,2020,59,29,30,,2021,printed
+Cranston,2021,50,46,4,,2022,printed
+Cranston,2022,52,42,10,,2023,printed
+Cranston,2023,37,33,4,,2024,printed
+Cranston,2024,54,47,4,3,2025,printed
+Cumberland,2018,73,49,24,,2019,printed
+Cumberland,2019,155,115,40,,2020,single+multi
+Cumberland,2020,50,35,15,,2021,printed
+Cumberland,2021,52,52,0,,2022,printed
+Cumberland,2022,38,33,4,1,2023,printed
+Cumberland,2023,44,32,12,,2024,printed
+Cumberland,2024,30,26,2,2,2025,printed
+East Greenwich,2018,48,7,41,,2019,single+multi
+East Greenwich,2019,19,10,9,,2020,single+multi
+East Greenwich,2020,11,11,0,,2021,printed
+East Greenwich,2021,80,32,48,,2022,printed
+East Greenwich,2022,57,26,31,,2023,printed
+East Greenwich,2023,34,29,5,,2024,printed
+East Greenwich,2024,21,17,0,4,2025,printed
+East Providence,2018,0,0,0,,2019,printed
+East Providence,2019,0,0,0,,2020,single+multi
+East Providence,2020,7,7,0,,2021,printed
+East Providence,2021,43,19,24,,2022,printed
+East Providence,2022,8,8,0,,2023,printed
+East Providence,2023,25,25,0,,2024,printed
+East Providence,2024,161,17,141,3,2025,printed
+Exeter,2018,12,12,0,,2019,printed
+Exeter,2019,30,22,8,,2020,single+multi
+Exeter,2020,52,14,38,,2021,printed
+Exeter,2021,50,10,40,,2022,printed
+Exeter,2022,7,7,0,,2023,printed
+Exeter,2023,2,2,0,,2024,printed
+Exeter,2024,7,7,,,2025,printed
+Foster,2018,8,8,0,,2019,printed
+Foster,2019,12,12,0,,2020,single+multi
+Foster,2020,4,4,0,,2021,printed
+Foster,2021,9,9,0,,2022,printed
+Foster,2022,5,5,0,,2023,printed
+Foster,2023,6,6,0,,2024,printed
+Foster,2024,17,11,2,4,2025,printed
+Glocester,2018,31,25,6,,2019,printed
+Glocester,2019,39,29,10,,2020,single+multi
+Glocester,2020,50,46,4,,2021,printed
+Glocester,2021,29,27,2,,2022,printed
+Glocester,2022,23,23,0,,2023,printed
+Glocester,2023,36,18,18,,2024,printed
+Glocester,2024,37,19,14,4,2025,printed
+Hopkinton,2018,17,13,4,,2019,single+multi
+Hopkinton,2019,36,32,4,,2020,single+multi
+Hopkinton,2020,9,9,0,,2021,printed
+Hopkinton,2021,16,16,0,,2022,printed
+Hopkinton,2022,20,20,0,,2023,printed
+Hopkinton,2023,19,19,0,,2024,printed
+Hopkinton,2024,23,21,2,,2025,printed
+Jamestown,2018,30,30,0,,2019,single+multi
+Jamestown,2019,25,25,0,,2020,single+multi
+Jamestown,2020,22,22,0,,2021,printed
+Jamestown,2021,20,15,5,,2022,printed
+Jamestown,2022,22,22,0,,2023,printed
+Jamestown,2023,20,20,0,,2024,printed
+Jamestown,2024,30,25,0,5,2025,printed
+Johnston,2018,16,16,0,,2019,printed
+Johnston,2019,31,31,0,,2020,single+multi
+Johnston,2020,33,33,0,,2021,printed
+Johnston,2021,39,39,0,,2022,printed
+Johnston,2022,35,35,0,,2023,printed
+Johnston,2023,14,14,0,,2024,printed
+Johnston,2024,92,86,0,6,2025,printed
+Lincoln,2018,65,29,36,,2019,single+multi
+Lincoln,2019,83,38,45,,2020,single+multi
+Lincoln,2020,18,18,0,,2021,printed
+Lincoln,2021,95,53,42,,2022,printed
+Lincoln,2022,72,44,28,,2023,printed
+Lincoln,2023,97,15,73,9,2024,printed
+Lincoln,2024,103,40,58,5,2025,printed
+Little Compton,2018,15,15,0,,2019,printed
+Little Compton,2019,17,17,0,,2020,single+multi
+Little Compton,2020,15,15,0,,2021,printed
+Little Compton,2021,13,13,0,,2022,printed
+Little Compton,2022,16,16,0,,2023,printed
+Little Compton,2023,12,12,0,,2024,printed
+Little Compton,2024,20,10,0,10,2025,printed
+Middletown,2018,30,30,0,,2019,printed
+Middletown,2019,42,38,4,,2020,single+multi
+Middletown,2020,14,14,0,,2021,printed
+Middletown,2021,10,10,0,,2022,printed
+Middletown,2022,13,13,0,,2023,printed
+Middletown,2023,62,8,54,,2024,printed
+Middletown,2024,136,12,118,6,2025,printed
+Narragansett,2018,19,16,3,,2019,single+multi
+Narragansett,2019,29,29,0,,2020,single+multi
+Narragansett,2020,23,23,0,,2021,printed
+Narragansett,2021,14,12,2,,2022,printed
+Narragansett,2022,11,7,0,4,2023,printed
+Narragansett,2023,21,16,2,3,2024,printed
+Narragansett,2024,7,6,,,2025,printed
+New Shoreham,2018,13,8,4,1,2019,single+multi
+New Shoreham,2019,10,9,1,,2020,single+multi
+New Shoreham,2020,5,5,0,,2021,printed
+New Shoreham,2021,9,9,0,,2022,printed
+New Shoreham,2022,7,7,0,,2023,printed
+New Shoreham,2023,8,5,0,3,2024,printed
+New Shoreham,2024,18,10,2,6,2025,printed
+Newport,2018,27,14,13,,2019,single+multi
+Newport,2019,13,10,3,,2020,single+multi
+Newport,2020,7,7,0,,2021,printed
+Newport,2021,11,11,0,,2022,printed
+Newport,2022,8,8,0,,2023,printed
+Newport,2023,100,12,88,,2024,printed
+Newport,2024,31,13,12,6,2025,printed
+North Kingstown,2018,116,70,46,,2019,printed
+North Kingstown,2019,44,36,8,,2020,single+multi
+North Kingstown,2020,39,31,8,,2021,printed
+North Kingstown,2021,77,65,12,,2022,printed
+North Kingstown,2022,75,75,0,,2023,printed
+North Kingstown,2023,93,43,50,,2024,printed
+North Kingstown,2024,94,54,40,,2025,printed
+North Providence,2018,5,5,0,,2019,printed
+North Providence,2019,9,9,0,,2020,single+multi
+North Providence,2020,23,4,19,,2021,printed
+North Providence,2021,6,6,0,,2022,printed
+North Providence,2022,3,3,0,,2023,printed
+North Providence,2023,4,4,0,,2024,printed
+North Providence,2024,7,4,,,2025,printed
+North Smithfield,2018,18,18,0,,2019,single+multi
+North Smithfield,2019,28,28,0,,2020,single+multi
+North Smithfield,2020,16,16,0,,2021,printed
+North Smithfield,2021,15,15,0,,2022,printed
+North Smithfield,2022,11,11,0,,2023,printed
+North Smithfield,2023,7,7,0,,2024,printed
+North Smithfield,2024,37,7,30,,2025,printed
+Pawtucket,2018,15,11,4,,2019,printed
+Pawtucket,2019,17,13,4,,2020,single+multi
+Pawtucket,2020,18,12,6,,2021,printed
+Pawtucket,2021,20,14,6,,2022,printed
+Pawtucket,2022,25,21,4,,2023,printed
+Pawtucket,2023,4,4,0,,2024,printed
+Pawtucket,2024,166,9,152,5,2025,printed
+Portsmouth,2018,26,24,2,,2019,printed
+Portsmouth,2019,30,30,0,,2020,single+multi
+Portsmouth,2020,28,28,0,,2021,printed
+Portsmouth,2021,35,35,0,,2022,printed
+Portsmouth,2022,54,53,0,1,2023,printed
+Portsmouth,2023,60,54,0,6,2024,printed
+Portsmouth,2024,125,58,65,2,2025,printed
+Providence,2018,892,48,844,,2019,printed
+Providence,2019,282,44,238,,2020,single+multi
+Providence,2020,248,31,217,,2021,printed
+Providence,2021,128,6,122,,2022,printed
+Providence,2022,299,28,271,,2023,printed
+Providence,2023,1081,50,1031,,2024,printed
+Providence,2024,634,51,571,12,2025,printed
+Richmond,2018,109,41,68,,2019,single+multi
+Richmond,2019,40,40,0,,2020,single+multi
+Richmond,2020,29,29,0,,2021,printed
+Richmond,2021,22,22,0,,2022,printed
+Richmond,2022,17,17,0,,2023,printed
+Richmond,2023,12,6,6,,2024,printed
+Richmond,2024,19,6,10,3,2025,printed
+Scituate,2018,16,16,0,,2019,printed
+Scituate,2019,23,23,0,,2020,single+multi
+Scituate,2020,19,19,0,,2021,printed
+Scituate,2021,26,26,0,,2022,printed
+Scituate,2022,22,22,0,,2023,printed
+Scituate,2023,8,8,0,,2024,printed
+Scituate,2024,8,8,,,2025,printed
+Smithfield,2018,21,21,0,,2019,printed
+Smithfield,2019,31,28,0,3,2020,printed
+Smithfield,2020,39,23,4,12,2021,printed
+Smithfield,2021,28,28,0,,2022,printed
+Smithfield,2022,17,17,0,,2023,printed
+Smithfield,2023,14,14,0,,2024,printed
+Smithfield,2024,28,25,0,3,2025,printed
+South Kingstown,2018,78,78,0,,2019,printed
+South Kingstown,2019,129,97,32,,2020,single+multi
+South Kingstown,2020,102,90,8,4,2021,printed
+South Kingstown,2021,104,80,17,7,2022,printed
+South Kingstown,2022,77,75,2,,2023,printed
+South Kingstown,2023,76,60,10,6,2024,printed
+South Kingstown,2024,91,51,23,17,2025,printed
+Statewide,2019,1612,1091,509,12,2020,printed
+Statewide,2020,1420,906,494,20,2021,printed
+Statewide,2021,1495,1046,438,11,2022,printed
+Statewide,2022,1436,973,455,8,2023,printed
+Statewide,2023,2453,774,1651,28,2024,printed
+Tiverton,2018,30,30,0,,2019,printed
+Tiverton,2019,35,33,2,,2020,single+multi
+Tiverton,2020,36,36,0,,2021,printed
+Tiverton,2021,38,38,0,,2022,printed
+Tiverton,2022,38,38,0,,2023,printed
+Tiverton,2023,32,32,0,,2024,printed
+Tiverton,2024,18,14,4,,2025,printed
+Warren,2018,107,7,100,,2019,printed
+Warren,2019,6,6,0,,2020,single+multi
+Warren,2020,13,13,0,,2021,printed
+Warren,2021,22,7,15,,2022,printed
+Warren,2022,26,6,20,,2023,printed
+Warren,2023,6,4,2,,2024,printed
+Warren,2024,29,8,18,3,2025,printed
+Warwick,2018,63,47,16,,2019,printed
+Warwick,2019,96,39,57,,2020,single+multi
+Warwick,2020,60,32,28,,2021,printed
+Warwick,2021,80,40,40,,2022,printed
+Warwick,2022,72,62,10,,2023,printed
+Warwick,2023,102,64,38,,2024,printed
+Warwick,2024,327,68,249,10,2025,printed
+West Greenwich,2018,26,26,0,,2019,printed
+West Greenwich,2019,9,9,0,,2020,single+multi
+West Greenwich,2020,34,34,0,,2021,single+multi
+West Greenwich,2021,21,21,0,,2022,printed
+West Greenwich,2022,10,8,0,2,2023,printed
+West Greenwich,2023,7,7,0,,2024,printed
+West Greenwich,2024,9,5,,,2025,printed
+West Warwick,2018,39,16,23,,2019,printed
+West Warwick,2019,10,2,8,,2020,single+multi
+West Warwick,2020,48,10,38,,2021,printed
+West Warwick,2021,35,6,29,,2022,printed
+West Warwick,2022,48,11,37,,2023,printed
+West Warwick,2023,19,1,18,,2024,printed
+West Warwick,2024,76,8,68,0,2025,printed
+Westerly,2018,54,42,12,,2019,single+multi
+Westerly,2019,44,34,10,,2020,single+multi
+Westerly,2020,39,34,5,,2021,printed
+Westerly,2021,37,27,8,2,2022,printed
+Westerly,2022,78,56,22,,2023,printed
+Westerly,2023,68,25,42,1,2024,printed
+Westerly,2024,51,36,0,15,2025,printed
+Woonsocket,2018,6,6,0,,2019,printed
+Woonsocket,2019,19,19,0,,2020,single+multi
+Woonsocket,2020,67,29,38,,2021,printed
+Woonsocket,2021,35,35,0,,2022,printed
+Woonsocket,2022,24,24,0,,2023,printed
+Woonsocket,2023,196,12,184,,2024,printed
+Woonsocket,2024,86,36,41,9,2025,printed

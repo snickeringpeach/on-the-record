@@ -5,7 +5,7 @@ Section name and slug ("Housing", /housing/) are placeholders pending Liam's cal
 import json, csv, shutil, pathlib
 
 H = pathlib.Path(__file__).parent.parent / "housing" / "data"
-FILES = ["statewide.json", "census-permits-ri.csv", "permits-new-housing-2009-2019.csv",
+FILES = ["statewide.json", "census-permits-ri.csv", "state-survey-permits.csv", "permits-new-housing-2009-2019.csv",
          "built-since-2010.csv", "built-summary.json"]
 
 def render(page, e, SITE, DATELINE):
@@ -38,7 +38,7 @@ def render(page, e, SITE, DATELINE):
     b.append('<p class="cite">RI Department of Housing, Housing 2030 municipal growth categories and production goals (housing.ri.gov/media/3401). Providence&#8217;s goal is 0.8 percent of 75,257 homes, times five years.</p>')
 
     b.append('<h2>Two counts of the same permits</h2>')
-    b.append(f'<p>Two government surveys count the building permits each city issues for new homes. The Census Bureau&#8217;s Building Permits Survey takes what each city reports, month by month. The State&#8217;s Department of Housing surveys each city once a year. For Providence in 2024, the Census count is {N(c24["total"])} homes and the State count is {N(pd["permitted_total"])}. At the first rate, Providence is permitting {c24["total"]/pv["goal_per_year"]:.0%} of what its goal asks. At the second, it is on pace.</p>')
+    b.append(f'<p>Two government surveys count the building permits each city issues for new homes. The Census Bureau&#8217;s Building Permits Survey takes what each city reports, month by month. The State&#8217;s Department of Housing, renamed the Executive Office of Housing in 2025, surveys each city once a year, and its report says it uses that survey because it is &#8220;more accurate than the Census survey.&#8221; For Providence in 2024, the Census count is {N(c24["total"])} homes and the State count is {N(pd["permitted_total"])}. At the first rate, Providence is permitting {c24["total"]/pv["goal_per_year"]:.0%} of what its goal asks. At the second, it is on pace.</p>')
     b.append(f'<p>The gap runs statewide. The Census count for all 39 cities and towns in 2024 is {N(sw_c24)} homes; the State&#8217;s is {N(sw_d["permitted"][2])}. In {len(imputed24)} towns the Census figure is partly the Bureau&#8217;s own estimate, because the town did not report every month: {", ".join(imputed24)}. The State&#8217;s report says its survey covered 38 of the 39 municipalities and used the Census figure for the last one. It does not say which. The Housing 2030 goals are written in permits, and the plan does not say which survey will be used to measure them.</p>')
     rows = sorted(st["towns"], key=lambda t: -t["goal_per_year"])
     same = [t for t in rows if t["census"]["2024"]["total"] == t["doh_2024"]["permitted_total"]]
@@ -58,14 +58,27 @@ def render(page, e, SITE, DATELINE):
     b.append('<p>The report says so itself: the method &#8220;does not capture the full set of multifamily completions in the state.&#8221;</p>')
     b.append('<p class="cite">RI Department of Housing, 2024 Integrated Housing Report (Apr. 15, 2025), pp. 5, 16 and 19&#8211;20, Figures 2.1 and 2.4.</p>')
 
-    b.append('<h2>What Providence told the Census</h2>')
-    b.append('<p>The City&#8217;s own permit records, published through 2019, can be set against what it reported to the Census in the same years. In 2017 the City reported 4 new homes to the Census. Its permit records for 2017 include a 15-story, 202-apartment building at 169 Canal St. In 2018 it reported 1. In 2023, reporting all 12 months, it reported 5.</p>')
-    b.append('<div class="tablewrap"><table><tr><th>Year</th><th class="n">Reported to the Census</th><th class="n">City permit records</th><th class="n">Built, by the assessor</th></tr>')
+    BY = st["two_counts_by_year"]
+    ss = pv["state_survey"]
+    stv = lambda y: (pd["permitted_total"] if y == 2024 else ss[str(y)]["net_of_adu"]) if (y == 2024 or str(y) in ss) else None
+    gap_all = sum(v["state"] - v["census"] for v in BY.values())
+    gap_pv = sum(v["providence_state"] - v["providence_census"] for v in BY.values())
+    pc7 = sum(v["providence_census"] for v in BY.values()); ps7 = sum(v["providence_state"] for v in BY.values())
+    b.append('<h2>What Providence told the Census and the State</h2>')
+    b.append(f'<p>Both surveys get their numbers from the City. From 2018 through 2024, Providence&#8217;s reports to the Census add to {N(pc7)} homes and its answers to the State&#8217;s survey add to {N(ps7)}. They matched once, in 2022. In 2018 the City reported 1 new home to the Census and {N(stv(2018))} to the State; its own published permit records for that year add to {N(city["2018"])}. In 2023 it reported 5 to the Census, with all 12 months filed, and {N(stv(2023))} to the State. In 2017, a year it reported 4 homes to the Census, its permit records include a 15-story, 202-apartment building at 169 Canal St.</p>')
+    b.append('<div class="tablewrap"><table><tr><th>Year</th><th class="n">To the Census</th><th class="n">To the State</th><th class="n">City permit records</th><th class="n">Built, by the assessor</th></tr>')
     for y in range(2010, 2026):
-        cy = pv["census"].get(str(y), {}).get("total")
-        b.append(f'<tr><td>{y}</td><td class="n">{N(cy) if cy is not None else "–"}</td><td class="n">{N(city[str(y)]) if str(y) in city else "–"}</td><td class="n">{N(built[str(y)]["units"]) if str(y) in built else "–"}</td></tr>')
+        cy = pv["census"].get(str(y), {}).get("total"); sy = stv(y) if 2018 <= y <= 2024 else None
+        b.append(f'<tr><td>{y}</td><td class="n">{N(cy) if cy is not None else "–"}</td><td class="n">{N(sy) if sy is not None else "–"}</td><td class="n">{N(city[str(y)]) if str(y) in city else "–"}</td><td class="n">{N(built[str(y)]["units"]) if str(y) in built else "–"}</td></tr>')
     b.append('</table></div>')
-    b.append('<p class="cite">Census: Building Permits Survey, Providence, units authorized. City permit records: Department of Inspections and Standards permits, 2009&#8211;2019 (data.providenceri.gov), building permits for new housing; homes counted from each permit&#8217;s class and description, renewals and foundation-only permits not counted, a project filed on several lots counted once. Every permit, with how its homes were counted: <a href="data/permits-new-housing-2009-2019.csv">permits-new-housing-2009-2019.csv</a>. Built: see below. The City stopped publishing permits after 2019.</p>')
+    b.append('<p class="cite">To the Census: Building Permits Survey, Providence, units authorized. To the State: HousingWorks RI Housing Fact Books 2019&#8211;2024 (each reports the year before; the State&#8217;s survey was run by HousingWorks RI until the Department of Housing took it over), not counting accessory dwelling units, and for 2024 the Department of Housing&#8217;s 2024 report, Figure 2.3. City permit records: Department of Inspections and Standards permits, 2009&#8211;2019 (data.providenceri.gov), building permits for new housing; homes counted from each permit&#8217;s class and description, renewals and foundation-only permits not counted, a project filed on several lots counted once. Every permit, with how its homes were counted: <a href="data/permits-new-housing-2009-2019.csv">permits-new-housing-2009-2019.csv</a>. Built: see below. The City stopped publishing permits after 2019.</p>')
+    b.append(f'<p>Most of the statewide difference between the two surveys is Providence. Over the seven years the State&#8217;s count runs {N(gap_all)} homes above the Census count for Rhode Island as a whole; {N(gap_pv)} of those, {gap_pv/gap_all:.0%}, are in Providence.</p>')
+    b.append('<div class="tablewrap"><table><tr><th>Year</th><th class="n">Rhode Island, Census</th><th class="n">Rhode Island, State</th><th class="n">Towns where the two agree</th><th class="n">Providence&#8217;s share of the gap</th></tr>')
+    for y, v in BY.items():
+        sh = "–" if v["providence_share_of_gap"] is None else f'{v["providence_share_of_gap"]:.0%}'
+        b.append(f'<tr><td>{y}</td><td class="n">{N(v["census"])}</td><td class="n">{N(v["state"])}</td><td class="n">{v["match"]} of 39</td><td class="n">{sh}</td></tr>')
+    b.append(f'<tr class="total"><td>2018&#8211;2024</td><td class="n">{N(sum(v["census"] for v in BY.values()))}</td><td class="n">{N(sum(v["state"] for v in BY.values()))}</td><td class="n"></td><td class="n">{gap_pv/gap_all:.0%}</td></tr></table></div>')
+    b.append('<p class="cite">Same sources, summed over all 39 cities and towns. A share above 100 percent means other towns&#8217; differences ran the other way. Every town and year, both counts: <a href="data/statewide.json">statewide.json</a> and <a href="data/state-survey-permits.csv">state-survey-permits.csv</a>.</p>')
 
     b.append('<h2>What got built, parcel by parcel</h2>')
     R = bs["by_regime"]; tsa = R.get("tax stabilization agreement", {"parcels": 0, "units": 0})
@@ -82,7 +95,7 @@ def render(page, e, SITE, DATELINE):
     b.append('<h2>Not yet on the record</h2><ul class="open">'
              '<li>Every building permit for new homes in Providence since 2020, with its parcel and number of homes. The City keeps them in an online permit system whose public search is one record at a time.</li>'
              '<li>Every certificate of occupancy the City has issued since 2020: the count of homes actually finished.</li>'
-             f'<li>Which permits make up the {N(pd["permitted_total"])} homes the City reported to the State for 2024, and why its Census reports for the same year add to {N(c24["total"])}.</li>'
+             f'<li>Which permits make up the {N(pd["permitted_total"])} homes the City reported to the State for 2024, and why its Census reports for the same year add to {N(c24["total"])}. The City and the State were asked on Oct. 1, 2026.</li>'
              '<li>Which count the State will use to judge the Housing 2030 goals.</li></ul>')
     b.append('<h2>Data</h2><p>' + " · ".join(f'<a href="data/{f}">{f}</a>' for f in FILES) + '</p></main>')
 

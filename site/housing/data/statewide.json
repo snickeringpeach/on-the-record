@@ -217,6 +217,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 65,
+     "single": 19,
+     "multi": 46,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 65
+    },
+    "2019": {
+     "total": 19,
+     "single": 13,
+     "multi": 6,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 19
+    },
+    "2020": {
+     "total": 36,
+     "single": 16,
+     "multi": 20,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 36
+    },
+    "2021": {
+     "total": 17,
+     "single": 15,
+     "multi": 0,
+     "adu": 2,
+     "factbook": 2022,
+     "net_of_adu": 15
+    },
+    "2022": {
+     "total": 12,
+     "single": 12,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 12
+    },
+    "2023": {
+     "total": 10,
+     "single": 10,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 10
+    },
+    "2024": {
+     "total": 7,
+     "single": 7,
+     "multi": null,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 7
+    }
+   },
    "doh_2024": {
     "permitted_single": 7,
     "permitted_multi": 0,
@@ -440,6 +498,64 @@
      "u5": 0,
      "total": 11,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 17,
+     "single": 15,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 17
+    },
+    "2019": {
+     "total": 11,
+     "single": 8,
+     "multi": 0,
+     "adu": 3,
+     "factbook": 2020,
+     "net_of_adu": 8
+    },
+    "2020": {
+     "total": 21,
+     "single": 21,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 21
+    },
+    "2021": {
+     "total": 23,
+     "single": 23,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 23
+    },
+    "2022": {
+     "total": 24,
+     "single": 16,
+     "multi": 8,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 24
+    },
+    "2023": {
+     "total": 17,
+     "single": 17,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 17
+    },
+    "2024": {
+     "total": 19,
+     "single": 15,
+     "multi": 0,
+     "adu": 4,
+     "factbook": 2025,
+     "net_of_adu": 15
     }
    },
    "doh_2024": {
@@ -667,6 +783,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 65,
+     "single": 18,
+     "multi": 43,
+     "adu": 4,
+     "factbook": 2019,
+     "net_of_adu": 61
+    },
+    "2019": {
+     "total": 42,
+     "single": 36,
+     "multi": 0,
+     "adu": 6,
+     "factbook": 2020,
+     "net_of_adu": 36
+    },
+    "2020": {
+     "total": 35,
+     "single": 23,
+     "multi": 8,
+     "adu": 4,
+     "factbook": 2021,
+     "net_of_adu": 31
+    },
+    "2021": {
+     "total": 69,
+     "single": 69,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 69
+    },
+    "2022": {
+     "total": 16,
+     "single": 16,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 16
+    },
+    "2023": {
+     "total": 24,
+     "single": 18,
+     "multi": 6,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 24
+    },
+    "2024": {
+     "total": 42,
+     "single": 36,
+     "multi": 0,
+     "adu": 6,
+     "factbook": 2025,
+     "net_of_adu": 36
+    }
+   },
    "doh_2024": {
     "permitted_single": 36,
     "permitted_multi": 0,
@@ -890,6 +1064,64 @@
      "u5": 61,
      "total": 65,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 2,
+     "single": 0,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 2
+    },
+    "2019": {
+     "total": 8,
+     "single": 8,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 8
+    },
+    "2020": {
+     "total": 6,
+     "single": 6,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 6
+    },
+    "2021": {
+     "total": 6,
+     "single": 0,
+     "multi": 6,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 6
+    },
+    "2022": {
+     "total": 2,
+     "single": 2,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 2
+    },
+    "2023": {
+     "total": 2,
+     "single": 2,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 2
+    },
+    "2024": {
+     "total": 38,
+     "single": 3,
+     "multi": 35,
+     "adu": 0,
+     "factbook": 2025,
+     "net_of_adu": 38
     }
    },
    "doh_2024": {
@@ -1117,6 +1349,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 45,
+     "single": 36,
+     "multi": 9,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 45
+    },
+    "2019": {
+     "total": 36,
+     "single": 36,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 36
+    },
+    "2020": {
+     "total": 29,
+     "single": 29,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 29
+    },
+    "2021": {
+     "total": 40,
+     "single": 40,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 40
+    },
+    "2022": {
+     "total": 34,
+     "single": 34,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 34
+    },
+    "2023": {
+     "total": 21,
+     "single": 21,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 21
+    },
+    "2024": {
+     "total": 16,
+     "single": 12,
+     "multi": 0,
+     "adu": 4,
+     "factbook": 2025,
+     "net_of_adu": 12
+    }
+   },
    "doh_2024": {
     "permitted_single": 12,
     "permitted_multi": 0,
@@ -1340,6 +1630,64 @@
      "u5": 0,
      "total": 50,
      "months": 0
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 57,
+     "single": 45,
+     "multi": 12,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 57
+    },
+    "2019": {
+     "total": 54,
+     "single": 44,
+     "multi": 10,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 54
+    },
+    "2020": {
+     "total": 56,
+     "single": 48,
+     "multi": 8,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 56
+    },
+    "2021": {
+     "total": 71,
+     "single": 55,
+     "multi": 16,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 71
+    },
+    "2022": {
+     "total": 58,
+     "single": 50,
+     "multi": 8,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 58
+    },
+    "2023": {
+     "total": 53,
+     "single": 45,
+     "multi": 8,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 53
+    },
+    "2024": {
+     "total": 104,
+     "single": 76,
+     "multi": 27,
+     "adu": 1,
+     "factbook": 2025,
+     "net_of_adu": 103
     }
    },
    "doh_2024": {
@@ -1567,6 +1915,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 64,
+     "single": 49,
+     "multi": 15,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 64
+    },
+    "2019": {
+     "total": 49,
+     "single": 39,
+     "multi": 10,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 49
+    },
+    "2020": {
+     "total": 59,
+     "single": 29,
+     "multi": 30,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 59
+    },
+    "2021": {
+     "total": 50,
+     "single": 46,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 50
+    },
+    "2022": {
+     "total": 52,
+     "single": 42,
+     "multi": 10,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 52
+    },
+    "2023": {
+     "total": 37,
+     "single": 33,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 37
+    },
+    "2024": {
+     "total": 54,
+     "single": 47,
+     "multi": 4,
+     "adu": 3,
+     "factbook": 2025,
+     "net_of_adu": 51
+    }
+   },
    "doh_2024": {
     "permitted_single": 47,
     "permitted_multi": 4,
@@ -1790,6 +2196,64 @@
      "u5": 32,
      "total": 61,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 73,
+     "single": 49,
+     "multi": 24,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 73
+    },
+    "2019": {
+     "total": 155,
+     "single": 115,
+     "multi": 40,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 155
+    },
+    "2020": {
+     "total": 50,
+     "single": 35,
+     "multi": 15,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 50
+    },
+    "2021": {
+     "total": 52,
+     "single": 52,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 52
+    },
+    "2022": {
+     "total": 38,
+     "single": 33,
+     "multi": 4,
+     "adu": 1,
+     "factbook": 2023,
+     "net_of_adu": 37
+    },
+    "2023": {
+     "total": 44,
+     "single": 32,
+     "multi": 12,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 44
+    },
+    "2024": {
+     "total": 30,
+     "single": 26,
+     "multi": 2,
+     "adu": 2,
+     "factbook": 2025,
+     "net_of_adu": 28
     }
    },
    "doh_2024": {
@@ -2017,6 +2481,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 48,
+     "single": 7,
+     "multi": 41,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 48
+    },
+    "2019": {
+     "total": 19,
+     "single": 10,
+     "multi": 9,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 19
+    },
+    "2020": {
+     "total": 11,
+     "single": 11,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 11
+    },
+    "2021": {
+     "total": 80,
+     "single": 32,
+     "multi": 48,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 80
+    },
+    "2022": {
+     "total": 57,
+     "single": 26,
+     "multi": 31,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 57
+    },
+    "2023": {
+     "total": 34,
+     "single": 29,
+     "multi": 5,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 34
+    },
+    "2024": {
+     "total": 21,
+     "single": 17,
+     "multi": 0,
+     "adu": 4,
+     "factbook": 2025,
+     "net_of_adu": 17
+    }
+   },
    "doh_2024": {
     "permitted_single": 17,
     "permitted_multi": 0,
@@ -2240,6 +2762,64 @@
      "u5": 211,
      "total": 268,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 0,
+     "single": 0,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 0
+    },
+    "2019": {
+     "total": 0,
+     "single": 0,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 0
+    },
+    "2020": {
+     "total": 7,
+     "single": 7,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 7
+    },
+    "2021": {
+     "total": 43,
+     "single": 19,
+     "multi": 24,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 43
+    },
+    "2022": {
+     "total": 8,
+     "single": 8,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 8
+    },
+    "2023": {
+     "total": 25,
+     "single": 25,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 25
+    },
+    "2024": {
+     "total": 161,
+     "single": 17,
+     "multi": 141,
+     "adu": 3,
+     "factbook": 2025,
+     "net_of_adu": 158
     }
    },
    "doh_2024": {
@@ -2467,6 +3047,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 12,
+     "single": 12,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 12
+    },
+    "2019": {
+     "total": 30,
+     "single": 22,
+     "multi": 8,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 30
+    },
+    "2020": {
+     "total": 52,
+     "single": 14,
+     "multi": 38,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 52
+    },
+    "2021": {
+     "total": 50,
+     "single": 10,
+     "multi": 40,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 50
+    },
+    "2022": {
+     "total": 7,
+     "single": 7,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 7
+    },
+    "2023": {
+     "total": 2,
+     "single": 2,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 2
+    },
+    "2024": {
+     "total": 7,
+     "single": 7,
+     "multi": null,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 7
+    }
+   },
    "doh_2024": {
     "permitted_single": 7,
     "permitted_multi": 0,
@@ -2690,6 +3328,64 @@
      "u5": 0,
      "total": 6,
      "months": 0
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 8,
+     "single": 8,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 8
+    },
+    "2019": {
+     "total": 12,
+     "single": 12,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 12
+    },
+    "2020": {
+     "total": 4,
+     "single": 4,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 4
+    },
+    "2021": {
+     "total": 9,
+     "single": 9,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 9
+    },
+    "2022": {
+     "total": 5,
+     "single": 5,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 5
+    },
+    "2023": {
+     "total": 6,
+     "single": 6,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 6
+    },
+    "2024": {
+     "total": 17,
+     "single": 11,
+     "multi": 2,
+     "adu": 4,
+     "factbook": 2025,
+     "net_of_adu": 13
     }
    },
    "doh_2024": {
@@ -2917,6 +3613,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 31,
+     "single": 25,
+     "multi": 6,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 31
+    },
+    "2019": {
+     "total": 39,
+     "single": 29,
+     "multi": 10,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 39
+    },
+    "2020": {
+     "total": 50,
+     "single": 46,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 50
+    },
+    "2021": {
+     "total": 29,
+     "single": 27,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 29
+    },
+    "2022": {
+     "total": 23,
+     "single": 23,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 23
+    },
+    "2023": {
+     "total": 36,
+     "single": 18,
+     "multi": 18,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 36
+    },
+    "2024": {
+     "total": 37,
+     "single": 19,
+     "multi": 14,
+     "adu": 4,
+     "factbook": 2025,
+     "net_of_adu": 33
+    }
+   },
    "doh_2024": {
     "permitted_single": 19,
     "permitted_multi": 14,
@@ -3140,6 +3894,64 @@
      "u5": 0,
      "total": 12,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 17,
+     "single": 13,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 17
+    },
+    "2019": {
+     "total": 36,
+     "single": 32,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 36
+    },
+    "2020": {
+     "total": 9,
+     "single": 9,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 9
+    },
+    "2021": {
+     "total": 16,
+     "single": 16,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 16
+    },
+    "2022": {
+     "total": 20,
+     "single": 20,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 20
+    },
+    "2023": {
+     "total": 19,
+     "single": 19,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 19
+    },
+    "2024": {
+     "total": 23,
+     "single": 21,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 23
     }
    },
    "doh_2024": {
@@ -3367,6 +4179,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 30,
+     "single": 30,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 30
+    },
+    "2019": {
+     "total": 25,
+     "single": 25,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 25
+    },
+    "2020": {
+     "total": 22,
+     "single": 22,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 22
+    },
+    "2021": {
+     "total": 20,
+     "single": 15,
+     "multi": 5,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 20
+    },
+    "2022": {
+     "total": 22,
+     "single": 22,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 22
+    },
+    "2023": {
+     "total": 20,
+     "single": 20,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 20
+    },
+    "2024": {
+     "total": 30,
+     "single": 25,
+     "multi": 0,
+     "adu": 5,
+     "factbook": 2025,
+     "net_of_adu": 25
+    }
+   },
    "doh_2024": {
     "permitted_single": 25,
     "permitted_multi": 0,
@@ -3590,6 +4460,64 @@
      "u5": 0,
      "total": 18,
      "months": 0
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 16,
+     "single": 16,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 16
+    },
+    "2019": {
+     "total": 31,
+     "single": 31,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 31
+    },
+    "2020": {
+     "total": 33,
+     "single": 33,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 33
+    },
+    "2021": {
+     "total": 39,
+     "single": 39,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 39
+    },
+    "2022": {
+     "total": 35,
+     "single": 35,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 35
+    },
+    "2023": {
+     "total": 14,
+     "single": 14,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 14
+    },
+    "2024": {
+     "total": 92,
+     "single": 86,
+     "multi": 0,
+     "adu": 6,
+     "factbook": 2025,
+     "net_of_adu": 86
     }
    },
    "doh_2024": {
@@ -3817,6 +4745,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 65,
+     "single": 29,
+     "multi": 36,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 65
+    },
+    "2019": {
+     "total": 83,
+     "single": 38,
+     "multi": 45,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 83
+    },
+    "2020": {
+     "total": 18,
+     "single": 18,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 18
+    },
+    "2021": {
+     "total": 95,
+     "single": 53,
+     "multi": 42,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 95
+    },
+    "2022": {
+     "total": 72,
+     "single": 44,
+     "multi": 28,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 72
+    },
+    "2023": {
+     "total": 97,
+     "single": 15,
+     "multi": 73,
+     "adu": 9,
+     "factbook": 2024,
+     "net_of_adu": 88
+    },
+    "2024": {
+     "total": 103,
+     "single": 40,
+     "multi": 58,
+     "adu": 5,
+     "factbook": 2025,
+     "net_of_adu": 98
+    }
+   },
    "doh_2024": {
     "permitted_single": 40,
     "permitted_multi": 58,
@@ -4040,6 +5026,64 @@
      "u5": 0,
      "total": 14,
      "months": 11
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 15,
+     "single": 15,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 15
+    },
+    "2019": {
+     "total": 17,
+     "single": 17,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 17
+    },
+    "2020": {
+     "total": 15,
+     "single": 15,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 15
+    },
+    "2021": {
+     "total": 13,
+     "single": 13,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 13
+    },
+    "2022": {
+     "total": 16,
+     "single": 16,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 16
+    },
+    "2023": {
+     "total": 12,
+     "single": 12,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 12
+    },
+    "2024": {
+     "total": 20,
+     "single": 10,
+     "multi": 0,
+     "adu": 10,
+     "factbook": 2025,
+     "net_of_adu": 10
     }
    },
    "doh_2024": {
@@ -4267,6 +5311,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 30,
+     "single": 30,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 30
+    },
+    "2019": {
+     "total": 42,
+     "single": 38,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 42
+    },
+    "2020": {
+     "total": 14,
+     "single": 14,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 14
+    },
+    "2021": {
+     "total": 10,
+     "single": 10,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 10
+    },
+    "2022": {
+     "total": 13,
+     "single": 13,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 13
+    },
+    "2023": {
+     "total": 62,
+     "single": 8,
+     "multi": 54,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 62
+    },
+    "2024": {
+     "total": 136,
+     "single": 12,
+     "multi": 118,
+     "adu": 6,
+     "factbook": 2025,
+     "net_of_adu": 130
+    }
+   },
    "doh_2024": {
     "permitted_single": 12,
     "permitted_multi": 118,
@@ -4490,6 +5592,64 @@
      "u5": 0,
      "total": 11,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 19,
+     "single": 16,
+     "multi": 3,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 19
+    },
+    "2019": {
+     "total": 29,
+     "single": 29,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 29
+    },
+    "2020": {
+     "total": 23,
+     "single": 23,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 23
+    },
+    "2021": {
+     "total": 14,
+     "single": 12,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 14
+    },
+    "2022": {
+     "total": 11,
+     "single": 7,
+     "multi": 0,
+     "adu": 4,
+     "factbook": 2023,
+     "net_of_adu": 7
+    },
+    "2023": {
+     "total": 21,
+     "single": 16,
+     "multi": 2,
+     "adu": 3,
+     "factbook": 2024,
+     "net_of_adu": 18
+    },
+    "2024": {
+     "total": 7,
+     "single": 6,
+     "multi": null,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 7
     }
    },
    "doh_2024": {
@@ -4717,6 +5877,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 13,
+     "single": 8,
+     "multi": 4,
+     "adu": 1,
+     "factbook": 2019,
+     "net_of_adu": 12
+    },
+    "2019": {
+     "total": 10,
+     "single": 9,
+     "multi": 1,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 10
+    },
+    "2020": {
+     "total": 5,
+     "single": 5,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 5
+    },
+    "2021": {
+     "total": 9,
+     "single": 9,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 9
+    },
+    "2022": {
+     "total": 7,
+     "single": 7,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 7
+    },
+    "2023": {
+     "total": 8,
+     "single": 5,
+     "multi": 0,
+     "adu": 3,
+     "factbook": 2024,
+     "net_of_adu": 5
+    },
+    "2024": {
+     "total": 18,
+     "single": 10,
+     "multi": 2,
+     "adu": 6,
+     "factbook": 2025,
+     "net_of_adu": 12
+    }
+   },
    "doh_2024": {
     "permitted_single": 10,
     "permitted_multi": 2,
@@ -4940,6 +6158,64 @@
      "u5": 0,
      "total": 9,
      "months": 0
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 27,
+     "single": 14,
+     "multi": 13,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 27
+    },
+    "2019": {
+     "total": 13,
+     "single": 10,
+     "multi": 3,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 13
+    },
+    "2020": {
+     "total": 7,
+     "single": 7,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 7
+    },
+    "2021": {
+     "total": 11,
+     "single": 11,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 11
+    },
+    "2022": {
+     "total": 8,
+     "single": 8,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 8
+    },
+    "2023": {
+     "total": 100,
+     "single": 12,
+     "multi": 88,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 100
+    },
+    "2024": {
+     "total": 31,
+     "single": 13,
+     "multi": 12,
+     "adu": 6,
+     "factbook": 2025,
+     "net_of_adu": 25
     }
    },
    "doh_2024": {
@@ -5167,6 +6443,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 116,
+     "single": 70,
+     "multi": 46,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 116
+    },
+    "2019": {
+     "total": 44,
+     "single": 36,
+     "multi": 8,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 44
+    },
+    "2020": {
+     "total": 39,
+     "single": 31,
+     "multi": 8,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 39
+    },
+    "2021": {
+     "total": 77,
+     "single": 65,
+     "multi": 12,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 77
+    },
+    "2022": {
+     "total": 75,
+     "single": 75,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 75
+    },
+    "2023": {
+     "total": 93,
+     "single": 43,
+     "multi": 50,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 93
+    },
+    "2024": {
+     "total": 94,
+     "single": 54,
+     "multi": 40,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 94
+    }
+   },
    "doh_2024": {
     "permitted_single": 54,
     "permitted_multi": 40,
@@ -5390,6 +6724,64 @@
      "u5": 0,
      "total": 0,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 5,
+     "single": 5,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 5
+    },
+    "2019": {
+     "total": 9,
+     "single": 9,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 9
+    },
+    "2020": {
+     "total": 23,
+     "single": 4,
+     "multi": 19,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 23
+    },
+    "2021": {
+     "total": 6,
+     "single": 6,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 6
+    },
+    "2022": {
+     "total": 3,
+     "single": 3,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 3
+    },
+    "2023": {
+     "total": 4,
+     "single": 4,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 4
+    },
+    "2024": {
+     "total": 7,
+     "single": 4,
+     "multi": null,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 7
     }
    },
    "doh_2024": {
@@ -5617,6 +7009,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 18,
+     "single": 18,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 18
+    },
+    "2019": {
+     "total": 28,
+     "single": 28,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 28
+    },
+    "2020": {
+     "total": 16,
+     "single": 16,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 16
+    },
+    "2021": {
+     "total": 15,
+     "single": 15,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 15
+    },
+    "2022": {
+     "total": 11,
+     "single": 11,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 11
+    },
+    "2023": {
+     "total": 7,
+     "single": 7,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 7
+    },
+    "2024": {
+     "total": 37,
+     "single": 7,
+     "multi": 30,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 37
+    }
+   },
    "doh_2024": {
     "permitted_single": 7,
     "permitted_multi": 30,
@@ -5840,6 +7290,64 @@
      "u5": 0,
      "total": 2,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 15,
+     "single": 11,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 15
+    },
+    "2019": {
+     "total": 17,
+     "single": 13,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 17
+    },
+    "2020": {
+     "total": 18,
+     "single": 12,
+     "multi": 6,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 18
+    },
+    "2021": {
+     "total": 20,
+     "single": 14,
+     "multi": 6,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 20
+    },
+    "2022": {
+     "total": 25,
+     "single": 21,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 25
+    },
+    "2023": {
+     "total": 4,
+     "single": 4,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 4
+    },
+    "2024": {
+     "total": 166,
+     "single": 9,
+     "multi": 152,
+     "adu": 5,
+     "factbook": 2025,
+     "net_of_adu": 161
     }
    },
    "doh_2024": {
@@ -6067,6 +7575,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 26,
+     "single": 24,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 26
+    },
+    "2019": {
+     "total": 30,
+     "single": 30,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 30
+    },
+    "2020": {
+     "total": 28,
+     "single": 28,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 28
+    },
+    "2021": {
+     "total": 35,
+     "single": 35,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 35
+    },
+    "2022": {
+     "total": 54,
+     "single": 53,
+     "multi": 0,
+     "adu": 1,
+     "factbook": 2023,
+     "net_of_adu": 53
+    },
+    "2023": {
+     "total": 60,
+     "single": 54,
+     "multi": 0,
+     "adu": 6,
+     "factbook": 2024,
+     "net_of_adu": 54
+    },
+    "2024": {
+     "total": 125,
+     "single": 58,
+     "multi": 65,
+     "adu": 2,
+     "factbook": 2025,
+     "net_of_adu": 123
+    }
+   },
    "doh_2024": {
     "permitted_single": 58,
     "permitted_multi": 65,
@@ -6290,6 +7856,64 @@
      "u5": 38,
      "total": 324,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 892,
+     "single": 48,
+     "multi": 844,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 892
+    },
+    "2019": {
+     "total": 282,
+     "single": 44,
+     "multi": 238,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 282
+    },
+    "2020": {
+     "total": 248,
+     "single": 31,
+     "multi": 217,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 248
+    },
+    "2021": {
+     "total": 128,
+     "single": 6,
+     "multi": 122,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 128
+    },
+    "2022": {
+     "total": 299,
+     "single": 28,
+     "multi": 271,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 299
+    },
+    "2023": {
+     "total": 1081,
+     "single": 50,
+     "multi": 1031,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 1081
+    },
+    "2024": {
+     "total": 634,
+     "single": 51,
+     "multi": 571,
+     "adu": 12,
+     "factbook": 2025,
+     "net_of_adu": 622
     }
    },
    "doh_2024": {
@@ -6517,6 +8141,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 109,
+     "single": 41,
+     "multi": 68,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 109
+    },
+    "2019": {
+     "total": 40,
+     "single": 40,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 40
+    },
+    "2020": {
+     "total": 29,
+     "single": 29,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 29
+    },
+    "2021": {
+     "total": 22,
+     "single": 22,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 22
+    },
+    "2022": {
+     "total": 17,
+     "single": 17,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 17
+    },
+    "2023": {
+     "total": 12,
+     "single": 6,
+     "multi": 6,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 12
+    },
+    "2024": {
+     "total": 19,
+     "single": 6,
+     "multi": 10,
+     "adu": 3,
+     "factbook": 2025,
+     "net_of_adu": 16
+    }
+   },
    "doh_2024": {
     "permitted_single": 6,
     "permitted_multi": 10,
@@ -6740,6 +8422,64 @@
      "u5": 0,
      "total": 18,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 16,
+     "single": 16,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 16
+    },
+    "2019": {
+     "total": 23,
+     "single": 23,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 23
+    },
+    "2020": {
+     "total": 19,
+     "single": 19,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 19
+    },
+    "2021": {
+     "total": 26,
+     "single": 26,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 26
+    },
+    "2022": {
+     "total": 22,
+     "single": 22,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 22
+    },
+    "2023": {
+     "total": 8,
+     "single": 8,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 8
+    },
+    "2024": {
+     "total": 8,
+     "single": 8,
+     "multi": null,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 8
     }
    },
    "doh_2024": {
@@ -6967,6 +8707,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 21,
+     "single": 21,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 21
+    },
+    "2019": {
+     "total": 31,
+     "single": 28,
+     "multi": 0,
+     "adu": 3,
+     "factbook": 2020,
+     "net_of_adu": 28
+    },
+    "2020": {
+     "total": 39,
+     "single": 23,
+     "multi": 4,
+     "adu": 12,
+     "factbook": 2021,
+     "net_of_adu": 27
+    },
+    "2021": {
+     "total": 28,
+     "single": 28,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 28
+    },
+    "2022": {
+     "total": 17,
+     "single": 17,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 17
+    },
+    "2023": {
+     "total": 14,
+     "single": 14,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 14
+    },
+    "2024": {
+     "total": 28,
+     "single": 25,
+     "multi": 0,
+     "adu": 3,
+     "factbook": 2025,
+     "net_of_adu": 25
+    }
+   },
    "doh_2024": {
     "permitted_single": 25,
     "permitted_multi": 0,
@@ -7190,6 +8988,64 @@
      "u5": 0,
      "total": 87,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 78,
+     "single": 78,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 78
+    },
+    "2019": {
+     "total": 129,
+     "single": 97,
+     "multi": 32,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 129
+    },
+    "2020": {
+     "total": 102,
+     "single": 90,
+     "multi": 8,
+     "adu": 4,
+     "factbook": 2021,
+     "net_of_adu": 98
+    },
+    "2021": {
+     "total": 104,
+     "single": 80,
+     "multi": 17,
+     "adu": 7,
+     "factbook": 2022,
+     "net_of_adu": 97
+    },
+    "2022": {
+     "total": 77,
+     "single": 75,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 77
+    },
+    "2023": {
+     "total": 76,
+     "single": 60,
+     "multi": 10,
+     "adu": 6,
+     "factbook": 2024,
+     "net_of_adu": 70
+    },
+    "2024": {
+     "total": 91,
+     "single": 51,
+     "multi": 23,
+     "adu": 17,
+     "factbook": 2025,
+     "net_of_adu": 74
     }
    },
    "doh_2024": {
@@ -7417,6 +9273,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 30,
+     "single": 30,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 30
+    },
+    "2019": {
+     "total": 35,
+     "single": 33,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 35
+    },
+    "2020": {
+     "total": 36,
+     "single": 36,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 36
+    },
+    "2021": {
+     "total": 38,
+     "single": 38,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 38
+    },
+    "2022": {
+     "total": 38,
+     "single": 38,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 38
+    },
+    "2023": {
+     "total": 32,
+     "single": 32,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 32
+    },
+    "2024": {
+     "total": 18,
+     "single": 14,
+     "multi": 4,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 18
+    }
+   },
    "doh_2024": {
     "permitted_single": 14,
     "permitted_multi": 4,
@@ -7640,6 +9554,64 @@
      "u5": 0,
      "total": 56,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 107,
+     "single": 7,
+     "multi": 100,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 107
+    },
+    "2019": {
+     "total": 6,
+     "single": 6,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 6
+    },
+    "2020": {
+     "total": 13,
+     "single": 13,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 13
+    },
+    "2021": {
+     "total": 22,
+     "single": 7,
+     "multi": 15,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 22
+    },
+    "2022": {
+     "total": 26,
+     "single": 6,
+     "multi": 20,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 26
+    },
+    "2023": {
+     "total": 6,
+     "single": 4,
+     "multi": 2,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 6
+    },
+    "2024": {
+     "total": 29,
+     "single": 8,
+     "multi": 18,
+     "adu": 3,
+     "factbook": 2025,
+     "net_of_adu": 26
     }
    },
    "doh_2024": {
@@ -7867,6 +9839,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 63,
+     "single": 47,
+     "multi": 16,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 63
+    },
+    "2019": {
+     "total": 96,
+     "single": 39,
+     "multi": 57,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 96
+    },
+    "2020": {
+     "total": 60,
+     "single": 32,
+     "multi": 28,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 60
+    },
+    "2021": {
+     "total": 80,
+     "single": 40,
+     "multi": 40,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 80
+    },
+    "2022": {
+     "total": 72,
+     "single": 62,
+     "multi": 10,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 72
+    },
+    "2023": {
+     "total": 102,
+     "single": 64,
+     "multi": 38,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 102
+    },
+    "2024": {
+     "total": 327,
+     "single": 68,
+     "multi": 249,
+     "adu": 10,
+     "factbook": 2025,
+     "net_of_adu": 317
+    }
+   },
    "doh_2024": {
     "permitted_single": 68,
     "permitted_multi": 249,
@@ -8090,6 +10120,64 @@
      "u5": 0,
      "total": 4,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 26,
+     "single": 26,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 26
+    },
+    "2019": {
+     "total": 9,
+     "single": 9,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 9
+    },
+    "2020": {
+     "total": 34,
+     "single": 34,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 34
+    },
+    "2021": {
+     "total": 21,
+     "single": 21,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 21
+    },
+    "2022": {
+     "total": 10,
+     "single": 8,
+     "multi": 0,
+     "adu": 2,
+     "factbook": 2023,
+     "net_of_adu": 8
+    },
+    "2023": {
+     "total": 7,
+     "single": 7,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 7
+    },
+    "2024": {
+     "total": 9,
+     "single": 5,
+     "multi": null,
+     "adu": null,
+     "factbook": 2025,
+     "net_of_adu": 9
     }
    },
    "doh_2024": {
@@ -8317,6 +10405,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 39,
+     "single": 16,
+     "multi": 23,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 39
+    },
+    "2019": {
+     "total": 10,
+     "single": 2,
+     "multi": 8,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 10
+    },
+    "2020": {
+     "total": 48,
+     "single": 10,
+     "multi": 38,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 48
+    },
+    "2021": {
+     "total": 35,
+     "single": 6,
+     "multi": 29,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 35
+    },
+    "2022": {
+     "total": 48,
+     "single": 11,
+     "multi": 37,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 48
+    },
+    "2023": {
+     "total": 19,
+     "single": 1,
+     "multi": 18,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 19
+    },
+    "2024": {
+     "total": 76,
+     "single": 8,
+     "multi": 68,
+     "adu": 0,
+     "factbook": 2025,
+     "net_of_adu": 76
+    }
+   },
    "doh_2024": {
     "permitted_single": 8,
     "permitted_multi": 68,
@@ -8540,6 +10686,64 @@
      "u5": 0,
      "total": 43,
      "months": 12
+    }
+   },
+   "state_survey": {
+    "2018": {
+     "total": 54,
+     "single": 42,
+     "multi": 12,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 54
+    },
+    "2019": {
+     "total": 44,
+     "single": 34,
+     "multi": 10,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 44
+    },
+    "2020": {
+     "total": 39,
+     "single": 34,
+     "multi": 5,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 39
+    },
+    "2021": {
+     "total": 37,
+     "single": 27,
+     "multi": 8,
+     "adu": 2,
+     "factbook": 2022,
+     "net_of_adu": 35
+    },
+    "2022": {
+     "total": 78,
+     "single": 56,
+     "multi": 22,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 78
+    },
+    "2023": {
+     "total": 68,
+     "single": 25,
+     "multi": 42,
+     "adu": 1,
+     "factbook": 2024,
+     "net_of_adu": 67
+    },
+    "2024": {
+     "total": 51,
+     "single": 36,
+     "multi": 0,
+     "adu": 15,
+     "factbook": 2025,
+     "net_of_adu": 36
     }
    },
    "doh_2024": {
@@ -8767,6 +10971,64 @@
      "months": 12
     }
    },
+   "state_survey": {
+    "2018": {
+     "total": 6,
+     "single": 6,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2019,
+     "net_of_adu": 6
+    },
+    "2019": {
+     "total": 19,
+     "single": 19,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2020,
+     "net_of_adu": 19
+    },
+    "2020": {
+     "total": 67,
+     "single": 29,
+     "multi": 38,
+     "adu": null,
+     "factbook": 2021,
+     "net_of_adu": 67
+    },
+    "2021": {
+     "total": 35,
+     "single": 35,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2022,
+     "net_of_adu": 35
+    },
+    "2022": {
+     "total": 24,
+     "single": 24,
+     "multi": 0,
+     "adu": null,
+     "factbook": 2023,
+     "net_of_adu": 24
+    },
+    "2023": {
+     "total": 196,
+     "single": 12,
+     "multi": 184,
+     "adu": null,
+     "factbook": 2024,
+     "net_of_adu": 196
+    },
+    "2024": {
+     "total": 86,
+     "single": 36,
+     "multi": 41,
+     "adu": 9,
+     "factbook": 2025,
+     "net_of_adu": 77
+    }
+   },
    "doh_2024": {
     "permitted_single": 36,
     "permitted_multi": 41,
@@ -8788,5 +11050,70 @@
    407,
    918
   ]
+ },
+ "two_counts_by_year": {
+  "2018": {
+   "census": 1294,
+   "state": 2335,
+   "state_source": "Housing Fact Book 2019, net of ADUs",
+   "match": 30,
+   "providence_census": 1,
+   "providence_state": 892,
+   "providence_share_of_gap": 0.856
+  },
+  "2019": {
+   "census": 1400,
+   "state": 1600,
+   "state_source": "Housing Fact Book 2020, net of ADUs",
+   "match": 26,
+   "providence_census": 197,
+   "providence_state": 282,
+   "providence_share_of_gap": 0.425
+  },
+  "2020": {
+   "census": 1374,
+   "state": 1400,
+   "state_source": "Housing Fact Book 2021, net of ADUs",
+   "match": 23,
+   "providence_census": 213,
+   "providence_state": 248,
+   "providence_share_of_gap": 1.346
+  },
+  "2021": {
+   "census": 1392,
+   "state": 1484,
+   "state_source": "Housing Fact Book 2022, net of ADUs",
+   "match": 29,
+   "providence_census": 54,
+   "providence_state": 128,
+   "providence_share_of_gap": 0.804
+  },
+  "2022": {
+   "census": 1372,
+   "state": 1428,
+   "state_source": "Housing Fact Book 2023, net of ADUs",
+   "match": 30,
+   "providence_census": 299,
+   "providence_state": 299,
+   "providence_share_of_gap": 0.0
+  },
+  "2023": {
+   "census": 1169,
+   "state": 2425,
+   "state_source": "Housing Fact Book 2024, net of ADUs",
+   "match": 30,
+   "providence_census": 5,
+   "providence_state": 1081,
+   "providence_share_of_gap": 0.857
+  },
+  "2024": {
+   "census": 1757,
+   "state": 2655,
+   "state_source": "DOH 2024 report, Fig. 2.3",
+   "match": 12,
+   "providence_census": 269,
+   "providence_state": 622,
+   "providence_share_of_gap": 0.393
+  }
  }
 }
