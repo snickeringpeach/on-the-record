@@ -131,6 +131,30 @@ def render(page, e, SITE, DATELINE):
                  + ", ".join(f'{e(i)} at {M(full[i][years[-1]]["value_basis"])}' for i in ex)
                  + f'. Their asks rose about {g:.1%} a year all the same. The recaps do not say what year&#8217;s values the basis comes from.</p>')
 
+    sf = next(bv.glob("agreement_schedules_bos_*.csv"), None)
+    if sf:
+        S = {}
+        for r in csv.DictReader(open(sf)):
+            S.setdefault(r["institution"], []).append(r)
+        cur = {x["name"]: x for x in X if x["city"] == "Boston"}
+        b.append('<h2>Since fiscal 2025: two new agreements</h2>')
+        items = []
+        for inst, rs in S.items():
+            rs.sort(key=lambda r: int(r["fiscal_year"]))
+            c = [float(r["scheduled_cash"]) for r in rs]; g = [float(r["community_benefit_goal"]) for r in rs]
+            y0, y1 = rs[0]["fiscal_year"], rs[-1]["fiscal_year"]
+            now = cur.get(inst)
+            was = (f' In fiscal 2025 it paid {M(now["cash"])} in cash against an ask of {M(now["requested"])}.' if now else "")
+            import datetime
+            d = datetime.date.fromisoformat(rs[0]["signed"]); signed = f"{d:%B} {d.day}, {d.year}"
+            items.append(f'<li><b>{e(inst)}</b>, signed {signed}: cash of {M(c[0])} in FY{y0} rising to {M(c[-1])} in FY{y1}, '
+                         f'{M(sum(c))} over the term, plus community benefits valued at {M(g[0])} to {M(g[-1])} a year, '
+                         f'{M(sum(g))} in all.{was}</li>')
+        b.append('<ul class="open">' + "".join(items) + '</ul>')
+        b.append('<p>Neither agreement mentions a value basis or the quarter-of-the-tax ask. Each sets a fixed schedule of cash, as Providence&#8217;s agreements with its colleges do. '
+                 'Boston University&#8217;s agreement &#8220;shall supersede and replace any and all previous agreements&#8221; on payments in lieu of taxes; Wentworth&#8217;s replaces its arrangements under the 2010 Task Force report. '
+                 'The table above still shows fiscal 2025, the last year both were under the old program.</p>')
+
     b.append('<h2>How Boston asks</h2>'
              '<p>Boston asks every nonprofit holding more than $15 million in property to pay a quarter of what it would owe if the property were taxed, the share of the City&#8217;s budget its 2010 PILOT Task Force tied to police, fire, snow removal and other basic services. '
              'Generally up to half of that request can be met with community programs the City credits as directly benefiting Boston residents. '
@@ -156,9 +180,9 @@ def render(page, e, SITE, DATELINE):
         for x in X: w.writerow(["" if x[c] is None else (round(x[c], 4) if isinstance(x[c], float) else x[c]) for c in cols])
     files = ["compare_pvd_bos.csv"]
     for d in (pv, bv):
-        for p in list(d.glob("institutions_*.csv")) + list(d.glob("pilot_history_*.csv")): shutil.copy(p, out / "data" / p.name); files.append(p.name)
+        for p in list(d.glob("institutions_*.csv")) + list(d.glob("pilot_history_*.csv")) + list(d.glob("agreement_schedules_*.csv")): shutil.copy(p, out / "data" / p.name); files.append(p.name)
     b.append('<h2>Data</h2><p>' + " · ".join(f'<a href="data/{f}">{f}</a>' for f in files) + '</p>'
-             '<p class="cite">Sources: City of Providence 2025 tax roll and payment agreements; City of Boston FY2026 Property Assessment file (data.boston.gov) and PILOT Recaps, FY2021 through FY2025; City of Boston PILOT Task Force final report, 2010. '
+             '<p class="cite">Sources: City of Providence 2025 tax roll and payment agreements; City of Boston FY2026 Property Assessment file (data.boston.gov) PILOT Recaps, FY2021 through FY2025, and its 2026 agreements with Boston University and Wentworth Institute of Technology; City of Boston PILOT Task Force final report, 2010. '
              f'Built from Off the Roll {pv.name} (Providence) and {bv.name} (Boston). Data licensed CC BY 4.0: credit &#8220;Providence, on the record.&#8221;</p></main>')
     (out / "index.html").write_text(page("Providence and Boston — Off the Roll — Providence, on the record",
         "What colleges and hospitals pay on their exempt property, in Providence and in Boston, from both cities' tax rolls.",
