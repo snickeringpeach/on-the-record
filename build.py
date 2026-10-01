@@ -211,8 +211,8 @@ h = ['<main><div class="dateline">PROVIDENCE</div><h1>Providence, on the record<
      '<div class="feed">']
 items = [("off-the-roll/", "OFF THE ROLL", f'${T["exempt"]/1e9:.1f} billion of Providence&#8217;s ${T["assessed"]/1e9:.0f} billion in property is exempt from full taxation',
           "Colleges, hospitals, government, a mall and 80 owners under tax agreements, set against what they pay the City."),
-         ("housing/", "HOUSING · NEW", f'Providence permitted {HZ["doh"]:,} new homes in 2024, or {HZ["census"]:,}, depending on which government count you read',
-          f'The State wants {HZ["goal"]:,} over five years. Its counts of permits disagree, and it estimates what gets built with a formula.'),
+         ("housing/", "HOUSING · NEW", f'Providence permitted {HZ["doh"]:,} new homes in 2025, or {HZ["census"]:,}, depending on which government count you read',
+          f'The State wants {HZ["goal"]:,} over five years. Its count of permits and the Census Bureau&#8217;s disagree by more than two to one.'),
          ("downtown-ledger/", "DOWNTOWN LEDGER", "What downtown has, what it lacks, and how long the missing takes to arrive",
           "Workers, storefronts, transit and the walk between them, measured."),
          ("inside-the-line/", "INSIDE THE LINE", "Who the hurricane barrier protects",
