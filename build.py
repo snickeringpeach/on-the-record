@@ -60,6 +60,8 @@ tr.total td{border-top:1px solid var(--ink);font-weight:700}
 .feed h3{font:600 26px/32px var(--serif);margin:4px 0 8px}
 .feed h3 a{color:var(--ink);text-decoration:none}
 .feed .kicker{font:700 12px/16px var(--sans);letter-spacing:.06em;color:var(--muted)}
+details{margin:0 0 16px}details summary{font:600 15px/22px var(--sans);color:var(--harbor);cursor:pointer;padding:6px 0}
+.cu{display:grid;grid-template-columns:8.5rem 1fr;gap:4px 16px;padding:14px 0;border-top:1px solid var(--rule)}.cu .when{font:500 13px/20px var(--mono);color:var(--muted);padding-top:3px}.cu h3{font:600 18px/25px var(--serif);margin:0}.cu p{margin:4px 0 0;font-size:16px;line-height:25px}.cu .cite{margin-top:4px}.tag.conf{background:#e3efe6;color:#23613b}.tag.likely{background:#f6ecd4;color:#7a5600}.kick{font:700 11px/16px var(--sans);letter-spacing:.06em;color:var(--muted)}@media (max-width:560px){.cu{grid-template-columns:1fr}}
 footer{border-top:1px solid var(--rule);margin-top:40px;padding:20px 0 40px;font:400 13px/20px var(--sans);color:var(--muted)}
 @media (min-width:720px){h1{font-size:44px;line-height:48px}.big{grid-template-columns:repeat(4,minmax(0,1fr))}}
 """
@@ -76,7 +78,7 @@ HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <div class="wrap"><header class="mast"><a class="name" href="{root}">Providence, on the record</a>
 <div class="tag">Liam Freaney · reporting built on the public record</div>
 <nav class="sections"><a href="{root}off-the-roll/">Off the Roll</a><a href="{root}downtown-ledger/">Downtown Ledger</a>
-<a href="{root}inside-the-line/">Inside the Line</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="{root}about/">About</a></nav></header>
+<a href="{root}inside-the-line/">Inside the Line</a><a href="{root}coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="{root}about/">About</a></nav></header>
 """
 FOOT = """<footer>Every figure on this site comes from a public record, named where it is used. Corrections go at the top of the page they correct, dated.
 Nothing here is opinion. Where a number is a model rather than a record, it is labeled <span class="tag model">MODEL</span>.</footer></div></body></html>"""
@@ -98,7 +100,7 @@ T = roll["totals"]; R = roll["by_regime"]
 # ---------------------------------------------------------------- untaxed page
 b = []
 b.append(f'<main><div class="dateline">{DATELINE}</div>')
-b.append('<p class="cite" style="border-left:3px solid var(--record);padding-left:10px">Correction, Oct. 1, 2026: An earlier version gave Brown&#8217;s fiscal 2025 payment as $7 million, the first-year figure reported when the 2023 agreements were announced. Brown reports paying $11.1 million. The earlier version also said no payment from Care New England had been found, and gave Providence Place&#8217;s payment as about $500,000 a year rather than about $1 million.</p>')
+b.append('<p class="cite" style="border-left:3px solid var(--record);padding-left:10px">Correction, Oct. 1, 2026: An earlier version of this page got six institutions&#8217; payments wrong. It gave Brown&#8217;s fiscal 2025 payment as $7 million, the first-year figure reported in 2023; Brown reports paying $11.1 million. It listed RISD and Johnson &amp; Wales at $625,000 and Providence College at $725,000; the 2023 agreement&#8217;s schedule for fiscal 2025 sets them at $612,000, $612,000 and $739,500. It said no payment from Care New England had been found; Care New England paid $350,000 in 2024. And it gave Providence Place&#8217;s payment as about $500,000 a year; it is about $1 million.</p>')
 b.append(f'<h1>${T["exempt"]/1e9:.1f} Billion of Providence&#8217;s ${T["assessed"]/1e9:.0f} Billion in Property Is Exempt From Full Taxation</h1>')
 b.append(f'<p class="deck">Colleges, hospitals, government, churches, a shopping mall and 80 owners under tax agreements pay the City less than the full rate. The rest of the city&#8217;s taxpayers carry the {money(T["taxes"],1)} levy.</p>')
 b.append('<p class="byline">By Liam Freaney · Off the Roll · from the City&#8217;s 2025 tax roll</p>')
@@ -136,8 +138,15 @@ for r in inst:
     if r["pilot_year"] == "approx.": ptxt = "~" + ptxt
     b.append(f'<tr><td>{e(r["institution"])}</td><td class="n">{money(r["exempt_value"])}</td><td class="n">{money(full)}</td><td class="n">{ptxt}</td><td class="n">{r["share_paid"]}</td></tr>')
 b.append('</table></div>')
-b.append('<p class="cite">Payments: Brown, $11.1 million in direct voluntary payments in fiscal 2025, from Brown&#8217;s Community Contributions to the City of Providence report (Brown Daily Herald, Dec. 2025). RISD, Providence College and Johnson &amp; Wales, first-year amounts under the 2023 agreement, Rhode Island Current, Sept. 6, 2023. Brown University Health, agreement signed Nov. 15, 2024: $750,000 in 2024 and in 2025, with no payment scheduled for 2026, City of Providence and Boston Globe, Oct. 1, 2024. Care New England, $350,000 in 2024 under an agreement with one year left, Boston Globe, Oct. 1, 2024. Providence Place, about $1 million a year under its agreement, Boston Globe, Apr. 30 and Aug. 20, 2026. RISD&#8217;s parcels carry no owner name on the roll and are matched by RISD&#8217;s mailing address, 2 College St.</p>')
-b.append('<p>Brown pays under two agreements. The first, a 20-year agreement signed in 2023 with RISD, Providence College and Johnson &amp; Wales, rises 2 percent a year at first and 3 percent a year toward its end in 2043. The second, Brown&#8217;s alone, runs 10 years: $6 million in each of the first two years, $5 million in each of the next two and $4 million in each of the last six.</p>')
+b.append('<p class="cite">Payments: Brown, $11.1 million in direct voluntary payments in fiscal 2025, from Brown&#8217;s Community Contributions to the City of Providence report (Brown Daily Herald, Dec. 2025). RISD, Providence College and Johnson &amp; Wales, fiscal 2025 payments as scheduled in Exhibit A of the 2023 agreement. Brown University Health, agreement signed Nov. 15, 2024: $750,000 in 2024 and in 2025, with no payment scheduled for 2026, City of Providence and Boston Globe, Oct. 1, 2024. Care New England, $350,000 in 2024 under an agreement with one year left, Boston Globe, Oct. 1, 2024. Providence Place, about $1 million a year under its agreement, Boston Globe, Apr. 30 and Aug. 20, 2026. RISD&#8217;s parcels carry no owner name on the roll and are matched by RISD&#8217;s mailing address, 2 College St.</p>')
+b.append('<p>Brown pays under two agreements. The first, a 20-year agreement signed in 2023 with RISD, Providence College and Johnson &amp; Wales, sets each college&#8217;s payment for every year through fiscal 2043. It rises 2 percent a year in years two through five, 2.5 percent in years six through ten, 2.75 percent in years eleven through fifteen and 3 percent in the last five. The second, Brown&#8217;s alone, runs 10 years: $6 million in each of the first two years, $5 million in each of the next two and $4 million in each of the last six. Brown can earn credits against it for development that adds to the tax rolls or for property returned to them.</p>')
+cs = json.load(open(U / "college-schedule.json"))
+D = lambda v: f"${v:,}"
+trs = "".join(f'<tr><td>{r["fy"]}</td><td class="n">{D(r["brown"])}</td><td class="n">{D(r["brown_moa"]) if r["brown_moa"] else "–"}</td><td class="n">{D(r["risd"])}</td><td class="n">{D(r["pc"])}</td><td class="n">{D(r["jwu"])}</td></tr>' for r in cs["rows"])
+CT = cs["totals"]
+b.append('<details><summary>Every year, fiscal 2024 to 2043</summary><div class="tablewrap"><table><tr><th>Fiscal year</th><th class="n">Brown, joint</th><th class="n">Brown, own</th><th class="n">RISD</th><th class="n">PC</th><th class="n">J&amp;W</th></tr>'
+         + trs + f'<tr class="total"><td>Total</td><td class="n">{D(CT["brown"])}</td><td class="n">{D(CT["brown_moa"])}</td><td class="n">{D(CT["risd"])}</td><td class="n">{D(CT["pc"])}</td><td class="n">{D(CT["jwu"])}</td></tr></table></div>'
+         '<p class="cite">2023 Memorandum of Understanding, Exhibit A, and Brown&#8217;s 2023 Memorandum of Agreement, both as posted by Brown University. Full schedule: <a href="data/college-schedule.json">college-schedule.json</a>.</p></details>')
 b.append('<p>Providence Place was sold out of receivership on Aug. 20, 2026, to Pyramid Management Group and Paolino Properties for $133 million, less than a fifth of its $730.8 million assessment on the 2025 roll. Its agreement with the City expires in 2028.</p>')
 b.append('<p class="cite">Brown University, Sept. 5 and Oct. 5, 2023; Boston Globe, Apr. 30 and Aug. 20, 2026.</p>')
 b.append(f'<p>The State also pays Providence for part of what it loses on college and hospital property. The law sets the reimbursement at up to 27 percent of the tax the property would have paid. Providence reported {money(sp["reported_base"])} in such tax. The State paid the City {money(sp["fy2025_payment"])} in fiscal 2025, and the enacted budget for fiscal 2026 gives {money(sp["fy2026_enacted"])}. This is State aid to the City. It is not money from the institutions, and it does not change what they pay.</p>')
@@ -176,20 +185,19 @@ b.append('<h2>Not yet on the record</h2><ul class="open">'
          '<li>Whether Care New England&#8217;s agreement was renewed after 2025, and for how much.</li>'
          '<li>What Brown University Health pays in 2026, a year its agreement schedules no payment.</li>'
          '<li>What Providence Place&#8217;s new owners will pay after the agreement expires in 2028, and the mall&#8217;s next assessment.</li>'
-         '<li>The year-by-year amounts each college pays under the 20-year agreement. Only first-year figures and totals have been published.</li>'
          '<li>Why the 34 parcels above are billed $0, and whether the two owners missing from the auditor&#8217;s list hold agreements at all. These are questions for the Tax Assessor.</li></ul>')
 b.append('<h2>Data</h2><p>Every table above is built from these files: '
          '<a href="data/roll-summary.json">roll-summary.json</a> · <a href="data/exempt-groups.json">exempt-groups.json</a> · '
          '<a href="data/institutions.csv">institutions.csv</a> · <a href="data/tsa-ledger.json">tsa-ledger.json</a> · '
          '<a href="data/incidence.json">incidence.json</a> · <a href="data/state-pilot.json">state-pilot.json</a> · '
-         '<a href="data/tsa-report-fy2025.json">tsa-report-fy2025.json</a>.</p></main>')
+         '<a href="data/tsa-report-fy2025.json">tsa-report-fy2025.json</a> · <a href="data/college-schedule.json">college-schedule.json</a>.</p></main>')
 
 if SITE.exists(): shutil.rmtree(SITE)
 (SITE / "off-the-roll/data").mkdir(parents=True, exist_ok=True)
 (SITE / "off-the-roll/index.html").write_text(page("Off the Roll — Providence, on the record",
     "What Providence doesn't tax: exempt property, payments in lieu of taxes and tax stabilization agreements, from the City's 2025 tax roll.",
     "../", "".join(b), "off-the-roll/"))
-for f in ["roll-summary.json", "exempt-groups.json", "institutions.csv", "tsa-ledger.json", "incidence.json", "pilots.json", "state-pilot.json", "tsa-report-fy2025.json"]:
+for f in ["roll-summary.json", "exempt-groups.json", "institutions.csv", "tsa-ledger.json", "incidence.json", "pilots.json", "state-pilot.json", "tsa-report-fy2025.json", "college-schedule.json"]:
     shutil.copy(U / f, SITE / "off-the-roll/data" / f)
 
 # ---------------------------------------------------------------- home
@@ -202,6 +210,7 @@ items = [("off-the-roll/", "OFF THE ROLL · NEW", f'${T["exempt"]/1e9:.1f} billi
           "Workers, storefronts, transit and the walk between them, measured."),
          ("inside-the-line/", "INSIDE THE LINE", "Who the hurricane barrier protects",
           "Elevation, parcels, people and jobs behind the Fox Point barrier, and the water on the other side."),
+         ("coming-up/", "COMING UP", "What is scheduled, with a source for every date", "Hearings, deadlines, elections and agreements that run out, in Providence and at the State House."),
          ("https://providenceontherecord.substack.com", "REPORTING", "The stories", "Reporting built on the documents, on Substack.")]
 for href, kicker, title, deck in items:
     h.append(f'<article><div class="kicker">{kicker}</div><h3><a href="{href}">{title}</a></h3><p>{deck}</p></article>')
@@ -239,6 +248,68 @@ def fold(slug, old):
 fold("downtown-ledger", "https://downtownledger.com")
 fold("inside-the-line", "https://insidetheline.org")
 
+
+# ---------------------------------------------------------------- coming up
+cu = json.load(open(HERE / "data" / "coming-up.json"))
+CONF = {"C": "Confirmed", "L": "Likely"}
+DESKW = {"pvd": "Providence", "state": "State", "econ": "Economy"}
+def host(u):
+    from urllib.parse import urlparse
+    return urlparse(u).netloc.replace("www.", "")
+def cu_item(when, title, why, conf, src, desk=None):
+    tag = f'<span class="tag {"conf" if conf == "C" else "likely"}">{CONF[conf].upper()}</span>'
+    dk = f'<span class="kick">{DESKW[desk].upper()}</span> ' if desk else ""
+    return (f'<article class="cu"><div class="when">{e(when)}</div><div><h3>{e(title)}</h3>'
+            + (f'<p>{e(why)}</p>' if why else "")
+            + f'<div class="cite">{dk}{tag} <a href="{e(src)}">{e(host(src))}</a></div></div></article>')
+c = ['<main><div class="dateline">PROVIDENCE · AS OF ' + datetime.date.fromisoformat(cu["as_of"]).strftime("%b. %-d, %Y").upper() + '</div>',
+     '<h1>Coming up</h1><p class="deck">What is scheduled in Providence and at the State House through March, and further out, with the source for each date.</p>',
+     '<p class="cite">Confirmed: a source states the date. Likely: a statute or a past pattern sets it. Dates move; each links to where it comes from.</p>']
+cur = ""
+for it in sorted(cu["items"], key=lambda x: x["d"]):
+    m = datetime.date.fromisoformat(it["d"]).strftime("%B %Y")
+    if m != cur:
+        c.append(f'<h2>{m}</h2>'); cur = m
+    c.append(cu_item(it["when"], it["title"], it["why"], it["conf"], it["src"], it["desk"]))
+# further out: from Off the Roll's own documents and the Downtown Ledger's projects
+cs = json.load(open(U / "college-schedule.json"))
+fy28 = next(r for r in cs["rows"] if r["fy"] == 2028)
+MOU = "https://www.brown.edu/sites/default/files/2023_MOU_proposed.pdf"
+far = [
+    ("2027-07-01", "About July 1, 2027", "Colleges' fiscal 2028 payments to the City due",
+     f"Brown ${fy28['brown'] + fy28['brown_moa']:,} under its two agreements; Providence College ${fy28['pc']:,}; RISD ${fy28['risd']:,}; Johnson & Wales ${fy28['jwu']:,}.", "C", MOU),
+    ("2027-09-30", "Sept 30, 2027", "Colleges report their community contributions for fiscal 2027",
+     "Required each year by Sept 30 under the 2023 agreement.", "C", MOU),
+    ("2028-01-01", "By 2028", "Brown University Health's next payment agreement",
+     "Its three-year agreement schedules no payment for 2026, and the hospital group agreed to negotiate a new one to start by 2028.", "C",
+     "https://www.bostonglobe.com/2024/10/01/metro/providence-lifespan-pilot-voluntary-tax-payments/"),
+    ("2028-06-30", "2028", "Providence Place's tax agreement expires",
+     "The mall pays about $1 million a year under it. It sold in August for $133 million against a $730.8 million assessment.", "C",
+     "https://www.bostonglobe.com/2026/08/20/metro/providence-place-mall-paolino-properties-pyramid-owners/"),
+]
+try:
+    dl = json.load(open(HERE.parent / "downtown-ledger" / "data" / "downtown.json"))
+    for it in dl["items"]:
+        if it.get("kind") == "project" and it.get("years_out") is not None and it.get("sources") and it["id"] != "mall-tax-cliff":
+            y = datetime.date.today().year + it["years_out"]
+            basis = (it.get("years_out_basis") or "").lower()
+            est = "estimate" in basis
+            unver = "not a verified" in basis
+            src = dl["sources"].get(it["sources"][0], {}).get("url")
+            if src:
+                far.append((f"{y}-12-31", str(y), it["name"],
+                            "An estimate from the agency's own schedule, not a date it has stated. Details on the Downtown Ledger." if est
+                            else ("The year the agency has stated; not yet confirmed." if unver else "The year the agency has stated."),
+                            "L" if (est or unver) else "C", src))
+except FileNotFoundError:
+    pass
+c.append('<h2>Further out</h2>')
+for d0, when, title, why, conf, src in sorted(far):
+    c.append(cu_item(when, title, why, conf, src))
+c.append('</main>')
+(SITE / "coming-up").mkdir(exist_ok=True)
+(SITE / "coming-up/index.html").write_text(page("Coming up — Providence, on the record",
+    "What is scheduled in Providence and at the State House, with the source for each date.", "../", "".join(c), "coming-up/"))
 
 # ---------------------------------------------------------------- about, sitemap, robots
 ab = ['<main><div class="dateline">ABOUT</div><h1>About this site</h1>',

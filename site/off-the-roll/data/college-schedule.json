@@ -1,0 +1,195 @@
+{
+ "source": "2023 Memorandum of Understanding, Exhibit A (Voluntary Payments Schedule), as posted by Brown University: https://www.brown.edu/sites/default/files/2023_MOU_proposed.pdf; Brown 10-year Memorandum of Agreement: https://www.brown.edu/sites/default/files/2023_MOA_amended.pdf",
+ "note": "Annual totals as printed in Exhibit A; a few differ from the sum of the four columns by $1 (rounding in the original).",
+ "escalator": "Years 2-5 2%; years 6-10 2.5%; years 11-15 2.75%; years 16-20 3.0%",
+ "rows": [
+  {
+   "fy": 2024,
+   "brown": 5075000,
+   "jwu": 600000,
+   "pc": 725000,
+   "risd": 600000,
+   "total": 7000000,
+   "brown_moa": 6000000
+  },
+  {
+   "fy": 2025,
+   "brown": 5176500,
+   "jwu": 612000,
+   "pc": 739500,
+   "risd": 612000,
+   "total": 7140000,
+   "brown_moa": 6000000
+  },
+  {
+   "fy": 2026,
+   "brown": 5280030,
+   "jwu": 624240,
+   "pc": 754290,
+   "risd": 624240,
+   "total": 7282800,
+   "brown_moa": 5000000
+  },
+  {
+   "fy": 2027,
+   "brown": 5385631,
+   "jwu": 636725,
+   "pc": 769376,
+   "risd": 636725,
+   "total": 7428456,
+   "brown_moa": 5000000
+  },
+  {
+   "fy": 2028,
+   "brown": 5493343,
+   "jwu": 649459,
+   "pc": 784763,
+   "risd": 649459,
+   "total": 7577025,
+   "brown_moa": 4000000
+  },
+  {
+   "fy": 2029,
+   "brown": 5630677,
+   "jwu": 665696,
+   "pc": 804382,
+   "risd": 665696,
+   "total": 7766451,
+   "brown_moa": 4000000
+  },
+  {
+   "fy": 2030,
+   "brown": 5771444,
+   "jwu": 682338,
+   "pc": 824492,
+   "risd": 682338,
+   "total": 7960612,
+   "brown_moa": 4000000
+  },
+  {
+   "fy": 2031,
+   "brown": 5915730,
+   "jwu": 699397,
+   "pc": 845104,
+   "risd": 699397,
+   "total": 8159627,
+   "brown_moa": 4000000
+  },
+  {
+   "fy": 2032,
+   "brown": 6063623,
+   "jwu": 716882,
+   "pc": 866232,
+   "risd": 716882,
+   "total": 8363618,
+   "brown_moa": 4000000
+  },
+  {
+   "fy": 2033,
+   "brown": 6215214,
+   "jwu": 734804,
+   "pc": 887888,
+   "risd": 734804,
+   "total": 8572708,
+   "brown_moa": 4000000
+  },
+  {
+   "fy": 2034,
+   "brown": 6386132,
+   "jwu": 755011,
+   "pc": 912305,
+   "risd": 755011,
+   "total": 8808458,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2035,
+   "brown": 6561751,
+   "jwu": 775773,
+   "pc": 937393,
+   "risd": 775773,
+   "total": 9050691,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2036,
+   "brown": 6742199,
+   "jwu": 797107,
+   "pc": 963171,
+   "risd": 797107,
+   "total": 9299585,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2037,
+   "brown": 6927609,
+   "jwu": 819028,
+   "pc": 989658,
+   "risd": 819028,
+   "total": 9555323,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2038,
+   "brown": 7118118,
+   "jwu": 841551,
+   "pc": 1016874,
+   "risd": 841551,
+   "total": 9818094,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2039,
+   "brown": 7331662,
+   "jwu": 866797,
+   "pc": 1047380,
+   "risd": 866797,
+   "total": 10112637,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2040,
+   "brown": 7551612,
+   "jwu": 892801,
+   "pc": 1078802,
+   "risd": 892801,
+   "total": 10416016,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2041,
+   "brown": 7778160,
+   "jwu": 919585,
+   "pc": 1111166,
+   "risd": 919585,
+   "total": 10728497,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2042,
+   "brown": 8011505,
+   "jwu": 947173,
+   "pc": 1144501,
+   "risd": 947173,
+   "total": 11050352,
+   "brown_moa": 0
+  },
+  {
+   "fy": 2043,
+   "brown": 8251850,
+   "jwu": 975588,
+   "pc": 1178836,
+   "risd": 975588,
+   "total": 11381862,
+   "brown_moa": 0
+  }
+ ],
+ "totals": {
+  "brown": 128667790,
+  "jwu": 15211955,
+  "pc": 18381113,
+  "risd": 15211955,
+  "total": 177472812,
+  "brown_moa": 46000000
+ }
+}

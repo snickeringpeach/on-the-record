@@ -1,0 +1,195 @@
+{
+ "as_of": "2026-10-01",
+ "note": "Built from sourced research on Sept 30 2026 and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "items": [
+  {
+   "d": "2026-10-01",
+   "when": "Oct 1, then 1st and 3rd Thursdays",
+   "desk": "pvd",
+   "title": "City Council meets",
+   "why": "The outgoing council. By the usual pattern: Oct 15, Nov 5, Nov 19, Dec 3, Dec 17.",
+   "conf": "L",
+   "src": "https://council.providenceri.gov/2026/07/16/"
+  },
+  {
+   "d": "2026-10-02",
+   "when": "Oct 2",
+   "desk": "econ",
+   "title": "CharterCARE's revised plan for Roger Williams and Fatima hospitals due to the Attorney General",
+   "why": "The Attorney General called the first plan unrealistic; the hospitals have about 40 days of cash.",
+   "conf": "C",
+   "src": "https://rhodeislandcurrent.com/2026/09/28/can-new-owners-turn-around-struggling-roger-williams-and-fatima-hospitals-neronha-is-not-convinced/"
+  },
+  {
+   "d": "2026-10-04",
+   "when": "Oct 4",
+   "desk": "state",
+   "title": "Voter registration deadline",
+   "why": "",
+   "conf": "C",
+   "src": "https://vote.sos.ri.gov/Forms/Elections/Guides/2026_ElecCal.pdf"
+  },
+  {
+   "d": "2026-10-14",
+   "when": "Oct 14",
+   "desk": "state",
+   "title": "Early in-person voting begins",
+   "why": "Runs through Nov 2.",
+   "conf": "C",
+   "src": "https://vote.sos.ri.gov/Forms/Elections/Guides/2026_ElecCal.pdf"
+  },
+  {
+   "d": "2026-10-17",
+   "when": "Mid-October",
+   "desk": "pvd",
+   "title": "Brown reports its fiscal 2026 endowment return",
+   "why": "The first year at the 4 percent federal endowment tax rate, up from 1.4 percent.",
+   "conf": "L",
+   "src": "https://www.browndailyherald.com/article/2025/11/brown-to-face-increased-4-endowment-tax-next-fiscal-year"
+  },
+  {
+   "d": "2026-10-20",
+   "when": "Oct 20",
+   "desk": "pvd",
+   "title": "City Plan Commission filing deadline for the Nov 17 meeting",
+   "why": "Brown's master plan amendment has to be filed by now to be heard Nov 17.",
+   "conf": "C",
+   "src": "https://www.providenceri.gov/wp-content/uploads/2025/12/CPC-meeting-schedule-2026.pdf"
+  },
+  {
+   "d": "2026-10-24",
+   "when": "Oct 24",
+   "desk": "pvd",
+   "title": "Second-quarter property tax due",
+   "why": "Grace period to Oct 31.",
+   "conf": "C",
+   "src": "https://www.providenceri.gov/finance/tax-collector/"
+  },
+  {
+   "d": "2026-11-01",
+   "when": "Nov 1 to Apr 15",
+   "desk": "econ",
+   "title": "Winter utility shutoff protections begin",
+   "why": "Heating customers with balances under $500 are protected; arrears build until spring.",
+   "conf": "C",
+   "src": "https://ripuc.ri.gov/sites/g/files/xkgbur841/files/rulesregs/commrules/810-RICR-10-00-1_Termination.pdf"
+  },
+  {
+   "d": "2026-11-03",
+   "when": "Nov 3",
+   "desk": "pvd",
+   "title": "General election: mayor, all 15 council seats, Question 7",
+   "why": "David Morales faces the general election for mayor; Question 7 would bar city investments tied to genocide or apartheid.",
+   "conf": "C",
+   "src": "https://pvdeye.org/?p=122016"
+  },
+  {
+   "d": "2026-11-03",
+   "when": "Nov 3",
+   "desk": "state",
+   "title": "General election: governor, attorney general, legislature, $600 million in state bonds",
+   "why": "",
+   "conf": "C",
+   "src": "https://www.oceanstatemedia.org/politics/2026-09-29/block-pushes-a-two-way-governors-race-but-guckian-says-hes-not-leaving"
+  },
+  {
+   "d": "2026-11-07",
+   "when": "Nov 7",
+   "desk": "pvd",
+   "title": "WaterFire season finale",
+   "why": "",
+   "conf": "C",
+   "src": "https://www.oceanstatemedia.org/arts-entertainment/when-is-waterfire-2026-full-providence-schedule-dates-and-highlights"
+  },
+  {
+   "d": "2026-11-10",
+   "when": "About Nov 4 to 12",
+   "desk": "state",
+   "title": "State revenue and caseload estimating conferences",
+   "why": "Sizes the state's fiscal 2028 gap a week after the election.",
+   "conf": "L",
+   "src": "https://rhodeislandcurrent.com/tag/revenue-and-caseload-estimating-conference/"
+  },
+  {
+   "d": "2026-11-17",
+   "when": "Nov 17",
+   "desk": "pvd",
+   "title": "City Plan Commission: Brown's master plan amendment for an economics building at Brook and Charlesfield",
+   "why": "Two houses on Brook Street would be offered for relocation or demolished. Brown has said it will not give a housing count before the hearing. The date is the one Brown is aiming for.",
+   "conf": "L",
+   "src": "https://www.brown.edu/news/2026-09-15/revised-plan-economics-building"
+  },
+  {
+   "d": "2026-12-13",
+   "when": "Dec 13",
+   "desk": "pvd",
+   "title": "One year since the shooting at Brown",
+   "why": "Brown's safety action plan runs through 2026\u201327.",
+   "conf": "C",
+   "src": "https://www.brown.edu/news/2026-08-28/brown-safety-security-report-action-plan"
+  },
+  {
+   "d": "2026-12-31",
+   "when": "Dec 31",
+   "desk": "pvd",
+   "title": "Tax assessment date; the City's fiscal 2026 audit is due",
+   "why": "Providence has filed audits late before.",
+   "conf": "L",
+   "src": "https://www.golocalprov.com/news/providence-fiscal-crisis-audit-delayed"
+  },
+  {
+   "d": "2027-01-01",
+   "when": "Jan 1",
+   "desk": "state",
+   "title": "State minimum wage rises to $17; income-tax surcharge on millionaires begins",
+   "why": "",
+   "conf": "C",
+   "src": "https://dlt.ri.gov/regulation-and-safety/labor-standards/minimum-wage"
+  },
+  {
+   "d": "2027-01-04",
+   "when": "Jan 4",
+   "desk": "pvd",
+   "title": "New mayor sworn in; new council elects a president",
+   "why": "First Monday of January, by past practice.",
+   "conf": "L",
+   "src": "https://turnto10.com/news/local/gallery/brett-smiley-to-take-over-as-providences-39th-mayor-city-of-providence-rhode-island-jan-2-2023"
+  },
+  {
+   "d": "2027-01-05",
+   "when": "Jan 5",
+   "desk": "state",
+   "title": "Governor inaugurated; General Assembly convenes",
+   "why": "",
+   "conf": "L",
+   "src": "https://en.wikipedia.org/wiki/2026_Rhode_Island_gubernatorial_election"
+  },
+  {
+   "d": "2027-01-24",
+   "when": "Jan 24",
+   "desk": "pvd",
+   "title": "Third-quarter property tax due",
+   "why": "The first tax deadline under the new mayor.",
+   "conf": "C",
+   "src": "https://www.providenceri.gov/finance/tax-collector/"
+  },
+  {
+   "d": "2027-02-04",
+   "when": "Feb 4",
+   "desk": "state",
+   "title": "New governor's fiscal 2028 budget due",
+   "why": "State law gives a newly inaugurated governor until the first Thursday in February.",
+   "conf": "C",
+   "src": "https://webserver.rilegislature.gov/Statutes/TITLE35/35-3/35-3-7.htm"
+  },
+  {
+   "d": "2027-02-15",
+   "when": "January or February",
+   "desk": "pvd",
+   "title": "City pension valuation as of July 1, 2026",
+   "why": "The last one put the plan at 31.4 percent funded.",
+   "conf": "L",
+   "src": "https://www.bostonglobe.com/2026/02/26/metro/providence-pension-recovery-milestone-ri"
+  }
+ ]
+}

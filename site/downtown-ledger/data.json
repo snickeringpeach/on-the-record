@@ -1889,7 +1889,7 @@
       "peers": {
         "worcester": {
           "status": "absent",
-          "note": "The 484 Main St office is no longer in the USPS locator. The main post office, 4 East Central St, weekdays 7:30 to 6 and Saturday, is about 414 m outside the BID.",
+          "note": "The 484 Main St office is no longer in the USPS locator. The main post office, 4 East Central St, weekdays 7:30 to 6 and Saturday, is about 414 m outside the BID. 414 m outside the BID line, near.",
           "sources": [
             "S43",
             "S40b"
@@ -2082,24 +2082,24 @@
       ],
       "peers": {
         "worcester": {
-          "status": "partial",
-          "note": "No count on the BID line yet.",
+          "status": null,
+          "note": "1,622 residents in 2020 inside the Worcester BID line (Census PL 94-171, same block rule as Providence).",
           "sources": [],
-          "value": null
+          "value": 1622
         },
         "new-haven": {
-          "status": "present",
-          "note": "No count on the district line yet; Point2Homes' wider downtown cut gives about 9,000 (context only).",
+          "status": null,
+          "note": "3,847 residents in 2020 inside the Town Green district line (Census PL 94-171, same block rule as Providence).",
           "sources": [
             "S19"
           ],
-          "value": null
+          "value": 3847
         }
       },
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "The demand root the clock runs on. Rows for people are Claude's addition; delete if the ledger reads wrong with them in.",
+      "notes": null,
       "kind": "count",
       "value": {
         "providence": 1910,
@@ -2147,7 +2147,7 @@
       "needs": [],
       "years_out": null,
       "years_out_basis": null,
-      "notes": "Counted by Claude Sept 28 2026 with lodes.py: 2020 census blocks whose internal point falls inside each polygon, all jobs (S000, JT00). Providence's line is the zoning overlay (parcel-edged); the peers' are street centrelines, so their acreage includes half the boundary streets. Block-level siting is noisy: two neighbouring blocks on either side of the Downcity line swapped about 850 jobs between 2019 and 2023. Polygons in data/geo/peers/. The demand root the clock runs on.",
+      "notes": "Counted Sept 28 2026 with lodes.py: 2020 census blocks whose internal point falls inside each polygon, all jobs (S000, JT00). Providence's line is the zoning overlay (parcel-edged); the peers' are street centrelines, so their acreage includes half the boundary streets. Block-level siting is noisy: two neighbouring blocks on either side of the Downcity line swapped about 850 jobs between 2019 and 2023. Polygons in data/geo/peers/. The demand root the clock runs on.",
       "kind": "count",
       "value": {
         "providence": 14975,
@@ -2174,20 +2174,20 @@
       ],
       "peers": {
         "worcester": {
-          "status": "partial",
-          "note": "Growing; 416 units proposed across three developments; no clean in-BID total.",
+          "status": null,
+          "note": "1,033 housing units in 2020 inside the Worcester BID line (Census PL 94-171, same block rule as Providence).",
           "sources": [
             "S9"
           ],
-          "value": null
+          "value": 1033
         },
         "new-haven": {
-          "status": "present",
-          "note": "Citywide, not boundary-isolated: 863 units added since late 2015, 950 approved or under construction, 1,300 in planning.",
+          "status": null,
+          "note": "3,122 housing units in 2020 inside the Town Green district line (Census PL 94-171, same block rule as Providence).",
           "sources": [
             "S19b"
           ],
-          "value": null
+          "value": 3122
         }
       },
       "needs": [],
@@ -2344,8 +2344,8 @@
         }
       ],
       "years_out": 4,
-      "years_out_basis": "Claude's estimate, not a stated date: design, engineering and permitting of about a year and a half, construction starting within six months of that per RIPTA's own packet, and about two years to build.",
-      "notes": "The buses route to the Francis and Gaspee frontage by the State House and the station. Opposition on record: Kennedy Plaza Resilience Coalition; a former board member urged delay pending a service analysis. Claude's read from Sept 2, unsourced and so not listed as a dependency: the site sits against the station project and a transfer point cannot be sited against a building under unresolved renovation.",
+      "years_out_basis": "An estimate, not a stated date: design, engineering and permitting of about a year and a half, construction starting within six months of that per RIPTA's own packet, and about two years to build.",
+      "notes": "The buses route to the Francis and Gaspee frontage by the State House and the station. Opposition on record: Kennedy Plaza Resilience Coalition; a former board member urged delay pending a service analysis.",
       "kind": "project",
       "stage": "proposed",
       "_migrated": true
@@ -2390,7 +2390,7 @@
         }
       ],
       "years_out": 0,
-      "years_out_basis": "Stated for 2026 by RIDOT in March 2026. Claude's reading of the stated schedule, not a verified date.",
+      "years_out_basis": "Stated for 2026 by RIDOT in March 2026; not yet verified.",
       "notes": null,
       "kind": "project",
       "stage": "proposed",
@@ -2440,7 +2440,7 @@
         }
       ],
       "years_out": 2,
-      "years_out_basis": "The agreement expires in 2028; that is the clock. Whether it is a cliff depends on the reassessment. Claude's estimate.",
+      "years_out_basis": "The agreement expires in 2028; that is the clock. Whether it is a cliff depends on the reassessment. An estimate.",
       "notes": null,
       "kind": "project",
       "stage": "proposed",
@@ -2634,7 +2634,7 @@
         }
       ],
       "years_out": 4,
-      "years_out_basis": "Claude's estimate: the plaza changes only when the buses leave, so it runs on the transit center's clock. No plan of its own.",
+      "years_out_basis": "An estimate: the plaza changes only when the buses leave, so it runs on the transit center's clock. No plan of its own.",
       "notes": "No plan on the record. That absence is the finding.",
       "kind": "project",
       "stage": "proposed",
