@@ -34,7 +34,7 @@ Each file's front matter lists what's Claude's (`claude:`) and what's still need
 |---|---|---|
 | chartercare-first-payment | Grondin: was the Oct 1 installment paid? is there a PILOT? What else is in the $10.29M? | this week (AG plan due Fri Oct 2) |
 | tsa-22-of-66 | what the law says happens to non-filers; the auditor's reply on 350 Eddy; Brown on 342 Eddy | any week |
-| mall-18-cents | the payment figure ($1M Globe vs $500K RI Current); whether the 2027 revaluation is full and as of Dec 31 | before Oct 24 |
+| mall-18-cents | the payment figure ($1M Globe vs $500K RI Current; the site uses $1M); whether the 2027 revaluation is full and as of Dec 31 | before Oct 24 |
 | brown-count | the walk; check the site lots; 277 Brook carries a homestead exemption although Brown owns it (ask the assessor) | before Oct 20 or Nov 17 |
 | state-pilot-line | the FY2028 gap from the November conferences; which year the $139.8M base belongs to | ~Nov 10 |
 
@@ -46,11 +46,6 @@ Each file's front matter lists what's Claude's (`claude:`) and what's still need
 | pc-29-parcels | 26-2565 (why); a walk on Lucille/Ventura | ~Oct 15 |
 | ten-hotspots | 26-373 re-run; a site look at each corner; the bike/ped gap in the file | Oct 21 → Jan |
 | waterfire-season-itemized | sediment (26-2293); the last lightings' sweeping costs and air | Oct 21 / Nov 7 |
-| brown-endowment-vs-city | Brown's FY2026 report; which fiscal year the 4% tier first applies to | mid-Oct |
+| brown-endowment-vs-city | Brown's FY2026 report | mid-Oct |
 | winter-bills | the final electric rate; the Nov 1 gas charge | ~Nov 1 |
 | what-the-next-mayor-inherits | the election; the pension valuation; update every figure | week of Jan 4 |
-
-**Site fixes the drafts turned up (not made yet)**
-- Off the Roll's incidence.json still nets the mall at ~$500K. Re-run incidence.py once the payment is settled.
-- Coming up: add the Oct 1 CharterCARE installment. Its Brown entry ("FY2026 return, first year at 4%") may have the wrong fiscal year.
-- Off the Roll "Not yet on the record": add the Centurion PILOT and the CharterCARE back-tax schedule.

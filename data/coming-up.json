@@ -43,7 +43,7 @@
    "when": "Mid-October",
    "desk": "pvd",
    "title": "Brown reports its fiscal 2026 endowment return",
-   "why": "The first year at the 4 percent federal endowment tax rate, up from 1.4 percent.",
+   "why": "The last year at the 1.4 percent federal endowment tax rate; it rises to 4 percent from fiscal 2027.",
    "conf": "L",
    "src": "https://www.browndailyherald.com/article/2025/11/brown-to-face-increased-4-endowment-tax-next-fiscal-year"
   },
@@ -190,6 +190,15 @@
    "why": "The last one put the plan at 31.4 percent funded.",
    "conf": "L",
    "src": "https://www.bostonglobe.com/2026/02/26/metro/providence-pension-recovery-milestone-ri"
+  },
+  {
+   "d": "2026-10-01",
+   "when": "Oct 1, then quarterly",
+   "desk": "pvd",
+   "title": "CharterCARE's first back-tax installment to the City is due",
+   "why": "$218,937, the first of 17 quarterly payments covering about $3.7 million of the $10.29 million Prospect owed for 2024 and 2025. The hospitals are now nonprofit; no replacement payment agreement has been announced.",
+   "conf": "C",
+   "src": "https://www.golocalprov.com/news/providence-and-np-poised-to-lose-11-million-in-back-taxes-due-to-chartercare-deal"
   }
  ]
 }
