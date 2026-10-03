@@ -5985,11 +5985,12 @@
    },
    "doh_2025": {
     "permitted": {
-     "u1": 0,
+     "u1": 15,
      "u2": 0,
      "u34": 0,
      "u5": 0,
-     "total": 15
+     "total": 15,
+     "unit_cell_read_from_buildings": true
     },
     "certificates_of_occupancy": {
      "u1": 11,
@@ -6285,11 +6286,12 @@
    },
    "doh_2025": {
     "permitted": {
-     "u1": 0,
+     "u1": 12,
      "u2": 0,
      "u34": 0,
      "u5": 0,
-     "total": 12
+     "total": 12,
+     "unit_cell_read_from_buildings": true
     },
     "certificates_of_occupancy": {
      "u1": 5,
