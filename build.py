@@ -213,6 +213,9 @@ b.append('<h2>Data</h2><p>Every table above is built from these files: '
 
 if SITE.exists(): shutil.rmtree(SITE)
 (SITE / "off-the-roll/data").mkdir(parents=True, exist_ok=True)
+# static/ is copied verbatim into site/ (offer PDFs live in static/offers; site/ is rebuilt from scratch each time)
+_static = pathlib.Path(__file__).resolve().parent / "static"
+if _static.exists(): shutil.copytree(_static, SITE, dirs_exist_ok=True)
 (SITE / "off-the-roll/index.html").write_text(page("Off the Roll — Providence, on the record",
     "What Providence doesn't tax: exempt property, payments in lieu of taxes and tax stabilization agreements, from the City's 2025 tax roll.",
     "../", "".join(b), "off-the-roll/"))
