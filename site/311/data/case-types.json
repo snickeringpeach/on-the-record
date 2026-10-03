@@ -1,637 +1,642 @@
 [
  {
-  "description": "Report concerns about an abandoned or vacant city-owned property, which should be unoccupied. Attaching a photo is helpful.",
   "id": "bae7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Abandoned or Vacant City Owned Property Concerns"
+  "name": "Abandoned or Vacant City Owned Property Concerns",
+  "description": "Report concerns about an abandoned or vacant city-owned property, which should be unoccupied. Attaching a photo is helpful."
  },
  {
-  "description": "Report concerns about an abandoned or vacant private property. Attaching a photo is helpful.",
   "id": "c94b243f-dd25-f011-9989-001dd806d5d5",
-  "name": "Abandoned or Vacant Private Property Concerns"
+  "name": "Abandoned or Vacant Private Property Concerns",
+  "description": "Report concerns about an abandoned or vacant private property. Attaching a photo is helpful."
  },
  {
-  "description": "Report an abandoned vehicle (car) without license plates or that is inoperable. Please provide details such as color, make, and location. A photo of the vehicle and plate is helpful.",
   "id": "bce7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Abandoned Vehicle to Report"
+  "name": "Abandoned Vehicle to Report",
+  "description": "Report an abandoned vehicle (car) without license plates or that is inoperable. Please provide details such as color, make, and location. A photo of the vehicle and plate is helpful."
  },
  {
-  "description": "Report accessibility concerns on city/public property. Include a description and location. A photo is helpful.",
   "id": "0d14e369-5b9a-ef11-8a6a-001dd830140a",
-  "name": "Accessibility Concerns on City Property"
+  "name": "Accessibility Concerns on City Property",
+  "description": "Report accessibility concerns on city/public property. Include a description and location. A photo is helpful."
  },
  {
-  "description": "Report accessibility concerns on private property. Include a description and location. A photo is helpful.",
   "id": "6ae8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Accessibility Concerns on Private Property"
+  "name": "Accessibility Concerns on Private Property",
+  "description": "Report accessibility concerns on private property. Include a description and location. A photo is helpful."
  },
  {
-  "description": "If you are requesting an accessible/handicap parking sign, submit the request with the address of where the sign is to be placed, upload the vehicle registration and the disability parking certificate issued by the Department of Motor Vehicles (DMV). DO NOT UPLOAD THE PLACCARD IN PLACE OF THE CERTIFICATE. If the address on the registration and certificate do not match, include a statement explaining why.",
   "id": "7ee8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Accessible and Handicapped Parking Sign Requests"
+  "name": "Accessible and Handicapped Parking Sign Requests",
+  "description": "If you are requesting an accessible/handicap parking sign, submit the request with the address of where the sign is to be placed, upload the vehicle registration and the disability parking certificate issued by the Department of Motor Vehicles (DMV). DO NOT UPLOAD THE PLACCARD IN PLACE OF THE CERTIFICATE. If the address on the registration and certificate do not match, include a statement explaining why."
  },
  {
-  "description": "Report accessibility issues at existing parking spaces. Parking in handicapped spaces without a placard should be called into the police in the moment at 401-272-3121. Please include a description of the problem.",
   "id": "bee7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Accessible Parking Issues or Concerns"
+  "name": "Accessible Parking Issues or Concerns",
+  "description": "Report accessibility issues at existing parking spaces. Parking in handicapped spaces without a placard should be called into the police in the moment at 401-272-3121. Please include a description of the problem."
  },
  {
-  "description": "Request information about after-school programs from the Recreation Department.",
   "id": "10e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "After-School Program Information"
+  "name": "After-School Program Information",
+  "description": "Request information about after-school programs from the Recreation Department."
  },
  {
-  "description": "Report loose or barking dogs to Animal Control at (401) 272-1111. Report a lost pet or request information.",
   "id": "630efb0b-0454-ef11-a317-001dd8068673",
-  "name": "Animal Control Concerns"
+  "name": "Animal Control Concerns",
+  "description": "Report loose or barking dogs to Animal Control at (401) 272-1111. Report a lost pet or request information."
  },
  {
-  "description": "Request assistance with a business license. Please specify what type of license you are seeking.",
   "id": "0ee8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Assistance or Concern with a Business License"
+  "name": "Assistance or Concern with a Business License",
+  "description": "Request assistance with a business license. Please specify what type of license you are seeking."
  },
  {
-  "description": "Report issues or repairs needed at city owned cemeteries.",
   "id": "38e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Assistance or Concern with a City Cemetery"
+  "name": "Assistance or Concern with a City Cemetery",
+  "description": "Report issues or repairs needed at city owned cemeteries."
  },
  {
-  "description": "Report bike lane and bike path maintenance concerns. Also, if you have any questions about bike lanes in Providence.",
   "id": "770b6122-fcee-ef11-be20-001dd8053af7",
-  "name": "Bike Path and Lane Issues or Concerns"
+  "name": "Bike Path and Lane Issues or Concerns",
+  "description": "Report bike lane and bike path maintenance concerns. Also, if you have any questions about bike lanes in Providence."
  },
  {
-  "description": "Report street drains blocked by debris of any kind.",
   "id": "c4e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Blocked Storm Drain or Catch Basin"
+  "name": "Blocked Storm Drain or Catch Basin",
+  "description": "Report street drains blocked by debris of any kind."
  },
  {
-  "description": "Please report broken or leaky water pipes and valves in city streets. For emergencies, please call Providence Water directly: 401-521-6300",
   "id": "4ae8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Broken Water Pipe or Water Leaks"
+  "name": "Broken Water Pipe or Water Leaks",
+  "description": "Please report broken or leaky water pipes and valves in city streets. For emergencies, please call Providence Water directly: 401-521-6300"
  },
  {
-  "description": "Report building code violations and provide details and location.",
   "id": "c8e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Building Code Violations"
+  "name": "Building Code Violations",
+  "description": "Report building code violations and provide details and location."
  },
  {
-  "description": "Request help with a business license. Specify the type of license.",
   "id": "76e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Business License Assistance"
+  "name": "Business License Assistance",
+  "description": "Request help with a business license. Specify the type of license."
  },
  {
-  "description": "Need to file a claim due to damages or have a question? Follow this link for details : https://council.providenceri.gov/clerk-claims/",
   "id": "5d0efb0b-0454-ef11-a317-001dd8068673",
-  "name": "City Claim Questions"
+  "name": "City Claim Questions",
+  "description": "Need to file a claim due to damages or have a question? Follow this link for details : https://council.providenceri.gov/clerk-claims/"
  },
  {
-  "description": "Requesting city-sponsored event information. Please list the events you would like to receive information about.",
   "id": "74e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "City Sponsored Event Information"
+  "name": "City Sponsored Event Information",
+  "description": "Requesting city-sponsored event information. Please list the events you would like to receive information about."
  },
  {
-  "description": "Report vandalism, broken windows, or other issues with city-owned property. A photo is helpful",
   "id": "70e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "City-Owned Property Concerns"
+  "name": "City-Owned Property Concerns",
+  "description": "Report vandalism, broken windows, or other issues with city-owned property. A photo is helpful"
  },
  {
-  "description": "Report concerns about a wheelchair ramp on private property. Provide a description and location.",
   "id": "6ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Concern about a Wheelchair Ramp on Private Property"
+  "name": "Concern about a Wheelchair Ramp on Private Property",
+  "description": "Report concerns about a wheelchair ramp on private property. Provide a description and location."
  },
  {
-  "description": "Report licensing or operational concerns (e.g., outdoor seating, valet parking, alcohol licenses). Noise complaints should be reported to police at (401) 272-3121.",
   "id": "cce7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Concerns about a Business"
+  "name": "Concerns about a Business",
+  "description": "Report licensing or operational concerns (e.g., outdoor seating, valet parking, alcohol licenses). Noise complaints should be reported to police at (401) 272-3121."
  },
  {
-  "description": "Report any concerns or issues at the Pedestrian Bridge.",
   "id": "02e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Concerns or Issues on the Pedestrian Bridge"
+  "name": "Concerns or Issues on the Pedestrian Bridge",
+  "description": "Report any concerns or issues at the Pedestrian Bridge."
  },
  {
-  "description": "Report an unsecured, unsafe, or improperly contained construction site. Please provide details and location.",
   "id": "8ee8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Concerns with a Construction Site"
+  "name": "Concerns with a Construction Site",
+  "description": "Report an unsecured, unsafe, or improperly contained construction site. Please provide details and location."
  },
  {
-  "description": "Submit concerns, requests or questions for City Council.",
   "id": "fee7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Contact City Council"
+  "name": "Contact City Council",
+  "description": "Submit concerns, requests or questions for City Council."
  },
  {
-  "description": "Report faded or missing road or crosswalk markings. Include location and intersection.",
   "id": "cae7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Crosswalk and Road Striping Concerns"
+  "name": "Crosswalk and Road Striping Concerns",
+  "description": "Report faded or missing road or crosswalk markings. Include location and intersection."
  },
  {
-  "description": "Report a damaged manhole or utility cover. Provide location or intersection.",
   "id": "cee7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Damaged Manhole or Utility Cover"
+  "name": "Damaged Manhole or Utility Cover",
+  "description": "Report a damaged manhole or utility cover. Provide location or intersection."
  },
  {
-  "description": "Report damaged street drain grates or structures.",
   "id": "d2e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Damaged Storm Drain or Catch Basin"
+  "name": "Damaged Storm Drain or Catch Basin",
+  "description": "Report damaged street drain grates or structures."
  },
  {
-  "description": "Report a dead animal in the public right-of-way. Specify the type of animal if possible.",
   "id": "4ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Dead Animal on Roadway or Sidewalk"
+  "name": "Dead Animal on Roadway or Sidewalk",
+  "description": "Report a dead animal in the public right-of-way. Specify the type of animal if possible."
  },
  {
-  "description": "Report problems with decorative streetlights (lights with baskets around the bulb). Provide the location.",
   "id": "d4e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Decorative Street Light Issue"
+  "name": "Decorative Street Light Issue",
+  "description": "Report problems with decorative streetlights (lights with baskets around the bulb). Provide the location."
  },
  {
-  "description": "Report defective or failed utility trench patch. These are squared cutouts left from utility work. Providing the exact location and a photo is helpful.",
   "id": "d6e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Defective or Failed Utility Trench Repairs"
+  "name": "Defective or Failed Utility Trench Repairs",
+  "description": "Report defective or failed utility trench patch. These are squared cutouts left from utility work. Providing the exact location and a photo is helpful."
  },
  {
-  "description": "Need disaster preparedness information? Make sure to provide your contact information.",
   "id": "d8e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Disaster Preparedness Information"
+  "name": "Disaster Preparedness Information",
+  "description": "Need disaster preparedness information? Make sure to provide your contact information."
  },
  {
-  "description": "Report discarded syringes. Include as much details on location. Photos are helpful.",
   "id": "8ae8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Discarded Syringes"
+  "name": "Discarded Syringes",
+  "description": "Report discarded syringes. Include as much details on location. Photos are helpful."
  },
  {
-  "description": "Report any down wire or leaning utility pole directly to Rhode Island Energy at (855) 743-1101 and say \"downed power line\"",
   "id": "dae7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Downed Wire or Leaning Utility Pole"
+  "name": "Downed Wire or Leaning Utility Pole",
+  "description": "Report any down wire or leaning utility pole directly to Rhode Island Energy at (855) 743-1101 and say \"downed power line\""
  },
  {
-  "description": "Request information about elections and voting from the Board of Canvassers.",
   "id": "66e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Elections and Voting Information"
+  "name": "Elections and Voting Information",
+  "description": "Request information about elections and voting from the Board of Canvassers."
  },
  {
-  "description": "Report issues with rentable devices in the city. If possible, please provide a photo and a clear description of its location.",
   "id": "c2e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Electric Scooter Issues"
+  "name": "Electric Scooter Issues",
+  "description": "Report issues with rentable devices in the city. If possible, please provide a photo and a clear description of its location."
  },
  {
-  "description": "Request the inspection needed or visit https://providenceri.portal.opengov.com/categories/1072 for additional information",
   "id": "dce7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Electrical, Mechanical, Plumbing Inspection Requests"
+  "name": "Electrical, Mechanical, Plumbing Inspection Requests",
+  "description": "Request the inspection needed or visit https://providenceri.portal.opengov.com/categories/1072 for additional information"
  },
  {
-  "description": "Please submit your request here. Also, visit PEMA's webpage for more information at - https://www.providenceri.gov/pema/plan-emergencies-disasters/",
   "id": "8ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Emergency and Disaster Information"
+  "name": "Emergency and Disaster Information",
+  "description": "Please submit your request here. Also, visit PEMA's webpage for more information at - https://www.providenceri.gov/pema/plan-emergencies-disasters/"
  },
  {
-  "description": "Report encampments or tents here. Be as specific on the location. The city works with service providers and state agencies to assist the unhoused population.",
   "id": "f6e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Encampment Concern(s)"
+  "name": "Encampment Concern(s)",
+  "description": "Report encampments or tents here. Be as specific on the location. The city works with service providers and state agencies to assist the unhoused population."
  },
  {
-  "description": "Request information related to any energy efficiency issues or concerns.",
   "id": "82e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Energy Efficiency Issues"
+  "name": "Energy Efficiency Issues",
+  "description": "Request information related to any energy efficiency issues or concerns."
  },
  {
-  "description": "Please provide all information related to faulty plumbing or raw sewage, address needed.",
   "id": "e4e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Faulty Plumbing or Raw Sewage"
+  "name": "Faulty Plumbing or Raw Sewage",
+  "description": "Please provide all information related to faulty plumbing or raw sewage, address needed."
  },
  {
-  "description": "Report leaky, sinking, or damaged fire hydrants.",
   "id": "78e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Fire Hydrant Issue"
+  "name": "Fire Hydrant Issue",
+  "description": "Report leaky, sinking, or damaged fire hydrants."
  },
  {
-  "description": "Request food assistance information.",
   "id": "e6e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Food Assistance Information"
+  "name": "Food Assistance Information",
+  "description": "Request food assistance information."
  },
  {
-  "description": "Use this request type for overall questions or concerns related to the Department of Public Works (ie - questions about a permit or process etc.)",
   "id": "63411634-181e-f011-9989-001dd80947ed",
-  "name": "General Question or Concern DPW related"
+  "name": "General Question or Concern DPW related",
+  "description": "Use this request type for overall questions or concerns related to the Department of Public Works (ie - questions about a permit or process etc.)"
  },
  {
-  "description": "Submit general questions, comments or concerns about city services or a city department.",
   "id": "a4c9e86b-0907-f011-bae2-001dd804f125",
-  "name": "General Questions, Comments or Concerns"
+  "name": "General Questions, Comments or Concerns",
+  "description": "Submit general questions, comments or concerns about city services or a city department."
  },
  {
-  "description": "Report graffiti in city park property. Adding a photograph is very helpful.",
   "id": "f4e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Graffiti in a Park"
+  "name": "Graffiti in a Park",
+  "description": "Report graffiti in city park property. Adding a photograph is very helpful."
  },
  {
-  "description": "Report graffiti on city-owned property. Make sure to include where on the surface is the graffiti (ie. on the window of the property). Adding as much details in the description and a photograph is very helpful.",
   "id": "92e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Graffiti on City-Owned Property"
+  "name": "Graffiti on City-Owned Property",
+  "description": "Report graffiti on city-owned property. Make sure to include where on the surface is the graffiti (ie. on the window of the property). Adding as much details in the description and a photograph is very helpful."
  },
  {
-  "description": "Property owners are responsible for removing graffiti on their property. Property owners are encouraged to file a police report if graffiti is considered vandalism.",
   "id": "7ae8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Graffiti on Private Property"
+  "name": "Graffiti on Private Property",
+  "description": "Property owners are responsible for removing graffiti on their property. Property owners are encouraged to file a police report if graffiti is considered vandalism."
  },
  {
-  "description": "Report incidents of hate crimes. You can also email the Human Relations Commission at hrc@providenceri.gov.",
   "id": "7ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Hate Crime"
+  "name": "Hate Crime",
+  "description": "Report incidents of hate crimes. You can also email the Human Relations Commission at hrc@providenceri.gov."
  },
  {
-  "description": "Report hazardous waste materials. Provide as much details and location.",
   "id": "f8e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Hazardous Waste Disposal"
+  "name": "Hazardous Waste Disposal",
+  "description": "Report hazardous waste materials. Provide as much details and location."
  },
  {
-  "description": "Request home repair assistance or information. Provide contact details.",
   "id": "28e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Home Repair Assistance"
+  "name": "Home Repair Assistance",
+  "description": "Request home repair assistance or information. Provide contact details."
  },
  {
-  "description": "Request information about housing assistance. Provide contact information.",
   "id": "fae7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Housing Assistance Information"
+  "name": "Housing Assistance Information",
+  "description": "Request information about housing assistance. Provide contact information."
  },
  {
-  "description": "Submit your concerns if you do not know which case type to select. Please provide the most accurate description possible. PVD311 will report your concerns to the appropriate department.",
   "id": "5c006794-b08c-ef11-ac21-001dd804e2ae",
-  "name": "I do not know know how to classify my issue or service request."
+  "name": "I do not know know how to classify my issue or service request.",
+  "description": "Submit your concerns if you do not know which case type to select. Please provide the most accurate description possible. PVD311 will report your concerns to the appropriate department."
  },
  {
-  "description": "Report an unlicensed business or vending concern. Provide as much details as possible.",
   "id": "56d37a28-cc3f-ef11-8409-001dd800f706",
-  "name": "Illegal Business or Vending Operations"
+  "name": "Illegal Business or Vending Operations",
+  "description": "Report an unlicensed business or vending concern. Provide as much details as possible."
  },
  {
-  "description": "Report illegal dumping in the city. Provide the location and details of the dumped items. A photo is helpful.",
   "id": "00e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Illegal Dumping"
+  "name": "Illegal Dumping",
+  "description": "Report illegal dumping in the city. Provide the location and details of the dumped items. A photo is helpful."
  },
  {
-  "description": "Report an illegal dwelling, such as in a basement or an attic. Please note, that the city will need to be provided access to the dwelling unit to assess for violations.",
   "id": "04e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Illegal Housing Issues or Concerns"
+  "name": "Illegal Housing Issues or Concerns",
+  "description": "Report an illegal dwelling, such as in a basement or an attic. Please note, that the city will need to be provided access to the dwelling unit to assess for violations."
  },
  {
-  "description": "Request information about events in Providence.",
   "id": "e0e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Information about events in the City"
+  "name": "Information about events in the City",
+  "description": "Request information about events in Providence."
  },
  {
-  "description": "Request information about public art in the city.",
   "id": "08e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Information on Public Art"
+  "name": "Information on Public Art",
+  "description": "Request information about public art in the city."
  },
  {
-  "description": "Request information about job training opportunities.",
   "id": "0ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Job Training Information"
+  "name": "Job Training Information",
+  "description": "Request information about job training opportunities."
  },
  {
-  "description": "Report damage, trash or other maintenance needs in a city park",
   "id": "50e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Maintenance Issue in a City Park"
+  "name": "Maintenance Issue in a City Park",
+  "description": "Report damage, trash or other maintenance needs in a city park"
  },
  {
-  "description": "Report damage, trash, or other maintenance needs in public, city-owned facilities.",
   "id": "12e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Maintenance Issue on City Property"
+  "name": "Maintenance Issue on City Property",
+  "description": "Report damage, trash, or other maintenance needs in public, city-owned facilities."
  },
  {
-  "description": "Please report missed pickups on your trash day. Indicate whether it is trash, recycling, yard waste or a bulky item (if applicable. Provide the WM confirmation number if you have one and the number of bags for yard waste.",
   "id": "1ee8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Missed Trash Day Pick-up Issue"
+  "name": "Missed Trash Day Pick-up Issue",
+  "description": "Please report missed pickups on your trash day. Indicate whether it is trash, recycling, yard waste or a bulky item (if applicable. Provide the WM confirmation number if you have one and the number of bags for yard waste."
  },
  {
-  "description": "Report Missing Manhole or Utility Cover - provide as much details, including location.",
   "id": "16e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Missing Manhole or Utility Cover"
+  "name": "Missing Manhole or Utility Cover",
+  "description": "Report Missing Manhole or Utility Cover - provide as much details, including location."
  },
  {
-  "description": "Report no electricity, water, or heat.",
   "id": "fce7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "No Public Utilities"
+  "name": "No Public Utilities",
+  "description": "Report no electricity, water, or heat."
  },
  {
-  "description": "Call the non-emergency line at (401) 272-3121 to report disturbances happening in real-time and to police to respond accordingly. Report to PVD311 for documentation purposes.",
   "id": "18e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Noise or Sound Disturbances"
+  "name": "Noise or Sound Disturbances",
+  "description": "Call the non-emergency line at (401) 272-3121 to report disturbances happening in real-time and to police to respond accordingly. Report to PVD311 for documentation purposes."
  },
  {
-  "description": "Report any overflowing dumpsters. Provide exact location. Photos are helpful.",
   "id": "0e8e7734-cc3f-ef11-8409-001dd800f706",
-  "name": "Overflowing Dumpster"
+  "name": "Overflowing Dumpster",
+  "description": "Report any overflowing dumpsters. Provide exact location. Photos are helpful."
  },
  {
-  "description": "Report vegetation overgrowth on a private property, especially if blocking sidewalks.",
   "id": "e8e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Overgrowth or High Grass on Private Property"
+  "name": "Overgrowth or High Grass on Private Property",
+  "description": "Report vegetation overgrowth on a private property, especially if blocking sidewalks."
  },
  {
-  "description": "Report overgrowth at parks, memorials, traffic islands or other public spaces.",
   "id": "1ae8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Overgrowth or High Grass Public Property"
+  "name": "Overgrowth or High Grass Public Property",
+  "description": "Report overgrowth at parks, memorials, traffic islands or other public spaces."
  },
  {
-  "description": "Report vehicles parked in restricted areas overnight. Only permitted vehicles may park on the street overnight.",
   "id": "84e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Overnight Parking Violations"
+  "name": "Overnight Parking Violations",
+  "description": "Report vehicles parked in restricted areas overnight. Only permitted vehicles may park on the street overnight."
  },
  {
-  "description": "Report a concern or a parking issue such as illegal parking. Provide location and vehicle details. You should also call the non-emergency police number for real time reporting 401.272.3121.",
   "id": "30e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Parking Issues to Report"
+  "name": "Parking Issues to Report",
+  "description": "Report a concern or a parking issue such as illegal parking. Provide location and vehicle details. You should also call the non-emergency police number for real time reporting 401.272.3121."
  },
  {
-  "description": "Report issues with a single or multi-space parking meter.",
   "id": "86e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Parking Meters Malfunction"
+  "name": "Parking Meters Malfunction",
+  "description": "Report issues with a single or multi-space parking meter."
  },
  {
-  "description": "Report concerns about incorrect or missing permits at a construction site.",
   "id": "22e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Permit Issues at a Construction Site"
+  "name": "Permit Issues at a Construction Site",
+  "description": "Report concerns about incorrect or missing permits at a construction site."
  },
  {
-  "description": "Report single-use plastic bags or other prohibited checkout bag provided by a business in Providence. Providence\u2019s Retail Plastic Bag Ban prohibits businesses from offering single-use plastic bags and paper bags made from non-recycled paper. If you see a business in violation, please report it so we can enforce the law. Providence\u2019s Retail Plastic Bag Ban went into effect on 10/22/19.There is also a statewide ban on the use of plastic bags.",
   "id": "b076f168-cd3f-ef11-8409-001dd800f706",
-  "name": "Plastic Bag Ban Violation"
+  "name": "Plastic Bag Ban Violation",
+  "description": "Report single-use plastic bags or other prohibited checkout bag provided by a business in Providence. Providence\u2019s Retail Plastic Bag Ban prohibits businesses from offering single-use plastic bags and paper bags made from non-recycled paper. If you see a business in violation, please report it so we can enforce the law. Providence\u2019s Retail Plastic Bag Ban went into effect on 10/22/19.There is also a statewide ban on the use of plastic bags."
  },
  {
-  "description": "Report potholes for patching. Note that winter operations may impact the resolution time of this request.",
   "id": "5f0efb0b-0454-ef11-a317-001dd8068673",
-  "name": "Pothole Report"
+  "name": "Pothole Report",
+  "description": "Report potholes for patching. Note that winter operations may impact the resolution time of this request."
  },
  {
-  "description": "Submit a question, concern, or service request about Providence Public School District (PPSD) student transportation, including school buses, bus stops, routes, schedules, delays, or other transportation issues. Contact information 401-456-9269, text 401-420-7960, and transportation@ppsd.org",
   "id": "928955ec-cda0-f111-b8db-001dd802fee5",
-  "name": "PPSD - Transportation Inquiry"
+  "name": "PPSD - Transportation Inquiry",
+  "description": "Submit a question, concern, or service request about Providence Public School District (PPSD) student transportation, including school buses, bus stops, routes, schedules, delays, or other transportation issues. Contact information 401-456-9269, text 401-420-7960, and transportation@ppsd.org"
  },
  {
-  "description": "Submit a question or request for assistance with Providence Public School District student registration, enrollment, school placement, transfers, required documents, or the registration process. Contact information - Phone: 401-456-9297 | Email: inforeg@ppsd.org | Text: 401-420-7189 | Registration Center: 325 Ocean Street, Providence | Hours: Monday-Friday, 8:00 AM-4:00 PM",
   "id": "550efb0b-0454-ef11-a317-001dd8068673",
-  "name": "PPSD Registration Inquiry"
+  "name": "PPSD Registration Inquiry",
+  "description": "Submit a question or request for assistance with Providence Public School District student registration, enrollment, school placement, transfers, required documents, or the registration process. Contact information - Phone: 401-456-9297 | Email: inforeg@ppsd.org | Text: 401-420-7189 | Registration Center: 325 Ocean Street, Providence | Hours: Monday-Friday, 8:00 AM-4:00 PM"
  },
  {
-  "description": "Submit a request or concern to the Providence Fire Department.",
   "id": "9ae8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Providence Fire Department Inquiry"
+  "name": "Providence Fire Department Inquiry",
+  "description": "Submit a request or concern to the Providence Fire Department."
  },
  {
-  "description": "Submit a request or concern to the Providence Police Department.",
   "id": "590efb0b-0454-ef11-a317-001dd8068673",
-  "name": "Providence Police Department Inquiry"
+  "name": "Providence Police Department Inquiry",
+  "description": "Submit a request or concern to the Providence Police Department."
  },
  {
-  "description": "Report issues or concerns with water engineering matters.",
   "id": "80e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Providence Water Engineering Issues"
+  "name": "Providence Water Engineering Issues",
+  "description": "Report issues or concerns with water engineering matters."
  },
  {
-  "description": "Report any concerns with RIPTA or issues around the bus shelters. Please provide location.",
   "id": "52e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Public Transit Issues and Concerns"
+  "name": "Public Transit Issues and Concerns",
+  "description": "Report any concerns with RIPTA or issues around the bus shelters. Please provide location."
  },
  {
-  "description": "Request information about the city's recreational programs.",
   "id": "24e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Recreational Programs"
+  "name": "Recreational Programs",
+  "description": "Request information about the city's recreational programs."
  },
  {
-  "description": "Request information on how to apply to film in the city.",
   "id": "f0e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Register to Film in the City"
+  "name": "Register to Film in the City",
+  "description": "Request information on how to apply to film in the city."
  },
  {
-  "description": "Report downed, faded, or damaged parking signs to be repaired or replaced.",
   "id": "ece7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Repair a Parking Sign"
+  "name": "Repair a Parking Sign",
+  "description": "Report downed, faded, or damaged parking signs to be repaired or replaced."
  },
  {
-  "description": "Report downed, faded, or damaged traffic signs to be repaired or replaced.",
   "id": "eee7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Repair a Traffic Sign"
+  "name": "Repair a Traffic Sign",
+  "description": "Report downed, faded, or damaged traffic signs to be repaired or replaced."
  },
  {
-  "description": "Request Repair to Existing Guardrail - provide as much details, including location.",
   "id": "2ee8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Repair Existing Guardrail"
+  "name": "Repair Existing Guardrail",
+  "description": "Request Repair to Existing Guardrail - provide as much details, including location."
  },
  {
-  "description": "Submit concerns about city employee misconduct.",
   "id": "96e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report a City Employee Misconduct"
+  "name": "Report a City Employee Misconduct",
+  "description": "Submit concerns about city employee misconduct."
  },
  {
-  "description": "Report a down city pole or a streetlight pole.",
   "id": "3ae8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report a Leaning City Streetlight Pole"
+  "name": "Report a Leaning City Streetlight Pole",
+  "description": "Report a down city pole or a streetlight pole."
  },
  {
-  "description": "Provide details or report directly to Rhode Island Energy at (855) 743-1102 for faster service. You can also report it online at https://selfserve.rienergy.com/report-an-outage/report-issue",
   "id": "2ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report a Smell of Gas"
+  "name": "Report a Smell of Gas",
+  "description": "Provide details or report directly to Rhode Island Energy at (855) 743-1102 for faster service. You can also report it online at https://selfserve.rienergy.com/report-an-outage/report-issue"
  },
  {
-  "description": "Report discrimination in employment, housing, credit, public accommodations, or services.",
+  "id": "9b1d9100-dcbd-f111-aaae-001dd802fee5",
+  "name": "Report an issue with Passport Parking App",
+  "description": "Report issues with the Passport Parking App. Be specific on the problems encountered."
+ },
+ {
   "id": "48e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report Discrimination"
+  "name": "Report Discrimination",
+  "description": "Report discrimination in employment, housing, credit, public accommodations, or services."
  },
  {
-  "description": "Report any issues or concern related to public safety. All urgent matters should be reported immediately to the police in real time at 401-272-3121.",
   "id": "4ee8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report General Public Safety Issues or Concerns"
+  "name": "Report General Public Safety Issues or Concerns",
+  "description": "Report any issues or concern related to public safety. All urgent matters should be reported immediately to the police in real time at 401-272-3121."
  },
  {
-  "description": "hazardous materials. Provide details and location.",
   "id": "88e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report Public Health Hazards"
+  "name": "Report Public Health Hazards",
+  "description": "hazardous materials. Provide details and location."
  },
  {
-  "description": "Report sewage backup concerns. Contact information is helpful. For emergencies or after hour please call (401) 919-0262.",
   "id": "44e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report Sewage Backup"
+  "name": "Report Sewage Backup",
+  "description": "Report sewage backup concerns. Contact information is helpful. For emergencies or after hour please call (401) 919-0262."
  },
  {
-  "description": "Report street flooding with location, intersection and any details. For emergencies or after hour please call (401) 919-0262.",
   "id": "64e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report Street Flooding"
+  "name": "Report Street Flooding",
+  "description": "Report street flooding with location, intersection and any details. For emergencies or after hour please call (401) 919-0262."
  },
  {
-  "description": "City street lights are easily identified by their curved neck. Street lights are often on telephone poles or freestanding aluminum poles, so please provide the pole number and location.",
   "id": "d0e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report Street Light Issue"
+  "name": "Report Street Light Issue",
+  "description": "City street lights are easily identified by their curved neck. Street lights are often on telephone poles or freestanding aluminum poles, so please provide the pole number and location."
  },
  {
-  "description": "Report any suspicious activity to the Police Department as it is happening. You can use this system for data reporting.",
   "id": "60e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report Suspicious Activity"
+  "name": "Report Suspicious Activity",
+  "description": "Report any suspicious activity to the Police Department as it is happening. You can use this system for data reporting."
  },
  {
-  "description": "Report any sidewalks not cleared of snow. Provide location. City ordinance states that property owners must clear their sidewalks of snow within 8 hours after the snow event ends.",
   "id": "b8e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Report Un-shoveled Sidewalks"
+  "name": "Report Un-shoveled Sidewalks",
+  "description": "Report any sidewalks not cleared of snow. Provide location. City ordinance states that property owners must clear their sidewalks of snow within 8 hours after the snow event ends."
  },
  {
-  "description": "Report information related to voter intimidation activities at polling places.",
   "id": "fe14d86e-6280-f111-ab0e-001dd8015c9c",
-  "name": "Report Voter Intimidation Activity"
+  "name": "Report Voter Intimidation Activity",
+  "description": "Report information related to voter intimidation activities at polling places."
  },
  {
-  "description": "Request a new parking sign. Specify the location and type of sign.",
   "id": "34e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Request a New Parking Sign"
+  "name": "Request a New Parking Sign",
+  "description": "Request a new parking sign. Specify the location and type of sign."
  },
  {
-  "description": "Request a new traffic sign. Specify the location and type of sign.",
   "id": "98e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Request a New Traffic Sign"
+  "name": "Request a New Traffic Sign",
+  "description": "Request a new traffic sign. Specify the location and type of sign."
  },
  {
-  "description": "Report an abandoned property that needs to be reboarded to avoid safety hazards.",
   "id": "3ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Request Reboarding of Abandoned Property"
+  "name": "Request Reboarding of Abandoned Property",
+  "description": "Report an abandoned property that needs to be reboarded to avoid safety hazards."
  },
  {
-  "description": "Owner-occupied properties can request rodent baiting on our website: https://www.providenceri.gov/public-works/forms/",
   "id": "9714e369-5b9a-ef11-8a6a-001dd830140a",
-  "name": "Request Rodent Baiting Information"
+  "name": "Request Rodent Baiting Information",
+  "description": "Owner-occupied properties can request rodent baiting on our website: https://www.providenceri.gov/public-works/forms/"
  },
  {
-  "description": "Report roads in need of significant patching. We'll evaluate for any quick fixes and refer it to our repairs database for permanent repairs. Please note that requests to repair entire roads may take a considerable amount of time to complete.",
   "id": "3ee8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Request Street Repair(s)"
+  "name": "Request Street Repair(s)",
+  "description": "Report roads in need of significant patching. We'll evaluate for any quick fixes and refer it to our repairs database for permanent repairs. Please note that requests to repair entire roads may take a considerable amount of time to complete."
  },
  {
-  "description": "Request hosting a private event in City Hall or call Public Property at (401) 680-5508 to schedule an appointment to see the rental spaces in City Hall.",
   "id": "42e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Reserve Private Events in City Hall"
+  "name": "Reserve Private Events in City Hall",
+  "description": "Request hosting a private event in City Hall or call Public Property at (401) 680-5508 to schedule an appointment to see the rental spaces in City Hall."
  },
  {
-  "description": "Request information about senior centers, transportation, or other services.",
   "id": "72e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Senior Services"
+  "name": "Senior Services",
+  "description": "Request information about senior centers, transportation, or other services."
  },
  {
-  "description": "Request to repair a sidewalk that has become damaged by a city tree. Please note that for the health of the tree, repairs to sidewalks are carefully coordinated, and may affect resolution time.",
   "id": "46e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Sidewalk Issue that is Tree-Related"
+  "name": "Sidewalk Issue that is Tree-Related",
+  "description": "Request to repair a sidewalk that has become damaged by a city tree. Please note that for the health of the tree, repairs to sidewalks are carefully coordinated, and may affect resolution time."
  },
  {
-  "description": "Request the repair of a sidewalk panel. Provide all details and photos.",
   "id": "54e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Sidewalk Panel Repair"
+  "name": "Sidewalk Panel Repair",
+  "description": "Request the repair of a sidewalk panel. Provide all details and photos."
  },
  {
-  "description": "Request the installation of a sidewalk panel where one does not currently exist to complete the sidewalk. Provide all details and photos.",
   "id": "638b20a7-cd3f-ef11-8409-001dd800f706",
-  "name": "Sidewalk Panel Request"
+  "name": "Sidewalk Panel Request",
+  "description": "Request the installation of a sidewalk panel where one does not currently exist to complete the sidewalk. Provide all details and photos."
  },
  {
-  "description": "Sinkholes are holes in the ground which are caused by an empty space beneath. They often begin as depressions and often do not have visible bottoms. Repairs require repairing the substructure. Provide location or intersection.",
   "id": "eae7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Sinkhole Concern"
+  "name": "Sinkhole Concern",
+  "description": "Sinkholes are holes in the ground which are caused by an empty space beneath. They often begin as depressions and often do not have visible bottoms. Repairs require repairing the substructure. Provide location or intersection."
  },
  {
-  "description": "Request information about small businesses in Providence. Please provide contact information and details of the requested information.",
   "id": "58e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Small Business Support"
+  "name": "Small Business Support",
+  "description": "Request information about small businesses in Providence. Please provide contact information and details of the requested information."
  },
  {
-  "description": "Report any city street or road the needs to be treated due to winter conditions.",
   "id": "5ae8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Snow Plowing or Salting or Sanding Request"
+  "name": "Snow Plowing or Salting or Sanding Request",
+  "description": "Report any city street or road the needs to be treated due to winter conditions."
  },
  {
-  "description": "Report speeding observed or traffic calming concerns. Urgent matters should be reported to the police at (401) 272-3121.",
   "id": "ef3410cc-cd3f-ef11-8409-001dd800f706",
-  "name": "Speeding and Traffic Calming Concerns"
+  "name": "Speeding and Traffic Calming Concerns",
+  "description": "Report speeding observed or traffic calming concerns. Urgent matters should be reported to the police at (401) 272-3121."
  },
  {
-  "description": "Report or request information on temporary sidewalk/street occupation or closure",
   "id": "06e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Street Closure Request"
+  "name": "Street Closure Request",
+  "description": "Report or request information on temporary sidewalk/street occupation or closure"
  },
  {
-  "description": "The majority of street sweeping requests will be handled as part of the city's street sweeping program. If there are areas in need of special attention, report them here.",
   "id": "5ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Street Sweeping Issue or Concern"
+  "name": "Street Sweeping Issue or Concern",
+  "description": "The majority of street sweeping requests will be handled as part of the city's street sweeping program. If there are areas in need of special attention, report them here."
  },
  {
-  "description": "Use this service request to report any housing code violations such as vermin infestations or structural issues. Please note we will need to be provided access to consider these violations.",
   "id": "c6e7b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Substandard Housing Code Issues or Violations"
+  "name": "Substandard Housing Code Issues or Violations",
+  "description": "Use this service request to report any housing code violations such as vermin infestations or structural issues. Please note we will need to be provided access to consider these violations."
  },
  {
-  "description": "Request assistance or ask a question related to your tax bill. The Assessor\u2019s Office is also the keeper of records of all real estate, tangible and motor vehicle tax records.",
   "id": "62e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Tax Assessor Inquiry"
+  "name": "Tax Assessor Inquiry",
+  "description": "Request assistance or ask a question related to your tax bill. The Assessor\u2019s Office is also the keeper of records of all real estate, tangible and motor vehicle tax records."
  },
  {
-  "description": "Request assistance or ask a question related to your paying your tax bill. The Tax Collector's Office sends out annual bills in June and processes quarterly payments for Real Estate, Personal Property/Tangible, and Motor Vehicle taxes.",
   "id": "40e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Tax Collector Inquiry"
+  "name": "Tax Collector Inquiry",
+  "description": "Request assistance or ask a question related to your paying your tax bill. The Tax Collector's Office sends out annual bills in June and processes quarterly payments for Real Estate, Personal Property/Tangible, and Motor Vehicle taxes."
  },
  {
-  "description": "Report any traffic flow or safety concern other than speeding which is addressed in the Traffic calming request type. this would include traffic congestion, safety improvements, one way street changes and all way stop conditions at intersections.",
   "id": "9ce8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Traffic Control Issues or Changes"
+  "name": "Traffic Control Issues or Changes",
+  "description": "Report any traffic flow or safety concern other than speeding which is addressed in the Traffic calming request type. this would include traffic congestion, safety improvements, one way street changes and all way stop conditions at intersections."
  },
  {
-  "description": "Reports a malfunctioning traffic signal or crossing signal. Provide intersection.",
   "id": "b1c3d9d8-cd3f-ef11-8409-001dd800f706",
-  "name": "Traffic Signal Malfunction"
+  "name": "Traffic Signal Malfunction",
+  "description": "Reports a malfunctioning traffic signal or crossing signal. Provide intersection."
  },
  {
-  "description": "Please note that private properties and their abutting sidewalks are maintained by that private property/business owner. Please include address and details.",
   "id": "68e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Trash on Private Property or Sidewalk"
+  "name": "Trash on Private Property or Sidewalk",
+  "description": "Please note that private properties and their abutting sidewalks are maintained by that private property/business owner. Please include address and details."
  },
  {
-  "description": "Report any trash or debris in the street (sidewalks excluded) or on a public property.",
   "id": "6d0efb0b-0454-ef11-a317-001dd8068673",
-  "name": "Trash on Streets and Public Property"
+  "name": "Trash on Streets and Public Property",
+  "description": "Report any trash or debris in the street (sidewalks excluded) or on a public property."
  },
  {
-  "description": "Report trash or recycling bins or cans eft out on the curb or sidewalk after trash day. We'll let the owner know to bring them back onto their property.",
   "id": "6ee8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Trash or Recycling Bins or Cans Left Out"
+  "name": "Trash or Recycling Bins or Cans Left Out",
+  "description": "Report trash or recycling bins or cans eft out on the curb or sidewalk after trash day. We'll let the owner know to bring them back onto their property."
  },
  {
-  "description": "Report if you have not received a new trash or recycling bin.",
   "id": "36e8b671-7a2e-ef11-840a-001dd8039400",
-  "name": "Trash or Recycling Bins or Carts"
+  "name": "Trash or Recycling Bins or Carts",
+  "description": "Report if you have not received a new trash or recycling bin."
  },
  {
-  "description": "Report any request for tree pruning or other concerns related to a city owned tree. Photographs are helpful.",
   "id": "070b1e94-b7f3-ef11-be20-001dd804ed86",
-  "name": "Tree Related Issue(s)"
+  "name": "Tree Related Issue(s)",
+  "description": "Report any request for tree pruning or other concerns related to a city owned tree. Photographs are helpful."
  },
  {
-  "description": "Request information on urban planning and infrastructure. Make sure to include the details of the inforamtion requested.",
   "id": "090b1e94-b7f3-ef11-be20-001dd804ed86",
-  "name": "Urban Planning & Green Spaces"
+  "name": "Urban Planning & Green Spaces",
+  "description": "Request information on urban planning and infrastructure. Make sure to include the details of the inforamtion requested."
  },
  {
-  "description": "Request certified birth, marriage, and death certificates, marriage licenses and file records for deaths that take place in Providence.",
   "id": "0d0b1e94-b7f3-ef11-be20-001dd804ed86",
-  "name": "Vital Records Inquiry"
+  "name": "Vital Records Inquiry",
+  "description": "Request certified birth, marriage, and death certificates, marriage licenses and file records for deaths that take place in Providence."
  },
  {
-  "description": "Report issues or concerns with your water meter.",
   "id": "0f0b1e94-b7f3-ef11-be20-001dd804ed86",
-  "name": "Water Meter Issue"
+  "name": "Water Meter Issue",
+  "description": "Report issues or concerns with your water meter."
  },
  {
-  "description": "Report any water quality issue such as a change in color, taste or smell.",
   "id": "110b1e94-b7f3-ef11-be20-001dd804ed86",
-  "name": "Water Quality Issues or Concerns"
+  "name": "Water Quality Issues or Concerns",
+  "description": "Report any water quality issue such as a change in color, taste or smell."
  },
  {
-  "description": "Reporting any zoning related concerns such as over paving, too many chickens, commercial use in a residential district/residential structure, parking on lawns/not using curb cuts to access parking, commercial vehicles (big box trucks, or heavy machinery type vehicles) parked on going on residential lots or short Term Rental in a residential zone where not owner-occupied",
   "id": "170b1e94-b7f3-ef11-be20-001dd804ed86",
-  "name": "Zoning Violation Concerns"
+  "name": "Zoning Violation Concerns",
+  "description": "Reporting any zoning related concerns such as over paving, too many chickens, commercial use in a residential district/residential structure, parking on lawns/not using curb cuts to access parking, commercial vehicles (big box trucks, or heavy machinery type vehicles) parked on going on residential lots or short Term Rental in a residential zone where not owner-occupied"
  }
 ]

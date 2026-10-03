@@ -6,11 +6,11 @@
   },
   {
    "label": "Trash or Recycling Bins or Carts",
-   "count": 2492
+   "count": 2493
   },
   {
    "label": "Missed Trash Day Pick-up Issue",
-   "count": 1586
+   "count": 1587
   },
   {
    "label": "Pothole Report",
@@ -18,7 +18,7 @@
   },
   {
    "label": "Parking Issues to Report",
-   "count": 943
+   "count": 944
   },
   {
    "label": "Report Un-shoveled Sidewalks",
@@ -28,19 +28,19 @@
  "origins_ytd": [
   {
    "label": "Web",
-   "count": 14267
+   "count": 14276
   },
   {
    "label": "Phone",
-   "count": 4357
+   "count": 4360
   },
   {
    "label": null,
-   "count": 1136
+   "count": 1137
   },
   {
    "label": "Guest Support",
-   "count": 1028
+   "count": 1029
   },
   {
    "label": "Office Visit",
@@ -50,6 +50,5 @@
    "label": "Email",
    "count": 122
   }
- ],
- "_note": "Transcribed by Claude from /analytics chart data (get-chart-builder DataJson) in the browser, Oct 1 2026 3:20pm; scrape.py writes this file automatically from Oct 2."
+ ]
 }

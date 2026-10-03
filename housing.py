@@ -5,7 +5,7 @@ Section name and slug ("Housing", /housing/) are placeholders pending Liam's cal
 import json, csv, shutil, pathlib
 
 H = pathlib.Path(__file__).parent.parent / "housing" / "data"
-FILES = ["statewide.json", "census-permits-ri.csv", "state-survey-permits.csv", "permits-new-housing-2009-2019.csv",
+FILES = ["statewide.json", "two-counts-by-town.csv", "census-permits-ri.csv", "state-survey-permits.csv", "permits-new-housing-2009-2019.csv",
          "built-since-2010.csv", "built-summary.json"]
 
 def render(page, e, SITE, DATELINE):
@@ -61,6 +61,24 @@ def render(page, e, SITE, DATELINE):
     b.append(f'<tr class="total"><td>Statewide</td><td class="n">{N(sum(t["goal_per_year"] for t in rows))}</td><td class="n">{N(sw_c25)}</td><td class="n">{N(sw25["permitted"]["total"])}</td></tr></table></div>')
     b.append('<p class="cite">Goal per year: the five-year goal divided by five. Census: Building Permits Survey, annual place file for 2025, new privately owned housing units authorized; * the town reported fewer than 12 months and the figure includes the Bureau&#8217;s estimate. State: RI Executive Office of Housing, 2025 Integrated Housing Report (Apr. 15, 2026), Figure 2.1; &#8224; marked in Figure 2.3 as not having completed the survey before publication. Every town and year since 2000: <a href="data/census-permits-ri.csv">census-permits-ri.csv</a>.</p>')
 
+    ms = lambda c: c.get("u2", 0) + c.get("u34", 0) + c.get("u5", 0)
+    S2 = sum(ms(t["doh_2025"]["permitted"]) for t in st["towns"]); C2 = sum(ms(t["census"]["2025"]) for t in st["towns"])
+    S1 = sum(t["doh_2025"]["permitted"]["u1"] for t in st["towns"]); C1 = sum(t["census"]["2025"]["u1"] for t in st["towns"])
+    zeros = sorted(t["town"] for t in st["towns"] if ms(t["doh_2025"]["permitted"]) >= 20 and ms(t["census"]["2025"]) == 0)
+    pk = towns["Pawtucket"]; mt = towns["Middletown"]
+    pk_max = max(abs(pk["state_survey"][str(y)]["net_of_adu"] - pk["census"][str(y)]["total"]) for y in range(2018, 2024))
+    assert all(mt["state_survey"][str(y)]["net_of_adu"] == mt["census"][str(y)]["total"] for y in range(2018, 2024))
+    mgap = sorted(st["towns"], key=lambda t: -(ms(t["doh_2025"]["permitted"]) - ms(t["census"]["2025"])))[:10]
+    b.append('<h2>The gap is apartments</h2>')
+    b.append(f'<p>Split by building size, most of the 2025 difference is in buildings of two or more homes. Across the 39 cities and towns the State&#8217;s survey has {N(S2)} homes permitted in such buildings and the Census count has {N(C2)}, a difference of {N(S2 - C2)}. For single-family houses the two are {N(S1)} and {N(C1)}, a difference of {N(S1 - C1)}. In {len(zeros)} towns the State reports 20 or more homes in multifamily buildings and the Census reports none: {L(zeros)}.</p>')
+    b.append(f'<p>It was not always so. Pawtucket&#8217;s two counts were never more than {pk_max} homes apart in any year from 2018 through 2023. In 2024 the State recorded {N(pk["doh_2024"]["permitted_multi"])} homes in its multifamily buildings and the Census recorded {N(ms(pk["census"]["2024"]))}; in 2025 the figures were {N(ms(pk["doh_2025"]["permitted"]))} and {N(ms(pk["census"]["2025"]))}. Middletown&#8217;s counts matched exactly every year from 2018 through 2023, then split by {N(mt["doh_2024"]["permitted_total"] - mt["census"]["2024"]["total"])} homes in 2024.</p>')
+    b.append('<p>The two surveys do not say why. The Census count is built from what each city reports; the State&#8217;s comes from its own annual survey of each city. Records requests to Pawtucket for its reports to both, filed Oct. 2, 2026, are meant to show what the city sent each of them.</p>')
+    b.append('<div class="tablewrap"><table><tr><th>City or town</th><th class="n">2024, State</th><th class="n">2024, Census</th><th class="n">2025, State</th><th class="n">2025, Census</th></tr>')
+    for t in mgap:
+        b.append(f'<tr><td>{e(t["town"])}</td><td class="n">{N(t["doh_2024"]["permitted_multi"])}</td><td class="n">{N(ms(t["census"]["2024"]))}</td><td class="n">{N(ms(t["doh_2025"]["permitted"]))}</td><td class="n">{N(ms(t["census"]["2025"]))}</td></tr>')
+    b.append('</table></div>')
+    b.append('<p class="cite">Homes permitted in buildings of two or more homes, the ten towns with the largest 2025 difference between the State and the Census. State 2025: RI Executive Office of Housing, 2025 Integrated Housing Report, Figure 2.1 (two-family, three-or-four-family and five-or-more columns). State 2024: RI Department of Housing, 2024 Integrated Housing Report, Figure 2.1, the &#8220;multi&#8221; column as printed. Census: Building Permits Survey annual place files, 2024 and 2025, buildings of two or more homes. Every town: <a href="data/two-counts-by-town.csv">two-counts-by-town.csv</a>.</p>')
+
     b.append('<h2>How the State counts what got built</h2>')
     b.append(f'<p>A permit is not a home. For 2025 the State counts homes finished by asking each city and town how many certificates of occupancy it issued, the document that lets people move in. Providence reported {N(co25["total"])}: {N(co25["u1"])} single-family houses, {N(co25["u2"])} homes in two-family buildings, {N(co25["u34"])} in buildings of three or four, and {N(co25["u5"])} in buildings of five or more. Statewide the count is {N(sw25["certificates_of_occupancy"]["total"])}. The report says the State had not tracked this before, &#8220;so there is no historical data available for comparison.&#8221;</p>')
     b.append(f'<p>The 2024 report used a formula instead. For single-family houses it took the year before&#8217;s permits and multiplied by 0.66, the share of New England single-family permits that become houses within a year in a national Census survey. For apartments it counted certificates of occupancy, but only for developments with affordable units, and said the method &#8220;does not capture the full set of multifamily completions in the state.&#8221; For Providence in 2024 that gave {N(pd["completed_single_est"])} houses and {N(pd["completed_multi_cos"])} apartments, {N(pd["completed_total"])} in all; the {N(pd["completed_multi_cos"])} apartments were four affordable developments: Copley Chambers II and III (124), Joseph Caffey Apartments (39), Portland Homes (5) and one unit at 1192 Westminster St. The two years are not comparable.</p>')
@@ -101,6 +119,7 @@ def render(page, e, SITE, DATELINE):
     b.append('<p class="cite">City of Providence assessor&#8217;s parcel extract, provided Sept. 10, 2026, from data pulled early in 2025; joined by parcel to the 2025 tax roll. The assessor&#8217;s office cautions that year built is the least reliable field it keeps. A building converted to apartments keeps its original year and does not appear here, and a parcel renumbered after its permit was issued may not match. Every parcel: <a href="data/built-since-2010.csv">built-since-2010.csv</a>. Tax agreements: <a href="../off-the-roll/">Off the Roll</a>.</p>')
 
     b.append('<h2>Not yet on the record</h2><ul class="open">'
+             '<li>What Pawtucket reported to the Census and to the State for 2023 through 2025, and every permit and certificate of occupancy it has issued for new homes since 2018. Asked Oct. 2, 2026.</li>'
              '<li>Every building permit for new homes in Providence since 2020, with its parcel and number of homes. The City keeps them in an online permit system whose public search is one record at a time.</li>'
              f'<li>Every certificate of occupancy the City has issued since 2020, by address. The State now publishes a yearly total, {N(co25["total"])} for 2025, but not the buildings behind it.</li>'
              f'<li>Which permits make up the {N(p25["total"])} homes the City reported to the State for 2025, and why its Census reports for the same year add to {N(c25["total"])}. The City and the State were asked about 2024 on Oct. 1, 2026, and the State again about 2025 the same day.</li>'
