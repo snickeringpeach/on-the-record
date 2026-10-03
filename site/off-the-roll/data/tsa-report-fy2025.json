@@ -1531,7 +1531,16 @@
    "mbe_wbe": "Yes",
    "apprenticeship": "Unable to determine"
   },
-  "years": [],
+  "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 114864000.0,
+    "billed": 2918528.16,
+    "rate": null,
+    "full": null,
+    "abated": null
+   }
+  ],
   "savings_to_date": null,
   "abated_sum": 0,
   "compliance_norm": {
@@ -1888,6 +1897,14 @@
   },
   "years": [
    {
+    "tax_year": 2024,
+    "assessed": 6468100.0,
+    "billed": 149840.0,
+    "rate": 35.1,
+    "full": 227030.0,
+    "abated": 77190.0
+   },
+   {
     "tax_year": 2023,
     "assessed": 6468100.0,
     "billed": 124867.0,
@@ -1961,7 +1978,7 @@
    }
   ],
   "savings_to_date": 451875.0,
-  "abated_sum": 374685.0,
+  "abated_sum": 451875.0,
   "compliance_norm": {
    "annual_report": "no",
    "parks_fee": "yes",
@@ -1986,6 +2003,14 @@
    "apprenticeship": "Unable to determine"
   },
   "years": [
+   {
+    "tax_year": 2024,
+    "assessed": 15413400.0,
+    "billed": 440533.0,
+    "rate": 35.1,
+    "full": 541010.0,
+    "abated": 100477.0
+   },
    {
     "tax_year": 2023,
     "assessed": 15413400.0,
@@ -2060,7 +2085,7 @@
    }
   ],
   "savings_to_date": 1406387.0,
-  "abated_sum": 1305909.0,
+  "abated_sum": 1406386.0,
   "compliance_norm": {
    "annual_report": "no",
    "parks_fee": "yes",
@@ -2177,6 +2202,14 @@
   },
   "years": [
    {
+    "tax_year": 2024,
+    "assessed": 34618900.0,
+    "billed": 442770.0,
+    "rate": 35.1,
+    "full": 1215123.0,
+    "abated": 772353.0
+   },
+   {
     "tax_year": 2023,
     "assessed": 33346100.0,
     "billed": 365436.0,
@@ -2242,7 +2275,7 @@
    }
   ],
   "savings_to_date": 4475868.0,
-  "abated_sum": 3703516.0,
+  "abated_sum": 4475869.0,
   "compliance_norm": {
    "annual_report": "no",
    "parks_fee": "yes",
@@ -3420,8 +3453,8 @@
     "assessed": 3946000.0,
     "billed": 139688.0,
     "rate": 35.1,
-    "full": 1184.0,
-    "abated": -138504.0
+    "full": 138505,
+    "abated": -1183.0
    },
    {
     "tax_year": 2023,
@@ -3465,7 +3498,7 @@
    }
   ],
   "savings_to_date": -6631.0,
-  "abated_sum": -144025.0,
+  "abated_sum": -6704.0,
   "compliance_norm": {
    "annual_report": "yes",
    "parks_fee": "yes",
@@ -4208,11 +4241,11 @@
   "years": [
    {
     "tax_year": 2024,
-    "assessed": 15584.0,
+    "assessed": null,
     "billed": 15584.0,
     "rate": 35.1,
-    "full": 1000.0,
-    "abated": -14584.0
+    "full": 15584.0,
+    "abated": 0.0
    },
    {
     "tax_year": 2023,
@@ -4224,7 +4257,7 @@
    }
   ],
   "savings_to_date": -0.01,
-  "abated_sum": -14584.0,
+  "abated_sum": 0,
   "compliance_norm": {
    "annual_report": "yes",
    "parks_fee": "yes",
@@ -5955,6 +5988,14 @@
   },
   "years": [
    {
+    "tax_year": 2024,
+    "assessed": 25596900.0,
+    "billed": 102292.0,
+    "rate": 35.1,
+    "full": 898451.0,
+    "abated": 796159.0
+   },
+   {
     "tax_year": 2023,
     "assessed": 25596900.0,
     "billed": 58027.0,
@@ -6012,7 +6053,7 @@
    }
   ],
   "savings_to_date": 2411385.0,
-  "abated_sum": 1615224.0,
+  "abated_sum": 2411383.0,
   "compliance_norm": {
    "annual_report": "yes",
    "parks_fee": "not required",
