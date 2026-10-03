@@ -1,33 +1,33 @@
 {
- "as_of": "2026-10-01",
- "note": "Built from sourced research on Sept 30 2026 and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-10-03",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3 and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
   {
-   "d": "2026-10-01",
-   "when": "Oct 1, then 1st and 3rd Thursdays",
+   "d": "2026-10-05",
+   "when": "Oct 5, 2 PM",
    "desk": "pvd",
-   "title": "City Council meets",
-   "why": "The outgoing council. By the usual pattern: Oct 15, Nov 5, Nov 19, Dec 3, Dec 17.",
-   "conf": "L",
-   "src": "https://council.providenceri.gov/2026/07/16/"
-  },
-  {
-   "d": "2026-10-02",
-   "when": "Oct 2",
-   "desk": "econ",
-   "title": "CharterCARE's revised plan for Roger Williams and Fatima hospitals due to the Attorney General",
-   "why": "The Attorney General called the first plan unrealistic; the hospitals have about 40 days of cash.",
+   "title": "Board of Contract and Supply: the contract for the next citywide revaluation",
+   "why": "Item #53977: Vision Government Solutions, $2,044,000, for a full revaluation as of Dec 31, 2027.",
    "conf": "C",
-   "src": "https://rhodeislandcurrent.com/2026/09/28/can-new-owners-turn-around-struggling-roger-williams-and-fatima-hospitals-neronha-is-not-convinced/"
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15735"
   },
   {
-   "d": "2026-10-04",
-   "when": "Oct 4",
-   "desk": "state",
-   "title": "Voter registration deadline",
+   "d": "2026-10-07",
+   "when": "Oct 7, 5:30 PM",
+   "desk": "pvd",
+   "title": "Public Works Committee: resolution opposing Brown's demolition of houses on Brook Street",
+   "why": "Item #53081. Comes six weeks before the City Plan Commission hearing on the economics building.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16162"
+  },
+  {
+   "d": "2026-10-13",
+   "when": "Oct 13, 5:30 PM",
+   "desk": "pvd",
+   "title": "Ordinance Committee meets",
    "why": "",
    "conf": "C",
-   "src": "https://vote.sos.ri.gov/Forms/Elections/Guides/2026_ElecCal.pdf"
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16140"
   },
   {
    "d": "2026-10-14",
@@ -37,6 +37,15 @@
    "why": "Runs through Nov 2.",
    "conf": "C",
    "src": "https://vote.sos.ri.gov/Forms/Elections/Guides/2026_ElecCal.pdf"
+  },
+  {
+   "d": "2026-10-15",
+   "when": "Oct 15, then 1st and 3rd Thursdays",
+   "desk": "pvd",
+   "title": "City Council meets",
+   "why": "The outgoing council. By the usual pattern: Nov 5, Nov 19, Dec 3, Dec 17.",
+   "conf": "L",
+   "src": "https://council.providenceri.gov/2026/07/16/"
   },
   {
    "d": "2026-10-17",
@@ -111,6 +120,15 @@
    "src": "https://rhodeislandcurrent.com/tag/revenue-and-caseload-estimating-conference/"
   },
   {
+   "d": "2026-11-15",
+   "when": "Nov 15",
+   "desk": "pvd",
+   "title": "Deadline to appeal your property assessment",
+   "why": "Appeals go to the Tax Assessor\u2019s Office in writing; state law sets the window.",
+   "conf": "C",
+   "src": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-5/44-5-26.htm"
+  },
+  {
    "d": "2026-11-17",
    "when": "Nov 17",
    "desk": "pvd",
@@ -145,6 +163,15 @@
    "why": "",
    "conf": "C",
    "src": "https://dlt.ri.gov/regulation-and-safety/labor-standards/minimum-wage"
+  },
+  {
+   "d": "2027-01-01",
+   "when": "About Jan 1, then quarterly",
+   "desk": "pvd",
+   "title": "CharterCARE's second back-tax installment to the City",
+   "why": "The first of 17 quarterly payments ($218,937) was due Oct 1, toward about $3.7 million of the $10.29 million Prospect owed for 2024 and 2025. Whether it was paid has not been reported.",
+   "conf": "L",
+   "src": "https://www.golocalprov.com/news/providence-and-np-poised-to-lose-11-million-in-back-taxes-due-to-chartercare-deal"
   },
   {
    "d": "2027-01-04",
@@ -190,15 +217,6 @@
    "why": "The last one put the plan at 31.4 percent funded.",
    "conf": "L",
    "src": "https://www.bostonglobe.com/2026/02/26/metro/providence-pension-recovery-milestone-ri"
-  },
-  {
-   "d": "2026-10-01",
-   "when": "Oct 1, then quarterly",
-   "desk": "pvd",
-   "title": "CharterCARE's first back-tax installment to the City is due",
-   "why": "$218,937, the first of 17 quarterly payments covering about $3.7 million of the $10.29 million Prospect owed for 2024 and 2025. The hospitals are now nonprofit; no replacement payment agreement has been announced.",
-   "conf": "C",
-   "src": "https://www.golocalprov.com/news/providence-and-np-poised-to-lose-11-million-in-back-taxes-due-to-chartercare-deal"
   }
  ]
 }
