@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-03",
- "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3 and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-10-05",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3 and Oct 5, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
   {
    "d": "2026-10-05",
@@ -10,6 +10,15 @@
    "why": "Item #53977: Vision Government Solutions, $2,044,000, for a full revaluation as of Dec 31, 2027.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15735"
+  },
+  {
+   "d": "2026-10-06",
+   "when": "Oct 6, 5:30 PM",
+   "desk": "pvd",
+   "title": "Special Committee on Ways and Means meets",
+   "why": "Agenda not yet posted as of Oct 5.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16163"
   },
   {
    "d": "2026-10-07",
@@ -40,12 +49,12 @@
   },
   {
    "d": "2026-10-15",
-   "when": "Oct 15, then 1st and 3rd Thursdays",
+   "when": "Oct 15, 6 PM, then 1st and 3rd Thursdays",
    "desk": "pvd",
    "title": "City Council meets",
-   "why": "The outgoing council. By the usual pattern: Nov 5, Nov 19, Dec 3, Dec 17.",
-   "conf": "L",
-   "src": "https://council.providenceri.gov/2026/07/16/"
+   "why": "The outgoing council; posted on the City calendar. By the usual pattern after that: Nov 5, Nov 19, Dec 3, Dec 17.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15699"
   },
   {
    "d": "2026-10-17",
@@ -64,6 +73,15 @@
    "why": "Brown's master plan amendment has to be filed by now to be heard Nov 17.",
    "conf": "C",
    "src": "https://www.providenceri.gov/wp-content/uploads/2025/12/CPC-meeting-schedule-2026.pdf"
+  },
+  {
+   "d": "2026-10-20",
+   "when": "Oct 20, 4:45 PM",
+   "desk": "pvd",
+   "title": "City Plan Commission, October meeting",
+   "why": "The same day is the filing deadline for the Nov 17 meeting, when Brown's amendment is expected.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15786"
   },
   {
    "d": "2026-10-24",
@@ -124,7 +142,7 @@
    "when": "Nov 15",
    "desk": "pvd",
    "title": "Deadline to appeal your property assessment",
-   "why": "Appeals go to the Tax Assessor\u2019s Office in writing; state law sets the window.",
+   "why": "Appeals go to the Tax Assessor’s Office in writing; state law sets the window.",
    "conf": "C",
    "src": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-5/44-5-26.htm"
   },
@@ -142,7 +160,7 @@
    "when": "Dec 13",
    "desk": "pvd",
    "title": "One year since the shooting at Brown",
-   "why": "Brown's safety action plan runs through 2026\u201327.",
+   "why": "Brown's safety action plan runs through 2026–27.",
    "conf": "C",
    "src": "https://www.brown.edu/news/2026-08-28/brown-safety-security-report-action-plan"
   },
@@ -157,21 +175,21 @@
   },
   {
    "d": "2027-01-01",
-   "when": "Jan 1",
-   "desk": "state",
-   "title": "State minimum wage rises to $17; income-tax surcharge on millionaires begins",
-   "why": "",
-   "conf": "C",
-   "src": "https://dlt.ri.gov/regulation-and-safety/labor-standards/minimum-wage"
-  },
-  {
-   "d": "2027-01-01",
    "when": "About Jan 1, then quarterly",
    "desk": "pvd",
    "title": "CharterCARE's second back-tax installment to the City",
    "why": "The first of 17 quarterly payments ($218,937) was due Oct 1, toward about $3.7 million of the $10.29 million Prospect owed for 2024 and 2025. Whether it was paid has not been reported.",
    "conf": "L",
    "src": "https://www.golocalprov.com/news/providence-and-np-poised-to-lose-11-million-in-back-taxes-due-to-chartercare-deal"
+  },
+  {
+   "d": "2027-01-01",
+   "when": "Jan 1",
+   "desk": "state",
+   "title": "State minimum wage rises to $17; income-tax surcharge on millionaires begins",
+   "why": "",
+   "conf": "C",
+   "src": "https://dlt.ri.gov/regulation-and-safety/labor-standards/minimum-wage"
   },
   {
    "d": "2027-01-04",
