@@ -1,0 +1,858 @@
+[
+ {
+  "ward": 1,
+  "assessed": 6019876267.0,
+  "exempt": 2780348428.2899995,
+  "full_exempt": 2167767100.0,
+  "parcels": 3358,
+  "top_exempt_owners": [
+   [
+    "BROWN UNIVERSITY",
+    674552900
+   ],
+   [
+    "JOHNSON & WALES",
+    260907100
+   ],
+   [
+    "(no owner name on the roll)",
+    198657800
+   ]
+  ],
+  "rent_covered": 2901,
+  "rent_exempt": 447,
+  "crashes": 4879,
+  "injury": 821,
+  "ksi": 30,
+  "ped": 156,
+  "bike": 69,
+  "top_corners": [
+   [
+    113,
+    "EDDY ST @ POINT ST",
+    0,
+    0,
+    0
+   ],
+   [
+    91,
+    "BENEFIT ST @ WICKENDEN ST",
+    0,
+    0,
+    0
+   ],
+   [
+    88,
+    "BROOK ST @ WICKENDEN ST",
+    0,
+    1,
+    0
+   ]
+  ],
+  "tax_sale_2026": 41,
+  "tax_sale_2026_owner_occ": 3,
+  "tax_sale_all_three": 1,
+  "cameras": []
+ },
+ {
+  "ward": 2,
+  "assessed": 5980583800.0,
+  "exempt": 2462760524.19,
+  "full_exempt": 2367430400.0,
+  "parcels": 3251,
+  "top_exempt_owners": [
+   [
+    "BROWN UNIVERSITY",
+    1174485700
+   ],
+   [
+    "(no owner name on the roll)",
+    443333400
+   ],
+   [
+    "Butler Hospital",
+    191982400
+   ]
+  ],
+  "rent_covered": 1466,
+  "rent_exempt": 320,
+  "crashes": 1440,
+  "injury": 227,
+  "ksi": 5,
+  "ped": 66,
+  "bike": 31,
+  "top_corners": [
+   [
+    67,
+    "MEETING ST @ THAYER ST",
+    0,
+    4,
+    0
+   ],
+   [
+    52,
+    "COLLEGE ST @ SOUTH MAIN ST",
+    0,
+    2,
+    1
+   ],
+   [
+    51,
+    "THAYER ST @ WATERMAN ST",
+    1,
+    1,
+    0
+   ]
+  ],
+  "tax_sale_2026": 14,
+  "tax_sale_2026_owner_occ": 4,
+  "tax_sale_all_three": 0,
+  "cameras": [
+   "Hope High School (Olney St)",
+   "School One",
+   "Hope High School (Hope St)"
+  ]
+ },
+ {
+  "ward": 3,
+  "assessed": 3057285400.0,
+  "exempt": 646459661.58,
+  "full_exempt": 502302300.0,
+  "parcels": 3541,
+  "top_exempt_owners": [
+   [
+    "Miriam Hospital",
+    165678800
+   ],
+   [
+    "Providence Public Buildings Authority",
+    74678600
+   ],
+   [
+    "City of Providence",
+    59646600
+   ]
+  ],
+  "rent_covered": 1943,
+  "rent_exempt": 820,
+  "crashes": 2969,
+  "injury": 624,
+  "ksi": 25,
+  "ped": 83,
+  "bike": 39,
+  "top_corners": [
+   [
+    164,
+    "DOYLE AVE @ NORTH MAIN ST",
+    2,
+    3,
+    2
+   ],
+   [
+    163,
+    "NORTH MAIN ST @ RANDALL ST",
+    2,
+    6,
+    1
+   ],
+   [
+    140,
+    "CYPRESS ST @ NORTH MAIN ST",
+    3,
+    0,
+    0
+   ]
+  ],
+  "tax_sale_2026": 24,
+  "tax_sale_2026_owner_occ": 5,
+  "tax_sale_all_three": 1,
+  "cameras": [
+   "Providence Center School"
+  ]
+ },
+ {
+  "ward": 4,
+  "assessed": 1602661100.0,
+  "exempt": 252955389.31,
+  "full_exempt": 179401600.0,
+  "parcels": 3373,
+  "top_exempt_owners": [
+   [
+    "City of Providence",
+    43040400
+   ],
+   [
+    "Housing Authority",
+    28641700
+   ],
+   [
+    "United States Postal Service",
+    26240700
+   ]
+  ],
+  "rent_covered": 1770,
+  "rent_exempt": 861,
+  "crashes": 3612,
+  "injury": 828,
+  "ksi": 29,
+  "ped": 84,
+  "bike": 24,
+  "top_corners": [
+   [
+    167,
+    "NELLIE ST @ SMITHFIELD AVE",
+    0,
+    0,
+    0
+   ],
+   [
+    162,
+    "ADMIRAL ST @ CHARLES ST",
+    2,
+    0,
+    0
+   ],
+   [
+    144,
+    "ADMIRAL ST @ DOUGLAS AVE",
+    0,
+    2,
+    0
+   ]
+  ],
+  "tax_sale_2026": 67,
+  "tax_sale_2026_owner_occ": 5,
+  "tax_sale_all_three": 9,
+  "cameras": [
+   "Times 2 Academy",
+   "Esek Hopkins Middle School"
+  ]
+ },
+ {
+  "ward": 5,
+  "assessed": 1883715100.0,
+  "exempt": 484211932.48,
+  "full_exempt": 300289300.0,
+  "parcels": 3636,
+  "top_exempt_owners": [
+   [
+    "State of Rhode Island",
+    120316400
+   ],
+   [
+    "Providence Public Buildings Authority",
+    87299800
+   ],
+   [
+    "City of Providence/Children's Friend",
+    27183200
+   ]
+  ],
+  "rent_covered": 1307,
+  "rent_exempt": 516,
+  "crashes": 1637,
+  "injury": 340,
+  "ksi": 10,
+  "ped": 29,
+  "bike": 8,
+  "top_corners": [
+   [
+    133,
+    "ACADEMY AVE @ CHALKSTONE AVE",
+    0,
+    7,
+    0
+   ],
+   [
+    93,
+    "FRUIT HILL AVE @ MANTON AVE",
+    0,
+    1,
+    1
+   ],
+   [
+    59,
+    "ACADEMY AVE @ SMITH ST",
+    0,
+    4,
+    3
+   ]
+  ],
+  "tax_sale_2026": 47,
+  "tax_sale_2026_owner_occ": 7,
+  "tax_sale_all_three": 4,
+  "cameras": [
+   "LaSalle Academy",
+   "Mount Pleasant High School"
+  ]
+ },
+ {
+  "ward": 6,
+  "assessed": 1134603400.0,
+  "exempt": 124771331.60000002,
+  "full_exempt": 91289000.0,
+  "parcels": 2773,
+  "top_exempt_owners": [
+   [
+    "Housing Authority Of The",
+    28560100
+   ],
+   [
+    "Providence Public Buildings Authority",
+    15250200
+   ],
+   [
+    "Church of The Blessed Sacrament",
+    7061600
+   ]
+  ],
+  "rent_covered": 1627,
+  "rent_exempt": 863,
+  "crashes": 2064,
+  "injury": 430,
+  "ksi": 10,
+  "ped": 48,
+  "bike": 6,
+  "top_corners": [
+   [
+    141,
+    "GLENBRIDGE AVE @ MANTON AVE",
+    0,
+    3,
+    0
+   ],
+   [
+    93,
+    "MANTON AVE @ ORTOLEVA DR",
+    0,
+    0,
+    0
+   ],
+   [
+    80,
+    "CHALKSTONE AVE @ FALLON AVE",
+    0,
+    1,
+    0
+   ]
+  ],
+  "tax_sale_2026": 52,
+  "tax_sale_2026_owner_occ": 3,
+  "tax_sale_all_three": 3,
+  "cameras": [
+   "Mount Pleasant Academy"
+  ]
+ },
+ {
+  "ward": 7,
+  "assessed": 1237381800.0,
+  "exempt": 273342228.38,
+  "full_exempt": 242531600.0,
+  "parcels": 2814,
+  "top_exempt_owners": [
+   [
+    "City of Providence",
+    84937300
+   ],
+   [
+    "Housing Authority Of The",
+    54857600
+   ],
+   [
+    "City of Providence/Children's Friend",
+    35671800
+   ]
+  ],
+  "rent_covered": 1240,
+  "rent_exempt": 853,
+  "crashes": 2698,
+  "injury": 550,
+  "ksi": 21,
+  "ped": 49,
+  "bike": 15,
+  "top_corners": [
+   [
+    141,
+    "HARTFORD AVE @ KILLINGLY ST",
+    0,
+    2,
+    0
+   ],
+   [
+    75,
+    "HARTFORD AVE @ LAUREL HILL AVE",
+    1,
+    2,
+    0
+   ],
+   [
+    75,
+    "DUXBURY ST @ PLAINFIELD ST",
+    0,
+    1,
+    0
+   ]
+  ],
+  "tax_sale_2026": 33,
+  "tax_sale_2026_owner_occ": 3,
+  "tax_sale_all_three": 8,
+  "cameras": [
+   "Laurel Hill Annex School"
+  ]
+ },
+ {
+  "ward": 8,
+  "assessed": 1321803000.0,
+  "exempt": 227527768.60000002,
+  "full_exempt": 167227500.0,
+  "parcels": 2861,
+  "top_exempt_owners": [
+   [
+    "Providence Public Buildings Authority",
+    29923300
+   ],
+   [
+    "City of Providence",
+    24936500
+   ],
+   [
+    "Providence Public Bldg Authority",
+    12393700
+   ]
+  ],
+  "rent_covered": 1396,
+  "rent_exempt": 1066,
+  "crashes": 3272,
+  "injury": 737,
+  "ksi": 29,
+  "ped": 72,
+  "bike": 44,
+  "top_corners": [
+   [
+    239,
+    "CRANSTON ST @ HUNTINGTON AVE",
+    3,
+    3,
+    1
+   ],
+   [
+    141,
+    "CRANSTON ST @ MESSER ST",
+    0,
+    3,
+    0
+   ],
+   [
+    133,
+    "CRANSTON ST @ HANOVER ST",
+    2,
+    4,
+    2
+   ]
+  ],
+  "tax_sale_2026": 65,
+  "tax_sale_2026_owner_occ": 7,
+  "tax_sale_all_three": 8,
+  "cameras": [
+   "Alfred Lima Elementary School",
+   "Reservoir Avenue Elementary School",
+   "Children's Friend"
+  ]
+ },
+ {
+  "ward": 9,
+  "assessed": 1267059743.0,
+  "exempt": 361149101.73,
+  "full_exempt": 297804843.0,
+  "parcels": 2037,
+  "top_exempt_owners": [
+   [
+    "City of Providence",
+    164137443
+   ],
+   [
+    "Providence Public Buildings Authority",
+    23257500
+   ],
+   [
+    "RI Public Transit Authority",
+    19528900
+   ]
+  ],
+  "rent_covered": 1357,
+  "rent_exempt": 1027,
+  "crashes": 3223,
+  "injury": 826,
+  "ksi": 29,
+  "ped": 101,
+  "bike": 37,
+  "top_corners": [
+   [
+    123,
+    "ADELAIDE AVE @ ELMWOOD AVE",
+    1,
+    5,
+    2
+   ],
+   [
+    120,
+    "ELMWOOD AVE @ POTTERS AVE",
+    1,
+    11,
+    3
+   ],
+   [
+    106,
+    "CADILLAC DR @ ELMWOOD AVE",
+    0,
+    2,
+    1
+   ]
+  ],
+  "tax_sale_2026": 29,
+  "tax_sale_2026_owner_occ": 3,
+  "tax_sale_all_three": 6,
+  "cameras": []
+ },
+ {
+  "ward": 10,
+  "assessed": 1804924900.0,
+  "exempt": 505292117.95,
+  "full_exempt": 424876300.0,
+  "parcels": 2954,
+  "top_exempt_owners": [
+   [
+    "JOHNSON & WALES",
+    157320200
+   ],
+   [
+    "Providence Public Buildings Authority",
+    66807300
+   ],
+   [
+    "Meeting Street",
+    30118700
+   ]
+  ],
+  "rent_covered": 1294,
+  "rent_exempt": 824,
+  "crashes": 2832,
+  "injury": 672,
+  "ksi": 24,
+  "ped": 51,
+  "bike": 25,
+  "top_corners": [
+   [
+    162,
+    "EDDY ST @ THURBERS AVE",
+    0,
+    0,
+    0
+   ],
+   [
+    69,
+    "ALLENS AVE @ ERNEST ST",
+    1,
+    0,
+    1
+   ],
+   [
+    59,
+    "PRAIRIE AVE @ THURBERS AVE",
+    1,
+    2,
+    1
+   ]
+  ],
+  "tax_sale_2026": 49,
+  "tax_sale_2026_owner_occ": 7,
+  "tax_sale_all_three": 11,
+  "cameras": [
+   "Juanita Sanchez Educational Complex"
+  ]
+ },
+ {
+  "ward": 11,
+  "assessed": 2602945704.0,
+  "exempt": 1721694327.32,
+  "full_exempt": 1466323600.0,
+  "parcels": 2495,
+  "top_exempt_owners": [
+   [
+    "RI HOSPITAL",
+    759787600
+   ],
+   [
+    "Women And Infants Hospital Of Ri",
+    167160600
+   ],
+   [
+    "Providence Public Buildings Authority",
+    99059000
+   ]
+  ],
+  "rent_covered": 1098,
+  "rent_exempt": 565,
+  "crashes": 4122,
+  "injury": 1110,
+  "ksi": 54,
+  "ped": 182,
+  "bike": 58,
+  "top_corners": [
+   [
+    117,
+    "BROAD ST @ ELMWOOD AVE",
+    0,
+    1,
+    1
+   ],
+   [
+    113,
+    "BROAD ST @ PORTLAND ST",
+    3,
+    9,
+    0
+   ],
+   [
+    104,
+    "BRIDGHAM ST @ ELMWOOD AVE",
+    0,
+    1,
+    2
+   ]
+  ],
+  "tax_sale_2026": 50,
+  "tax_sale_2026_owner_occ": 4,
+  "tax_sale_all_three": 8,
+  "cameras": [
+   "Providence Career and Technical Academy",
+   "Providence Career and Technical Academy (Bridgham St)"
+  ]
+ },
+ {
+  "ward": 12,
+  "assessed": 3122296700.0,
+  "exempt": 1571251989.8200002,
+  "full_exempt": 1460131800.0,
+  "parcels": 2618,
+  "top_exempt_owners": [
+   [
+    "Providence Place Group LP",
+    730796600
+   ],
+   [
+    "United States of America",
+    200960800
+   ],
+   [
+    "State of Rhode Island",
+    175240800
+   ]
+  ],
+  "rent_covered": 2544,
+  "rent_exempt": 965,
+  "crashes": 4145,
+  "injury": 972,
+  "ksi": 26,
+  "ped": 105,
+  "bike": 42,
+  "top_corners": [
+   [
+    168,
+    "DEAN ST @ VALLEY ST",
+    0,
+    1,
+    1
+   ],
+   [
+    147,
+    "DEAN ST @ PROMENADE ST",
+    0,
+    0,
+    1
+   ],
+   [
+    145,
+    "ORMS ST @ SMITH ST",
+    1,
+    8,
+    1
+   ]
+  ],
+  "tax_sale_2026": 51,
+  "tax_sale_2026_owner_occ": 1,
+  "tax_sale_all_three": 7,
+  "cameras": [
+   "Paul Cuffee School",
+   "Nathanael Greene Middle School"
+  ]
+ },
+ {
+  "ward": 13,
+  "assessed": 2025915900.0,
+  "exempt": 267548780.12,
+  "full_exempt": 210614100.0,
+  "parcels": 3292,
+  "top_exempt_owners": [
+   [
+    "Providence Redevelopment Agency",
+    49313800
+   ],
+   [
+    "Housing Authority Of The",
+    29782100
+   ],
+   [
+    "City of Providence/Children's Friend",
+    22117900
+   ]
+  ],
+  "rent_covered": 2830,
+  "rent_exempt": 917,
+  "crashes": 3675,
+  "injury": 749,
+  "ksi": 18,
+  "ped": 79,
+  "bike": 34,
+  "top_corners": [
+   [
+    197,
+    "DEAN ST @ KINSLEY AVE",
+    1,
+    1,
+    0
+   ],
+   [
+    112,
+    "ATWELLS AVE @ DEAN ST",
+    2,
+    5,
+    0
+   ],
+   [
+    89,
+    "BROADWAY @ SERVICE RD 7",
+    0,
+    3,
+    0
+   ]
+  ],
+  "tax_sale_2026": 51,
+  "tax_sale_2026_owner_occ": 4,
+  "tax_sale_all_three": 15,
+  "cameras": []
+ },
+ {
+  "ward": 14,
+  "assessed": 1802491500.0,
+  "exempt": 673289951.4399999,
+  "full_exempt": 628901300.0,
+  "parcels": 2837,
+  "top_exempt_owners": [
+   [
+    "Providence College",
+    573675300
+   ],
+   [
+    "Providence Public Buildings Authority",
+    28180800
+   ],
+   [
+    "Board Of Regents For Elementary & Secondary Ed",
+    13975900
+   ]
+  ],
+  "rent_covered": 1798,
+  "rent_exempt": 507,
+  "crashes": 1150,
+  "injury": 240,
+  "ksi": 8,
+  "ped": 25,
+  "bike": 9,
+  "top_corners": [
+   [
+    49,
+    "BRANCH AVE @ VEAZIE ST",
+    0,
+    1,
+    0
+   ],
+   [
+    38,
+    "DOUGLAS AVE @ RIVER AVE",
+    1,
+    4,
+    0
+   ],
+   [
+    34,
+    "ADMIRAL ST @ RIVER AVE",
+    0,
+    3,
+    0
+   ]
+  ],
+  "tax_sale_2026": 46,
+  "tax_sale_2026_owner_occ": 2,
+  "tax_sale_all_three": 2,
+  "cameras": [
+   "RFK Elementary School",
+   "E-Cubed Academy"
+  ]
+ },
+ {
+  "ward": 15,
+  "assessed": 1104095103.0,
+  "exempt": 141772137.71000004,
+  "full_exempt": 63603300.0,
+  "parcels": 2174,
+  "top_exempt_owners": [
+   [
+    "City of Providence/Children's Friend",
+    14065600
+   ],
+   [
+    "Providence Public Buildings Authority",
+    5786500
+   ],
+   [
+    "Housing Authority",
+    4986100
+   ]
+  ],
+  "rent_covered": 1594,
+  "rent_exempt": 987,
+  "crashes": 4034,
+  "injury": 873,
+  "ksi": 31,
+  "ped": 95,
+  "bike": 45,
+  "top_corners": [
+   [
+    223,
+    "BROADWAY @ WESTMINSTER ST",
+    0,
+    0,
+    1
+   ],
+   [
+    218,
+    "STOKES ST @ WESTMINSTER ST",
+    0,
+    3,
+    1
+   ],
+   [
+    214,
+    "BROADWAY @ VALLEY ST",
+    0,
+    4,
+    6
+   ]
+  ],
+  "tax_sale_2026": 36,
+  "tax_sale_2026_owner_occ": 1,
+  "tax_sale_all_three": 5,
+  "cameras": []
+ }
+]
