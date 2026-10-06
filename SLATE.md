@@ -17,7 +17,7 @@ Nothing is scheduled on either publication.
 | **Inside the Line** | elevation, near-tanks table, O&M cost | Corps closure log with reasons (26-326, rolling, ~Oct 2); the 357 correction still owed to ecoRI | Corps; you to Bonnie |
 | **Coming up** | 21 dated items plus further-out items | Council agendas past Oct 1 (posted weekly); the date Brown actually files with CPC (deadline Oct 20) | Refresh every Monday |
 | **PVD311** (pvd311/SCOPE.md) | Scope; Boston as the test bed | All Providence case data | 26-2497/98/99, ~Oct 10. Boston needs one curl on your Mac. |
-| **Crash hotspots** | 26-286 workbooks (Jamie's production); crash_hotspots.py | A production made to you; the bicyclist mode table | 26-373, Oct 21 |
+| **Crash hotspots** | 26-373, produced to you Oct 6 (505,572 crashes, 2015 – Sept 14 2026, with pedestrian and bicyclist counts); crash_hotspots_373.py re-run Oct 6; bike map live at /bike-crashes | Why 2024–25 Providence Police reports look thin; State Police reports lost coordinates after 2016 | Questions for RIDOT |
 | **Zoo** | lease; $7.17M in payments; 12 yrs of USDA inspections | Vicki's answers; APHIS files; PO 574069 backup | Oct 9; open; ~Oct 27 |
 | **WaterFire** | sweeping cost per lighting; PM2.5 through Sept 30 | river sediment, 475 Valley St (26-2293) | Oct 21 |
 | **Heat / code enforcement** | n/a | 26-2304 complaints; Judiciary landlord-tenant filings | Oct 21; early to mid Oct. Promised to Beltran first. |
@@ -43,7 +43,7 @@ Each file's front matter lists what's Claude's (`claude:`) and what's still need
 | new-deal-ii-the-offer (ecoRI) | your two scenes, the potholes paragraph, the ending; the form walk; 26-2497 | October slot |
 | zoo-two-zebras (Eye) | Vicki's answers; the APHIS FOIA; [LAW] is yours | Oct 9 → |
 | pc-29-parcels | 26-2565 (why); a walk on Lucille/Ventura | ~Oct 15 |
-| ten-hotspots | 26-373 re-run; a site look at each corner; the bike/ped gap in the file | Oct 21 → Jan |
+| ten-hotspots | Re-run on 26-373 done Oct 6 (new ten; Broad St as the pedestrian/bike list). Needs: the walk at each corner, Olneyville Square as one or two, City and RIDOT on the record | Walk now → Jan |
 | waterfire-season-itemized | sediment (26-2293); the last lightings' sweeping costs and air | Oct 21 / Nov 7 |
 | brown-endowment-vs-city | Brown's FY2026 report | mid-Oct |
 | winter-bills | the final electric rate; the Nov 1 gas charge | ~Nov 1 |
