@@ -26,7 +26,7 @@ SITE = HERE / "site"
 REC = HERE.parent / "records" / "products" / "off-the-roll"
 CORE = HERE.parent / "records" / "core"
 U = SITE / "off-the-roll" / "data"
-LIVE = False
+LIVE = True
 SHARE = 0.25          # Boston asks a quarter of the tax at full rate
 THRESHOLD = 15_000_000  # of nonprofit institutions holding more than $15 million
 

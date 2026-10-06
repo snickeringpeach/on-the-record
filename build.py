@@ -196,7 +196,8 @@ for r in inc["regimes"]:
 b.append('</table></div><p class="cite">Each row is computed on its own; the rows do not add. The model assumes the levy would not rise to absorb the money.</p>')
 
 b.append('<h2>Next to Boston</h2><p>Boston publishes what each of its colleges and hospitals is asked to pay and what it pays. '
-         '<a href="boston/">Providence and Boston, side by side</a>: cash paid per $1,000 of exempt property, from both cities&#8217; tax rolls.</p>')
+         '<a href="boston/">Providence and Boston, side by side</a>: cash paid per $1,000 of exempt property, from both cities&#8217; tax rolls. '
+         '<a href="terms/">Asked and paid</a>: Providence&#8217;s agreements on Boston&#8217;s terms, institution by institution, and the City&#8217;s 66 tax stabilization agreements.</p>')
 b.append('<h2>Not yet on the record</h2><ul class="open">'
          '<li>Whether Care New England&#8217;s agreement was renewed after 2025, and for how much.</li>'
          '<li>What Brown University Health pays in 2026, a year its agreement schedules no payment.</li>'
@@ -231,6 +232,8 @@ HZ = housing.render(page, e, SITE, DATELINE)
 # ---------------------------------------------------------------- Providence and Boston
 import compare
 CZ = compare.render(page, e, SITE, DATELINE)
+import terms
+terms.render(page, e, SITE, DATELINE)
 import front_door
 FZ = front_door.render(page, e, SITE, DATELINE)
 import rent
