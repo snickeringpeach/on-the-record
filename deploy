@@ -3,7 +3,7 @@
 #  1. sync main with GitHub (rebase; generated site/ conflicts resolve to GitHub's copy, then rebuild)
 #  2. build
 #  3. leave out a folded sibling site (downtown-ledger, inside-the-line, bike-crashes) whose repo has uncommitted site/ edits
-#     or commits not yet on its own GitHub — that work isn't released yet
+#     or (downtown-ledger, which has its own site) commits not yet pushed there — that work isn't released yet
 #  4. commit site/, push as snickeringpeach, switch back to lfreaney
 #  5. if this shell can't push (no GitHub credentials, as in the Cowork shell), write a bundle to
 #     ../.deploy/on-the-record.bundle and exit 3; Claude pushes it from the cloud session.
@@ -29,11 +29,12 @@ fi
 
 python3 build.py | tail -1
 
-for pair in downtown-ledger:downtown-ledger inside-the-line:inside-the-line bike-crashes:ri-bike-crashes; do
-  slug=${pair%%:*}; src=${pair##*:}
+# slug:source:own  — own=1 when the sibling has its own live site (released by its own push); hold it back until that push
+for pair in downtown-ledger:downtown-ledger:1 inside-the-line:inside-the-line:0 bike-crashes:ri-bike-crashes:0; do
+  IFS=: read -r slug src own <<< "$pair"
   why=""
   [ -n "$(git -C ../$src status --porcelain -- site 2>/dev/null)" ] && why="uncommitted changes in ../$src/site"
-  ahead=$(git -C ../$src rev-list --count @{u}..HEAD 2>/dev/null || echo 0)
+  ahead=0; [ "$own" = 1 ] && ahead=$(git -C ../$src rev-list --count @{u}..HEAD 2>/dev/null || echo 0)
   [ "$ahead" != "0" ] && why="../$src is $ahead commit(s) ahead of its own GitHub (not released there yet)"
   if [ -n "$why" ]; then
     git checkout -q -- "site/$slug" 2>/dev/null || true; git clean -qfd "site/$slug" 2>/dev/null || true
