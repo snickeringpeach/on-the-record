@@ -1,0 +1,53 @@
+#!/bin/bash
+# ./deploy ["message"]  (DRY=1 ./deploy builds and commits but does not push) — publish providenceontherecord.org in one step.
+#  1. sync main with GitHub (rebase; generated site/ conflicts resolve to GitHub's copy, then rebuild)
+#  2. build
+#  3. leave out folded sibling sites with uncommitted site/ edits (unreleased work, e.g. downtown-ledger)
+#  4. commit site/, push as snickeringpeach, switch back to lfreaney
+#  5. if this shell can't push (no GitHub credentials, as in the Cowork shell), write a bundle to
+#     ../.deploy/on-the-record.bundle and exit 3; Claude pushes it from the cloud session.
+#  6. check the live front page.
+set -euo pipefail
+cd "$(dirname "$0")"
+MSG="${1:-Build: deploy}"
+ID=(-c user.name=snickeringpeach -c user.email=snickeringpeach@gmail.com)
+
+dirty=$(git status --porcelain | grep -v '^?? drafts/' | grep -v ' site/' || true)
+if [ -n "$dirty" ]; then echo "uncommitted source changes — commit or stash first:"; echo "$dirty"; exit 1; fi
+git checkout -q -- site 2>/dev/null || true; git clean -qfd site 2>/dev/null || true
+
+git fetch -q origin
+if ! git "${ID[@]}" rebase -q origin/main 2>/dev/null; then
+  while git diff --name-only --diff-filter=U | grep -q .; do
+    bad=$(git diff --name-only --diff-filter=U | grep -v '^site/' || true)
+    if [ -n "$bad" ]; then echo "rebase conflict outside site/: $bad"; git rebase --abort; exit 1; fi
+    git checkout --ours -- $(git diff --name-only --diff-filter=U); git add site
+    GIT_EDITOR=true git "${ID[@]}" rebase --continue >/dev/null 2>&1 || true
+  done
+fi
+
+python3 build.py | tail -1
+
+for pair in downtown-ledger:downtown-ledger inside-the-line:inside-the-line bike-crashes:ri-bike-crashes; do
+  slug=${pair%%:*}; src=${pair##*:}
+  if [ -n "$(git -C ../$src status --porcelain -- site 2>/dev/null)" ]; then
+    git checkout -q -- "site/$slug" 2>/dev/null || true; git clean -qfd "site/$slug" 2>/dev/null || true
+    echo "left out $slug: ../$src/site has uncommitted changes"
+  fi
+done
+
+git add site
+git diff --cached --quiet && echo "site unchanged" || git "${ID[@]}" commit -qm "$MSG"
+git log --oneline origin/main..HEAD
+[ -z "$(git log --oneline origin/main..HEAD)" ] && { echo "nothing to push"; exit 0; }
+[ -n "${DRY:-}" ] && { echo "DRY: stopping before push"; exit 0; }
+
+if command -v gh >/dev/null; then gh auth switch -u snickeringpeach >/dev/null 2>&1 || true; fi
+rc=0; GIT_TERMINAL_PROMPT=0 timeout 60 git push -q origin HEAD:main 2>/dev/null || rc=$?
+if command -v gh >/dev/null; then gh auth switch -u lfreaney >/dev/null 2>&1 || true; fi
+if [ $rc -ne 0 ]; then
+  mkdir -p ../.deploy; git bundle create -q ../.deploy/on-the-record.bundle origin/main..main
+  echo "BUNDLE READY ../.deploy/on-the-record.bundle (this shell can't push)"; exit 3
+fi
+sleep 30
+curl -fsS -m 20 "https://providenceontherecord.org/?v=$(date +%s)" -o /dev/null && echo "live" || echo "pushed; live check couldn't reach the site from here"
