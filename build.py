@@ -238,6 +238,8 @@ import front_door
 FZ = front_door.render(page, e, SITE, DATELINE)
 import rent
 RZ = rent.render(page, e, SITE, DATELINE)
+import wards_page
+WZ = wards_page.render(page, e, SITE, DATELINE)
 # Bike crashes: built in ../ri-bike-crashes (pipeline/build_from_373.py), folded below.
 _bk = json.load(open(HERE.parent / "ri-bike-crashes" / "site" / "data" / "crashes.json"))
 _mo = ["January","February","March","April","May","June","July","August","September","October","November","December"]
@@ -255,6 +257,8 @@ items = [("off-the-roll/", "OFF THE ROLL", f'${T["exempt"]/1e9:.1f} billion of P
           f'The State wants {HZ["goal"]:,} over five years. Its count of permits and the Census Bureau&#8217;s disagree by more than two to one.'),
          ("rent-stabilization/", "RENT STABILIZATION · NEW", f'The rent stabilization ordinance would reach roughly {RZ["low"]} to {RZ["high"]} percent of Providence&#8217;s rental homes',
           "Not the fewer than 44 percent the City&#8217;s finance chief told the Council. A parcel-by-parcel count from the City&#8217;s own records."),
+         ("wards/", "BY WARD · NEW", f'Rent stabilization would reach {WZ["hi"]} percent of rental units in Ward {WZ["hi_ward"]} and {WZ["lo"]} percent in Ward {WZ["lo_ward"]}',
+          "Rent coverage, crashes, untaxed property and the tax-sale list, for each of the 15 City Council wards."),
          ("311/", "311 · NEW", f'Providence&#8217;s 311 logged {FZ["web"]:,} of its {FZ["total"]:,} cases this year as &#8220;Web.&#8221; Its New Request button leads to a sign-in screen',
           f'{FZ["guest"]:,} came through the guest form. What PVD311 publishes, what its menu of {FZ["types"]} case types asks, and who files.'),
          ("downtown-ledger/", "DOWNTOWN LEDGER", "What downtown has, what it lacks, and how long the missing takes to arrive",
