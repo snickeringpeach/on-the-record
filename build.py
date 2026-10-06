@@ -233,6 +233,12 @@ import compare
 CZ = compare.render(page, e, SITE, DATELINE)
 import front_door
 FZ = front_door.render(page, e, SITE, DATELINE)
+# Bike crashes: built in ../ri-bike-crashes (pipeline/build_from_373.py), folded below.
+_bk = json.load(open(HERE.parent / "ri-bike-crashes" / "site" / "data" / "crashes.json"))
+_mo = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+BZ = {"n": _bk["meta"]["n"], "y0": _bk["meta"]["first"][:4],
+      "last": f'{_mo[int(_bk["meta"]["last"][5:7]) - 1]} {_bk["meta"]["last"][:4]}',
+      "pvd": _bk["cols"]["town"].count(_bk["dict"]["town"].index("Providence"))}
 
 # ---------------------------------------------------------------- home
 h = ['<main><div class="dateline">PROVIDENCE</div><h1>Providence, on the record</h1>'
@@ -248,6 +254,8 @@ items = [("off-the-roll/", "OFF THE ROLL", f'${T["exempt"]/1e9:.1f} billion of P
           "Workers, storefronts, transit and the walk between them, measured."),
          ("inside-the-line/", "INSIDE THE LINE", "Who the hurricane barrier protects",
           "Elevation, parcels, people and jobs behind the Fox Point barrier, and the water on the other side."),
+         ("bike-crashes/", "BIKE CRASHES · NEW", f'Police reported {BZ["n"]:,} crashes involving a bicycle in Rhode Island from {BZ["y0"]} to {BZ["last"]}; {BZ["pvd"]:,} were in Providence',
+          "Every one RIDOT produced in records request 26-373, mapped, with where they cluster and what the file leaves out."),
          ("coming-up/", "COMING UP", "What is scheduled, with a source for every date", "Hearings, deadlines, elections and agreements that run out, in Providence and at the State House."),
          ("https://providenceontherecord.substack.com", "REPORTING", "The stories", "Reporting built on the documents, on Substack.")]
 for href, kicker, title, deck in items:
@@ -267,24 +275,27 @@ LINK = re.compile(r'(["\'(`])/(?=' + ROOTS + r'\b|#|["\'])')
 STRIP = ('<div style="font:500 13px/18px system-ui,-apple-system,sans-serif;padding:8px 16px;'
          'border-bottom:1px solid rgba(0,0,0,.15);background:#f7f5f0">'
          '<a href="/" style="color:#16181b;text-decoration:none">Providence, on the record</a></div>')
-def fold(slug, old):
-    src, dst, pre = HERE.parent / slug / "site", SITE / slug, f"/{slug}/"
+def fold(slug, old, src_dir=None, body_attr=""):
+    src, dst, pre = HERE.parent / (src_dir or slug) / "site", SITE / slug, f"/{slug}/"
     shutil.copytree(src, dst)
     photos = HERE.parent / slug / "data" / "photos"
     if slug == "downtown-ledger" and photos.exists():
         shutil.copytree(photos, dst / "photos", dirs_exist_ok=True)
     n = 0
     for f in dst.rglob("*"):
-        if f.suffix not in (".html", ".css", ".js"): continue
+        # never rewrite third-party code: in maplibre-gl.js "/" is an operator, not a link
+        if f.suffix not in (".html", ".css", ".js") or "vendor" in f.relative_to(dst).parts: continue
         t = f.read_text()
-        t = t.replace(old + "/", NEW + pre).replace(old, NEW + pre[:-1])
+        if old: t = t.replace(old + "/", NEW + pre).replace(old, NEW + pre[:-1])
         t, k = LINK.subn(lambda m: m.group(1) + pre, t); n += k
         if f.suffix == ".html":
+            if body_attr: t = t.replace("<body>", f"<body {body_attr}>", 1)
             t = re.sub(r"(<body[^>]*>)", lambda m: m.group(1) + STRIP, t, count=1)
         f.write_text(t)
     print(f"folded {slug}: {sum(1 for _ in dst.rglob('*.html'))} pages, {n} links re-pointed")
 fold("downtown-ledger", "https://downtownledger.com")
 fold("inside-the-line", "https://insidetheline.org")
+fold("bike-crashes", None, src_dir="ri-bike-crashes", body_attr='data-town="Providence"')
 
 
 # ---------------------------------------------------------------- coming up
@@ -358,6 +369,7 @@ ab = ['<main><div class="dateline">ABOUT</div><h1>About this site</h1>',
       '<li><a href="../311/">311</a>: what the City&#8217;s service-request system publishes, what its form asks, and who files.</li>',
       '<li><a href="../downtown-ledger/">Downtown Ledger</a>: what downtown Providence has, what it does not, and how long the missing take to arrive.</li>',
       '<li><a href="../inside-the-line/">Inside the Line</a>: the Fox Point Hurricane Barrier and what lies on either side of it.</li>',
+      '<li><a href="../bike-crashes/">Bike crashes</a>: every crash involving a bicycle that police reported to the state since 2015, statewide, opening on Providence.</li>',
       '<li><a href="https://providenceontherecord.substack.com">Reporting</a>: the stories, on Substack.</li></ul>',
       '<h2>Method</h2><p>Every figure on this site comes from a public record, named where it is used. Where a number is a model rather than a record, it is labeled <span class="tag model">MODEL</span>. The data behind each section is published beside it.</p>',
       '<h2>Corrections</h2><p>Corrections go at the top of the page they correct, dated, saying what was wrong and what is right.</p>',
