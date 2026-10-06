@@ -233,6 +233,8 @@ import compare
 CZ = compare.render(page, e, SITE, DATELINE)
 import front_door
 FZ = front_door.render(page, e, SITE, DATELINE)
+import rent
+RZ = rent.render(page, e, SITE, DATELINE)
 # Bike crashes: built in ../ri-bike-crashes (pipeline/build_from_373.py), folded below.
 _bk = json.load(open(HERE.parent / "ri-bike-crashes" / "site" / "data" / "crashes.json"))
 _mo = ["January","February","March","April","May","June","July","August","September","October","November","December"]
@@ -248,6 +250,8 @@ items = [("off-the-roll/", "OFF THE ROLL", f'${T["exempt"]/1e9:.1f} billion of P
           "Colleges, hospitals, government, a mall and 80 owners under tax agreements, set against what they pay the City."),
          ("housing/", "HOUSING · NEW", f'Providence permitted {HZ["doh"]:,} new homes in 2025, or {HZ["census"]:,}, depending on which government count you read',
           f'The State wants {HZ["goal"]:,} over five years. Its count of permits and the Census Bureau&#8217;s disagree by more than two to one.'),
+         ("rent-stabilization/", "RENT STABILIZATION · NEW", f'The rent stabilization ordinance would reach roughly {RZ["low"]} to {RZ["high"]} percent of Providence&#8217;s rental homes',
+          "Not the fewer than 44 percent the City&#8217;s finance chief told the Council. A parcel-by-parcel count from the City&#8217;s own records."),
          ("311/", "311 · NEW", f'Providence&#8217;s 311 logged {FZ["web"]:,} of its {FZ["total"]:,} cases this year as &#8220;Web.&#8221; Its New Request button leads to a sign-in screen',
           f'{FZ["guest"]:,} came through the guest form. What PVD311 publishes, what its menu of {FZ["types"]} case types asks, and who files.'),
          ("downtown-ledger/", "DOWNTOWN LEDGER", "What downtown has, what it lacks, and how long the missing takes to arrive",
@@ -366,6 +370,7 @@ ab = ['<main><div class="dateline">ABOUT</div><h1>About this site</h1>',
       '<h2>Sections</h2><ul>',
       '<li><a href="../off-the-roll/">Off the Roll</a>: property that comes off the tax roll, and what its owners pay instead.</li>',
       '<li><a href="../housing/">Housing</a>: how many homes Providence permits and builds, by every count the government keeps.</li>',
+      '<li><a href="../rent-stabilization/">Rent stabilization</a>: how many of Providence&#8217;s rental homes the ordinance covers, counted parcel by parcel.</li>',
       '<li><a href="../311/">311</a>: what the City&#8217;s service-request system publishes, what its form asks, and who files.</li>',
       '<li><a href="../downtown-ledger/">Downtown Ledger</a>: what downtown Providence has, what it does not, and how long the missing take to arrive.</li>',
       '<li><a href="../inside-the-line/">Inside the Line</a>: the Fox Point Hurricane Barrier and what lies on either side of it.</li>',
