@@ -4,7 +4,8 @@ providenceontherecord.org. Static site; push = deploy (Vercel serves `site/` fro
 Read first: `SLATE.md` (what runs, what's coming, what each project is missing). Common rules: ~/Projects/START.md.
 
 ## Commands
-- `./sync "msg"`: `python3 build.py`, commit, push (as snickeringpeach, then back to lfreaney).
+- `./deploy "msg"`: the way to publish. Syncs with GitHub, builds, holds back unreleased downtown-ledger work, commits site/, pushes. From the Cowork shell (no GitHub credentials) it writes ../.deploy/on-the-record.bundle and exits 3; push that bundle from the cloud session. `DRY=1` stops before the push.
+- `./sync "msg"` (older; prefer ./deploy): `python3 build.py`, commit, push (as snickeringpeach, then back to lfreaney).
 - `python3 housing.py`, `python3 compare.py`: the Housing page and Off the Roll's Providence–Boston page.
 
 ## Rules
