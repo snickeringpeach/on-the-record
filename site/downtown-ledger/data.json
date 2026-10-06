@@ -928,7 +928,7 @@
     "S7g": {
       "title": "WJAR, Paolino raises prospect of Costco at Providence Place (May 1 2026)",
       "url": "https://turnto10.com/news/local/providence-place-mall-costco-wholesale-anchor-store-joe-paolino-properties-pyramid-management-group-rhode-island-may-1-2026",
-      "accessed": "2026-09-03"
+      "accessed": "2026-10-06"
     },
     "S7h": {
       "title": "Brown Daily Herald, What's the latest in the I-195 Redevelopment District? (Nov 2023)",
@@ -978,7 +978,7 @@
     "S12": {
       "title": "RIDOT, Providence Station State of Good Repair Project",
       "url": "https://www.dot.ri.gov/projects/PVDStation/index.php",
-      "accessed": "2026-09-03"
+      "accessed": "2026-10-06"
     },
     "S12b": {
       "title": "Transit Advocates of Massachusetts, RIDOT and Amtrak commence Providence Station project",
@@ -1158,7 +1158,7 @@
     "S28": {
       "title": "RIPTA, Proposed Transit Center",
       "url": "https://www.ripta.com/transitcenter",
-      "accessed": "2026-09-03"
+      "accessed": "2026-10-06"
     },
     "S29": {
       "title": "RIPTA, Transit Center FAQ",
@@ -1178,7 +1178,7 @@
     "S32": {
       "title": "Cushman & Wakefield, Providence MarketBeat reports page",
       "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/providence-marketbeats",
-      "accessed": "2026-09-03"
+      "accessed": "2026-10-06"
     },
     "S33": {
       "title": "GuideStar, Trinity Repertory Company, 201 Washington St",
@@ -1323,7 +1323,7 @@
     "R32": {
       "title": "Providence Preservation Society, South Side residents pushed back against a proposed parking garage (Jun 1 2026)",
       "url": "https://ppsri.org/south-side-residents-pushed-back-against-a-proposed-parking-garage-the-developer-says-theyll-scale-back/",
-      "accessed": "2026-09-03"
+      "accessed": "2026-10-06"
     },
     "R34": {
       "title": "GoLocalProv, Proposed 7-story Brown Health parking garage faces neighborhood opposition (Apr 29 2026)",
@@ -1369,6 +1369,51 @@
       "title": "RIPTA Board of Directors and CEO packet, Aug 20 2026 (PDF)",
       "url": "https://ripta.com/sites/default/files/2026-08/BOD%20and%20CEO%202026%2008%2020.pdf",
       "accessed": "2026-09-28"
+    },
+    "S46": {
+      "title": "ecoRI News, RIPTA Board, Transit Advocates Clash Over Decision to Relocate Bus Hub (Aug 24, 2026)",
+      "url": "https://ecori.org/ripta-board-transit-advocates-clash-over-decision-to-relocate-bus-hub/",
+      "accessed": "2026-10-06"
+    },
+    "H1": {
+      "title": "PBN, Lapham and Trayne buildings begin leasing",
+      "url": "https://pbn.com/lapham-and-trayne-buildings-begin-leasing/",
+      "accessed": "2026-10-06"
+    },
+    "H2": {
+      "title": "PBN, $20M residential renovation of Providence office building completed (June 14, 2023)",
+      "url": "https://pbn.com/20m-residential-renovation-of-providence-office-building-completed/",
+      "accessed": "2026-10-06"
+    },
+    "H3": {
+      "title": "Boston Globe, Historic downtown Providence office building to be converted to housing (Feb 26, 2024)",
+      "url": "https://www.bostonglobe.com/2024/02/26/metro/historic-downtown-providence-office-building-converted-housing",
+      "accessed": "2026-10-06"
+    },
+    "H4": {
+      "title": "Boston Globe, Superman building financing (Aug 21, 2026)",
+      "url": "https://www.bostonglobe.com/2026/08/20/metro/ri-providence-superman-building-financing/",
+      "accessed": "2026-10-06"
+    },
+    "H5": {
+      "title": "Providence Preservation Society, The many faces of the old Providence Journal building (Jan 28, 2026)",
+      "url": "https://ppsri.org/in-photos-the-many-faces-of-the-old-providence-journal-building/",
+      "accessed": "2026-10-06"
+    },
+    "H6": {
+      "title": "RIHPHC, Active state historic tax credit projects (Apr 29, 2026)",
+      "url": "https://rilegislature.gov/Special/rcc/REC202605/04.29.26_Active%20State%20ITC%20Projects_RIHPHC.pdf",
+      "accessed": "2026-10-06"
+    },
+    "H7": {
+      "title": "PBN, Gaspee building to gain apartments, sixth floor (Jul 10, 2019)",
+      "url": "https://pbn.com/gaspee-building-in-providence-to-gain-apartments-sixth-floor/",
+      "accessed": "2026-10-06"
+    },
+    "H8": {
+      "title": "Building Enclosure, Dyer Wharf to begin construction (May 11, 2025)",
+      "url": "https://www.buildingenclosureonline.com/articles/93710-dyer-wharfs-12-story-residential-building-to-begin-construction",
+      "accessed": "2026-10-06"
     }
   },
   "items": [
@@ -1441,7 +1486,7 @@
       },
       "needs": [],
       "years_out": null,
-      "years_out_basis": null,
+      "years_out_basis": "No proposal to put one inside the line is on record (news, City and agency sources searched October 6, 2026). No years out without one.",
       "notes": null,
       "kind": "amenity",
       "status_call": "present",
@@ -1479,7 +1524,7 @@
       },
       "needs": [],
       "years_out": null,
-      "years_out_basis": null,
+      "years_out_basis": "No proposal to put one inside the line is on record (news, City and agency sources searched October 6, 2026). No years out without one.",
       "notes": "Corrected Sept 3: the first pass reported Showcase closing January 2026 and Apple Cinemas as announced; both dates were wrong.",
       "kind": "amenity",
       "status_call": "present",
@@ -1630,7 +1675,7 @@
       },
       "needs": [],
       "years_out": null,
-      "years_out_basis": null,
+      "years_out_basis": "No proposal to put one inside the line is on record (news, City and agency sources searched October 6, 2026). No years out without one.",
       "notes": null,
       "kind": "amenity",
       "status_call": "present",
@@ -1665,7 +1710,7 @@
       },
       "needs": [],
       "years_out": null,
-      "years_out_basis": null,
+      "years_out_basis": "No proposal to put one inside the line is on record (news, City and agency sources searched October 6, 2026). No years out without one.",
       "notes": "Street distance measured Sept 30 2026 on data/geo/walk-network.json (1,839 m, Kennedy Plaza at 2 Exchange Terrace to 593 Eddy St). Entrance point to verify.",
       "kind": "amenity",
       "status_call": "absent",
@@ -1864,7 +1909,7 @@
       },
       "needs": [],
       "years_out": null,
-      "years_out_basis": null,
+      "years_out_basis": "No proposal to put one inside the line is on record (news, City and agency sources searched October 6, 2026). No years out without one.",
       "notes": "Definitive check is Farm Fresh RI's 2026 summer market guide.",
       "kind": "amenity",
       "status_call": "absent",
@@ -2163,11 +2208,19 @@
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "877 housing units in 2020 inside the line (Census PL 94-171). Units built since 2020 need permit data. Context, on other boundaries: 2,096 to 2,831 in earlier downtown cuts, and 3,219 in the City's 'Downtown' neighborhood (2020).",
+      "where": "877 housing units in 2020 inside the line (Census PL 94-171). Since then, about 141 units have opened inside the line, all in converted older buildings: the Lapham and Trayne buildings at 290 Westminster (52, move-in from September 2020), the Studley at 86 Weybosset (65, 2023, 14 deed-restricted) and the Lauderdale at 136-144 Westminster (24, about 2025; opening month not found). That would put the line near 1,018 units, an estimate. The assessor's file (early-2025 extract) shows no new residential construction inside the line since 2020. Not started: the Superman building at 111 Westminster (308 units, start expected 2027, waiting on a federal loan) and the old Providence Journal building at 203 Westminster (115 units, financing unresolved as of January 2026). The Woolworth (185 Westminster, 16) and Gaspee (204 Westminster, 5) conversions are on record but no completion was found. Just outside the line: Dyer Wharf, 200 Dyer St (214 units, approved, end of 2027 targeted). Context, on other boundaries: 2,096 to 2,831 in earlier downtown cuts, and 3,219 in the City's 'Downtown' neighborhood (2020).",
       "place": null,
       "sources": [
         "S18",
-        "S18b"
+        "S18b",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8"
       ],
       "on_list_because": [
         "peer"
@@ -2289,7 +2342,7 @@
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "On August 20, 2026 RIPTA's board voted 6 to 0 to take a new transit center into design, engineering and pricing on a 4.4-acre state-owned parcel facing Francis and Gaspee streets, next to Providence Station and across from Providence Place. Contractor Next Wave Partners. Kennedy Plaza would keep reduced service via the Downtown Transit Connector. The governor's schematic shows 16 bus berths curving along the Francis and Gaspee intersection, west of the station and south of the State House. RIPTA will own the site; it is a tenant at Kennedy Plaza, which the City owns. Next Wave's contract is about $16.9 million. The board packet puts the preliminary estimate at $70 million, not final, against $77 million committed ($46 million in the state transportation plan, a $25 million federal BUILD grant, $6 million state match), and says construction would begin within six months of finishing the design contract. No date is given for finishing it; the design and a cost estimate come back to the board first. RIDOT's station page still says 2026 for the station work next door, with no completion announced as of Sept 28.",
+      "where": "On August 20, 2026 RIPTA's board voted 6 to 0 to take a new transit center into design, engineering and pricing on a 4.4-acre state-owned parcel facing Francis and Gaspee streets, next to Providence Station and across from Providence Place. Contractor Next Wave Partners. Kennedy Plaza would keep reduced service via the Downtown Transit Connector. The governor's schematic shows 16 bus berths curving along the Francis and Gaspee intersection, west of the station and south of the State House. RIPTA will own the site; it is a tenant at Kennedy Plaza, which the City owns. Next Wave's contract is about $16.9 million. The board packet puts the preliminary estimate at $70 million, not final, against $77 million committed ($46 million in the state transportation plan, a $25 million federal BUILD grant, $6 million state match), and says construction would begin within six months of finishing the design contract. No date is given for finishing it; the design and a cost estimate come back to the board first. RIDOT's station page still says 2026 for the station work next door, with no completion announced as of Oct 6. RIPTA's project page, checked Oct 6, gives no date or cost beyond the August 20 vote and says site investigations are under way.",
       "place": null,
       "sources": [
         "S5",
@@ -2357,7 +2410,7 @@
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "State of Good Repair and Capacity Project: construction began fall 2024 on a roughly two-year schedule; every official source gives 2026 for completion, and RIDOT said on March 3, 2026 that the work would be complete this year. No completion announcement found as of September 3, 2026. About $30M: $12.5M FRA grant, $9.75M Amtrak, $7.75M RIDOT. Amtrak owns the station.",
+      "where": "State of Good Repair and Capacity Project: construction began fall 2024 on a roughly two-year schedule; every official source gives 2026 for completion, and RIDOT said on March 3, 2026 that the work would be complete this year. No completion announcement found as of October 6, 2026; RIDOT's project page still gives 2026. About $30M: $12.5M FRA grant, $9.75M Amtrak, $7.75M RIDOT. Amtrak owns the station.",
       "place": null,
       "sources": [
         "S12",
@@ -2453,7 +2506,7 @@
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "New owner Joe Paolino Jr. is publicly courting Costco; he has also said Costco does not normally do malls and he does not want to give false hope. Rhode Island is one of three states without a Costco; the nearest is Sharon, MA.",
+      "where": "New owner Joe Paolino Jr. is publicly courting Costco; he has also said Costco does not normally do malls and he does not want to give false hope. Nothing further on the record as of October 6, 2026. Rhode Island is one of three states without a Costco; the nearest is Sharon, MA.",
       "place": null,
       "sources": [
         "S7f",
@@ -2549,7 +2602,7 @@
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "Brown University Health holds 4,280 surface spaces including off-site, more than 40 acres of it in the hospital district. The City Plan Commission approved its Institutional Master Plan in May 2026: the main entrance moves to Plain Street, a 500-space garage is built, Plain and Dudley reconnect. While the garage is built, the hospital will park on the Victory Plating site in the Jewelry District. Marathon's separate seven-story garage at 140 Prairie Ave is paused after neighborhood opposition, and its 251 Blackstone St building was cut from six stories to four. The March 2025 CNU charrette's 2,000-unit proposal on consolidated lots is a proposal, not a plan of record; the approved plan says nothing about housing.",
+      "where": "Brown University Health holds 4,280 surface spaces including off-site, more than 40 acres of it in the hospital district. The City Plan Commission approved its Institutional Master Plan in May 2026: the main entrance moves to Plain Street, a 500-space garage is built, Plain and Dudley reconnect. While the garage is built, the hospital will park on the Victory Plating site in the Jewelry District. Marathon dropped its separate seven-story garage at 140 Prairie Ave on April 28, 2026 after neighborhood opposition, moving the parking into its 251 Blackstone St building, which was cut from six stories to four; it says 140 Prairie is now for a future residential and parking hybrid. The March 2025 CNU charrette's 2,000-unit proposal on consolidated lots is a proposal, not a plan of record; the approved plan says nothing about housing.",
       "place": null,
       "sources": [
         "S14c",
@@ -2603,12 +2656,13 @@
       "status_basis": "research",
       "verified_by_liam": false,
       "flips_on_boundary": null,
-      "where": "Tied to the RIPTA move: Kennedy Plaza would go from the system's hub to a stop with reduced Downtown Transit Connector service. No standalone plan for the plaza found beyond the transit change. Kennedy Plaza is City-owned; RIPTA is a tenant there. Paolino, who owns 100 Westminster overlooking it and now the mall, has said publicly he wants the buses out.",
+      "where": "Tied to the RIPTA move: Kennedy Plaza would go from the system's hub to a stop with reduced Downtown Transit Connector service. No standalone plan for the plaza found beyond the transit change (checked October 6, 2026). RIPTA's CEO has said riders should still expect bus stops there. Kennedy Plaza is City-owned; RIPTA is a tenant there. Paolino, who owns 100 Westminster overlooking it and now the mall, has said publicly he wants the buses out.",
       "place": null,
       "sources": [
         "S16b",
         "S27",
-        "S29"
+        "S29",
+        "S46"
       ],
       "on_list_because": [
         "city-proposed"
