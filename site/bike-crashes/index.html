@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bicycle crashes in Rhode Island</title>
+<meta name="description" content="Every bicycle crash reported to the Rhode Island Department of Transportation since 2015, mapped, with where they cluster and what the record can and cannot tell you.">
+<link rel="preload" href="fonts/overpass-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-town="Providence"><div style="font:500 13px/18px system-ui,-apple-system,sans-serif;padding:8px 16px;border-bottom:1px solid rgba(0,0,0,.15);background:#f7f5f0"><a href="/" style="color:#16181b;text-decoration:none">Providence, on the record</a></div>
+<div id="preview-banner" class="preview" hidden>
+  Layout preview. These points are not bicycle crashes: they are a sample of crashes RIDOT coded as something other than two moving motor vehicles. The bicycle field comes with records request 26-373.
+</div>
+
+<header class="top">
+  <div class="sign">
+    <h1>Bicycle crashes in Rhode Island</h1>
+    <p class="sign-sub" id="sign-sub">Every crash reported to the state involving a bicycle</p>
+  </div>
+  <p class="lede" id="lede">Loading the state's crash records…</p>
+</header>
+
+<main>
+  <section class="mapwrap" aria-label="Map of crashes">
+    <div id="map" role="region" aria-label="Crash map"></div>
+    <form class="filters" id="filters" aria-label="Filter crashes">
+      <fieldset>
+        <legend>Years</legend>
+        <div class="yearpick">
+          <label>From <select id="y0"></select></label>
+          <label>to <select id="y1"></select></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Worst injury in the crash</legend>
+        <div id="sevpick" class="sevpick"></div>
+      </fieldset>
+      <fieldset>
+        <legend>City or town</legend>
+        <select id="town"><option value="">All of Rhode Island</option></select>
+      </fieldset>
+      <p class="count" id="count" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <section class="block" aria-labelledby="h-years">
+    <h2 id="h-years">By year</h2>
+    <p class="note" id="years-note"></p>
+    <div id="years" class="years"></div>
+  </section>
+
+  <section class="block" aria-labelledby="h-sites">
+    <h2 id="h-sites">Where they cluster</h2>
+    <p class="note">Crashes grouped by the street and cross street the officer wrote on the report, within the filters above. Tap a place to find it on the map.</p>
+    <ol id="sites" class="sites"></ol>
+  </section>
+
+  <section class="block method" id="method" aria-labelledby="h-method">
+    <h2 id="h-method">What this record is</h2>
+    <div class="prose">
+      <p>These are the crash reports Rhode Island police agencies filed with the Department of Transportation, as RIDOT produced them under the state's public-records law after the General Assembly made crash data public in June 2026. They come from records request 26-373, released October 6, 2026: every reported crash from January 2015 through mid-September 2026, with a count of the bicyclists involved in each. A crash is on this map if that count is one or more.</p>
+      <h3>Where the dots are</h3>
+      <p>The map draws each crash at the location RIDOT recorded. For 292 of the 3,016 crashes that location is missing or falls outside Rhode Island; those are counted but not drawn.</p>
+      <h3>Deaths are a floor</h3>
+      <p>Injury severity is coded at the scene and not revised, so someone who dies in the hospital days later can still appear here as a serious injury. Against the federal count of cyclists killed (NHTSA, Fatality Analysis Reporting System), this file matches in 2018, 2019, 2021, 2022 and 2023, records one fatal crash in 2020 where the federal count has two deaths, and two in 2024 where it has five. Read the fatal category as at least this many.</p>
+      <h3>Two versions of the same file</h3>
+      <p>An earlier RIDOT extract, from records request 26-286, held none of these bicycle crashes and runs about 6,000 to 8,000 fewer crashes a year overall than 26-373. The difference is not yet accounted for. This map uses 26-373 only.</p>
+      <h3>What it leaves out</h3>
+      <p>Only crashes police reported are here. Falls, near misses and collisions no one reported are not. The record has no field for bike lanes or other bicycle facilities, so this map cannot say whether a crash happened in one.</p>
+      <p class="byline">Built by Liam Freaney from public records. <span id="built"></span></p>
+    </div>
+  </section>
+</main>
+
+<script src="vendor/maplibre-gl.js"></script>
+<script src="app.js?v=373b"></script>
+</body>
+</html>
