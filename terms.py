@@ -118,6 +118,8 @@ def load():
             a = 443_989; note.append("assessment cell blank in the report; implied by the bill at $35.10")
         if f is None and a is not None:
             f = a * rate / 1000; note.append("the report prints no full-rate column for this agreement; computed at $35.10")
+        if r["address"].startswith("342 Eddy"):
+            note.append("holder as listed by the Internal Auditor; the Mayor's office said Oct. 7, 2026 that 342 Eddy is owned by Narragansett Electric, with about an acre leased to CV SSL Garage LLC, and that Brown owns only the upper level of 350 Eddy, which has no reporting requirement. Asked of the auditor.")
         if ab is None and f is not None and b_ is not None: ab = f - b_
         tsa.append(dict(owner=r["owner_as_reported"], address=r["address"], ordinance=r["ordinance"], assessed=a, full=f, billed=b_,
                         abated=ab, report=r["annual_report"], note="; ".join(note), unconfirmed=False))
