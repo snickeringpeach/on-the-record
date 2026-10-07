@@ -1,0 +1,50 @@
+/* Folded sections (Downtown Ledger, Inside the Line, Bike crashes) in the site's own design.
+   Loaded last on those pages only; the standalone sites keep their own look. */
+:root{--potr-paper:#f7f5f0;--potr-ink:#16181b;--potr-muted:#5c5f66;--potr-rule:#d9d4ca;--potr-harbor:#1f4e6b;--potr-record:#b3261e;
+--potr-serif:"Source Serif 4",Georgia,"Times New Roman",serif;--potr-sans:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+/* site masthead */
+.potr-mast{max-width:1240px;margin:0 auto;padding:20px 40px 14px;border-bottom:1px solid var(--potr-rule)}
+.potr-mast a.name{font:600 24px/30px var(--potr-serif);color:var(--potr-ink);text-decoration:none}
+.potr-mast .tagline{font:500 13px/18px var(--potr-sans);color:var(--potr-muted);margin-top:2px}
+.potr-mast nav{display:flex;flex-wrap:wrap;gap:0 18px;margin-top:10px;font:500 14px/20px var(--potr-sans)}
+.potr-mast nav a{display:inline-block;padding:7px 0;color:var(--potr-harbor);text-decoration:none}
+.potr-mast nav a.on{color:var(--potr-ink);font-weight:700}
+/* page ground, type, links */
+body{background:var(--potr-paper)!important;color:var(--potr-ink);font-family:var(--potr-sans)}
+h1,h2,h3{font-family:var(--potr-serif);font-weight:600;letter-spacing:0;color:var(--potr-ink)}
+main p,.lede,.dek{font-family:var(--potr-serif)}
+a{color:var(--potr-harbor)}a:hover{color:var(--potr-ink)}
+table,th,td,figcaption,.note,.key,.legend,nav,summary,.cite,footer{font-family:var(--potr-sans)}
+footer{color:var(--potr-muted)}
+/* the section's own header becomes a section bar under the masthead */
+header.top,body>header{border-bottom:1px solid var(--potr-rule)!important;background:transparent}
+header.top .in,body>header .bar{padding-top:12px;padding-bottom:6px}
+.brand,header .home{font:700 12px/16px var(--potr-sans)!important;letter-spacing:.06em;text-transform:uppercase;color:var(--potr-record)!important;text-decoration:none}
+.toc,body>header nav{font:500 14px/20px var(--potr-sans)!important;gap:0 18px!important}
+.toc a,body>header nav a{display:inline-block;padding:7px 0;color:var(--potr-harbor);text-decoration:none}
+/* Inside the Line */
+body.potr-itl{--bg:var(--potr-paper);--ink:var(--potr-ink);--mute:var(--potr-muted);--rule:var(--potr-rule);--hair:#e6e1d8;--serif:var(--potr-serif);--sans:var(--potr-sans)}
+.potr-itl h1{font-size:56px;line-height:1.02;font-weight:600}
+.potr-itl h2{font-size:32px;line-height:1.1}
+/* Downtown Ledger */
+body.potr-dl{--paper:var(--potr-paper);--cell:#efece5;--ink:var(--potr-ink);--body:var(--potr-ink);--quiet:var(--potr-muted);--rule:var(--potr-rule);--green:var(--potr-harbor);--red:var(--potr-record)}
+.potr-dl h1{font-size:40px;line-height:1.12}
+.potr-dl h2{font-size:28px;line-height:1.15}
+.potr-dl section{border-top:1px solid var(--potr-rule)}
+.potr-dl footer{border-top:1px solid var(--potr-rule)}
+/* Bike crashes: the road-sign panel gives way to the site's headline */
+body.potr-bk{--concrete:var(--potr-paper);--paper:#fff;--asphalt:var(--potr-ink);--asphalt-2:var(--potr-muted);--rule:var(--potr-rule)}
+.potr-bk .sign{background:none;color:var(--potr-ink);box-shadow:none;border-radius:0;padding:0}
+.potr-bk .sign h1{font-family:var(--potr-serif);font-weight:600;font-size:clamp(32px,5vw,48px);line-height:1.05}
+.potr-bk .sign-sub{font-family:var(--potr-sans);color:var(--potr-muted);opacity:1}
+.potr-bk h2{font-size:28px;font-weight:600}
+@media (min-width:901px){.potr-mast{text-align:center}.potr-mast nav{justify-content:center}}
+@media (max-width:900px){
+.potr-mast{padding:20px 16px 14px}
+.potr-itl h1{font-size:40px}
+}
+@media (max-width:560px){
+.potr-mast a.name{font-size:22px;line-height:28px}
+.potr-itl h1,.potr-dl h1{font-size:30px;line-height:36px}
+.potr-itl h2,.potr-dl h2,.potr-bk h2{font-size:24px;line-height:30px}
+}

@@ -66,6 +66,7 @@ footer{border-top:1px solid var(--rule);margin-top:40px;padding:20px 0 40px;font
 @media (min-width:720px){h1{font-size:44px;line-height:48px}.big{grid-template-columns:repeat(4,minmax(0,1fr))}}
 header.mast .tag{display:block;letter-spacing:0;padding:0}
 nav.sections{gap:0 18px}nav.sections a{display:inline-block;padding:7px 0}
+@media (min-width:900px){header.mast{text-align:center}nav.sections{justify-content:center}}
 th.n{font-family:var(--sans);font-size:13px;white-space:normal}
 .jump{display:flex;flex-wrap:wrap;gap:8px}.jump a{display:inline-block;min-width:40px;padding:8px 0;text-align:center;border:1px solid var(--rule);background:var(--raised);text-decoration:none;font:500 15px/20px var(--sans)}
 td>a:only-child{display:inline-block;padding:4px 0}
@@ -296,6 +297,7 @@ h.append('</div></main>')
 (SITE / "index.html").write_text(page("Providence, on the record",
     "Reporting and public records on the City of Providence, by Liam Freaney.", "", "".join(h)))
 (SITE / "style.css").write_text(CSS)
+shutil.copy(HERE / "fold.css", SITE / "fold.css")
 
 # ---------------------------------------------------------------- folded sections
 # Downtown Ledger and Inside the Line are built in their own folders (../downtown-ledger,
@@ -304,9 +306,17 @@ h.append('</div></main>')
 NEW = "https://providenceontherecord.org"
 ROOTS = r"(?:about|data|fonts|ledger|photos|places|streets|walks|style|og)"
 LINK = re.compile(r'(["\'(`])/(?=' + ROOTS + r'\b|#|["\'])')
-STRIP = ('<div style="font:500 13px/18px system-ui,-apple-system,sans-serif;padding:8px 16px;'
-         'border-bottom:1px solid rgba(0,0,0,.15);background:#f7f5f0">'
-         '<a href="/" style="color:#16181b;text-decoration:none">Providence, on the record</a></div>')
+FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+         '<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto+Mono&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">'
+         '<link rel="stylesheet" href="/fold.css">')
+NAV = [("off-the-roll", "Off the Roll"), ("housing", "Housing"), ("311", "311"), ("downtown-ledger", "Downtown Ledger"),
+       ("inside-the-line", "Inside the Line"), ("coming-up", "Coming up")]
+def mast(slug):
+    links = "".join(f'<a href="/{h}/"' + (' class="on" aria-current="page"' if h == slug else "") + f'>{t}</a>' for h, t in NAV)
+    return ('<div class="potr-mast"><a class="name" href="/">Providence, on the record</a>'
+            '<div class="tagline">Liam Freaney · reporting built on the public record</div>'
+            f'<nav aria-label="Providence, on the record">{links}<a href="https://providenceontherecord.substack.com">Reporting</a><a href="/about/">About</a></nav></div>')
+BODYCLASS = {"downtown-ledger": "potr-dl", "inside-the-line": "potr-itl", "bike-crashes": "potr-bk"}
 def fold(slug, old, src_dir=None, body_attr=""):
     src, dst, pre = HERE.parent / (src_dir or slug) / "site", SITE / slug, f"/{slug}/"
     shutil.copytree(src, dst)
@@ -322,7 +332,8 @@ def fold(slug, old, src_dir=None, body_attr=""):
         t, k = LINK.subn(lambda m: m.group(1) + pre, t); n += k
         if f.suffix == ".html":
             if body_attr: t = t.replace("<body>", f"<body {body_attr}>", 1)
-            t = re.sub(r"(<body[^>]*>)", lambda m: m.group(1) + STRIP, t, count=1)
+            t = t.replace("</head>", FONTS + "</head>", 1)
+            t = re.sub(r"<body([^>]*)>", lambda m: f'<body class="{BODYCLASS[slug]}"{m.group(1)}>' + mast(slug), t, count=1)
         f.write_text(t)
     print(f"folded {slug}: {sum(1 for _ in dst.rglob('*.html'))} pages, {n} links re-pointed")
 fold("downtown-ledger", "https://downtownledger.com")
