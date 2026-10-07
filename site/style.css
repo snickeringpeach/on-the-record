@@ -41,3 +41,23 @@ details{margin:0 0 16px}details summary{font:600 15px/22px var(--sans);color:var
 .cu{display:grid;grid-template-columns:8.5rem 1fr;gap:4px 16px;padding:14px 0;border-top:1px solid var(--rule)}.cu .when{font:500 13px/20px var(--mono);color:var(--muted);padding-top:3px}.cu h3{font:600 18px/25px var(--serif);margin:0}.cu p{margin:4px 0 0;font-size:16px;line-height:25px}.cu .cite{margin-top:4px}.tag.conf{background:#e3efe6;color:#23613b}.tag.likely{background:#f6ecd4;color:#7a5600}.kick{font:700 11px/16px var(--sans);letter-spacing:.06em;color:var(--muted)}@media (max-width:560px){.cu{grid-template-columns:1fr}}
 footer{border-top:1px solid var(--rule);margin-top:40px;padding:20px 0 40px;font:400 13px/20px var(--sans);color:var(--muted)}
 @media (min-width:720px){h1{font-size:44px;line-height:48px}.big{grid-template-columns:repeat(4,minmax(0,1fr))}}
+header.mast .tag{display:block;letter-spacing:0;padding:0}
+nav.sections{gap:0 18px}nav.sections a{display:inline-block;padding:7px 0}
+th.n{font-family:var(--sans);font-size:13px;white-space:normal}
+.jump{display:flex;flex-wrap:wrap;gap:8px}.jump a{display:inline-block;min-width:40px;padding:8px 0;text-align:center;border:1px solid var(--rule);background:var(--raised);text-decoration:none;font:500 15px/20px var(--sans)}
+td>a:only-child{display:inline-block;padding:4px 0}
+.tablewrap.scrolls::before{content:"Swipe the table for more →";display:block;position:sticky;left:0;font:500 12px/16px var(--sans);color:var(--muted);margin:0 0 4px}
+@media (max-width:560px){
+body{font-size:17px;line-height:27px}
+.wrap{padding:0 16px}
+.tablewrap{margin:0 0 16px;padding:0}
+h1{font-size:30px;line-height:36px}.deck{font-size:19px;line-height:27px}
+h2{font-size:22px;line-height:28px;margin-top:32px;padding-top:20px}
+.feed h3{font-size:22px;line-height:28px}
+.big b{font-size:26px;line-height:32px}
+table{font-size:13px;line-height:18px}
+th,td{padding:6px 8px 6px 0}td.n{font-size:12px}
+.tablewrap.scrolls th:first-child,.tablewrap.scrolls td:first-child{position:sticky;left:0;background:var(--paper);z-index:1;box-shadow:6px 0 6px -6px rgba(0,0,0,.25)}
+details summary{padding:10px 0}
+.cite{font-size:12px;line-height:18px;overflow-wrap:anywhere}
+}

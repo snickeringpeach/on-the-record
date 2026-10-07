@@ -87,6 +87,9 @@ footer a{color:inherit}
  .lv{grid-template-columns:minmax(0,1fr) 3em;gap:6px 12px} .lvbars{grid-column:1/-1}
  .staff .lvlname{font-size:14px}
  table{font-size:14px}
+ .two{grid-template-columns:minmax(0,1fr)} .two>*{min-width:0}
+ th,td{padding:9px 6px}
+ .toc a{display:inline-block;padding:6px 0}
 }
 </style></head><body><div style="font:500 13px/18px system-ui,-apple-system,sans-serif;padding:8px 16px;border-bottom:1px solid rgba(0,0,0,.15);background:#f7f5f0"><a href="/" style="color:#16181b;text-decoration:none">Providence, on the record</a></div>
 <header class=top><div class=in><a class=brand href="/inside-the-line/">Inside the Line</a><nav class=toc aria-label="Sections"><a href="#this-week-at-the-gauge">The gauge</a><a href="#providence-parcels-by-ring">Parcels</a><a href="#who-and-what-is-in-each-ring">Who and what</a><a href="#tanks-and-power">Tanks and power</a><a href="#where-the-line-is">Where the line is</a><a href="#water-and-ground-on-one-scale">Water and ground</a><a href="#how-often-the-water-reaches-the-trigger">How often</a><a href="#what-it-costs-to-run">Costs</a></nav></div></header>
@@ -165,6 +168,7 @@ Sources: <a href="https://www.rigis.org/">RIGIS</a> (RIEMA effective flood zones
 Map tiles © Esri; © OpenStreetMap contributors. Type: Source Serif 4 and Public Sans (SIL Open Font License).<br>Liam Freaney, Providence.
 </footer>
 </main>
+<script>for(const t of document.querySelectorAll('main table')){const w=document.createElement('div');w.style.cssText='overflow-x:auto;max-width:100%';t.parentNode.insertBefore(w,t);w.appendChild(t);}</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 const map = L.map('map', {scrollWheelZoom:false}).fitBounds([[41.795,-71.43],[41.834,-71.393]]);
