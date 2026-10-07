@@ -43,6 +43,7 @@ footer{border-top:1px solid var(--rule);margin-top:40px;padding:20px 0 40px;font
 @media (min-width:720px){h1{font-size:44px;line-height:48px}.big{grid-template-columns:repeat(4,minmax(0,1fr))}}
 header.mast .tag{display:block;letter-spacing:0;padding:0}
 nav.sections{gap:0 18px}nav.sections a{display:inline-block;padding:7px 0}
+@media (min-width:900px){header.mast{text-align:center}nav.sections{justify-content:center}}
 th.n{font-family:var(--sans);font-size:13px;white-space:normal}
 .jump{display:flex;flex-wrap:wrap;gap:8px}.jump a{display:inline-block;min-width:40px;padding:8px 0;text-align:center;border:1px solid var(--rule);background:var(--raised);text-decoration:none;font:500 15px/20px var(--sans)}
 td>a:only-child{display:inline-block;padding:4px 0}
