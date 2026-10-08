@@ -1,0 +1,5 @@
+year,customer_charge_per_unit,consumption_per_hcf,bill_at_66_hcf,fixed_share,bill_at_36_hcf,per_hcf_effective_36
+FY2017 (eff. Jul 1 2016),218.8,3.531,451.85,0.484,345.92,9.61
+FY2025,260.87,4.186,537.15,0.486,411.57,11.43
+FY2026,286.04,4.59,588.98,0.486,451.28,12.54
+FY2027,309.87,4.972,638.02,0.486,488.86,13.58
