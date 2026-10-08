@@ -1,34 +1,7 @@
 {
- "as_of": "2026-10-05",
- "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3 and Oct 5, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-10-08",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5 and Oct 8, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
-  {
-   "d": "2026-10-05",
-   "when": "Oct 5, 2 PM",
-   "desk": "pvd",
-   "title": "Board of Contract and Supply: the contract for the next citywide revaluation",
-   "why": "Item #53977: Vision Government Solutions, $2,044,000, for a full revaluation as of Dec 31, 2027.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15735"
-  },
-  {
-   "d": "2026-10-06",
-   "when": "Oct 6, 5:30 PM",
-   "desk": "pvd",
-   "title": "Special Committee on Ways and Means meets",
-   "why": "Agenda not yet posted as of Oct 5.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16163"
-  },
-  {
-   "d": "2026-10-07",
-   "when": "Oct 7, 5:30 PM",
-   "desk": "pvd",
-   "title": "Public Works Committee: resolution opposing Brown's demolition of houses on Brook Street",
-   "why": "Item #53081. Comes six weeks before the City Plan Commission hearing on the economics building.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16162"
-  },
   {
    "d": "2026-10-13",
    "when": "Oct 13, 5:30 PM",
@@ -39,6 +12,15 @@
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16140"
   },
   {
+   "d": "2026-10-13",
+   "when": "Oct 13, 2 PM",
+   "desk": "pvd",
+   "title": "Board of Canvassers meets",
+   "why": "Three weeks before the Nov 3 election. Agenda not yet posted as of Oct 8.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16170"
+  },
+  {
    "d": "2026-10-14",
    "when": "Oct 14",
    "desk": "state",
@@ -46,6 +28,15 @@
    "why": "Runs through Nov 2.",
    "conf": "C",
    "src": "https://vote.sos.ri.gov/Forms/Elections/Guides/2026_ElecCal.pdf"
+  },
+  {
+   "d": "2026-10-14",
+   "when": "Oct 14, 5:30 PM",
+   "desk": "pvd",
+   "title": "School Board Finance Committee meets",
+   "why": "Fiscal 2027 is the first full year the City runs the district's budget. Agenda not yet posted as of Oct 8.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16171"
   },
   {
    "d": "2026-10-15",
@@ -64,6 +55,15 @@
    "why": "The last year at the 1.4 percent federal endowment tax rate; it rises to 4 percent from fiscal 2027.",
    "conf": "L",
    "src": "https://www.browndailyherald.com/article/2025/11/brown-to-face-increased-4-endowment-tax-next-fiscal-year"
+  },
+  {
+   "d": "2026-10-19",
+   "when": "Oct 19, 2 PM",
+   "desk": "pvd",
+   "title": "Board of Contract and Supply meets",
+   "why": "The board that took up the revaluation contract on Oct 5. Agenda not yet posted as of Oct 8.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15736"
   },
   {
    "d": "2026-10-20",
