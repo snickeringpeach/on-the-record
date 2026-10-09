@@ -263,6 +263,8 @@ import rent
 RZ = rent.render(page, e, SITE, DATELINE)
 import sewer
 SZ = sewer.render(page, e, SITE, DATELINE)
+import cliffs
+KZ = cliffs.render(page, e, SITE, DATELINE)
 import wards_page
 WZ = wards_page.render(page, e, SITE, DATELINE)
 # Bike crashes: built in ../ri-bike-crashes (pipeline/build_from_373.py), folded below.
@@ -282,6 +284,8 @@ items = [("off-the-roll/", "OFF THE ROLL", f'${T["exempt"]/1e9:.1f} billion of P
           f'The State wants {HZ["goal"]:,} over five years. Its count of permits and the Census Bureau&#8217;s disagree by more than two to one.'),
          ("rent-stabilization/", "RENT STABILIZATION · NEW", f'The rent stabilization ordinance would reach roughly {RZ["low"]} to {RZ["high"]} percent of Providence&#8217;s rental homes',
           "Not the fewer than 44 percent the City&#8217;s finance chief told the Council. A parcel-by-parcel count from the City&#8217;s own records."),
+         ("cliffs/", "2028 · NEW", "In 2028 the mall&#8217;s tax agreement ends, every assessment resets, and two institutional payments change",
+          "The events that change who pays for Providence, by stage and date, each with its record."),
          ("sewer/", "WHO PAYS · NEW", "Every Providence home pays the Bay Commission $309.87 a year per apartment before using any water",
           "About half the sewer bill goes to debt, much of it for a tunnel now estimated at $1.4 billion. There is no discount for households that can&#8217;t pay."),
          ("wards/", "BY WARD · NEW", f'Rent stabilization would reach {WZ["hi"]} percent of rental units in Ward {WZ["hi_ward"]} and {WZ["lo"]} percent in Ward {WZ["lo_ward"]}',
@@ -415,6 +419,7 @@ ab = ['<main><div class="dateline">ABOUT</div><h1>About this site</h1>',
       '<li><a href="../off-the-roll/">Off the Roll</a>: property that comes off the tax roll, and what its owners pay instead.</li>',
       '<li><a href="../housing/">Housing</a>: how many homes Providence permits and builds, by every count the government keeps.</li>',
       '<li><a href="../rent-stabilization/">Rent stabilization</a>: how many of Providence&#8217;s rental homes the ordinance covers, counted parcel by parcel.</li>',
+      '<li><a href="../cliffs/">2028</a>: the dated events that change who pays for Providence, starting with 2028.</li>',
       '<li><a href="../sewer/">Who pays for the sewer</a>: the Narragansett Bay Commission bill, what it pays for, and who can&#8217;t pay it.</li>',
       '<li><a href="../311/">311</a>: what the City&#8217;s service-request system publishes, what its form asks, and who files.</li>',
       '<li><a href="../downtown-ledger/">Downtown Ledger</a>: what downtown Providence has, what it does not, and how long the missing take to arrive.</li>',
