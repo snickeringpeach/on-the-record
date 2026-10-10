@@ -1,22 +1,22 @@
 {
- "as_of": "2026-10-08",
- "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5 and Oct 8, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-10-10",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8 and Oct 10, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
   {
    "d": "2026-10-13",
    "when": "Oct 13, 5:30 PM",
    "desk": "pvd",
    "title": "Ordinance Committee meets",
-   "why": "",
+   "why": "Four petitions: a billboard-removal incentive in the zoning text and an M-MU to M-1 change with permanent storage containers (both continued from Sept 14), and zone changes at 21 and 25 Douglas Ave (R-4 to C-2) and 1331 Eddy St (R-3 to R-P).",
    "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16140"
+   "src": "https://providenceri.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=13159&Inline=True"
   },
   {
    "d": "2026-10-13",
    "when": "Oct 13, 2 PM",
    "desk": "pvd",
    "title": "Board of Canvassers meets",
-   "why": "Three weeks before the Nov 3 election. Agenda not yet posted as of Oct 8.",
+   "why": "Three weeks before the Nov 3 election. Agenda not yet posted as of Oct 10.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16170"
   },
@@ -34,9 +34,9 @@
    "when": "Oct 14, 5:30 PM",
    "desk": "pvd",
    "title": "School Board Finance Committee meets",
-   "why": "Fiscal 2027 is the first full year the City runs the district's budget. Agenda not yet posted as of Oct 8.",
+   "why": "Fiscal 2027 is the first full year the City runs the district's budget. On the agenda: five administrative contracts and September's purchases between $10,000 and $200,000 not previously approved.",
    "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16171"
+   "src": "https://providenceri.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=13175&Inline=True"
   },
   {
    "d": "2026-10-15",
@@ -61,7 +61,7 @@
    "when": "Oct 19, 2 PM",
    "desk": "pvd",
    "title": "Board of Contract and Supply meets",
-   "why": "The board that took up the revaluation contract on Oct 5. Agenda not yet posted as of Oct 8.",
+   "why": "The board that took up the revaluation contract on Oct 5. Agenda not yet posted as of Oct 10.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15736"
   },
