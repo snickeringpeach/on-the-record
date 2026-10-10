@@ -267,6 +267,8 @@ import cliffs
 KZ = cliffs.render(page, e, SITE, DATELINE)
 import el_nino
 NZ = el_nino.render(page, e, SITE, DATELINE)
+import compared
+PZ = compared.render(page, e, SITE, DATELINE)
 import wards_page
 WZ = wards_page.render(page, e, SITE, DATELINE)
 # Bike crashes: built in ../ri-bike-crashes (pipeline/build_from_373.py), folded below.
