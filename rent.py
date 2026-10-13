@@ -61,6 +61,7 @@ def render(page, e, SITE, DATELINE):
              f'<div><b>{N(lo)}&#8211;{N(hi)}</b><span>more in deed-restricted affordable buildings, also exempt <span class="tag model">MODEL</span></span></div>'
              f'<div><b>{P(p_lo)}&#8211;{P(p_hi)}%</b><span>of rental units covered</span></div></div>')
 
+    b.append('<p><a href="lookup/"><b>Is my building covered? Look up an address &#8594;</b></a></p>')
     b.append('<h2>The count</h2>')
     b.append(f'<p>The City&#8217;s records place {N(tot)} rental units in residential buildings outside the state&#8217;s 8 Law affordable-housing program. The ordinance&#8217;s final text covers {N(cov)} of them, {cov/tot:.1%}. A rental unit here is every unit in a residential building, less one in a building whose owner lives there, since the owner&#8217;s own apartment isn&#8217;t rented.</p>')
     b.append(f'<p>That share leaves out buildings the Assessor taxes under the state&#8217;s affordable-housing rule, known as 8 Law, which the ordinance also exempts as deed-restricted housing. The roll carries 659 such records, but not how many apartments are in them. Counting the units the Assessor&#8217;s database lists for them adds {N(lo)}; counting every low-income tax-credit unit HUD lists in Providence adds {N(hi)}. With them, the covered share falls to between {p_lo:.1%} and {p_hi:.1%}. The true count has been requested from the Assessor; until it arrives, read the figure as roughly 60 to 65 percent.</p>')
@@ -116,4 +117,5 @@ def render(page, e, SITE, DATELINE):
         for r in csv.DictReader(open(RC / "merged_v2.csv")): w.writerow([r[c] for c in cols] + [wards.ward(r["TAX_MAP"]) or ""])
     (out / "index.html").write_text(page("Rent stabilization coverage — Providence, on the record",
         "How many of Providence's rental homes the rent stabilization ordinance covers, counted parcel by parcel.", "../", "".join(b), "rent-stabilization/"))
+    import rent_lookup; rent_lookup.render(page, SITE, DATELINE, _src("2025_Property_Tax_Roll_20260910.csv"))
     return {"low": round(p_lo * 100), "high": round(p_hi * 100), "covered": cov}
