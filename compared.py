@@ -57,6 +57,9 @@ S = {  # sources
     "gao_prepa": ("GAO-26-107772, Dec. 2025: PREPA, $11.1 billion obligated, $2.7 billion disbursed", "https://www.gao.gov/products/gao-26-107772"),
 }
 
+from compared_coast import S as _COAST_S, section as _coast_section  # B407
+S.update(_COAST_S)
+
 
 def render(page, e, SITE, DATELINE):
     n = [0]; used = []
@@ -151,6 +154,8 @@ def render(page, e, SITE, DATELINE):
     b.append('<p class="cite">Per household is our arithmetic, and the denominator is a choice. Providence: occupied households in the 2020 Census blocks inside the barrier&#8217;s levee-credited area, from Inside the Line; the barrier protects more jobs and tax base than homes. Miami Beach: households, 2020&#8211;24. Dare County: households and housing units; the sand protects the units, 54 percent of which are nobody&#8217;s household. The 1966 cost is scaled to today by the consumer price index, about tenfold. Press figures of $400&#8211;600 million for Miami Beach&#8217;s program are not reconciled with the city&#8217;s $103 million and are left out.</p>')
     b.append(f'<p>An island buys cash, not protection. Jamaica&#8217;s parametric insurance and catastrophe bond paid about $242 million within weeks of Hurricane Melissa (2025){c("ccrif", "wb_melissa")}, against damage the World Bank and IDB put at $8.8 billion{c("wb_damage")}: about three cents on the dollar. Puerto Rico after Maria was obligated $35.6 billion in FEMA public assistance, about $22,700 per housing unit [MODEL]{c("openfema_pa")}; its power authority had spent $2.7 billion of $11.1 billion by December 2025{c("gao_prepa")}.</p>')
 
+    b += _coast_section(c)  # B407: up the coast
+
     b.append('<h2>Sources</h2><ol class="cite">')
     for k in used:
         t, u = S[k]; b.append(f'<li id="s{used.index(k)+1}"><a href="{u}">{e(t)}</a></li>')
@@ -159,4 +164,4 @@ def render(page, e, SITE, DATELINE):
     out = SITE / "compared"; out.mkdir(parents=True, exist_ok=True)
     (out / "index.html").write_text(page("Compared — Providence, on the record",
         "Providence's sewer-overflow bill, Rhode Island's dams and the Fox Point barrier, set against New York, Philadelphia, DC, the neighboring states, Miami Beach and the Outer Banks.", "../", "".join(b), "compared/"))
-    return {"rows": len(rows) + len(crows)}
+    return {"rows": len(rows) + len(crows) + 8}
