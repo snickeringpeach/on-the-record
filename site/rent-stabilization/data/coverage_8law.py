@@ -33,7 +33,7 @@ for r in roll:
     seen.add(k); c = cama.get(k)
     low += max(F(x["ResidentialUnits"]) for x in c) if c else 1
 high = sum(F(p["n_units"]) for p in csv.DictReader(open("subsidized/lihtc-providence.csv")))
-print(f"8LAW roll records {len(roll)}, distinct plat-lots {len(seen)}")
+print(f"8LAW roll rows {len(roll)} (the roll repeats some P_IDs), distinct P_IDs {len({r['P_ID'] for r in roll})}, distinct plat-lots {len(seen)}")  # B613: rows vs records made explicit
 print(f"v2 as published: covered {COV:,} of {TOT:,} = {COV/TOT:.1%}")
 for name, add in (("low (CAMA floor)", low), ("high (all Providence LIHTC units)", high)):
     print(f"with 8 Law added as exempt 13-78(i), {name}: +{add:,.0f} units -> covered {COV:,} of {TOT+add:,.0f} = {COV/(TOT+add):.1%}")

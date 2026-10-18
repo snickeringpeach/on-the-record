@@ -1,7 +1,7 @@
 {
  "source": "CAMA extract (early-2025 pull) joined to 2025 tax roll and 2009-2019 permits",
- "parcels": 819,
- "units": 2559,
+ "parcels": 818,
+ "units": 2558,
  "student_units": 222,
  "lodging_set_aside": [
   {
@@ -59,8 +59,8 @@
    "units": 45
   },
   "2016": {
-   "parcels": 51,
-   "units": 114
+   "parcels": 50,
+   "units": 113
   },
   "2017": {
    "parcels": 47,
@@ -109,12 +109,12 @@
    "units": 511
   },
   "tax stabilization agreement": {
-   "parcels": 15,
-   "units": 698
+   "parcels": 14,
+   "units": 697
   }
  },
  "units_by_building_size": {
-  "1": 481,
+  "1": 480,
   "2-4": 648,
   "5-19": 198,
   "20+": 1232
