@@ -1,0 +1,70 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Is my building covered? Rent stabilization lookup — Providence, on the record</title><meta name="description" content="Type a Providence address: does the rent stabilization ordinance&#x27;s final text reach it, from the City&#x27;s own records.">
+<link rel="canonical" href="https://providenceontherecord.org/rent-stabilization/lookup/">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:site_name" content="Providence, on the record"><meta property="og:type" content="website">
+<meta property="og:title" content="Is my building covered? Rent stabilization lookup — Providence, on the record"><meta property="og:description" content="Type a Providence address: does the rent stabilization ordinance&#x27;s final text reach it, from the City&#x27;s own records.">
+<meta property="og:url" content="https://providenceontherecord.org/rent-stabilization/lookup/"><meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto+Mono&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css"></head><body>
+<div class="wrap"><header class="mast"><a class="name" href="../../">Providence, on the record</a>
+<div class="tag">Liam Freaney · reporting built on the public record</div>
+<nav class="sections"><a href="../../off-the-roll/">Off the Roll</a><a href="../../housing/">Housing</a><a href="../../311/">311</a><a href="../../downtown-ledger/">Downtown Ledger</a>
+<a href="../../inside-the-line/">Inside the Line</a><a href="../../coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="../../about/">About</a></nav></header>
+<main><div class="dateline">PROVIDENCE · UPDATED OCT. 1, 2026</div>
+<h1>Is My Building Covered?</h1>
+<p class="deck">Type a Providence street address. The answer applies the rent stabilization ordinance&#8217;s final text to the City&#8217;s own records for that parcel &#8212; the same count behind the finding that the ordinance reaches roughly 60 to 65 percent of the city&#8217;s rental homes.</p>
+<form class="lk" onsubmit="return false"><input id="q" type="search" autocomplete="off" placeholder="e.g. 120 Broad St" aria-label="Street address"></form>
+<div id="out" aria-live="polite"><p class="cite">Loading the City&#8217;s records&#8230;</p></div>
+<h2>What the answer rests on</h2>
+<ul>
+<li>The 2025 property tax roll (City open data, dataset 6ub4-iebe) for the address and the City&#8217;s owner-occupancy code; the Assessor&#8217;s parcel database for unit count and year built; HUD&#8217;s Multifamily database for federal project-based subsidy.</li>
+<li>Owner-occupied buildings of 1 to 4 units are exempt (13-78(n)); so is a small landlord&#8217;s second building of 1 to 4 units, matched on owner name, so that test is approximate.</li>
+<li>New construction: buildings the Assessor dates 2022 or later are treated as exempt (13-78(m)), assuming a 2027 effective date. Year built is the database&#8217;s weakest field.</li>
+<li>Not screened: condominiums the parcel database doesn&#8217;t match, apartments in commercial or mixed-use buildings, and state-subsidized buildings other than 8 Law.</li>
+</ul>
+<p class="cite">This is an estimate for a first look, not a legal determination; the ordinance&#8217;s text and the City decide. <a href="../">The full count</a> &#183; <a href="lookup.json">the data behind this page (JSON)</a>.</p>
+</main>
+<style>
+.lk input{width:100%;font:inherit;font-size:1.1rem;padding:.6rem .7rem;border:1px solid currentColor;border-radius:4px;background:transparent;color:inherit;box-sizing:border-box}
+.hit{border-top:1px solid rgba(127,127,127,.35);padding:.7rem 0}
+.hit b.v{display:inline-block;margin:.15rem 0 .25rem;font-size:1.05rem}
+.hit .why{font-size:.92rem;opacity:.85}
+</style>
+<script>
+(function(){
+var V={
+ C:["Covered","The ordinance&#8217;s rent limits would apply to the rented units in this building."],
+ OO:["Exempt: owner lives here, 1 to 4 units","13-78(n). The City codes this parcel owner-occupied."],
+ SP:["Exempt: small landlord&#8217;s second building","13-78(n). Owner holds no more than two parcels and lives in one (matched by name)."],
+ NC:["Exempt: new construction","13-78(m). The Assessor dates the building 2022 or later."],
+ HUD:["Exempt: federal project-based subsidy","13-78(j). Matched to HUD&#8217;s Multifamily database."],
+ "8L":["Exempt: deed-restricted affordable (8 Law)","13-78(i). Taxed under the state&#8217;s affordable-housing rule."],
+ NM:["Not screened","A residential parcel the Assessor&#8217;s database doesn&#8217;t match, usually a condominium unit. Check the unit count and the ordinance text directly."],
+ X:["Not counted here","The City taxes this parcel as commercial, exempt or vacant. Apartments in a mixed-use building aren&#8217;t screened."]
+};
+function norm(a){a=(a||"").toUpperCase().replace(/[^0-9A-Z ]/g," ");
+ a=a.replace(/\bSTREET\b/g,"ST").replace(/\bAVENUE\b/g,"AVE").replace(/\bROAD\b/g,"RD").replace(/\bPLACE\b/g,"PL").replace(/\bBOULEVARD\b/g,"BLVD").replace(/\bDRIVE\b/g,"DR");
+ return a.replace(/\s+/g," ").trim();}
+var D=null,N=null,q=document.getElementById("q"),out=document.getElementById("out");
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function show(){
+ if(!D)return; var n=norm(q.value);
+ if(n.length<3){out.innerHTML='<p class="cite">Start with the house number.</p>';return;}
+ var h=[];for(var i=0;i<D.length&&h.length<12;i++)if(N[i].indexOf(n)===0)h.push(D[i]);
+ if(!h.length){out.innerHTML='<p>No match on the 2025 roll. Try the house number and street only, without the unit or apartment number.</p>';return;}
+ out.innerHTML=h.map(function(r){var v=V[r[2]]||V.X;var f=[];
+  if(r[6])f.push(esc(r[6]));if(r[3])f.push(esc(r[3])+" unit"+(r[3]=="1"?"":"s")+" on the Assessor&#8217;s record");
+  if(r[4]&&r[4]!="0")f.push("built "+esc(r[4]));if(r[5])f.push("levy code "+esc(r[5]));
+  return '<div class="hit"><div>'+esc(r[0])+' <span class="cite">plat-lot '+esc(r[1])+'</span></div><b class="v">'+v[0]+'</b><div class="why">'+v[1]+(f.length?' '+f.join(" &#183; ")+'.':'')+'</div></div>';}).join("")+(h.length==12?'<p class="cite">More matches; add the house number.</p>':'');
+}
+fetch("lookup.json").then(function(r){return r.json()}).then(function(d){D=d;N=d.map(function(r){return norm(r[0])});
+ out.innerHTML='<p class="cite">'+d.length.toLocaleString()+' Providence addresses loaded.</p>';q.focus();if(q.value)show();})
+ .catch(function(){out.innerHTML='<p>The records didn&#8217;t load. Reload the page.</p>'});
+q.addEventListener("input",show);
+})();
+</script><footer>Every figure on this site comes from a public record, named where it is used. Corrections go at the top of the page they correct, dated.
+Nothing here is opinion. Where a number is a model rather than a record, it is labeled <span class="tag model">MODEL</span>.</footer></div>
+<script>function sw(){for(const t of document.querySelectorAll(".tablewrap"))t.classList.toggle("scrolls",t.scrollWidth>t.clientWidth+1)}sw();addEventListener("resize",sw)</script></body></html>
