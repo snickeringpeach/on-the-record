@@ -49,7 +49,8 @@ git log --oneline origin/main..HEAD
 [ -n "${DRY:-}" ] && { echo "DRY: stopping before push"; exit 0; }
 
 if command -v gh >/dev/null; then gh auth switch -u snickeringpeach >/dev/null 2>&1 || true; fi
-rc=0; GIT_TERMINAL_PROMPT=0 timeout 60 git push -q origin HEAD:main 2>/dev/null || rc=$?
+T=(); command -v timeout >/dev/null && T=(timeout 60); command -v gtimeout >/dev/null && T=(gtimeout 60)  # macOS has no timeout
+rc=0; GIT_TERMINAL_PROMPT=0 "${T[@]}" git push -q origin HEAD:main 2>/dev/null || rc=$?
 if command -v gh >/dev/null; then gh auth switch -u lfreaney >/dev/null 2>&1 || true; fi
 if [ $rc -ne 0 ]; then
   mkdir -p ../.deploy; git bundle create -q ../.deploy/on-the-record.bundle origin/main..main
