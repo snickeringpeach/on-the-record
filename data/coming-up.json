@@ -1,16 +1,7 @@
 {
- "as_of": "2026-10-17",
- "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10 and Oct 17, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-10-19",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17 and Oct 19, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
-  {
-   "d": "2026-10-17",
-   "when": "Mid-October",
-   "desk": "pvd",
-   "title": "Brown reports its fiscal 2026 endowment return",
-   "why": "The last year at the 1.4 percent federal endowment tax rate; it rises to 4 percent from fiscal 2027.",
-   "conf": "L",
-   "src": "https://www.browndailyherald.com/article/2025/11/brown-to-face-increased-4-endowment-tax-next-fiscal-year"
-  },
   {
    "d": "2026-10-19",
    "when": "Oct 19, 2 PM",
@@ -73,6 +64,15 @@
    "why": "Routine reports; executive session on the general manager's performance evaluation.",
    "conf": "C",
    "src": "https://providenceri.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=13186&Inline=True"
+  },
+  {
+   "d": "2026-10-23",
+   "when": "Late October",
+   "desk": "pvd",
+   "title": "Brown reports its fiscal 2026 endowment return",
+   "why": "The last year at the 1.4 percent federal endowment tax rate; it rises to 4 percent from fiscal 2027.",
+   "conf": "L",
+   "src": "https://www.browndailyherald.com/article/2025/11/brown-to-face-increased-4-endowment-tax-next-fiscal-year"
   },
   {
    "d": "2026-10-24",
