@@ -271,6 +271,11 @@ import compared
 PZ = compared.render(page, e, SITE, DATELINE)
 import wards_page
 WZ = wards_page.render(page, e, SITE, DATELINE)
+# Flood: HELD (B694). Built only when flood.RELEASE is True (Liam's 'ship it'), or locally with
+# FLOOD_PREVIEW=1 python3 build.py; ./deploy wipes site/ and rebuilds without it, so a preview never ships.
+import flood, os
+if flood.RELEASE or os.environ.get("FLOOD_PREVIEW"):
+    FLZ = flood.render(page, e, SITE, DATELINE)
 # Bike crashes: built in ../ri-bike-crashes (pipeline/build_from_373.py), folded below.
 _bk = json.load(open(HERE.parent / "ri-bike-crashes" / "site" / "data" / "crashes.json"))
 _mo = ["January","February","March","April","May","June","July","August","September","October","November","December"]
