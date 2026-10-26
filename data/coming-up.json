@@ -1,96 +1,33 @@
 {
- "as_of": "2026-10-19",
- "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17 and Oct 19, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-10-26",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17, Oct 19 and Oct 26, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
   {
-   "d": "2026-10-19",
-   "when": "Oct 19, 2 PM",
+   "d": "2026-10-26",
+   "when": "Oct 26, 4:45 PM",
    "desk": "pvd",
-   "title": "Board of Contract and Supply meets",
-   "why": "On the agenda: a six-year Providence Water filter inspection and maintenance contract up to $20 million to the sole bidder, Water Service Professionals of PA (needs Council approval), and a $120,475 after-the-fact ratification for the 2026 FIFA FanZone's production work, bringing that contract to $870,475.",
+   "title": "Historic District Commission meets",
+   "why": "Agenda not posted as of Oct 26 morning.",
    "conf": "C",
-   "src": "https://providenceri.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=13176&Inline=True"
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15839"
   },
   {
-   "d": "2026-10-20",
-   "when": "Oct 20",
+   "d": "2026-10-27",
+   "when": "Oct 27, 6 PM",
    "desk": "pvd",
-   "title": "City Plan Commission filing deadline for the Nov 17 meeting",
-   "why": "Brown's master plan amendment has to be filed by now to be heard Nov 17.",
+   "title": "Ways and Means: school construction",
+   "why": "Discussion of school construction, financial accountability, project schedules and state reimbursement eligibility. Invited: LeftField Project Management, Downes Construction, Finance, Public Property, the Mayor's chief operating officer and PPSD's acting COO.",
    "conf": "C",
-   "src": "https://www.providenceri.gov/wp-content/uploads/2025/12/CPC-meeting-schedule-2026.pdf"
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16191"
   },
   {
-   "d": "2026-10-20",
-   "when": "Oct 20, 4:45 PM",
-   "desk": "pvd",
-   "title": "City Plan Commission, October meeting",
-   "why": "The same day is the filing deadline for the Nov 17 meeting, when Brown's amendment is expected.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15786"
-  },
-  {
-   "d": "2026-10-20",
-   "when": "Oct 20, 5:30 PM",
-   "desk": "pvd",
-   "title": "Ways and Means: snow and winter readiness",
-   "why": "Council committee hears from the emergency management director and the public works director on snow operations, staffing, equipment and salt before the El Niño winter.",
-   "conf": "C",
-   "src": "https://providenceri.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=13180&Inline=True"
-  },
-  {
-   "d": "2026-10-20",
-   "when": "Oct 20, 5:30 PM",
-   "desk": "pvd",
-   "title": "School Board Policy Committee: school closure policy",
-   "why": "A school closure and facility policy and a school naming policy are up for discussion or action.",
-   "conf": "C",
-   "src": "https://providenceri.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=13185&Inline=True"
-  },
-  {
-   "d": "2026-10-21",
-   "when": "Oct 21, 5:30 PM",
-   "desk": "pvd",
-   "title": "Ways and Means public hearing: four tax stabilization agreements",
-   "why": "Ordinances for TSAs at 256 Broadway, 298 Broadway, 730 Douglas Ave and 239 Oak St. Written testimony is due by 3 PM Oct 20 at council.providenceri.gov/testimony.",
-   "conf": "C",
-   "src": "https://providenceri.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=13179&Inline=True"
-  },
-  {
-   "d": "2026-10-21",
-   "when": "Oct 21, 5:15 PM",
-   "desk": "pvd",
-   "title": "Providence Water Supply Board meets",
-   "why": "Routine reports; executive session on the general manager's performance evaluation.",
-   "conf": "C",
-   "src": "https://providenceri.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=13186&Inline=True"
-  },
-  {
-   "d": "2026-10-23",
+   "d": "2026-10-30",
    "when": "Late October",
    "desk": "pvd",
    "title": "Brown reports its fiscal 2026 endowment return",
    "why": "The last year at the 1.4 percent federal endowment tax rate; it rises to 4 percent from fiscal 2027.",
    "conf": "L",
    "src": "https://www.browndailyherald.com/article/2025/11/brown-to-face-increased-4-endowment-tax-next-fiscal-year"
-  },
-  {
-   "d": "2026-10-24",
-   "when": "Oct 24",
-   "desk": "pvd",
-   "title": "Second-quarter property tax due",
-   "why": "Grace period to Oct 31.",
-   "conf": "C",
-   "src": "https://www.providenceri.gov/finance/tax-collector/"
-  },
-  {
-   "d": "2026-10-26",
-   "when": "Oct 26, 4:45 PM",
-   "desk": "pvd",
-   "title": "Historic District Commission meets",
-   "why": "Agenda not yet posted as of Oct 17.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15839"
   },
   {
    "d": "2026-11-01",
@@ -106,7 +43,7 @@
    "when": "Nov 2, 2 PM",
    "desk": "pvd",
    "title": "Board of Contract and Supply meets",
-   "why": "Agenda not yet posted as of Oct 17.",
+   "why": "Agenda not yet posted as of Oct 26.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15737"
   },
@@ -129,6 +66,15 @@
    "src": "https://www.oceanstatemedia.org/politics/2026-09-29/block-pushes-a-two-way-governors-race-but-guckian-says-hes-not-leaving"
   },
   {
+   "d": "2026-11-05",
+   "when": "Nov 5, 6 PM",
+   "desk": "pvd",
+   "title": "City Council meets, two days after the election",
+   "why": "Agenda not yet posted as of Oct 26.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15700"
+  },
+  {
    "d": "2026-11-07",
    "when": "Nov 7",
    "desk": "pvd",
@@ -136,6 +82,15 @@
    "why": "",
    "conf": "C",
    "src": "https://www.oceanstatemedia.org/arts-entertainment/when-is-waterfire-2026-full-providence-schedule-dates-and-highlights"
+  },
+  {
+   "d": "2026-11-09",
+   "when": "Nov 9, 5:30 PM",
+   "desk": "pvd",
+   "title": "Ordinance Committee public hearing",
+   "why": "Agenda not yet posted as of Oct 26.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16181"
   },
   {
    "d": "2026-11-10",
