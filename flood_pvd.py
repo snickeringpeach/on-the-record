@@ -7,7 +7,7 @@ prose states, so an upstream rerun that moves a number stops the build instead o
 import json, pathlib
 
 P = pathlib.Path(__file__).parent.parent / "datasets" / "derived" / "openfema" / "providence_floods"
-FILES = ["storm_rain.csv", "pvd_summary.json", "b960.json", "b962.json", "b962a.json", "b1034.json",
+FILES = ["storm_rain.csv", "groundwater_storms.csv", "pvd_summary.json", "b960.json", "b962.json", "b962a.json", "b1034.json",
          "pvd_bg.csv", "nfip_claims_bg.csv", "b962a_compare.csv", "renters_bg.csv"]
 
 
@@ -45,6 +45,11 @@ def section(C, M, N, P_):
     assert (max(r["city_peak1"] for r in m10), round(m10[0]["city_basement"])) == (0.44, 507)
     b.append(f'<p>{C("It wasn&#8217;t the hardest rain that did it.")} In September 2023, {s23["city_peak1"]:.2f} inches fell on the city in one hour, the most intense rain of the four storms; {int(s23["city_basement"])} basements flooded. In January 2024 the hardest hour was {j24["city_peak1"]:.2f} inches, but {j24["kpvd_prior30_total"]:.2f} inches had already fallen in the month before; {int(j24["city_basement"])} basements flooded. In March 2010, the wettest month at the airport since at least 1990, rain never passed {max(r["city_peak1"] for r in m10):.2f} inches in an hour, and {round(m10[0]["city_basement"])} basements flooded. {C("The basements follow how wet the ground and the pipes already were, not the cloudburst.")}</p>')
     b.append('<p class="cite">Hourly rain over Providence: Iowa Environmental Mesonet reanalysis (NCEP Stage IV, PRISM-adjusted). Rain before each storm: NOAA daily totals at T.F. Green (KPVD). Four storms is too few to call it settled. <a href="data/storm_rain.csv">storm_rain.csv</a>. (B1399)</p>')
+    g = json.load(open(P / "b1399a.json"))["storms"]
+    gpre = {k: g[k]["mean_pre_pct_high"] for k in ("4753", "4765", "4766")}
+    assert (P_(gpre["4753"]), P_(gpre["4765"]), P_(gpre["4766"]), g["1894c"]["mean_peak_pct_high"]) == ("37%", "80%", "86%", 1.0)
+    b.append(f'<p>The groundwater says the same. Before the September 2023 storm, the water table in the nearest monitored wells sat higher than only {P_(gpre["4753"])} of their records; before December 2023, {P_(gpre["4765"])}; before January 2024, {P_(gpre["4766"])}. The basements rose in that order. At the end of March 2010, all three wells with daily records back that far reached the highest water on record. {C("Ground already full of water is the likeliest way into a basement on a hill.")}</p>')
+    b.append('<p class="cite">USGS NWIS daily depth to water (parameter 72019) at Seekonk MA-SHW 275, Exeter RI-EXW 554, South Kingstown RI-SNW 6 and Norfolk MA-NNW 27R, 12&#8211;39 km from the eighteen; regional aquifers, not Providence&#8217;s own ground. Seekonk&#8217;s daily record starts 2012. <a href="data/groundwater_storms.csv">groundwater_storms.csv</a>. (B1399a)</p>')
     b.append(f'<p>Eighteen of the city&#8217;s 153 block groups flooded in two or three of the storms. Those eighteen hold {c["repeat_bgs_flood"]} of the {int(al["flood"])} flood-damaged households.</p>')
     b.append('<p class="cite">OpenFEMA Individuals and Households Program valid registrations (v2), Providence tracts 0001&#8211;0037, by 2020 census block group; USGS 3DEP elevation at each block group&#8217;s internal point. <a href="data/pvd_bg.csv">pvd_bg.csv</a>, <a href="data/pvd_summary.json">pvd_summary.json</a>. (B951)</p>')
 
