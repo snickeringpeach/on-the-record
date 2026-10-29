@@ -7,7 +7,7 @@ prose states, so an upstream rerun that moves a number stops the build instead o
 import json, pathlib
 
 P = pathlib.Path(__file__).parent.parent / "datasets" / "derived" / "openfema" / "providence_floods"
-FILES = ["pvd_summary.json", "b960.json", "b962.json", "b962a.json", "b1034.json",
+FILES = ["storm_rain.csv", "pvd_summary.json", "b960.json", "b962.json", "b962a.json", "b1034.json",
          "pvd_bg.csv", "nfip_claims_bg.csv", "b962a_compare.csv", "renters_bg.csv"]
 
 
@@ -39,6 +39,12 @@ def section(C, M, N, P_):
     b = ['<h2>Providence: the basements</h2>']
     b.append(f'<p>Providence flooded too, but not the way Kent County did. Three storms brought federal declarations between September 2023 and January 2024 (DR-4753, DR-4765, DR-4766). In the city, {N(int(al["registrants"]))} households registered with FEMA. FEMA recorded flood damage at {int(al["flood"])} of them, and for {int(al["basement"])} of those the water was in the basement.</p>')
     b.append(f'<p>The flooded basements were not by the rivers. Block groups whose center sits 100 feet or more above sea level had {s["by_elevation"]["100+"]["flood_per_1000hh"]:.1f} flood-damaged registrants per 1,000 households; those under 20 feet had {s["by_elevation"]["<20"]["flood_per_1000hh"]:.1f}. {C("Water in a basement on a hill came up through the floor drain or the foundation: the sewer backing up, or groundwater.")}</p>')
+    sr = {r["storm"]: r for r in json.load(open(P / "b1399.json"))["storms"]}
+    s23, j24 = sr["4753"], sr["4766"]; m10 = [sr[k] for k in ("1894a", "1894b", "1894c")]
+    assert (s23["city_peak1"], s23["city_basement"], j24["city_peak1"], j24["kpvd_prior30_total"], j24["city_basement"]) == (1.01, 21.0, 0.89, 7.25, 68.0)
+    assert (max(r["city_peak1"] for r in m10), round(m10[0]["city_basement"])) == (0.44, 507)
+    b.append(f'<p>{C("It wasn&#8217;t the hardest rain that did it.")} In September 2023, {s23["city_peak1"]:.2f} inches fell on the city in one hour, the most intense rain of the four storms; {int(s23["city_basement"])} basements flooded. In January 2024 the hardest hour was {j24["city_peak1"]:.2f} inches, but {j24["kpvd_prior30_total"]:.2f} inches had already fallen in the month before; {int(j24["city_basement"])} basements flooded. In March 2010, the wettest month at the airport since at least 1990, rain never passed {max(r["city_peak1"] for r in m10):.2f} inches in an hour, and {round(m10[0]["city_basement"])} basements flooded. {C("The basements follow how wet the ground and the pipes already were, not the cloudburst.")}</p>')
+    b.append('<p class="cite">Hourly rain over Providence: Iowa Environmental Mesonet reanalysis (NCEP Stage IV, PRISM-adjusted). Rain before each storm: NOAA daily totals at T.F. Green (KPVD). Four storms is too few to call it settled. <a href="data/storm_rain.csv">storm_rain.csv</a>. (B1399)</p>')
     b.append(f'<p>Eighteen of the city&#8217;s 153 block groups flooded in two or three of the storms. Those eighteen hold {c["repeat_bgs_flood"]} of the {int(al["flood"])} flood-damaged households.</p>')
     b.append('<p class="cite">OpenFEMA Individuals and Households Program valid registrations (v2), Providence tracts 0001&#8211;0037, by 2020 census block group; USGS 3DEP elevation at each block group&#8217;s internal point. <a href="data/pvd_bg.csv">pvd_bg.csv</a>, <a href="data/pvd_summary.json">pvd_summary.json</a>. (B951)</p>')
 
