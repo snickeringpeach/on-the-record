@@ -1,5 +1,6 @@
 """Who pays for the next flood. B694, Oct 19 2026, from Liam's draft drafts/flood/flood-page-v1.md (B693).
-Rendered from ../datasets/derived/openfema/kent_2010 (README sections B638, B667, B688-B692).
+Rendered from ../datasets/derived/openfema/kent_2010 (README sections B638, B667, B688-B692);
+the Providence section (B1396) from ../datasets/derived/openfema/providence_floods via flood_pvd.py.
 Called from build.py: flood.render(page, e, SITE, DATELINE) -- ONLY when RELEASE is True, or for a local look
 with FLOOD_PREVIEW=1 python3 build.py (./deploy wipes site/ and rebuilds without it, so a preview never ships).
 
@@ -11,6 +12,7 @@ HELD. RELEASE stays False until Liam says "ship it". Before that:
 render() refuses to build with RELEASE=True while any [C] mark or empty section 5 remains.
 """
 import csv, json, pathlib, shutil
+import flood_pvd
 
 K = pathlib.Path(__file__).parent.parent / "datasets" / "derived" / "openfema" / "kent_2010"
 RELEASE = False
@@ -96,9 +98,10 @@ def render(page, e, SITE, DATELINE):
     b.append(f'<p class="cite">MODEL, from the claims, policies and IHP files above; CPI-U annual averages, 2010 to 2025 ({rp["cpi_2010_to_2025"]}). Every town: <a href="data/replay_by_town.csv">replay_by_town.csv</a>; inputs: <a href="data/replay.json">replay.json</a>.</p>')
     b.append(f'<p>{C("Most of what a repeat of 2010 would cost these households would land on them, not on insurance or FEMA: about nine dollars in ten. They would cover it with an SBA loan if they qualify, and out of pocket if they don&#8217;t.")} This leaves out homes that weren&#8217;t insured in 2010 either, so the real figure is higher.</p>')
 
+    b.append(flood_pvd.section(C, M, N, P))   # B1396: Providence's basement floods (B951/B960/B962/B962a/B1034)
     b.append('<h2>What would change it</h2>')
     b.append(SECTION_5 or '<p class="cmark" style="background:var(--harbor-soft)">[Liam&#8217;s section, not written yet.]</p>')
-    b.append('<h2>Data</h2><p>' + " · ".join(f'<a href="data/{f}">{f}</a>' for f in FILES) + '</p></main>')
+    b.append('<h2>Data</h2><p>' + " · ".join(f'<a href="data/{f}">{f}</a>' for f in FILES + flood_pvd.FILES) + '</p></main>')
 
     body = "".join(b)
     if RELEASE and ("cmark" in body or not SECTION_5):
@@ -109,4 +112,6 @@ def render(page, e, SITE, DATELINE):
         "../", body, "flood/"))
     for f in FILES:
         shutil.copy(K / f, SITE / "flood/data" / f)
+    for f in flood_pvd.FILES:
+        shutil.copy(flood_pvd.P / f, SITE / "flood/data" / f)
     return dict(left=ar["Rhode Island"]["left_to_households"], share=ar["Rhode Island"]["share_left_to_households"])
