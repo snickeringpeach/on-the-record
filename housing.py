@@ -6,7 +6,7 @@ import json, csv, shutil, pathlib
 
 H = pathlib.Path(__file__).parent.parent / "housing" / "data"
 FILES = ["statewide.json", "two-counts-by-town.csv", "census-permits-ri.csv", "state-survey-permits.csv", "permits-new-housing-2009-2019.csv",
-         "built-since-2010.csv", "built-summary.json"]
+         "built-since-2010.csv", "built-summary.json", "pace-2030.csv", "pace-2030-merged.csv"]
 
 def render(page, e, SITE, DATELINE):
     st = json.load(open(H / "statewide.json"))
@@ -43,6 +43,24 @@ def render(page, e, SITE, DATELINE):
     b.append('<h2>The goal</h2>')
     b.append(f'<p>Under Housing 2030, the State&#8217;s housing plan, each city and town is expected to permit new homes equal to a share of its housing each year: 0.4 percent for towns without many jobs or much transit, 0.6 percent for towns with more jobs, and 0.8 percent for places with both. Providence is in the third group. Its goal is {N(pv["goal_2026_2030"])} homes from 2026 through 2030, about {N(pv["goal_per_year"])} a year, of which {N(pv["affordable_goal_2026_2030"])} are to be affordable.</p>')
     b.append('<p class="cite">RI Department of Housing, Housing 2030 municipal growth categories and production goals (housing.ri.gov/media/3401). Providence&#8217;s goal is 0.8 percent of 75,257 homes, times five years.</p>')
+
+    # B901c: 2026 pace, read from ../housing/data/pace-2030*.csv (bps_pace.py + pace_merged.py); no hand-typed figure
+    pace = list(csv.DictReader(open(H / "pace-2030.csv"))); merged = {r["town"]: r for r in csv.DictReader(open(H / "pace-2030-merged.csv"))}
+    pp = next(r for r in pace if r["town"] == "Providence"); mm = int(pp["through_month"])
+    MON = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][mm - 1]
+    s_ytd = sum(int(r["ytd_2026"]) for r in pace); s_goal = sum(float(r["goal_ytd"]) for r in pace)
+    s_base = sum(float(merged[r["town"]]["base_narrow"] or 0) for r in pace)
+    pm = merged["Providence"]
+    b.append('<h2>Is Providence on pace?</h2>')
+    b.append('<div class="big">'
+             f'<div><b>{N(int(pp["ytd_2026"]))}</b><span>new homes permitted in Providence, January&#8211;{MON} 2026, by the City&#8217;s reports to the Census</span></div>'
+             f'<div><b>{float(pp["pace"]):.0%}</b><span>of the goal to date</span></div></div>')
+    b.append(f'<p>The Census Bureau has posted building permits through {MON}. Providence reported {N(int(pp["ytd_2026"]))} new homes in that time, {float(pp["pace"]):.0%} of its goal to date: the five-year goal&#8217;s share for {mm} months, about {N(round(float(pp["goal_ytd"])))} homes. '
+             f'That is about {float(pm["vs_base_narrow"]):.1f} times the City&#8217;s usual January&#8211;{MON} of 2018 through 2025, counting the middle year and setting aside years the City&#8217;s Census reports undercounted. '
+             f'Statewide, the 39 cities and towns reported {N(s_ytd)}, {s_ytd / s_goal:.0%} of their combined goal to date and about {s_ytd / s_base:.1f} times their usual year. '
+             'The multiples move with single large permits: one month with a big apartment building in an earlier year changes what &#8220;usual&#8221; means, so read them as rough.</p>')
+    b.append(f'<p class="cite">Census Bureau Building Permits Survey, year-to-date place files through {MON} 2026 (Northeast region); Housing 2030 goals as above. '
+             'The usual year is the median of 2018&#8211;2025 for the same months, with Census figures replaced or dropped where the State&#8217;s survey shows a town under-reported (code and table: providence-on-the-record housing data, pace-2030.csv and pace-2030-merged.csv).</p>')
 
     b.append('<h2>Two counts of the same permits</h2>')
     b.append(f'<p>Two government surveys count the building permits each city issues for new homes. The Census Bureau&#8217;s Building Permits Survey takes what each city reports, month by month. The State&#8217;s Department of Housing, renamed the Executive Office of Housing in 2025, surveys each city once a year, and its report says it uses that survey because it is &#8220;more accurate than the Census survey.&#8221; For Providence in 2025, the Census count is {N(c25["total"])} homes and the State count is {N(p25["total"])}. Measured against the goal&#8217;s yearly pace, which starts in 2026, the first is {c25["total"]/pv["goal_per_year"]:.0%} of it and the second {p25["total"]/pv["goal_per_year"]:.0%}. In 2024 the two counts were {N(c24["total"])} and {N(pd["permitted_total"])}.</p>')
