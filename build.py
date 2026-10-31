@@ -276,6 +276,10 @@ WZ = wards_page.render(page, e, SITE, DATELINE)
 import flood, os
 if flood.RELEASE or os.environ.get("FLOOD_PREVIEW"):
     FLZ = flood.render(page, e, SITE, DATELINE)
+# Fire response: HELD (B1411b), same rule as flood: FIRE_PREVIEW=1 python3 build.py for a local look.
+import fire_response
+if fire_response.RELEASE or os.environ.get("FIRE_PREVIEW"):
+    FRZ = fire_response.render(page, e, SITE, DATELINE)
 # Bike crashes: built in ../ri-bike-crashes (pipeline/build_from_373.py), folded below.
 _bk = json.load(open(HERE.parent / "ri-bike-crashes" / "site" / "data" / "crashes.json"))
 _mo = ["January","February","March","April","May","June","July","August","September","October","November","December"]
