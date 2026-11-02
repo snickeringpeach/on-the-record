@@ -1,49 +1,13 @@
 {
- "as_of": "2026-10-26",
- "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17, Oct 19 and Oct 26, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-11-02",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17, Oct 19, Oct 26 and Nov 2, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
-  {
-   "d": "2026-10-26",
-   "when": "Oct 26, 4:45 PM",
-   "desk": "pvd",
-   "title": "Historic District Commission meets",
-   "why": "Agenda not posted as of Oct 26 morning.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15839"
-  },
-  {
-   "d": "2026-10-27",
-   "when": "Oct 27, 6 PM",
-   "desk": "pvd",
-   "title": "Ways and Means: school construction",
-   "why": "Discussion of school construction, financial accountability, project schedules and state reimbursement eligibility. Invited: LeftField Project Management, Downes Construction, Finance, Public Property, the Mayor's chief operating officer and PPSD's acting COO.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16191"
-  },
-  {
-   "d": "2026-10-30",
-   "when": "Late October",
-   "desk": "pvd",
-   "title": "Brown reports its fiscal 2026 endowment return",
-   "why": "The last year at the 1.4 percent federal endowment tax rate; it rises to 4 percent from fiscal 2027.",
-   "conf": "L",
-   "src": "https://www.browndailyherald.com/article/2025/11/brown-to-face-increased-4-endowment-tax-next-fiscal-year"
-  },
-  {
-   "d": "2026-11-01",
-   "when": "Nov 1 to Apr 15",
-   "desk": "econ",
-   "title": "Winter utility shutoff protections begin",
-   "why": "Heating customers with balances under $500 are protected; arrears build until spring.",
-   "conf": "C",
-   "src": "https://ripuc.ri.gov/sites/g/files/xkgbur841/files/rulesregs/commrules/810-RICR-10-00-1_Termination.pdf"
-  },
   {
    "d": "2026-11-02",
    "when": "Nov 2, 2 PM",
    "desk": "pvd",
    "title": "Board of Contract and Supply meets",
-   "why": "Agenda not yet posted as of Oct 26.",
+   "why": "Agenda posted: an extension of Project Weber/RENEW's overdose prevention center pilot; an ultrafine-particle air monitor for Ward 4 (QuantAQ); change order #1 on LeftField's Phase 4 school-construction project management; First Due inspections and permitting software for Fire.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15737"
   },
@@ -70,7 +34,7 @@
    "when": "Nov 5, 6 PM",
    "desk": "pvd",
    "title": "City Council meets, two days after the election",
-   "why": "Agenda not yet posted as of Oct 26.",
+   "why": "Agenda not yet posted as of Nov 2.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15700"
   },
@@ -88,7 +52,7 @@
    "when": "Nov 9, 5:30 PM",
    "desk": "pvd",
    "title": "Ordinance Committee public hearing",
-   "why": "Agenda not yet posted as of Oct 26.",
+   "why": "Agenda posted: the billboard text amendment to §2005 (continued from Oct 13) and the M-MU to M-1 rezoning for storage containers.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16181"
   },
@@ -109,6 +73,15 @@
    "why": "Appeals go to the Tax Assessor’s Office in writing; state law sets the window.",
    "conf": "C",
    "src": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-5/44-5-26.htm"
+  },
+  {
+   "d": "2026-11-16",
+   "when": "Nov 16, 2 PM",
+   "desk": "pvd",
+   "title": "Board of Contract and Supply meets",
+   "why": "Agenda not yet posted as of Nov 2.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15738"
   },
   {
    "d": "2026-11-17",
