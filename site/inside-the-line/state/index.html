@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Inside the Line: Rhode Island</title>
+<meta name=description content="Rhode Island's unsafe dams and its flood insurance, town by town, from DEM and FEMA records.">
+<meta property="og:title" content="Inside the Line: Rhode Island">
+<meta property="og:description" content="Rhode Island's unsafe dams and its flood insurance, town by town, from DEM and FEMA records.">
+<link rel=preload href="../fonts/source-serif-4-latin-opsz-normal.woff2" as=font type="font/woff2" crossorigin>
+<link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+@font-face{font-family:"Source Serif 4";src:url(../fonts/source-serif-4-latin-opsz-normal.woff2) format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(../fonts/source-serif-4-latin-opsz-italic.woff2) format("woff2");font-weight:200 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Public Sans";src:url(../fonts/public-sans-latin-wght-normal.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{--ink:#13283A;--mute:#4A5A66;--rule:#C6CFCB;--hair:#DDE3E0;--bg:#F4F6F3;--paper:#FFFFFF;--water:#1F4E6B;--sound:#3B6E8F;
+--ground:#E3D7A8;--wet:#9CC3D8;--in:#2F6F4F;--out:#B3362C;--serif:"Source Serif 4",Georgia,serif;--sans:"Public Sans",system-ui,sans-serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 var(--serif)}
+a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:3px} a:hover{color:var(--sound)}
+:focus-visible{outline:2px solid var(--sound);outline-offset:2px}
+.top{border-bottom:1px solid var(--ink)}
+.top .in{max-width:1240px;margin:0 auto;padding:16px 40px;display:flex;flex-wrap:wrap;gap:8px 28px;align-items:baseline;justify-content:space-between}
+.brand{font:700 17px/1.2 var(--sans);text-decoration:none}
+.toc{display:flex;flex-wrap:wrap;gap:4px 20px;font:15px/1.6 var(--sans)}
+main{max-width:1240px;margin:0 auto;padding:0 40px}
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:64px;padding:56px 0 64px;border-bottom:1px solid var(--rule)}
+.hero .text{display:flex;flex-direction:column;gap:20px;padding-top:8px}
+h1{margin:0;font-size:76px;line-height:.98;font-weight:700;letter-spacing:-.01em}
+.dek{margin:0;font-size:24px;line-height:1.35;max-width:30ch}
+.lede{margin:0;max-width:58ch}
+.gauge{margin-top:8px;padding:14px 18px;border:1px solid var(--ink);background:var(--paper);max-width:480px;font:15px/1.5 var(--sans)}
+.gauge h2{font:700 15px/1.4 var(--sans);margin:0 0 4px}
+.gauge p{margin:0 0 4px} .gauge .note{font-size:13px;margin:6px 0 0}
+figure{margin:0}
+figcaption,.note{font:13px/1.5 var(--sans);color:var(--mute)}
+.staff{width:100%;max-width:500px;height:auto;display:block;font-family:var(--sans)}
+.staff .col{fill:var(--paper);stroke:var(--ink);stroke-width:1}
+.staff .ground{fill:var(--ground)} .staff .water{fill:var(--wet)} .staff .div{stroke:#C9B77C}
+.staff .tick{stroke:var(--ink)} .staff .ax{font-size:11px;fill:var(--mute)}
+.staff .colh{font-size:13px;font-weight:700;fill:var(--ink)}
+.staff .lvl{stroke:var(--sound);stroke-width:1} .staff .lvl.gate{stroke:var(--ink);stroke-width:2}
+.staff .lvlname{font-family:var(--serif);font-style:italic;font-size:15px;fill:var(--water)}
+.staff .lvlft{font-family:var(--sans);font-style:normal;font-size:13px;font-weight:600;fill:var(--ink)}
+section{padding:64px 0;border-bottom:1px solid var(--rule)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:56px}
+.two>.side{display:flex;flex-direction:column;gap:14px}
+h2{font-size:40px;line-height:1.05;font-weight:700;margin:0 0 6px}
+h3{font-size:22px;line-height:1.2;margin:40px 0 6px}
+p{margin:0 0 14px}
+#map{height:62vh;min-height:380px;border:1px solid var(--ink);background:#E9EEEA}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font:13px/1.3 var(--sans);margin:10px 0 0;color:var(--mute)}
+.legend i,.sw{display:inline-block;width:12px;height:12px;margin-right:7px;vertical-align:-1px}
+table{width:100%;border-collapse:collapse;font:15px/1.4 var(--sans);font-variant-numeric:tabular-nums;margin:0 0 12px}
+th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+th:first-child,td:first-child{padding-left:0} th:last-child,td:last-child{padding-right:0}
+thead th{font-weight:700;font-size:14px;color:var(--ink);border-bottom:2px solid var(--ink)}
+.n{text-align:right;white-space:nowrap} .sub{color:var(--mute);font-size:13px;margin-top:2px}
+.key{display:flex;flex-wrap:wrap;gap:6px 22px;font:14px/1.4 var(--sans);margin:4px 0 12px}
+.key i{display:inline-block;width:22px;height:10px;margin-right:8px;vertical-align:0}
+.key i.in,.bar.in span{background:var(--in)} .key i.out,.bar.out span{background:var(--out)}
+.levels{border-top:1px solid var(--hair);margin-bottom:12px}
+.lv{display:grid;grid-template-columns:minmax(0,15em) 3.2em minmax(0,1fr);gap:16px;align-items:center;padding:11px 0;border-bottom:1px solid var(--hair)}
+.lvname{font-style:italic;color:var(--water);font-size:17px;line-height:1.3}
+.lvft{font:600 14px var(--sans);text-align:right;font-variant-numeric:tabular-nums}
+.lvbars{display:flex;flex-direction:column;gap:4px}
+.bar{display:flex;align-items:center;gap:8px;font:13px var(--sans);font-variant-numeric:tabular-nums}
+.bar span{display:block;height:12px} .bar b{font-weight:500}
+.chart svg{width:100%;height:auto;display:block;font-family:var(--sans)}
+.chart .ev{fill:var(--water)} .chart .ev.pre{fill:#8FA3B0}
+.chart .barrier{stroke:var(--ink);stroke-dasharray:3 3} .chart .axis{stroke:var(--ink)}
+.chart .lab{font-size:13px;font-weight:600;fill:var(--ink)} .chart .ax{font-size:12px;fill:var(--mute)}
+.chart .storm{font-family:var(--serif);font-style:italic;font-size:15px;fill:var(--water)}
+details{margin:16px 0;font:15px/1.4 var(--sans)} summary{cursor:pointer;color:var(--ink);text-decoration:underline;text-underline-offset:3px;padding:6px 0}
+td.sub,tr.sub td{color:var(--mute)}
+.proj{max-width:560px}
+footer{padding:36px 0 72px;font:14px/1.6 var(--sans);color:var(--mute);max-width:90ch}
+footer a{color:inherit}
+@media (max-width:900px){
+ .top .in,main{padding-left:16px;padding-right:16px}
+ .hero{grid-template-columns:1fr;gap:32px;padding:28px 0 40px}
+ h1{font-size:46px} .dek{font-size:19px} body{font-size:17px}
+ .two{grid-template-columns:1fr;gap:20px}
+ section{padding:40px 0} h2{font-size:30px}
+ .lv{grid-template-columns:minmax(0,1fr) 3em;gap:6px 12px} .lvbars{grid-column:1/-1}
+ .staff .lvlname{font-size:14px}
+ table{font-size:14px}
+ .two{grid-template-columns:minmax(0,1fr)} .two>*{min-width:0}
+ th,td{padding:9px 6px}
+ .toc a{display:inline-block;padding:6px 0}
+}
+
+.st{display:inline-block;padding:1px 7px;border-radius:2px;color:#fff;font:600 12px/1.5 var(--sans);white-space:nowrap}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:18px 28px;margin:6px 0 22px}
+.fig b{display:block;font:700 34px/1.05 var(--sans);font-variant-numeric:tabular-nums}
+.fig span{display:block;font:14px/1.4 var(--sans);color:var(--mute);margin-top:4px}
+.ctl{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px;font:14px var(--sans)}
+.ctl button{font:inherit;padding:6px 12px;border:1px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer}
+.ctl button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.ramp{display:flex;align-items:center;gap:8px;font:13px var(--sans);color:var(--mute);margin-top:8px}
+.ramp i{display:inline-block;width:150px;height:10px}
+.cite{font:13px/1.5 var(--sans);color:var(--mute)}
+.dated{margin-top:8px;padding:14px 18px;border:1px solid var(--ink);background:var(--paper);max-width:520px;font:15px/1.5 var(--sans)}
+.dated h2{font:700 15px/1.4 var(--sans);margin:0 0 4px}
+.dated p{margin:0 0 6px}
+</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto+Mono&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/fold.css"></head><body class="potr-itl"><div class="potr-mast"><a class="name" href="/">Providence, on the record</a><div class="tagline">Liam Freaney · reporting built on the public record</div><nav aria-label="Providence, on the record"><a href="/off-the-roll/">Off the Roll</a><a href="/housing/">Housing</a><a href="/311/">311</a><a href="/downtown-ledger/">Downtown Ledger</a><a href="/inside-the-line/" class="on" aria-current="page">Inside the Line</a><a href="/coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="/about/">About</a></nav></div>
+<header class=top><div class=in><a class=brand href="../">Inside the Line</a><nav class=toc aria-label="Sections"><a href="../">Providence</a><a href="#map-section">Map</a><a href="#dams">Dams</a><a href="#insurance">Flood insurance</a><a href="#sources">Sources</a></nav></div></header>
+<main>
+<div class=hero>
+<div class=text>
+<h1>Rhode Island</h1>
+<p class=dek>The state's dams and its flood insurance, town by town.</p>
+<p class=lede>DEM inventories 669 dams. It classes 94 as High hazard: a failure would mean "probable loss of human life." At the end of 2024 it listed 30 of those as unsafe. Flood-insurance policies statewide fell from 16,217 in 2010, the year of the March floods, to 11,791 in 2024.</p>
+<div class=dated><h2>Dated note: November 4, 2026</h2>
+<p>NOAA's Climate Prediction Center put the weekly Niño-3.4 reading at +2.5°C on October 26 and gives an 83% chance that October–December 2026 is a historic El Niño (a three-month index of +2.5°C or more).</p>
+<p class=cite>CPC, ENSO Diagnostic Discussion (Oct 8) and weekly update (Oct 26).</p></div>
+</div>
+<div class=figs style="align-content:start">
+<div class=fig><b>30</b><span>High-hazard dams DEM lists as unsafe (p.4)</span></div>
+<div class=fig><b>12</b><span>of those 30 with an unknown owner (p.4)</span></div>
+<div class=fig><b>79</b><span>open unsafe or potentially unsafe findings, all hazard classes (pp.4, 12–28)</span></div>
+<div class=fig><b>2.35</b><span>full-time staff in DEM's dam-safety program (p.37)</span></div>
+<div class=fig><b>~22</b><span>inspections a year the funding covers, against ~63 required (p.35)</span></div>
+<div class=fig><b>1,782</b><span>NFIP claims for losses in 2010, $43.8M paid (OpenFEMA)</span></div>
+</div>
+</div>
+
+<section id=map-section aria-label="Map">
+<div class=ctl role=group aria-label="Shade towns by"><button data-k=change aria-pressed=true>Policies, change 2010–2024</button><button data-k=p2024 aria-pressed=false>Policies, 2024</button><button data-k=c2010 aria-pressed=false>Claims, 2010</button></div>
+<div id=map></div>
+<div class=legend><span><i style="background:#13283A;border-radius:50%"></i>Unsafe, orphan</span><span><i style="background:#5a1a14;border-radius:50%"></i>Unsafe, owner unknown</span><span><i style="background:#b3362c;border-radius:50%"></i>Unsafe</span><span><i style="background:#d98b2b;border-radius:50%"></i>Potentially unsafe</span><span><i style="background:#fff;border:1.5px solid #4A5A66;border-radius:50%"></i>High hazard, no open DEM finding</span></div>
+<div class=ramp id=ramp></div>
+<p class=note>Dams: DEM's 2024 status lists placed at the National Inventory of Dams location; 3 listed dams have no matching NID location and appear only in the table. Towns: NFIP policy terms beginning in each year, by NFIP community.</p>
+</section>
+
+<section class=two id=dams>
+<div class=side><h2>Dams</h2>
+<p class=note>Unsafe, in DEM's words: "an unreasonable risk of failure exists that will result in a probable loss of human life or major economic loss" (p.11). Hazard class is the consequence of a failure, not the dam's condition. The program "no longer has the capacity to perform inspections" (p.35). It did not apply for FEMA's 2024 High Hazard Potential Dams grant "due to lack of staff to apply for and manage the grant" (p.29).</p>
+<p class=note>An orphan is a dam "in which no owner can be identified" (p.27); DEM lists two, both High hazard and unsafe. "Owner unknown" means DEM hasn't identified the owner.</p>
+<p class=note>Five dams DEM listed were resolved in 2024 and are left out: Wyoming Upper and Jordan (work completed), Hughesdale Upper (notice dismissed on appeal), Rawson Pond (the spillway failed) and Shoestring Mill (reclassified to Low).</p></div>
+<div><p>73 dams with an open DEM finding at the end of 2024, 32 of them High hazard. A dam on two lists is shown once, under the more serious.</p>
+<table><thead><tr><th>Town</th><th>Dam</th><th>Hazard</th><th>DEM status</th></tr></thead><tbody><tr><td>South Kingstown</td><td>Hefler Farm Pond<div class=sub>DEM No. 525</div></td><td>High</td><td><span class=st style="background:#13283A">Unsafe, orphan</span></td></tr><tr><td>Warwick</td><td>Grist Mill Pond<div class=sub>DEM No. 764</div></td><td>High</td><td><span class=st style="background:#13283A">Unsafe, orphan</span></td></tr><tr><td>Burrillville</td><td>Wilbur<div class=sub>DEM No. 572 · not on the map: no matching NID location</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Burrillville</td><td>Wilson<div class=sub>DEM No. 003</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Coventry</td><td>Coventry Reservoir<div class=sub>DEM No. 176</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Coventry</td><td>Johnson&#x27;s Pond<div class=sub>DEM No. 167</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Coventry</td><td>Pearce Pond<div class=sub>DEM No. 371</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Cranston</td><td>Cranston Print Works<div class=sub>DEM No. 172</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Cranston</td><td>Curran Lower<div class=sub>DEM No. 198</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Foster</td><td>Spear<div class=sub>DEM No. 349</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Glocester</td><td>Bowdish Lower<div class=sub>DEM No. 727</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Glocester</td><td>Burlingame<div class=sub>DEM No. 018</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Glocester</td><td>Hawkins Pond Dam<div class=sub>DEM No. 555</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Glocester/Smithfield</td><td>Waterman<div class=sub>DEM No. 111</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Johnston</td><td>Almy<div class=sub>DEM No. 169</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Johnston</td><td>Simmons Lower<div class=sub>DEM No. 171</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Johnston</td><td>Simmons Upper<div class=sub>DEM No. 170</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Middletown</td><td>Easton North<div class=sub>DEM No. 584</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Middletown</td><td>Gardiner<div class=sub>DEM No. 583</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Smithfield</td><td>Sprague Lower<div class=sub>DEM No. 121</div></td><td>High</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Burrillville</td><td>Pascoag Upper<div class=sub>DEM No. 016</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Coventry</td><td>Black Rock<div class=sub>DEM No. 185 · not on the map: no matching NID location</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Coventry</td><td>Tiogue<div class=sub>DEM No. 177</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Glocester</td><td>Lake Washington<div class=sub>DEM No. 401</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Lincoln</td><td>Bridlewood Upper End<div class=sub>DEM No. 649</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>North Providence</td><td>Louisquisset<div class=sub>DEM No. 760</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>North Smithfield</td><td>Forestdale<div class=sub>DEM No. 048</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>West Warwick</td><td>Centerville<div class=sub>DEM No. 149</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Woonsocket</td><td>Holley Lane Pond<div class=sub>DEM No. 621</div></td><td>High</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Glocester</td><td>Keech Pond<div class=sub>DEM No. 022</div></td><td>High</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr><tr><td>Johnston</td><td>Oak Swamp Reservoir<div class=sub>DEM No. 168</div></td><td>High</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr><tr><td>Lincoln</td><td>Handy Upper<div class=sub>DEM No. 391</div></td><td>High</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr><tr><td>Burrillville</td><td>Ross<div class=sub>DEM No. 565</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Burrillville</td><td>Sucker<div class=sub>DEM No. 027</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Coventry</td><td>Centre of New England #1<div class=sub>DEM No. 645</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Coventry</td><td>Hopkins Farm<div class=sub>DEM No. 498</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Exeter</td><td>Browning<div class=sub>DEM No. 221</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Exeter</td><td>Edward&#x27;s<div class=sub>DEM No. 238</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Foster</td><td>Gorham. N. Farm Pond<div class=sub>DEM No. 526</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Glocester</td><td>Coomer<div class=sub>DEM No. 354</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Jamestown</td><td>Jamestown Lower<div class=sub>DEM No. 575</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Johnston</td><td>Belknap<div class=sub>DEM No. 127</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Little Compton</td><td>Simmons Pond<div class=sub>DEM No. 474</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Richmond</td><td>Wood River Junction<div class=sub>DEM No. 273</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Smithfield</td><td>Stillwater<div class=sub>DEM No. 109</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Warren</td><td>Warren Upper<div class=sub>DEM No. 480</div></td><td>Significant</td><td><span class=st style="background:#b3362c">Unsafe</span></td></tr><tr><td>Burrillville</td><td>Nichols<div class=sub>DEM No. 051 · not on the map: no matching NID location</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Burrillville</td><td>Spring<div class=sub>DEM No. 039</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Burrillville</td><td>Union Mill<div class=sub>DEM No. 015</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Charlestown</td><td>Cross Mills<div class=sub>DEM No. 758</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Charlestown/Richmond</td><td>Horseshoe Falls Dam<div class=sub>DEM No. 249</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Coventry</td><td>Mill<div class=sub>DEM No. 152</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>East Greenwich</td><td>Gale Farm Pond<div class=sub>DEM No. 432</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Glocester</td><td>Cherry Valley<div class=sub>DEM No. 021</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Glocester</td><td>Mower<div class=sub>DEM No. 029</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Glocester</td><td>Snakeskin<div class=sub>DEM No. 032</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Glocester</td><td>Sucker Brook<div class=sub>DEM No. 381</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Hopkinton</td><td>Ashville<div class=sub>DEM No. 227</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Johnston</td><td>Caesarville<div class=sub>DEM No. 323</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Johnston</td><td>Dexter Farm<div class=sub>DEM No. 504</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Little Compton</td><td>Adamsville<div class=sub>DEM No. 746</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Narragansett</td><td>Sprague<div class=sub>DEM No. 733</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>North Kingstown</td><td>Hamilton<div class=sub>DEM No. 550</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>North Kingstown</td><td>Secret<div class=sub>DEM No. 704</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Scituate</td><td>Hope Dam<div class=sub>DEM No. 160</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Smithfield</td><td>Hawkins<div class=sub>DEM No. 123</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>South Kingstown</td><td>Rocky Brook<div class=sub>DEM No. 579</div></td><td>Significant</td><td><span class=st style="background:#5a1a14">Unsafe, owner unknown</span></td></tr><tr><td>Hopkinton</td><td>Langworthy Pond<div class=sub>DEM No. 285</div></td><td>Significant</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr><tr><td>Hopkinton/Richmond</td><td>Alton<div class=sub>DEM No. 247</div></td><td>Significant</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr><tr><td>Hopkinton/Richmond</td><td>Barberville<div class=sub>DEM No. 215</div></td><td>Significant</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr><tr><td>Scituate</td><td>Jordan Pond<div class=sub>DEM No. 345</div></td><td>Significant</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr><tr><td>Scituate</td><td>Peeptoad<div class=sub>DEM No. 351</div></td><td>Significant</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr><tr><td>Tiverton</td><td>Mill Pond<div class=sub>DEM No. 467</div></td><td>Significant</td><td><span class=st style="background:#d98b2b">Potentially unsafe</span></td></tr></tbody></table></div>
+</section>
+
+<section class=two id=insurance>
+<div class=side><h2>Flood insurance</h2>
+<p class=note>NFIP policy terms beginning in each year, summed by NFIP community, from OpenFEMA's redacted policy file. Claims are NFIP claims with a 2010 date of loss; paid is building, contents and ICC.</p></div>
+<div><div class=figs><div class=fig><b>16,217</b><span>policies, 2010</span></div><div class=fig><b>11,791</b><span>policies, 2024</span></div><div class=fig><b>−27%</b><span>change</span></div></div>
+<table><thead><tr><th>Community</th><th class=n>Policies 2010</th><th class=n>Policies 2024</th><th class=n>Change</th><th class=n>Claims 2010</th><th class=n>Paid 2010</th></tr></thead><tbody><tr><td>Warwick</td><td class=n>1,889</td><td class=n>1,006</td><td class=n>−47%</td><td class=n>339</td><td class=n>$8.49M</td></tr><tr><td>Narragansett</td><td class=n>1,568</td><td class=n>1,214</td><td class=n>−23%</td><td class=n>75</td><td class=n>$0.29M</td></tr><tr><td>Newport</td><td class=n>1,442</td><td class=n>1,194</td><td class=n>−17%</td><td class=n>13</td><td class=n>$0.15M</td></tr><tr><td>Westerly</td><td class=n>1,244</td><td class=n>866</td><td class=n>−30%</td><td class=n>99</td><td class=n>$3.93M</td></tr><tr><td>Barrington</td><td class=n>1,097</td><td class=n>940</td><td class=n>−14%</td><td class=n>191</td><td class=n>$0.71M</td></tr><tr><td>South Kingstown</td><td class=n>1,057</td><td class=n>649</td><td class=n>−39%</td><td class=n>71</td><td class=n>$0.81M</td></tr><tr><td>North Kingstown</td><td class=n>899</td><td class=n>670</td><td class=n>−25%</td><td class=n>85</td><td class=n>$0.64M</td></tr><tr><td>Portsmouth</td><td class=n>872</td><td class=n>536</td><td class=n>−39%</td><td class=n>40</td><td class=n>$0.17M</td></tr><tr><td>Charlestown</td><td class=n>827</td><td class=n>592</td><td class=n>−28%</td><td class=n>57</td><td class=n>$1.19M</td></tr><tr><td>Bristol</td><td class=n>621</td><td class=n>480</td><td class=n>−23%</td><td class=n>74</td><td class=n>$0.59M</td></tr><tr><td>Cranston</td><td class=n>615</td><td class=n>307</td><td class=n>−50%</td><td class=n>231</td><td class=n>$11.64M</td></tr><tr><td>Warren</td><td class=n>477</td><td class=n>384</td><td class=n>−19%</td><td class=n>43</td><td class=n>$0.26M</td></tr><tr><td>Providence</td><td class=n>460</td><td class=n>596</td><td class=n>+30%</td><td class=n>57</td><td class=n>$3.12M</td></tr><tr><td>Lincoln</td><td class=n>409</td><td class=n>228</td><td class=n>−44%</td><td class=n>9</td><td class=n>$0.48M</td></tr><tr><td>East Providence</td><td class=n>343</td><td class=n>201</td><td class=n>−41%</td><td class=n>49</td><td class=n>$0.48M</td></tr><tr><td>North Providence</td><td class=n>223</td><td class=n>71</td><td class=n>−68%</td><td class=n>34</td><td class=n>$0.22M</td></tr><tr><td>West Warwick</td><td class=n>218</td><td class=n>135</td><td class=n>−38%</td><td class=n>74</td><td class=n>$4.92M</td></tr><tr><td>Jamestown</td><td class=n>213</td><td class=n>223</td><td class=n>+5%</td><td class=n>17</td><td class=n>$0.13M</td></tr><tr><td>East Greenwich</td><td class=n>200</td><td class=n>137</td><td class=n>−31%</td><td class=n>29</td><td class=n>$0.15M</td></tr><tr><td>Tiverton</td><td class=n>181</td><td class=n>130</td><td class=n>−28%</td><td class=n>4</td><td class=n>$0.01M</td></tr><tr><td>Middletown</td><td class=n>179</td><td class=n>100</td><td class=n>−44%</td><td class=n>11</td><td class=n>$0.03M</td></tr><tr><td>Woonsocket</td><td class=n>173</td><td class=n>189</td><td class=n>+9%</td><td class=n>2</td><td class=n>$0.03M</td></tr><tr><td>Little Compton</td><td class=n>163</td><td class=n>122</td><td class=n>−25%</td><td class=n>0</td><td class=n>$0.00M</td></tr><tr><td>Smithfield</td><td class=n>162</td><td class=n>137</td><td class=n>−15%</td><td class=n>15</td><td class=n>$0.24M</td></tr><tr><td>Coventry</td><td class=n>124</td><td class=n>136</td><td class=n>+10%</td><td class=n>45</td><td class=n>$1.12M</td></tr><tr><td>Pawtucket</td><td class=n>97</td><td class=n>95</td><td class=n>−2%</td><td class=n>6</td><td class=n>$0.15M</td></tr><tr><td>New Shoreham</td><td class=n>87</td><td class=n>99</td><td class=n>+14%</td><td class=n>1</td><td class=n>$0.01M</td></tr><tr><td>Johnston</td><td class=n>65</td><td class=n>64</td><td class=n>−2%</td><td class=n>23</td><td class=n>$0.95M</td></tr><tr><td>Cumberland</td><td class=n>53</td><td class=n>53</td><td class=n>+0%</td><td class=n>15</td><td class=n>$1.22M</td></tr><tr><td>Burrillville</td><td class=n>52</td><td class=n>39</td><td class=n>−25%</td><td class=n>4</td><td class=n>$0.02M</td></tr><tr><td>North Smithfield</td><td class=n>42</td><td class=n>21</td><td class=n>−50%</td><td class=n>6</td><td class=n>$0.04M</td></tr><tr><td>Glocester</td><td class=n>31</td><td class=n>24</td><td class=n>−23%</td><td class=n>2</td><td class=n>$0.00M</td></tr><tr><td>Richmond</td><td class=n>30</td><td class=n>18</td><td class=n>−40%</td><td class=n>21</td><td class=n>$0.87M</td></tr><tr><td>Hopkinton</td><td class=n>25</td><td class=n>20</td><td class=n>−20%</td><td class=n>9</td><td class=n>$0.13M</td></tr><tr><td>Scituate</td><td class=n>25</td><td class=n>24</td><td class=n>−4%</td><td class=n>16</td><td class=n>$0.55M</td></tr><tr><td>Exeter</td><td class=n>23</td><td class=n>8</td><td class=n>−65%</td><td class=n>5</td><td class=n>$0.04M</td></tr><tr><td>Central Falls</td><td class=n>15</td><td class=n>61</td><td class=n>+307%</td><td class=n>7</td><td class=n>$0.02M</td></tr><tr><td>West Greenwich</td><td class=n>9</td><td class=n>10</td><td class=n>+11%</td><td class=n>2</td><td class=n>$0.01M</td></tr><tr><td>Foster</td><td class=n>7</td><td class=n>11</td><td class=n>+57%</td><td class=n>1</td><td class=n>$0.01M</td></tr><tr><td>Narragansett Indian Tribe</td><td class=n>0</td><td class=n>1</td><td class=n></td><td class=n>0</td><td class=n>$0.00M</td></tr></tbody></table></div>
+</section>
+
+<footer id=sources>
+<p><b>Sources.</b> RI DEM, <a href="https://dem.ri.gov/sites/g/files/xkgbur861/files/2025-05/damrpt24.pdf">2024 Annual Report to the Governor on the Activities of the Dam Safety Program</a> (May 2025); page numbers are the report's. US Army Corps of Engineers, National Inventory of Dams, Rhode Island (locations, hazard class, year completed). FEMA, OpenFEMA NFIP redacted policies (v3) and claims (v3), pulled Oct 18 2026. US Census Bureau town boundaries. NOAA Climate Prediction Center, ENSO Diagnostic Discussion and weekly ENSO update.</p>
+<p>DEM's lists were read from the report's per-dam summaries and tables and placed on the map by town and name; joins that needed a judgment are noted in state_dams.py. NID and DEM disagree in places: NID carries 235 Rhode Island dams to DEM's 669, and its condition ratings are mostly from 2010–11.</p>
+</footer>
+</main>
+<script>for(const t of document.querySelectorAll('main table')){const w=document.createElement('div');w.style.cssText='overflow-x:auto;max-width:100%';t.parentNode.insertBefore(w,t);w.appendChild(t);}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const RI=[[41.15,-71.86],[42.02,-71.12]];
+const map = L.map('map', {scrollWheelZoom:false}).setView([41.6,-71.5], 9);
+function fit(){const s=map.getSize(); if(s.x&&s.y){map.invalidateSize(); map.fitBounds(RI);}}
+fit(); addEventListener('load', fit); new ResizeObserver(()=>map.invalidateSize()).observe(document.getElementById('map'));
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+  {maxZoom:16, attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'}).addTo(map);
+const SCALES = {
+  change: {lab:'Policies, 2010 to 2024', stops:[[-0.5,'#7a2a1e'],[-0.25,'#d98b6b'],[0,'#f4efe4'],[0.25,'#8fb3c7'],[0.5,'#1F4E6B']], fmt:v=>(v>0?'+':'')+Math.round(v*100)+'%'},
+  p2024: {lab:'Policies in 2024', stops:[[0,'#f4efe4'],[300,'#c6d6df'],[1000,'#6f97b1'],[2500,'#1F4E6B']], fmt:v=>v.toLocaleString()},
+  c2010: {lab:'NFIP claims, 2010', stops:[[0,'#f4efe4'],[20,'#c6d6df'],[100,'#6f97b1'],[300,'#1F4E6B']], fmt:v=>v.toLocaleString()}
+};
+function hex(h){return [1,3,5].map(i=>parseInt(h.slice(i,i+2),16))}
+function col(k,v){ if(v==null) return '#e6e6e6'; const s=SCALES[k].stops;
+  if(v<=s[0][0]) return s[0][1]; if(v>=s[s.length-1][0]) return s[s.length-1][1];
+  for(let i=1;i<s.length;i++) if(v<=s[i][0]){const t=(v-s[i-1][0])/(s[i][0]-s[i-1][0]),a=hex(s[i-1][1]),b=hex(s[i][1]);
+    return 'rgb('+a.map((x,j)=>Math.round(x+(b[j]-x)*t)).join(',')+')';} }
+let key='change', towns;
+function ramp(){const s=SCALES[key].stops; document.getElementById('ramp').innerHTML=SCALES[key].lab+': '+SCALES[key].fmt(s[0][0])+
+  ' <i style="background:linear-gradient(90deg,'+s.map(x=>x[1]).join(',')+')"></i> '+SCALES[key].fmt(s[s.length-1][0])+(key=='change'?'':'+');}
+fetch('towns.geojson').then(r=>r.json()).then(g=>{
+  towns=L.geoJSON(g,{style:f=>({color:'#4A5A66',weight:.7,fillColor:col(key,f.properties[key]),fillOpacity:.75}),
+    onEachFeature:(f,l)=>{const p=f.properties; l.bindTooltip('<b>'+p.town+'</b><br>Policies '+p.p2010.toLocaleString()+' (2010) → '+p.p2024.toLocaleString()+' (2024)'+
+      (p.change==null?'':' · '+SCALES.change.fmt(p.change))+'<br>2010 claims: '+p.c2010.toLocaleString()+', $'+(p.paid2010/1e6).toFixed(2)+'M paid',{sticky:true})}}).addTo(map);
+  towns.bringToBack(); ramp();
+});
+document.querySelectorAll('.ctl button').forEach(b=>b.onclick=()=>{key=b.dataset.k;
+  document.querySelectorAll('.ctl button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  towns.setStyle(f=>({fillColor:col(key,f.properties[key])})); ramp();});
+const SC={unsafe_orphan:'#13283A',unsafe:'#b3362c',unsafe_unknown_owner:'#5a1a14',potentially_unsafe:'#d98b2b'};
+fetch('dams.geojson').then(r=>r.json()).then(g=>{
+  g.features.sort((a,b)=>(a.properties.status?1:0)-(b.properties.status?1:0));
+  L.geoJSON(g,{pointToLayer:(f,ll)=>{const s=f.properties.status;
+      return L.circleMarker(ll,s?{radius:f.properties.hazard=='High'?7:5,color:'#fff',weight:1,fillColor:SC[s],fillOpacity:1}
+                               :{radius:4,color:'#4A5A66',weight:1.5,fillColor:'#fff',fillOpacity:1})},
+    onEachFeature:(f,l)=>{const p=f.properties; l.bindTooltip('<b>'+p.name+'</b>, '+(p.town||'')+'<br>'+p.hazard+' hazard · '+p.label+
+      (p.dem_no?' (DEM No. '+p.dem_no+')':'')+(p.year&&p.year!='0'?'<br>Completed '+p.year:''),{sticky:true})}}).addTo(map);
+});
+</script>
+</body></html>
