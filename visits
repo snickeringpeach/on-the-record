@@ -1,0 +1,118 @@
+#!/usr/bin/env python3
+"""./visits [YYYY-MM-DD] — Providence, on the record: page views by section for one day
+(default yesterday, New York time), against the 7 days before it.
+
+Reads Vercel Web Analytics through the dashboard's own data calls, made inside a
+signed-in vercel.com tab in Chrome (the public query API isn't open on the Hobby
+plan). If no vercel.com tab is open it opens the analytics page in a new tab.
+Prints a plain-text report; the first line is the email subject.
+"""
+import datetime as dt
+import json
+import subprocess
+import sys
+import tempfile
+import time
+import urllib.parse
+from collections import defaultdict
+from zoneinfo import ZoneInfo
+
+NY = ZoneInfo("America/New_York")
+TEAM = "team_AlJASWXbcqnRi79MUDz46qiP"
+PAGE = "https://vercel.com/snickeringpeachs-projects/on-the-record/analytics"
+NAMES = {"": "Front page"}
+
+
+def osa(*lines):
+    r = subprocess.run(["osascript"] + sum([["-e", l] for l in lines], []),
+                       capture_output=True, text=True, timeout=60)
+    return r.stdout.strip()
+
+
+def vercel_tab():
+    find = ('tell application "Google Chrome"\n'
+            'repeat with w in windows\nrepeat with t in tabs of w\n'
+            'if URL of t starts with "https://vercel.com/" then return id of t\n'
+            'end repeat\nend repeat\nreturn ""\nend tell')
+    tid = osa(find)
+    if tid:
+        return tid
+    osa('tell application "Google Chrome" to tell front window to make new tab with properties {URL:"%s"}' % PAGE)
+    time.sleep(10)
+    return osa(find)
+
+
+def js(tid, code):
+    with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False) as f:
+        f.write(code)
+    return osa(f'set js to read POSIX file "{f.name}" as «class utf8»',
+               f'tell application "Google Chrome" to execute (first tab of front window whose id is {tid}) javascript js')
+
+
+def stats(tid, kind, start, end):
+    q = urllib.parse.urlencode({"filter": "{}", "from": start.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
+                                "to": end.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.999Z"),
+                                "limit": 250, "projectId": "on-the-record", "teamId": TEAM, "type": kind,
+                                "tz": "America/New_York"})
+    key = f"__v{int(time.time()*1000)}"
+    js(tid, f'window.{key}=null;fetch("/api/web-analytics/v2/stats?{q}").then(r=>r.text()).then(t=>window.{key}=t).catch(e=>window.{key}="ERR "+e);"ok"')
+    for _ in range(30):
+        time.sleep(1)
+        out = js(tid, f'String(window.{key})')
+        if out and out != "null":
+            if out.startswith("ERR") or not out.startswith("{"):
+                sys.exit(f"Vercel said: {out[:300]} (signed out? open {PAGE} in Chrome and sign in)")
+            return json.loads(out).get("data", [])
+    sys.exit("Vercel didn't answer in 30s")
+
+
+def section(path):
+    seg = path.strip("/").split("/")[0]
+    return NAMES.get(seg, seg)
+
+
+def main():
+    day = dt.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else dt.datetime.now(NY).date() - dt.timedelta(days=1)
+    s = dt.datetime.combine(day, dt.time(0), NY)
+    e = dt.datetime.combine(day, dt.time(23, 59, 59), NY)
+    ws, we = s - dt.timedelta(days=7), s - dt.timedelta(seconds=1)
+    tid = vercel_tab()
+    if not tid:
+        sys.exit("Couldn't open a vercel.com tab in Chrome")
+    rows = stats(tid, "path", s, e)
+    week = stats(tid, "path", ws, we)
+    refs = stats(tid, "referrer", s, e)
+
+    sec, secv, wk = defaultdict(int), defaultdict(int), defaultdict(int)
+    for r in rows:
+        sec[section(r["key"])] += r.get("total", 0)
+        secv[section(r["key"])] += r.get("devices", 0)
+    for r in week:
+        wk[section(r["key"])] += r.get("total", 0)
+    total, wtotal = sum(sec.values()), sum(wk.values())
+    first = dt.date(2026, 11, 8)
+    days_of_data = max(0, min(7, (day - first).days))
+
+    print(f"On the Record — visits {day:%a %b %-d}")
+    head = f"{total} page views"
+    if days_of_data:
+        head += f" (7-day avg {wtotal / days_of_data:.0f})"
+    print(head)
+    print()
+    for k in sorted(set(sec) | set(wk), key=lambda k: (-sec[k], -wk[k], k)):
+        line = f"{k} — {sec[k]} views, {secv[k]} visitors"
+        if days_of_data:
+            line += f" (avg {wk[k] / days_of_data:.1f})"
+        print(line)
+    if rows:
+        print("\nTop pages")
+        for r in sorted(rows, key=lambda r: -r.get("total", 0))[:3]:
+            print(f"{r['key']} — {r['total']}")
+    if refs:
+        print("\nTop referrers")
+        for r in sorted(refs, key=lambda r: -r.get("total", 0))[:3]:
+            print(f"{r['key'] or '(direct)'} — {r['total']}")
+
+
+if __name__ == "__main__":
+    main()
