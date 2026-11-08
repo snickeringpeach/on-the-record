@@ -240,6 +240,18 @@ if SITE.exists(): shutil.rmtree(SITE)
 # static/ is copied verbatim into site/ (offer PDFs live in static/offers; site/ is rebuilt from scratch each time)
 _static = pathlib.Path(__file__).resolve().parent / "static"
 if _static.exists(): shutil.copytree(_static, SITE, dirs_exist_ok=True)
+# Housing permits product offer: HELD (B1447c). Copies the spec sheet and data dictionary from ../housing/product/v0.2
+# (rebuilt by housing/specsheet.py) into /offers/housing-permits/ at build time - never a hand copy. Off until Liam
+# flips OFFER_HOUSING_RELEASE; OFFER_PREVIEW=1 python3 build.py for a local look (./deploy rebuilds without it).
+import os
+OFFER_HOUSING_RELEASE = False
+if OFFER_HOUSING_RELEASE or os.environ.get("OFFER_PREVIEW"):
+    _hp = pathlib.Path(__file__).resolve().parent.parent / "housing" / "product" / "v0.2"
+    _missing = [f for f in ("SPEC-SHEET.pdf", "DATA-DICTIONARY.md") if not (_hp / f).exists()]
+    if _missing: raise SystemExit(f"build.py: housing offer is on but {_missing} missing in {_hp}; run housing/specsheet.py")
+    (SITE / "offers/housing-permits").mkdir(parents=True, exist_ok=True)
+    shutil.copy(_hp / "SPEC-SHEET.pdf", SITE / "offers/housing-permits/Housing-Permits-Data-Spec-Sheet.pdf")
+    shutil.copy(_hp / "DATA-DICTIONARY.md", SITE / "offers/housing-permits/DATA-DICTIONARY.txt")
 (SITE / "off-the-roll/index.html").write_text(page("Off the Roll — Providence, on the record",
     "What Providence doesn't tax: exempt property, payments in lieu of taxes and tax stabilization agreements, from the City's 2025 tax roll.",
     "../", "".join(b), "off-the-roll/"))
