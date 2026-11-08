@@ -455,3 +455,14 @@ urls = sorted("https://providenceontherecord.org/" + str(f.parent.relative_to(SI
     + "".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 (SITE / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://providenceontherecord.org/sitemap.xml\n")
 print("built", sum(1 for p in SITE.rglob("*") if p.is_file()), "files")
+
+
+# ---------------------------------------------------------------- analytics
+# Vercel Web Analytics on every page (cookieless). Daily visits by section are read from it.
+INSIGHTS = '<script defer src="/_vercel/insights/script.js"></script>'
+_k = 0
+for _f in SITE.rglob("*.html"):
+    _t = _f.read_text()
+    if INSIGHTS not in _t and "</head>" in _t:
+        _f.write_text(_t.replace("</head>", INSIGHTS + "</head>", 1)); _k += 1
+print(f"analytics tag on {_k} pages")
