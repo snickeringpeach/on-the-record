@@ -1,52 +1,7 @@
 {
- "as_of": "2026-11-02",
- "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17, Oct 19, Oct 26 and Nov 2, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-11-09",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17, Oct 19, Oct 26, Nov 2 and Nov 9, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
-  {
-   "d": "2026-11-02",
-   "when": "Nov 2, 2 PM",
-   "desk": "pvd",
-   "title": "Board of Contract and Supply meets",
-   "why": "Agenda posted: an extension of Project Weber/RENEW's overdose prevention center pilot; an ultrafine-particle air monitor for Ward 4 (QuantAQ); change order #1 on LeftField's Phase 4 school-construction project management; First Due inspections and permitting software for Fire.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15737"
-  },
-  {
-   "d": "2026-11-03",
-   "when": "Nov 3",
-   "desk": "pvd",
-   "title": "General election: mayor, all 15 council seats, Question 7",
-   "why": "David Morales faces the general election for mayor; Question 7 would bar city investments tied to genocide or apartheid.",
-   "conf": "C",
-   "src": "https://pvdeye.org/?p=122016"
-  },
-  {
-   "d": "2026-11-03",
-   "when": "Nov 3",
-   "desk": "state",
-   "title": "General election: governor, attorney general, legislature, $600 million in state bonds",
-   "why": "",
-   "conf": "C",
-   "src": "https://www.oceanstatemedia.org/politics/2026-09-29/block-pushes-a-two-way-governors-race-but-guckian-says-hes-not-leaving"
-  },
-  {
-   "d": "2026-11-05",
-   "when": "Nov 5, 6 PM",
-   "desk": "pvd",
-   "title": "City Council meets, two days after the election",
-   "why": "Agenda not yet posted as of Nov 2.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15700"
-  },
-  {
-   "d": "2026-11-07",
-   "when": "Nov 7",
-   "desk": "pvd",
-   "title": "WaterFire season finale",
-   "why": "",
-   "conf": "C",
-   "src": "https://www.oceanstatemedia.org/arts-entertainment/when-is-waterfire-2026-full-providence-schedule-dates-and-highlights"
-  },
   {
    "d": "2026-11-09",
    "when": "Nov 9, 5:30 PM",
@@ -66,6 +21,15 @@
    "src": "https://rhodeislandcurrent.com/tag/revenue-and-caseload-estimating-conference/"
   },
   {
+   "d": "2026-11-10",
+   "when": "Nov 10, 5:30 PM",
+   "desk": "pvd",
+   "title": "Ways and Means takes up Providence Water's fiscal 2027 budget",
+   "why": "Agenda posted: the Water Supply Board's FY2027 appropriation and funds, including $6.6 million for the lead service replacement fund and $4.0 million capital.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16205"
+  },
+  {
    "d": "2026-11-15",
    "when": "Nov 15",
    "desk": "pvd",
@@ -79,7 +43,7 @@
    "when": "Nov 16, 2 PM",
    "desk": "pvd",
    "title": "Board of Contract and Supply meets",
-   "why": "Agenda not yet posted as of Nov 2.",
+   "why": "Agenda not yet posted as of Nov 9.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15738"
   },
@@ -91,6 +55,15 @@
    "why": "Two houses on Brook Street would be offered for relocation or demolished. Brown has said it will not give a housing count before the hearing. The date is the one Brown is aiming for.",
    "conf": "L",
    "src": "https://www.brown.edu/news/2026-09-15/revised-plan-economics-building"
+  },
+  {
+   "d": "2026-11-19",
+   "when": "Nov 19, 6 PM",
+   "desk": "pvd",
+   "title": "City Council meets",
+   "why": "Agenda not yet posted as of Nov 9.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15701"
   },
   {
    "d": "2026-12-13",
