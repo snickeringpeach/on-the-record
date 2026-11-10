@@ -7,6 +7,8 @@ HELD. RELEASE stays False until Liam says "ship it". Before that:
   - the slug (/apartments/) and a home-feed card are his call;
   - the pass-through range is a MODEL choice of Claude's; he may want it out.
 render() refuses to build with RELEASE=True while any [C] mark remains.
+Re-pinned Nov 10 2026 after B1555's CO-extract unit fallback moved the surge (1D 765 -> 865 units of 1,735 -> 1,844;
+moving the line $2.4M -> $2.7M a year).
 Every figure is read from ../housing/data/class_line*.csv and pinned by assert, so an upstream rerun that moves a number
 stops the build before it reaches the page.
 """
@@ -35,8 +37,8 @@ def render(page, e, SITE, DATELINE):
     shift = sum(f(S[k], "shift_yr") for k in ("1C", "1D"))
     # the sixth-unit cost: the same building, same value per unit, taxed at 1C/1D vs 1B [MODEL]
     six = {k: f(S[k], "median_assessed_per_unit_2015on") * (RATES[k] - RATES["1B"]) / 1000 for k in ("1C", "1D")}
-    assert (units["1D"], tot, i(S["1D"], "tax_per_unit_yr"), i(S["1B"], "tax_per_unit_yr")) == (765, 1735, 5621, 4461)
-    assert (M(shift), M(f(S["1D"], "shift_yr")), round(six["1C"]), round(six["1D"])) == ("$2.4M", "$2.2M", 3161, 2860)
+    assert (units["1D"], tot, i(S["1D"], "tax_per_unit_yr"), i(S["1B"], "tax_per_unit_yr")) == (865, 1844, 5621, 4461)
+    assert (M(shift), M(f(S["1D"], "shift_yr")), round(six["1C"]), round(six["1D"])) == ("$2.7M", "$2.5M", 3161, 2860)
     assert (i(L["1C"], "1C"), i(L["1C"], "All"), i(L["1D"], "1D"), i(L["1D"], "All"), i(L["1B"], "1B"), i(L["1B"], "All")) == \
            (312, 382, 115, 155, 13778, 14280)
 
