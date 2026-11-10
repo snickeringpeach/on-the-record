@@ -211,6 +211,11 @@ ZERO = ('<p>On the 2025 roll, 34 parcels held by 14 owners carry the stabilizati
 b.append('</table></div><p class="cite">City of Providence, Office of the Internal Auditor, Report on Tax Stabilization Agreements, FY2025, Exhibit 1, one entry per agreement. &#8220;Could not tell&#8221; includes entries the report left blank. Every agreement, with its answers: <a href="data/tsa-report-fy2025.json">tsa-report-fy2025.json</a>.</p>')
 b.append(ZERO)
 
+# B1556: new housing in the regimes - HELD (new_housing_row.RELEASE False); NEWHOUSING_PREVIEW=1 for a local look
+import os, new_housing_row
+NEWHOUSING_ON = new_housing_row.RELEASE or bool(os.environ.get("NEWHOUSING_PREVIEW"))
+if NEWHOUSING_ON:
+    b.append(new_housing_row.render())
 b.append('<h2>Who carries it</h2>')
 b.append(f'<p><span class="tag model">MODEL</span> The City sets its budget first and its tax rates second, so revenue not collected from one parcel is collected from the others. Holding the {money(inc["levy"])} levy fixed, this is what each regime means for the median owner-occupied home, billed ${inc["median_homestead_bill"]:,.0f}, and the median two-to-five-family building a landlord rents out, billed ${inc["median_2to5_rental_bill"]:,.0f}.</p>')
 b.append('<div class="tablewrap"><table><tr><th>If this were collected</th><th class="n">Share of levy</th><th class="n">Homeowner</th><th class="n">2–5 family rental</th></tr>')
@@ -259,6 +264,8 @@ for f in ["roll-summary.json", "exempt-groups.json", "institutions.csv", "tsa-le
     shutil.copy(U / f, SITE / "off-the-roll/data" / f)
 shutil.copy(next(PV.glob("institutions_pvd_*.csv")), SITE / "off-the-roll/data/institutions_pvd_2025.csv")
 shutil.copy(PV / "dictionary.json", SITE / "off-the-roll/data/dictionary.json")
+if NEWHOUSING_ON:
+    shutil.copy(U / "new-housing.csv", SITE / "off-the-roll/data/new-housing.csv")
 
 # ---------------------------------------------------------------- housing
 import housing
