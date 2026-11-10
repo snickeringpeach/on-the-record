@@ -9,6 +9,8 @@ HELD. RELEASE stays False until Liam says "ship it". Before that:
     class has no foregone tax. He may want any of them changed;
   - which scope leads (built before the roll date, or every permit) is his call.
 render() refuses to build with RELEASE=True while any [C] mark remains.
+Re-pinned Nov 10 2026 after B1555's CO-extract unit fallback moved the row (finished before the roll: 18 lots / 213
+apartments / $0.78-1.05M not collected -> 19 / 354 / $1.32-1.37M).
 Every figure is read from ../untaxed/data/new-housing.json and pinned by assert, so a rerun that moves a number stops
 the build before it reaches the page.
 """
@@ -36,9 +38,9 @@ def render():
     B, A = J["built before the roll date"], J["all permits with a plat-lot"]
     b0, a0 = B["row"], A["row"]
     # pins: a rerun of new_housing.py that moves any of these stops the build
-    assert (b0["lots"], b0["units"], round(b0["pays"]), round(b0["at_class_lo"]), round(b0["at_class_hi"])) == (18, 213, 521811, 1301905, 1572977)
-    assert (round(b0["foregone_lo"]), round(b0["foregone_hi"]), b0["unknown_class_lots"]) == (780091, 1051164, 6)
-    assert (a0["lots"], a0["units"], round(a0["pays"]), round(a0["foregone_lo"]), round(a0["foregone_hi"])) == (51, 1010, 3456777, 3999648, 4467561)
+    assert (b0["lots"], b0["units"], round(b0["pays"]), round(b0["at_class_lo"]), round(b0["at_class_hi"])) == (19, 354, 593560, 1915312, 1959870)
+    assert (round(b0["foregone_lo"]), round(b0["foregone_hi"]), b0["unknown_class_lots"]) == (1321750, 1366308, 5)
+    assert (a0["lots"], a0["units"], round(a0["pays"]), round(a0["foregone_lo"]), round(a0["foregone_hi"])) == (51, 1154, 3456777, 4422396, 4466954)
     assert (A["institutional_set_aside"]["lots"], round(A["institutional_set_aside"]["assessed"] / 1e6)) == (12, 188)
     assert (a0["lots_paying_at_or_above_class"], b0["lots_paying_at_or_above_class"]) == (7, 0)
 
