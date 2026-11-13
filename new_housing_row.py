@@ -5,12 +5,14 @@ NEWHOUSING_PREVIEW=1 python3 build.py (./deploy wipes site/ and rebuilds without
 HELD. RELEASE stays False until Liam says "ship it". Before that:
   - every [C] line (Claude's framing, class="cmark") is taken, rewritten or cut;
   - three rules in new_housing.py are Claude's calls: units from CAMA where the permits count none; 'unknown' class
-    priced as a 1B-1D range; exempt lots kept only where CAMA calls the use Charitable; a lot billed at or above its
+    priced as a 1B-1D range (none left after B1556a; a repeat-filed permit's stated units now count for its lot's class); exempt lots kept only where CAMA calls the use Charitable; a lot billed at or above its
     class has no foregone tax. He may want any of them changed;
   - which scope leads (built before the roll date, or every permit) is his call.
 render() refuses to build with RELEASE=True while any [C] mark remains.
 Re-pinned Nov 10 2026 after B1555's CO-extract unit fallback moved the row (finished before the roll: 18 lots / 213
-apartments / $0.78-1.05M not collected -> 19 / 354 / $1.32-1.37M).
+apartments / $0.78-1.05M not collected -> 19 / 354 / $1.32-1.37M). Re-pinned Nov 13 2026 (B1556a): the five 'unknown'
+lots are a 2021 scattered-site filing (BLDG-21-1381..1390), two units each by the permits' own count -> 1B; the range
+closes at its low end: 19 / 364 / $1.32M; every permit 51 / 1,164 / $4.42M.
 Every figure is read from ../untaxed/data/new-housing.json and pinned by assert, so a rerun that moves a number stops
 the build before it reaches the page.
 """
@@ -38,9 +40,9 @@ def render():
     B, A = J["built before the roll date"], J["all permits with a plat-lot"]
     b0, a0 = B["row"], A["row"]
     # pins: a rerun of new_housing.py that moves any of these stops the build
-    assert (b0["lots"], b0["units"], round(b0["pays"]), round(b0["at_class_lo"]), round(b0["at_class_hi"])) == (19, 354, 593560, 1915312, 1959870)
-    assert (round(b0["foregone_lo"]), round(b0["foregone_hi"]), b0["unknown_class_lots"]) == (1321750, 1366308, 5)
-    assert (a0["lots"], a0["units"], round(a0["pays"]), round(a0["foregone_lo"]), round(a0["foregone_hi"])) == (51, 1154, 3456777, 4422396, 4466954)
+    assert (b0["lots"], b0["units"], round(b0["pays"]), round(b0["at_class_lo"]), round(b0["at_class_hi"])) == (19, 364, 593560, 1915312, 1915312)
+    assert (round(b0["foregone_lo"]), round(b0["foregone_hi"]), b0["unknown_class_lots"]) == (1321750, 1321750, 0)
+    assert (a0["lots"], a0["units"], round(a0["pays"]), round(a0["foregone_lo"]), round(a0["foregone_hi"])) == (51, 1164, 3456777, 4422396, 4422396)
     assert (A["institutional_set_aside"]["lots"], round(A["institutional_set_aside"]["assessed"] / 1e6)) == (12, 188)
     assert (a0["lots_paying_at_or_above_class"], b0["lots_paying_at_or_above_class"]) == (7, 0)
 
@@ -62,7 +64,7 @@ def render():
         out.append(f'<tr><td>{"Tax stabilization agreement" if k == "TSA" else "8% affordable-housing law" if k == "8% law" else "Nonprofit, exempt"}</td>'
                    f'<td class="n">{int(r["lots"])}</td><td class="n">{int(r["units"]):,}</td><td class="n">{M(r["pays"])}</td><td class="n">{rng(r["foregone_lo"], r["foregone_hi"])}</td></tr>')
     out.append('</table></div>')
-    out.append(f'<p>{C("Ranges are where the roll does not say how many apartments a building has; those lots are priced between the two-to-five and eleven-or-more rates. Lots billed at or above their class rate count as nothing foregone. Schools, churches and City property that drew a housing permit are left out; their value is already in the fully exempt row above.")}</p>')
+    out.append(f'<p>{C("Where a building&#8217;s own permits don&#8217;t count its apartments, the assessor&#8217;s file does. Lots billed at or above their class rate count as nothing foregone. Schools, churches and City property that drew a housing permit are left out; their value is already in the fully exempt row above.")}</p>')
     out.append('<p class="cite">City of Providence building permits since 2010 joined to the 2025 tax roll and its assessor file (CAMA, Sept. 10, 2026); class rates from Code of Ordinances s.21-182 as amended by the FY26 tax ordinance. '
                f'The &#8220;every permit&#8221; row includes 2025&#8211;26 lots that may still be assessed as land or as the old building. Lot by lot: <a href="data/new-housing.csv">new-housing.csv</a>.</p>')
     html = "".join(out)
