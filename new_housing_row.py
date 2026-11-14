@@ -64,9 +64,18 @@ def render():
         out.append(f'<tr><td>{"Tax stabilization agreement" if k == "TSA" else "8% affordable-housing law" if k == "8% law" else "Nonprofit, exempt"}</td>'
                    f'<td class="n">{int(r["lots"])}</td><td class="n">{int(r["units"]):,}</td><td class="n">{M(r["pays"])}</td><td class="n">{rng(r["foregone_lo"], r["foregone_hi"])}</td></tr>')
     out.append('</table></div>')
+    # B1652 (Nov 14 2026): per apartment, per year, and the terms still running - held like the rest; pinned
+    PU = json.load(open(U / "new-housing-per-unit.json"))
+    pb, pa = PU["built before the roll date"], PU["all permits with a plat-lot"]
+    assert (pb["per_unit_year_all"], pa["per_unit_year_all"]) == (3631, 3799)
+    assert (pb["by_regime"]["8% affordable-housing law"]["per_unit_year"], pb["by_regime"]["tax stabilization agreement"]["per_unit_year"]) == (3852, 2995)
+    assert pb["projection"]["by_regime"]["8% affordable-housing law"] == 30307686
+    out.append(f'<p>Per apartment, the buildings finished before the roll pay about ${pb["per_unit_year_all"]:,} a year less than their class rate would charge: '
+               f'${pb["by_regime"]["8% affordable-housing law"]["per_unit_year"]:,} under the 8% law and ${pb["by_regime"]["tax stabilization agreement"]["per_unit_year"]:,} under a stabilization agreement. '
+               f'{C("Held at the 2025 rate and assessment, the 8% law lots finished before the roll would forgo about " + M(pb["projection"]["by_regime"]["8% affordable-housing law"]) + " more over their terms, if each runs 30 years from completion; the repo holds no restriction end dates, so the 30 years is an assumption.")}</p>')
     out.append(f'<p>{C("Where a building&#8217;s own permits don&#8217;t count its apartments, the assessor&#8217;s file does. Lots billed at or above their class rate count as nothing foregone. Schools, churches and City property that drew a housing permit are left out; their value is already in the fully exempt row above.")}</p>')
     out.append('<p class="cite">City of Providence building permits since 2010 joined to the 2025 tax roll and its assessor file (CAMA, Sept. 10, 2026); class rates from Code of Ordinances s.21-182 as amended by the FY26 tax ordinance. '
-               f'The &#8220;every permit&#8221; row includes 2025&#8211;26 lots that may still be assessed as land or as the old building. Lot by lot: <a href="data/new-housing.csv">new-housing.csv</a>.</p>')
+               f'The &#8220;every permit&#8221; row includes 2025&#8211;26 lots that may still be assessed as land or as the old building. Lot by lot: <a href="data/new-housing.csv">new-housing.csv</a>; per apartment: <a href="data/new-housing-per-unit.csv">new-housing-per-unit.csv</a>.</p>')
     html = "".join(out)
     if RELEASE and "cmark" in html:
         raise SystemExit("new_housing_row.py: RELEASE is on but [C] marks remain")
