@@ -3,92 +3,19 @@
 providenceontherecord.org as served, against a plain fresh build of today's code and data (scratch; nothing
 deployed) and against origin/main's site/. Only sentences that carry a numeral are compared. Script: live_check.py.
 
-Pages: 171. Fetch failures: 0. Pages with a non-volatile difference: 4. Differing sentences: 65 (plus 4 volatile - dates, counters).
+Pages: 171. Fetch failures: 0. Pages with a non-volatile difference: 0. Differing sentences: 0 (plus 0 volatile - dates, counters).
 
 | class | sentences |
 |---|---|
-| NOT DEPLOYED | 6 |
-| DATA MOVED | 26 |
-| STALE ON LIVE | 33 |
+| NOT DEPLOYED | 0 |
+| DATA MOVED | 0 |
+| STALE ON LIVE | 0 |
 | LIVE != PUSHED | 0 |
 
 ## Pages that fetch badly or have no fresh build
 
 
 ## Differences by page (volatile lines left out; all in the csv)
-
-### /
-- **DATA MOVED** (fresh): 1,137 came through the guest form.
-- **DATA MOVED** (fresh): Providence’s 311 logged 15,226 of its 22,644 cases this year as “Web.” Its New Request button leads to a sign-in screen
-- **DATA MOVED** (fresh): What PVD311 publishes, what its menu of 129 case types asks, and who files.
-- **STALE ON LIVE** (live): 1,125 came through the guest form.
-- **STALE ON LIVE** (live): Providence’s 311 logged 15,114 of its 22,458 cases this year as “Web.” Its New Request button leads to a sign-in screen
-- **STALE ON LIVE** (live): What PVD311 publishes, what its menu of 128 case types asks, and who files.
-
-### /311/
-- **DATA MOVED** (fresh): 1,137
-- **DATA MOVED** (fresh): 1,137 logged as “Guest Support,” the form without an account
-- **DATA MOVED** (fresh): 1,165
-- **NOT DEPLOYED** (fresh): 12
-- **DATA MOVED** (fresh): 129 case types, in one alphabetical list
-- **DATA MOVED** (fresh): 14
-- **DATA MOVED** (fresh): 15,226
-- **DATA MOVED** (fresh): 15,226 logged as “Web”; the site’s New Request button leads to a sign-in
-- **DATA MOVED** (fresh): 16
-- **DATA MOVED** (fresh): 22
-- **DATA MOVED** (fresh): 22,644 cases this year in the City’s six largest channels
-- **DATA MOVED** (fresh): 222
-- **DATA MOVED** (fresh): 3
-- **DATA MOVED** (fresh): 4,764
-- **DATA MOVED** (fresh): 44
-- **NOT DEPLOYED** (fresh): 5
-- **DATA MOVED** (fresh): 57
-- **DATA MOVED** (fresh): On 2026-11-15 it showed 160 cases, created 2026-11-08 to 2026-11-15.
-- **DATA MOVED** (fresh): PVD311 “Top Service Requests” page (/analytics), calendar year to date, the six largest channels, read 2026-11-15.
-- **DATA MOVED** (fresh): That is about 23 a day, against the year’s pace of about 71 a day, so the public list appears to be a subset.
-- **DATA MOVED** (fresh): To file, a resident picks one of 129 case types from a single alphabetical list, from “Abandoned or Vacant City Owned Property Concerns” to “Zoning Violation Concerns.” 16 of the descriptions tell the resident to call someone else, such as the police non-emergency line, Rhode Island Energy or Provid
-- **STALE ON LIVE** (live): 1
-- **STALE ON LIVE** (live): 1,125
-- **STALE ON LIVE** (live): 1,125 logged as “Guest Support,” the form without an account
-- **STALE ON LIVE** (live): 1,162
-- **STALE ON LIVE** (live): 10
-- **STALE ON LIVE** (live): 11
-- **STALE ON LIVE** (live): 128 case types, in one alphabetical list
-- **STALE ON LIVE** (live): 15
-- **STALE ON LIVE** (live): 15,114
-- **STALE ON LIVE** (live): 15,114 logged as “Web”; the site’s New Request button leads to a sign-in
-- **STALE ON LIVE** (live): 22,458 cases this year in the City’s six largest channels
-- **STALE ON LIVE** (live): 220
-- **STALE ON LIVE** (live): 33
-- **STALE ON LIVE** (live): 38
-- **STALE ON LIVE** (live): 4,707
-- **STALE ON LIVE** (live): 68
-- **STALE ON LIVE** (live): 9
-- **STALE ON LIVE** (live): On 2026-11-08 it showed 185 cases, created 2026-11-01 to 2026-11-08.
-- **STALE ON LIVE** (live): PVD311 “Top Service Requests” page (/analytics), calendar year to date, the six largest channels, read 2026-11-08.
-- **STALE ON LIVE** (live): That is about 26 a day, against the year’s pace of about 72 a day, so the public list appears to be a subset.
-- **STALE ON LIVE** (live): To file, a resident picks one of 128 case types from a single alphabetical list, from “Abandoned or Vacant City Owned Property Concerns” to “Zoning Violation Concerns.” 15 of the descriptions tell the resident to call someone else, such as the police non-emergency line, Rhode Island Energy or Provid
-
-### /coming-up/
-- **NOT DEPLOYED** (fresh): Agenda posted: the Water Supply Board's FY2027 appropriation and funds, including $6.6 million for the lead service replacement fund and $4.0 million capital.
-- **NOT DEPLOYED** (fresh): Nov 10, 5:30 PM
-- **NOT DEPLOYED** (fresh): Nov 19, 6 PM
-- **NOT DEPLOYED** (fresh): Ways and Means takes up Providence Water's fiscal 2027 budget
-- **STALE ON LIVE** (live): Agenda posted: an extension of Project Weber/RENEW's overdose prevention center pilot; an ultrafine-particle air monitor for Ward 4 (QuantAQ); change order #1 on LeftField's Phase 4 school-construction project management;
-- **STALE ON LIVE** (live): General election: governor, attorney general, legislature, $600 million in state bonds
-- **STALE ON LIVE** (live): General election: mayor, all 15 council seats, Question 7
-- **STALE ON LIVE** (live): Nov 2, 2 PM
-- **STALE ON LIVE** (live): Nov 3
-- **STALE ON LIVE** (live): Nov 5, 6 PM
-- **STALE ON LIVE** (live): Nov 7
-- **STALE ON LIVE** (live): Question 7 would bar city investments tied to genocide or apartheid.
-
-### /off-the-roll/terms/
-- **DATA MOVED** (fresh): For most institutions the basis has not changed since FY2021 and runs well below exempt value on the roll (Off the Roll’s Providence and Boston page).
-- **DATA MOVED** (fresh): It computes it on a value basis of its own, fiscal 2011 values by the City’s account, that runs at about half of roll value, so Boston’s published ask is lower than its own formula on its own roll.
-- **DATA MOVED** (fresh): On Nov. 6, 2026 the City pointed to its online PILOT property list, filterable by institution; it is not yet matched to the roll here.
-- **DATA MOVED** (fresh): The City says it is the institutions’ fiscal 2011 values, set through the PILOT Task Force, and that the ask rises 2.5 percent a year, mirroring Proposition 2½ (City Records Co-op, answer to public records request R-2026-1799, Nov. 6, 2026).
-- **STALE ON LIVE** (live): The value basis is the City’s own figure and is not recomputed here; for most institutions it has not changed since FY2021 and runs well below exempt value on the roll (Off the Roll’s Providence and Boston page).
 
 
 ## Numerals typed into page-module prose with no assert beside them [C heuristic]
