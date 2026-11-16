@@ -1,49 +1,13 @@
 {
- "as_of": "2026-11-09",
- "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17, Oct 19, Oct 26, Nov 2 and Nov 9, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
+ "as_of": "2026-11-16",
+ "note": "Built from sourced research on Sept 30 2026, refreshed Oct 3, Oct 5, Oct 8, Oct 10, Oct 17, Oct 19, Oct 26, Nov 2, Nov 9 and Nov 16, and the site's own records. Confirmed means a source states the date; likely means a statute or past pattern sets it.",
  "items": [
-  {
-   "d": "2026-11-09",
-   "when": "Nov 9, 5:30 PM",
-   "desk": "pvd",
-   "title": "Ordinance Committee public hearing",
-   "why": "Agenda posted: the billboard text amendment to §2005 (continued from Oct 13) and the M-MU to M-1 rezoning for storage containers.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16181"
-  },
-  {
-   "d": "2026-11-10",
-   "when": "About Nov 4 to 12",
-   "desk": "state",
-   "title": "State revenue and caseload estimating conferences",
-   "why": "Sizes the state's fiscal 2028 gap a week after the election.",
-   "conf": "L",
-   "src": "https://rhodeislandcurrent.com/tag/revenue-and-caseload-estimating-conference/"
-  },
-  {
-   "d": "2026-11-10",
-   "when": "Nov 10, 5:30 PM",
-   "desk": "pvd",
-   "title": "Ways and Means takes up Providence Water's fiscal 2027 budget",
-   "why": "Agenda posted: the Water Supply Board's FY2027 appropriation and funds, including $6.6 million for the lead service replacement fund and $4.0 million capital.",
-   "conf": "C",
-   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16205"
-  },
-  {
-   "d": "2026-11-15",
-   "when": "Nov 15",
-   "desk": "pvd",
-   "title": "Deadline to appeal your property assessment",
-   "why": "Appeals go to the Tax Assessor’s Office in writing; state law sets the window.",
-   "conf": "C",
-   "src": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-5/44-5-26.htm"
-  },
   {
    "d": "2026-11-16",
    "when": "Nov 16, 2 PM",
    "desk": "pvd",
    "title": "Board of Contract and Supply meets",
-   "why": "Agenda not yet posted as of Nov 9.",
+   "why": "Agenda posted: the sale of the Rochambeau Avenue fire station (re-bid), City Hall envelope restoration phase 1, a HAAS Alert 'Safety Cloud' digital alerting purchase, this winter's road salt, and Change Order #2 on the port shoreline resilience study.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15738"
   },
@@ -57,13 +21,49 @@
    "src": "https://www.brown.edu/news/2026-09-15/revised-plan-economics-building"
   },
   {
+   "d": "2026-11-17",
+   "when": "Nov 17, 5:30 PM",
+   "desk": "pvd",
+   "title": "Ways and Means takes up two tax stabilization agreements",
+   "why": "Agenda posted: TSAs for 730 Douglas Avenue and 239 Oak Street, both heard Oct 21.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16211"
+  },
+  {
+   "d": "2026-11-18",
+   "when": "Nov 18, 5:15 PM",
+   "desk": "pvd",
+   "title": "Water Supply Board meets",
+   "why": "Agenda posted on IQM2.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=16214"
+  },
+  {
    "d": "2026-11-19",
    "when": "Nov 19, 6 PM",
    "desk": "pvd",
    "title": "City Council meets",
-   "why": "Agenda not yet posted as of Nov 9.",
+   "why": "Agenda not yet posted as of Nov 16.",
    "conf": "C",
    "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15701"
+  },
+  {
+   "d": "2026-11-30",
+   "when": "Nov 30, 2 PM",
+   "desk": "pvd",
+   "title": "Board of Contract and Supply meets",
+   "why": "Agenda not yet posted as of Nov 16.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15739"
+  },
+  {
+   "d": "2026-12-03",
+   "when": "Dec 3",
+   "desk": "pvd",
+   "title": "City Council meets",
+   "why": "Agenda not yet posted as of Nov 16.",
+   "conf": "C",
+   "src": "https://ProvidenceRI.IQM2.com/Citizens/Detail_Meeting.aspx?ID=15702"
   },
   {
    "d": "2026-12-13",
