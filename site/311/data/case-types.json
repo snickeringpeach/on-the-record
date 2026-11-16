@@ -45,6 +45,11 @@
   "description": "Report loose or barking dogs to Animal Control at (401) 272-1111. Report a lost pet or request information."
  },
  {
+  "id": "d81463ac-7ddf-f111-84ea-001dd8038269",
+  "name": "Application for Parking Permits",
+  "description": "If you need a parking permit visit providenceri.cmrpay.cm. You will need to upload your car registration, driver's license and proof of address. For questions please call (401) 680-7506 or by email at parkingchanges@providenceri.gov"
+ },
+ {
   "id": "0ee8b671-7a2e-ef11-840a-001dd8039400",
   "name": "Assistance or Concern with a Business License",
   "description": "Request assistance with a business license. Please specify what type of license you are seeking."

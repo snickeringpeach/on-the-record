@@ -92,6 +92,10 @@ for r in csv.DictReader(open(P / "speed-cameras/data/cameras_vs_crashes.csv")):
     w = ward_at(float(r["lon"]), float(r["lat"]))
     if w: out[w]["cameras"].append(r["school"])
 
+# --- people (B1749): 2020 census blocks in the 2022 ward lines, from ward_pop.py
+for r in csv.DictReader(open(P / "wards/ward_pop.csv")):
+    out[int(r["ward"])].update(pop=int(r["pop"]), adults=int(r["adults"]), housing_units=int(r["housing_units"]))
+
 json.dump(list(out.values()), open(P / "wards/wards.json", "w"), indent=1)
 for o in out.values():
     print(o["ward"], f'{o["exempt"]/max(o["assessed"],1):.0%} exempt', o["rent_covered"], o["crashes"], o["ksi"], o["tax_sale_2026"], len(o["cameras"]))
