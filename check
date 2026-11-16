@@ -1,0 +1,5 @@
+#!/bin/zsh
+# B1769: first the PRIVATE guard over what this repo sends out (../patents/private_guard.py; exit 1 on a hit not allow-listed),
+# then B1655's record check (../plan/check_repo.py). The guard's register and allow list live in ../patents (private).
+python3 "${0:A:h}/../patents/private_guard.py" --surface on-the-record || { echo "check: PRIVATE guard found hits - read them before anything leaves" >&2; exit 1; }
+exec nice -n 15 python3 "${0:A:h}/../plan/check_repo.py" "${0:A:h:t}" "$@"
