@@ -45,8 +45,17 @@ def vercel_tab():
 def js(tid, code):
     with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False) as f:
         f.write(code)
+    # Look the tab up in every window, not just the front one: the vercel tab is
+    # often in a background window, and the old front-window lookup silently
+    # returned nothing, which surfaced as "Vercel didn't answer in 30s".
     return osa(f'set js to read POSIX file "{f.name}" as «class utf8»',
-               f'tell application "Google Chrome" to execute (first tab of front window whose id is {tid}) javascript js')
+               'tell application "Google Chrome"',
+               'repeat with w in windows',
+               f'set m to (tabs of w whose id is {tid})',
+               'if (count of m) > 0 then return execute (item 1 of m) javascript js',
+               'end repeat',
+               'return "ERR tab gone"',
+               'end tell')
 
 
 def stats(tid, kind, start, end):
