@@ -2,4 +2,6 @@
 # B1769: first the PRIVATE guard over what this repo sends out (../patents/private_guard.py; exit 1 on a hit not allow-listed),
 # then B1655's record check (../plan/check_repo.py). The guard's register and allow list live in ../patents (private).
 python3 "${0:A:h}/../patents/private_guard.py" --surface on-the-record || { echo "check: PRIVATE guard found hits - read them before anything leaves" >&2; exit 1; }
+# B1800: the facts Liam has corrected in outgoing text (../phd/corrections.yaml), same walker; allow list ../phd/corrections_allow.yaml.
+python3 "${0:A:h}/../patents/private_guard.py" --register "${0:A:h}/../phd/corrections.yaml" --surface on-the-record >/dev/null || { echo "check: a corrected fact is in on-the-record - run: python3 ../patents/private_guard.py --register ../phd/corrections.yaml --surface on-the-record" >&2; exit 1; }
 exec nice -n 15 python3 "${0:A:h}/../plan/check_repo.py" "${0:A:h:t}" "$@"
