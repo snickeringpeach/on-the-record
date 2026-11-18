@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Replay: the water at Providence, 1938 to today | Inside the Line</title>
+<meta name=description content="Press play on 88 years of high water at the Providence gauge, against the level where the hurricane barrier's gates close.">
+<link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+@font-face{font-family:"Source Serif 4";src:url(../fonts/source-serif-4-latin-opsz-normal.woff2) format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(../fonts/source-serif-4-latin-opsz-italic.woff2) format("woff2");font-weight:200 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Public Sans";src:url(../fonts/public-sans-latin-wght-normal.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{--ink:#13283A;--mute:#4A5A66;--rule:#C6CFCB;--hair:#DDE3E0;--bg:#F4F6F3;--paper:#FFFFFF;--water:#1F4E6B;--sound:#3B6E8F;
+--ground:#E3D7A8;--wet:#9CC3D8;--in:#2F6F4F;--out:#B3362C;--serif:"Source Serif 4",Georgia,serif;--sans:"Public Sans",system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--serif)}
+a{color:var(--ink);text-underline-offset:3px} a:hover{color:var(--sound)}
+.top{border-bottom:1px solid var(--ink)} .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.top .wrap{display:flex;gap:18px;align-items:baseline;padding-top:12px;padding-bottom:10px;font:15px/1.4 var(--sans)}
+.brand{font:700 17px/1.2 var(--sans);text-decoration:none}
+h1{font:600 30px/1.15 var(--serif);margin:22px 0 6px} .dek{margin:0 0 16px;max-width:62ch;color:var(--mute)}
+.grid{display:grid;grid-template-columns:150px minmax(0,1fr);gap:14px;align-items:start}
+@media(min-width:860px){.grid{grid-template-columns:170px 340px minmax(0,1fr)}}
+.card{background:var(--paper);border:1px solid var(--ink);padding:12px 14px}
+#date{font:700 22px/1.2 var(--sans)} #kind{font:13px/1.4 var(--sans);color:var(--mute)}
+#val{font:600 34px/1.1 var(--serif);margin-top:6px} #val small{font:14px var(--sans);color:var(--mute);font-weight:400}
+#gap{font:15px/1.4 var(--sans);margin-top:2px} #gap.over{color:var(--out);font-weight:700}
+#lines{font:14px/1.45 var(--sans);margin-top:8px} #lines p{margin:6px 0} #lines .m{color:var(--mute)}
+.tag{display:inline-block;font:700 11px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:3px 6px;border:1px solid var(--ink);margin-right:6px}
+.tag.red{background:var(--out);color:#fff;border-color:var(--out)}
+#live{font:14px/1.45 var(--sans);margin-top:10px;padding-top:8px;border-top:1px solid var(--hair)}
+#map{height:300px;border:1px solid var(--ink);grid-column:1/-1} @media(min-width:860px){#map{grid-column:auto;height:420px}}
+#maplab{font:13px/1.45 var(--sans);color:var(--mute);margin:6px 0 0;grid-column:1/-1}
+svg.staff{width:100%;height:auto;display:block;font-family:var(--sans)}
+.tlwrap{margin-top:14px} canvas#tl{width:100%;height:110px;display:block;background:var(--paper);border:1px solid var(--ink);touch-action:none;cursor:pointer}
+.ctl{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+button{font:600 15px/1 var(--sans);padding:11px 14px;background:var(--paper);color:var(--ink);border:1px solid var(--ink);border-radius:0;cursor:pointer}
+button.on{background:var(--ink);color:#fff} button:hover{background:var(--hair)} button.on:hover{background:var(--water)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px} .chips button{font-weight:400;font-size:13px;padding:8px 10px}
+#slow{font:13px var(--sans);color:var(--mute);align-self:center}
+.notes{max-width:68ch;margin:26px 0 40px} .notes h2{font:700 16px/1.3 var(--sans);margin:18px 0 4px} .notes p,.notes li{font:14px/1.55 var(--sans);color:var(--mute)} .notes ul{padding-left:18px;margin:4px 0}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto+Mono&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/fold.css"><script defer src="/_vercel/insights/script.js"></script></head>
+<body class="potr-itl"><div class="potr-mast"><a class="name" href="/">Providence, on the record</a><div class="tagline">Liam Freaney · reporting built on the public record</div><nav aria-label="Providence, on the record"><a href="/off-the-roll/">Off the Roll</a><a href="/housing/">Housing</a><a href="/311/">311</a><a href="/downtown-ledger/">Downtown Ledger</a><a href="/inside-the-line/" class="on" aria-current="page">Inside the Line</a><a href="/coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="/about/">About</a></nav></div>
+<header class=top><div class=wrap><a class=brand href="../">Inside the Line</a><span>Replay</span></div></header>
+<main class=wrap>
+<h1>The water at Providence, 1938 to today</h1>
+<p class=dek>Press play. Each step is the high water at the Providence gauge, set against the level where the hurricane barrier&rsquo;s gates close and the storms on record.</p>
+<div class=grid>
+  <div class=card style="padding:8px 6px"><svg class=staff id=staff viewBox="0 0 170 430" role=img aria-label="Water height on a staff, feet above the gauge's zero"></svg></div>
+  <div class=card>
+    <div id=date>&nbsp;</div><div id=kind>&nbsp;</div>
+    <div id=val>&nbsp;</div><div id=gap>&nbsp;</div>
+    <div id=lines></div>
+    <div id=live>Asking NOAA for the water now&hellip;</div>
+  </div>
+  <div id=map></div>
+  <p id=maplab></p>
+</div>
+<div class=tlwrap>
+  <canvas id=tl></canvas>
+  <div class=ctl>
+    <button id=play class=on>Play</button><button id=spd>1 yr/s</button><button id=prev aria-label="Step back">&lsaquo;</button><button id=next aria-label="Step forward">&rsaquo;</button><button id=today>Today</button><span id=slow></span>
+  </div>
+  <div class=chips id=chips></div>
+</div>
+<section class=notes>
+<h2>What this shows</h2>
+<ul>
+<li>Before November 1979 the public record gives one figure a month: the highest water that month. From then on it is each day&rsquo;s high water. The last few weeks are preliminary.</li>
+<li>Heights are feet above the gauge&rsquo;s zero (mean lower low water). The Corps closes the gates when the tide is forecast to reach 7.68 feet.</li>
+<li>Hurricane Carol (1954): the gauge was not recording. Its height is from the CRMC Metro Bay plan.</li>
+<li>Gate operations are the Army Corps&rsquo; summaries for 2010&ndash;2025: flood closures, WaterFire closures and tests. Earlier closures are not in the record used here.</li>
+<li>The blue area on the map is a model, not a record: where water at that height would stand inside the line if the barrier were not there, on today&rsquo;s ground, up to 12 feet. It has no flow, drains or timing.</li>
+<li>&ldquo;Now&rdquo; is NOAA&rsquo;s gauge reading when you opened the page. The forecast is the National Weather Service&rsquo;s for the next three days. Neither is made here.</li>
+</ul>
+<h2>Sources</h2>
+<p>NOAA CO-OPS station 8454000 (Providence): verified high and low tides, monthly highest water, 6-minute water levels. National Weather Service, National Water Prediction Service gauge FOXR1. U.S. Army Corps of Engineers, Fox Point Hurricane Barrier operation summaries, 2010&ndash;2025. USGS 3DEP lidar (the model). FEMA flood zones (the rings).</p>
+</section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(async function(){
+const $=id=>document.getElementById(id);
+const D=await (await fetch('data.json')).json();
+const DAY=864e5, U=s=>{const p=s.split('-').map(Number);return Date.UTC(p[0],p[1]-1,p[2]||1)};
+const T0=U('1938-06-01'), TD=Math.round((U(D.daily0)-T0)/DAY), TMAX=TD+D.daily.length-1, GATE=D.gate, TB=Math.round((U(D.barrier+'-01')-T0)/DAY);
+const TPRE=D.prelim_from?Math.round((U(D.prelim_from)-T0)/DAY):1e9;
+const dateOf=t=>new Date(T0+t*DAY);
+const MON=['January','February','March','April','May','June','July','August','September','October','November','December'], DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+// one value per day since June 1938 (hundredths of a foot; -1 = no record)
+const V=new Int16Array(TMAX+1).fill(-1);
+for(let t=0;t<TD;t++){const d=dateOf(t),i=(d.getUTCFullYear()-1938)*12+d.getUTCMonth()-5;V[t]=D.mon[i]??-1}
+for(let i=0;i<D.daily.length;i++)V[TD+i]=D.daily[i];
+{const a=Math.round((U('1954-08-01')-T0)/DAY);for(let t=a;t<a+31;t++)V[t]=D.carol[1]}
+const key=t=>{const d=dateOf(t);return d.toISOString().slice(0,t<TD?7:10)};
+const CL={};for(const c of D.closures)(CL[c[0]]=CL[c[0]]||[]).push(c);
+const ST={};for(const s of D.storms)ST[s[0]]=s;
+// where the clock should slow: near a day at or above 7 ft (daily era), inside a month at or above the gate level (monthly era)
+const HOT=new Uint8Array(TMAX+1);
+for(let t=0;t<=TMAX;t++){if(t<TD){if(V[t]>=GATE*100)HOT[t]=2}else if(V[t]>=700){for(let k=Math.max(TD,t-5);k<=Math.min(TMAX,t+5);k++)HOT[k]=1}}
+let T=0,playing=true,spdI=0,slowK=1,liveNow=null,liveFc=null;
+const SPD=[[365,'1 yr/s'],[30,'1 mo/s'],[7,'1 wk/s'],[1,'1 day/s']];
+
+// ---------- staff ----------
+const SVG='http://www.w3.org/2000/svg',st=$('staff'),SY=f=>410-f*(390/28),el=(n,a,txt)=>{const e=document.createElementNS(SVG,n);for(const k in a)e.setAttribute(k,a[k]);if(txt!=null)e.textContent=txt;st.appendChild(e);return e};
+el('rect',{x:10,y:SY(28),width:34,height:SY(0)-SY(28),fill:'#fff',stroke:'#13283A'});
+const wat=el('rect',{x:10.5,y:SY(0),width:33,height:0,fill:'#9CC3D8'});
+for(let f=0;f<=28;f+=2){el('line',{x1:10,x2:f%4?14:17,y1:SY(f),y2:SY(f),stroke:'#13283A'});if(f%4===0)el('text',{x:9,y:SY(f)+3,'font-size':7.5,'text-anchor':'end',fill:'#4A5A66'},f)}
+for(const [nm,ft,g] of D.levels){el('line',{x1:44,x2:166,y1:SY(ft),y2:SY(ft),stroke:g?'#B3362C':'#3B6E8F','stroke-width':g?1.6:.7});
+  const w=nm.split(/, | /),half=Math.ceil(nm.length/2);let a=nm,b='';if(nm.length>17){let i=nm.lastIndexOf(' ',17);a=nm.slice(0,i);b=nm.slice(i+1)}
+  el('text',{x:63,y:SY(ft)-(b?13:3),'font-size':9.5,'font-weight':g?700:400,fill:g?'#B3362C':'#13283A'},a);if(b)el('text',{x:63,y:SY(ft)-3,'font-size':9.5,'font-weight':g?700:400,fill:g?'#B3362C':'#13283A'},b);
+  el('text',{x:166,y:SY(ft)+9,'font-size':8.5,'text-anchor':'end',fill:'#4A5A66'},ft.toFixed(2).replace(/\.?0+$/,'')+' ft')}
+const topm=el('line',{x1:10,x2:44,y1:SY(0),y2:SY(0),stroke:'#1F4E6B','stroke-width':2});
+const nowm=el('g',{}),fcm=el('g',{});
+function mark(g,ft,label,dash){while(g.firstChild)g.removeChild(g.firstChild);if(ft==null)return;const mk=(n,a,t)=>{const e=document.createElementNS(SVG,n);for(const k in a)e.setAttribute(k,a[k]);if(t!=null)e.textContent=t;g.appendChild(e)};
+  const y=SY(ft);mk('line',{x1:10,x2:44,y1:y,y2:y,stroke:'#13283A','stroke-width':1.2,'stroke-dasharray':dash||''});mk('polygon',{points:`44,${y} 52,${y-4.5} 52,${y+4.5}`,fill:dash?'#fff':'#13283A',stroke:'#13283A','stroke-width':1})}
+el('text',{x:4,y:426,'font-size':8.5,fill:'#4A5A66'},'feet above the gauge\u2019s zero');const leg=el('g',{});
+
+function legend(){while(leg.firstChild)leg.removeChild(leg.firstChild);const mk=(n,a,t)=>{const e=document.createElementNS(SVG,n);for(const k in a)e.setAttribute(k,a[k]);if(t!=null)e.textContent=t;leg.appendChild(e)};
+  if(liveNow!=null){mk('polygon',{points:'62,398 70,393.5 70,402.5',fill:'#13283A',stroke:'#13283A'});mk('text',{x:74,y:401,'font-size':8.5,fill:'#13283A'},'now')}
+  if(liveFc!=null){mk('polygon',{points:'98,398 106,393.5 106,402.5',fill:'#fff',stroke:'#13283A'});mk('text',{x:110,y:401,'font-size':8.5,fill:'#13283A'},'forecast peak')}}
+// ---------- map ----------
+const map=L.map('map',{scrollWheelZoom:false,zoomControl:true}).fitBounds([[41.806,-71.422],[41.832,-71.396]]);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'}).addTo(map);
+fetch('../rings.geojson').then(r=>r.json()).then(g=>L.geoJSON(g,{interactive:false,style:f=>({color:f.properties.colour,weight:1,fillColor:f.properties.colour,fillOpacity:f.properties.ring==='inside'?.10:.22})}).addTo(map)).catch(()=>{});
+const CLAY=[];let shown=-1;
+fetch('../compound.geojson').then(r=>r.json()).then(g=>{for(const f of g.features)CLAY.push([f.properties.level_mllw,L.geoJSON(f,{interactive:false,style:{color:'#1F4E6B',weight:.8,fillColor:'#1F4E6B',fillOpacity:.55}})]);CLAY.sort((a,b)=>a[0]-b[0]);render()}).catch(()=>{});
+function setFlood(v){let i=-1;for(let k=0;k<CLAY.length;k++)if(v!=null&&v>=CLAY[k][0])i=k;if(i===shown)return;if(shown>=0)map.removeLayer(CLAY[shown][1]);if(i>=0)CLAY[i][1].addTo(map);shown=i}
+
+// ---------- readout ----------
+function compRow(v){let r=null;for(const c of D.comp)if(v>=c[0])r=c;return r}
+const ft=v=>v.toFixed(v>=10?1:2).replace(/(\.\d)0$/,'$1');
+function render(){
+  const t=Math.round(T),d=dateOf(t),raw=V[t],v=raw<0?null:raw/100,monthly=t<TD,k=key(t),pre=t<TB;
+  $('date').textContent=monthly?MON[d.getUTCMonth()]+' '+d.getUTCFullYear():DOW[d.getUTCDay()]+' '+d.getUTCDate()+' '+MON[d.getUTCMonth()].slice(0,3)+' '+d.getUTCFullYear();
+  $('kind').textContent=v==null?'no record':monthly?(k===D.carol[0]?'peak of the storm (gauge not recording)':'highest water that month'):'high water that day'+(t>=TPRE?' · preliminary':'');
+  $('val').innerHTML=v==null?'&mdash;':ft(v)+' <small>ft</small>';
+  const g=$('gap');if(v==null){g.textContent='';g.className=''}else if(v>=GATE){g.textContent=ft(v-GATE)+' ft above the level where the gates close';g.className='over'}else{g.textContent=ft(GATE-v)+' ft below the level where the gates close';g.className=''}
+  const h=v==null?0:Math.min(28,Math.max(0,v));wat.setAttribute('y',SY(h));wat.setAttribute('height',SY(0)-SY(h));wat.setAttribute('fill',v!=null&&v>=GATE?'#B3362C':'#9CC3D8');topm.setAttribute('y1',SY(h));topm.setAttribute('y2',SY(h));
+  const Ls=[];const s=ST[k]||(!monthly&&ST[k.slice(0,7)]&&0);
+  if(s)Ls.push(`<p><span class="tag red">${s[1]}</span>${s[3]||''}</p>`);
+  if(v!=null&&v>=GATE)Ls.push(pre?'<p><span class=tag>No barrier yet</span>Completed in 1966.</p>':'<p><span class=tag>Barrier in place</span>Above the closing level: this is the water the gates are shut against.</p>');
+  else if(pre&&v!=null)Ls.push('<p class=m>No barrier yet (completed 1966).</p>');
+  const cs=monthly?null:CL[k];
+  if(cs)for(const c of cs){const ty=c[1]==='FC'?'Gates closed: flood':c[1]==='W'?'Gates closed: WaterFire':c[1]==='T'?'Gates closed: test':'Gates closed: flood and WaterFire';
+    Ls.push(`<p><span class=tag>${ty}</span>${c[2]&&c[3]?c[2]+'&ndash;'+c[3]:''}${c[4]!=null?' ('+c[4]+' h)':''}${c[5]?' · '+c[5]+' pump'+(c[5]>1?'s':'')+' ran':''}${c[6]!=null?' · outside '+c[6]+' ft':''}${c[7]!=null?', inside '+c[7]+' ft':''}${c[8]!=null?' · rivers '+Math.round(c[8]).toLocaleString()+' cfs':''}</p>`)}
+  if(v!=null){const n=D.nws,cat=v>=n.major?'major':v>=n.moderate?'moderate':v>=n.minor?'minor':null;if(cat)Ls.push(`<p class=m>National Weather Service scale for this gauge: ${cat} coastal flooding.</p>`)}
+  const c=v==null?null:compRow(v);
+  if(c)Ls.push(`<p class=m>Model: without the barrier, water this high would stand on ${v>12?'more than ':'about '}${c[1]} acres inside the line (${c[2]}% of the protected area)${c[3].length?', reaching '+c[3].slice(0,3).join(', '):''}${c[4].length?' and the '+c[4].join(' and '):''}.${v>12?' The model stops at 12 ft.':''}</p>`);
+  $('lines').innerHTML=Ls.join('');
+  setFlood(v);$('maplab').textContent=c?'Dark blue: where water at '+c[0]+' ft would stand inside the line without the barrier (model, today’s ground). Green outline: the area the barrier protects. Red and orange: flood zones outside it.':'Green: the area the barrier protects. Red and orange: flood zones outside it. Nothing inside the line is under water at this height.';
+  drawTL();
+}
+
+// ---------- timeline ----------
+const tl=$('tl'),tx=tl.getContext('2d');let cols=null,cw=0;
+function sizeTL(){const dpr=Math.min(devicePixelRatio||1,2);tl.width=tl.clientWidth*dpr;tl.height=tl.clientHeight*dpr;cw=tl.clientWidth;cols=new Float32Array(cw);for(let x=0;x<cw;x++){let m=-1;const a=Math.floor(x/cw*(TMAX+1)),b=Math.max(a+1,Math.floor((x+1)/cw*(TMAX+1)));for(let t=a;t<b&&t<=TMAX;t++)if(V[t]>m)m=V[t];cols[x]=m/100}drawTL()}
+function drawTL(){if(!cols)return;const dpr=tl.width/cw,H=tl.clientHeight,base=H-16,top=6,Y=f=>base-(Math.min(f,18)/18)*(base-top);tx.setTransform(dpr,0,0,dpr,0,0);tx.clearRect(0,0,cw,H);
+  const xb=TB/(TMAX+1)*cw;tx.fillStyle='rgba(47,111,79,.08)';tx.fillRect(xb,0,cw-xb,base);
+  for(let x=0;x<cw;x++){const f=cols[x];if(f<0)continue;tx.fillStyle=f>=GATE?'#B3362C':'#9CC3D8';tx.fillRect(x,Y(f),1,base-Y(f))}
+  tx.strokeStyle='#13283A';tx.lineWidth=1;tx.setLineDash([4,3]);tx.beginPath();tx.moveTo(0,Y(GATE));tx.lineTo(cw,Y(GATE));tx.stroke();tx.setLineDash([]);
+  tx.font='10px "Public Sans",sans-serif';tx.fillStyle='#4A5A66';tx.textAlign='left';tx.fillText('gates close, 7.68 ft',3,Y(GATE)-3);
+  tx.strokeStyle='#2F6F4F';tx.beginPath();tx.moveTo(xb,0);tx.lineTo(xb,base);tx.stroke();tx.fillStyle='#2F6F4F';tx.fillText('barrier, 1966',xb+4,11);
+  tx.fillStyle='#4A5A66';tx.textAlign='center';for(let y=1940;y<=2020;y+=10){const x=(Date.UTC(y,0,1)-T0)/DAY/(TMAX+1)*cw;tx.fillRect(x,base,1,3);tx.fillText(y,x,H-3)}
+  const xp=T/(TMAX+1)*cw;tx.fillStyle='#13283A';tx.fillRect(xp-1,0,2,base+3);
+}
+function seek(e){const r=tl.getBoundingClientRect();T=Math.max(0,Math.min(TMAX,(e.clientX-r.left)/r.width*(TMAX+1)));render()}
+let drag=false;tl.addEventListener('pointerdown',e=>{drag=true;tl.setPointerCapture(e.pointerId);pause();seek(e)});tl.addEventListener('pointermove',e=>{if(drag)seek(e)});tl.addEventListener('pointerup',()=>drag=false);
+
+// ---------- controls ----------
+function pause(){playing=false;$('play').textContent='Play';$('play').classList.add('on');$('slow').textContent=''}
+$('play').onclick=()=>{if(playing)pause();else{if(T>=TMAX)T=0;playing=true;$('play').textContent='Pause';$('play').classList.remove('on')}};
+$('spd').onclick=()=>{spdI=(spdI+1)%SPD.length;$('spd').textContent=SPD[spdI][1]};
+const step=n=>{pause();const t=Math.round(T);if(t<TD||(n<0&&t===TD)){const d=dateOf(t);T=Math.round((Date.UTC(d.getUTCFullYear(),d.getUTCMonth()+n,1)-T0)/DAY)}else T=t+n;T=Math.max(0,Math.min(TMAX,T));render()};
+$('prev').onclick=()=>step(-1);$('next').onclick=()=>step(1);$('today').onclick=()=>{pause();T=TMAX;render()};
+for(const s of D.storms){const b=document.createElement('button');b.textContent=s[1]+(/\d{4}/.test(s[1])?'':' '+s[0].slice(0,4));b.onclick=()=>{pause();T=Math.round((U(s[0])-T0)/DAY)+(s[0].length===7?14:0);render()};$('chips').appendChild(b)}
+let last=performance.now();
+function frame(now){const dt=Math.min(.1,(now-last)/1000);last=now;
+  if(playing){const t=Math.round(T),base=SPD[spdI][0],cap=HOT[t]===2?12:HOT[t]===1?2.5:1e9,sp=Math.min(base,cap);$('slow').textContent=sp<base?'clock slowed near high water':'';T+=sp*dt;if(T>=TMAX){T=TMAX;pause()}render()}
+  requestAnimationFrame(frame)}
+$('play').textContent='Pause';$('play').classList.remove('on');
+{const m=location.hash.match(/^#(\d{4}-\d{2}(-\d{2})?)$/);if(m){T=Math.max(0,Math.min(TMAX,Math.round((U(m[1])-T0)/DAY)+(m[1].length===7?14:0)));pause()}}
+addEventListener('resize',sizeTL);sizeTL();render();requestAnimationFrame(frame);
+
+// ---------- now and forecast (NOAA and the National Weather Service; not made here) ----------
+const tm=s=>new Date(s).toLocaleString('en-US',{weekday:'short',hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});
+async function live(){const out=[];
+  try{const j=await (await fetch('https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=8454000&product=water_level&datum=MLLW&units=english&time_zone=gmt&format=json&application=insidetheline_replay')).json();const r=j.data[0],v=parseFloat(r.v);
+    if(isFinite(v)){liveNow=v;mark(nowm,v,'now');legend();out.push(`<b>Now:</b> ${ft(v)} ft at ${tm(r.t.replace(' ','T')+'Z')}, ${ft(Math.abs(GATE-v))} ft ${v>=GATE?'above':'below'} the closing level.`)}}catch(e){}
+  try{const j=await (await fetch('https://api.water.noaa.gov/nwps/v1/gauges/FOXR1/stageflow/forecast')).json();let best=null;for(const r of j.data||[])if(r.primary>-900&&new Date(r.validTime)>new Date()&&(!best||r.primary>best.primary))best=r;
+    if(best){liveFc=best.primary;mark(fcm,best.primary,'forecast peak','3 2');legend();out.push(`<b>Forecast:</b> the National Weather Service expects a peak of ${ft(best.primary)} ft on ${tm(best.validTime)} over the next three days${best.primary>=GATE?' — <b style="color:var(--out)">above the closing level</b>':', '+ft(GATE-best.primary)+' ft below the closing level'}.`)}}catch(e){}
+  $('live').innerHTML=out.length?out.join('<br>'):'The live reading is not available right now.'}
+live();
+})();
+</script>
+</body>
+</html>

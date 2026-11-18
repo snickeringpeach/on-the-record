@@ -6,19 +6,19 @@
   },
   {
    "label": "Trash or Recycling Bins or Carts",
-   "count": 2582
+   "count": 2585
   },
   {
    "label": "Missed Trash Day Pick-up Issue",
-   "count": 1722
+   "count": 1737
   },
   {
    "label": "Pothole Report",
-   "count": 1515
+   "count": 1524
   },
   {
    "label": "Parking Issues to Report",
-   "count": 1011
+   "count": 1017
   },
   {
    "label": "Report Un-shoveled Sidewalks",
@@ -28,27 +28,27 @@
  "origins_ytd": [
   {
    "label": "Web",
-   "count": 15226
+   "count": 15284
   },
   {
    "label": "Phone",
-   "count": 4764
+   "count": 4789
   },
   {
    "label": null,
-   "count": 1165
+   "count": 1170
   },
   {
    "label": "Guest Support",
-   "count": 1137
+   "count": 1162
   },
   {
    "label": "Office Visit",
-   "count": 222
+   "count": 223
   },
   {
    "label": "Email",
-   "count": 130
+   "count": 132
   }
  ]
 }
