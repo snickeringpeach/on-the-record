@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Barrington, Warren and Bristol, press play — Inside the Line</title>
+<link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+@font-face{font-family:"Source Serif 4";src:url(../../fonts/source-serif-4-latin-opsz-normal.woff2) format("woff2");font-weight:200 900;font-display:swap}
+@font-face{font-family:"Public Sans";src:url(../../fonts/public-sans-latin-wght-normal.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{--ink:#13283A;--mute:#4A5A66;--hair:#DDE3E0;--bg:#F4F6F3;--paper:#FFFFFF;--water:#1F4E6B;--wet:#9CC3D8;--out:#B3362C;--in:#2F6F4F;--serif:"Source Serif 4",Georgia,serif;--sans:"Public Sans",system-ui,sans-serif}
+*{box-sizing:border-box;min-width:0}html,body{overflow-x:hidden}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--serif)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 14px}.top{border-bottom:1px solid var(--ink);font:15px/1.4 var(--sans);padding:10px 0}
+.top a{font-weight:700;text-decoration:none;color:var(--ink)}
+.verdict{font:14px/1.45 var(--sans);background:var(--paper);border:1px solid var(--ink);border-left:6px solid var(--out);padding:8px 10px;margin:12px 0;overflow-wrap:anywhere}
+.verdict.met{border-left-color:var(--in)}
+h1{font:600 27px/1.15 var(--serif);margin:12px 0 4px}.dek{margin:0 0 12px;color:var(--mute);font-size:15px}
+.grid{display:grid;grid-template-columns:104px minmax(0,1fr);gap:12px;align-items:start}
+@media(min-width:860px){.grid{grid-template-columns:130px 300px minmax(0,1fr)}}
+.card{background:var(--paper);border:1px solid var(--ink);padding:10px 12px;font:14px/1.45 var(--sans);overflow-wrap:anywhere}
+#staff{height:300px;position:relative;background:var(--paper);border:1px solid var(--ink);display:flex}
+#staff .col{flex:1;position:relative;border-right:1px solid var(--hair)}#staff .col:last-child{border-right:0}
+#staff .fillw{position:absolute;left:0;right:0;bottom:0;background:var(--wet)}
+#staff .now{position:absolute;left:0;right:0;border-top:2px solid var(--water);font:700 11px/1.1 var(--sans);color:var(--water);padding-left:2px}
+#staff .hd{position:absolute;top:2px;left:2px;font:10px/1.1 var(--sans);color:var(--mute)}
+select,button{font:14px var(--sans);padding:6px 8px;border:1px solid var(--ink);background:var(--paper);color:var(--ink);max-width:100%}
+button.play{background:var(--ink);color:#fff;min-width:74px}
+#clock{font:700 20px/1.2 var(--sans);margin-top:8px}#lvl{font:600 19px/1.2 var(--serif)}#kind{color:var(--mute);font-size:12px}
+input[type=range]{width:100%;margin-top:8px}
+#map{height:440px;border:1px solid var(--ink);grid-column:1/-1}@media(min-width:860px){#map{grid-column:auto;height:560px}}
+.lists{display:grid;grid-template-columns:1fr;gap:12px;margin:12px 0 30px}@media(min-width:860px){.lists{grid-template-columns:1fr 1fr}}
+.lists h3{font:700 13px/1.2 var(--sans);text-transform:uppercase;letter-spacing:.04em;margin:0 0 6px}
+ol{margin:0;padding-left:22px}li{margin:2px 0;cursor:pointer}li.under{color:var(--out);font-weight:600}
+.m{color:var(--mute)}.lab{font:12px/1.4 var(--sans);color:var(--mute);margin:6px 0}
+.leg{display:inline-block;width:12px;height:12px;vertical-align:-2px;margin-right:4px;border:1px solid var(--ink)}
+table{border-collapse:collapse;width:100%;font:13px/1.35 var(--sans)}td,th{padding:3px 4px;border-bottom:1px solid var(--hair);text-align:right}td:first-child,th:first-child{text-align:left}
+</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto+Mono&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/fold.css"><script defer src="/_vercel/insights/script.js"></script></head><body class="potr-itl"><div class="potr-mast"><a class="name" href="/">Providence, on the record</a><div class="tagline">Liam Freaney · reporting built on the public record</div><nav aria-label="Providence, on the record"><a href="/off-the-roll/">Off the Roll</a><a href="/housing/">Housing</a><a href="/311/">311</a><a href="/downtown-ledger/">Downtown Ledger</a><a href="/inside-the-line/" class="on" aria-current="page">Inside the Line</a><a href="/coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="/about/">About</a></nav></div>
+<div class=top><div class=wrap><a href="../../">Inside the Line</a> · the upper Bay, press play <span class=m>(local build, not published)</span></div></div>
+<div class=wrap>
+<div class=verdict id=verdict></div>
+<h1>Barrington, Warren and Bristol, press play</h1>
+<p class=dek>A filling model on lidar ground: the order the water reaches the land and the roads it closes. Not currents, not waves, not rain. Providence's barrier is north of these towns and shelters none of them.</p>
+<div class=grid>
+ <div><div id=staff></div><div class=lab>Water at the two gauges</div></div>
+ <div class=card>
+  <select id=storm></select>
+  <div id=kind></div>
+  <div id=clock>—</div><div id=lvl>—</div>
+  <div style="margin-top:8px"><button class=play id=play>Play</button> <label><input type=checkbox id=fema> FEMA's surveyed Sandy extent</label></div>
+  <input type=range id=slider min=0 max=1 value=0>
+  <div class=lab><span class=leg style="background:#2E6E96"></span>wet this hour <span class=leg style="background:#9CC3D8"></span>wet earlier <span class=leg style="background:none;border-color:#B3362C"></span>FEMA verified</div>
+  <div id=place class=lab>Tap the map to follow a place.</div>
+ </div>
+ <div id=map></div>
+</div>
+<div class=lists>
+ <div class=card><h3>What closes first</h3><ol id=roads></ol></div>
+ <div class=card><h3 id=fh>Follow the road through both towns</h3><div id=follow></div></div>
+ <div class=card><h3>Buildings the water reaches, this hour</h3><div id=bld></div><div class=lab>From the statewide ranking's curve for each town (10 m ground), read at the level at the town's centre. A count by town; no address.</div></div>
+ <div class=card><h3>What flood insurance paid</h3><div id=claims></div><div class=lab>Claims paid by census tract and event (OpenFEMA, through the who-pays flood map). Counts by tract; the town is taken from the tract's number. "In zone" = buildings in the mapped 1% flood zone; "all" = every claim 2010-25.</div></div>
+ <div class=card style="grid-column:1/-1"><h3>How sure</h3><div id=sure class=lab></div></div>
+</div>
+</div>
+<script>
+(async function(){
+const D=await (await fetch('data.json')).json();
+const ld=src=>new Promise(r=>{const i=new Image();i.onload=()=>{const c=document.createElement('canvas');c.width=i.width;c.height=i.height;const x=c.getContext('2d');x.drawImage(i,0,0);r(x.getImageData(0,0,i.width,i.height).data)};i.src=src});
+const [SG,GR]=await Promise.all([ld('surge.png'),ld('ground.png')]);
+const NX=D.nx,NY=D.ny,[S,N,W,E]=D.box,LAD=D.ladder,ck=D.check;
+const pc=x=>Math.round(x*100)+'%';
+const vd=document.getElementById('verdict');vd.className='verdict'+(ck.verdict=='MET'?' met':'');
+vd.innerHTML=`<b>The registered check was ${ck.verdict}.</b> At Sandy's peak, with the level taken between the Newport and Providence gauges, the model wets ${pc(ck.prim.U1)} of the land FEMA's surveyed extent shows wet in Rhode Island's part of this map (bar 80%: ${ck.parts.U1}); ${pc(ck.prim.U2)} of the model's wet land was surveyed wet (bar 80%: ${ck.parts.U2}); ${ck.marks[0]} of ${ck.marks[1]} surveyed high-water marks sit within half a metre of the model's level at its edge (bar 5 of 6: ${ck.parts.U3}). Turn on FEMA's extent to see it beside the model.`;
+document.getElementById('sure').innerHTML=`By town, share of FEMA's wet land the model wets / share of the model's wet land FEMA shows wet: `+Object.entries(ck.towns).map(([k,v])=>`${k} ${pc(v.U1)} / ${pc(v.U2)}`).join('; ')+`.<br>Sandy's peaks: Newport ${ck.peaks.newport[0].toFixed(2)} m, Providence ${ck.peaks.providence[0].toFixed(2)} m (NAVD88). FEMA's extent is itself a surface drawn between surveyed marks, not a walked line.<br>The page plays a flat fill against each place's own level; the check ran the tilted fill exactly. Hurricane Carol (1954) is not played: Providence's gauge has no hourly record for it. 1938 has two surveyed levels and no clock; its rise and fall are drawn.`;
+// axis
+const kx=Math.cos(41.71*Math.PI/180),A=D.newport,B=D.providence,dx=(B[1]-A[1])*kx,dy=B[0]-A[0],L2=dx*dx+dy*dy;
+const tOf=(la,lo)=>Math.max(0,Math.min(1,(((lo-A[1])*kx)*dx+(la-A[0])*dy)/L2));
+const TR=new Float32Array(NY);for(let y=0;y<NY;y++)TR[y]=N-(y+.5)*D.dla;const TC=new Float32Array(NX);for(let x=0;x<NX;x++)TC[x]=W+(x+.5)*D.dlo;
+const map=L.map('map').fitBounds([[41.66,-71.35],[41.78,-71.24]]);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:17,attribution:'Tiles &copy; Esri'}).addTo(map);
+const BB=[[S,W],[N,E]];
+const cv=document.createElement('canvas');cv.width=NX;cv.height=NY;const cx=cv.getContext('2d');const img=cx.createImageData(NX,NY);
+let ov=L.imageOverlay(cv.toDataURL(),BB,{opacity:.85}).addTo(map);
+const fc=document.createElement('canvas');fc.width=NX;fc.height=NY;const fx=fc.getContext('2d');const fi=fx.createImageData(NX,NY);
+for(let i=0;i<NX*NY;i++){if(SG[4*i+2]>0&&SG[4*i]>0){const y=(i/NX)|0,x=i%NX;const e=(x>0&&SG[4*(i-1)+2]==0)||(x<NX-1&&SG[4*(i+1)+2]==0)||(y>0&&SG[4*(i-NX)+2]==0)||(y<NY-1&&SG[4*(i+NX)+2]==0);if(e){fi.data[4*i]=179;fi.data[4*i+1]=54;fi.data[4*i+2]=44;fi.data[4*i+3]=255}}}
+fx.putImageData(fi,0,0);const fov=L.imageOverlay(fc.toDataURL(),BB,{opacity:1});
+document.getElementById('fema').onchange=e=>e.target.checked?fov.addTo(map):map.removeLayer(fov);
+const sel=document.getElementById('storm');for(const k in D.storms){const o=document.createElement('option');o.value=k;o.textContent=D.storms[k].label;sel.appendChild(o)}
+let st='sandy',fr=0,timer=null,hl=null,P=null;
+const lev=(T,f,t)=>T.n[f]+t*(T.p[f]-T.n[f]);
+function fmt(s,t){if(s=='1938')return 'peak '+t;const d=new Date(t.replace(' ','T'));return d.toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric'})+' ET'}
+function staff(){const T=D.storms[st],el=document.getElementById('staff');const hi=5.2,y=v=>Math.max(0,Math.min(100,100*v/hi));
+ el.innerHTML=[['Newport',T.n[fr]],['Providence',T.p[fr]]].map(([n,v])=>`<div class=col><div class=hd>${n}</div><div class=fillw style="height:${y(v)}%"></div><div class=now style="bottom:${y(v)}%">${v.toFixed(2)} m</div></div>`).join('')}
+function wetAt(f){const T=D.storms[st];if(f<0)return null;const a=T.n[f],b=T.p[f];return (i,x,y)=>{const c=SG[4*i];if(c==255||c==0)return false;return LAD[c]<=a+tOf(TR[y],TC[x])*(b-a)+1e-6}}
+function draw(){const T=D.storms[st];const w=wetAt(fr),wp=wetAt(fr>0?fr-1:0);const a=img.data;let i=0;
+ for(let y=0;y<NY;y++)for(let x=0;x<NX;x++,i++){if(w(i,x,y)){const n=!wp(i,x,y);a[4*i]=n?46:156;a[4*i+1]=n?110:195;a[4*i+2]=n?150:216;a[4*i+3]=n?235:200}else a[4*i+3]=0}
+ cx.putImageData(img,0,0);ov.setUrl(cv.toDataURL());
+ document.getElementById('clock').textContent=fmt(st,T.t[fr]);document.getElementById('lvl').textContent=`Newport ${T.n[fr].toFixed(2)} m · Providence ${T.p[fr].toFixed(2)} m`;
+ document.getElementById('slider').value=fr;staff();roadsList();follow();bld();place()}
+function roadsList(){const T=D.storms[st];const ol=document.getElementById('roads');ol.innerHTML='';const seen=new Set();let n=0;
+ for(const [k,a,b] of T.roads){const r=D.roads[k];const nm=r.name;if(!nm||seen.has(nm))continue;seen.add(nm);if(++n>15)break;
+  const li=document.createElement('li');li.className=a<=fr&&(b==null||fr<b)?'under':'';li.textContent=`${nm} — ${fmt(st,T.t[a])}`+(b!=null?`, clears ${fmt(st,T.t[b])}`:'');
+  li.onclick=()=>{if(hl)map.removeLayer(hl);hl=L.polyline(r.line,{color:'#B3362C',weight:5}).addTo(map);map.fitBounds(hl.getBounds(),{maxZoom:16})};ol.appendChild(li)}
+ if(!n)ol.innerHTML='<li class=m>No public road goes under at this storm.</li>'}
+function follow(){const T=D.storms[st],el=document.getElementById('follow'),F=D.follow;if(!F.length){el.textContent=D.follow_name+' not found in the road data.';return}
+ let rows=[],dry=0;F.forEach((p,i)=>{let a=null,b=null;T.n.forEach((_,f)=>{if(lev(T,f,p.t)>=p.thr-1e-6){if(a==null)a=f;b=f}});if(a==null){dry++;return}
+  rows.push(`<li class="${a<=fr&&fr<=b?'under':''}">${(i*0.25).toFixed(2)} km from the north end: under ${fmt(st,T.t[a])}`+(b+1<T.n.length?`, clears ${fmt(st,T.t[b+1])}`:'')+'</li>')});
+ el.innerHTML=`${D.follow_name}, north to south, in 250 m pieces (${F.length} pieces): `+(rows.length?`<ol>${rows.join('')}</ol>`:'')+`<div class=lab>${dry} of ${F.length} pieces stay dry at this storm.</div>`}
+function bld(){const T=D.storms[st];let h='<table><tr><th>town</th><th>level there</th><th>buildings wet</th><th>of</th></tr>';
+ for(const [nm,c] of Object.entries(D.curves)){const ft=lev(T,fr,c.t)/0.3048;let w=0;if(ft>=c.ft[0]){let j=c.ft.length-1;for(let q=0;q<c.ft.length-1;q++)if(ft<c.ft[q+1]){j=q;break}
+   w=j>=c.ft.length-1?c.wet[c.wet.length-1]:Math.round(c.wet[j]+(c.wet[j+1]-c.wet[j])*(ft-c.ft[j])/(c.ft[j+1]-c.ft[j]))}
+  h+=`<tr><td>${nm}</td><td>${ft.toFixed(1)} ft</td><td>${ft<c.ft[0]?'under '+c.wet[0]:w.toLocaleString()}</td><td>${c.buildings.toLocaleString()}</td></tr>`}
+ document.getElementById('bld').innerHTML=h+'</table>'}
+document.getElementById('claims').innerHTML='<table><tr><th>tract (town)</th><th>in zone</th><th>Mar 2010</th><th>Sandy</th><th>all</th></tr>'+D.claims.map(c=>`<tr><td>${c.tract} (${c.town})</td><td>${c.in_zone}</td><td>${c.mar2010}</td><td>${c.sandy}</td><td>${c.all}</td></tr>`).join('')+'</table>';
+function place(){const el=document.getElementById('place');if(!P)return;const T=D.storms[st];const g=GR[4*P.i];const gm=g==255?null:g/10-1;const c=SG[4*P.i];
+ let first=null;if(c!=255&&c!=0)for(let f=0;f<T.n.length;f++)if(LAD[c]<=lev(T,f,P.t)+1e-6){first=f;break}
+ let pk=0;T.n.forEach((_,f)=>{pk=Math.max(pk,lev(T,f,P.t))});
+ let best=null,bd=1e9;for(const [la,lo,k] of D.pts){const d=(la-P.la)**2+((lo-P.lo)*kx)**2;if(d<bd){bd=d;best=k}}
+ const rk=T.roads.find(x=>x[0]==best);const rn=best!=null?(D.roads[best].name||'the nearest road'):'the nearest road';
+ el.innerHTML=`<b>This place</b> (ground ${gm==null?'unknown':gm.toFixed(1)+' m'}; peak level here ${pk.toFixed(2)} m): `+(c==0?'open water on the map.':first==null?'stays dry at this storm.':`water arrives ${fmt(st,T.t[first])}; at the peak the model puts it about ${Math.max(0,pk-gm).toFixed(1)} m deep [model].`)+` Nearest road, ${rn}: `+(rk?`goes under ${fmt(st,T.t[rk[1]])}.`:'stays open.')}
+map.on('click',e=>{const la=e.latlng.lat,lo=e.latlng.lng;const y=Math.floor((N-la)/D.dla),x=Math.floor((lo-W)/D.dlo);if(y<0||y>=NY||x<0||x>=NX)return;P={la,lo,i:y*NX+x,t:tOf(la,lo)};
+ if(window._pm)map.removeLayer(window._pm);window._pm=L.circleMarker([la,lo],{radius:6,color:'#13283A',weight:2,fillColor:'#fff',fillOpacity:1}).addTo(map);place()});
+function setStorm(s){st=s;fr=0;const T=D.storms[s];document.getElementById('kind').textContent=T.kind;document.getElementById('slider').max=T.n.length-1;draw()}
+sel.onchange=e=>{stop();setStorm(e.target.value)};
+document.getElementById('slider').oninput=e=>{fr=+e.target.value;draw()};
+function stop(){clearInterval(timer);timer=null;document.getElementById('play').textContent='Play'}
+document.getElementById('play').onclick=()=>{if(timer)return stop();document.getElementById('play').textContent='Pause';timer=setInterval(()=>{const T=D.storms[st];if(fr>=T.n.length-1)return stop();fr++;draw()},260)};
+const Q=new URLSearchParams(location.search);const s0=Q.get('s')||'sandy';sel.value=s0;setStorm(s0);
+if(Q.get('f')){fr=Math.min(+Q.get('f'),D.storms[st].n.length-1);draw()}
+if(Q.get('tap')){const [la,lo]=Q.get('tap').split(',').map(Number);map.fire('click',{latlng:L.latLng(la,lo)})}
+})();
+</script></body></html>

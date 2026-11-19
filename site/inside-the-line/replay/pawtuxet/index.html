@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>The Pawtuxet, March 2010, press play — Inside the Line</title>
+<link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+@font-face{font-family:"Source Serif 4";src:url(../../fonts/source-serif-4-latin-opsz-normal.woff2) format("woff2");font-weight:200 900;font-display:swap}
+@font-face{font-family:"Public Sans";src:url(../../fonts/public-sans-latin-wght-normal.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{--ink:#13283A;--mute:#4A5A66;--rule:#C6CFCB;--bg:#F4F6F3;--paper:#FFFFFF;--water:#1F4E6B;--wet:#9CC3D8;--out:#B3362C;--serif:"Source Serif 4",Georgia,serif;--sans:"Public Sans",system-ui,sans-serif}
+*{box-sizing:border-box;min-width:0}html,body{overflow-x:hidden}.card,.verdict{overflow-wrap:anywhere}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--serif)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 14px}.top{border-bottom:1px solid var(--ink);font:15px/1.4 var(--sans);padding:10px 0}
+.top a{font-weight:700;text-decoration:none;color:var(--ink)}
+.verdict{font:14px/1.45 var(--sans);background:var(--paper);border:1px solid var(--out);border-left:6px solid var(--out);padding:8px 10px;margin:12px 0}
+h1{font:600 28px/1.15 var(--serif);margin:12px 0 4px}.dek{margin:0 0 12px;color:var(--mute);font-size:15px}
+.grid{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;align-items:start}
+@media(min-width:860px){.grid{grid-template-columns:120px 300px minmax(0,1fr)}}
+.card{background:var(--paper);border:1px solid var(--ink);padding:10px 12px;font:14px/1.45 var(--sans)}
+#staff{height:300px;position:relative;background:var(--paper);border:1px solid var(--ink)}
+#staff .fillw{position:absolute;left:0;right:0;bottom:0;background:var(--wet);transition:height .12s}
+#staff .mk{position:absolute;left:0;right:0;border-top:1px dashed var(--mute);font:10px/1.1 var(--sans);color:var(--mute);padding-left:3px}
+#staff .now{position:absolute;left:0;right:0;border-top:2px solid var(--water);font:700 12px/1.1 var(--sans);color:var(--water);padding-left:3px}
+button{font:14px var(--sans);padding:6px 8px;border:1px solid var(--ink);background:var(--paper);color:var(--ink)}
+button.play{background:var(--ink);color:#fff;min-width:74px}
+#clock{font:700 20px/1.2 var(--sans);margin-top:4px}#lvl{font:600 26px/1.1 var(--serif)}#kind{color:var(--mute);font-size:12px}
+input[type=range]{width:100%;margin-top:8px}label{display:block;margin-top:6px}
+#map{height:420px;border:1px solid var(--ink);grid-column:1/-1}@media(min-width:860px){#map{grid-column:auto;height:520px}}
+.lists{display:grid;grid-template-columns:1fr;gap:12px;margin:12px 0 30px}@media(min-width:860px){.lists{grid-template-columns:1fr 1fr}}
+.lists h3{font:700 13px/1.2 var(--sans);text-transform:uppercase;letter-spacing:.04em;margin:0 0 6px}
+ol,ul{margin:0;padding-left:20px}li{margin:2px 0}ol li{cursor:pointer}li.under{color:var(--out);font-weight:600}
+.m{color:var(--mute)}.lab{font:12px/1.4 var(--sans);color:var(--mute);margin:6px 0}
+.leg{display:inline-block;width:12px;height:12px;vertical-align:-2px;margin-right:4px;border:1px solid var(--ink)}
+table{border-collapse:collapse;width:100%;font:13px/1.35 var(--sans)}td,th{text-align:right;padding:2px 4px;border-bottom:1px solid var(--rule)}td:first-child,th:first-child{text-align:left}
+.tl{background:none;border:none;font:700 11px var(--sans);color:var(--ink);text-shadow:0 0 3px #fff,0 0 3px #fff}
+</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto+Mono&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/fold.css"><script defer src="/_vercel/insights/script.js"></script></head><body class="potr-itl"><div class="potr-mast"><a class="name" href="/">Providence, on the record</a><div class="tagline">Liam Freaney · reporting built on the public record</div><nav aria-label="Providence, on the record"><a href="/off-the-roll/">Off the Roll</a><a href="/housing/">Housing</a><a href="/311/">311</a><a href="/downtown-ledger/">Downtown Ledger</a><a href="/inside-the-line/" class="on" aria-current="page">Inside the Line</a><a href="/coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="/about/">About</a></nav></div>
+<div class=top><div class=wrap><a href="../../">Inside the Line</a> · The Pawtuxet, March 2010 <span class=m>(local build, not published)</span></div></div>
+<div class=wrap>
+<div class=verdict id=verdict></div>
+<h1>The Pawtuxet, March 2010 — press play</h1>
+<p class=dek>Not a model of ours: the U.S. Geological Survey's published flood maps for this river, played against the Cranston gauge's own record, hour by hour. The maps show today's river, not 2010's.</p>
+<div class=grid>
+ <div><div id=staff></div><div class=lab>The gauge at Cranston</div></div>
+ <div class=card>
+  <div id=kind>Measured clock — gauge 01116500, the highest reading in each hour</div>
+  <div id=clock>—</div><div id=lvl>—</div>
+  <div style="margin-top:8px"><button class=play id=play>Play</button></div>
+  <input type=range id=slider min=0 max=1 value=0>
+  <label><input type=checkbox id=fema> The mapped 1%-a-year flood zone</label>
+  <label><input type=checkbox id=trc> Claims paid, by census tract</label>
+  <div class=lab><span class=leg style="background:#2E6E96"></span>wet this hour <span class=leg style="background:#9CC3D8"></span>wet earlier <span class=leg style="background:#C9D6DC"></span>the river <span class=leg style="background:rgba(179,54,44,.35);border-color:#B3362C"></span>1% zone</div>
+  <div id=place class=lab>Tap the map to follow a place.</div>
+ </div>
+ <div id=map></div>
+</div>
+<div class=lists>
+ <div class=card><h3>What went under, in order</h3><ol id=roads></ol></div>
+ <div class=card><h3>The plants, the mall, the interstate</h3><ul id=places></ul><div class=lab id=i95></div></div>
+ <div class=card><h3>The map beside the water</h3><div id=zone></div></div>
+ <div class=card><h3>How sure</h3><div id=sure class=lab></div></div>
+</div>
+</div>
+<script>
+(async function(){
+const D=await (await fetch('data.json')).json();
+const ld=src=>new Promise(r=>{const i=new Image();i.onload=()=>{const c=document.createElement('canvas');c.width=i.width;c.height=i.height;const x=c.getContext('2d');x.drawImage(i,0,0);r(x.getImageData(0,0,i.width,i.height).data)};i.src=src});
+const WG=await ld('water.png');const NX=D.nx,NY=D.ny,[S,N,W,E]=D.box,T=D.t,LEV=D.lev,ck=D.check;
+document.getElementById('verdict').innerHTML=`<b>The registered check was ${ck.verdict}.</b> Read at the flood's edge within 15 m, the maps matched ${ck.matched} of ${ck.n} surveyed 2010 high-water marks to half a metre (the bar was four in five). Most misses find no mapped edge that close: the survey's file places a mark to about 30 m. Read within 30 m — not the registered rule — ${ck.edge30} of ${ck.n} match. The maps are also of a changed river: a dam at Pawtuxet Falls is gone and the levee at Warwick's plant is higher.`;
+const map=L.map('map',{zoomControl:true}).fitBounds([[41.716,-71.492],[41.76,-71.43]]);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:17,attribution:'Tiles &copy; Esri'}).addTo(map);
+const B=[[S,W],[N,E]];
+const cv=document.createElement('canvas');cv.width=NX;cv.height=NY;const cx=cv.getContext('2d');const img=cx.createImageData(NX,NY);
+let ov=L.imageOverlay(cv.toDataURL(),B,{opacity:.85}).addTo(map);
+const fc=document.createElement('canvas');fc.width=NX;fc.height=NY;const fx=fc.getContext('2d');const fi=fx.createImageData(NX,NY);
+for(let i=0;i<NX*NY;i++){if(WG[4*i+1]>0){fi.data[4*i]=179;fi.data[4*i+1]=54;fi.data[4*i+2]=44;fi.data[4*i+3]=70}}
+fx.putImageData(fi,0,0);const fov=L.imageOverlay(fc.toDataURL(),B,{opacity:1});
+document.getElementById('fema').onchange=e=>e.target.checked?fov.addTo(map):map.removeLayer(fov);
+const tl=L.layerGroup();for(const t of D.tracts){if(!t.claims)continue;const p=L.polygon(t.rings,{color:'#13283A',weight:1.5,fill:false}).addTo(tl);
+ L.marker(p.getBounds().getCenter(),{icon:L.divIcon({className:'tl',html:`${t.claims}<br><span style="font-weight:400">${t.rated_out} outside</span>`,iconSize:[70,26]})}).addTo(tl)}
+document.getElementById('trc').onchange=e=>e.target.checked?tl.addTo(map):map.removeLayer(tl);
+let fr=0,timer=null,hl=null,P=null;
+const sc=s=>Math.floor((s-7)*16+1e-6);const CH=16;
+const wet=(i,lv)=>WG[4*i]<255&&WG[4*i]<=sc(lv);
+function staff(){const el=document.getElementById('staff');const lo=4,hi=22,lv=LEV[fr];const y=v=>Math.max(0,Math.min(100,100*(v-lo)/(hi-lo)));
+ const mk=[['action',D.fs.action],['minor',D.fs.minor],['moderate',D.fs.moderate],['major',D.fs.major],['2010 peak',D.peak.file_stage]];
+ el.innerHTML=`<div class=fillw style="height:${y(lv)}%"></div>`+mk.map(([n,v])=>`<div class=mk style="bottom:${y(v)}%">${n} ${v}</div>`).join('')+`<div class=now style="bottom:${y(lv)}%">${lv.toFixed(1)} ft</div>`}
+function draw(){const lv=LEV[fr],pv=fr>0?LEV[fr-1]:LEV[0];const a=img.data,c=sc(lv),cp=sc(pv);
+ for(let i=0;i<NX*NY;i++){const v=WG[4*i];if(v==255){a[4*i+3]=0;continue}
+  if(v<=CH){a[4*i]=201;a[4*i+1]=214;a[4*i+2]=220;a[4*i+3]=230}
+  else if(v<=c){const n=v>cp;a[4*i]=n?46:156;a[4*i+1]=n?110:195;a[4*i+2]=n?150:216;a[4*i+3]=n?235:200}else a[4*i+3]=0}
+ cx.putImageData(img,0,0);ov.setUrl(cv.toDataURL());
+ document.getElementById('clock').textContent=T[fr];document.getElementById('lvl').textContent=lv.toFixed(1)+' ft at the gauge';
+ document.getElementById('slider').value=fr;staff();lists();place()}
+const sp=s=>s?`${T[s[0]]}`+(s[1]!=null?`, clear ${T[s[1]]}`:', still under at the end of the record'):null;
+const on=s=>s&&s[0]<=fr&&(s[1]==null||fr<s[1]);
+function lists(){const ol=document.getElementById('roads');ol.innerHTML='';const seen=new Set();let n=0;
+ for(const [k,a,b] of D.rd){const r=D.roads[k];const nm=r.name;if(!nm||seen.has(nm))continue;seen.add(nm);if(++n>18)break;
+  const li=document.createElement('li');li.className=on([a,b])?'under':'';li.textContent=`${nm} — ${sp([a,b])} (${r.river.toFixed(1)} ft)`;
+  li.onclick=()=>{if(hl)map.removeLayer(hl);hl=L.polyline(r.line,{color:'#B3362C',weight:5}).addTo(map);map.fitBounds(hl.getBounds(),{maxZoom:16})};ol.appendChild(li)}
+ document.getElementById('places').innerHTML=D.places.map(p=>`<li class="${on(p.span)?'under':''}"><b>${p.name}</b>: `+(p.span?`the maps reach it at ${p.stage.toFixed(1)} ft — ${sp(p.span)}.`:(p.stage?`the maps reach it at ${p.stage.toFixed(1)} ft, above this flood.`:'the maps keep it dry at every stage.'))+(p.surveyed_ft?` Surveyed 2010 water here: ${p.surveyed_ft.toFixed(1)} ft NAVD88 (${p.marks} marks).`:'')+(p.note?` <span class=m>${p.note}</span>`:'')+'</li>').join('');
+ const u=D.i95.filter(p=>p.span);const firstI=u.length?u.reduce((a,b)=>a.span[0]<b.span[0]?a:b):null;const lastI=u.length?u.reduce((a,b)=>(a.span[1]??1e9)>(b.span[1]??1e9)?a:b):null;
+ const MAIN=[['I- 295','Interstate 295'],['State Rte 2','Route 2 (Bald Hill Road)'],['Providence St','Providence Street (Route 33)'],['Warwick Ave','Warwick Avenue'],['East Ave','East Avenue'],['Greenwich Ave','Greenwich Avenue (Route 5)'],['Post Rd','Post Road']];
+ const mr=MAIN.map(([n,lab])=>{const r=D.rd.filter(x=>D.roads[x[0]].name==n);if(!r.length)return `<li>${lab}: stays open on the maps.</li>`;const x=r.reduce((a,b)=>a[1]<b[1]?a:b);return `<li class="${on([x[1],x[2]])?'under':''}">${lab}: ${sp([x[1],x[2]])} (${D.roads[x[0]].river.toFixed(1)} ft)</li>`}).join('');
+ document.getElementById('i95').innerHTML=`<b>Interstate 95</b>, south to north in ${D.i95.length} pieces of about 250 m: `+(u.length?`${u.length} go under on the maps; the first at ${T[firstI.span[0]]} (${firstI.stage.toFixed(1)} ft), the last clear ${lastI.span[1]!=null?T[lastI.span[1]]:'after the record ends'}; ${u.filter(p=>on(p.span)).length} under now.`:'none goes under on the maps.')+` ${D.i95_record}<br><b>Main roads on the maps</b><ul>${mr}</ul>`}
+function place(){const el=document.getElementById('place');if(!P)return;const i=P.i;const v=WG[4*i];let first=null;for(let f=0;f<LEV.length;f++){if(v<255&&v>CH&&v<=sc(LEV[f])){first=f;break}}
+ let best=null,bd=1e9;for(const [la,lo,k] of D.pts){const d=(la-P.la)**2+((lo-P.lo)*0.75)**2;if(d<bd){bd=d;best=k}}
+ const rk=D.rd.find(x=>x[0]==best);const rn=best!=null?(D.roads[best].name||'the nearest road'):'the nearest road';
+ el.innerHTML='<b>This place</b>: '+(v<=CH?'the river itself at action stage.':(first==null?(v==255?'outside every published map — dry to 22 ft.':`the maps reach it at ${(v/16+7).toFixed(1)} ft, above this flood.`):`water arrives ${T[first]} (the maps reach it at ${(v/16+7).toFixed(1)} ft).`))+(WG[4*i+1]>0?' Inside the mapped 1% zone.':' Outside the mapped 1% zone.')+` Nearest road, ${rn}: `+(rk?`under ${sp([rk[1],rk[2]])}.`:'stays open on the maps.')}
+map.on('click',e=>{const la=e.latlng.lat,lo=e.latlng.lng;const y=Math.floor((N-la)/D.dla),x=Math.floor((lo-W)/D.dlo);if(y<0||y>=NY||x<0||x>=NX)return;P={la,lo,i:y*NX+x};
+ if(window._pm)map.removeLayer(window._pm);window._pm=L.circleMarker([la,lo],{radius:6,color:'#13283A',weight:2,fillColor:'#fff',fillOpacity:1}).addTo(map);place()});
+const tt=D.tot;const top=D.tracts.filter(t=>t.claims).slice(0,8);
+document.getElementById('zone').innerHTML=`<p style="margin:0 0 6px">At the peak the maps put <b>${tt.wet_ha.toFixed(0)} hectares</b> of land under water along this reach; <b>${tt.wet_outside_zone_ha.toFixed(0)}</b> of them (${Math.round(100*tt.wet_outside_zone_ha/tt.wet_ha)}%) lie outside the mapped 1% zone. In the census tracts that water reaches, <b>${tt.claims}</b> flood-insurance claims were paid for losses dated Feb 25 – Apr 30 2010; <b>${tt.rated_out}</b> were on policies rated outside the zone, ${tt.rated_in} inside.</p>
+<p style="margin:0 0 6px"><b>[C] Claude's reading:</b> two-fifths of the flooded ground was outside the zone, but only ${Math.round(100*tt.rated_out/tt.claims)}% of the claims paid here were rated outside it. Where the water went past the map, fewer buildings were insured, or fewer stood there; this table cannot tell which.</p>
+<table><tr><th>tract</th><th>paid</th><th>in zone</th><th>outside</th><th>wet ha outside / all</th></tr>`+top.map(t=>`<tr><td>${t.name}</td><td>${t.claims}</td><td>${t.rated_in}</td><td>${t.rated_out}</td><td>${t.wet_outside_zone_ha.toFixed(0)} / ${t.wet_ha.toFixed(0)}</td></tr>`).join('')+`</table>
+<div class=lab>Counts by 2010 census tract; a tract reaches beyond the river, so its claims are not all from this reach. No address is shown or held.</div>`;
+document.getElementById('sure').innerHTML=`<b>Water:</b> the survey's 15 maps at one-foot stages, 8 to 22 ft (SIR 2018-5043). Between two maps the page draws a straight line. The maps were built on a hydraulic model calibrated to this same flood's marks, so the check above is not independent.<br><b>Changed river:</b> the maps carry the Pawtuxet Falls dam's removal (2011) and the raised levee at the Warwick plant (2014-17). Where 2010's river differed, this is not 2010.<br><b>Clock:</b> measured. The gauge peaked at ${D.peak.stage.toFixed(2)} ft, ${D.peak.t}.<br><b>Roads:</b> a road is called under when 30 m of it in a row is inside a map; overpasses were taken out of the maps by the survey. Hours for the interstate are the maps', not a report's.<br><b>Zone:</b> today's mapped 1% zone, not the map in force in 2010; a claim's zone is the one its policy was rated in.<br><b>Not here:</b> rain ponding away from the river, sewers backing up, the tributaries above the reach.`;
+document.getElementById('slider').max=LEV.length-1;
+document.getElementById('slider').oninput=e=>{fr=+e.target.value;draw()};
+function stop(){clearInterval(timer);timer=null;document.getElementById('play').textContent='Play'}
+document.getElementById('play').onclick=()=>{if(timer)return stop();document.getElementById('play').textContent='Pause';timer=setInterval(()=>{if(fr>=LEV.length-1)return stop();fr++;draw()},110)};
+const Q=new URLSearchParams(location.search);if(Q.get('f'))fr=Math.min(+Q.get('f'),LEV.length-1);draw();
+if(Q.get('z')){document.getElementById('fema').checked=true;fov.addTo(map)}
+if(Q.get('c')){document.getElementById('trc').checked=true;tl.addTo(map)}
+if(Q.get('tap')){const [la,lo]=Q.get('tap').split(',').map(Number);map.fire('click',{latlng:L.latLng(la,lo)})}
+})();
+</script></body></html>

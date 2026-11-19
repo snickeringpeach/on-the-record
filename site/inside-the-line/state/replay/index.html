@@ -1,0 +1,74 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The state fills — Inside the Line</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+@font-face{font-family:"Source Serif 4";src:url(../../fonts/source-serif-4-latin-opsz-normal.woff2) format("woff2");font-weight:200 900;font-display:swap}
+@font-face{font-family:"Public Sans";src:url(../../fonts/public-sans-latin-wght-normal.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{--ink:#13283A;--mute:#4A5A66;--rule:#C6CFCB;--hair:#DDE3E0;--bg:#F4F6F3;--paper:#FFFFFF;--water:#1F4E6B;--sound:#3B6E8F;--serif:"Source Serif 4",Georgia,serif;--sans:"Public Sans",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.4}
+main{max-width:760px;margin:0 auto;padding:12px 14px 40px}
+h1{font-family:var(--serif);font-weight:600;font-size:26px;margin:6px 0 4px}
+.label{background:var(--paper);border:1px solid var(--rule);border-left:4px solid var(--water);padding:8px 10px;font-size:13.5px;color:var(--ink);margin:8px 0}
+#map{height:46vh;min-height:300px;border:1px solid var(--rule);background:#dfe7ea}
+.ctl{display:flex;align-items:center;gap:10px;margin:10px 0 2px}
+button{font:inherit;font-weight:600;border:1px solid var(--water);background:var(--paper);color:var(--water);padding:7px 14px;border-radius:4px;min-width:64px}
+button[aria-pressed=true]{background:var(--water);color:#fff}
+#lvl{font-family:var(--serif);font-size:22px;font-weight:600;min-width:150px}
+.track{position:relative;height:66px;margin:0 6px}
+input[type=range]{width:100%;margin:0;position:absolute;top:22px;left:0;accent-color:var(--water)}
+.mk{position:absolute;top:0;font-size:11px;color:var(--mute);transform:translateX(-50%);white-space:nowrap;text-align:center}
+.mk::after{content:"";display:block;width:1px;height:8px;background:var(--mute);margin:1px auto 0}
+.mk.b{top:42px}.mk.b::after{display:none}.mk.b::before{content:"";display:block;width:1px;height:6px;background:var(--mute);margin:0 auto 1px}
+.note{font-size:12.5px;color:var(--mute);margin:2px 0 10px}
+table{width:100%;border-collapse:collapse;background:var(--paper);border:1px solid var(--rule)}
+th,td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left}td:last-child{white-space:nowrap}th{font-size:12px;color:var(--mute);font-weight:600}
+tr.t{cursor:pointer}tr.sel{background:#e6eef3}
+.bar{display:inline-block;height:8px;background:var(--sound);vertical-align:middle;margin-right:6px;border-radius:1px}
+#panel{background:var(--paper);border:1px solid var(--rule);padding:10px 12px;margin:12px 0;display:none}
+#panel h2{font-family:var(--serif);font-size:20px;margin:0 0 4px}
+#panel dl{display:grid;grid-template-columns:1fr auto;gap:3px 12px;margin:8px 0 0;font-size:14px}#panel dd{margin:0;text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+#panel svg{width:100%;height:auto;display:block;margin-top:6px}
+a{color:var(--water)}
+</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto+Mono&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/fold.css"><script defer src="/_vercel/insights/script.js"></script></head><body class="potr-itl"><div class="potr-mast"><a class="name" href="/">Providence, on the record</a><div class="tagline">Liam Freaney · reporting built on the public record</div><nav aria-label="Providence, on the record"><a href="/off-the-roll/">Off the Roll</a><a href="/housing/">Housing</a><a href="/311/">311</a><a href="/downtown-ledger/">Downtown Ledger</a><a href="/inside-the-line/" class="on" aria-current="page">Inside the Line</a><a href="/coming-up/">Coming up</a><a href="https://providenceontherecord.substack.com">Reporting</a><a href="/about/">About</a></nav></div><main>
+<h1>The state fills</h1>
+<div class="label"><b>A filling model on 10-metre ground. It ranks towns; it does not map streets.</b> A place is wet at a level if it lies below the level and the sea can reach it over ground that is also below it. No waves, no rivers in flood, no drains, no pumps. Providence's barrier is not in this ground: the water is drawn as if the gates stood open.</div>
+<div id="map"></div>
+<div class="ctl"><button id="play" aria-pressed="false">Play</button><div id="lvl"></div></div>
+<div class="track" id="track"><input id="s" type="range" min="0" max="24" step="1" value="0" aria-label="Water level, feet NAVD88"></div>
+<div class="note"><b style="color:#1F4E6B">Dark blue</b> is land the water has reached; the darkest edge is what this half foot added. Feet above NAVD88, one level for the whole coast. A real storm is not level: the marks above the bar are where Sandy (2012) and the 1938 hurricane stood at <b>Newport</b>, the marks below it at <b>Providence</b>. The water runs higher up the Bay.</div>
+<div id="panel"></div>
+<table><thead><tr><th>Town, in the order the water takes them</th><th>buildings wet</th><th>share</th></tr></thead><tbody id="list"></tbody></table>
+<p class="note">Ground: USGS 3DEP 1/3 arc-second. Buildings: Microsoft footprints, wet when the ground under the centre is wet. Storm levels: NOAA gauges (Sandy), FEMA's 2012 New England tide report (1938). Claims and policies: FEMA's flood-insurance records. Built Nov 19 2026 (B2174) from B2140's fill. Counts are the model's.</p>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const q=new URLSearchParams(location.search), $=id=>document.getElementById(id);
+let D,code,W,H,overlay,cv,ctx,img,sel=null,timer=null,layerT;
+const map=L.map('map',{zoomSnap:.25,attributionControl:true}); L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+  {maxZoom:16, attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'}).addTo(map);
+function ft(i){return D.levels[i]}
+function draw(i){const k=i+1,d=img.data; for(let p=0,n=W*H;p<n;p++){const c=code[p],o=p*4; if(c>0&&c<=k){d[o]=31;d[o+1]=78;d[o+2]=107;d[o+3]=c==k?235:185}else d[o+3]=0}
+  ctx.putImageData(img,0,0); overlay.setUrl(cv.toDataURL())}
+function list(i){const rows=Object.entries(D.towns).map(([n,t])=>[n,t.wet[i],t.wet[i]/t.n]).filter(r=>r[1]>0).sort((a,b)=>b[2]-a[2]); const mx=Math.max(.01,...rows.map(r=>r[2]));
+  $('list').innerHTML=rows.map(r=>`<tr class="t${r[0]==sel?' sel':''}" data-t="${r[0]}"><td>${r[0]}</td><td>${r[1].toLocaleString()}</td><td><span class="bar" style="width:${Math.round(34*r[2]/mx)}px"></span>${(100*r[2]).toFixed(1)}%</td></tr>`).join('')||'<tr><td colspan=3>No town has a wet building at this level.</td></tr>';
+  document.querySelectorAll('tr.t').forEach(tr=>tr.onclick=()=>pick(tr.dataset.t))}
+function panel(i){const p=$('panel'); if(!sel||!D.towns[sel]){p.style.display='none';return} const t=D.towns[sel], n=t.n, xs=D.levels, w=320,h=120,x=v=>30+(v-4)/12*(w-40),y=v=>h-18-v*(h-30), mx=Math.max(.02,t.wet[24]/n);
+  const pts=xs.map((L,j)=>x(L)+','+y(t.wet[j]/n/mx)).join(' '); const f=v=>v==null?'—':v.toLocaleString(); const link=D.links[sel]?`<p><a href="${D.links[sel]}">Hour by hour: ${sel}'s own replay</a></p>`:'';
+  p.style.display='block'; p.innerHTML=`<h2>${sel}</h2><div class="note">${n.toLocaleString()} buildings. At ${ft(i).toFixed(1)} ft the model wets <b>${t.wet[i].toLocaleString()}</b> (${(100*t.wet[i]/n).toFixed(1)}%).</div>
+  <svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Share of buildings wet by level"><line x1="30" y1="${h-18}" x2="${w-10}" y2="${h-18}" stroke="#C6CFCB"/><polyline fill="none" stroke="#1F4E6B" stroke-width="2" points="${pts}"/><circle cx="${x(ft(i))}" cy="${y(t.wet[i]/n/mx)}" r="4" fill="#1F4E6B"/><text x="30" y="${h-4}" font-size="11" fill="#4A5A66">4 ft</text><text x="${w-10}" y="${h-4}" font-size="11" fill="#4A5A66" text-anchor="end">16 ft</text><text x="30" y="11" font-size="11" fill="#4A5A66">${(100*mx).toFixed(1)}% of buildings at 16 ft</text></svg>
+  <dl><dt>Wet at Sandy's level here (model)</dt><dd>${f(t.sandy)}</dd><dt>Flood claims paid after Sandy</dt><dd>${f(t.sandy_claims)}</dd><dt>Wet at the 1938 level here (model)</dt><dd>${f(t.h1938)}</dd><dt>Wet at FEMA's 1% level (model)</dt><dd>${f(t.fema)}</dd><dt>Flood claims, 2010</dt><dd>${f(t.c2010)}</dd><dt>Flood policies in force, 2010 → 2024</dt><dd>${f(t.p2010)} → ${f(t.p2024)}</dd></dl>
+  <div class="note">A count beside a count: buildings the model wets, and policies and claims on FEMA's books. They are not the same buildings.</div>${link}`}
+function pick(n){sel=sel==n?null:n; go(+$('s').value); if(sel){layerT.eachLayer(l=>{if(l.feature.properties.town==sel)map.fitBounds(l.getBounds(),{padding:[20,20]})}); if(!q.get('noscroll'))$('panel').scrollIntoView({block:'nearest'})}}
+function go(i){$('s').value=i; $('lvl').textContent=ft(i).toFixed(1)+' ft'; draw(i); list(i); panel(i); layerT&&layerT.setStyle(f=>({color:f.properties.town==sel?'#13283A':'#6b7b86',weight:f.properties.town==sel?2.5:.8,fill:true,fillOpacity:0}))}
+function marks(){const tr=$('track'); const pos=v=>(Math.min(16,Math.max(4,v))-4)/12*100; const nm={'Sandy 2012':'Sandy','1938 hurricane':'1938'};
+  for(const k in nm){const m=D.marks[k]; tr.insertAdjacentHTML('beforeend',`<span class="mk" style="left:${pos(m.newport)}%">${nm[k]} ${m.newport.toFixed(1)}</span><span class="mk b" style="left:${pos(m.providence)}%${m.providence>=15?';transform:translateX(-92%)':''}">${nm[k]} ${m.providence.toFixed(1)}${m.providence>16?' (off the bar)':''}</span>`)}}
+Promise.all([fetch('data.json').then(r=>r.json()),fetch('../towns.geojson').then(r=>r.json()),new Promise(res=>{const im=new Image();im.onload=()=>res(im);im.src='fw.png'})]).then(([d,tj,im])=>{D=d;W=im.width;H=im.height;
+  const c0=document.createElement('canvas');c0.width=W;c0.height=H;const x0=c0.getContext('2d');x0.drawImage(im,0,0);const px=x0.getImageData(0,0,W,H).data;code=new Uint8Array(W*H);for(let p=0;p<W*H;p++)code[p]=px[p*4];
+  cv=document.createElement('canvas');cv.width=W;cv.height=H;ctx=cv.getContext('2d');img=ctx.createImageData(W,H);
+  const b=D.bounds,bb=[[b.s,b.w],[b.n,b.e]]; overlay=L.imageOverlay(cv.toDataURL(),bb,{opacity:1}).addTo(map);
+  layerT=L.geoJSON(tj,{onEachFeature:(f,l)=>l.on('click',()=>pick(f.properties.town))}).addTo(map); map.fitBounds(layerT.getBounds());
+  marks(); const t0=q.get('town'); let i0=D.levels.indexOf(+q.get('level')); go(i0<0?0:i0); if(t0&&D.towns[t0])pick(t0);
+  $('s').oninput=e=>go(+e.target.value);
+  $('play').onclick=()=>{const on=!timer; $('play').setAttribute('aria-pressed',on); $('play').textContent=on?'Pause':'Play'; if(on){if(+$('s').value>=24)go(0); timer=setInterval(()=>{const v=+$('s').value; if(v>=24){clearInterval(timer);timer=null;$('play').setAttribute('aria-pressed',false);$('play').textContent='Play'}else go(v+1)},700)}else{clearInterval(timer);timer=null}}; if(q.get('play'))$('play').click()});
+</script></body></html>
