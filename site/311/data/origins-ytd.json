@@ -6,11 +6,11 @@
   },
   {
    "label": "Trash or Recycling Bins or Carts",
-   "count": 2585
+   "count": 2590
   },
   {
    "label": "Missed Trash Day Pick-up Issue",
-   "count": 1742
+   "count": 1749
   },
   {
    "label": "Pothole Report",
@@ -28,27 +28,27 @@
  "origins_ytd": [
   {
    "label": "Web",
-   "count": 15302
+   "count": 15313
   },
   {
    "label": "Phone",
-   "count": 4799
+   "count": 4815
   },
   {
    "label": null,
-   "count": 1171
+   "count": 1173
   },
   {
    "label": "Guest Support",
-   "count": 1162
+   "count": 1166
   },
   {
    "label": "Office Visit",
-   "count": 223
+   "count": 224
   },
   {
    "label": "Email",
-   "count": 132
+   "count": 136
   }
  ]
 }
